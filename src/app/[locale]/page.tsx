@@ -59,15 +59,15 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div className="md:col-span-5">
-          <div className="relative w-full max-w-[400px] aspect-[4/5] overflow-hidden rounded-md border border-border">
+        <div className="md:col-span-5 flex justify-center md:justify-end">
+          <div className="relative w-full max-w-[400px] aspect-square">
             <Image
-              src="/images/hero/portrait.jpg"
+              src="/images/hero/portrait.png"
               alt="Eduard Fischer-Szava — portrait"
               fill
               priority
               sizes="(min-width: 768px) 400px, 100vw"
-              className="object-cover"
+              className="object-contain"
             />
           </div>
         </div>
