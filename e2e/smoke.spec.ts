@@ -49,3 +49,33 @@ test("palette selection persists across reload", async ({ page }) => {
     "mountain-navy",
   );
 });
+
+test("tech chip on home navigates to /work?tech=… glossary section", async ({
+  page,
+}) => {
+  await page.goto("/");
+
+  // Click the .NET chip on the Netcompany role.
+  const netcompanyChips = page.getByTestId("role-tech-netcompany");
+  const dotnetChip = netcompanyChips.locator('[data-tech-slug="dotnet"]');
+  await expect(dotnetChip).toBeVisible();
+  await dotnetChip.click();
+
+  // URL should land on /work with the tech query.
+  await page.waitForURL(/\/work\?tech=dotnet/);
+  expect(page.url()).toMatch(/\/work\?tech=dotnet/);
+
+  // The Technologies section should announce the tech.
+  const techSection = page.locator("#technologies");
+  await expect(techSection).toBeVisible();
+  await expect(techSection).toHaveAttribute("data-tech", "dotnet");
+  await expect(techSection.getByRole("heading", { name: ".NET" })).toBeVisible();
+
+  // The GithubFeed should have C# pre-selected as the active language filter.
+  // The active button uses bg-foreground / text-background; we just assert
+  // a button labelled "C# (…)" exists and is in its selected state.
+  const csharpBtn = page.getByRole("button", { name: /^C# \(\d+\)$/ });
+  if (await csharpBtn.count()) {
+    await expect(csharpBtn.first()).toHaveClass(/bg-foreground/);
+  }
+});

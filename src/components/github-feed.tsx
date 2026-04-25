@@ -25,9 +25,19 @@ function formatDate(iso: string) {
   return d.toLocaleDateString("en-GB", { year: "numeric", month: "short" });
 }
 
-export function GithubFeed({ repos }: { repos: Repo[] }) {
+export function GithubFeed({
+  repos,
+  initialLanguage = null,
+}: {
+  repos: Repo[];
+  /**
+   * Pre-select a language filter on first render. Only takes effect if at
+   * least one repo actually has that language; otherwise the feed starts
+   * unfiltered. Clicking "All" resets to null regardless.
+   */
+  initialLanguage?: string | null;
+}) {
   const [query, setQuery] = useState("");
-  const [language, setLanguage] = useState<string | null>(null);
 
   const languages = useMemo(() => {
     const counts = new Map<string, number>();
@@ -36,6 +46,14 @@ export function GithubFeed({ repos }: { repos: Repo[] }) {
     }
     return [...counts.entries()].sort((a, b) => b[1] - a[1]);
   }, [repos]);
+
+  const [language, setLanguage] = useState<string | null>(() => {
+    if (!initialLanguage) return null;
+    // Only honour the prop if it's actually present in the repo list.
+    return repos.some((r) => r.language === initialLanguage)
+      ? initialLanguage
+      : null;
+  });
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();

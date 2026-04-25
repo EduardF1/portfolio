@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { findTech } from "@/lib/tech";
 
 export default async function Home({
   params,
@@ -105,7 +106,15 @@ function About() {
 
 function Experience() {
   const t = useTranslations("home");
-  const roles = [
+  const roles: Array<{
+    company: string;
+    url: string;
+    role: string;
+    period: string;
+    location: string;
+    summary: string;
+    tech: string[];
+  }> = [
     {
       company: "Netcompany",
       url: "https://www.netcompany.com/",
@@ -114,6 +123,7 @@ function Experience() {
       location: "Aarhus, Denmark",
       summary:
         "KOMBIT VALG — Denmark's administrative election platform. Full-stack C#/.NET + Angular.",
+      tech: ["csharp", "dotnet", "angular", "mssql", "azure-devops"],
     },
     {
       company: "Greenbyte",
@@ -123,6 +133,7 @@ function Experience() {
       location: "Horsens, Denmark",
       summary:
         "Renewable-energy SaaS. .NET Core + EF Core + React. Architect and lead developer of the Flutter mobile companion app.",
+      tech: ["dotnet", "react", "flutter", "dart"],
     },
     {
       company: "Boozt Fashion",
@@ -132,6 +143,7 @@ function Experience() {
       location: "Malmö, Sweden",
       summary:
         "Large-scale e-commerce backend in PHP/Symfony. Introduced Kanban; quality and test automation focus.",
+      tech: ["php", "symfony", "mysql"],
     },
     {
       company: "Systematic",
@@ -141,6 +153,7 @@ function Experience() {
       location: "Aarhus, Denmark",
       summary:
         "Mission-critical SitaWare suite (Frontline, Edge). Java + Angular. NATO interoperability.",
+      tech: ["java", "angular", "junit"],
     },
   ];
 
@@ -183,6 +196,31 @@ function Experience() {
                   {r.period}
                 </p>
                 <p className="col-span-2 mt-2 max-w-prose">{r.summary}</p>
+                {r.tech.length > 0 && (
+                  <div
+                    className="col-span-2 mt-2 flex flex-wrap gap-2"
+                    data-testid={`role-tech-${r.company.toLowerCase().replace(/\s+/g, "-")}`}
+                  >
+                    {r.tech.map((slug) => {
+                      const tech = findTech(slug);
+                      if (!tech) return null;
+                      return (
+                        <Link
+                          key={slug}
+                          href={{
+                            pathname: "/work",
+                            query: { tech: slug },
+                            hash: "technologies",
+                          }}
+                          data-tech-slug={slug}
+                          className="inline-flex items-center gap-1.5 rounded-full border border-border px-3 py-1 text-xs text-foreground-muted hover:border-accent hover:text-accent transition-colors"
+                        >
+                          {tech.name}
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
               </li>
             ))}
           </ol>

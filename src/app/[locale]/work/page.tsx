@@ -2,6 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { GithubFeed } from "@/components/github-feed";
 import { getRepos } from "@/lib/github";
+import { findTech } from "@/lib/tech";
 
 export const metadata = { title: "Work" };
 
@@ -40,7 +41,13 @@ const selected = [
   },
 ];
 
-export default async function WorkPage() {
+export default async function WorkPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ tech?: string }>;
+}) {
+  const { tech: techSlug } = await searchParams;
+  const tech = techSlug ? findTech(techSlug) : null;
   const repos = await getRepos();
 
   return (
@@ -97,6 +104,53 @@ export default async function WorkPage() {
         </ul>
       </section>
 
+      <section
+        id="technologies"
+        data-tech={tech?.slug ?? ""}
+        className="container-page py-12 scroll-mt-24"
+      >
+        <div className="flex items-end justify-between mb-8">
+          <div>
+            <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
+              Technologies
+            </p>
+            <h2 className="mt-2">
+              {tech ? tech.name : "Pick a technology"}
+            </h2>
+          </div>
+        </div>
+        {tech ? (
+          <div className="max-w-2xl">
+            <p className="text-lg">{tech.description}</p>
+            <div className="mt-6 flex flex-wrap items-center gap-4">
+              <a
+                href={tech.docsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-sm text-foreground-muted hover:text-accent"
+              >
+                Official docs <ArrowUpRight className="h-4 w-4" />
+              </a>
+              <Link
+                href="/work"
+                className="inline-flex items-center gap-1.5 rounded-full border border-border px-3 py-1 text-xs text-foreground-muted hover:border-accent hover:text-accent transition-colors"
+              >
+                Clear filter
+              </Link>
+            </div>
+          </div>
+        ) : (
+          <p className="max-w-2xl text-foreground-muted">
+            Click a technology chip on the{" "}
+            <Link href="/" className="underline hover:text-accent">
+              home page
+            </Link>{" "}
+            to see its description here and pre-filter the repository feed
+            below.
+          </p>
+        )}
+      </section>
+
       <section className="container-page py-12 pb-24">
         <div className="flex items-end justify-between mb-8">
           <div>
@@ -109,7 +163,10 @@ export default async function WorkPage() {
           </div>
         </div>
         {repos.length > 0 ? (
-          <GithubFeed repos={repos} />
+          <GithubFeed
+            repos={repos}
+            initialLanguage={tech?.ghLanguage ?? null}
+          />
         ) : (
           <div className="rounded-lg border border-dashed border-border p-12 text-center">
             <p className="text-foreground-subtle">
