@@ -1,4 +1,5 @@
 import { ArrowUpRight, Download } from "lucide-react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
@@ -25,34 +26,50 @@ function Hero() {
   const t = useTranslations();
   return (
     <section className="container-page pt-24 md:pt-32 pb-20">
-      <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
-        {t("common.available")}
-      </p>
-      <h1 className="max-w-4xl">
-        {t.rich("home.hero", {
-          em: (chunks) => (
-            <em className="text-accent not-italic">{chunks}</em>
-          ),
-        })}
-      </h1>
-      <p className="mt-8 max-w-2xl text-lg">{t("home.heroSubtitle")}</p>
+      <div className="grid gap-12 md:grid-cols-12 md:items-center">
+        <div className="md:col-span-7">
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
+            {t("common.available")}
+          </p>
+          <h1 className="max-w-4xl">
+            {t.rich("home.hero", {
+              em: (chunks) => (
+                <em className="text-accent not-italic">{chunks}</em>
+              ),
+            })}
+          </h1>
+          <p className="mt-8 max-w-2xl text-lg">{t("home.heroSubtitle")}</p>
 
-      <div className="mt-10 flex flex-wrap items-center gap-4">
-        <Link
-          href="/work"
-          className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
-        >
-          {t("common.seeWork")}
-          <ArrowUpRight className="h-4 w-4" />
-        </Link>
-        <a
-          href="/cv/Eduard_Fischer-Szava_CV_EN.pdf"
-          className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium hover:border-accent hover:text-accent"
-          download
-        >
-          <Download className="h-4 w-4" />
-          {t("common.downloadCv")}
-        </a>
+          <div className="mt-10 flex flex-wrap items-center gap-4">
+            <Link
+              href="/work"
+              className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
+            >
+              {t("common.seeWork")}
+              <ArrowUpRight className="h-4 w-4" />
+            </Link>
+            <a
+              href="/cv/Eduard_Fischer-Szava_CV_EN.pdf"
+              className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium hover:border-accent hover:text-accent"
+              download
+            >
+              <Download className="h-4 w-4" />
+              {t("common.downloadCv")}
+            </a>
+          </div>
+        </div>
+        <div className="md:col-span-5">
+          <div className="relative w-full max-w-[400px] aspect-[4/5] overflow-hidden rounded-md border border-border">
+            <Image
+              src="/images/hero/portrait.jpg"
+              alt="Eduard Fischer-Szava — portrait"
+              fill
+              priority
+              sizes="(min-width: 768px) 400px, 100vw"
+              className="object-cover"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
@@ -91,6 +108,7 @@ function Experience() {
   const roles = [
     {
       company: "Netcompany",
+      url: "https://www.netcompany.com/",
       role: "IT Consultant",
       period: "Oct 2024 — Present",
       location: "Aarhus, Denmark",
@@ -99,6 +117,7 @@ function Experience() {
     },
     {
       company: "Greenbyte",
+      url: "https://www.greenbyte.com/",
       role: "Software Engineer",
       period: "Nov 2021 — Sep 2024",
       location: "Horsens, Denmark",
@@ -107,6 +126,7 @@ function Experience() {
     },
     {
       company: "Boozt Fashion",
+      url: "https://www.booztgroup.com/",
       role: "System Engineer",
       period: "Oct 2021 — May 2022",
       location: "Malmö, Sweden",
@@ -115,6 +135,7 @@ function Experience() {
     },
     {
       company: "Systematic",
+      url: "https://systematic.com/",
       role: "Junior Systems Engineer",
       period: "Feb 2021 — Jun 2021",
       location: "Aarhus, Denmark",
@@ -133,16 +154,29 @@ function Experience() {
             </p>
             <h2 className="mt-4">{t("experienceHeading")}</h2>
           </div>
-          <ol className="md:col-span-8 space-y-10">
+          <ol className="md:col-span-8 relative border-l border-border space-y-10 pl-8">
             {roles.map((r) => (
               <li
                 key={r.company}
-                className="grid grid-cols-[1fr_auto] gap-x-6 gap-y-2 border-t border-border/60 pt-6"
+                className="relative grid grid-cols-[1fr_auto] gap-x-6 gap-y-2"
               >
+                <span
+                  aria-hidden="true"
+                  className="absolute -left-[37px] top-2 h-[10px] w-[10px] rounded-full border-2 border-accent bg-background"
+                />
                 <div>
                   <h3 className="text-xl">{r.role}</h3>
                   <p className="mt-1 text-foreground">
-                    {r.company} · {r.location}
+                    <a
+                      href={r.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition-colors hover:text-accent"
+                    >
+                      {r.company}
+                    </a>
+                    {" · "}
+                    {r.location}
                   </p>
                 </div>
                 <p className="font-mono text-xs text-foreground-subtle text-right">
