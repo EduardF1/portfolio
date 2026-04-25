@@ -17,7 +17,7 @@ export const PALETTES: readonly Palette[] = [
   "woodsy-cabin",
 ] as const;
 
-export const DEFAULT_PALETTE: Palette = "schwarzgelb";
+export const DEFAULT_PALETTE: Palette = "mountain-navy";
 const STORAGE_KEY = "palette";
 
 function isPalette(value: unknown): value is Palette {

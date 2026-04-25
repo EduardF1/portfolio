@@ -9,17 +9,17 @@
   --radius-md: 0.5rem;
   --radius-lg: 0.75rem;
 
-  /* Default color tokens — schwarzgelb LIGHT (so first paint pre-hydration matches the default). */
-  --color-background: #F6F3EA;
-  --color-surface: #EBE5D5;
-  --color-surface-strong: #DDD4BC;
-  --color-foreground: #1F2A2C;
-  --color-foreground-muted: #5C6663;
-  --color-foreground-subtle: #8A8F8A;
-  --color-accent: #B89968;
-  --color-accent-soft: #E5D4B5;
-  --color-border: #D7D0BD;
-  --color-ring: #B89968;
+  /* Default color tokens — mountain-navy LIGHT (so first paint pre-hydration matches the default). */
+  --color-background: #F4F7F9;
+  --color-surface: #E2E8F0;
+  --color-surface-strong: #CBD5E1;
+  --color-foreground: #0F172A;
+  --color-foreground-muted: #475569;
+  --color-foreground-subtle: #64748B;
+  --color-accent: #0891B2;
+  --color-accent-soft: #CFFAFE;
+  --color-border: #CBD5E1;
+  --color-ring: #0891B2;
 }
 
 @variant dark (&:where(.dark, .dark *));
