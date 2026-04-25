@@ -30,7 +30,13 @@
     "experienceKicker": "Experience",
     "experienceHeading": "Three years across four companies.",
     "selectedKicker": "Selected work",
-    "selectedHeading": "Things I've helped build."
+    "selectedHeading": "Things I've helped build.",
+    "stats": {
+      "years": "Years coding",
+      "languages": "Languages",
+      "projects": "Major projects shipped",
+      "countries": "Countries visited"
+    }
   },
   "work": {
     "kicker": "Work",
