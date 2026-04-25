@@ -45,3 +45,11 @@ create-next-app.log
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# test outputs
+/playwright-report
+/test-results
+/coverage
+
+# downloaded design refs (local only)
+.refs/
