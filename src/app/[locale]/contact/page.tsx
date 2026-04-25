@@ -1,17 +1,19 @@
 import { Mail } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 import { ContactForm } from "./contact-form";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
+import { SectionHeading } from "@/components/section-heading";
 
 export const metadata = { title: "Contact" };
 
-export default function ContactPage() {
+export default async function ContactPage() {
+  const tt = await getTranslations("tooltips");
   return (
     <section className="container-page py-24 md:py-28 grid gap-12 md:grid-cols-12">
       <div className="md:col-span-5">
-        <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
-          Contact
-        </p>
-        <h1>Let&apos;s talk.</h1>
+        <SectionHeading level="h1" kicker="Contact" tooltip={tt("contact")}>
+          Let&apos;s talk.
+        </SectionHeading>
         <p className="mt-6 text-lg">
           Recruiters, fellow engineers, fellow consultants — drop a line. I read
           everything and reply within a few days.

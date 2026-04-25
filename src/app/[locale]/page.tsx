@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { SectionHeading } from "@/components/section-heading";
 import { findTech } from "@/lib/tech";
 
 export default async function Home({
@@ -105,7 +106,7 @@ function About() {
 }
 
 function Experience() {
-  const t = useTranslations("home");
+  const t = useTranslations();
   const roles: Array<{
     company: string;
     url: string;
@@ -162,10 +163,12 @@ function Experience() {
       <div className="container-page py-20 md:py-28">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-4">
-            <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-              {t("experienceKicker")}
-            </p>
-            <h2 className="mt-4">{t("experienceHeading")}</h2>
+            <SectionHeading
+              kicker={t("home.experienceKicker")}
+              tooltip={t("tooltips.experience")}
+            >
+              {t("home.experienceHeading")}
+            </SectionHeading>
           </div>
           <ol className="md:col-span-8 relative border-l border-border space-y-10 pl-8">
             {roles.map((r) => (
@@ -265,12 +268,12 @@ function FeaturedWork() {
     <section className="border-t border-border/60">
       <div className="container-page py-20 md:py-28">
         <div className="flex items-end justify-between mb-12">
-          <div>
-            <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-              {t("home.selectedKicker")}
-            </p>
-            <h2 className="mt-4">{t("home.selectedHeading")}</h2>
-          </div>
+          <SectionHeading
+            kicker={t("home.selectedKicker")}
+            tooltip={t("tooltips.selectedWork")}
+          >
+            {t("home.selectedHeading")}
+          </SectionHeading>
           <Link
             href="/work"
             className="hidden md:inline-flex items-center gap-1 text-sm hover:text-accent"

@@ -115,5 +115,17 @@
       "successBody": "Jeg svarer inden for få dage. Hører du intet, kan du skrive direkte til {email}.",
       "errorGeneric": "Noget gik galt. Prøv igen eller skriv direkte."
     }
+  },
+  "tooltips": {
+    "about": "Hvem jeg er som konsulent — værdier, arbejdsstil og den slags opgaver, der passer mig bedst.",
+    "experience": "Tre år på tværs af fire virksomheder, nuværende rolle først. Klik på firmanavnene for at besøge deres hjemmesider.",
+    "selectedWork": "Udvalgte casestudier fra forretningskritiske systemer, jeg har været med til at bygge.",
+    "openSource": "Live-feed af alle offentlige repositories, jeg har sendt — hentet direkte fra GitHub.",
+    "technologies": "Beskrivelse af en enkelt teknologi og et forfiltreret udsnit af open source-feedet nedenfor.",
+    "writingPosts": "Korte essays fra praksis — udvikling, konsulentarbejde og det midt imellem.",
+    "writingArticles": "Akademiske artikler fra min cand.scient.techn. i Technology-Based Business Development på Aarhus Universitet.",
+    "recommends": "En lille, ærlig samling af ting, jeg ville købe igen — med begrundelsen, ikke bare linket.",
+    "travel": "Ture, steder og billeder. Den ikke-tekniske side af hjernen.",
+    "contact": "Skriv endelig — jeg læser alt og svarer inden for få dage."
   }
 }
