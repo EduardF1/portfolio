@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "work": "Arbejde",
+    "writing": "Tekster",
+    "recommends": "Anbefalinger",
+    "personal": "Personligt",
+    "contact": "Kontakt",
+    "switchLanguage": "Skift sprog",
+    "switchToDanish": "Skift til dansk",
+    "switchToEnglish": "Skift til engelsk",
+    "toggleTheme": "Skift tema"
+  },
+  "common": {
+    "downloadCv": "Download CV",
+    "seeWork": "Se udvalgt arbejde",
+    "allWork": "Alt arbejde",
+    "readCaseStudy": "Læs casen",
+    "comingSoon": "Pladsholder · Indhold kommer snart",
+    "back": "Tilbage",
+    "available": "Aarhus, Danmark · Åben for nye muligheder"
+  },
+  "footer": {
+    "rights": "Aarhus, Danmark"
+  },
+  "home": {
+    "hero": "Softwareingeniør, der bygger <em>stabile, forretningskritiske systemer</em>.",
+    "heroSubtitle": "Jeg er Eduard — IT-konsulent hos Netcompany på KOMBIT VALG, Danmarks administrative valgplatform. Rolig under kompleksitet, omhyggelig med kvaliteten og motiveret af langsigtede løsninger.",
+    "aboutKicker": "Om mig",
+    "experienceKicker": "Erfaring",
+    "experienceHeading": "Tre år på tværs af fire virksomheder.",
+    "selectedKicker": "Udvalgt arbejde",
+    "selectedHeading": "Noget af det, jeg har været med til at bygge."
+  },
+  "work": {
+    "kicker": "Arbejde",
+    "heading": "Udvalgt arbejde og open source-projekter.",
+    "description": "Udvalgte casestudier af forretningskritiske systemer, jeg har været med til at bygge, sammen med et live-feed af alle offentlige repositories, hvor jeg har lært i det åbne.",
+    "selected": "Udvalgt",
+    "caseStudies": "{count, plural, one {# case} other {# cases}}",
+    "openSourceHeading": "Open source & læring i det åbne",
+    "openSourceLead": "{count} offentlige repositories fra {years}+ års sideprojekter, studieopgaver og weekendeksperimenter — hentet direkte fra GitHub.",
+    "feedShown": "{shown} af {total} vist",
+    "search": "Søg repositories…",
+    "all": "Alle",
+    "noMatches": "Ingen repositories matcher filtrene."
+  },
+  "writing": {
+    "kicker": "Tekster",
+    "heading": "Noter fra praksis — og fra studietiden.",
+    "description": "Korte essays om udvikling og konsulentarbejde, samt akademiske artikler fra min cand.scient.techn. i Technology-Based Business Development.",
+    "posts": "Indlæg",
+    "articles": "Artikler",
+    "articlesLead": "Akademiske tekster fra min kandidatuddannelse på Aarhus Universitet.",
+    "postCount": "{count, plural, one {# indlæg} other {# indlæg}}",
+    "articleCount": "{count, plural, one {# artikel} other {# artikler}}",
+    "noPosts": "Ingen indlæg endnu.",
+    "noArticles": "Ingen artikler offentliggjort endnu.",
+    "all": "Alle tekster"
+  },
+  "recommends": {
+    "kicker": "Anbefalinger",
+    "heading": "Ting, jeg har brugt og ville købe igen.",
+    "description": "En lille, ærlig samling af produkter, værktøjer og bøger, jeg vender tilbage til — med begrundelsen, ikke bare linket.",
+    "noItems": "Ingen anbefalinger endnu.",
+    "reviewed": "Anmeldt {date}",
+    "visit": "Besøg produktet",
+    "all": "Alle anbefalinger"
+  },
+  "personal": {
+    "kicker": "Uden for arbejdstiden",
+    "heading": "Det, jeg laver, når jeg ikke sidder ved tastaturet.",
+    "description": "BVB om lørdagen, åben vej i weekenden, og den langsomme samling af lande på et vægkort. Den professionelle halvdel er den nemme halvdel — denne her er lidt mere ærlig."
+  },
+  "contact": {
+    "kicker": "Kontakt",
+    "heading": "Lad os tale sammen.",
+    "description": "Rekrutterere, kolleger og medkonsulenter — skriv endelig. Jeg læser alt og svarer inden for få dage.",
+    "form": {
+      "name": "Dit navn",
+      "email": "E-mail",
+      "subject": "Emne",
+      "subjectHint": "Valgfrit",
+      "message": "Besked",
+      "submit": "Send besked",
+      "sending": "Sender…",
+      "successTitle": "Tak — modtaget.",
+      "successBody": "Jeg svarer inden for få dage. Hører du intet, kan du skrive direkte til {email}.",
+      "errorGeneric": "Noget gik galt. Prøv igen eller skriv direkte."
+    }
+  }
+}

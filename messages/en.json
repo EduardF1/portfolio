@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "work": "Work",
+    "writing": "Writing",
+    "recommends": "Recommends",
+    "personal": "Personal",
+    "contact": "Contact",
+    "switchLanguage": "Switch language",
+    "switchToDanish": "Switch to Danish",
+    "switchToEnglish": "Switch to English",
+    "toggleTheme": "Toggle theme"
+  },
+  "common": {
+    "downloadCv": "Download CV",
+    "seeWork": "See selected work",
+    "allWork": "All work",
+    "readCaseStudy": "Read the case study",
+    "comingSoon": "Placeholder · Content arriving soon",
+    "back": "Back",
+    "available": "Aarhus, Denmark · Available for new opportunities"
+  },
+  "footer": {
+    "rights": "Aarhus, Denmark"
+  },
+  "home": {
+    "hero": "Software Engineer building <em>stable, business-critical systems</em>.",
+    "heroSubtitle": "I'm Eduard — an IT Consultant at Netcompany working on KOMBIT VALG, Denmark's administrative election platform. Calm under complexity, meticulous about quality, and motivated by long-term solutions.",
+    "aboutKicker": "About",
+    "experienceKicker": "Experience",
+    "experienceHeading": "Three years across four companies.",
+    "selectedKicker": "Selected work",
+    "selectedHeading": "Things I've helped build."
+  },
+  "work": {
+    "kicker": "Work",
+    "heading": "Selected work and open-source explorations.",
+    "description": "Hand-picked case studies of business-critical systems I've helped build, alongside a live feed of every public repo where I've been learning out loud.",
+    "selected": "Selected",
+    "caseStudies": "{count, plural, one {# case study} other {# case studies}}",
+    "openSourceHeading": "Open source & learning in public",
+    "openSourceLead": "{count} public repositories from {years}+ years of side-projects, course work, and weekend experiments — auto-pulled from GitHub.",
+    "feedShown": "{shown} of {total} shown",
+    "search": "Search repos…",
+    "all": "All",
+    "noMatches": "No repos match those filters."
+  },
+  "writing": {
+    "kicker": "Writing",
+    "heading": "Notes from practice — and from the master's bench.",
+    "description": "Short essays on engineering and consulting, plus academic articles from my MSc in Technology-Based Business Development.",
+    "posts": "Posts",
+    "articles": "Articles",
+    "articlesLead": "Academic writing from my master's programme at Aarhus University.",
+    "postCount": "{count, plural, one {# post} other {# posts}}",
+    "articleCount": "{count, plural, one {# article} other {# articles}}",
+    "noPosts": "No posts yet.",
+    "noArticles": "No articles published yet.",
+    "all": "All writing"
+  },
+  "recommends": {
+    "kicker": "Recommends",
+    "heading": "Things I've used and would buy again.",
+    "description": "A small, honest collection of products, tools, and books I keep coming back to — with the reasoning, not just the link.",
+    "noItems": "No recommendations yet.",
+    "reviewed": "Reviewed {date}",
+    "visit": "Visit product",
+    "all": "All recommendations"
+  },
+  "personal": {
+    "kicker": "Off the clock",
+    "heading": "What I do when I'm not at the keyboard.",
+    "description": "BVB on Saturdays, the open road on weekends, and the slow accumulation of countries on a wall map. The professional half is the easy half — this one's a bit more honest."
+  },
+  "contact": {
+    "kicker": "Contact",
+    "heading": "Let's talk.",
+    "description": "Recruiters, fellow engineers, fellow consultants — drop a line. I read everything and reply within a few days.",
+    "form": {
+      "name": "Your name",
+      "email": "Email",
+      "subject": "Subject",
+      "subjectHint": "Optional",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "successTitle": "Thanks — got it.",
+      "successBody": "I'll reply within a few days. If you don't hear back, my email is {email}.",
+      "errorGeneric": "Something went wrong. Please try again or email directly."
+    }
+  }
+}
