@@ -30,7 +30,13 @@
     "experienceKicker": "Erfaring",
     "experienceHeading": "Tre år på tværs af fire virksomheder.",
     "selectedKicker": "Udvalgt arbejde",
-    "selectedHeading": "Noget af det, jeg har været med til at bygge."
+    "selectedHeading": "Noget af det, jeg har været med til at bygge.",
+    "stats": {
+      "years": "År med kodning",
+      "languages": "Sprog",
+      "projects": "Større projekter leveret",
+      "countries": "Lande besøgt"
+    }
   },
   "work": {
     "kicker": "Arbejde",
