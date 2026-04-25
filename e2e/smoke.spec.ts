@@ -39,3 +39,13 @@ test("contact form rejects empty submission", async ({ page }) => {
   // HTML5 validation prevents submission; form remains visible.
   await expect(page.getByLabel(/Your name/)).toBeVisible();
 });
+
+test("palette selection persists across reload", async ({ page }) => {
+  await page.goto("/");
+  await page.getByTestId("palette-selector").selectOption("mountain-navy");
+  await page.reload();
+  await expect(page.locator("html")).toHaveAttribute(
+    "data-palette",
+    "mountain-navy",
+  );
+});
