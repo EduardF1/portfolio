@@ -20,15 +20,15 @@ describe("<PaletteProvider />", () => {
     document.documentElement.removeAttribute("data-palette");
   });
 
-  it("defaults to schwarzgelb when no palette is stored", async () => {
+  it("defaults to mountain-navy when no palette is stored", async () => {
     render(
       <PaletteProvider>
         <Probe />
       </PaletteProvider>,
     );
-    expect(screen.getByTestId("current").textContent).toBe("schwarzgelb");
+    expect(screen.getByTestId("current").textContent).toBe("mountain-navy");
     // After mount effect runs, the attribute is set explicitly to the default.
-    expect(document.documentElement.dataset.palette).toBe("schwarzgelb");
+    expect(document.documentElement.dataset.palette).toBe("mountain-navy");
   });
 
   it("applies a stored palette on mount", () => {
@@ -55,14 +55,14 @@ describe("<PaletteProvider />", () => {
     expect(document.documentElement.dataset.palette).toBe("mountain-navy");
   });
 
-  it("ignores invalid stored palettes and falls back to schwarzgelb", () => {
+  it("ignores invalid stored palettes and falls back to mountain-navy", () => {
     window.localStorage.setItem("palette", "not-a-real-palette");
     render(
       <PaletteProvider>
         <Probe />
       </PaletteProvider>,
     );
-    expect(screen.getByTestId("current").textContent).toBe("schwarzgelb");
-    expect(document.documentElement.dataset.palette).toBe("schwarzgelb");
+    expect(screen.getByTestId("current").textContent).toBe("mountain-navy");
+    expect(document.documentElement.dataset.palette).toBe("mountain-navy");
   });
 });
