@@ -4,6 +4,8 @@ import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/section-heading";
+import { StatsRow } from "@/components/stats-row";
+import { Skills } from "@/components/skills";
 import { findTech } from "@/lib/tech";
 
 export default async function Home({
@@ -18,7 +20,13 @@ export default async function Home({
     <>
       <Hero />
       <About />
+      <section className="border-t border-border/60">
+        <div className="container-page py-16 md:py-20">
+          <StatsRow />
+        </div>
+      </section>
       <Experience />
+      <Skills />
       <FeaturedWork />
     </>
   );
