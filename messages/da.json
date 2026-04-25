@@ -38,6 +38,19 @@
       "countries": "Lande besøgt"
     }
   },
+  "skills": {
+    "kicker": "Arbejder med",
+    "heading": "Værktøjer og sprog, jeg har leveret med.",
+    "description": "Hentet fra CV'et — backend-tung full-stack med dybdedyk i mobil og værktøj. Klik et logo for at åbne dokumentationen.",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "mobile": "Mobil",
+      "data": "Data",
+      "testing": "Kvalitet",
+      "ops": "Drift"
+    }
+  },
   "work": {
     "kicker": "Arbejde",
     "heading": "Udvalgt arbejde og open source-projekter.",

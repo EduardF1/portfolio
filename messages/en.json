@@ -38,6 +38,19 @@
       "countries": "Countries visited"
     }
   },
+  "skills": {
+    "kicker": "Working with",
+    "heading": "Tools and languages I've shipped with.",
+    "description": "Curated from the CV — backend-leaning full-stack with deep-water dives into mobile and tooling. Click any logo for the official docs.",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "mobile": "Mobile",
+      "data": "Data",
+      "testing": "Quality",
+      "ops": "Operations"
+    }
+  },
   "work": {
     "kicker": "Work",
     "heading": "Selected work and open-source explorations.",
