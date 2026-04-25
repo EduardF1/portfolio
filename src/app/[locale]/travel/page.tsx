@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { SectionHeading } from "@/components/section-heading";
 import { getCollection } from "@/lib/content";
 import { formatDate } from "@/lib/format";
 
@@ -14,15 +15,20 @@ export default async function TravelPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("travel");
+  const tt = await getTranslations("tooltips");
   const trips = await getCollection("travel");
 
   return (
     <>
       <section className="container-page pt-24 md:pt-28 pb-12">
-        <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
-          {t("kicker")}
-        </p>
-        <h1 className="max-w-3xl">{t("heading")}</h1>
+        <SectionHeading
+          level="h1"
+          kicker={t("kicker")}
+          tooltip={tt("travel")}
+          headingClassName="max-w-3xl"
+        >
+          {t("heading")}
+        </SectionHeading>
         <p className="mt-6 max-w-2xl text-lg">{t("description")}</p>
       </section>
 

@@ -1,5 +1,7 @@
 import { ArrowUpRight } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { SectionHeading } from "@/components/section-heading";
 import { getCollection } from "@/lib/content";
 import { formatDate } from "@/lib/format";
 
@@ -10,6 +12,7 @@ export default async function WritingPage() {
     getCollection("writing"),
     getCollection("articles"),
   ]);
+  const t = await getTranslations("tooltips");
 
   return (
     <>
@@ -26,7 +29,7 @@ export default async function WritingPage() {
 
       <section className="container-page py-12">
         <div className="flex items-end justify-between mb-8">
-          <h2>Posts</h2>
+          <SectionHeading tooltip={t("writingPosts")}>Posts</SectionHeading>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
             {posts.length} {posts.length === 1 ? "post" : "posts"}
           </p>
@@ -62,7 +65,7 @@ export default async function WritingPage() {
       <section className="container-page py-12 pb-24">
         <div className="flex items-end justify-between mb-8">
           <div>
-            <h2>Articles</h2>
+            <SectionHeading tooltip={t("writingArticles")}>Articles</SectionHeading>
             <p className="mt-2 max-w-xl">
               Academic writing from my master&apos;s programme at Aarhus University.
             </p>

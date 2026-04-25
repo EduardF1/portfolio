@@ -1,6 +1,8 @@
 import { ArrowUpRight } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { GithubFeed } from "@/components/github-feed";
+import { SectionHeading } from "@/components/section-heading";
 import { getRepos } from "@/lib/github";
 import { findTech } from "@/lib/tech";
 
@@ -49,6 +51,7 @@ export default async function WorkPage({
   const { tech: techSlug } = await searchParams;
   const tech = techSlug ? findTech(techSlug) : null;
   const repos = await getRepos();
+  const t = await getTranslations("tooltips");
 
   return (
     <>
@@ -66,7 +69,7 @@ export default async function WorkPage({
 
       <section className="container-page py-12">
         <div className="flex items-end justify-between mb-8">
-          <h2>Selected</h2>
+          <SectionHeading tooltip={t("selectedWork")}>Selected</SectionHeading>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
             4 case studies
           </p>
@@ -110,14 +113,12 @@ export default async function WorkPage({
         className="container-page py-12 scroll-mt-24"
       >
         <div className="flex items-end justify-between mb-8">
-          <div>
-            <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-              Technologies
-            </p>
-            <h2 className="mt-2">
-              {tech ? tech.name : "Pick a technology"}
-            </h2>
-          </div>
+          <SectionHeading
+            kicker="Technologies"
+            tooltip={t("technologies")}
+          >
+            {tech ? tech.name : "Pick a technology"}
+          </SectionHeading>
         </div>
         {tech ? (
           <div className="max-w-2xl">
@@ -154,7 +155,9 @@ export default async function WorkPage({
       <section className="container-page py-12 pb-24">
         <div className="flex items-end justify-between mb-8">
           <div>
-            <h2>Open source &amp; learning in public</h2>
+            <SectionHeading tooltip={t("openSource")}>
+              Open source &amp; learning in public
+            </SectionHeading>
             <p className="mt-2 max-w-xl">
               {repos.length} public repositories from {new Date().getFullYear() - 2019}+
               years of side-projects, course work, and weekend experiments —

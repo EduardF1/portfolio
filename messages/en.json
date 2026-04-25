@@ -102,5 +102,17 @@
       "successBody": "I'll reply within a few days. If you don't hear back, my email is {email}.",
       "errorGeneric": "Something went wrong. Please try again or email directly."
     }
+  },
+  "tooltips": {
+    "about": "Who I am as a consultant — values, working style, and the kind of work that suits me best.",
+    "experience": "Three years across four companies, current role first. Click company names for their websites.",
+    "selectedWork": "Hand-picked case studies from business-critical systems I've helped build.",
+    "openSource": "Live feed of every public repo I've shipped — auto-pulled from GitHub.",
+    "technologies": "Description of a single tech and a pre-filtered slice of the open-source feed below.",
+    "writingPosts": "Short essays from practice — engineering, consulting, and the bits in between.",
+    "writingArticles": "Academic articles from my MSc in Technology-Based Business Development at Aarhus University.",
+    "recommends": "A small, honest collection of things I'd buy again — with the reasoning, not just the link.",
+    "travel": "Trips, places, pictures. The non-engineering side of the brain.",
+    "contact": "Drop a line — I read everything and reply within a few days."
   }
 }
