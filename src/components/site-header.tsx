@@ -4,6 +4,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { PaletteSelector } from "@/components/palette-selector";
 
 export function SiteHeader() {
   const t = useTranslations("nav");
@@ -65,6 +66,7 @@ export function SiteHeader() {
             <span className="mx-1.5 text-foreground-subtle">/</span>
             <span className={locale === "da" ? "text-foreground" : ""}>DA</span>
           </button>
+          <PaletteSelector />
           <ThemeToggle />
         </div>
       </div>

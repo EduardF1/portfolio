@@ -6,6 +6,7 @@ import { setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { ThemeProvider } from "@/components/theme-provider";
+import { PaletteProvider } from "@/components/palette-provider";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
@@ -64,6 +65,12 @@ export default async function LocaleLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{var p=localStorage.getItem('palette');if(p&&['schwarzgelb','mountain-navy','woodsy-cabin'].includes(p))document.documentElement.setAttribute('data-palette',p);else document.documentElement.setAttribute('data-palette','schwarzgelb');}catch(_){}",
+          }}
+        />
         <NextIntlClientProvider>
           <ThemeProvider
             attribute="class"
@@ -71,9 +78,11 @@ export default async function LocaleLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <SiteHeader />
-            <main className="flex-1">{children}</main>
-            <SiteFooter />
+            <PaletteProvider>
+              <SiteHeader />
+              <main className="flex-1">{children}</main>
+              <SiteFooter />
+            </PaletteProvider>
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
