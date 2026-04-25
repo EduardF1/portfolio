@@ -68,7 +68,7 @@ export default async function LocaleLayout({
         <script
           dangerouslySetInnerHTML={{
             __html:
-              "try{var p=localStorage.getItem('palette');if(p&&['schwarzgelb','mountain-navy','woodsy-cabin'].includes(p))document.documentElement.setAttribute('data-palette',p);else document.documentElement.setAttribute('data-palette','schwarzgelb');}catch(_){}",
+              "try{var p=localStorage.getItem('palette');if(p&&['schwarzgelb','mountain-navy','woodsy-cabin'].includes(p))document.documentElement.setAttribute('data-palette',p);else document.documentElement.setAttribute('data-palette','mountain-navy');}catch(_){}",
           }}
         />
         <NextIntlClientProvider>
