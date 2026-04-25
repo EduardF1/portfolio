@@ -4,6 +4,7 @@
     "writing": "Writing",
     "recommends": "Recommends",
     "personal": "Personal",
+    "travel": "Travel",
     "contact": "Contact",
     "switchLanguage": "Switch language",
     "switchToDanish": "Switch to Danish",
@@ -70,6 +71,14 @@
     "kicker": "Off the clock",
     "heading": "What I do when I'm not at the keyboard.",
     "description": "BVB on Saturdays, the open road on weekends, and the slow accumulation of countries on a wall map. The professional half is the easy half — this one's a bit more honest."
+  },
+  "travel": {
+    "kicker": "Travel",
+    "heading": "Notes from the road.",
+    "description": "Trips, places, pictures — slowly accumulating. The non-engineering side of the brain.",
+    "noTrips": "No trips published yet.",
+    "tripCount": "{count, plural, one {# trip} other {# trips}}",
+    "all": "All trips"
   },
   "contact": {
     "kicker": "Contact",

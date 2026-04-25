@@ -21,7 +21,7 @@ export type ContentItem = {
   body: string;
 };
 
-export type CollectionName = "writing" | "articles" | "recommends";
+export type CollectionName = "writing" | "articles" | "recommends" | "travel";
 
 export async function getCollection(
   collection: CollectionName,

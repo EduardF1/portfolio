@@ -4,6 +4,7 @@
     "writing": "Tekster",
     "recommends": "Anbefalinger",
     "personal": "Personligt",
+    "travel": "Rejser",
     "contact": "Kontakt",
     "switchLanguage": "Skift sprog",
     "switchToDanish": "Skift til dansk",
@@ -70,6 +71,14 @@
     "kicker": "Uden for arbejdstiden",
     "heading": "Det, jeg laver, når jeg ikke sidder ved tastaturet.",
     "description": "BVB om lørdagen, åben vej i weekenden, og den langsomme samling af lande på et vægkort. Den professionelle halvdel er den nemme halvdel — denne her er lidt mere ærlig."
+  },
+  "travel": {
+    "kicker": "Rejser",
+    "heading": "Noter fra rejsen.",
+    "description": "Ture, steder og billeder — det samler sig langsomt. Den ikke-tekniske halvdel af hjernen.",
+    "noTrips": "Ingen rejser offentliggjort endnu.",
+    "tripCount": "{count, plural, one {# rejse} other {# rejser}}",
+    "all": "Alle rejser"
   },
   "contact": {
     "kicker": "Kontakt",

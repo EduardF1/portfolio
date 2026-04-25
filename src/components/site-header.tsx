@@ -17,6 +17,7 @@ export function SiteHeader() {
     { href: "/writing", label: t("writing") },
     { href: "/recommends", label: t("recommends") },
     { href: "/personal", label: t("personal") },
+    { href: "/travel", label: t("travel") },
     { href: "/contact", label: t("contact") },
   ] as const;
 
