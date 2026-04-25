@@ -23,12 +23,13 @@ test.describe("smoke — public routes return 200 and render content", () => {
 
 test("locale toggle round-trips between EN and DA", async ({ page }) => {
   await page.goto("/");
-  // Click the language toggle
-  await page.getByRole("button", { name: /Switch to (Danish|English)/ }).click();
+  // Use data-testid because the aria-label is itself translated (locale-dependent).
+  const toggle = page.getByTestId("locale-toggle");
+  await toggle.click();
   await page.waitForURL("/da");
   await expect(page).toHaveURL("/da");
   // And back
-  await page.getByRole("button", { name: /Switch to (Danish|English)/ }).click();
+  await toggle.click();
   await page.waitForURL("/");
 });
 

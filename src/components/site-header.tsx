@@ -55,6 +55,7 @@ export function SiteHeader() {
           <button
             type="button"
             onClick={switchLocale}
+            data-testid="locale-toggle"
             className="text-xs uppercase tracking-wider text-foreground-subtle hover:text-accent"
             aria-label={
               otherLocale === "da" ? t("switchToDanish") : t("switchToEnglish")
