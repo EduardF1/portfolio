@@ -26,6 +26,7 @@ export type CollectionName =
   | "articles"
   | "recommends"
   | "travel"
+  | "culinary"
   | "work";
 
 export async function getCollection(

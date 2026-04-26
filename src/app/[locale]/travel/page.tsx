@@ -43,6 +43,15 @@ export default async function TravelPage({
         </section>
       )}
 
+      <section className="container-page pb-12">
+        <Link
+          href="/travel/culinary"
+          className="inline-flex items-center gap-1 text-sm hover:text-accent transition-colors"
+        >
+          See the culinary side of these trips <span aria-hidden="true">→</span>
+        </Link>
+      </section>
+
       {destinations.length > 0 && (
         <section className="container-page pb-12">
           <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
