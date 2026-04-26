@@ -38,6 +38,10 @@
       "countries": "Countries visited"
     }
   },
+  "testimonials": {
+    "kicker": "What people say",
+    "heading": "Voices from collaborators."
+  },
   "skills": {
     "kicker": "Working with",
     "heading": "Tools and languages I've shipped with.",
@@ -143,6 +147,7 @@
     "technologies": "Description of a single tech and a pre-filtered slice of the open-source feed below.",
     "writingPosts": "Short essays from practice — engineering, consulting, and the bits in between.",
     "writingArticles": "Academic articles from my MSc in Technology-Based Business Development at Aarhus University.",
+    "testimonials": "Recommendations from colleagues, clients, and academic supervisors — pulled from LinkedIn and signed letters.",
     "recommends": "A small, honest collection of things I'd buy again — with the reasoning, not just the link.",
     "travel": "Trips, places, pictures. The non-engineering side of the brain.",
     "contact": "Drop a line — I read everything and reply within a few days."

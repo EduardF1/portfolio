@@ -38,6 +38,10 @@
       "countries": "Lande besøgt"
     }
   },
+  "testimonials": {
+    "kicker": "Hvad andre siger",
+    "heading": "Stemmer fra samarbejdspartnere."
+  },
   "skills": {
     "kicker": "Arbejder med",
     "heading": "Værktøjer og sprog, jeg har leveret med.",
@@ -143,6 +147,7 @@
     "technologies": "Beskrivelse af en enkelt teknologi og et forfiltreret udsnit af open source-feedet nedenfor.",
     "writingPosts": "Korte essays fra praksis — udvikling, konsulentarbejde og det midt imellem.",
     "writingArticles": "Akademiske artikler fra min cand.scient.techn. i Technology-Based Business Development på Aarhus Universitet.",
+    "testimonials": "Anbefalinger fra kolleger, kunder og akademiske vejledere — hentet fra LinkedIn og underskrevne breve.",
     "recommends": "En lille, ærlig samling af ting, jeg ville købe igen — med begrundelsen, ikke bare linket.",
     "travel": "Ture, steder og billeder. Den ikke-tekniske side af hjernen.",
     "contact": "Skriv endelig — jeg læser alt og svarer inden for få dage."

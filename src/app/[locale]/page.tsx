@@ -1,12 +1,14 @@
 import { ArrowUpRight, Download } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/section-heading";
 import { StatsRow } from "@/components/stats-row";
 import { Skills } from "@/components/skills";
+import { RecommendationsCarousel } from "@/components/recommendations-carousel";
 import { findTech } from "@/lib/tech";
+import { getRecommendations } from "@/lib/recommendations";
 
 export default async function Home({
   params,
@@ -15,6 +17,8 @@ export default async function Home({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const recommendations = await getRecommendations();
+  const t = await getTranslations();
 
   return (
     <>
@@ -27,6 +31,24 @@ export default async function Home({
       </section>
       <Experience />
       <Skills />
+      {recommendations.length > 0 && (
+        <section className="border-t border-border/60">
+          <div className="container-page py-20 md:py-28">
+            <div className="mb-12 max-w-2xl">
+              <SectionHeading
+                kicker={t("testimonials.kicker")}
+                tooltip={t("tooltips.testimonials")}
+              >
+                {t("testimonials.heading")}
+              </SectionHeading>
+            </div>
+            <RecommendationsCarousel
+              recommendations={recommendations}
+              locale={locale === "da" ? "da" : "en"}
+            />
+          </div>
+        </section>
+      )}
       <FeaturedWork />
     </>
   );
