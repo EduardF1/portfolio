@@ -4,6 +4,9 @@
 
 ## Last commits pushed (origin/main)
 
+- `cb3cbd2` Add .npmrc legacy-peer-deps=true to unblock Vercel build (react-simple-maps peer vs React 19)
+- `e4c4dfa` Per-route OG image for /travel/culinary listing
+- `78a49ef` Fix unescaped apostrophe in recommends OG image
 - `02e9a49` Per-route OG images for /writing, /recommends, /travel slug routes
 - `e938813` Handoff: tick per-route OG (work/[slug])
 - `6592d3e` Per-route OG images for /work/[slug] case studies
@@ -22,8 +25,16 @@ Plus the chain from prior rounds: tech catalogue refresh, backlog restructure, v
 
 ## Currently in flight
 
-- Nothing in flight. All work for this session is on `origin/main`.
-- Senior Dev A landed: 253-photo catalogue (215 with GPS, 20 countries), real captions on `/personal`, 4 more photos (Milan, Vienna, Gibraltar, Pula). Merged in `153fae2`.
+- **Senior Dev A** — site-wide search across writing/articles/work/recommends. Branch `feat/site-search` (not yet pushed). FlexSearch + Cmd+K palette + `/search` route + EN/DA i18n + tests.
+- **Senior Dev B** — coverage expansion to ≥65% statements. Branch `feat/test-coverage-expand` (not yet pushed). Tests for recommendations-carousel, section-heading, writing pages, theme/palette providers, travel-europe-map, hero-video-bg, sync-gh-descriptions.
+- Both running in isolated worktrees against `main`. PO will rebase + merge when they push and report.
+
+## Vercel deploy crisis (resolved this session)
+
+- **Discovery**: every Vercel production deploy from the past 6h was `● Error` — `react-simple-maps@3.0.0` peers against React 16/17/18 but the project is on React 19. Locally it was installed with `--legacy-peer-deps` (per session memory) but Vercel was running plain `npm install` and failing.
+- **Symptom**: `/sitemap.xml`, `/robots.txt`, `/writing/rss.xml` all 404 on the live site. The travel map upgrade, OG images, EU badge — all NOT actually live (frozen at last good deploy).
+- **Fix**: `cb3cbd2` adds `.npmrc` with `legacy-peer-deps=true`. New deploy `portfolio-ef5b3pl5w` ● Ready in 47s. All three SEO routes now serve 200 OK on eduardfischer.dev.
+- **Lesson**: when adding a dep with `--legacy-peer-deps` locally, ALWAYS add the same flag to `.npmrc` so Vercel matches local resolution behaviour.
 
 ## Next session: pick up here
 
