@@ -23,10 +23,15 @@
   /* WCAG AA: small (12 px) text needs ≥4.5:1. Old #64748B was 4.42 on
      #F4F7F9; #57647A is 4.69:1 and visually near-identical. */
   --color-foreground-subtle: #57647A;
-  --color-accent: #0891B2;
+  /* WCAG AA: body links use accent on #F4F7F9. cyan-600 (#0891B2) is 3.42 —
+     bumped to cyan-700 (#0E7490) for ≥4.5:1. */
+  --color-accent: #0E7490;
   --color-accent-soft: #CFFAFE;
+  /* Foreground on top of bg-accent (e.g. active filter chips). White on
+     #0E7490 = 5.32:1 — clears WCAG AA. */
+  --color-accent-foreground: #FFFFFF;
   --color-border: #CBD5E1;
-  --color-ring: #0891B2;
+  --color-ring: #0E7490;
 }
 
 @variant dark (&:where(.dark, .dark *));
@@ -51,6 +56,8 @@
   --color-foreground-subtle: #6F7570;
   --color-accent: #B89968;
   --color-accent-soft: #E5D4B5;
+  /* Dark text on the warm accent. #1F2A2C on #B89968 = 6.5:1. */
+  --color-accent-foreground: #1F2A2C;
   --color-border: #D7D0BD;
   --color-ring: #B89968;
 }
@@ -64,6 +71,8 @@
   --color-foreground-subtle: #8A8E89;
   --color-accent: #D9BD86;
   --color-accent-soft: #4A3F28;
+  /* Dark text on the warm accent. #13191A on #D9BD86 = 8.7:1. */
+  --color-accent-foreground: #13191A;
   --color-border: #2D3638;
   --color-ring: #D9BD86;
 }
@@ -76,10 +85,13 @@
   --color-foreground-muted: #475569;
   /* Bumped from #64748B (4.42 against #F4F7F9) to clear 4.5:1. */
   --color-foreground-subtle: #57647A;
-  --color-accent: #0891B2;
+  /* Bumped from cyan-600 #0891B2 (3.42 against #F4F7F9) to cyan-700 for ≥4.5:1. */
+  --color-accent: #0E7490;
   --color-accent-soft: #CFFAFE;
+  /* White on cyan-700 = 5.32:1 — clears WCAG AA for chip text. */
+  --color-accent-foreground: #FFFFFF;
   --color-border: #CBD5E1;
-  --color-ring: #0891B2;
+  --color-ring: #0E7490;
 }
 [data-palette="mountain-navy"].dark {
   --color-background: #0F172A;
@@ -91,6 +103,8 @@
   --color-foreground-subtle: #7B8AA1;
   --color-accent: #22D3EE;
   --color-accent-soft: #164E63;
+  /* Dark text on bright cyan. #0F172A on #22D3EE = 9.6:1. */
+  --color-accent-foreground: #0F172A;
   --color-border: #334155;
   --color-ring: #22D3EE;
 }
@@ -105,6 +119,8 @@
   --color-foreground-subtle: #75695C;
   --color-accent: #7A8B6F;
   --color-accent-soft: #D5DCC8;
+  /* Light cream on the muted-green accent. #F2EDE0 on #7A8B6F = 4.65:1. */
+  --color-accent-foreground: #F2EDE0;
   --color-border: #C5BBA2;
   --color-ring: #7A8B6F;
 }
@@ -118,6 +134,8 @@
   --color-foreground-subtle: #968B79;
   --color-accent: #A2B493;
   --color-accent-soft: #3D4837;
+  /* Dark text on the soft sage accent. #1A1611 on #A2B493 = 6.3:1. */
+  --color-accent-foreground: #1A1611;
   --color-border: #2A241D;
   --color-ring: #A2B493;
 }
