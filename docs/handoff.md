@@ -4,12 +4,12 @@
 
 ## Last commits pushed (origin/main)
 
-- `010dd60` Handoff: photo catalogue + GPS captions merged
-- `153fae2` Merge: photo catalogue + EXIF GPS captions + 4 new photos (Senior Dev A)
+- `6ca9a09` Culinary sub-route under /travel + CI coverage publish
+- `1fea8c7` Travel page: interactive Europe map with 20 countries from GPS catalogue
 - `d90e0f1` Experience timeline product links + Node/Express/Python/Scala
-- *(uncommitted, about to push)* Travel Europe map + per-country anchors
+- `153fae2` Merge: photo catalogue + EXIF GPS captions + 4 new photos (Senior Dev A)
 
-Plus the chain from the prior round: tech catalogue refresh, backlog restructure, video-bg fix, OnePlus 11 recommendation, carousel rework, tooltip refit, em-dash sweep, CI fix.
+Plus the chain from prior rounds: tech catalogue refresh, backlog restructure, video-bg fix, OnePlus 11 recommendation, carousel rework, tooltip refit, em-dash sweep, CI fix.
 
 ## Currently in flight
 
@@ -29,7 +29,20 @@ Plus the chain from the prior round: tech catalogue refresh, backlog restructure
    - **Architect pass (optional hardening)**: tests, branch protection, perf audit, carousel container queries, live Yahoo IMAP CI assertion.
    - **PO + Architect future-features (also queued, at the bottom)**: 18 items including sitemap, OG, RSS, search, lightboxes, heatmap, analytics, RO locale, `/now`, honeypot, etc.
 
-5. **Just shipped this round**: experience timeline product links (KOMBIT VALG, STIL, UA.dk, Greenbyte Breeze, Boozt, SitaWare suite); 4 more techs (Node, Express, Python, Scala); Travel map at `/travel` (lightweight SVG with 20-country markers, click → scroll to per-country section).
+5. **Just shipped**:
+   - Experience timeline product links (KOMBIT VALG, STIL, UA.dk, Greenbyte Breeze, Boozt, SitaWare/Frontline/Edge)
+   - 4 more techs (Node, Express, Python, Scala)
+   - Travel map at `/travel` (lightweight SVG with 20-country markers, click → scroll to per-country section)
+   - Culinary sub-route at `/travel/culinary` with two seed dishes
+   - CI coverage step + artifact upload (no threshold gating yet — baseline 36%)
+
+## Open queue, next session priorities
+
+1. **Deeper GitHub harvest** — switch from WebFetch (truncates at ~20) to `gh repo list EduardF1 --limit 100 --json name,language,topics`. Cross-reference with `Desktop\Job search 2026\Linkedin sections (01.12.25)\Skills_*.png` and `Eduard_Fischer-Szava_CV_Ledger_FULL.docx` for the LinkedIn-stated skills harvest. Note: reading the PNG screenshots blew the image budget on Senior Dev A's first attempt; the safe path is `Get-Content -Encoding Byte` size-checks first or just use the gh CLI + WebFetch on `https://github.com/EduardF1` overview which lists language stats.
+2. **Visit-notification daily digest** — needs Eduard's approval before shipping. Design proposal already in backlog.
+3. **`/blog` nav cluster** — Reddit + Danish-culture benchmark first (per `feedback_audience_benchmark.md`).
+4. **`/my-story` page** — same benchmark first.
+5. **Tighten coverage thresholds** — once a few more components have basic tests (writing pages, theme provider, travel-europe-map, hero-video-bg).
 
 ## Known issues / sanity-checks
 
