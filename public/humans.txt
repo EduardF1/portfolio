@@ -1,0 +1,13 @@
+/* TEAM */
+
+Designer & Engineer: Eduard Fischer-Szava
+Site: https://eduardfischer.dev
+Location: Aarhus, Denmark
+
+/* SITE */
+
+Last update: 2026-04-26
+Standards: HTML5, ARIA, WCAG 2.2 AA target
+Components: Next.js 16, React 19, TypeScript, Tailwind CSS v4, MDX
+Hosting: Vercel
+Source: https://github.com/EduardF1/portfolio
