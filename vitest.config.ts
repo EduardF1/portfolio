@@ -7,6 +7,11 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      // `server-only` is a runtime guard for Next, throws when imported
+      // from a client component. In Vitest there is no client/server
+      // boundary; alias it to an empty module so server-flagged libs
+      // can be unit-tested directly.
+      "server-only": path.resolve(__dirname, "./vitest.server-only.ts"),
     },
   },
   test: {
