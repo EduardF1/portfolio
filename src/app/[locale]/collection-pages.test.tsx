@@ -135,6 +135,14 @@ vi.mock("@/lib/github", () => ({
   summarize: () => ({ total: 0, languages: [] }),
 }));
 
+// GithubStats is an async Server Component that fetches the GitHub /users
+// API. In jsdom + the WorkPage's eagerly-rendered tree it can't be async
+// (Test renders treat it as a client component), so we mock the component
+// itself with a synchronous stub.
+vi.mock("@/components/github-stats", () => ({
+  GithubStats: () => <div data-testid="github-stats-stub" />,
+}));
+
 afterEach(() => {
   cleanup();
 });

@@ -11,7 +11,21 @@ const withBundleAnalyzer = bundleAnalyzer({
 });
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async headers() {
+    return [
+      {
+        // Belt-and-braces noindex for the admin tree. The page itself
+        // returns notFound() to unauth visitors, but this header keeps
+        // any future bots that ignore the route's robots metadata
+        // from listing it.
+        source: "/admin/:path*",
+        headers: [
+          { key: "X-Robots-Tag", value: "noindex, nofollow, nocache" },
+          { key: "Cache-Control", value: "private, no-store" },
+        ],
+      },
+    ];
+  },
 };
 
 export default withBundleAnalyzer(withNextIntl(nextConfig));

@@ -1,4 +1,5 @@
 import { Mail } from "lucide-react";
+import NextLink from "next/link";
 import { Link } from "@/i18n/navigation";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 
@@ -29,6 +30,18 @@ export async function SiteFooter() {
       <div className="container-page flex flex-col gap-6 py-10 md:flex-row md:items-center md:justify-between">
         <p className="text-sm text-foreground-subtle">
           © {new Date().getFullYear()} Eduard Fischer-Szava · Aarhus, Denmark
+          {" · "}
+          {/* TODO i18n — /privacy is an EN-only root POC. We use NextLink
+              (not the i18n one) because /privacy lives outside `[locale]`
+              and the i18n Link would prepend a locale prefix. Cross-
+              root-layout navigation triggers a full page load by design,
+              which is fine for a footer link. */}
+          <NextLink
+            href="/privacy"
+            className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
+          >
+            Privacy
+          </NextLink>
         </p>
         <div className="flex items-center gap-5">
           {socials.map(({ href, label, icon: Icon, external }) =>

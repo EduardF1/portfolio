@@ -2,6 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { GithubFeed } from "@/components/github-feed";
+import { GithubStats } from "@/components/github-stats";
 import { SectionHeading } from "@/components/section-heading";
 import { getRepos } from "@/lib/github";
 import { findTech } from "@/lib/tech";
@@ -220,6 +221,11 @@ export default async function WorkPage({
               })}
             </p>
           </div>
+        </div>
+        {/* GitHub aggregate stats — sits above the repo grid as a quick
+            "at a glance" summary. Server Component, ISR-cached 1h. */}
+        <div className="mb-8">
+          <GithubStats />
         </div>
         {repos.length > 0 ? (
           <GithubFeed
