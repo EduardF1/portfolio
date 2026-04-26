@@ -4,7 +4,15 @@
 
 ## Last commits pushed (origin/main)
 
-- `26ae48e` **Merge feat/site-search**: site-wide search (FlexSearch + Cmd+K palette + /search)
+- `0d53695` Merge feat/how-i-work-methodology — 6 methodologies as honest paragraphs (Scrum/Kanban/FDD/CMMI/LEAN/Clean Architecture)
+- `…` Merge feat/tech-additions-from-artefacts — 22 new tech entries from LinkedIn/CV pass + chip wiring
+- `cd72726` **Merge feat/exif-last-seen-footer** — "Last seen in: Landsberg am Lech, Germany — March 2026" footer line, EN/DA
+- `44ac09c` **Merge feat/timeline-role-deep-links** — Experience #role anchors + per-role copy-link button + :target highlight
+- `d51e7ea` **Merge feat/perf-coverage-and-a11y-hardening** — a11y AA across palettes + Lighthouse CI + axe e2e + coverage thresholds 60/55/65/60
+- `cd72726` (3-feature batch deploy: hardening + deep-links + EXIF footer)
+- `0b9681f` Merge docs/media-analysis-and-features — 3 docs with tech-pass + trip-clusters + feature-exploration
+- `9ca561f` Merge feat/per-trip-travel-pages — 41 trip clusters + custom photo lightbox
+- `26ae48e` Merge feat/site-search — site-wide search (FlexSearch + Cmd+K palette + /search)
 - `b23afe7` **Merge feat/test-coverage-expand**: 25 new test files; coverage 33%→74% statements
 - `1087957` Audience benchmark: /blog cluster (recommend skip) + /my-story (recommend ship with tone constraints)
 - `c143ee0` Styled 404 page with suggested-routes grid + contact CTA
@@ -30,13 +38,15 @@
 
 Plus the chain from prior rounds: tech catalogue refresh, backlog restructure, video-bg fix, OnePlus 11 recommendation, carousel rework, tooltip refit, em-dash sweep, CI fix.
 
-## Currently in flight (round 2 — 3 senior devs)
+## Currently in flight (autonomous PO mode while Eduard sleeps)
 
-- **Senior Dev A** — per-trip travel pages with photo lightbox. Branch `feat/per-trip-travel-pages`. Clusters `public/photos/photo-catalogue.json` by (country, year-month) → new routes `/travel/photos/[slug]` with custom ARIA-dialog lightbox.
-- **Senior Dev B** — perf + coverage + a11y hardening. Branch `feat/perf-coverage-and-a11y-hardening`. Tightens `vitest.config.ts` thresholds, runs Lighthouse audit on prod, applies S-effort fixes, axe-core e2e, bundle analyzer, CI lighthouse workflow, branch-protection setup doc.
-- **Senior Dev C** — research / exploration (docs only). Branch `docs/media-analysis-and-features`. Reads LinkedIn skills PNGs + CV ledger DOCX → tech.ts gaps. Re-clusters photo archive (observational). Produces 5–7 new-feature proposals.
+All four senior-dev rounds completed and merged this session: A (search → per-trip pages), B (test coverage → perf+a11y hardening), C (media + features research), D (EXIF footer).
 
-All three running in isolated worktrees against `main`. PO will rebase + merge when each pushes and reports.
+PO is now running autonomously, building features on individual branches and batching 2-3 per deploy per Eduard's directive. CI green required before merge; deploys gated by visible feature count.
+
+**Privacy guard active**: nothing from CPR / contracts / private docs from `D:\Portfolio` or `G:\` goes to git. Only LinkedIn-public-equivalent info gets surfaced.
+
+**Email-blocker protocol**: if PO hits a crucial blocker, send to fischer_eduard@yahoo.com via Yahoo MCP, tag "from Claude" / "from Eduard", 10-min reply window or move task to end of backlog.
 
 ## Vercel deploy crisis (resolved this session)
 
