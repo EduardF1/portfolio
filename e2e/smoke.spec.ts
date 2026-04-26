@@ -33,6 +33,14 @@ test("locale toggle round-trips between EN and DA", async ({ page }) => {
   await page.waitForURL("/");
 });
 
+test("/work/kombit-valg renders the case-study heading", async ({ page }) => {
+  const response = await page.goto("/work/kombit-valg");
+  expect(response?.status(), "/work/kombit-valg should be 200").toBe(200);
+  await expect(
+    page.getByRole("heading", { level: 1, name: /KOMBIT VALG/ }),
+  ).toBeVisible();
+});
+
 test("contact form rejects empty submission", async ({ page }) => {
   await page.goto("/contact");
   await page.getByRole("button", { name: /Send message/ }).click();
