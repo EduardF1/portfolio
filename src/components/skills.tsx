@@ -56,16 +56,16 @@ export function Skills() {
   const groups = techsByCategory();
 
   return (
-    <section className="container-page py-20 md:py-28 border-t border-border/60">
-      <div className="grid gap-12 md:grid-cols-12">
-        <div className="md:col-span-4">
+    <section className="@container container-page py-20 md:py-28 border-t border-border/60">
+      <div className="grid gap-12 @md:grid-cols-12">
+        <div className="@md:col-span-4">
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
             {t("skills.kicker")}
           </p>
           <h2 className="mt-4">{t("skills.heading")}</h2>
           <p className="mt-4 max-w-md">{t("skills.description")}</p>
         </div>
-        <div className="md:col-span-8 space-y-10">
+        <div className="@md:col-span-8 space-y-10">
           {CATEGORY_ORDER.map((category) => {
             const techs = groups[category];
             if (techs.length === 0) return null;
@@ -74,7 +74,7 @@ export function Skills() {
                 <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-4">
                   {t(`skills.categories.${category}`)}
                 </h3>
-                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+                <div className="grid grid-cols-3 @sm:grid-cols-4 @md:grid-cols-6 gap-3">
                   {techs.map((tech) => (
                     <TechTile key={tech.slug} tech={tech} />
                   ))}

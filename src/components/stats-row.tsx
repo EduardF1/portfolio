@@ -10,10 +10,10 @@ const stats = [
 export function StatsRow() {
   const t = useTranslations("home");
   return (
-    <dl className="grid grid-cols-2 gap-8 md:grid-cols-4">
+    <dl className="@container grid grid-cols-2 gap-8 @md:grid-cols-4">
       {stats.map(({ value, labelKey }) => (
         <div key={labelKey} className="flex flex-col">
-          <dd className="font-serif text-5xl leading-none tracking-tight text-foreground md:text-6xl">
+          <dd className="font-serif text-5xl leading-none tracking-tight text-foreground @md:text-6xl">
             {value}
           </dd>
           <span

@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+/* Component-local responsiveness uses container queries (@container with
+   @sm: / @md: / @lg: variants — Tailwind v4 native, no plugin needed).
+   Page-level responsiveness (header, modals, palette dropdown) still
+   uses viewport sm: / md: / lg: utilities. */
+
 @theme {
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-instrument-serif), ui-serif, Georgia, serif;

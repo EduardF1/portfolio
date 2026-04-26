@@ -199,10 +199,10 @@ function Experience() {
   ];
 
   return (
-    <section className="border-t border-border/60 bg-surface/30">
+    <section className="@container border-t border-border/60 bg-surface/30">
       <div className="container-page py-20 md:py-28">
-        <div className="grid gap-12 md:grid-cols-12">
-          <div className="md:col-span-4">
+        <div className="grid gap-12 @md:grid-cols-12">
+          <div className="@md:col-span-4">
             <SectionHeading
               kicker={t("home.experienceKicker")}
               tooltip={t("tooltips.experience")}
@@ -210,7 +210,7 @@ function Experience() {
               {t("home.experienceHeading")}
             </SectionHeading>
           </div>
-          <ol className="md:col-span-8 relative border-l border-border space-y-10 pl-8">
+          <ol className="@md:col-span-8 relative border-l border-border space-y-10 pl-8">
             {roles.map((r) => (
               <li
                 key={r.company}
