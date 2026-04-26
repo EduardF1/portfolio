@@ -113,17 +113,65 @@ describe("<SectionNav />", () => {
     ).not.toHaveAttribute("aria-current");
   });
 
-  it("ignores intersections below the 40% threshold", () => {
+  it("picks the topmost intersecting section when multiple are visible at once", () => {
     renderWithSections();
+    const aboutEl = document.getElementById("about")!;
+    const expEl = document.getElementById("experience")!;
     const skillsEl = document.getElementById("skills")!;
+    // Mock layout so experience sits at the top of the active band, then
+    // skills, then about (which has scrolled past). Lower `top` = nearer
+    // the top of the viewport.
+    aboutEl.getBoundingClientRect = () =>
+      ({ top: -200, left: 0, right: 0, bottom: 0, width: 0, height: 0, x: 0, y: 0, toJSON: () => ({}) }) as DOMRect;
+    expEl.getBoundingClientRect = () =>
+      ({ top: 100, left: 0, right: 0, bottom: 0, width: 0, height: 0, x: 0, y: 0, toJSON: () => ({}) }) as DOMRect;
+    skillsEl.getBoundingClientRect = () =>
+      ({ top: 600, left: 0, right: 0, bottom: 0, width: 0, height: 0, x: 0, y: 0, toJSON: () => ({}) }) as DOMRect;
+
     act(() => {
       observerCallback!([
-        { target: skillsEl, isIntersecting: true, intersectionRatio: 0.2 },
+        { target: expEl, isIntersecting: true, intersectionRatio: 0.5 },
+        { target: skillsEl, isIntersecting: true, intersectionRatio: 0.5 },
+      ]);
+    });
+    // Experience (top=100) is closer to the top of the viewport than skills (top=600)
+    expect(
+      screen.getByRole("link", { name: /Experience/ }),
+    ).toHaveAttribute("aria-current", "location");
+    expect(
+      screen.getByRole("link", { name: /Skills/ }),
+    ).not.toHaveAttribute("aria-current");
+  });
+
+  it("removes a section from the active set when it stops intersecting", () => {
+    renderWithSections();
+    const expEl = document.getElementById("experience")!;
+    const skillsEl = document.getElementById("skills")!;
+    expEl.getBoundingClientRect = () =>
+      ({ top: 100, left: 0, right: 0, bottom: 0, width: 0, height: 0, x: 0, y: 0, toJSON: () => ({}) }) as DOMRect;
+    skillsEl.getBoundingClientRect = () =>
+      ({ top: 600, left: 0, right: 0, bottom: 0, width: 0, height: 0, x: 0, y: 0, toJSON: () => ({}) }) as DOMRect;
+
+    // Both intersect — experience wins because it's higher.
+    act(() => {
+      observerCallback!([
+        { target: expEl, isIntersecting: true, intersectionRatio: 0.5 },
+        { target: skillsEl, isIntersecting: true, intersectionRatio: 0.5 },
+      ]);
+    });
+    expect(
+      screen.getByRole("link", { name: /Experience/ }),
+    ).toHaveAttribute("aria-current", "location");
+
+    // Experience scrolls out of the active band; skills should win now.
+    act(() => {
+      observerCallback!([
+        { target: expEl, isIntersecting: false, intersectionRatio: 0 },
       ]);
     });
     expect(
       screen.getByRole("link", { name: /Skills/ }),
-    ).not.toHaveAttribute("aria-current");
+    ).toHaveAttribute("aria-current", "location");
   });
 
   it("renders nothing when no sections are passed", () => {

@@ -8,16 +8,14 @@ export const metadata = { title: "Contact" };
 
 export default async function ContactPage() {
   const tt = await getTranslations("tooltips");
+  const t = await getTranslations("contact");
   return (
     <section className="container-page py-24 md:py-28 grid gap-12 md:grid-cols-12">
       <div className="md:col-span-5">
-        <SectionHeading level="h1" kicker="Contact" tooltip={tt("contact")}>
-          Let&apos;s talk.
+        <SectionHeading level="h1" kicker={t("kicker")} tooltip={tt("contact")}>
+          {t("heading")}
         </SectionHeading>
-        <p className="mt-6 text-lg">
-          Recruiters, fellow engineers, fellow consultants, drop a line. I read
-          everything and reply within a few days.
-        </p>
+        <p className="mt-6 text-lg">{t("description")}</p>
         <div className="mt-10 space-y-4 text-sm">
           <a
             href="mailto:fischer_eduard@yahoo.com"

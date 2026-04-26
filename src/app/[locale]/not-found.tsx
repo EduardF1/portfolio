@@ -9,7 +9,6 @@ const SUGGESTED = [
   { href: "/", label: "Home" },
   { href: "/work", label: "Selected work" },
   { href: "/writing", label: "Posts and articles" },
-  { href: "/recommends", label: "Recommendations" },
   { href: "/travel", label: "Travel" },
   { href: "/personal", label: "Personal" },
   { href: "/contact", label: "Contact" },

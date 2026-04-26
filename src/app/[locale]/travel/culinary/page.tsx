@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/section-heading";
 import { getCollection } from "@/lib/content";
 import { formatDate } from "@/lib/format";
+import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 export const metadata = { title: "Culinary" };
 
@@ -48,7 +49,7 @@ export default async function CulinaryPage({
             </p>
           </div>
         ) : (
-          <ul className="grid gap-px bg-border/60 sm:grid-cols-2 lg:grid-cols-3 rounded-lg overflow-hidden">
+          <ul className={`grid gap-px bg-border/60 ${responsiveGridColsClass(dishes.length, 3)} rounded-lg overflow-hidden`}>
             {dishes.map((d) => {
               const city =
                 typeof d.frontmatter.city === "string" ? d.frontmatter.city : null;

@@ -283,7 +283,7 @@ describe("<SectionHeading />", () => {
     ).toBeInTheDocument();
   });
 
-  it("places the tooltip wrapper to the right of the heading via justify-between", () => {
+  it("places the tooltip wrapper adjacent to the heading text in a flex row", () => {
     render(
       <SectionHeading kicker="X" tooltip="t">
         Heading
@@ -291,8 +291,11 @@ describe("<SectionHeading />", () => {
     );
     const heading = screen.getByRole("heading", { level: 2 });
     const headingRow = heading.parentElement!;
-    // The heading row is the flex container
+    // The heading row is a flex container with a small gap so the tooltip
+    // sits right beside the heading text — not floated to the section's
+    // right edge with justify-between.
     expect(headingRow.className).toContain("flex");
-    expect(headingRow.className).toContain("justify-between");
+    expect(headingRow.className).toContain("gap-3");
+    expect(headingRow.className).not.toContain("justify-between");
   });
 });

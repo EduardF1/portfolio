@@ -15,7 +15,17 @@ vi.mock("next-intl", () => ({
 }));
 
 vi.mock("next-intl/server", () => ({
-  getTranslations: async () => (key: string) => `tooltip:${key}`,
+  getTranslations: async (ns?: string) => {
+    if (ns === "contact") {
+      return (key: string) =>
+        ({
+          kicker: "Contact",
+          heading: "Let's talk.",
+          description: "Drop me a line.",
+        })[key] ?? key;
+    }
+    return (key: string) => `tooltip:${key}`;
+  },
   setRequestLocale: () => {},
 }));
 

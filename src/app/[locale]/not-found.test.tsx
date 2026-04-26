@@ -27,10 +27,12 @@ describe("NotFound", () => {
     // Suggested routes
     expect(screen.getByText("Selected work")).toBeInTheDocument();
     expect(screen.getByText("Posts and articles")).toBeInTheDocument();
-    expect(screen.getByText("Recommendations")).toBeInTheDocument();
     expect(screen.getByText("Travel")).toBeInTheDocument();
     expect(screen.getByText("Personal")).toBeInTheDocument();
     expect(screen.getByText("Contact")).toBeInTheDocument();
+    // /recommends was dropped from the suggestion grid (kept the count at
+    // 6 so the 2-col layout has no half-empty trailing row).
+    expect(screen.queryByText("Recommendations")).not.toBeInTheDocument();
     // Drop-me-a-line CTA links to /contact
     expect(
       screen.getByRole("link", { name: /Drop me a line/ }),

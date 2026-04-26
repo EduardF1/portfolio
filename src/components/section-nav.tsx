@@ -30,29 +30,51 @@ export function SectionNav({ sections, ariaLabel = "On this page" }: Props) {
 
   useEffect(() => {
     if (sections.length === 0) return;
-    // Guard for environments without IntersectionObserver (test runners,
-    // very old browsers). In that case we silently skip the active-state
-    // tracking — the nav still works as plain anchor links.
     if (typeof IntersectionObserver === "undefined") return;
     const elements = sections
       .map((s) => document.getElementById(s.id))
       .filter((el): el is HTMLElement => el !== null);
     if (elements.length === 0) return;
 
-    // rootMargin tuned so a section becomes "active" once roughly its
-    // upper-third clears the viewport top — feels right for long-scroll
-    // single-page layouts.
+    // Track which sections are currently intersecting the "active band"
+    // (a horizontal strip at the upper part of the viewport). On every
+    // observation, pick the section whose top edge is nearest to but
+    // above the band's bottom — that is the section the user is reading.
+    //
+    // Iterating over entries and calling setActiveId for each one (the
+    // previous implementation) was order-sensitive: when scrolling past
+    // a section, both its leaving + the next section's entering fired
+    // in the same callback, and whichever entry came last won — often
+    // the wrong one. Picking the topmost-visible section deterministically
+    // fixes that.
+    const intersecting = new Set<string>();
+
+    function pickActive() {
+      let chosen: { id: string; top: number } | null = null;
+      for (const id of intersecting) {
+        const el = document.getElementById(id);
+        if (!el) continue;
+        const top = el.getBoundingClientRect().top;
+        if (chosen === null || top < chosen.top) {
+          chosen = { id, top };
+        }
+      }
+      if (chosen) setActiveId(chosen.id);
+    }
+
     const observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
-          if (entry.isIntersecting && entry.intersectionRatio >= 0.4) {
-            setActiveId(entry.target.id);
-          }
+          if (entry.isIntersecting) intersecting.add(entry.target.id);
+          else intersecting.delete(entry.target.id);
         }
+        pickActive();
       },
       {
-        rootMargin: "-20% 0px -40% 0px",
-        threshold: [0.4, 0.6, 0.8],
+        // Active band: from 15% below the top to 50% from the top. A
+        // section is "active" when any part of it is inside that band.
+        rootMargin: "-15% 0px -50% 0px",
+        threshold: 0,
       },
     );
     for (const el of elements) observer.observe(el);

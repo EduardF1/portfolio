@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import type { Repo } from "@/lib/github";
 import { cn } from "@/lib/utils";
+import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 const LANGUAGE_COLORS: Record<string, string> = {
   JavaScript: "#f1e05a",
@@ -67,13 +68,13 @@ export function GithubFeed({
 
   return (
     <div>
-      <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between mb-8">
+      <div className="flex flex-col gap-4 mb-8">
         <input
           type="search"
           placeholder="Search repos…"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="w-full md:max-w-xs rounded-md border border-border bg-background px-4 py-2 text-sm outline-none focus:border-accent focus:ring-1 focus:ring-ring"
+          className="w-full md:max-w-md rounded-md border border-border bg-background px-4 py-2 text-sm outline-none focus:border-accent focus:ring-1 focus:ring-ring"
         />
         <div className="flex flex-wrap gap-2">
           <button
@@ -114,7 +115,7 @@ export function GithubFeed({
         {filtered.length} of {repos.length} shown
       </p>
 
-      <ul className="grid gap-px bg-border/60 sm:grid-cols-2 lg:grid-cols-3 rounded-lg overflow-hidden">
+      <ul className={`grid gap-px bg-border/60 ${responsiveGridColsClass(filtered.length, 3)} rounded-lg overflow-hidden`}>
         {filtered.map((r) => (
           <li key={r.id} className="bg-background">
             <a

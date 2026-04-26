@@ -111,16 +111,16 @@ export function SectionHeading({
           {kicker}
         </p>
       )}
-      <div className="flex items-start justify-between gap-4">
+      <div className="flex items-start gap-3">
         <Heading id={id} className={mergedHeadingClass || undefined}>
           {children}
         </Heading>
         {tooltipNode && (
           <span
             className={[
-              // Pin to the upper right of the heading row, baseline-aligned
-              // with the heading text. mt-* mirrors the heading's own
-              // top-margin (mt-4 when kicker is present).
+              // Sits in the upper-right corner of the heading text — flush
+              // against the heading rather than the section's right edge.
+              // mt-* mirrors the heading's own top-margin.
               "shrink-0",
               kicker ? "mt-4 pt-1" : "pt-1",
             ].join(" ")}

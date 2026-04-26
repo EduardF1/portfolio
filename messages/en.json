@@ -136,8 +136,8 @@
   },
   "contact": {
     "kicker": "Contact",
-    "heading": "Get in touch.",
-    "description": "Recruiters, engineers, and fellow consultants: I read every message and reply within a few business days.",
+    "heading": "Let's talk.",
+    "description": "Recruiters, fellow engineers, and fellow consultants, drop a line. I read everything and reply within a few days.",
     "form": {
       "name": "Your name",
       "email": "Email",
