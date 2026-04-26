@@ -96,6 +96,48 @@ export const TECHS: readonly Tech[] = [
     ghLanguage: "PHP",
   },
   {
+    slug: "nodejs",
+    name: "Node.js",
+    category: "backend",
+    docsUrl: "https://nodejs.org/en/docs",
+    description:
+      "Node.js is a JavaScript runtime built on V8, enabling JS on the server. The default runtime for most modern JS/TS backends, CLI tooling, and build pipelines.",
+    icon: "nodejs",
+    ghLanguage: "JavaScript",
+    aliases: ["node"],
+  },
+  {
+    slug: "express",
+    name: "Express",
+    category: "backend",
+    docsUrl: "https://expressjs.com/",
+    description:
+      "Express is the minimal, unopinionated web framework for Node.js. Still the de-facto choice for HTTP APIs and middleware-driven services on Node despite newer alternatives.",
+    icon: "express",
+    ghLanguage: "JavaScript",
+    aliases: ["expressjs"],
+  },
+  {
+    slug: "python",
+    name: "Python",
+    category: "backend",
+    docsUrl: "https://docs.python.org/3/",
+    description:
+      "Python is a high-level general-purpose language widely used for scripting, data work, automation, and backend services. Lingua franca for ML / data engineering.",
+    icon: "python",
+    ghLanguage: "Python",
+  },
+  {
+    slug: "scala",
+    name: "Scala",
+    category: "backend",
+    docsUrl: "https://docs.scala-lang.org/",
+    description:
+      "Scala is a JVM language combining object-oriented and functional paradigms. Strong static typing and pattern matching make it a common choice for data-platform engines (Spark, Akka, Kafka tooling).",
+    icon: "scala",
+    ghLanguage: "Scala",
+  },
+  {
     slug: "symfony",
     name: "Symfony",
     category: "backend",

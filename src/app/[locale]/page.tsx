@@ -145,6 +145,25 @@ function About() {
   );
 }
 
+function ProductLink({
+  href,
+  children,
+}: {
+  href: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-foreground underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent transition-colors"
+    >
+      {children}
+    </a>
+  );
+}
+
 function Experience() {
   const t = useTranslations();
   const roles: Array<{
@@ -153,7 +172,7 @@ function Experience() {
     role: string;
     period: string;
     location: string;
-    summary: string;
+    summary: React.ReactNode;
     tech: string[];
   }> = [
     {
@@ -172,8 +191,16 @@ function Experience() {
       role: "IT Consultant",
       period: "Oct 2024 – Feb 2026",
       location: "Aarhus, Denmark",
-      summary:
-        "KOMBIT VALG, Denmark's administrative election platform. Full-stack C#/.NET + Angular. Summer 2025 stint at STIL on UA.dk EUD III.",
+      summary: (
+        <>
+          <ProductLink href="https://kombit.dk/valg">KOMBIT VALG</ProductLink>
+          {", Denmark's administrative election platform. Full-stack C#/.NET + Angular. Summer 2025 stint at "}
+          <ProductLink href="https://www.stil.dk/">STIL</ProductLink>
+          {" on "}
+          <ProductLink href="https://www.ua.dk/">UA.dk</ProductLink>
+          {" EUD III."}
+        </>
+      ),
       tech: ["csharp", "dotnet", "angular", "mssql", "azure-devops"],
     },
     {
@@ -182,8 +209,13 @@ function Experience() {
       role: "Software Engineer",
       period: "Nov 2021 – Sep 2024",
       location: "Horsens, Denmark",
-      summary:
-        "Renewable-energy SaaS. .NET Core + EF Core + React. Architect and lead developer of the Flutter mobile companion app.",
+      summary: (
+        <>
+          {"Renewable-energy SaaS, "}
+          <ProductLink href="https://www.greenbyte.com/breeze">Greenbyte Breeze</ProductLink>
+          {". .NET Core + EF Core + React. Architect and lead developer of the Flutter mobile companion app."}
+        </>
+      ),
       tech: ["dotnet", "react", "flutter", "dart"],
     },
     {
@@ -192,8 +224,13 @@ function Experience() {
       role: "System Engineer",
       period: "Oct 2021 – May 2022",
       location: "Malmö, Sweden",
-      summary:
-        "Large-scale e-commerce backend in PHP/Symfony. Introduced Kanban; quality and test automation focus.",
+      summary: (
+        <>
+          {"Large-scale e-commerce backend on "}
+          <ProductLink href="https://www.boozt.com/">boozt.com</ProductLink>
+          {" in PHP/Symfony. Introduced Kanban; quality and test automation focus."}
+        </>
+      ),
       tech: ["php", "symfony", "mysql"],
     },
     {
@@ -202,8 +239,17 @@ function Experience() {
       role: "Junior Systems Engineer",
       period: "Feb 2021 – Jun 2021",
       location: "Aarhus, Denmark",
-      summary:
-        "Mission-critical SitaWare suite (Frontline, Edge). Java + Angular. NATO interoperability.",
+      summary: (
+        <>
+          {"Mission-critical "}
+          <ProductLink href="https://systematic.com/en-gb/industries/defence/products/sitaware-suite/">SitaWare</ProductLink>
+          {" suite ("}
+          <ProductLink href="https://systematic.com/en-gb/industries/defence/products/sitaware-suite/sitaware-frontline/">Frontline</ProductLink>
+          {", "}
+          <ProductLink href="https://systematic.com/en-gb/industries/defence/products/sitaware-suite/sitaware-edge/">Edge</ProductLink>
+          {"). Java + Angular. NATO interoperability."}
+        </>
+      ),
       tech: ["java", "angular", "junit"],
     },
   ];
