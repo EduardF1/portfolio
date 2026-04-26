@@ -86,6 +86,83 @@ export default async function LocaleLayout({
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
         <link rel="preconnect" href="https://github.com" crossOrigin="anonymous" />
+
+        {/* Browser chrome / mobile address-bar tint. Single token — the
+            three palettes share the warm-cream background so a single
+            theme-color is honest. */}
+        <meta name="theme-color" content="#FAF9F5" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="#15110D" media="(prefers-color-scheme: dark)" />
+
+        {/* Person + Website JSON-LD — feeds search-engine knowledge panels.
+            Restraint: only fields with public, verifiable values. */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Person",
+                  "@id": "https://eduardfischer.dev/#person",
+                  name: "Eduard Fischer-Szava",
+                  alternateName: ["Eduard Fischer", "Eduard Fischer Szava"],
+                  jobTitle: "Software Engineer / IT Consultant",
+                  url: "https://eduardfischer.dev",
+                  image: "https://eduardfischer.dev/images/hero/portrait.png",
+                  worksFor: {
+                    "@type": "Organization",
+                    name: "Mjølner Informatics",
+                    url: "https://mjolner.dk/en/",
+                  },
+                  alumniOf: [
+                    {
+                      "@type": "CollegeOrUniversity",
+                      name: "Aarhus University",
+                      url: "https://international.au.dk/",
+                    },
+                    {
+                      "@type": "CollegeOrUniversity",
+                      name: "VIA University College",
+                      url: "https://en.via.dk/",
+                    },
+                    {
+                      "@type": "CollegeOrUniversity",
+                      name: "IBA International Business Academy",
+                      url: "https://www.iba.dk/",
+                    },
+                  ],
+                  knowsLanguage: ["en", "da", "ro"],
+                  address: {
+                    "@type": "PostalAddress",
+                    addressLocality: "Aarhus",
+                    addressCountry: "DK",
+                  },
+                  sameAs: [
+                    "https://github.com/EduardF1",
+                    "https://www.linkedin.com/in/eduard-fischer-szava/",
+                  ],
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://eduardfischer.dev/#website",
+                  url: "https://eduardfischer.dev",
+                  name: "Eduard Fischer-Szava — EduardFischer.dev",
+                  inLanguage: ["en", "da"],
+                  publisher: { "@id": "https://eduardfischer.dev/#person" },
+                  potentialAction: {
+                    "@type": "SearchAction",
+                    target: {
+                      "@type": "EntryPoint",
+                      urlTemplate:
+                        "https://eduardfischer.dev/search?q={search_term_string}",
+                    },
+                    "query-input": "required name=search_term_string",
+                  },
+                },
+              ],
+            }),
+          }}
+        />
       </head>
       <body className="min-h-full flex flex-col">
         <script
