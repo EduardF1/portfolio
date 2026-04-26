@@ -139,6 +139,29 @@
     "mountainNavy": "Bjergblå",
     "woodsyCabin": "Skovhytte"
   },
+  "search": {
+    "title": "Søg",
+    "kicker": "Søg",
+    "openLabel": "Åbn søgning",
+    "close": "Luk søgning",
+    "short": "Søg",
+    "placeholder": "Søg i indlæg, artikler, arbejde, anbefalinger…",
+    "pageDescription": "Søg på tværs af tekster, artikler, casestudier og anbefalinger.",
+    "hint": "Prøv en teknologi, et projektnavn eller et emne.",
+    "loading": "Indlæser…",
+    "noResults": "Ingen resultater.",
+    "errorGeneric": "Søgningen er kortvarigt utilgængelig. Prøv igen om et øjeblik.",
+    "resultsLabel": "Søgeresultater",
+    "kbdHint": "↑↓ for at navigere · Enter for at åbne · Esc for at lukke",
+    "seeAll": "Se alle resultater →",
+    "enFallback": "Engelsk kilde",
+    "collection": {
+      "writing": "Indlæg",
+      "articles": "Artikler",
+      "work": "Arbejde",
+      "recommends": "Anbefalinger"
+    }
+  },
   "tooltips": {
     "about": "Hvem jeg er som konsulent: værdier, arbejdsstil og den slags opgaver, der passer mig bedst.",
     "experience": "Fem år på tværs af fem virksomheder, nuværende rolle først. Klik på firmanavnene for at besøge deres hjemmesider.",

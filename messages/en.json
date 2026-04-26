@@ -139,6 +139,29 @@
     "mountainNavy": "Mountain Navy",
     "woodsyCabin": "Woodsy Cabin"
   },
+  "search": {
+    "title": "Search",
+    "kicker": "Search",
+    "openLabel": "Open search",
+    "close": "Close search",
+    "short": "Search",
+    "placeholder": "Search posts, articles, work, recommends…",
+    "pageDescription": "Site-wide search across writing, articles, case studies, and recommendations.",
+    "hint": "Try a tech, a project name, or a topic.",
+    "loading": "Loading…",
+    "noResults": "No results.",
+    "errorGeneric": "Search is briefly unavailable. Try again in a moment.",
+    "resultsLabel": "Search results",
+    "kbdHint": "↑↓ to navigate · Enter to open · Esc to close",
+    "seeAll": "See all results →",
+    "enFallback": "English source",
+    "collection": {
+      "writing": "Posts",
+      "articles": "Articles",
+      "work": "Work",
+      "recommends": "Recommends"
+    }
+  },
   "tooltips": {
     "about": "Who I am as a consultant: values, working style, and the kind of work that suits me best.",
     "experience": "Five years across five companies, current role first. Click company names for their websites.",
