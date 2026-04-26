@@ -25,6 +25,13 @@ const CHAPTERS: Chapter[] = [
     takeaway: "Took with me: how to read a brief, how to hold a room.",
   },
   {
+    yearRange: "2016–2021",
+    place: "Alongside studies — Kolding, Bucharest, Vejle",
+    heading: "Paying my own way",
+    body: "Eduard: a short factual paragraph naming the work that funded the degrees: LPP Reserved (sales assistant, Apr–Sep 2016, Kolding), eMAG (call centre agent, Sep 2016 – Jan 2017, Bucharest), GLS (goods receiver, Mar 2017 – Sep 2018, Kolding), Domisis Construct (sales intern, Jul–Oct 2018, Romania), REITAN (goods receiver, May 2019 – May 2021, Vejle, part-time during the BSc). No apology, no bragging — “I paid for studies by working logistics and retail; that taught me about service, operations, and how to keep a steady team-mate in the warehouse on a long shift.”",
+    takeaway: "Took with me: respect for service work, the rhythm of inventory, the patience to be calm in a queue.",
+  },
+  {
     yearRange: "2016–2019",
     place: "VIA University College, Horsens",
     heading: "BSc Software Engineering",
