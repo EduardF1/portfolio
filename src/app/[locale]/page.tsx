@@ -7,22 +7,31 @@ import { SectionHeading } from "@/components/section-heading";
 import { StatsRow } from "@/components/stats-row";
 import { Skills } from "@/components/skills";
 import { RecommendationsCarousel } from "@/components/recommendations-carousel";
+import {
+  HeroVideoBackground,
+  type HeroVideoVariant,
+} from "@/components/hero-video-bg";
 import { findTech } from "@/lib/tech";
 import { getRecommendations } from "@/lib/recommendations";
 
 export default async function Home({
   params,
+  searchParams,
 }: {
   params: Promise<{ locale: string }>;
+  searchParams?: Promise<{ video?: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const recommendations = await getRecommendations();
   const t = await getTranslations();
+  const sp = (await searchParams) ?? {};
+  const videoVariant: HeroVideoVariant | null =
+    sp.video === "A" ? "A" : sp.video === "B" ? "B" : null;
 
   return (
     <>
-      <Hero />
+      <Hero videoVariant={videoVariant} />
       <About />
       <section className="border-t border-border/60">
         <div className="container-page py-16 md:py-20">
@@ -54,11 +63,12 @@ export default async function Home({
   );
 }
 
-function Hero() {
+function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
   const t = useTranslations();
   return (
-    <section className="container-page pt-24 md:pt-32 pb-20">
-      <div className="grid gap-12 md:grid-cols-12 md:items-center">
+    <section className="@container relative container-page pt-24 md:pt-32 pb-20">
+      {videoVariant && <HeroVideoBackground variant={videoVariant} />}
+      <div className="relative z-10 grid gap-12 md:grid-cols-12 md:items-center">
         <div className="md:col-span-7">
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
             {t("common.available")}
