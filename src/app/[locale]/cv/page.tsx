@@ -57,8 +57,7 @@ export default async function CvPage({
           loadError: t("loadError"),
           prev: t("prev"),
           next: t("next"),
-          pageOf: ({ current, total }) =>
-            t("pageOf", { current, total }),
+          pageOfTemplate: t.raw("pageOf"),
           readonlyNote: t("readonlyNote"),
           directDownload: t("directDownload"),
         }}
