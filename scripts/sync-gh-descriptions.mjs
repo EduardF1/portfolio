@@ -85,8 +85,12 @@ const BOILERPLATE_PATTERNS = [
   // numbered-list-item fragments like "1) Add foo to bar" — usually mid-content
   /^[1-9]\)\s+\w+/i,
   /^[1-9]\.\s+\w+/i,
-  // mid-paragraph fragments often start with conjunctions / prepositions / lowercase
-  /^(of|to|the|and|but|or|so|in|on|at|by|for|with|from|them|that|this|these|those|directory|launches|builds|ejects|contents)\s+\w+.*[.)]\s*$/i,
+  // mid-paragraph fragments often start with conjunctions / prepositions.
+  // Case-sensitive: lowercase-only first word, since a capitalised "This"
+  // is a legitimate sentence start. CRA / Next / NestJS boilerplate is
+  // already covered by the specific patterns above; this rule is purely
+  // for catching sliced-mid-sentence fragments.
+  /^(of|to|and|but|or|so|in|on|at|by|for|with|from|them|that)\s+\w+.*[.)]\s*$/,
   // any shell-prompt-prefixed line ("$ <anything>") — not a description
   /^\$\s+\S/,
   // anything starting with "npm" / "yarn" / "pnpm" / "node" as a bare command

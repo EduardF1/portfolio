@@ -16,7 +16,7 @@ export default async function RecommendsPage() {
         <h1 className="max-w-3xl">Things I&apos;ve used and would buy again.</h1>
         <p className="mt-6 max-w-2xl text-lg">
           A small, honest collection of products, tools, and books I keep
-          coming back to — with the reasoning, not just the link.
+          coming back to, with the reasoning, not just the link.
         </p>
       </section>
 

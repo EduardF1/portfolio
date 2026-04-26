@@ -22,6 +22,13 @@ export type Recommendation = {
   date?: string;
   context?: string;
   portrait?: string;
+  /**
+   * Link target for the recommender's name on a slide. If absent, the
+   * carousel falls back to a LinkedIn people-search URL using the author
+   * name + company. Setting this explicitly is preferred once the user
+   * has confirmed the right profile URL.
+   */
+  linkedinUrl?: string;
 };
 
 export async function getRecommendations(): Promise<Recommendation[]> {
@@ -55,6 +62,8 @@ export async function getRecommendations(): Promise<Recommendation[]> {
             typeof data.context === "string" ? data.context : undefined,
           portrait:
             typeof data.portrait === "string" ? data.portrait : undefined,
+          linkedinUrl:
+            typeof data.linkedinUrl === "string" ? data.linkedinUrl : undefined,
         } satisfies Recommendation;
       }),
   );

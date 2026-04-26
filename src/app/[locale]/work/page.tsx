@@ -12,9 +12,9 @@ const selected = [
   {
     slug: "kombit-valg",
     title: "KOMBIT VALG",
-    kicker: "Netcompany · 2024 — present",
+    kicker: "Netcompany · 2024 – present",
     blurb:
-      "Denmark's administrative election platform. Full-stack C#/.NET + Angular. [Placeholder — case study to be written.]",
+      "Denmark's administrative election platform. Full-stack C#/.NET + Angular. [Placeholder, case study to be written.]",
     stack: ["C#", ".NET", "Angular", "MS SQL", "Azure DevOps"],
   },
   {
@@ -22,13 +22,13 @@ const selected = [
     title: "SitaWare Frontline & Edge",
     kicker: "Systematic · 2021",
     blurb:
-      "NATO-grade C2 software for defence. Full-stack Java + Angular. [Placeholder — case study to be written.]",
+      "NATO-grade C2 software for defence. Full-stack Java + Angular. [Placeholder, case study to be written.]",
     stack: ["Java", "Spring", "Angular", "JUnit"],
   },
   {
     slug: "greenbyte-saas",
     title: "Greenbyte SaaS + Mobile",
-    kicker: "Greenbyte · 2021 — 2024",
+    kicker: "Greenbyte · 2021 – 2024",
     blurb:
       "Renewable-energy monitoring platform with Flutter mobile companion. [Placeholder.]",
     stack: ["C#", ".NET Core", "EF Core", "React", "Flutter/Dart"],
@@ -36,7 +36,7 @@ const selected = [
   {
     slug: "boozt",
     title: "Boozt e-commerce backend",
-    kicker: "Boozt Fashion · 2021 — 2022",
+    kicker: "Boozt Fashion · 2021 – 2022",
     blurb:
       "Symfony backend for a large Nordic retailer. [Placeholder.]",
     stack: ["PHP", "Symfony", "MySQL", "PHPUnit"],
@@ -160,7 +160,7 @@ export default async function WorkPage({
             </SectionHeading>
             <p className="mt-2 max-w-xl">
               {repos.length} public repositories from {new Date().getFullYear() - 2019}+
-              years of side-projects, course work, and weekend experiments —
+              years of side-projects, course work, and weekend experiments,
               auto-pulled from GitHub.
             </p>
           </div>
@@ -173,7 +173,7 @@ export default async function WorkPage({
         ) : (
           <div className="rounded-lg border border-dashed border-border p-12 text-center">
             <p className="text-foreground-subtle">
-              GitHub feed unavailable — try refreshing in a moment.
+              GitHub feed unavailable, try refreshing in a moment.
             </p>
           </div>
         )}

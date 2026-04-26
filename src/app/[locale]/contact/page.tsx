@@ -15,7 +15,7 @@ export default async function ContactPage() {
           Let&apos;s talk.
         </SectionHeading>
         <p className="mt-6 text-lg">
-          Recruiters, fellow engineers, fellow consultants — drop a line. I read
+          Recruiters, fellow engineers, fellow consultants, drop a line. I read
           everything and reply within a few days.
         </p>
         <div className="mt-10 space-y-4 text-sm">

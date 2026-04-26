@@ -21,7 +21,7 @@ export default async function WritingPage() {
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
           Writing
         </p>
-        <h1 className="max-w-3xl">Notes from practice — and from the master&apos;s bench.</h1>
+        <h1 className="max-w-3xl">Notes from practice, and from the master&apos;s bench.</h1>
         <p className="mt-6 max-w-2xl text-lg">
           Short essays on engineering and consulting, plus academic articles
           from my MSc in Technology-Based Business Development.
@@ -112,7 +112,7 @@ export default async function WritingPage() {
       <ReadingFeed
         kicker="Reading"
         heading="What the wider community is talking about."
-        description="Auto-pulled from dev.to — top recent posts on the languages and patterns I work with. Refreshed hourly; only the current year is shown so the list never goes stale."
+        description="Auto-pulled from dev.to, top recent posts on the languages and patterns I work with. Refreshed hourly; only the current year is shown so the list never goes stale."
         emptyMessage="The feed is briefly unavailable. Try again in a moment."
         tooltip="A live, hourly-refreshed list of community posts in the languages and patterns I work with. Only the current year is shown."
         source="dev.to"

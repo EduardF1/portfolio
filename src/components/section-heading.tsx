@@ -28,22 +28,28 @@ export function SectionHeading({
     .join(" ");
 
   const tooltipRef = useRef<HTMLSpanElement | null>(null);
-  const [flipped, setFlipped] = useState(false);
+  const [edgeOffset, setEdgeOffset] = useState(0);
 
-  // Right-edge overflow detection — flip the tooltip to the left of the icon
-  // when the right edge would clip outside the viewport. Recomputed on every
-  // hover/focus to handle scroll position and resize.
-  function checkOverflow() {
+  // Tooltip sits ABOVE the icon, centered horizontally on it. If the natural
+  // centred placement would clip the viewport (left or right), shift it
+  // horizontally just enough to stay on-canvas. Recomputed on hover/focus.
+  function checkEdge() {
     const el = tooltipRef.current;
     if (!el) return;
     const rect = el.getBoundingClientRect();
-    setFlipped(rect.right > window.innerWidth - 8);
+    const margin = 8;
+    let dx = 0;
+    if (rect.left < margin) dx = margin - rect.left;
+    else if (rect.right > window.innerWidth - margin) {
+      dx = window.innerWidth - margin - rect.right;
+    }
+    setEdgeOffset(dx);
   }
 
   useEffect(() => {
     if (!tooltip) return;
     function onResize() {
-      checkOverflow();
+      checkEdge();
     }
     window.addEventListener("resize", onResize);
     return () => window.removeEventListener("resize", onResize);
@@ -62,8 +68,8 @@ export function SectionHeading({
           {tooltip && (
             <span
               className="group/tooltip relative inline-flex"
-              onMouseEnter={checkOverflow}
-              onFocus={checkOverflow}
+              onMouseEnter={checkEdge}
+              onFocus={checkEdge}
             >
               <button
                 type="button"
@@ -75,28 +81,25 @@ export function SectionHeading({
               <span
                 ref={tooltipRef}
                 role="tooltip"
-                data-flip={flipped ? "true" : "false"}
                 style={{
-                  width: "clamp(280px, 38vw, 480px)",
-                  maxHeight: "6em",
+                  width: "max-content",
+                  maxWidth: "min(90vw, 360px)",
+                  // edgeOffset is added to the centring transform so a
+                  // tooltip about to clip the viewport edge slides over
+                  // just enough to stay visible.
+                  ["--tt-dx" as string]: `${edgeOffset}px`,
                 }}
                 className={[
-                  // Default (<640px): drop below the icon, page-padding-aware
-                  "pointer-events-none absolute left-0 top-full mt-2 z-10",
-                  // Default width override on small viewports
-                  "max-[639px]:!w-[min(calc(100vw-2rem),320px)]",
-                  // Above sm: anchor to the right of the icon, vertically centered
-                  "sm:left-full sm:top-1/2 sm:mt-0 sm:ml-2 sm:-translate-y-1/2",
-                  // Right-edge flip: switch to left-of-icon
-                  "data-[flip=true]:sm:left-auto data-[flip=true]:sm:right-full data-[flip=true]:sm:ml-0 data-[flip=true]:sm:mr-2",
-                  // Visuals
-                  "overflow-hidden rounded-md bg-foreground px-3 py-2 text-xs font-normal normal-case tracking-normal leading-[1.4] text-background shadow",
-                  // Reveal animation: opacity + 4px translate-x slide
-                  "opacity-0 translate-x-0 transition-[opacity,transform] duration-150",
-                  "group-hover/tooltip:pointer-events-auto group-hover/tooltip:opacity-100 group-hover/tooltip:translate-x-1",
-                  "group-focus-within/tooltip:pointer-events-auto group-focus-within/tooltip:opacity-100 group-focus-within/tooltip:translate-x-1",
-                  // Flipped slide direction
-                  "data-[flip=true]:group-hover/tooltip:-translate-x-1 data-[flip=true]:group-focus-within/tooltip:-translate-x-1",
+                  // Anchor: above the icon, centred horizontally on it
+                  "pointer-events-none absolute left-1/2 bottom-full mb-2 z-10",
+                  "-translate-x-1/2 translate-x-[var(--tt-dx)]",
+                  // Visuals — fit content (no forced width), comfortable padding
+                  "rounded-md bg-foreground px-3 py-2 text-xs font-normal normal-case tracking-normal leading-[1.4] text-background shadow",
+                  "whitespace-normal",
+                  // Reveal: opacity + 4px translate-y rise (from below into above)
+                  "opacity-0 transition-[opacity,transform] duration-150",
+                  "group-hover/tooltip:pointer-events-auto group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-1",
+                  "group-focus-within/tooltip:pointer-events-auto group-focus-within/tooltip:opacity-100 group-focus-within/tooltip:-translate-y-1",
                   // Reduced motion
                   "motion-reduce:transition-none motion-reduce:transform-none",
                 ].join(" ")}

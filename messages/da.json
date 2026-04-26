@@ -25,7 +25,7 @@
   },
   "home": {
     "hero": "Softwareingeniør, der bygger <em>stabile, forretningskritiske systemer</em>.",
-    "heroSubtitle": "Jeg er Eduard — softwareingeniør hos Mjølner Informatics i Aarhus. Rolig under kompleksitet, omhyggelig med kvaliteten og motiveret af langsigtede løsninger til forretningskritiske systemer.",
+    "heroSubtitle": "Jeg er Eduard, softwareingeniør hos Mjølner Informatics i Aarhus. Rolig under kompleksitet, omhyggelig med kvaliteten og motiveret af langsigtede løsninger til forretningskritiske systemer.",
     "aboutKicker": "Om mig",
     "experienceKicker": "Erfaring",
     "experienceHeading": "Fem år på tværs af fem virksomheder.",
@@ -45,7 +45,7 @@
   "skills": {
     "kicker": "Arbejder med",
     "heading": "Værktøjer og sprog, jeg har leveret med.",
-    "description": "Hentet fra CV'et — backend-tung full-stack med dybdedyk i mobil og værktøj. Klik et logo for at åbne dokumentationen.",
+    "description": "Hentet fra CV'et, backend-tung full-stack med dybdedyk i mobil og værktøj. Klik et logo for at åbne dokumentationen.",
     "categories": {
       "backend": "Backend",
       "frontend": "Frontend",
@@ -62,7 +62,7 @@
     "selected": "Udvalgt",
     "caseStudies": "{count, plural, one {# case} other {# cases}}",
     "openSourceHeading": "Open source & læring i det åbne",
-    "openSourceLead": "{count} offentlige repositories fra {years}+ års sideprojekter, studieopgaver og weekendeksperimenter — hentet direkte fra GitHub.",
+    "openSourceLead": "{count} offentlige repositories fra {years}+ års sideprojekter, studieopgaver og weekendeksperimenter, hentet direkte fra GitHub.",
     "feedShown": "{shown} af {total} vist",
     "search": "Søg repositories…",
     "all": "Alle",
@@ -70,7 +70,7 @@
   },
   "writing": {
     "kicker": "Indlæg og artikler",
-    "heading": "Noter fra praksis — og fra studietiden.",
+    "heading": "Noter fra praksis, og fra studietiden.",
     "description": "Korte essays om udvikling og konsulentarbejde, samt akademiske artikler fra min cand.scient.techn. i Technology-Based Business Development.",
     "posts": "Indlæg",
     "articles": "Artikler",
@@ -84,7 +84,7 @@
   "recommends": {
     "kicker": "Anbefalinger",
     "heading": "Ting, jeg har brugt og ville købe igen.",
-    "description": "En lille, ærlig samling af produkter, værktøjer og bøger, jeg vender tilbage til — med begrundelsen, ikke bare linket.",
+    "description": "En lille, ærlig samling af produkter, værktøjer og bøger, jeg vender tilbage til, med begrundelsen, ikke bare linket.",
     "noItems": "Ingen anbefalinger endnu.",
     "reviewed": "Anmeldt {date}",
     "visit": "Besøg produktet",
@@ -93,11 +93,11 @@
   "personal": {
     "kicker": "Uden for arbejdstiden",
     "heading": "Det, jeg laver, når jeg ikke sidder ved tastaturet.",
-    "description": "BVB om lørdagen, åben vej i weekenden, og den langsomme samling af lande på et vægkort. Den professionelle halvdel er den nemme halvdel — denne her er lidt mere ærlig.",
+    "description": "BVB om lørdagen, åben vej i weekenden, og den langsomme samling af lande på et vægkort. Den professionelle halvdel er den nemme halvdel: denne her er lidt mere ærlig.",
     "sections": {
       "footballKicker": "Fodbold",
       "footballHeading": "Lørdage i gult",
-      "footballLede": "Borussia Dortmund — det smukkeste kaos i fodbold. Træning om tirsdagen, kickoff om lørdagen, post-mortem om søndagen.",
+      "footballLede": "Borussia Dortmund: det smukkeste kaos i fodbold. Træning om tirsdagen, kickoff om lørdagen, post-mortem om søndagen.",
       "carsKicker": "På hjul",
       "carsHeading": "På vejen",
       "carsLede": "At køre er afkobling. Lange omveje gennem Jylland, en gang imellem en tur på autobahnen, og en pinligt stor mængde musik.",
@@ -111,7 +111,7 @@
   "travel": {
     "kicker": "Rejser",
     "heading": "Noter fra rejsen.",
-    "description": "Ture, steder og billeder — det samler sig langsomt. Den ikke-tekniske halvdel af hjernen.",
+    "description": "Ture, steder og billeder, det samler sig langsomt. Den ikke-tekniske halvdel af hjernen.",
     "noTrips": "Ingen rejser offentliggjort endnu.",
     "tripCount": "{count, plural, one {# rejse} other {# rejser}}",
     "all": "Alle rejser"
@@ -119,7 +119,7 @@
   "contact": {
     "kicker": "Kontakt",
     "heading": "Lad os tale sammen.",
-    "description": "Rekrutterere, kolleger og medkonsulenter — skriv endelig. Jeg læser alt og svarer inden for få dage.",
+    "description": "Rekrutterere, kolleger og medkonsulenter: skriv endelig. Jeg læser alt og svarer inden for få dage.",
     "form": {
       "name": "Dit navn",
       "email": "E-mail",
@@ -128,7 +128,7 @@
       "message": "Besked",
       "submit": "Send besked",
       "sending": "Sender…",
-      "successTitle": "Tak — modtaget.",
+      "successTitle": "Tak, modtaget.",
       "successBody": "Jeg svarer inden for få dage. Hører du intet, kan du skrive direkte til {email}.",
       "errorGeneric": "Noget gik galt. Prøv igen eller skriv direkte."
     }
@@ -140,16 +140,16 @@
     "woodsyCabin": "Skovhytte"
   },
   "tooltips": {
-    "about": "Hvem jeg er som konsulent — værdier, arbejdsstil og den slags opgaver, der passer mig bedst.",
+    "about": "Hvem jeg er som konsulent: værdier, arbejdsstil og den slags opgaver, der passer mig bedst.",
     "experience": "Fem år på tværs af fem virksomheder, nuværende rolle først. Klik på firmanavnene for at besøge deres hjemmesider.",
     "selectedWork": "Udvalgte casestudier fra forretningskritiske systemer, jeg har været med til at bygge.",
-    "openSource": "Live-feed af alle offentlige repositories, jeg har sendt — hentet direkte fra GitHub.",
+    "openSource": "Live-feed af alle offentlige repositories, jeg har sendt, hentet direkte fra GitHub.",
     "technologies": "Beskrivelse af en enkelt teknologi og et forfiltreret udsnit af open source-feedet nedenfor.",
-    "writingPosts": "Korte essays fra praksis — udvikling, konsulentarbejde og det midt imellem.",
+    "writingPosts": "Korte essays fra praksis: udvikling, konsulentarbejde og det midt imellem.",
     "writingArticles": "Akademiske artikler fra min cand.scient.techn. i Technology-Based Business Development på Aarhus Universitet.",
-    "testimonials": "Anbefalinger fra kolleger, kunder og akademiske vejledere — hentet fra LinkedIn og underskrevne breve.",
-    "recommends": "En lille, ærlig samling af ting, jeg ville købe igen — med begrundelsen, ikke bare linket.",
+    "testimonials": "Anbefalinger fra kolleger, kunder og akademiske vejledere, hentet fra LinkedIn og underskrevne breve.",
+    "recommends": "En lille, ærlig samling af ting, jeg ville købe igen, med begrundelsen, ikke bare linket.",
     "travel": "Ture, steder og billeder. Den ikke-tekniske side af hjernen.",
-    "contact": "Skriv endelig — jeg læser alt og svarer inden for få dage."
+    "contact": "Skriv endelig: jeg læser alt og svarer inden for få dage."
   }
 }

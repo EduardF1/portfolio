@@ -30,11 +30,11 @@ const instrumentSerif = Instrument_Serif({
 export const metadata: Metadata = {
   metadataBase: new URL("https://eduardfischer.dev"),
   title: {
-    default: "Eduard Fischer-Szava — Software Engineer & IT Consultant",
+    default: "Eduard Fischer-Szava, Software Engineer & IT Consultant",
     template: "%s · Eduard Fischer-Szava",
   },
   description:
-    "Software Engineer & IT Consultant in Aarhus, Denmark. Building stable, business-critical systems — currently at Mjølner Informatics.",
+    "Software Engineer & IT Consultant in Aarhus, Denmark. Building stable, business-critical systems, currently at Mjølner Informatics.",
   authors: [{ name: "Eduard Fischer-Szava" }],
   openGraph: {
     type: "website",

@@ -12,22 +12,22 @@ export const metadata = { title: "Personal" };
 const CAR_PHOTOS = [
   {
     src: "/photos/mar-2024-spring-evening.jpg",
-    alt: "Spring evening, March 2024 — countryside near Aarhus (location guess)",
+    alt: "Spring evening, March 2024, countryside near Aarhus (location guess)",
   },
   {
     src: "/photos/may-2024-late-spring.jpg",
-    alt: "Late spring drive, May 2024 — Jutland (location guess)",
+    alt: "Late spring drive, May 2024, Jutland (location guess)",
   },
   {
     src: "/photos/nov-2023-autumn.jpg",
-    alt: "Autumn light, November 2023 — Denmark (location guess)",
+    alt: "Autumn light, November 2023, Denmark (location guess)",
   },
 ];
 
 const TRAVEL_PHOTOS = [
   {
     src: "/photos/mar-2026-recent-trip.jpg",
-    alt: "March 2026 — recent trip, between contracts (location guess)",
+    alt: "March 2026, recent trip, between contracts (location guess)",
   },
   {
     src: "/photos/sep-2025-autumn-afternoon.jpg",

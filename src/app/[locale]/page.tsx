@@ -104,7 +104,7 @@ function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
           <div className="relative w-full max-w-[400px] aspect-square">
             <Image
               src="/images/hero/portrait.png"
-              alt="Eduard Fischer-Szava — portrait"
+              alt="Eduard Fischer-Szava, portrait"
               fill
               priority
               sizes="(min-width: 768px) 400px, 100vw"
@@ -129,7 +129,7 @@ function About() {
         </div>
         <div className="md:col-span-8 space-y-6 text-lg">
           <p className="text-foreground">
-            [Placeholder narrative — to be written by Eduard.] A few paragraphs
+            [Placeholder narrative, to be written by Eduard.] A few paragraphs
             reframing the CV opener as a story rather than bullets. Quality,
             correctness, operational reliability. Diplomatic, structured, calm
             under pressure.
@@ -160,7 +160,7 @@ function Experience() {
       company: "Mjølner Informatics",
       url: "https://mjolner.dk/en/",
       role: "Software Engineer / Consultant",
-      period: "Apr 2026 — Present",
+      period: "Apr 2026 – Present",
       location: "Aarhus, Denmark",
       summary:
         "Consulting on business-critical software for Danish enterprise and public-sector clients.",
@@ -170,17 +170,17 @@ function Experience() {
       company: "Netcompany",
       url: "https://www.netcompany.com/",
       role: "IT Consultant",
-      period: "Oct 2024 — Feb 2026",
+      period: "Oct 2024 – Feb 2026",
       location: "Aarhus, Denmark",
       summary:
-        "KOMBIT VALG — Denmark's administrative election platform. Full-stack C#/.NET + Angular. Summer 2025 stint at STIL on UA.dk EUD III.",
+        "KOMBIT VALG, Denmark's administrative election platform. Full-stack C#/.NET + Angular. Summer 2025 stint at STIL on UA.dk EUD III.",
       tech: ["csharp", "dotnet", "angular", "mssql", "azure-devops"],
     },
     {
       company: "Greenbyte",
       url: "https://www.greenbyte.com/",
       role: "Software Engineer",
-      period: "Nov 2021 — Sep 2024",
+      period: "Nov 2021 – Sep 2024",
       location: "Horsens, Denmark",
       summary:
         "Renewable-energy SaaS. .NET Core + EF Core + React. Architect and lead developer of the Flutter mobile companion app.",
@@ -190,7 +190,7 @@ function Experience() {
       company: "Boozt Fashion",
       url: "https://www.booztgroup.com/",
       role: "System Engineer",
-      period: "Oct 2021 — May 2022",
+      period: "Oct 2021 – May 2022",
       location: "Malmö, Sweden",
       summary:
         "Large-scale e-commerce backend in PHP/Symfony. Introduced Kanban; quality and test automation focus.",
@@ -200,7 +200,7 @@ function Experience() {
       company: "Systematic",
       url: "https://systematic.com/",
       role: "Junior Systems Engineer",
-      period: "Feb 2021 — Jun 2021",
+      period: "Feb 2021 – Jun 2021",
       location: "Aarhus, Denmark",
       summary:
         "Mission-critical SitaWare suite (Frontline, Edge). Java + Angular. NATO interoperability.",
@@ -289,9 +289,9 @@ function FeaturedWork() {
     {
       slug: "kombit-valg",
       title: "KOMBIT VALG",
-      kicker: "Netcompany · 2024 — present",
+      kicker: "Netcompany · 2024 – present",
       blurb:
-        "Full-stack engineering on Denmark's national administrative election platform — C# / .NET, Angular, and the integrations every Danish kommune depends on at poll time.",
+        "Full-stack engineering on Denmark's national administrative election platform, C# / .NET, Angular, and the integrations every Danish kommune depends on at poll time.",
     },
     {
       slug: "sitaware",
@@ -303,14 +303,14 @@ function FeaturedWork() {
     {
       slug: "greenbyte-saas",
       title: "Greenbyte SaaS + Mobile",
-      kicker: "Greenbyte · 2021 — 2024",
+      kicker: "Greenbyte · 2021 – 2024",
       blurb:
         "Three years on a renewable-energy SaaS platform. Full-stack .NET Core + React, and architect and lead developer of the Flutter / Dart mobile companion app.",
     },
     {
       slug: "boozt",
       title: "Boozt e-commerce backend",
-      kicker: "Boozt Fashion · 2021 — 2022",
+      kicker: "Boozt Fashion · 2021 – 2022",
       blurb:
         "PHP / Symfony backend on a large-scale Nordic fashion retailer. Feature work, automated testing, and a Kanban flow brought to the team.",
     },

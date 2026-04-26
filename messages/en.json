@@ -25,7 +25,7 @@
   },
   "home": {
     "hero": "Software Engineer building <em>stable, business-critical systems</em>.",
-    "heroSubtitle": "I'm Eduard — a Software Engineer at Mjølner Informatics in Aarhus. Calm under complexity, meticulous about quality, and motivated by long-term solutions for business-critical systems.",
+    "heroSubtitle": "I'm Eduard, a Software Engineer at Mjølner Informatics in Aarhus. Calm under complexity, meticulous about quality, and motivated by long-term solutions for business-critical systems.",
     "aboutKicker": "About",
     "experienceKicker": "Experience",
     "experienceHeading": "Five years across five companies.",
@@ -45,7 +45,7 @@
   "skills": {
     "kicker": "Working with",
     "heading": "Tools and languages I've shipped with.",
-    "description": "Curated from the CV — backend-leaning full-stack with deep-water dives into mobile and tooling. Click any logo for the official docs.",
+    "description": "Curated from the CV: backend-leaning full-stack with deep-water dives into mobile and tooling. Click any logo for the official docs.",
     "categories": {
       "backend": "Backend",
       "frontend": "Frontend",
@@ -62,7 +62,7 @@
     "selected": "Selected",
     "caseStudies": "{count, plural, one {# case study} other {# case studies}}",
     "openSourceHeading": "Open source & learning in public",
-    "openSourceLead": "{count} public repositories from {years}+ years of side-projects, course work, and weekend experiments — auto-pulled from GitHub.",
+    "openSourceLead": "{count} public repositories from {years}+ years of side-projects, course work, and weekend experiments, auto-pulled from GitHub.",
     "feedShown": "{shown} of {total} shown",
     "search": "Search repos…",
     "all": "All",
@@ -70,7 +70,7 @@
   },
   "writing": {
     "kicker": "Posts and articles",
-    "heading": "Notes from practice — and from the master's bench.",
+    "heading": "Notes from practice, and from the master's bench.",
     "description": "Short essays on engineering and consulting, plus academic articles from my MSc in Technology-Based Business Development.",
     "posts": "Posts",
     "articles": "Articles",
@@ -84,7 +84,7 @@
   "recommends": {
     "kicker": "Recommends",
     "heading": "Things I've used and would buy again.",
-    "description": "A small, honest collection of products, tools, and books I keep coming back to — with the reasoning, not just the link.",
+    "description": "A small, honest collection of products, tools, and books I keep coming back to, with the reasoning, not just the link.",
     "noItems": "No recommendations yet.",
     "reviewed": "Reviewed {date}",
     "visit": "Visit product",
@@ -93,11 +93,11 @@
   "personal": {
     "kicker": "Off the clock",
     "heading": "What I do when I'm not at the keyboard.",
-    "description": "BVB on Saturdays, the open road on weekends, and the slow accumulation of countries on a wall map. The professional half is the easy half — this one's a bit more honest.",
+    "description": "BVB on Saturdays, the open road on weekends, and the slow accumulation of countries on a wall map. The professional half is the easy half: this one's a bit more honest.",
     "sections": {
       "footballKicker": "Football",
       "footballHeading": "Saturdays in yellow",
-      "footballLede": "Borussia Dortmund — the most beautiful chaos in football. Tuesday training, Saturday kickoff, Sunday post-mortems.",
+      "footballLede": "Borussia Dortmund: the most beautiful chaos in football. Tuesday training, Saturday kickoff, Sunday post-mortems.",
       "carsKicker": "On wheels",
       "carsHeading": "On the road",
       "carsLede": "Driving as decompression. Long detours through Jutland, the occasional autobahn run, an embarrassing amount of music.",
@@ -111,7 +111,7 @@
   "travel": {
     "kicker": "Travel",
     "heading": "Notes from the road.",
-    "description": "Trips, places, pictures — slowly accumulating. The non-engineering side of the brain.",
+    "description": "Trips, places, pictures, slowly accumulating. The non-engineering side of the brain.",
     "noTrips": "No trips published yet.",
     "tripCount": "{count, plural, one {# trip} other {# trips}}",
     "all": "All trips"
@@ -119,7 +119,7 @@
   "contact": {
     "kicker": "Contact",
     "heading": "Let's talk.",
-    "description": "Recruiters, fellow engineers, fellow consultants — drop a line. I read everything and reply within a few days.",
+    "description": "Recruiters, fellow engineers, fellow consultants: drop a line. I read everything and reply within a few days.",
     "form": {
       "name": "Your name",
       "email": "Email",
@@ -128,7 +128,7 @@
       "message": "Message",
       "submit": "Send message",
       "sending": "Sending…",
-      "successTitle": "Thanks — got it.",
+      "successTitle": "Thanks, got it.",
       "successBody": "I'll reply within a few days. If you don't hear back, my email is {email}.",
       "errorGeneric": "Something went wrong. Please try again or email directly."
     }
@@ -140,16 +140,16 @@
     "woodsyCabin": "Woodsy Cabin"
   },
   "tooltips": {
-    "about": "Who I am as a consultant — values, working style, and the kind of work that suits me best.",
+    "about": "Who I am as a consultant: values, working style, and the kind of work that suits me best.",
     "experience": "Five years across five companies, current role first. Click company names for their websites.",
     "selectedWork": "Hand-picked case studies from business-critical systems I've helped build.",
-    "openSource": "Live feed of every public repo I've shipped — auto-pulled from GitHub.",
+    "openSource": "Live feed of every public repo I've shipped, auto-pulled from GitHub.",
     "technologies": "Description of a single tech and a pre-filtered slice of the open-source feed below.",
-    "writingPosts": "Short essays from practice — engineering, consulting, and the bits in between.",
+    "writingPosts": "Short essays from practice: engineering, consulting, and the bits in between.",
     "writingArticles": "Academic articles from my MSc in Technology-Based Business Development at Aarhus University.",
-    "testimonials": "Recommendations from colleagues, clients, and academic supervisors — pulled from LinkedIn and signed letters.",
-    "recommends": "A small, honest collection of things I'd buy again — with the reasoning, not just the link.",
+    "testimonials": "Recommendations from colleagues, clients, and academic supervisors, pulled from LinkedIn and signed letters.",
+    "recommends": "A small, honest collection of things I'd buy again, with the reasoning, not just the link.",
     "travel": "Trips, places, pictures. The non-engineering side of the brain.",
-    "contact": "Drop a line — I read everything and reply within a few days."
+    "contact": "Drop a line, I read everything and reply within a few days."
   }
 }

@@ -25,6 +25,12 @@ function avatarInitial(name: string): string {
   return trimmed ? trimmed.charAt(0).toUpperCase() : "?";
 }
 
+function linkedinHref(r: Recommendation): string {
+  if (r.linkedinUrl) return r.linkedinUrl;
+  const q = encodeURIComponent(`${r.author} ${r.company}`.trim());
+  return `https://www.linkedin.com/search/results/people/?keywords=${q}`;
+}
+
 export function RecommendationsCarousel({ recommendations, locale }: Props) {
   const slides = recommendations;
   const total = slides.length;
@@ -179,7 +185,15 @@ export function RecommendationsCarousel({ recommendations, locale }: Props) {
                       </span>
                     )}
                     <span>
-                      <span className="text-foreground">{r.author}</span>
+                      <a
+                        href={linkedinHref(r)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-foreground hover:text-accent transition-colors"
+                        aria-label={`${r.author} on LinkedIn`}
+                      >
+                        {r.author}
+                      </a>
                       {r.role && ` · ${r.role}`}
                       {r.company && `, ${r.company}`}
                     </span>
