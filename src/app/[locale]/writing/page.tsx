@@ -6,6 +6,7 @@ import { ReadingFeed } from "@/components/reading-feed";
 import { getCollection } from "@/lib/content";
 import { formatDate } from "@/lib/format";
 import { isReadingSource } from "@/lib/reading-feed";
+import { readingMinutes, formatReadingTime } from "@/lib/reading-time";
 
 export const metadata = { title: "Posts and articles" };
 
@@ -62,6 +63,12 @@ export default async function WritingPage({
                   </div>
                   <p className="font-mono text-xs text-foreground-subtle whitespace-nowrap">
                     {formatDate(p.frontmatter.date)}
+                    {readingMinutes(p.body) > 0 && (
+                      <>
+                        {" · "}
+                        {formatReadingTime(readingMinutes(p.body))}
+                      </>
+                    )}
                   </p>
                 </Link>
               </li>
