@@ -1,5 +1,5 @@
 import { cookies } from "next/headers";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import {
   bucketHitsByDay,
   countBy,
@@ -25,7 +25,6 @@ export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
 const ADMIN_COOKIE = "pf_admin";
-const COOKIE_TTL_DAYS = 90;
 const RANGE_TABS: RangeKey[] = ["today", "7d", "30d", "all"];
 const RANGE_LABEL: Record<RangeKey, string> = {
   today: "Today",
@@ -48,39 +47,35 @@ export default async function AdminStatsPage({
   const expected = process.env.ADMIN_SECRET;
 
   // Auth gate. Posture:
-  //   1. Anything that doesn't already hold pf_admin=1 OR present a
-  //      key that exactly equals process.env.ADMIN_SECRET is fed
-  //      `notFound()` (HTTP 404). We never return 401/403 because
-  //      that confirms the route exists; 404 makes the whole
+  //   1. Anything that doesn't already hold pf_admin=1 is sent to
+  //      `notFound()` (HTTP 404). We never return 401/403 — that
+  //      would confirm the route exists. 404 makes the whole
   //      `/admin/stats` surface invisible to drive-by probes.
-  //   2. `expected && sp.key === expected` is the strict-equality
-  //      gate. Both `sp.key` and `expected` must be non-empty
-  //      strings — an unset ADMIN_SECRET cannot be matched by an
-  //      empty `?key=` query, even though both would coerce to
-  //      empty string.
-  //   3. On a successful key match we mint a 90-day pf_admin
-  //      cookie (httpOnly + secure + sameSite=lax) so subsequent
-  //      visits don't need the secret in the URL. The cookie is a
-  //      static "1" — its ONLY job is to mark the browser as
-  //      previously-authenticated. There's no signature or rotation;
-  //      anyone with cookie-jar access to Eduard's machine has the
-  //      same trust level he does.
+  //   2. The `?key=` first-visit flow is handled by a sibling Route
+  //      Handler at `/admin/unlock` (Next 16 only allows cookie
+  //      mutation in Server Actions, Route Handlers, or Middleware
+  //      — not during Server Component render, which is why this
+  //      page can't mint the cookie itself). When a request lands
+  //      here with `?key=` and no cookie, we forward to the unlock
+  //      handler; on success it sets the cookie and redirects back.
+  //   3. The cookie is a static "1" — its ONLY job is to mark the
+  //      browser as previously-authenticated. There's no signature
+  //      or rotation; anyone with cookie-jar access to Eduard's
+  //      machine has the same trust level he does.
   //   4. There is no logout / cookie-revoke route. To revoke,
   //      rotate ADMIN_SECRET in Vercel and delete the cookie
   //      manually (the old cookie still says "1" but no key in any
   //      URL can re-mint it once the env var rotates).
-  let unlocked = adminCookie === "1";
-  if (!unlocked && sp.key && expected && sp.key === expected) {
-    cookieStore.set(ADMIN_COOKIE, "1", {
-      httpOnly: true,
-      sameSite: "lax",
-      secure: true,
-      path: "/",
-      maxAge: COOKIE_TTL_DAYS * 24 * 60 * 60,
-    });
-    unlocked = true;
+  const unlocked = adminCookie === "1";
+  if (!unlocked) {
+    if (sp.key && expected && sp.key === expected) {
+      const target = sp.range
+        ? `/admin/unlock?key=${encodeURIComponent(sp.key)}&range=${encodeURIComponent(sp.range)}`
+        : `/admin/unlock?key=${encodeURIComponent(sp.key)}`;
+      redirect(target);
+    }
+    notFound();
   }
-  if (!unlocked) notFound();
 
   // Empty-state when Upstash isn't configured.
   if (!isAnalyticsEnabled()) {

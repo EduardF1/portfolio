@@ -2,13 +2,16 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { cleanup, render, screen, within } from "@testing-library/react";
 import type { Hit } from "@/lib/analytics";
 
-const { cookieStore, notFoundFn, redisMocks } = vi.hoisted(() => ({
+const { cookieStore, notFoundFn, redirectFn, redisMocks } = vi.hoisted(() => ({
   cookieStore: {
     get: vi.fn<(name: string) => { value: string } | undefined>(),
     set: vi.fn(),
   },
   notFoundFn: vi.fn(() => {
     throw new Error("NEXT_NOT_FOUND");
+  }),
+  redirectFn: vi.fn((url: string) => {
+    throw new Error(`NEXT_REDIRECT:${url}`);
   }),
   redisMocks: {
     isAnalyticsEnabled: vi.fn<() => boolean>(),
@@ -23,6 +26,7 @@ vi.mock("next/headers", () => ({
 
 vi.mock("next/navigation", () => ({
   notFound: notFoundFn,
+  redirect: redirectFn,
 }));
 
 vi.mock("@/lib/redis-analytics", () => redisMocks);
@@ -52,6 +56,7 @@ beforeEach(() => {
   cookieStore.get.mockReset();
   cookieStore.set.mockReset();
   notFoundFn.mockClear();
+  redirectFn.mockClear();
   redisMocks.isAnalyticsEnabled.mockReset();
   redisMocks.getHits.mockReset();
   redisMocks.getUniqueSessionCount.mockReset();
@@ -95,25 +100,28 @@ describe("/admin/stats — auth gate", () => {
     ).rejects.toThrow("NEXT_NOT_FOUND");
   });
 
-  it("sets pf_admin cookie and unlocks when key matches", async () => {
+  it("redirects to /admin/unlock when key matches and no cookie is set", async () => {
     cookieStore.get.mockReturnValue(undefined);
-    redisMocks.isAnalyticsEnabled.mockReturnValue(false);
 
-    const tree = await AdminStatsPage({
-      searchParams: Promise.resolve({ key: "test-secret" }),
-    });
-    render(tree);
-
-    expect(cookieStore.set).toHaveBeenCalledWith(
-      "pf_admin",
-      "1",
-      expect.objectContaining({
-        httpOnly: true,
-        secure: true,
-        sameSite: "lax",
+    await expect(
+      AdminStatsPage({
+        searchParams: Promise.resolve({ key: "test-secret" }),
       }),
-    );
+    ).rejects.toThrow(/NEXT_REDIRECT:\/admin\/unlock\?key=test-secret/);
+
+    expect(redirectFn).toHaveBeenCalledWith("/admin/unlock?key=test-secret");
+    expect(cookieStore.set).not.toHaveBeenCalled();
     expect(notFoundFn).not.toHaveBeenCalled();
+  });
+
+  it("forwards range param through the redirect", async () => {
+    cookieStore.get.mockReturnValue(undefined);
+
+    await expect(
+      AdminStatsPage({
+        searchParams: Promise.resolve({ key: "test-secret", range: "30d" }),
+      }),
+    ).rejects.toThrow(/NEXT_REDIRECT:\/admin\/unlock\?key=test-secret&range=30d/);
   });
 
   it("unlocks when pf_admin cookie is already set, no key needed", async () => {
