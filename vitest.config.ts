@@ -23,9 +23,10 @@ export default defineConfig({
       provider: "v8",
       reporter: ["text", "json-summary", "html"],
       // Whole-codebase view (untested files count too) so the artifact tells
-      // us where the gaps are. Thresholds intentionally not enforced yet:
-      // baseline is ~36% statements at this commit and we'd rather see the
-      // number trend up than gate every PR. Tighten once coverage rises.
+      // us where the gaps are. Thresholds set comfortably below the current
+      // baseline (63.05% stmts / 57.06% branches / 68.92% funcs / 63.29%
+      // lines as of 2026-04-26) so small regressions are tolerated but a
+      // large drop fails CI. Tighten further as coverage rises.
       include: ["src/**/*.{ts,tsx}", "scripts/**/*.mjs"],
       exclude: [
         "src/**/*.test.{ts,tsx}",
@@ -35,6 +36,12 @@ export default defineConfig({
         "src/app/**/layout.tsx",
         "src/app/**/proxy.ts",
       ],
+      thresholds: {
+        statements: 60,
+        branches: 55,
+        functions: 65,
+        lines: 60,
+      },
     },
   },
 });
