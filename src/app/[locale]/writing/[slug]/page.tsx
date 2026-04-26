@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { ArrowLeft } from "lucide-react";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getCollection, getItem } from "@/lib/content";
 import { mdxComponents } from "@/components/mdx-components";
@@ -40,6 +40,7 @@ export default async function WritingItem({
   const item =
     (await getItem("writing", slug)) ?? (await getItem("articles", slug));
   if (!item) return notFound();
+  const t = await getTranslations("writing");
 
   return (
     <article className="container-prose pt-20 md:pt-28 pb-24">
@@ -47,7 +48,7 @@ export default async function WritingItem({
         href="/writing"
         className="inline-flex items-center gap-1 text-sm text-foreground-subtle hover:text-accent mb-12"
       >
-        <ArrowLeft className="h-4 w-4" /> All writing
+        <ArrowLeft className="h-4 w-4" /> {t("all")}
       </Link>
 
       <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">

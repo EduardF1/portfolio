@@ -13,7 +13,28 @@ import { cleanup, render, screen } from "@testing-library/react";
 vi.mock("server-only", () => ({}));
 
 vi.mock("next-intl/server", () => ({
-  getTranslations: async () => (key: string) => `tooltip:${key}`,
+  getTranslations: async (ns?: string) => (key: string, vars?: Record<string, unknown>) => {
+    const v = vars ?? {};
+    if (ns === "writing") {
+      const map: Record<string, string> = {
+        kicker: "Writing",
+        heading: "Notes from practice, and from the master's bench.",
+        description:
+          "Short essays on engineering and consulting, plus academic articles from my MSc in Technology-Based Business Development.",
+        posts: "Posts",
+        articles: "Articles",
+        articlesLead:
+          "Academic writing from my master's programme at Aarhus University.",
+        postCount: `${v.count ?? 0} ${v.count === 1 ? "post" : "posts"}`,
+        articleCount: `${v.count ?? 0} ${v.count === 1 ? "article" : "articles"}`,
+        noPosts: "No posts yet.",
+        noArticles: "No articles published yet.",
+        all: "All writing",
+      };
+      return map[key] ?? `writing.${key}`;
+    }
+    return `${ns ?? ""}:${key}`;
+  },
   setRequestLocale: () => {},
   getRequestConfig: () => () => ({}),
 }));

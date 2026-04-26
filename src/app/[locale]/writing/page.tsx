@@ -21,30 +21,30 @@ export default async function WritingPage({
     searchParams,
   ]);
   const t = await getTranslations("tooltips");
+  const tw = await getTranslations("writing");
   const source = isReadingSource(sp.reading) ? sp.reading : "devto";
 
   return (
     <>
       <section className="container-page pt-24 md:pt-28 pb-12">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
-          Writing
+          {tw("kicker")}
         </p>
-        <h1 className="max-w-3xl">Notes from practice, and from the master&apos;s bench.</h1>
-        <p className="mt-6 max-w-2xl text-lg">
-          Short essays on engineering and consulting, plus academic articles
-          from my MSc in Technology-Based Business Development.
-        </p>
+        <h1 className="max-w-3xl">{tw("heading")}</h1>
+        <p className="mt-6 max-w-2xl text-lg">{tw("description")}</p>
       </section>
 
       <section className="container-page py-12">
         <div className="flex items-end justify-between mb-8">
-          <SectionHeading tooltip={t("writingPosts")}>Posts</SectionHeading>
+          <SectionHeading tooltip={t("writingPosts")}>
+            {tw("posts")}
+          </SectionHeading>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-            {posts.length} {posts.length === 1 ? "post" : "posts"}
+            {tw("postCount", { count: posts.length })}
           </p>
         </div>
         {posts.length === 0 ? (
-          <PlaceholderEmpty>No posts yet.</PlaceholderEmpty>
+          <PlaceholderEmpty>{tw("noPosts")}</PlaceholderEmpty>
         ) : (
           <ul className="divide-y divide-border/60 border-y border-border/60">
             {posts.map((p) => (
@@ -80,17 +80,17 @@ export default async function WritingPage({
       <section className="container-page py-12 pb-24">
         <div className="flex items-end justify-between mb-8">
           <div>
-            <SectionHeading tooltip={t("writingArticles")}>Articles</SectionHeading>
-            <p className="mt-2 max-w-xl">
-              Academic writing from my master&apos;s programme at Aarhus University.
-            </p>
+            <SectionHeading tooltip={t("writingArticles")}>
+              {tw("articles")}
+            </SectionHeading>
+            <p className="mt-2 max-w-xl">{tw("articlesLead")}</p>
           </div>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-            {articles.length} {articles.length === 1 ? "article" : "articles"}
+            {tw("articleCount", { count: articles.length })}
           </p>
         </div>
         {articles.length === 0 ? (
-          <PlaceholderEmpty>No articles published yet.</PlaceholderEmpty>
+          <PlaceholderEmpty>{tw("noArticles")}</PlaceholderEmpty>
         ) : (
           <ul className="divide-y divide-border/60 border-y border-border/60">
             {articles.map((a) => (
