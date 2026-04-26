@@ -27,8 +27,17 @@ import { dayKey, type Hit } from "./analytics";
 type RedisCommand = (string | number)[];
 
 function redisEnv(): { url: string; token: string } | null {
-  const url = process.env.UPSTASH_REDIS_REST_URL;
-  const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+  // Two naming conventions are supported:
+  //   UPSTASH_REDIS_REST_URL/TOKEN  — when env vars are set manually
+  //                                   from the Upstash console.
+  //   KV_REST_API_URL/TOKEN         — what the Vercel↔Upstash
+  //                                   marketplace integration injects.
+  // Either one is sufficient; UPSTASH_* takes precedence so a manual
+  // override always wins.
+  const url =
+    process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL;
+  const token =
+    process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN;
   if (!url || !token) return null;
   return { url, token };
 }

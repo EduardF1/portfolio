@@ -10,6 +10,8 @@ describe("redis-analytics — env-var-less mode", () => {
   beforeEach(() => {
     delete process.env.UPSTASH_REDIS_REST_URL;
     delete process.env.UPSTASH_REDIS_REST_TOKEN;
+    delete process.env.KV_REST_API_URL;
+    delete process.env.KV_REST_API_TOKEN;
   });
 
   it("isAnalyticsEnabled() returns false when env vars are unset", async () => {
@@ -50,10 +52,14 @@ describe("redis-analytics — with env vars set", () => {
   beforeEach(() => {
     process.env.UPSTASH_REDIS_REST_URL = "https://example.upstash.io";
     process.env.UPSTASH_REDIS_REST_TOKEN = "test-token";
+    delete process.env.KV_REST_API_URL;
+    delete process.env.KV_REST_API_TOKEN;
   });
   afterEach(() => {
     delete process.env.UPSTASH_REDIS_REST_URL;
     delete process.env.UPSTASH_REDIS_REST_TOKEN;
+    delete process.env.KV_REST_API_URL;
+    delete process.env.KV_REST_API_TOKEN;
     vi.restoreAllMocks();
   });
 
@@ -157,5 +163,84 @@ describe("redis-analytics — with env vars set", () => {
     vi.spyOn(console, "error").mockImplementation(() => {});
     const mod = await loadModule();
     expect(await mod.getHits(["2026-04-26"])).toEqual([]);
+  });
+});
+
+describe("redis-analytics — KV_REST_API_* fallback (Vercel marketplace)", () => {
+  beforeEach(() => {
+    delete process.env.UPSTASH_REDIS_REST_URL;
+    delete process.env.UPSTASH_REDIS_REST_TOKEN;
+    process.env.KV_REST_API_URL = "https://kv-marketplace.upstash.io";
+    process.env.KV_REST_API_TOKEN = "kv-token";
+  });
+  afterEach(() => {
+    delete process.env.KV_REST_API_URL;
+    delete process.env.KV_REST_API_TOKEN;
+    vi.restoreAllMocks();
+  });
+
+  it("isAnalyticsEnabled() returns true when only KV_* vars are set", async () => {
+    const mod = await loadModule();
+    expect(mod.isAnalyticsEnabled()).toBe(true);
+  });
+
+  it("recordHit() POSTs to the KV_REST_API_URL when UPSTASH_* is unset", async () => {
+    const fetchMock = vi
+      .spyOn(globalThis, "fetch")
+      .mockResolvedValue(
+        new Response(JSON.stringify([{ result: 1 }]), {
+          status: 200,
+          headers: { "Content-Type": "application/json" },
+        }),
+      );
+    const mod = await loadModule();
+    await mod.recordHit({
+      path: "/",
+      ref: "",
+      country: null,
+      region: null,
+      city: null,
+      browser: "Chrome",
+      os: "macOS",
+      deviceType: "desktop",
+      sessionId: "x".repeat(32),
+      ts: Date.UTC(2026, 3, 27, 0, 0, 0),
+    });
+    const [url, init] = fetchMock.mock.calls[0]!;
+    expect(String(url)).toBe("https://kv-marketplace.upstash.io/pipeline");
+    expect((init as RequestInit).headers).toMatchObject({
+      Authorization: "Bearer kv-token",
+    });
+  });
+
+  it("UPSTASH_* takes precedence over KV_* when both are set", async () => {
+    process.env.UPSTASH_REDIS_REST_URL = "https://primary.upstash.io";
+    process.env.UPSTASH_REDIS_REST_TOKEN = "primary-token";
+    const fetchMock = vi
+      .spyOn(globalThis, "fetch")
+      .mockResolvedValue(
+        new Response(JSON.stringify([{ result: 1 }]), {
+          status: 200,
+          headers: { "Content-Type": "application/json" },
+        }),
+      );
+    const mod = await loadModule();
+    await mod.recordHit({
+      path: "/",
+      ref: "",
+      country: null,
+      region: null,
+      city: null,
+      browser: "Chrome",
+      os: "macOS",
+      deviceType: "desktop",
+      sessionId: "y".repeat(32),
+      ts: Date.now(),
+    });
+    const [url, init] = fetchMock.mock.calls[0]!;
+    expect(String(url)).toContain("primary.upstash.io");
+    expect((init as RequestInit).headers).toMatchObject({
+      Authorization: "Bearer primary-token",
+    });
   });
 });
