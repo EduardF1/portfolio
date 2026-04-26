@@ -38,9 +38,9 @@ export default async function Home({
   // headings (which the screen-reader pass already exposes).
   const sectionLinks: SectionLink[] = [
     { id: "about", label: t("home.aboutKicker") },
-    { id: "stats", label: "At a glance" },
+    { id: "stats", label: t("home.statsKicker") },
     { id: "experience", label: t("home.experienceKicker") },
-    { id: "how-i-work", label: "How I work" },
+    { id: "how-i-work", label: t("home.howIWorkKicker") },
     { id: "skills", label: t("skills.kicker") },
     ...(recommendations.length > 0
       ? [{ id: "recommends", label: t("testimonials.kicker") }]
@@ -401,34 +401,31 @@ function Experience() {
 
 function FeaturedWork() {
   const t = useTranslations();
+  const tw = useTranslations("home.featured");
   const projects = [
     {
       slug: "kombit-valg",
       title: "KOMBIT VALG",
       kicker: "Netcompany · 2024 – present",
-      blurb:
-        "Full-stack engineering on Denmark's national administrative election platform, C# / .NET, Angular, and the integrations every Danish kommune depends on at poll time.",
+      blurb: tw("kombit-valg"),
     },
     {
       slug: "sitaware",
       title: "SitaWare Frontline & Edge",
       kicker: "Systematic · 2021",
-      blurb:
-        "Internship on Systematic's NATO-grade C2 suite. Java + Angular feature work, defect triage, and Robot Framework UI test automation under FDD.",
+      blurb: tw("sitaware"),
     },
     {
       slug: "greenbyte-saas",
       title: "Greenbyte SaaS + Mobile",
       kicker: "Greenbyte · 2021 – 2024",
-      blurb:
-        "Three years on a renewable-energy SaaS platform. Full-stack .NET Core + React, and architect and lead developer of the Flutter / Dart mobile companion app.",
+      blurb: tw("greenbyte-saas"),
     },
     {
       slug: "boozt",
       title: "Boozt e-commerce backend",
       kicker: "Boozt Fashion · 2021 – 2022",
-      blurb:
-        "PHP / Symfony backend on a large-scale Nordic fashion retailer. Feature work, automated testing, and a Kanban flow brought to the team.",
+      blurb: tw("boozt"),
     },
   ];
 
