@@ -141,6 +141,43 @@
       "travelHeading": "Countries, slowly accumulating",
       "travelLede": "Cities for the food, mountains for the silence, coastlines for the wind.",
       "travelLink": "See trip notes"
+    },
+    "bvb": {
+      "tabs": {
+        "standings": "Standings",
+        "fixtures": "Next matches",
+        "results": "Recent results"
+      },
+      "mockBadge": "Sample data",
+      "unavailable": "BVB live feed unavailable.",
+      "seasonSummary": "Borussia Dortmund are competing in the Bundesliga and the DFB-Pokal this season; live standings, fixtures, and results return as soon as the feed is back online.",
+      "standings": {
+        "caption": "Bundesliga standings",
+        "position": "Pos",
+        "team": "Team",
+        "played": "P",
+        "won": "W",
+        "drawn": "D",
+        "lost": "L",
+        "goalDiff": "GD",
+        "points": "Pts",
+        "empty": "Standings unavailable."
+      },
+      "fixtures": {
+        "vs": "vs",
+        "at": "at",
+        "empty": "No upcoming matches scheduled."
+      },
+      "results": {
+        "vs": "vs",
+        "at": "at",
+        "empty": "No recent results available.",
+        "outcome": {
+          "W": "Win",
+          "D": "Draw",
+          "L": "Loss"
+        }
+      }
     }
   },
   "travel": {
