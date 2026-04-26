@@ -108,6 +108,64 @@ export async function GithubStats() {
           </div>
         </div>
       )}
+
+      <SvgCards user={stats.user} />
     </section>
+  );
+}
+
+/**
+ * SVG-rendered cards from anuraghazra/github-readme-stats and
+ * DenverCoder1/github-readme-streak-stats. Two variants per card —
+ * light and dark — toggled via <picture> + prefers-color-scheme so
+ * the cards follow the visitor's OS theme. Colors mirror the
+ * portfolio's accent palette: cyan #0E7490 in light, gold #D9BD86 in
+ * dark. Backgrounds are transparent so the surrounding card border
+ * shows through.
+ *
+ * Why <picture> instead of class-based theme switching: the SVG
+ * service renders one PNG-equivalent per request, so we can't hot-
+ * swap colors after load. prefers-color-scheme is the only signal
+ * available to the browser before the HTML hydrates.
+ */
+function SvgCards({ user }: { user: string }) {
+  const base = (theme: "light" | "dark") => {
+    const title = theme === "dark" ? "D9BD86" : "0E7490";
+    const text = theme === "dark" ? "a0aec0" : "4a5568";
+    return `bg_color=00000000&title_color=${title}&icon_color=${title}&text_color=${text}&hide_border=true`;
+  };
+  const stats = (theme: "light" | "dark") =>
+    `https://github-readme-stats.vercel.app/api?username=${user}&show_icons=true&include_all_commits=true&count_private=false&${base(theme)}`;
+  const langs = (theme: "light" | "dark") =>
+    `https://github-readme-stats.vercel.app/api/top-langs/?username=${user}&layout=compact&langs_count=8&${base(theme)}`;
+  const streak = (theme: "light" | "dark") => {
+    const title = theme === "dark" ? "D9BD86" : "0E7490";
+    const text = theme === "dark" ? "a0aec0" : "4a5568";
+    return `https://github-readme-streak-stats.herokuapp.com?user=${user}&background=00000000&hide_border=true&stroke=${title}&ring=${title}&fire=${title}&currStreakLabel=${title}&sideLabels=${text}&dates=${text}&currStreakNum=${text}&sideNums=${text}`;
+  };
+
+  const cards: Array<{ label: string; light: string; dark: string }> = [
+    { label: "GitHub stats", light: stats("light"), dark: stats("dark") },
+    { label: "Top languages", light: langs("light"), dark: langs("dark") },
+    { label: "Contribution streak", light: streak("light"), dark: streak("dark") },
+  ];
+
+  return (
+    <div
+      data-testid="github-stats-svg"
+      className="mt-6 grid gap-4 lg:grid-cols-2"
+    >
+      {cards.map(({ label, light, dark }) => (
+        <picture key={label}>
+          <source media="(prefers-color-scheme: dark)" srcSet={dark} />
+          <img
+            src={light}
+            alt={`${label} for @${user}`}
+            loading="lazy"
+            className="w-full max-w-full"
+          />
+        </picture>
+      ))}
+    </div>
   );
 }
