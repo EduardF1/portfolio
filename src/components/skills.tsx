@@ -27,6 +27,8 @@ function TechTile({ tech }: { tech: Tech }) {
       {tech.icon ? (
         // Devicon CDN — using <img> (not next/image) so we don't need
         // a remotePatterns entry in next.config.ts for cdn.jsdelivr.net.
+        // White-tile background so dark logos (Symfony, PHPUnit's mark, etc.)
+        // remain readable in dark mode and on coloured palette themes.
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={iconUrl(tech.icon)}
@@ -34,7 +36,7 @@ function TechTile({ tech }: { tech: Tech }) {
           width={32}
           height={32}
           loading="lazy"
-          className="h-8 w-8"
+          className="h-8 w-8 rounded bg-white p-0.5 object-contain"
         />
       ) : (
         <span

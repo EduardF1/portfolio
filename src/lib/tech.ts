@@ -402,7 +402,7 @@ export const TECHS: readonly Tech[] = [
     docsUrl: "https://docs.phpunit.de/",
     description:
       "PHPUnit is the de-facto unit-testing framework for PHP, modelled after the xUnit family. It is the default test runner for Symfony, Laravel, and most modern PHP applications.",
-    icon: "https://github.com/phpunit.png?size=128",
+    icon: "/logos/phpunit.svg",
     ghLanguage: "PHP",
   },
 
@@ -508,8 +508,102 @@ export const TECHS: readonly Tech[] = [
     docsUrl: "https://circleci.com/docs/",
     description:
       "CircleCI is a hosted continuous integration and delivery platform configured via YAML. Common in JS / TS / Ruby ecosystems and integrates cleanly with GitHub and Bitbucket repositories.",
-    icon: "circleci",
+    icon: "https://github.com/circleci.png?size=128",
     ghLanguage: null,
+  },
+  {
+    slug: "redis",
+    name: "Redis",
+    category: "data",
+    docsUrl: "https://redis.io/docs/",
+    description:
+      "Redis is an in-memory key/value data store. Used as cache, message broker, session store, and primary database for low-latency workloads. Lua scripting, pub/sub, streams, and replication are first-class.",
+    icon: "redis",
+    ghLanguage: null,
+  },
+  {
+    slug: "kafka",
+    name: "Apache Kafka",
+    category: "data",
+    docsUrl: "https://kafka.apache.org/documentation/",
+    description:
+      "Apache Kafka is a distributed event-streaming platform: durable, partitioned logs that decouple producers from consumers. Backbone of most modern event-driven and analytics pipelines.",
+    icon: "apachekafka",
+    ghLanguage: null,
+    aliases: ["kafka"],
+  },
+  {
+    slug: "postman",
+    name: "Postman",
+    category: "testing",
+    docsUrl: "https://learning.postman.com/docs/",
+    description:
+      "Postman is the de-facto API client and collaborative test workbench. Used for ad-hoc HTTP debugging, automated API tests, and shared collections across teams.",
+    icon: "postman",
+    ghLanguage: null,
+  },
+  {
+    slug: "vscode",
+    name: "VS Code",
+    category: "ops",
+    docsUrl: "https://code.visualstudio.com/docs",
+    description:
+      "Visual Studio Code is Microsoft's free, cross-platform code editor with a vast extension ecosystem. The default editor for a large share of working developers, including many on .NET, Python, and frontend stacks.",
+    icon: "vscode",
+    ghLanguage: null,
+    aliases: ["visual studio code", "code"],
+  },
+  {
+    slug: "visualstudio",
+    name: "Visual Studio",
+    category: "ops",
+    docsUrl: "https://learn.microsoft.com/en-us/visualstudio/",
+    description:
+      "Visual Studio is Microsoft's flagship IDE for .NET and C++ development on Windows (with Mac on retirement). Heavyweight tooling: profiler, designer, IntelliSense, integrated test runners.",
+    icon: "visualstudio",
+    ghLanguage: null,
+    aliases: ["vs"],
+  },
+  {
+    slug: "rider",
+    name: "JetBrains Rider",
+    category: "ops",
+    docsUrl: "https://www.jetbrains.com/help/rider/",
+    description:
+      "Rider is JetBrains' cross-platform IDE for .NET. Combines ReSharper-grade refactorings and inspections with the IntelliJ platform's UX, popular among Mac/Linux .NET teams and Unity developers.",
+    icon: "https://github.com/JetBrains.png?size=128",
+    ghLanguage: null,
+  },
+  {
+    slug: "webstorm",
+    name: "WebStorm",
+    category: "ops",
+    docsUrl: "https://www.jetbrains.com/help/webstorm/",
+    description:
+      "WebStorm is JetBrains' IDE for JavaScript / TypeScript and the wider web stack. Strong TypeScript-first refactorings, integrated debugging for Node and browsers, and deep framework support (React, Vue, Angular).",
+    icon: "https://github.com/JetBrains.png?size=128",
+    ghLanguage: null,
+  },
+  {
+    slug: "android-studio",
+    name: "Android Studio",
+    category: "ops",
+    docsUrl: "https://developer.android.com/studio",
+    description:
+      "Android Studio is the official IDE for native Android development, built on IntelliJ. Provides the Android Gradle plugin, layout inspector, profiler, and emulator tooling for Java and Kotlin app work.",
+    icon: "androidstudio",
+    ghLanguage: null,
+  },
+  {
+    slug: "jetbrains-toolbox",
+    name: "JetBrains Toolbox",
+    category: "ops",
+    docsUrl: "https://www.jetbrains.com/help/toolbox-app/",
+    description:
+      "JetBrains Toolbox is the install/update manager for the JetBrains IDE family (IntelliJ, Rider, WebStorm, PhpStorm, etc.). Central place for licences, settings sync, and side-by-side IDE versions.",
+    icon: "https://github.com/JetBrains.png?size=128",
+    ghLanguage: null,
+    aliases: ["toolbox"],
   },
 ] as const;
 

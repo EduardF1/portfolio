@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="PHPUnit">
+  <rect width="128" height="128" rx="20" fill="#5C9CCC"/>
+  <text x="64" y="60" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" letter-spacing="2">PHP</text>
+  <text x="64" y="98" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" letter-spacing="3">UNIT</text>
+</svg>
