@@ -21,7 +21,8 @@
     "available": "EU citizen · Aarhus, Denmark · Open to new opportunities, on-site or remote across CET ±2"
   },
   "footer": {
-    "rights": "Aarhus, Denmark"
+    "rights": "Aarhus, Denmark",
+    "lastSeenIn": "Last seen in"
   },
   "home": {
     "hero": "Software Engineer building <em>stable, business-critical systems</em>.",
