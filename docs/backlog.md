@@ -78,7 +78,7 @@
 - [ ] **Light-mode contrast pass** *(Architect)* — verify all three palettes hit WCAG AA on body text against the light theme; the Schwarzgelb/cream combo is borderline.
 - [ ] **`/now` page** *(PO)* — Derek-Sivers-style "what I'm focused on right now," updated every 1-2 months. Pairs nicely with the dynamic Reading feed.
 - [ ] **Contact-form attachment support** *(PO)* — accept a CV / portfolio PDF attachment and forward via Resend. For recruiters with a brief PDF.
-- [ ] **Honeypot field on contact form** *(Architect)* — invisible text input named "website" or similar; submissions with it filled are spam. Cheap and effective.
+- [x] ~~**Honeypot field on contact form** *(Architect)*~~ — shipped: hidden `<input name="website">` off-screen with `tabIndex={-1}` + `aria-hidden`. Server action silently feigns `status: "ok"` when filled, so bots don't learn the trap.
 
 ## Process notes
 
