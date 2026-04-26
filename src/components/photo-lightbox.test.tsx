@@ -33,6 +33,23 @@ describe("<PhotoLightbox />", () => {
     expect(container.firstChild).toBeNull();
   });
 
+  it("collapses the thumbnail grid for low photo counts", () => {
+    const single: LightboxPhoto[] = [{ src: "/photos/a.jpg", alt: "Solo" }];
+    const { container, rerender } = render(<PhotoLightbox photos={single} />);
+    const grid1 = container.querySelector(".grid") as HTMLElement;
+    expect(grid1.className).toContain("grid-cols-1");
+    expect(grid1.className).not.toContain("sm:grid-cols-2");
+
+    const pair: LightboxPhoto[] = [
+      { src: "/photos/a.jpg", alt: "A" },
+      { src: "/photos/b.jpg", alt: "B" },
+    ];
+    rerender(<PhotoLightbox photos={pair} />);
+    const grid2 = container.querySelector(".grid") as HTMLElement;
+    expect(grid2.className).toContain("sm:grid-cols-2");
+    expect(grid2.className).not.toContain("lg:grid-cols-3");
+  });
+
   it("opens the dialog on thumbnail click and closes on Escape", () => {
     render(<PhotoLightbox photos={photos} />);
     expect(screen.queryByRole("dialog")).toBeNull();

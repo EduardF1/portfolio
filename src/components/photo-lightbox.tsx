@@ -9,6 +9,7 @@ import {
   useState,
 } from "react";
 import Image from "next/image";
+import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 export type LightboxPhoto = {
   src: string;
@@ -177,7 +178,7 @@ export function PhotoLightbox({
 
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+      <div className={`grid ${responsiveGridColsClass(photos.length, 3)} gap-3`}>
         {photos.map((photo, i) => (
           <button
             key={`${photo.src}-${i}`}
