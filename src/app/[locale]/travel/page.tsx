@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/section-heading";
@@ -126,12 +127,12 @@ export default async function TravelPage({
                       className="relative aspect-[4/3] bg-surface"
                       aria-hidden="true"
                     >
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
+                      <Image
                         src={cover.src}
                         alt=""
-                        loading="lazy"
-                        className="h-full w-full object-cover"
+                        fill
+                        sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                        className="object-cover"
                       />
                     </div>
                     <div className="p-4">
