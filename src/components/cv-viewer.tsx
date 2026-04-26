@@ -30,11 +30,22 @@ export type CvLabels = {
   loadError: string;
   prev: string;
   next: string;
-  /** Render "Page X of Y" — passed in localised so the consumer owns ICU formatting. */
-  pageOf: (args: { current: number; total: number }) => string;
+  /**
+   * Template string with `{current}` and `{total}` placeholders, e.g.
+   * "Page {current} of {total}". Client substitutes at render time.
+   * Was a function previously, but functions can't cross the server→client
+   * boundary in RSC — that produced a runtime 500 in production.
+   */
+  pageOfTemplate: string;
   readonlyNote: string;
   directDownload: string;
 };
+
+function formatPageOf(template: string, current: number, total: number) {
+  return template
+    .replace("{current}", String(current))
+    .replace("{total}", String(total));
+}
 
 const PDF_WORKER_SRC = "/pdf/pdf.worker.min.mjs";
 
@@ -247,7 +258,7 @@ export function CvViewer({
           ref={canvasRef}
           aria-label={
             status === "ready"
-              ? labels.pageOf({ current: pageIndex, total: numPages })
+              ? formatPageOf(labels.pageOfTemplate, pageIndex, numPages)
               : labels.loading
           }
           className={
@@ -280,7 +291,7 @@ export function CvViewer({
           aria-live="polite"
         >
           {status === "ready"
-            ? labels.pageOf({ current: pageIndex, total: numPages })
+            ? formatPageOf(labels.pageOfTemplate, pageIndex, numPages)
             : "—"}
         </span>
         <button
