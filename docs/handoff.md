@@ -4,6 +4,8 @@
 
 ## Last commits pushed (origin/main)
 
+- `02e9a49` Per-route OG images for /writing, /recommends, /travel slug routes
+- `e938813` Handoff: tick per-route OG (work/[slug])
 - `6592d3e` Per-route OG images for /work/[slug] case studies
 - `187b8fe` Backlog + handoff: tick OG image generation
 - `44691c7` Add OG + Twitter share-image generation (next/og at edge)
@@ -49,7 +51,7 @@ Plus the chain from prior rounds: tech catalogue refresh, backlog restructure, v
 1. **Visit-notification daily digest** — needs Eduard's approval before shipping. Design proposal already in backlog (Vercel cron → Resend → fischer_eduard@yahoo.com).
 2. **`/blog` nav cluster** — Reddit + Danish-culture benchmark first (per `feedback_audience_benchmark.md`).
 3. **`/my-story` page** — same benchmark first. Eduard provides the narrative; layout work tracks structure.
-4. **Per-route OG images** — root + `/work/[slug]` shipped. Optional follow-ups: `/writing/[slug]` (post titles), `/recommends/[slug]` (product titles), `/travel/[slug]` (trip titles). All would mirror the `/work/[slug]` shape.
+4. **Per-route OG images** — root + all four collection slug routes (`/work`, `/writing`, `/recommends`, `/travel`) shipped. `/travel/culinary/[slug]` is the only sub-route still without a per-item card; trivially mirror the `/travel/[slug]` shape if/when you want one.
 5. **LinkedIn screenshots + CV-ledger tech pass** — GitHub side is well-covered now (13 techs added across two passes). Remaining gaps in those local artefacts (mind the PNG image-size budget; OCR or smaller resampled copies are safer than reading raw screenshots).
 6. **Tighten coverage thresholds** — once writing pages, theme provider, travel-europe-map, hero-video-bg have basic tests.
 
