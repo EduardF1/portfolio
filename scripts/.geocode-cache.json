@@ -1,0 +1,572 @@
+{
+  "55.57,12.84": {
+    "city": "Malmö kommun",
+    "country": "Sweden",
+    "display": "Malmö kommun, Sweden"
+  },
+  "36.81,31.45": {
+    "city": "Manavgat",
+    "country": "Turkey",
+    "display": "Manavgat, Turkey"
+  },
+  "50.84,4.36": {
+    "city": "Brussels",
+    "country": "Belgium",
+    "display": "Brussels, Belgium"
+  },
+  "50.01,5.72": {
+    "city": "Bastogne",
+    "country": "Belgium",
+    "display": "Bastogne, Belgium"
+  },
+  "49.60,6.13": {
+    "city": "Luxembourg",
+    "country": "Luxembourg",
+    "display": "Luxembourg, Luxembourg"
+  },
+  "51.05,3.72": {
+    "city": "Ghent",
+    "country": "Belgium",
+    "display": "Ghent, Belgium"
+  },
+  "55.87,9.90": {
+    "city": "Horsens",
+    "country": "Denmark",
+    "display": "Horsens, Denmark"
+  },
+  "55.87,9.89": {
+    "city": "Horsens",
+    "country": "Denmark",
+    "display": "Horsens, Denmark"
+  },
+  "55.86,9.84": {
+    "city": "Horsens",
+    "country": "Denmark",
+    "display": "Horsens, Denmark"
+  },
+  "40.93,24.42": {
+    "city": "Kavala",
+    "country": "Greece",
+    "display": "Kavala, Greece"
+  },
+  "45.51,25.57": {
+    "city": "Predeal",
+    "country": "Romania",
+    "display": "Predeal, Romania"
+  },
+  "45.58,25.64": {
+    "city": "Săcele",
+    "country": "Romania",
+    "display": "Săcele, Romania"
+  },
+  "55.89,9.81": {
+    "city": "Horsens",
+    "country": "Denmark",
+    "display": "Horsens, Denmark"
+  },
+  "55.84,9.85": {
+    "city": "Horsens",
+    "country": "Denmark",
+    "display": "Horsens, Denmark"
+  },
+  "55.74,9.13": {
+    "city": "Billund Municipality",
+    "country": "Denmark",
+    "display": "Billund Municipality, Denmark"
+  },
+  "55.73,9.13": {
+    "city": "Billund Municipality",
+    "country": "Denmark",
+    "display": "Billund Municipality, Denmark"
+  },
+  "56.46,9.16": {
+    "city": "Viborg Municipality",
+    "country": "Denmark",
+    "display": "Viborg Municipality, Denmark"
+  },
+  "56.47,9.16": {
+    "city": "Viborg Municipality",
+    "country": "Denmark",
+    "display": "Viborg Municipality, Denmark"
+  },
+  "56.46,9.17": {
+    "city": "Viborg Municipality",
+    "country": "Denmark",
+    "display": "Viborg Municipality, Denmark"
+  },
+  "56.28,10.47": {
+    "city": null,
+    "country": "Denmark",
+    "display": "Denmark"
+  },
+  "53.60,9.93": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "display": "Hamburg, Germany"
+  },
+  "53.56,9.96": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "display": "Hamburg, Germany"
+  },
+  "52.99,10.11": {
+    "city": "Munster",
+    "country": "Germany",
+    "display": "Munster, Germany"
+  },
+  "53.54,10.00": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "display": "Hamburg, Germany"
+  },
+  "44.43,26.15": {
+    "city": "Bucharest",
+    "country": "Romania",
+    "display": "Bucharest, Romania"
+  },
+  "55.86,9.85": {
+    "city": "Horsens",
+    "country": "Denmark",
+    "display": "Horsens, Denmark"
+  },
+  "56.00,8.13": {
+    "city": null,
+    "country": "Denmark",
+    "display": "Denmark"
+  },
+  "56.01,8.11": {
+    "city": "Ringkøbing-Skjern Municipality",
+    "country": "Denmark",
+    "display": "Ringkøbing-Skjern Municipality, Denmark"
+  },
+  "55.55,8.12": {
+    "city": "Varde Municipality",
+    "country": "Denmark",
+    "display": "Varde Municipality, Denmark"
+  },
+  "55.62,8.48": {
+    "city": "Varde Municipality",
+    "country": "Denmark",
+    "display": "Varde Municipality, Denmark"
+  },
+  "56.15,9.02": {
+    "city": "Herning Municipality",
+    "country": "Denmark",
+    "display": "Herning Municipality, Denmark"
+  },
+  "45.46,9.19": {
+    "city": "Milan",
+    "country": "Italy",
+    "display": "Milan, Italy"
+  },
+  "45.46,9.20": {
+    "city": "Milan",
+    "country": "Italy",
+    "display": "Milan, Italy"
+  },
+  "45.45,9.17": {
+    "city": "Milan",
+    "country": "Italy",
+    "display": "Milan, Italy"
+  },
+  "45.48,9.20": {
+    "city": "Milan",
+    "country": "Italy",
+    "display": "Milan, Italy"
+  },
+  "45.48,9.19": {
+    "city": "Milan",
+    "country": "Italy",
+    "display": "Milan, Italy"
+  },
+  "45.48,9.12": {
+    "city": "Milan",
+    "country": "Italy",
+    "display": "Milan, Italy"
+  },
+  "45.48,9.17": {
+    "city": "Milan",
+    "country": "Italy",
+    "display": "Milan, Italy"
+  },
+  "56.13,10.22": {
+    "city": "Aarhus",
+    "country": "Denmark",
+    "display": "Aarhus, Denmark"
+  },
+  "56.12,10.23": {
+    "city": "Aarhus",
+    "country": "Denmark",
+    "display": "Aarhus, Denmark"
+  },
+  "56.14,8.99": {
+    "city": "Herning Municipality",
+    "country": "Denmark",
+    "display": "Herning Municipality, Denmark"
+  },
+  "56.13,9.03": {
+    "city": "Herning Municipality",
+    "country": "Denmark",
+    "display": "Herning Municipality, Denmark"
+  },
+  "37.85,27.24": {
+    "city": null,
+    "country": "Turkey",
+    "display": "Turkey"
+  },
+  "37.92,29.12": {
+    "city": "Denizli",
+    "country": "Turkey",
+    "display": "Denizli, Turkey"
+  },
+  "37.84,27.26": {
+    "city": "Kuşadası",
+    "country": "Turkey",
+    "display": "Kuşadası, Turkey"
+  },
+  "37.77,27.27": {
+    "city": "Kuşadası",
+    "country": "Turkey",
+    "display": "Kuşadası, Turkey"
+  },
+  "37.86,27.26": {
+    "city": "Kuşadası",
+    "country": "Turkey",
+    "display": "Kuşadası, Turkey"
+  },
+  "41.02,28.97": {
+    "city": "Istanbul",
+    "country": "Turkey",
+    "display": "Istanbul, Turkey"
+  },
+  "41.01,28.98": {
+    "city": "Istanbul",
+    "country": "Turkey",
+    "display": "Istanbul, Turkey"
+  },
+  "44.43,26.10": {
+    "city": "Bucharest",
+    "country": "Romania",
+    "display": "Bucharest, Romania"
+  },
+  "45.41,25.53": {
+    "city": "Bușteni",
+    "country": "Romania",
+    "display": "Bușteni, Romania"
+  },
+  "45.40,25.45": {
+    "city": "Moroeni",
+    "country": "Romania",
+    "display": "Moroeni, Romania"
+  },
+  "45.36,25.54": {
+    "city": "Sinaia",
+    "country": "Romania",
+    "display": "Sinaia, Romania"
+  },
+  "45.57,25.64": {
+    "city": "Săcele",
+    "country": "Romania",
+    "display": "Săcele, Romania"
+  },
+  "46.59,23.79": {
+    "city": "Turda",
+    "country": "Romania",
+    "display": "Turda, Romania"
+  },
+  "39.87,20.00": {
+    "city": "Saranda",
+    "country": "Albania",
+    "display": "Saranda, Albania"
+  },
+  "39.87,20.01": {
+    "city": null,
+    "country": "Albania",
+    "display": "Albania"
+  },
+  "39.92,20.19": {
+    "city": "Mesopotam",
+    "country": "Albania",
+    "display": "Mesopotam, Albania"
+  },
+  "40.08,20.14": {
+    "city": "Gjirokastra",
+    "country": "Albania",
+    "display": "Gjirokastra, Albania"
+  },
+  "40.07,20.14": {
+    "city": "Gjirokastra",
+    "country": "Albania",
+    "display": "Gjirokastra, Albania"
+  },
+  "45.64,25.59": {
+    "city": "Brasov",
+    "country": "Romania",
+    "display": "Brasov, Romania"
+  },
+  "55.87,9.84": {
+    "city": "Horsens",
+    "country": "Denmark",
+    "display": "Horsens, Denmark"
+  },
+  "56.01,12.58": {
+    "city": "Helsingør Municipality",
+    "country": "Denmark",
+    "display": "Helsingør Municipality, Denmark"
+  },
+  "55.67,12.57": {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "display": "Copenhagen, Denmark"
+  },
+  "60.18,24.95": {
+    "city": "Helsinki",
+    "country": "Finland",
+    "display": "Helsinki, Finland"
+  },
+  "60.17,24.95": {
+    "city": "Helsinki",
+    "country": "Finland",
+    "display": "Helsinki, Finland"
+  },
+  "44.43,26.06": {
+    "city": "Bucharest",
+    "country": "Romania",
+    "display": "Bucharest, Romania"
+  },
+  "44.47,26.09": {
+    "city": "Bucharest",
+    "country": "Romania",
+    "display": "Bucharest, Romania"
+  },
+  "48.18,16.39": {
+    "city": "Vienna",
+    "country": "Austria",
+    "display": "Vienna, Austria"
+  },
+  "48.19,16.31": {
+    "city": "Vienna",
+    "country": "Austria",
+    "display": "Vienna, Austria"
+  },
+  "48.18,16.31": {
+    "city": "Vienna",
+    "country": "Austria",
+    "display": "Vienna, Austria"
+  },
+  "48.14,17.10": {
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "display": "Bratislava, Slovakia"
+  },
+  "48.14,17.11": {
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "display": "Bratislava, Slovakia"
+  },
+  "48.15,17.11": {
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "display": "Bratislava, Slovakia"
+  },
+  "48.74,19.15": {
+    "city": "Banská Bystrica",
+    "country": "Slovakia",
+    "display": "Banská Bystrica, Slovakia"
+  },
+  "48.74,19.14": {
+    "city": "Banská Bystrica",
+    "country": "Slovakia",
+    "display": "Banská Bystrica, Slovakia"
+  },
+  "48.73,19.14": {
+    "city": "Banská Bystrica",
+    "country": "Slovakia",
+    "display": "Banská Bystrica, Slovakia"
+  },
+  "48.79,19.10": {
+    "city": "Harmanec",
+    "country": "Slovakia",
+    "display": "Harmanec, Slovakia"
+  },
+  "49.31,20.04": {
+    "city": "Murzasichle",
+    "country": "Poland",
+    "display": "Murzasichle, Poland"
+  },
+  "49.29,20.31": {
+    "city": "Malá Franková",
+    "country": "Slovakia",
+    "display": "Malá Franková, Slovakia"
+  },
+  "49.41,20.37": {
+    "city": "Sromowce Wyżne",
+    "country": "Poland",
+    "display": "Sromowce Wyżne, Poland"
+  },
+  "49.29,19.96": {
+    "city": "Zakopane",
+    "country": "Poland",
+    "display": "Zakopane, Poland"
+  },
+  "49.23,20.09": {
+    "city": "Brzegi",
+    "country": "Poland",
+    "display": "Brzegi, Poland"
+  },
+  "50.03,19.18": {
+    "city": "Brzezinka",
+    "country": "Poland",
+    "display": "Brzezinka, Poland"
+  },
+  "50.26,19.02": {
+    "city": "Katowice",
+    "country": "Poland",
+    "display": "Katowice, Poland"
+  },
+  "50.06,19.94": {
+    "city": "Krakow",
+    "country": "Poland",
+    "display": "Krakow, Poland"
+  },
+  "48.76,16.23": {
+    "city": "Jaroslavice",
+    "country": "Czechia",
+    "display": "Jaroslavice, Czechia"
+  },
+  "55.67,12.56": {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "display": "Copenhagen, Denmark"
+  },
+  "55.47,8.45": {
+    "city": "Esbjerg",
+    "country": "Denmark",
+    "display": "Esbjerg, Denmark"
+  },
+  "36.76,-3.61": {
+    "city": "Salobreña",
+    "country": "Spain",
+    "display": "Salobreña, Spain"
+  },
+  "36.60,-4.51": {
+    "city": "Torremolinos",
+    "country": "Spain",
+    "display": "Torremolinos, Spain"
+  },
+  "36.75,-3.61": {
+    "city": "Salobreña",
+    "country": "Spain",
+    "display": "Salobreña, Spain"
+  },
+  "36.13,-5.35": {
+    "city": "Gibraltar",
+    "country": "Gibraltar",
+    "display": "Gibraltar, Gibraltar"
+  },
+  "36.14,-5.35": {
+    "city": "Gibraltar",
+    "country": "Gibraltar",
+    "display": "Gibraltar, Gibraltar"
+  },
+  "36.72,-4.42": {
+    "city": "Málaga",
+    "country": "Spain",
+    "display": "Málaga, Spain"
+  },
+  "36.74,-3.75": {
+    "city": "Almuñécar",
+    "country": "Spain",
+    "display": "Almuñécar, Spain"
+  },
+  "54.07,9.98": {
+    "city": "Neumünster",
+    "country": "Germany",
+    "display": "Neumünster, Germany"
+  },
+  "44.61,22.62": {
+    "city": "Kladovo Municipality",
+    "country": "Serbia",
+    "display": "Kladovo Municipality, Serbia"
+  },
+  "44.81,20.45": {
+    "city": "Savski Venac Urban Municipality",
+    "country": "Serbia",
+    "display": "Savski Venac Urban Municipality, Serbia"
+  },
+  "44.82,20.45": {
+    "city": "Stari Grad Urban Municipality",
+    "country": "Serbia",
+    "display": "Stari Grad Urban Municipality, Serbia"
+  },
+  "44.81,20.46": {
+    "city": "Savski Venac Urban Municipality",
+    "country": "Serbia",
+    "display": "Savski Venac Urban Municipality, Serbia"
+  },
+  "44.81,20.47": {
+    "city": "Palilula Urban Municipality",
+    "country": "Serbia",
+    "display": "Palilula Urban Municipality, Serbia"
+  },
+  "46.05,14.51": {
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "display": "Ljubljana, Slovenia"
+  },
+  "44.88,13.85": {
+    "city": "Grad Pula",
+    "country": "Croatia",
+    "display": "Grad Pula, Croatia"
+  },
+  "44.87,13.85": {
+    "city": "Grad Pula",
+    "country": "Croatia",
+    "display": "Grad Pula, Croatia"
+  },
+  "44.84,13.83": {
+    "city": "Istria County",
+    "country": "Croatia",
+    "display": "Istria County, Croatia"
+  },
+  "45.65,13.78": {
+    "city": "Trieste",
+    "country": "Italy",
+    "display": "Trieste, Italy"
+  },
+  "45.65,13.77": {
+    "city": "Trieste",
+    "country": "Italy",
+    "display": "Trieste, Italy"
+  },
+  "46.56,13.28": {
+    "city": "Hermagor-Pressegger See",
+    "country": "Austria",
+    "display": "Hermagor-Pressegger See, Austria"
+  },
+  "47.12,12.50": {
+    "city": "Matrei in Osttirol",
+    "country": "Austria",
+    "display": "Matrei in Osttirol, Austria"
+  },
+  "47.57,10.74": {
+    "city": "Schwangau",
+    "country": "Germany",
+    "display": "Schwangau, Germany"
+  },
+  "47.55,10.74": {
+    "city": "Schwangau",
+    "country": "Germany",
+    "display": "Schwangau, Germany"
+  },
+  "47.56,10.75": {
+    "city": "Schwangau",
+    "country": "Germany",
+    "display": "Schwangau, Germany"
+  },
+  "48.05,10.88": {
+    "city": "Landsberg am Lech",
+    "country": "Germany",
+    "display": "Landsberg am Lech, Germany"
+  }
+}

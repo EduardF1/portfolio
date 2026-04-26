@@ -1,0 +1,3455 @@
+[
+  {
+    "src": "IMG_20160911_140308.jpg",
+    "takenAt": "2016-09-11T14:03:09Z",
+    "hasGps": false,
+    "cameraModel": "ALE-L21"
+  },
+  {
+    "src": "IMG_20161009_205736.jpg",
+    "takenAt": "2016-10-09T20:57:37Z",
+    "hasGps": false,
+    "cameraModel": "ALE-L21"
+  },
+  {
+    "src": "IMG_20180408_194257.jpg",
+    "takenAt": "2018-04-08T19:42:58Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 55.57296,
+      "lon": 12.8383
+    },
+    "place": {
+      "city": "Malmö kommun",
+      "country": "Sweden",
+      "display": "Malmö kommun, Sweden"
+    }
+  },
+  {
+    "src": "IMG_20180422_135534.jpg",
+    "takenAt": "2018-04-22T13:55:34Z",
+    "hasGps": false,
+    "cameraModel": "RNE-L21"
+  },
+  {
+    "src": "IMG_20180718_095840.jpg",
+    "takenAt": "2018-07-18T09:58:42Z",
+    "hasGps": false,
+    "cameraModel": "RNE-L21"
+  },
+  {
+    "src": "IMG_20180818_093554.jpg",
+    "takenAt": "2018-08-18T09:35:55Z",
+    "hasGps": false,
+    "cameraModel": "RNE-L21"
+  },
+  {
+    "src": "IMG_20190716_191647.jpg",
+    "takenAt": "2019-07-16T19:16:48Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 36.81492,
+      "lon": 31.45229
+    },
+    "place": {
+      "city": "Manavgat",
+      "country": "Turkey",
+      "display": "Manavgat, Turkey"
+    }
+  },
+  {
+    "src": "IMG_20190721_193517.jpg",
+    "takenAt": "2019-07-21T19:35:22Z",
+    "hasGps": false,
+    "cameraModel": "RNE-L21"
+  },
+  {
+    "src": "IMG_20190726_202912.jpg",
+    "takenAt": "2019-07-26T20:29:17Z",
+    "hasGps": false,
+    "cameraModel": "RNE-L21"
+  },
+  {
+    "src": "IMG_20190729_141017.jpg",
+    "takenAt": "2019-07-29T14:10:18Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 50.84307,
+      "lon": 4.36469
+    },
+    "place": {
+      "city": "Brussels",
+      "country": "Belgium",
+      "display": "Brussels, Belgium"
+    }
+  },
+  {
+    "src": "IMG_20190729_141513.jpg",
+    "takenAt": "2019-07-29T14:15:14Z",
+    "hasGps": false,
+    "cameraModel": "RNE-L21"
+  },
+  {
+    "src": "IMG_20190730_145421.jpg",
+    "takenAt": "2019-07-30T14:54:21Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 50.00927,
+      "lon": 5.71887
+    },
+    "place": {
+      "city": "Bastogne",
+      "country": "Belgium",
+      "display": "Bastogne, Belgium"
+    }
+  },
+  {
+    "src": "IMG_20190730_194048.jpg",
+    "takenAt": "2019-07-30T19:40:49Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 49.60476,
+      "lon": 6.13384
+    },
+    "place": {
+      "city": "Luxembourg",
+      "country": "Luxembourg",
+      "display": "Luxembourg, Luxembourg"
+    }
+  },
+  {
+    "src": "IMG_20190731_152721.jpg",
+    "takenAt": "2019-07-31T15:27:21Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 51.05355,
+      "lon": 3.71882
+    },
+    "place": {
+      "city": "Ghent",
+      "country": "Belgium",
+      "display": "Ghent, Belgium"
+    }
+  },
+  {
+    "src": "IMG_20190731_153659.jpg",
+    "takenAt": "2019-07-31T15:36:59Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 51.05405,
+      "lon": 3.72043
+    },
+    "place": {
+      "city": "Ghent",
+      "country": "Belgium",
+      "display": "Ghent, Belgium"
+    }
+  },
+  {
+    "src": "IMG_20200217_093523.jpg",
+    "takenAt": "2020-02-17T09:35:24Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 55.87143,
+      "lon": 9.89926
+    },
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20200217_161219.jpg",
+    "takenAt": "2020-02-17T16:12:20Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 55.87099,
+      "lon": 9.88673
+    },
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220329_124456.jpg",
+    "takenAt": "2022-03-29T12:44:57Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.86384,
+      "lon": 9.83765
+    },
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220717_125419.jpg",
+    "takenAt": "2022-07-17T12:54:20Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 40.93479,
+      "lon": 24.4175
+    },
+    "place": {
+      "city": "Kavala",
+      "country": "Greece",
+      "display": "Kavala, Greece"
+    }
+  },
+  {
+    "src": "IMG_20220807_165208.jpg",
+    "takenAt": "2022-08-07T16:52:09Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.51238,
+      "lon": 25.57258
+    },
+    "place": {
+      "city": "Predeal",
+      "country": "Romania",
+      "display": "Predeal, Romania"
+    }
+  },
+  {
+    "src": "IMG_20220807_172701.jpg",
+    "takenAt": "2022-08-07T17:27:01Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.58292,
+      "lon": 25.63574
+    },
+    "place": {
+      "city": "Săcele",
+      "country": "Romania",
+      "display": "Săcele, Romania"
+    }
+  },
+  {
+    "src": "IMG_20220810_184009.jpg",
+    "takenAt": "2022-08-10T18:40:09Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.89358,
+      "lon": 9.80573
+    },
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220812_163230.jpg",
+    "takenAt": "2022-08-12T16:32:30Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.84392,
+      "lon": 9.8469
+    },
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220827_115013.jpg",
+    "takenAt": "2022-08-27T11:50:14Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.73521,
+      "lon": 9.13123
+    },
+    "place": {
+      "city": "Billund Municipality",
+      "country": "Denmark",
+      "display": "Billund Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220827_115802.jpg",
+    "takenAt": "2022-08-27T11:58:02Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.73512,
+      "lon": 9.13138
+    },
+    "place": {
+      "city": "Billund Municipality",
+      "country": "Denmark",
+      "display": "Billund Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220827_122429.jpg",
+    "takenAt": "2022-08-27T12:24:29Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.73536,
+      "lon": 9.12927
+    },
+    "place": {
+      "city": "Billund Municipality",
+      "country": "Denmark",
+      "display": "Billund Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220827_122447.jpg",
+    "takenAt": "2022-08-27T12:24:47Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.73536,
+      "lon": 9.12927
+    },
+    "place": {
+      "city": "Billund Municipality",
+      "country": "Denmark",
+      "display": "Billund Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220827_122602.jpg",
+    "takenAt": "2022-08-27T12:26:03Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.73496,
+      "lon": 9.12916
+    },
+    "place": {
+      "city": "Billund Municipality",
+      "country": "Denmark",
+      "display": "Billund Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220827_123308.jpg",
+    "takenAt": "2022-08-27T12:33:08Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.7356,
+      "lon": 9.12775
+    },
+    "place": {
+      "city": "Billund Municipality",
+      "country": "Denmark",
+      "display": "Billund Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220827_123405.jpg",
+    "takenAt": "2022-08-27T12:34:06Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.73508,
+      "lon": 9.12883
+    },
+    "place": {
+      "city": "Billund Municipality",
+      "country": "Denmark",
+      "display": "Billund Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220827_123544.jpg",
+    "takenAt": "2022-08-27T12:35:44Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.73544,
+      "lon": 9.12746
+    },
+    "place": {
+      "city": "Billund Municipality",
+      "country": "Denmark",
+      "display": "Billund Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220827_123901.jpg",
+    "takenAt": "2022-08-27T12:39:02Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.73483,
+      "lon": 9.12904
+    },
+    "place": {
+      "city": "Billund Municipality",
+      "country": "Denmark",
+      "display": "Billund Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220910_154404.jpg",
+    "takenAt": "2022-09-10T15:44:04Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 56.45823,
+      "lon": 9.16318
+    },
+    "place": {
+      "city": "Viborg Municipality",
+      "country": "Denmark",
+      "display": "Viborg Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220910_154715.jpg",
+    "takenAt": "2022-09-10T15:47:15Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 56.47297,
+      "lon": 9.16016
+    },
+    "place": {
+      "city": "Viborg Municipality",
+      "country": "Denmark",
+      "display": "Viborg Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20220910_155440.jpg",
+    "takenAt": "2022-09-10T15:54:41Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 56.45643,
+      "lon": 9.16708
+    },
+    "place": {
+      "city": "Viborg Municipality",
+      "country": "Denmark",
+      "display": "Viborg Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20221015_165451.jpg",
+    "takenAt": "2022-10-15T16:54:51Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 56.27856,
+      "lon": 10.47494
+    },
+    "place": {
+      "city": null,
+      "country": "Denmark",
+      "display": "Denmark"
+    }
+  },
+  {
+    "src": "IMG_20221015_165925.jpg",
+    "takenAt": "2022-10-15T16:59:26Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 56.27642,
+      "lon": 10.47307
+    },
+    "place": {
+      "city": null,
+      "country": "Denmark",
+      "display": "Denmark"
+    }
+  },
+  {
+    "src": "IMG_20221021_110324.jpg",
+    "takenAt": "2022-10-21T11:03:24Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.59609,
+      "lon": 9.93488
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221021_111658.jpg",
+    "takenAt": "2022-10-21T11:16:59Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.59671,
+      "lon": 9.93493
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221021_112444.jpg",
+    "takenAt": "2022-10-21T11:24:45Z",
+    "hasGps": false,
+    "cameraModel": "CDY-NX9A"
+  },
+  {
+    "src": "IMG_20221021_130406.jpg",
+    "takenAt": "2022-10-21T13:04:07Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.56256,
+      "lon": 9.96404
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221021_155338.jpg",
+    "takenAt": "2022-10-21T15:53:38Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 52.98667,
+      "lon": 10.109
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221021_155749.jpg",
+    "takenAt": "2022-10-21T15:57:50Z",
+    "hasGps": false,
+    "cameraModel": "CDY-NX9A"
+  },
+  {
+    "src": "IMG_20221022_111803.jpg",
+    "takenAt": "2022-10-22T11:18:03Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.54306,
+      "lon": 9.99889
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221022_113410.jpg",
+    "takenAt": "2022-10-22T11:34:10Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.54305,
+      "lon": 9.99918
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221022_113457.jpg",
+    "takenAt": "2022-10-22T11:34:57Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.54305,
+      "lon": 9.99907
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221022_113759.jpg",
+    "takenAt": "2022-10-22T11:37:59Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.54331,
+      "lon": 9.99978
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221022_114756.jpg",
+    "takenAt": "2022-10-22T11:47:56Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.54317,
+      "lon": 9.99975
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221022_124051.jpg",
+    "takenAt": "2022-10-22T12:40:51Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.54262,
+      "lon": 9.99964
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221022_124625.jpg",
+    "takenAt": "2022-10-22T12:46:25Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.54271,
+      "lon": 9.9997
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221022_125945.jpg",
+    "takenAt": "2022-10-22T12:59:46Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.54314,
+      "lon": 9.99987
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221022_130247.jpg",
+    "takenAt": "2022-10-22T13:02:47Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.54319,
+      "lon": 9.99965
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221022_130308.jpg",
+    "takenAt": "2022-10-22T13:03:08Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.54308,
+      "lon": 9.99998
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221022_130845.jpg",
+    "takenAt": "2022-10-22T13:08:45Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.54317,
+      "lon": 9.99982
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "IMG_20221225_211840.jpg",
+    "takenAt": "2022-12-25T21:18:37Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 44.43044,
+      "lon": 26.15017
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG_20230202_072147.jpg",
+    "takenAt": "2023-02-02T07:21:47Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.8593,
+      "lon": 9.84693
+    },
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20230211_151511.jpg",
+    "takenAt": "2023-02-11T15:15:11Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.99862,
+      "lon": 8.1287
+    },
+    "place": {
+      "city": null,
+      "country": "Denmark",
+      "display": "Denmark"
+    }
+  },
+  {
+    "src": "IMG_20230211_152253.jpg",
+    "takenAt": "2023-02-11T15:22:53Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 56.00573,
+      "lon": 8.11178
+    },
+    "place": {
+      "city": "Ringkøbing-Skjern Municipality",
+      "country": "Denmark",
+      "display": "Ringkøbing-Skjern Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20230211_175355.jpg",
+    "takenAt": "2023-02-11T17:53:55Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.55149,
+      "lon": 8.1161
+    },
+    "place": {
+      "city": "Varde Municipality",
+      "country": "Denmark",
+      "display": "Varde Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20230211_184805.jpg",
+    "takenAt": "2023-02-11T18:48:02Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.61969,
+      "lon": 8.48198
+    },
+    "place": {
+      "city": "Varde Municipality",
+      "country": "Denmark",
+      "display": "Varde Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20230316_130156.jpg",
+    "takenAt": "2023-03-16T13:01:57Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 56.15375,
+      "lon": 9.01855
+    },
+    "place": {
+      "city": "Herning Municipality",
+      "country": "Denmark",
+      "display": "Herning Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20230402_095914_BURST012.jpg",
+    "takenAt": "2023-04-02T09:59:16Z",
+    "hasGps": false,
+    "cameraModel": "CDY-NX9A"
+  },
+  {
+    "src": "IMG_20230402_181257.jpg",
+    "takenAt": "2023-04-02T18:12:57Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.4645,
+      "lon": 9.19026
+    },
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "IMG_20230403_150233.jpg",
+    "takenAt": "2023-04-03T15:02:33Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.46276,
+      "lon": 9.19563
+    },
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "IMG_20230403_151118.jpg",
+    "takenAt": "2023-04-03T15:11:18Z",
+    "hasGps": false,
+    "cameraModel": "CDY-NX9A"
+  },
+  {
+    "src": "IMG_20230403_155754.jpg",
+    "takenAt": "2023-04-03T15:57:54Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.46302,
+      "lon": 9.19141
+    },
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "IMG_20230403_164137.jpg",
+    "takenAt": "2023-04-03T16:41:38Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.46393,
+      "lon": 9.19172
+    },
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "IMG_20230403_173746.jpg",
+    "takenAt": "2023-04-03T17:37:46Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.46477,
+      "lon": 9.19061
+    },
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "IMG_20230403_174426.jpg",
+    "takenAt": "2023-04-03T17:44:26Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.46461,
+      "lon": 9.19203
+    },
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "IMG_20230403_201928.jpg",
+    "takenAt": "2023-04-03T20:19:29Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.4542,
+      "lon": 9.17468
+    },
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "IMG_20230403_221418.jpg",
+    "takenAt": "2023-04-03T22:14:18Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.48283,
+      "lon": 9.19996
+    },
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "IMG_20230404_141931.jpg",
+    "takenAt": "2023-04-04T14:19:31Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.48281,
+      "lon": 9.19353
+    },
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "IMG_20230404_142813.jpg",
+    "takenAt": "2023-04-04T14:28:13Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.48475,
+      "lon": 9.19117
+    },
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "IMG_20230404_151014.jpg",
+    "takenAt": "2023-04-04T15:10:14Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.47616,
+      "lon": 9.12062
+    },
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "IMG_20230404_161315.jpg",
+    "takenAt": "2023-04-04T16:13:15Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.47632,
+      "lon": 9.17161
+    },
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "IMG_20230405_122143.jpg",
+    "takenAt": "2023-04-05T12:21:43Z",
+    "hasGps": false,
+    "cameraModel": "CDY-NX9A"
+  },
+  {
+    "src": "IMG_20230405_193409.jpg",
+    "takenAt": "2023-04-05T19:34:09Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.46421,
+      "lon": 9.18959
+    },
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "IMG_20230408_131536.jpg",
+    "takenAt": "2023-04-08T13:15:36Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 56.12648,
+      "lon": 10.21513
+    },
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20230408_135209.jpg",
+    "takenAt": "2023-04-08T13:52:09Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 56.11823,
+      "lon": 10.22786
+    },
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20230424_164828.jpg",
+    "takenAt": "2023-04-24T16:48:28Z",
+    "hasGps": false,
+    "cameraModel": "CDY-NX9A"
+  },
+  {
+    "src": "IMG_20230614_125353.jpg",
+    "takenAt": "2023-06-14T12:53:53Z",
+    "hasGps": false,
+    "cameraModel": "CDY-NX9A"
+  },
+  {
+    "src": "IMG_20230614_163409.jpg",
+    "takenAt": "2023-06-14T16:34:10Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 56.14034,
+      "lon": 8.99111
+    },
+    "place": {
+      "city": "Herning Municipality",
+      "country": "Denmark",
+      "display": "Herning Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20230703_205804.jpg",
+    "takenAt": "2023-07-03T20:58:04Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 56.12812,
+      "lon": 9.0313
+    },
+    "place": {
+      "city": "Herning Municipality",
+      "country": "Denmark",
+      "display": "Herning Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG_20230710_200805.jpg",
+    "takenAt": "2023-07-10T20:08:05Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 37.84557,
+      "lon": 27.24331
+    },
+    "place": {
+      "city": null,
+      "country": "Turkey",
+      "display": "Turkey"
+    }
+  },
+  {
+    "src": "IMG_20230710_212607.jpg",
+    "takenAt": "2023-07-10T21:26:07Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 37.84534,
+      "lon": 27.24337
+    },
+    "place": {
+      "city": null,
+      "country": "Turkey",
+      "display": "Turkey"
+    }
+  },
+  {
+    "src": "IMG_20230711_144619.jpg",
+    "takenAt": "2023-07-11T14:46:19Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 37.9193,
+      "lon": 29.12166
+    },
+    "place": {
+      "city": "Denizli",
+      "country": "Turkey",
+      "display": "Denizli, Turkey"
+    }
+  },
+  {
+    "src": "IMG_20230711_144801.jpg",
+    "takenAt": "2023-07-11T14:48:01Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 37.91906,
+      "lon": 29.12168
+    },
+    "place": {
+      "city": "Denizli",
+      "country": "Turkey",
+      "display": "Denizli, Turkey"
+    }
+  },
+  {
+    "src": "IMG_20230712_135809.jpg",
+    "takenAt": "2023-07-12T13:58:10Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 37.83943,
+      "lon": 27.26046
+    },
+    "place": {
+      "city": "Kuşadası",
+      "country": "Turkey",
+      "display": "Kuşadası, Turkey"
+    }
+  },
+  {
+    "src": "IMG_20230712_161810.jpg",
+    "takenAt": "2023-07-12T16:18:10Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 37.77498,
+      "lon": 27.26833
+    },
+    "place": {
+      "city": "Kuşadası",
+      "country": "Turkey",
+      "display": "Kuşadası, Turkey"
+    }
+  },
+  {
+    "src": "IMG_20230712_222518.jpg",
+    "takenAt": "2023-07-12T22:25:19Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 37.86,
+      "lon": 27.25917
+    },
+    "place": {
+      "city": "Kuşadası",
+      "country": "Turkey",
+      "display": "Kuşadası, Turkey"
+    }
+  },
+  {
+    "src": "IMG_20230715_165617.jpg",
+    "takenAt": "2023-07-15T16:56:18Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 41.01747,
+      "lon": 28.971
+    },
+    "place": {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "display": "Istanbul, Turkey"
+    }
+  },
+  {
+    "src": "IMG_20230716_140628.jpg",
+    "takenAt": "2023-07-16T14:06:28Z",
+    "hasGps": false,
+    "cameraModel": "CDY-NX9A"
+  },
+  {
+    "src": "IMG_20230716_141420.jpg",
+    "takenAt": "2023-07-16T14:14:20Z",
+    "hasGps": false,
+    "cameraModel": "CDY-NX9A"
+  },
+  {
+    "src": "IMG_20230716_142933.jpg",
+    "takenAt": "2023-07-16T14:29:34Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 41.00675,
+      "lon": 28.97798
+    },
+    "place": {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "display": "Istanbul, Turkey"
+    }
+  },
+  {
+    "src": "IMG_20230716_144938.jpg",
+    "takenAt": "2023-07-16T14:49:38Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 41.00769,
+      "lon": 28.9783
+    },
+    "place": {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "display": "Istanbul, Turkey"
+    }
+  },
+  {
+    "src": "IMG_20230717_161216.jpg",
+    "takenAt": "2023-07-17T16:12:16Z",
+    "hasGps": false,
+    "cameraModel": "CDY-NX9A"
+  },
+  {
+    "src": "IMG20230824135049.jpg",
+    "takenAt": "2023-08-24T13:50:49Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43138,
+      "lon": 26.098
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG20230824135128.jpg",
+    "takenAt": "2023-08-24T13:51:28Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43133,
+      "lon": 26.09814
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG20230824135700.jpg",
+    "takenAt": "2023-08-24T13:57:00Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43171,
+      "lon": 26.09844
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG20230824163200~2.jpg",
+    "takenAt": "2023-08-24T16:32:00Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43234,
+      "lon": 26.09903
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG20230825094155.jpg",
+    "takenAt": "2023-08-25T09:41:55Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.40894,
+      "lon": 25.52534
+    },
+    "place": {
+      "city": "Bușteni",
+      "country": "Romania",
+      "display": "Bușteni, Romania"
+    }
+  },
+  {
+    "src": "IMG20230825101313.jpg",
+    "takenAt": "2023-08-25T10:13:13Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.3968,
+      "lon": 25.44564
+    },
+    "place": {
+      "city": "Moroeni",
+      "country": "Romania",
+      "display": "Moroeni, Romania"
+    }
+  },
+  {
+    "src": "IMG20230826120946.jpg",
+    "takenAt": "2023-08-26T12:09:46Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.35983,
+      "lon": 25.54216
+    },
+    "place": {
+      "city": "Sinaia",
+      "country": "Romania",
+      "display": "Sinaia, Romania"
+    }
+  },
+  {
+    "src": "IMG20230826122922.jpg",
+    "takenAt": "2023-08-26T12:29:22Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.35877,
+      "lon": 25.54399
+    },
+    "place": {
+      "city": "Sinaia",
+      "country": "Romania",
+      "display": "Sinaia, Romania"
+    }
+  },
+  {
+    "src": "IMG20230826123251.jpg",
+    "takenAt": "2023-08-26T12:32:51Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.35889,
+      "lon": 25.54372
+    },
+    "place": {
+      "city": "Sinaia",
+      "country": "Romania",
+      "display": "Sinaia, Romania"
+    }
+  },
+  {
+    "src": "IMG20230827142311.jpg",
+    "takenAt": "2023-08-27T14:23:11Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.56568,
+      "lon": 25.64326
+    },
+    "place": {
+      "city": "Săcele",
+      "country": "Romania",
+      "display": "Săcele, Romania"
+    }
+  },
+  {
+    "src": "IMG20230829142643.jpg",
+    "takenAt": "2023-08-29T14:26:43Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.58644,
+      "lon": 23.78569
+    },
+    "place": {
+      "city": "Turda",
+      "country": "Romania",
+      "display": "Turda, Romania"
+    }
+  },
+  {
+    "src": "IMG20230829142704.jpg",
+    "takenAt": "2023-08-29T14:27:04Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.58644,
+      "lon": 23.78569
+    },
+    "place": {
+      "city": "Turda",
+      "country": "Romania",
+      "display": "Turda, Romania"
+    }
+  },
+  {
+    "src": "IMG20231126161947.jpg",
+    "takenAt": "2023-11-26T16:19:47Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20231230185530.jpg",
+    "takenAt": "2023-12-30T18:55:30Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240125155409.jpg",
+    "takenAt": "2024-01-25T15:54:09Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240301125029.jpg",
+    "takenAt": "2024-03-01T12:50:29Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240330173939.jpg",
+    "takenAt": "2024-03-30T17:39:39Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240331123612.jpg",
+    "takenAt": "2024-03-31T12:36:12Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240331131022.jpg",
+    "takenAt": "2024-03-31T13:10:22Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240331182057.jpg",
+    "takenAt": "2024-03-31T18:20:57Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240331215704.jpg",
+    "takenAt": "2024-03-31T21:57:04Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240401135909.jpg",
+    "takenAt": "2024-04-01T13:59:09Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240401173032.jpg",
+    "takenAt": "2024-04-01T17:30:32Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240401200754.jpg",
+    "takenAt": "2024-04-01T20:07:54Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240402155249.jpg",
+    "takenAt": "2024-04-02T15:52:49Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240402192433.jpg",
+    "takenAt": "2024-04-02T19:24:33Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240525164627.jpg",
+    "takenAt": "2024-05-25T16:46:27Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240525191041.jpg",
+    "takenAt": "2024-05-25T19:10:41Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240831191752.jpg",
+    "takenAt": "2024-08-31T19:17:52Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240831211140.jpg",
+    "takenAt": "2024-08-31T21:11:40Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240831212052.jpg",
+    "takenAt": "2024-08-31T21:20:52Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240831212101.jpg",
+    "takenAt": "2024-08-31T21:21:01Z",
+    "hasGps": false,
+    "cameraModel": "OnePlus 11 5G"
+  },
+  {
+    "src": "IMG20240918172159.jpg",
+    "takenAt": "2024-09-18T17:21:59Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 39.86859,
+      "lon": 19.99897
+    },
+    "place": {
+      "city": "Saranda",
+      "country": "Albania",
+      "display": "Saranda, Albania"
+    }
+  },
+  {
+    "src": "IMG20240918191245.jpg",
+    "takenAt": "2024-09-18T19:12:45Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 39.86851,
+      "lon": 19.99852
+    },
+    "place": {
+      "city": "Saranda",
+      "country": "Albania",
+      "display": "Saranda, Albania"
+    }
+  },
+  {
+    "src": "IMG20240919200510.jpg",
+    "takenAt": "2024-09-19T20:05:10Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 39.87229,
+      "lon": 20.01361
+    },
+    "place": {
+      "city": null,
+      "country": "Albania",
+      "display": "Albania"
+    }
+  },
+  {
+    "src": "IMG20240920174843.jpg",
+    "takenAt": "2024-09-20T17:48:43Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 39.92342,
+      "lon": 20.19132
+    },
+    "place": {
+      "city": "Mesopotam",
+      "country": "Albania",
+      "display": "Mesopotam, Albania"
+    }
+  },
+  {
+    "src": "IMG20240924140038.jpg",
+    "takenAt": "2024-09-24T14:00:38Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 40.07851,
+      "lon": 20.14379
+    },
+    "place": {
+      "city": "Gjirokastra",
+      "country": "Albania",
+      "display": "Gjirokastra, Albania"
+    }
+  },
+  {
+    "src": "IMG20240924140117.jpg",
+    "takenAt": "2024-09-24T14:01:17Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 40.07257,
+      "lon": 20.13629
+    },
+    "place": {
+      "city": "Gjirokastra",
+      "country": "Albania",
+      "display": "Gjirokastra, Albania"
+    }
+  },
+  {
+    "src": "IMG20240924140153.jpg",
+    "takenAt": "2024-09-24T14:01:53Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 40.072,
+      "lon": 20.13582
+    },
+    "place": {
+      "city": "Gjirokastra",
+      "country": "Albania",
+      "display": "Gjirokastra, Albania"
+    }
+  },
+  {
+    "src": "IMG20240926130500.jpg",
+    "takenAt": "2024-09-26T13:05:00Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.64226,
+      "lon": 25.58985
+    },
+    "place": {
+      "city": "Brasov",
+      "country": "Romania",
+      "display": "Brasov, Romania"
+    }
+  },
+  {
+    "src": "IMG20250101000011.jpg",
+    "takenAt": "2025-01-01T00:00:11Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 55.86912,
+      "lon": 9.8433
+    },
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    }
+  },
+  {
+    "src": "IMG20250122203256.jpg",
+    "takenAt": "2025-01-22T20:32:56Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 56.01159,
+      "lon": 12.58268
+    },
+    "place": {
+      "city": "Helsingør Municipality",
+      "country": "Denmark",
+      "display": "Helsingør Municipality, Denmark"
+    }
+  },
+  {
+    "src": "IMG20250203185246.jpg",
+    "takenAt": "2025-02-03T18:52:46Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 55.66976,
+      "lon": 12.57418
+    },
+    "place": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "display": "Copenhagen, Denmark"
+    }
+  },
+  {
+    "src": "IMG20250221150611.jpg",
+    "takenAt": "2025-02-21T15:06:11Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 60.18009,
+      "lon": 24.9517
+    },
+    "place": {
+      "city": "Helsinki",
+      "country": "Finland",
+      "display": "Helsinki, Finland"
+    }
+  },
+  {
+    "src": "IMG20250222175401.jpg",
+    "takenAt": "2025-02-22T17:54:01Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 60.16916,
+      "lon": 24.95282
+    },
+    "place": {
+      "city": "Helsinki",
+      "country": "Finland",
+      "display": "Helsinki, Finland"
+    }
+  },
+  {
+    "src": "IMG20250330131119.jpg",
+    "takenAt": "2025-03-30T13:11:19Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43423,
+      "lon": 26.06216
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG20250330132826.jpg",
+    "takenAt": "2025-03-30T13:28:26Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43377,
+      "lon": 26.06166
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG20250330133046.jpg",
+    "takenAt": "2025-03-30T13:30:46Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43377,
+      "lon": 26.06166
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG20250330133600.jpg",
+    "takenAt": "2025-03-30T13:36:00Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43371,
+      "lon": 26.06257
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG20250330135943.jpg",
+    "takenAt": "2025-03-30T13:59:43Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43411,
+      "lon": 26.06107
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG20250331212003.jpg",
+    "takenAt": "2025-03-31T21:20:03Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.4671,
+      "lon": 26.08744
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG20250413153050.jpg",
+    "takenAt": "2025-04-13T15:30:50Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18475,
+      "lon": 16.38836
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "IMG20250413153947.jpg",
+    "takenAt": "2025-04-13T15:39:47Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18415,
+      "lon": 16.38917
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "IMG20250413154032.jpg",
+    "takenAt": "2025-04-13T15:40:32Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18415,
+      "lon": 16.38917
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "IMG20250413160941.jpg",
+    "takenAt": "2025-04-13T16:09:41Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18398,
+      "lon": 16.3886
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "IMG20250413161612.jpg",
+    "takenAt": "2025-04-13T16:16:12Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18386,
+      "lon": 16.38823
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "IMG20250413161642.jpg",
+    "takenAt": "2025-04-13T16:16:42Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18386,
+      "lon": 16.38823
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "IMG20250413162629.jpg",
+    "takenAt": "2025-04-13T16:26:29Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18359,
+      "lon": 16.38795
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "IMG20250413162750.jpg",
+    "takenAt": "2025-04-13T16:27:50Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18356,
+      "lon": 16.38802
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "IMG20250413162946.jpg",
+    "takenAt": "2025-04-13T16:29:46Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18354,
+      "lon": 16.3883
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "IMG20250413180035.jpg",
+    "takenAt": "2025-04-13T18:00:35Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18673,
+      "lon": 16.31334
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "IMG20250413180325.jpg",
+    "takenAt": "2025-04-13T18:03:25Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.1852,
+      "lon": 16.31079
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "IMG20250413182436.jpg",
+    "takenAt": "2025-04-13T18:24:36Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.17922,
+      "lon": 16.30966
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "IMG20250414141622.jpg",
+    "takenAt": "2025-04-14T14:16:22Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.13667,
+      "lon": 17.10463
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250414192158.jpg",
+    "takenAt": "2025-04-14T19:21:58Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14294,
+      "lon": 17.10721
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250414193944.jpg",
+    "takenAt": "2025-04-14T19:39:44Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14294,
+      "lon": 17.10721
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250414201923.jpg",
+    "takenAt": "2025-04-14T20:19:23Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14171,
+      "lon": 17.10817
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250414202310.jpg",
+    "takenAt": "2025-04-14T20:23:10Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14079,
+      "lon": 17.1058
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250414204538.jpg",
+    "takenAt": "2025-04-14T20:45:38Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14533,
+      "lon": 17.10696
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250415143821_01.jpg",
+    "takenAt": "2025-04-15T14:38:21Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14358,
+      "lon": 17.10853
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250415172012_01.jpg",
+    "takenAt": "2025-04-15T17:20:12Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14154,
+      "lon": 17.09985
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250415173226.jpg",
+    "takenAt": "2025-04-15T17:32:26Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14264,
+      "lon": 17.10088
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250415173317.jpg",
+    "takenAt": "2025-04-15T17:33:17Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14295,
+      "lon": 17.10057
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250416135247.jpg",
+    "takenAt": "2025-04-16T13:52:47Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.73573,
+      "lon": 19.15109
+    },
+    "place": {
+      "city": "Banská Bystrica",
+      "country": "Slovakia",
+      "display": "Banská Bystrica, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250416144821.jpg",
+    "takenAt": "2025-04-16T14:48:21Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.73559,
+      "lon": 19.1483
+    },
+    "place": {
+      "city": "Banská Bystrica",
+      "country": "Slovakia",
+      "display": "Banská Bystrica, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250416145935.jpg",
+    "takenAt": "2025-04-16T14:59:35Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.73513,
+      "lon": 19.14479
+    },
+    "place": {
+      "city": "Banská Bystrica",
+      "country": "Slovakia",
+      "display": "Banská Bystrica, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250416150146.jpg",
+    "takenAt": "2025-04-16T15:01:46Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.73461,
+      "lon": 19.14408
+    },
+    "place": {
+      "city": "Banská Bystrica",
+      "country": "Slovakia",
+      "display": "Banská Bystrica, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250416162112.jpg",
+    "takenAt": "2025-04-16T16:21:12Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.79417,
+      "lon": 19.1
+    },
+    "place": {
+      "city": "Harmanec",
+      "country": "Slovakia",
+      "display": "Harmanec, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250416212142.jpg",
+    "takenAt": "2025-04-16T21:21:42Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.30832,
+      "lon": 20.0444
+    },
+    "place": {
+      "city": "Murzasichle",
+      "country": "Poland",
+      "display": "Murzasichle, Poland"
+    }
+  },
+  {
+    "src": "IMG20250417132930.jpg",
+    "takenAt": "2025-04-17T13:29:30Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.28546,
+      "lon": 20.31395
+    },
+    "place": {
+      "city": "Malá Franková",
+      "country": "Slovakia",
+      "display": "Malá Franková, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250417135409.jpg",
+    "takenAt": "2025-04-17T13:54:09Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.28611,
+      "lon": 20.31427
+    },
+    "place": {
+      "city": "Malá Franková",
+      "country": "Slovakia",
+      "display": "Malá Franková, Slovakia"
+    }
+  },
+  {
+    "src": "IMG20250417160938.jpg",
+    "takenAt": "2025-04-17T16:09:38Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.40583,
+      "lon": 20.3697
+    },
+    "place": {
+      "city": "Sromowce Wyżne",
+      "country": "Poland",
+      "display": "Sromowce Wyżne, Poland"
+    }
+  },
+  {
+    "src": "IMG20250418183728.jpg",
+    "takenAt": "2025-04-18T18:37:28Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.29207,
+      "lon": 19.95897
+    },
+    "place": {
+      "city": "Zakopane",
+      "country": "Poland",
+      "display": "Zakopane, Poland"
+    }
+  },
+  {
+    "src": "IMG20250420101709.jpg",
+    "takenAt": "2025-04-20T10:17:09Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.30835,
+      "lon": 20.04453
+    },
+    "place": {
+      "city": "Murzasichle",
+      "country": "Poland",
+      "display": "Murzasichle, Poland"
+    }
+  },
+  {
+    "src": "IMG20250420181019.jpg",
+    "takenAt": "2025-04-20T18:10:19Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.2344,
+      "lon": 20.08734
+    },
+    "place": {
+      "city": "Brzegi",
+      "country": "Poland",
+      "display": "Brzegi, Poland"
+    }
+  },
+  {
+    "src": "IMG20250421135059.jpg",
+    "takenAt": "2025-04-21T13:50:59Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.03452,
+      "lon": 19.18303
+    },
+    "place": {
+      "city": "Brzezinka",
+      "country": "Poland",
+      "display": "Brzezinka, Poland"
+    }
+  },
+  {
+    "src": "IMG20250423160602.jpg",
+    "takenAt": "2025-04-23T16:06:02Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.26006,
+      "lon": 19.02158
+    },
+    "place": {
+      "city": "Katowice",
+      "country": "Poland",
+      "display": "Katowice, Poland"
+    }
+  },
+  {
+    "src": "IMG20250423202213.jpg",
+    "takenAt": "2025-04-23T20:22:13Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.06198,
+      "lon": 19.93691
+    },
+    "place": {
+      "city": "Krakow",
+      "country": "Poland",
+      "display": "Krakow, Poland"
+    }
+  },
+  {
+    "src": "IMG20250423202744.jpg",
+    "takenAt": "2025-04-23T20:27:44Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.06211,
+      "lon": 19.93854
+    },
+    "place": {
+      "city": "Krakow",
+      "country": "Poland",
+      "display": "Krakow, Poland"
+    }
+  },
+  {
+    "src": "IMG20250426111044.jpg",
+    "takenAt": "2025-04-26T11:10:44Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.75584,
+      "lon": 16.23476
+    },
+    "place": {
+      "city": "Jaroslavice",
+      "country": "Czechia",
+      "display": "Jaroslavice, Czechia"
+    }
+  },
+  {
+    "src": "IMG20250426112032.jpg",
+    "takenAt": "2025-04-26T11:20:32Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.75584,
+      "lon": 16.23476
+    },
+    "place": {
+      "city": "Jaroslavice",
+      "country": "Czechia",
+      "display": "Jaroslavice, Czechia"
+    }
+  },
+  {
+    "src": "IMG20250527214618.jpg",
+    "takenAt": "2025-05-27T21:46:18Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 55.67445,
+      "lon": 12.55768
+    },
+    "place": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "display": "Copenhagen, Denmark"
+    }
+  },
+  {
+    "src": "IMG20250824150932.jpg",
+    "takenAt": "2025-08-24T15:09:32Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 55.46653,
+      "lon": 8.45251
+    },
+    "place": {
+      "city": "Esbjerg",
+      "country": "Denmark",
+      "display": "Esbjerg, Denmark"
+    }
+  },
+  {
+    "src": "IMG20250912140739.jpg",
+    "takenAt": "2025-09-12T14:07:39Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.75503,
+      "lon": -3.61174
+    },
+    "place": {
+      "city": "Salobreña",
+      "country": "Spain",
+      "display": "Salobreña, Spain"
+    }
+  },
+  {
+    "src": "IMG20250912203034.jpg",
+    "takenAt": "2025-09-12T20:30:34Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.5954,
+      "lon": -4.51401
+    },
+    "place": {
+      "city": "Torremolinos",
+      "country": "Spain",
+      "display": "Torremolinos, Spain"
+    }
+  },
+  {
+    "src": "IMG20250913200750.jpg",
+    "takenAt": "2025-09-13T20:07:50Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.75477,
+      "lon": -3.61174
+    },
+    "place": {
+      "city": "Salobreña",
+      "country": "Spain",
+      "display": "Salobreña, Spain"
+    }
+  },
+  {
+    "src": "IMG20250915123242.jpg",
+    "takenAt": "2025-09-15T12:32:42Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.13423,
+      "lon": -5.34587
+    },
+    "place": {
+      "city": "Gibraltar",
+      "country": "Gibraltar",
+      "display": "Gibraltar, Gibraltar"
+    }
+  },
+  {
+    "src": "IMG20250915123259.jpg",
+    "takenAt": "2025-09-15T12:32:59Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.13412,
+      "lon": -5.34592
+    },
+    "place": {
+      "city": "Gibraltar",
+      "country": "Gibraltar",
+      "display": "Gibraltar, Gibraltar"
+    }
+  },
+  {
+    "src": "IMG20250915172605.jpg",
+    "takenAt": "2025-09-15T17:26:05Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.14285,
+      "lon": -5.34958
+    },
+    "place": {
+      "city": "Gibraltar",
+      "country": "Gibraltar",
+      "display": "Gibraltar, Gibraltar"
+    }
+  },
+  {
+    "src": "IMG20250917154701.jpg",
+    "takenAt": "2025-09-17T15:47:01Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.72143,
+      "lon": -4.41703
+    },
+    "place": {
+      "city": "Málaga",
+      "country": "Spain",
+      "display": "Málaga, Spain"
+    }
+  },
+  {
+    "src": "IMG20250917155552.jpg",
+    "takenAt": "2025-09-17T15:55:52Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.7206,
+      "lon": -4.41921
+    },
+    "place": {
+      "city": "Málaga",
+      "country": "Spain",
+      "display": "Málaga, Spain"
+    }
+  },
+  {
+    "src": "IMG20250917161041.jpg",
+    "takenAt": "2025-09-17T16:10:41Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.72023,
+      "lon": -4.41916
+    },
+    "place": {
+      "city": "Málaga",
+      "country": "Spain",
+      "display": "Málaga, Spain"
+    }
+  },
+  {
+    "src": "IMG20250917161044.jpg",
+    "takenAt": "2025-09-17T16:10:44Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.72023,
+      "lon": -4.41916
+    },
+    "place": {
+      "city": "Málaga",
+      "country": "Spain",
+      "display": "Málaga, Spain"
+    }
+  },
+  {
+    "src": "IMG20250917213830.jpg",
+    "takenAt": "2025-09-17T21:38:30Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.73781,
+      "lon": -3.74829
+    },
+    "place": {
+      "city": "Almuñécar",
+      "country": "Spain",
+      "display": "Almuñécar, Spain"
+    }
+  },
+  {
+    "src": "IMG20250917215905.jpg",
+    "takenAt": "2025-09-17T21:59:05Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.73752,
+      "lon": -3.74857
+    },
+    "place": {
+      "city": "Almuñécar",
+      "country": "Spain",
+      "display": "Almuñécar, Spain"
+    }
+  },
+  {
+    "src": "IMG20250921122651.jpg",
+    "takenAt": "2025-09-21T12:26:51Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.7211,
+      "lon": -4.42197
+    },
+    "place": {
+      "city": "Málaga",
+      "country": "Spain",
+      "display": "Málaga, Spain"
+    }
+  },
+  {
+    "src": "IMG20251225211122.jpg",
+    "takenAt": "2025-12-25T21:11:22Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43468,
+      "lon": 26.09739
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG20251230162752.jpg",
+    "takenAt": "2025-12-30T16:27:52Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43074,
+      "lon": 26.10135
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG20251230170123.jpg",
+    "takenAt": "2025-12-30T17:01:23Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.4308,
+      "lon": 26.10166
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "IMG20260312210109.jpg",
+    "takenAt": "2026-03-12T21:01:09Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 54.07141,
+      "lon": 9.97642
+    },
+    "place": {
+      "city": "Neumünster",
+      "country": "Germany",
+      "display": "Neumünster, Germany"
+    }
+  },
+  {
+    "src": "IMG20260323160553.jpg",
+    "takenAt": "2026-03-23T16:05:53Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.6125,
+      "lon": 22.6165
+    },
+    "place": {
+      "city": "Kladovo Municipality",
+      "country": "Serbia",
+      "display": "Kladovo Municipality, Serbia"
+    }
+  },
+  {
+    "src": "IMG20260324112005.jpg",
+    "takenAt": "2026-03-24T11:20:05Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.80582,
+      "lon": 20.44635
+    },
+    "place": {
+      "city": "Savski Venac Urban Municipality",
+      "country": "Serbia",
+      "display": "Savski Venac Urban Municipality, Serbia"
+    }
+  },
+  {
+    "src": "IMG20260324135856.jpg",
+    "takenAt": "2026-03-24T13:58:56Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.81843,
+      "lon": 20.45046
+    },
+    "place": {
+      "city": "Stari Grad Urban Municipality",
+      "country": "Serbia",
+      "display": "Stari Grad Urban Municipality, Serbia"
+    }
+  },
+  {
+    "src": "IMG20260324144251.jpg",
+    "takenAt": "2026-03-24T14:42:51Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.81829,
+      "lon": 20.45046
+    },
+    "place": {
+      "city": "Stari Grad Urban Municipality",
+      "country": "Serbia",
+      "display": "Stari Grad Urban Municipality, Serbia"
+    }
+  },
+  {
+    "src": "IMG20260324144837.jpg",
+    "takenAt": "2026-03-24T14:48:37Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.81831,
+      "lon": 20.45029
+    },
+    "place": {
+      "city": "Stari Grad Urban Municipality",
+      "country": "Serbia",
+      "display": "Stari Grad Urban Municipality, Serbia"
+    }
+  },
+  {
+    "src": "IMG20260324153625.jpg",
+    "takenAt": "2026-03-24T15:36:25Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.8135,
+      "lon": 20.46049
+    },
+    "place": {
+      "city": "Savski Venac Urban Municipality",
+      "country": "Serbia",
+      "display": "Savski Venac Urban Municipality, Serbia"
+    }
+  },
+  {
+    "src": "IMG20260324154610.jpg",
+    "takenAt": "2026-03-24T15:46:10Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.81054,
+      "lon": 20.46275
+    },
+    "place": {
+      "city": "Savski Venac Urban Municipality",
+      "country": "Serbia",
+      "display": "Savski Venac Urban Municipality, Serbia"
+    }
+  },
+  {
+    "src": "IMG20260324155425.jpg",
+    "takenAt": "2026-03-24T15:54:25Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.81097,
+      "lon": 20.46505
+    },
+    "place": {
+      "city": "Palilula Urban Municipality",
+      "country": "Serbia",
+      "display": "Palilula Urban Municipality, Serbia"
+    }
+  },
+  {
+    "src": "IMG20260325110850.jpg",
+    "takenAt": "2026-03-25T11:08:50Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.05036,
+      "lon": 14.50536
+    },
+    "place": {
+      "city": "Ljubljana",
+      "country": "Slovenia",
+      "display": "Ljubljana, Slovenia"
+    }
+  },
+  {
+    "src": "IMG20260325110858.jpg",
+    "takenAt": "2026-03-25T11:08:58Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.05036,
+      "lon": 14.50536
+    },
+    "place": {
+      "city": "Ljubljana",
+      "country": "Slovenia",
+      "display": "Ljubljana, Slovenia"
+    }
+  },
+  {
+    "src": "IMG20260325113637.jpg",
+    "takenAt": "2026-03-25T11:36:37Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.05003,
+      "lon": 14.50564
+    },
+    "place": {
+      "city": "Ljubljana",
+      "country": "Slovenia",
+      "display": "Ljubljana, Slovenia"
+    }
+  },
+  {
+    "src": "IMG20260325121419.jpg",
+    "takenAt": "2026-03-25T12:14:19Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.05142,
+      "lon": 14.50619
+    },
+    "place": {
+      "city": "Ljubljana",
+      "country": "Slovenia",
+      "display": "Ljubljana, Slovenia"
+    }
+  },
+  {
+    "src": "IMG20260325123917.jpg",
+    "takenAt": "2026-03-25T12:39:17Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.05142,
+      "lon": 14.50619
+    },
+    "place": {
+      "city": "Ljubljana",
+      "country": "Slovenia",
+      "display": "Ljubljana, Slovenia"
+    }
+  },
+  {
+    "src": "IMG20260325125020.jpg",
+    "takenAt": "2026-03-25T12:50:20Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.04868,
+      "lon": 14.50855
+    },
+    "place": {
+      "city": "Ljubljana",
+      "country": "Slovenia",
+      "display": "Ljubljana, Slovenia"
+    }
+  },
+  {
+    "src": "IMG20260325161408.jpg",
+    "takenAt": "2026-03-25T16:14:08Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.87546,
+      "lon": 13.84741
+    },
+    "place": {
+      "city": "Grad Pula",
+      "country": "Croatia",
+      "display": "Grad Pula, Croatia"
+    }
+  },
+  {
+    "src": "IMG20260325161417.jpg",
+    "takenAt": "2026-03-25T16:14:17Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.87546,
+      "lon": 13.84741
+    },
+    "place": {
+      "city": "Grad Pula",
+      "country": "Croatia",
+      "display": "Grad Pula, Croatia"
+    }
+  },
+  {
+    "src": "IMG20260325161728.jpg",
+    "takenAt": "2026-03-25T16:17:28Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.87474,
+      "lon": 13.84817
+    },
+    "place": {
+      "city": "Grad Pula",
+      "country": "Croatia",
+      "display": "Grad Pula, Croatia"
+    }
+  },
+  {
+    "src": "IMG20260325161913.jpg",
+    "takenAt": "2026-03-25T16:19:13Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.87372,
+      "lon": 13.84891
+    },
+    "place": {
+      "city": "Grad Pula",
+      "country": "Croatia",
+      "display": "Grad Pula, Croatia"
+    }
+  },
+  {
+    "src": "IMG20260325162646.jpg",
+    "takenAt": "2026-03-25T16:26:46Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.87272,
+      "lon": 13.85049
+    },
+    "place": {
+      "city": "Grad Pula",
+      "country": "Croatia",
+      "display": "Grad Pula, Croatia"
+    }
+  },
+  {
+    "src": "IMG20260325164441.jpg",
+    "takenAt": "2026-03-25T16:44:41Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.87258,
+      "lon": 13.84725
+    },
+    "place": {
+      "city": "Grad Pula",
+      "country": "Croatia",
+      "display": "Grad Pula, Croatia"
+    }
+  },
+  {
+    "src": "IMG20260325164625.jpg",
+    "takenAt": "2026-03-25T16:46:25Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.87327,
+      "lon": 13.84763
+    },
+    "place": {
+      "city": "Grad Pula",
+      "country": "Croatia",
+      "display": "Grad Pula, Croatia"
+    }
+  },
+  {
+    "src": "IMG20260325171859.jpg",
+    "takenAt": "2026-03-25T17:18:59Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.84487,
+      "lon": 13.83195
+    },
+    "place": {
+      "city": "Istria County",
+      "country": "Croatia",
+      "display": "Istria County, Croatia"
+    }
+  },
+  {
+    "src": "IMG20260325172150.jpg",
+    "takenAt": "2026-03-25T17:21:50Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.84487,
+      "lon": 13.83195
+    },
+    "place": {
+      "city": "Istria County",
+      "country": "Croatia",
+      "display": "Istria County, Croatia"
+    }
+  },
+  {
+    "src": "IMG20260325214640_01.jpg",
+    "takenAt": "2026-03-25T21:46:40Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.65198,
+      "lon": 13.78421
+    },
+    "place": {
+      "city": "Trieste",
+      "country": "Italy",
+      "display": "Trieste, Italy"
+    }
+  },
+  {
+    "src": "IMG20260325224440.jpg",
+    "takenAt": "2026-03-25T22:44:40Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.65203,
+      "lon": 13.78423
+    },
+    "place": {
+      "city": "Trieste",
+      "country": "Italy",
+      "display": "Trieste, Italy"
+    }
+  },
+  {
+    "src": "IMG20260326132302.jpg",
+    "takenAt": "2026-03-26T13:23:02Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.65187,
+      "lon": 13.77296
+    },
+    "place": {
+      "city": "Trieste",
+      "country": "Italy",
+      "display": "Trieste, Italy"
+    }
+  },
+  {
+    "src": "IMG20260326132604.jpg",
+    "takenAt": "2026-03-26T13:26:04Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.65224,
+      "lon": 13.77154
+    },
+    "place": {
+      "city": "Trieste",
+      "country": "Italy",
+      "display": "Trieste, Italy"
+    }
+  },
+  {
+    "src": "IMG20260326133038.jpg",
+    "takenAt": "2026-03-26T13:30:38Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.6521,
+      "lon": 13.76857
+    },
+    "place": {
+      "city": "Trieste",
+      "country": "Italy",
+      "display": "Trieste, Italy"
+    }
+  },
+  {
+    "src": "IMG20260326133320.jpg",
+    "takenAt": "2026-03-26T13:33:20Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.65156,
+      "lon": 13.76788
+    },
+    "place": {
+      "city": "Trieste",
+      "country": "Italy",
+      "display": "Trieste, Italy"
+    }
+  },
+  {
+    "src": "IMG20260326133903.jpg",
+    "takenAt": "2026-03-26T13:39:03Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.6528,
+      "lon": 13.76527
+    },
+    "place": {
+      "city": "Trieste",
+      "country": "Italy",
+      "display": "Trieste, Italy"
+    }
+  },
+  {
+    "src": "IMG20260326134736.jpg",
+    "takenAt": "2026-03-26T13:47:36Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.65062,
+      "lon": 13.76744
+    },
+    "place": {
+      "city": "Trieste",
+      "country": "Italy",
+      "display": "Trieste, Italy"
+    }
+  },
+  {
+    "src": "IMG20260326134851.jpg",
+    "takenAt": "2026-03-26T13:48:51Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.65062,
+      "lon": 13.76744
+    },
+    "place": {
+      "city": "Trieste",
+      "country": "Italy",
+      "display": "Trieste, Italy"
+    }
+  },
+  {
+    "src": "IMG20260326135013_01.jpg",
+    "takenAt": "2026-03-26T13:50:13Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.64986,
+      "lon": 13.76805
+    },
+    "place": {
+      "city": "Trieste",
+      "country": "Italy",
+      "display": "Trieste, Italy"
+    }
+  },
+  {
+    "src": "IMG20260326165524.jpg",
+    "takenAt": "2026-03-26T16:55:24Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.55921,
+      "lon": 13.27727
+    },
+    "place": {
+      "city": "Hermagor-Pressegger See",
+      "country": "Austria",
+      "display": "Hermagor-Pressegger See, Austria"
+    }
+  },
+  {
+    "src": "IMG20260326185923.jpg",
+    "takenAt": "2026-03-26T18:59:23Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.11752,
+      "lon": 12.50497
+    },
+    "place": {
+      "city": "Matrei in Osttirol",
+      "country": "Austria",
+      "display": "Matrei in Osttirol, Austria"
+    }
+  },
+  {
+    "src": "IMG20260327142450.jpg",
+    "takenAt": "2026-03-27T14:24:50Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.57425,
+      "lon": 10.73533
+    },
+    "place": {
+      "city": "Schwangau",
+      "country": "Germany",
+      "display": "Schwangau, Germany"
+    }
+  },
+  {
+    "src": "IMG20260327153651.jpg",
+    "takenAt": "2026-03-27T15:36:51Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.5548,
+      "lon": 10.73887
+    },
+    "place": {
+      "city": "Schwangau",
+      "country": "Germany",
+      "display": "Schwangau, Germany"
+    }
+  },
+  {
+    "src": "IMG20260327161649.jpg",
+    "takenAt": "2026-03-27T16:16:49Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.55786,
+      "lon": 10.74773
+    },
+    "place": {
+      "city": "Schwangau",
+      "country": "Germany",
+      "display": "Schwangau, Germany"
+    }
+  },
+  {
+    "src": "IMG20260327162106.jpg",
+    "takenAt": "2026-03-27T16:21:06Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.55798,
+      "lon": 10.74884
+    },
+    "place": {
+      "city": "Schwangau",
+      "country": "Germany",
+      "display": "Schwangau, Germany"
+    }
+  },
+  {
+    "src": "IMG20260327162206.jpg",
+    "takenAt": "2026-03-27T16:22:06Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.55873,
+      "lon": 10.74933
+    },
+    "place": {
+      "city": "Schwangau",
+      "country": "Germany",
+      "display": "Schwangau, Germany"
+    }
+  },
+  {
+    "src": "IMG20260327162429.jpg",
+    "takenAt": "2026-03-27T16:24:29Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.55873,
+      "lon": 10.74933
+    },
+    "place": {
+      "city": "Schwangau",
+      "country": "Germany",
+      "display": "Schwangau, Germany"
+    }
+  },
+  {
+    "src": "IMG20260327162453.jpg",
+    "takenAt": "2026-03-27T16:24:53Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.55873,
+      "lon": 10.74933
+    },
+    "place": {
+      "city": "Schwangau",
+      "country": "Germany",
+      "display": "Schwangau, Germany"
+    }
+  },
+  {
+    "src": "IMG20260327164628.jpg",
+    "takenAt": "2026-03-27T16:46:28Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.55794,
+      "lon": 10.75032
+    },
+    "place": {
+      "city": "Schwangau",
+      "country": "Germany",
+      "display": "Schwangau, Germany"
+    }
+  },
+  {
+    "src": "IMG20260327165420.jpg",
+    "takenAt": "2026-03-27T16:54:20Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.5587,
+      "lon": 10.74977
+    },
+    "place": {
+      "city": "Schwangau",
+      "country": "Germany",
+      "display": "Schwangau, Germany"
+    }
+  },
+  {
+    "src": "IMG20260327171748.jpg",
+    "takenAt": "2026-03-27T17:17:48Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.55359,
+      "lon": 10.73583
+    },
+    "place": {
+      "city": "Schwangau",
+      "country": "Germany",
+      "display": "Schwangau, Germany"
+    }
+  },
+  {
+    "src": "IMG20260327203856.jpg",
+    "takenAt": "2026-03-27T20:38:56Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.05159,
+      "lon": 10.87511
+    },
+    "place": {
+      "city": "Landsberg am Lech",
+      "country": "Germany",
+      "display": "Landsberg am Lech, Germany"
+    }
+  },
+  {
+    "src": "IMG20260327214807.jpg",
+    "takenAt": "2026-03-27T21:48:07Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.05142,
+      "lon": 10.87513
+    },
+    "place": {
+      "city": "Landsberg am Lech",
+      "country": "Germany",
+      "display": "Landsberg am Lech, Germany"
+    }
+  }
+]

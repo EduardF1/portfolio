@@ -54,3 +54,6 @@ next-env.d.ts
 # downloaded design refs (local only)
 .refs/
 .claude/settings.local.json
+
+# photo-catalogue intermediates (raw NDJSON dump from extract-exif.ps1)
+scripts/.exif-raw.ndjson
