@@ -23,6 +23,13 @@ vi.mock("next/image", () => ({
   ),
 }));
 
+// BvbFeed is an async Server Component that calls next-intl/server +
+// fetches data. The personal-page test only cares that the page wrapper
+// renders, so stub the feed with a synchronous placeholder.
+vi.mock("@/components/bvb-feed", () => ({
+  BvbFeed: () => <div data-testid="bvb-feed-stub" />,
+}));
+
 afterEach(() => {
   cleanup();
 });

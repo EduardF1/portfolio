@@ -3,6 +3,7 @@ import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/section-heading";
+import { BvbFeed } from "@/components/bvb-feed";
 import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 export const metadata = { title: "Personal" };
@@ -85,9 +86,10 @@ export default async function PersonalPage({
               </span>
             </SectionHeading>
           </div>
-          <div className="md:col-span-8 space-y-6">
+          <div className="md:col-span-8 space-y-8">
             <p className="max-w-2xl text-lg">{ts("footballLede")}</p>
             <p className="max-w-2xl">{ts("footballBody")}</p>
+            <BvbFeed />
           </div>
         </div>
       </section>

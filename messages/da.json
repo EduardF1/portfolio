@@ -113,6 +113,43 @@
       "travelHeading": "Lande, der langsomt fyldes op",
       "travelLede": "Byer for maden, bjerge for stilheden, kyster for vinden.",
       "travelLink": "Se rejsenoter"
+    },
+    "bvb": {
+      "tabs": {
+        "standings": "Stilling",
+        "fixtures": "Næste kampe",
+        "results": "Seneste resultater"
+      },
+      "mockBadge": "Eksempeldata",
+      "unavailable": "BVB-feed er midlertidigt utilgængeligt.",
+      "seasonSummary": "Borussia Dortmund spiller i Bundesligaen og DFB-Pokal denne sæson; live-stilling, kampe og resultater vender tilbage, så snart feedet er online igen.",
+      "standings": {
+        "caption": "Bundesliga-stilling",
+        "position": "Plac.",
+        "team": "Hold",
+        "played": "K",
+        "won": "V",
+        "drawn": "U",
+        "lost": "T",
+        "goalDiff": "MF",
+        "points": "P",
+        "empty": "Stilling utilgængelig."
+      },
+      "fixtures": {
+        "vs": "mod",
+        "at": "ude mod",
+        "empty": "Ingen kommende kampe planlagt."
+      },
+      "results": {
+        "vs": "mod",
+        "at": "ude mod",
+        "empty": "Ingen seneste resultater tilgængelige.",
+        "outcome": {
+          "W": "Sejr",
+          "D": "Uafgjort",
+          "L": "Nederlag"
+        }
+      }
     }
   },
   "travel": {
