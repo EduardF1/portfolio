@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 export type Photo = {
   src: string;
@@ -8,8 +9,11 @@ export type Photo = {
 export function PhotoGallery({ photos }: { photos: Photo[] }) {
   if (!photos || photos.length === 0) return null;
 
+  // Collapse the grid when the gallery has fewer photos than the
+  // ideal max — a 1- or 2-photo trip should not render with empty
+  // columns at sm:/lg: breakpoints.
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+    <div className={`grid ${responsiveGridColsClass(photos.length, 3)} gap-3`}>
       {photos.map((photo, i) => (
         <div
           key={`${photo.src}-${i}`}
