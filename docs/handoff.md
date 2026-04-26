@@ -53,7 +53,14 @@ All four senior-dev rounds completed and merged this session: A (search → per-
 
 PO running autonomously, building features on individual branches and batching 2-3 per deploy per Eduard's directive. CI green required before merge; deploys gated by visible feature count.
 
-**Tonight's deployed batches (6 deploys, 17 features + 3 strategic docs):**
+**Round 2 (after Eduard's "fully fledged website" prompt):**
+
+- `e9b932e` Batch F (2 fixes): apple-icon.svg + icon.svg 404 fixed (manifest stable URLs) + calmer hero kicker ("Aarhus, Denmark · EU/EEA work eligibility") + 73 photos deployed across 20 countries (34 MB) + /travel Recent-trips back to next/image
+- `2db09c4` Batch G (2 features): JSON-LD Person+Website schema (knowledge-panel feed) + theme-color light/dark meta + Hero About real bio paragraphs + KOMBIT VALG and Boozt "My contribution" + /now real prose + /my-story 8 chapter prose with year-range corrections + /personal BVB Football paragraph
+- `0165ad6` Batch H (3 features): hero portrait painting-frame (palette-aware CSS) + /cv read-only viewer (PDF.js canvas, blocks select/contextmenu/Ctrl-C/-S/-P/-A/F12) + empty-card fix on Skills tiles (Lexik / Windows CMD monogram tiles, PHPUnit local SVG)
+- `f62f1f6` Hotfix: /cv 500 — `pageOf` was a function passed across server→client RSC boundary; replaced with template string + client-side substitution. /cv now 200 OK.
+
+**Original autonomous-night batches (6 deploys, 17 features + 3 strategic docs):**
 1. `cb3cbd2` `.npmrc` legacy-peer-deps fix (unblocked 6h of failed Vercel builds)
 2. **Batch A** `cd72726` (3 features): a11y hardening + timeline #role anchors + EXIF footer
 3. **Batch B** `0d53695` (2 features): tech catalogue +22 + "How I work" methodology section
