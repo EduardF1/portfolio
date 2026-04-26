@@ -46,8 +46,7 @@ export function TravelEuropeMap({
 
   return (
     <div className="@container relative">
-      <div
-        role="img"
+      <figure
         aria-label={`Travel destinations across ${destinations.length} countries`}
         className="overflow-hidden rounded-lg border border-border bg-surface/40"
       >
@@ -128,7 +127,7 @@ export function TravelEuropeMap({
             );
           })}
         </ComposableMap>
-      </div>
+      </figure>
 
       <p className="mt-3 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-foreground-subtle">
         {destinations.length} countries · click a marker to jump to that country&apos;s photos · base map © Natural Earth

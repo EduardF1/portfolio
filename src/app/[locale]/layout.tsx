@@ -78,6 +78,15 @@ export default async function LocaleLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} h-full`}
       suppressHydrationWarning
     >
+      <head>
+        {/* Warm the connection to the Devicon CDN (Skills tile logos) and
+            the GitHub avatar host (CircleCI / a few publisher logos). Both
+            are referenced from Skills tiles and reading-feed previews; the
+            preconnect saves ~50–100 ms on the first tile fetch. */}
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+        <link rel="preconnect" href="https://github.com" crossOrigin="anonymous" />
+      </head>
       <body className="min-h-full flex flex-col">
         <script
           dangerouslySetInnerHTML={{

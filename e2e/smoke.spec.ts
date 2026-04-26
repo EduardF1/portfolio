@@ -16,7 +16,9 @@ test.describe("smoke — public routes return 200 and render content", () => {
       const response = await page.goto(path);
       expect(response?.status(), `${path} should be 200`).toBe(200);
       // The site name is in the header on every page
-      await expect(page.getByRole("link", { name: "Home" })).toBeVisible();
+      await expect(
+        page.getByRole("link", { name: "Home", exact: true }),
+      ).toBeVisible();
     });
   }
 });

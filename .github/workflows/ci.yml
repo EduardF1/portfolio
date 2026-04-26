@@ -23,7 +23,10 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run typecheck
-      - run: npm run test -- --coverage
+      # `test:coverage` runs Vitest with coverage AND enforces the
+      # thresholds in vitest.config.ts (statements 60 / branches 55 /
+      # functions 65 / lines 60 as of 2026-04-26).
+      - run: npm run test:coverage
       - if: always()
         uses: actions/upload-artifact@v4
         with:

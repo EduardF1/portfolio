@@ -189,7 +189,11 @@ export function RecommendationsCarousel({ recommendations, locale }: Props) {
                         href={linkedinHref(r)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-foreground hover:text-accent transition-colors"
+                        // WCAG SC 1.4.1: links inside a paragraph must not
+                        // be distinguished by colour alone. The dotted
+                        // underline keeps the look airy while satisfying
+                        // axe's `link-in-text-block` rule.
+                        className="text-foreground underline decoration-dotted decoration-border underline-offset-4 hover:text-accent hover:decoration-accent transition-colors"
                         aria-label={`${r.author} on LinkedIn`}
                       >
                         {r.author}

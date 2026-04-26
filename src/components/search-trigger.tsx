@@ -41,7 +41,10 @@ export function SearchTrigger() {
       aria-label={t("openLabel")}
       data-testid="search-trigger"
       className={cn(
-        "inline-flex items-center gap-1.5 rounded-md border border-border px-2 py-1 text-xs text-foreground-subtle",
+        // Use foreground-muted (not -subtle) for the small "Search ⌘K" label
+        // so it clears WCAG AA 4.5:1 against the translucent header
+        // background on every palette/theme combination.
+        "inline-flex items-center gap-1.5 rounded-md border border-border px-2 py-1 text-xs text-foreground-muted",
         "hover:border-accent hover:text-accent transition-colors",
       )}
     >

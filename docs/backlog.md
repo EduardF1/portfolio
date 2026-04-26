@@ -52,9 +52,13 @@
 ### Architect pass (optional hardening)
 
 - [x] ~~Expand test coverage *(Architect)*~~ — shipped 2026-04-26 in `feat/test-coverage-expand` (merged `b23afe7`). 25 new test files + 4 expanded → 37 total, 236 tests passing. Coverage 33%→74% statements / 29%→67% branches / 30%→82% functions / 32%→74% lines. Includes carousel ARIA + section-heading + theme-provider + reading-feed (devto/hn/all) + writing pages + sitemap + RSS + sync-gh-descriptions guards.
-- [ ] Branch protection rules *(Architect)* — require CI before merge
-- [ ] Performance audit *(Architect)* — lighthouse, image-loading, font-loading
-- [ ] Container queries — `recommendations-carousel.tsx` *(Architect)* (already uses `@container`/`@md:` internally; verify it composes when nested in a constrained parent)
+- [x] ~~Branch protection rules *(Architect)*~~ — runbook at `docs/branch-protection-setup.md`; PO applies the gh-CLI / web-UI commands once this PR is merged.
+- [x] ~~Performance audit *(Architect)*~~ — shipped 2026-04-26 in `docs/perf-audit-2026-04.md`. Average 97 perf / 95 a11y / 99 BP / 93 SEO across 8 routes. Three S-effort a11y fixes applied (foreground-subtle contrast bump across all 6 palette/theme combos; carousel link-in-text-block; travel-map nested-interactive). M/L items deferred — see doc.
+- [x] ~~Container queries — `recommendations-carousel.tsx` *(Architect)*~~ — verified via `e2e/carousel-container-queries.spec.ts`: padding flips when the parent width changes, viewport stays fixed.
+- [x] ~~Coverage threshold gate *(Architect)*~~ — `vitest.config.ts` enforces 60/55/65/60 (stmts/branches/funcs/lines), comfortably below the 63/57/69/63 baseline so a >5 pp drop fails CI.
+- [x] ~~Lighthouse CI on PRs *(Architect)*~~ — `.github/workflows/lighthouse.yml` + `lighthouserc.json` with Perf>=85, A11y>=95, BP>=95, SEO>=95 budgets; `continue-on-error: true` initially so PRs aren't blocked while budgets settle.
+- [x] ~~Bundle analyzer *(Architect)*~~ — `@next/bundle-analyzer` wired behind `ANALYZE=true npm run build`; off by default.
+- [x] ~~axe-core a11y CI gate *(Architect)*~~ — `e2e/a11y.spec.ts` walks 8 routes; serious/critical fail the run, moderate/minor are advisory in the log.
 - [ ] Live Yahoo IMAP MCP assertion in `e2e/contact-form-yahoo.spec.ts` *(Architect)* — currently the message-arrival check is gated behind `RUN_LIVE_EMAIL=1` and only attaches the expected subject; wire the actual MCP search once IMAP is reliably reachable from CI
 
 ### PO + Architect future-features (also queued, at the bottom of the queue)
