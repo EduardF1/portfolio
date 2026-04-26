@@ -15,6 +15,7 @@ import { findTech } from "@/lib/tech";
 import { getRecommendations } from "@/lib/recommendations";
 import { roleSlug } from "@/lib/role-slug";
 import { CopyRoleLink } from "@/components/copy-role-link";
+import { HowIWork } from "@/components/how-i-work";
 
 export default async function Home({
   params,
@@ -41,6 +42,7 @@ export default async function Home({
         </div>
       </section>
       <Experience />
+      <HowIWork />
       <Skills />
       {recommendations.length > 0 && (
         <section className="border-t border-border/60">
