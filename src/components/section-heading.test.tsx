@@ -23,6 +23,9 @@ describe("<SectionHeading />", () => {
     expect(
       screen.getByRole("button", { name: "What is Experience?" }),
     ).toBeInTheDocument();
+    expect(screen.getByRole("tooltip")).toHaveTextContent(
+      "A short preview of the section.",
+    );
   });
 
   it("does NOT render the info button when tooltip is undefined", () => {
