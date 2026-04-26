@@ -126,6 +126,12 @@
   html {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    /* Backstop against horizontal overflow on mobile (the classic
+       "drag right reveals empty bg" bug). `overflow-x: clip` does not
+       create a scroll container (unlike `hidden`) so position: sticky
+       on the header keeps working. The actual offending children are
+       fixed at source — this is just a safety net. */
+    overflow-x: clip;
   }
 
   body {
@@ -133,6 +139,7 @@
     color: var(--color-foreground);
     font-family: var(--font-sans);
     font-feature-settings: "ss01", "cv11";
+    overflow-x: clip;
   }
 
   ::selection {
