@@ -32,6 +32,12 @@ vi.mock("@/lib/github", () => ({
   summarize: () => ({ total: 0, languages: [] }),
 }));
 
+// GithubStats is an async Server Component that fetches from api.github.com;
+// jsdom can't resolve it, so we stub it out for the i18n smoke tests.
+vi.mock("@/components/github-stats", () => ({
+  GithubStats: () => null,
+}));
+
 const localeMock = { current: "en" as "en" | "da" };
 
 vi.mock("next-intl/server", () => ({
