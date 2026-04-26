@@ -4,6 +4,11 @@
 
 ## Last commit pushed (origin/main)
 
+- `17eeb2c` Tech catalogue: 9 more entries + fix CircleCI/PHPUnit/Symfony rendering
+- `0cb8d26` Backlog: collapse queue silos — single ordered list, future-features at bottom
+- `fd2240c` gitignore: agent worktrees
+- `c17977e` Untrack accidentally embedded agent worktree
+- `16071eb` Refinements: video-bg visible placeholder, backlog queue, coverage tooling, handoff doc
 - `0b238d0` Tech catalogue + OnePlus 11 + carousel rework + tooltip refit + em-dash sweep
 - `367d106` Fix CI: extractFirstParagraph no longer rejects "This..." paragraphs
 
@@ -11,14 +16,17 @@ CI on main was failing pre-existing (the boilerplate-filter regex caught any par
 
 ## Currently in flight
 
-- **Senior Dev A** (background agent, worktree-isolated) is running EXIF + GPS extraction across `D:\Portfolio` and producing `scripts/photo-catalogue.json`, `scripts/build-photo-catalogue.mjs`, real captions on `/personal`, plus 4 additional photos. Branch + commits will appear under a `worktree-agent-*` branch; PO merges when it lands.
-- **Local uncommitted work**: video-bg placeholder made conspicuous (terracotta gradient + "Variant A · Left" label); switched gating from `@lg:` (container) to `lg:` (viewport) so the columns reliably appear ≥1024px viewport. backlog.md updated with new requests + future-features section. Coverage tooling installed.
+- **Senior Dev A** (background agent, worktree-isolated) is running EXIF + GPS extraction across `D:\Portfolio` and producing `scripts/photo-catalogue.json`, `scripts/build-photo-catalogue.mjs`, real captions on `/personal`, plus 4 additional photos. Branch + commits will appear under a `worktree-agent-*` branch in `.claude/worktrees/` — that path is now correctly gitignored so it won't accidentally re-embed.
+- All other in-flight work has been pushed to `origin/main`.
 
 ## Next session: pick up here
 
-1. **Wait for Senior Dev A** to push its branch. Review the catalogue + photo additions, merge if clean.
-2. **Push the local uncommitted batch**: video-bg fix, eslint coverage ignore, backlog updates, this handoff. Single commit "Refinements: video-bg visible placeholder, backlog queue, coverage tooling, handoff doc."
-3. **Verify Vercel deploy** — visit `/?video=A` and `/?video=B` on eduardfischer.dev after the push. The placeholder should now be conspicuous (terracotta gradient with a labelled badge).
+1. **Wait for Senior Dev A** to push its branch (EXIF + GPS catalogue + 4 more photos for /personal). Review the catalogue + additions, merge if clean.
+2. **Verify the live deploy** of these refinements:
+   - `/?video=A` and `/?video=B` on eduardfischer.dev — the placeholder should now be conspicuous (terracotta gradient with "Variant A · Left/Right" or "Variant B · Full bleed" labels).
+   - Skills section logos — every tile now sits on a small white plate, so Symfony / PHPUnit / xUnit / dark logos remain readable in dark mode.
+   - PHPUnit logo — should now be a clean blue SVG mark "PHP UNIT" (local file at `public/logos/phpunit.svg`).
+   - CircleCI logo — should resolve via `github.com/circleci.png` (was broken Devicon URL).
 4. **Open queue** is now a single ordered list in `docs/backlog.md` `## Queue (open work, in arrival order)`. Three sub-sections, all part of the same queue:
    - **User requests**: GitHub tech harvest, experience product links, travel map, culinary section, visit-notification, coverage threshold, `/blog` nav cluster, `/my-story` page (last two need Reddit + Danish-culture benchmark before shipping).
    - **Architect pass (optional hardening)**: tests, branch protection, perf audit, carousel container queries, live Yahoo IMAP CI assertion.
