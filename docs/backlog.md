@@ -51,7 +51,7 @@
 
 ### Architect pass (optional hardening)
 
-- [ ] Expand test coverage *(Architect)* — writing pages, theme + palette switching round-trips
+- [x] ~~Expand test coverage *(Architect)*~~ — shipped 2026-04-26 in `feat/test-coverage-expand` (merged `b23afe7`). 25 new test files + 4 expanded → 37 total, 236 tests passing. Coverage 33%→74% statements / 29%→67% branches / 30%→82% functions / 32%→74% lines. Includes carousel ARIA + section-heading + theme-provider + reading-feed (devto/hn/all) + writing pages + sitemap + RSS + sync-gh-descriptions guards.
 - [ ] Branch protection rules *(Architect)* — require CI before merge
 - [ ] Performance audit *(Architect)* — lighthouse, image-loading, font-loading
 - [ ] Container queries — `recommendations-carousel.tsx` *(Architect)* (already uses `@container`/`@md:` internally; verify it composes when nested in a constrained parent)
@@ -64,7 +64,7 @@
 - [x] ~~**Sitemap + robots.txt** *(Architect)*~~ — shipped: `src/app/sitemap.ts` covers both locales × all static + dynamic MDX routes. `src/app/robots.ts` points at the sitemap.
 - [x] ~~**OG image generation** *(Architect)*~~ — shipped: root-level `src/app/opengraph-image.tsx` + `twitter-image.tsx` render a 1200×630 PNG via `next/og` at edge. Per-route OG images (e.g. `/work/[slug]/opengraph-image.tsx`) remain a follow-up if Eduard wants per-page covers.
 - [x] ~~**RSS feed for Posts and articles** *(PO)*~~ — shipped at `/writing/rss.xml` via a Next 16 route handler. 1h CDN cache, posts + articles merged + sorted newest first.
-- [ ] **Search across writing + work + recommends** *(PO)* — client-side fuzzy search using FlexSearch or fuse.js, indexed at build time. Small footprint, big UX win.
+- [x] ~~**Search across writing + work + recommends** *(PO)*~~ — shipped 2026-04-26 in `feat/site-search` (merged `26ae48e`). FlexSearch index built at request time per locale, served via `/api/search-index/[locale]`. `Cmd+K` (or `/`) opens an ARIA dialog palette with focus trap, arrow nav, and grouped results. Fallback `/search?q=` route for full results. EN-only MDX falls back gracefully on DA with `EN` badge. Includes 12 unit tests + 2 Playwright specs.
 - [ ] **Per-trip travel pages with photo lightboxes** *(PO)* — once the EXIF catalogue lands, generate `/travel/{trip-slug}` from clusters of photos by date+location.
 - [ ] **Travel map heatmap mode** *(PO)* — toggle on the Europe map between "destinations" (current) and "intensity" (number of trips per country with a chloropleth fill).
 - [x] ~~**Reading-feed source rotation** *(PO)*~~ — shipped: dev.to / Hacker News / All-sources tabs on `/writing` via `?reading=devto|hn|all`. HN uses front-page top-stories (no per-topic filter). All-sources merges + sorts by date desc. ISR 1h on every fetch.

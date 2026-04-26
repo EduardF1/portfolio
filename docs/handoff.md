@@ -4,12 +4,17 @@
 
 ## Last commits pushed (origin/main)
 
+- `26ae48e` **Merge feat/site-search**: site-wide search (FlexSearch + Cmd+K palette + /search)
+- `b23afe7` **Merge feat/test-coverage-expand**: 25 new test files; coverage 33%→74% statements
+- `1087957` Audience benchmark: /blog cluster (recommend skip) + /my-story (recommend ship with tone constraints)
+- `c143ee0` Styled 404 page with suggested-routes grid + contact CTA
+- `3a8167d` Per-route OG images for /work and /personal listings (dark navy + Schwarzgelb)
+- `54f5269` Add /now page (Derek-Sivers-style placeholder shell) + per-route OG + sitemap entry
+- `46199fa` Contact form: honeypot field with silent success on bot fill
 - `b4b00c4` Reading feed: add Hacker News source + tab strip on /writing
-- `8730e20` Handoff: log Vercel deploy crisis fix + senior devs in flight
 - `cb3cbd2` Add .npmrc legacy-peer-deps=true to unblock Vercel build (react-simple-maps peer vs React 19)
 - `e4c4dfa` Per-route OG image for /travel/culinary listing
 - `78a49ef` Fix unescaped apostrophe in recommends OG image
-- `02e9a49` Per-route OG images for /writing, /recommends, /travel slug routes
 - `e938813` Handoff: tick per-route OG (work/[slug])
 - `6592d3e` Per-route OG images for /work/[slug] case studies
 - `187b8fe` Backlog + handoff: tick OG image generation
@@ -25,11 +30,13 @@
 
 Plus the chain from prior rounds: tech catalogue refresh, backlog restructure, video-bg fix, OnePlus 11 recommendation, carousel rework, tooltip refit, em-dash sweep, CI fix.
 
-## Currently in flight
+## Currently in flight (round 2 — 3 senior devs)
 
-- **Senior Dev A** — site-wide search across writing/articles/work/recommends. Branch `feat/site-search` (not yet pushed). FlexSearch + Cmd+K palette + `/search` route + EN/DA i18n + tests.
-- **Senior Dev B** — coverage expansion to ≥65% statements. Branch `feat/test-coverage-expand` (not yet pushed). Tests for recommendations-carousel, section-heading, writing pages, theme/palette providers, travel-europe-map, hero-video-bg, sync-gh-descriptions.
-- Both running in isolated worktrees against `main`. PO will rebase + merge when they push and report.
+- **Senior Dev A** — per-trip travel pages with photo lightbox. Branch `feat/per-trip-travel-pages`. Clusters `public/photos/photo-catalogue.json` by (country, year-month) → new routes `/travel/photos/[slug]` with custom ARIA-dialog lightbox.
+- **Senior Dev B** — perf + coverage + a11y hardening. Branch `feat/perf-coverage-and-a11y-hardening`. Tightens `vitest.config.ts` thresholds, runs Lighthouse audit on prod, applies S-effort fixes, axe-core e2e, bundle analyzer, CI lighthouse workflow, branch-protection setup doc.
+- **Senior Dev C** — research / exploration (docs only). Branch `docs/media-analysis-and-features`. Reads LinkedIn skills PNGs + CV ledger DOCX → tech.ts gaps. Re-clusters photo archive (observational). Produces 5–7 new-feature proposals.
+
+All three running in isolated worktrees against `main`. PO will rebase + merge when each pushes and reports.
 
 ## Vercel deploy crisis (resolved this session)
 
