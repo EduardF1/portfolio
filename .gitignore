@@ -55,3 +55,6 @@ next-env.d.ts
 .refs/
 .claude/settings.local.json
 .claude/worktrees/
+
+# photo-catalogue intermediates (raw NDJSON dump from extract-exif.ps1)
+scripts/.exif-raw.ndjson
