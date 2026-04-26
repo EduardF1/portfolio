@@ -6,32 +6,32 @@ import { SectionHeading } from "@/components/section-heading";
 
 export const metadata = { title: "Personal" };
 
-// Locations are educated guesses based on filename dates and Eduard's
-// usual rotation (Aarhus base, occasional Romania visits, BVB trips).
-// Captions are intentionally noncommittal so Eduard can correct.
+// Captions derived from EXIF DateTimeOriginal + reverse-geocoded GPS
+// (see scripts/build-photo-catalogue.mjs and scripts/photo-catalogue.json).
+// Photos without EXIF GPS get a date-only caption rather than a guessed location.
 const CAR_PHOTOS = [
   {
     src: "/photos/mar-2024-spring-evening.jpg",
-    alt: "Spring evening, March 2024 — countryside near Aarhus (location guess)",
+    alt: "31 March 2024",
   },
   {
     src: "/photos/may-2024-late-spring.jpg",
-    alt: "Late spring drive, May 2024 — Jutland (location guess)",
+    alt: "25 May 2024",
   },
   {
     src: "/photos/nov-2023-autumn.jpg",
-    alt: "Autumn light, November 2023 — Denmark (location guess)",
+    alt: "26 November 2023",
   },
 ];
 
 const TRAVEL_PHOTOS = [
   {
     src: "/photos/mar-2026-recent-trip.jpg",
-    alt: "March 2026 — recent trip, between contracts (location guess)",
+    alt: "Ljubljana, Slovenia · 25 March 2026",
   },
   {
     src: "/photos/sep-2025-autumn-afternoon.jpg",
-    alt: "Autumn afternoon, September 2025 (location guess)",
+    alt: "Málaga, Spain · 17 September 2025",
   },
 ];
 
