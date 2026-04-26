@@ -37,6 +37,29 @@ export function ContactForm() {
 
   return (
     <form action={action} className="space-y-5" noValidate>
+      {/* Honeypot — visually hidden, off the tab order, ignored by screen
+          readers. Bots filling every field will fill this; legitimate humans
+          will not. The server action silently feigns success when filled. */}
+      <div
+        aria-hidden="true"
+        style={{
+          position: "absolute",
+          left: "-9999px",
+          width: "1px",
+          height: "1px",
+          overflow: "hidden",
+        }}
+      >
+        <label htmlFor="contact-website">Website (leave empty)</label>
+        <input
+          id="contact-website"
+          name="website"
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+        />
+      </div>
+
       <Field
         label={t("name")}
         name="name"

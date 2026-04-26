@@ -76,6 +76,13 @@ export async function submitContact(
   _prev: ContactState,
   formData: FormData,
 ): Promise<ContactState> {
+  // Honeypot: legitimate humans never see or fill this field. If it has a
+  // value, silently feign success so bots don't learn the trap.
+  const honeypot = formData.get("website");
+  if (typeof honeypot === "string" && honeypot.trim() !== "") {
+    return { status: "ok" };
+  }
+
   const raw = {
     name: formData.get("name"),
     email: formData.get("email"),
