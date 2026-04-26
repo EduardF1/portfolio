@@ -77,7 +77,7 @@ export default async function WorkListingOGImage() {
               maxWidth: 980,
             }}
           >
-            Case studies from the systems I&apos;ve helped build — public sector,
+            Case studies from the systems I have helped build: public sector,
             defence, e-commerce, and SaaS. Narrative, stack, contribution.
           </div>
         </div>

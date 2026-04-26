@@ -79,7 +79,7 @@ export default async function NowOGImage() {
               maxWidth: 980,
             }}
           >
-            A snapshot of work, study, reading, and side bets — updated every
+            A snapshot of work, study, reading, and side bets: updated every
             month or two.
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { ArrowUpRight, Download, FileText } from "lucide-react";
+import { ArrowUpRight, Download } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -14,7 +14,6 @@ import {
 import { findTech } from "@/lib/tech";
 import { getRecommendations } from "@/lib/recommendations";
 import { roleSlug } from "@/lib/role-slug";
-import { CopyRoleLink } from "@/components/copy-role-link";
 import { HowIWork } from "@/components/how-i-work";
 
 export default async function Home({
@@ -94,25 +93,12 @@ function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
               {t("common.seeWork")}
               <ArrowUpRight className="h-4 w-4" />
             </Link>
-            {/* Primary CV CTA opens the in-page read-only viewer.
-                The viewer is a UX nudge: it deters casual copy/paste
-                without pretending to be DRM. */}
-            <Link
-              href={{ pathname: "/cv", query: { lang: "en" } }}
-              className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium hover:border-accent hover:text-accent"
-            >
-              <FileText className="h-4 w-4" />
-              {t("common.viewCv")}
-            </Link>
-            {/* Secondary, smaller link for users who actually want the
-                file — Eduard didn't ask to block downloads, only to make
-                the default in-page viewing read-only. */}
             <a
               href="/cv/Eduard_Fischer-Szava_CV_EN.pdf"
-              className="inline-flex items-center gap-1 text-sm text-foreground-subtle hover:text-accent"
+              className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium hover:border-accent hover:text-accent"
               download
             >
-              <Download className="h-3.5 w-3.5" />
+              <Download className="h-4 w-4" />
               {t("common.downloadCv")}
             </a>
           </div>
@@ -127,11 +113,15 @@ function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
               All colours come from palette tokens, so the frame adapts across
               the 6 palette/theme combos. Static — no animation, honours
               prefers-reduced-motion by default. */}
+          {/* Mat padding lives only on top/sides; the photo's bottom
+              edge sits flush against the inner accent line so the
+              portrait rests on the frame's bottom rail like a
+              mantelpiece, no whitespace gap below it. */}
           <div
             data-testid="hero-frame"
             className="relative w-full max-w-[400px] rounded-sm p-[3px] [background:var(--color-foreground-subtle)] shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)]"
           >
-            <div className="rounded-[2px] bg-surface p-5 shadow-[inset_0_0_0_1px_var(--color-accent-soft)]">
+            <div className="rounded-[2px] bg-surface px-5 pt-5 pb-0 shadow-[inset_0_0_0_1px_var(--color-accent-soft)]">
               <div className="relative aspect-square w-full">
                 <Image
                   src="/images/hero/portrait.png"
@@ -139,7 +129,7 @@ function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
                   fill
                   priority
                   sizes="(min-width: 768px) 400px, 100vw"
-                  className="object-contain"
+                  className="object-contain object-bottom"
                 />
               </div>
             </div>
@@ -332,10 +322,7 @@ function Experience() {
                   className="absolute -left-[37px] top-2 h-[10px] w-[10px] rounded-full border-2 border-accent bg-background target:bg-accent"
                 />
                 <div>
-                  <div className="flex items-baseline gap-3 flex-wrap">
-                    <h3 className="text-xl">{r.role}</h3>
-                    <CopyRoleLink slug={slug} label={`${r.role} at ${r.company}`} />
-                  </div>
+                  <h3 className="text-xl">{r.role}</h3>
                   <p className="mt-1 text-foreground">
                     <a
                       href={r.url}

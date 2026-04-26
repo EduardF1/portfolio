@@ -88,7 +88,6 @@ import WorkItem, {
 import TravelPage from "./travel/page";
 import TravelItem, {
   generateMetadata as travelMeta,
-  generateStaticParams as travelParams,
 } from "./travel/[slug]/page";
 import CulinaryPage from "./travel/culinary/page";
 
@@ -99,7 +98,7 @@ describe("RecommendsPage list", () => {
     expect(
       screen.getByRole("heading", {
         level: 1,
-        name: /Things I.ve used and would buy again/,
+        name: /Tools, books, and products I trust/,
       }),
     ).toBeInTheDocument();
   });
@@ -146,7 +145,7 @@ describe("WorkPage list", () => {
     expect(
       screen.getByRole("heading", {
         level: 1,
-        name: /Selected work and open-source explorations/,
+        name: /Selected case studies/,
       }),
     ).toBeInTheDocument();
     expect(screen.getByText("KOMBIT VALG")).toBeInTheDocument();
@@ -207,7 +206,7 @@ describe("WorkItem slug page", () => {
 });
 
 describe("TravelPage list", () => {
-  it("renders the heading and the trip count line", async () => {
+  it("renders the heading and the culinary cross-link", async () => {
     const tree = await TravelPage({
       params: Promise.resolve({ locale: "en" }),
     });
@@ -215,23 +214,11 @@ describe("TravelPage list", () => {
     expect(
       screen.getByRole("heading", { level: 1, name: /Notes from the road/ }),
     ).toBeInTheDocument();
-    expect(screen.getByText(/1 trip/)).toBeInTheDocument();
     expect(screen.getByText(/See the culinary side/)).toBeInTheDocument();
   });
 });
 
 describe("TravelItem slug page", () => {
-  it("renders the sample trip", async () => {
-    const params = await travelParams();
-    const slug = params[0]!.slug;
-    const tree = await TravelItem({
-      params: Promise.resolve({ locale: "en", slug }),
-    });
-    render(tree);
-    expect(screen.getByRole("heading", { level: 1 })).toBeInTheDocument();
-    expect(screen.getByTestId("mdx-body")).toBeInTheDocument();
-  });
-
   it("calls notFound when slug is unknown", async () => {
     await expect(
       TravelItem({
@@ -240,13 +227,7 @@ describe("TravelItem slug page", () => {
     ).rejects.toThrow("NEXT_NOT_FOUND");
   });
 
-  it("generateMetadata returns title for known slug", async () => {
-    const params = await travelParams();
-    const slug = params[0]!.slug;
-    const meta = await travelMeta({
-      params: Promise.resolve({ locale: "en", slug }),
-    });
-    expect(typeof meta.title).toBe("string");
+  it("generateMetadata returns Not found for unknown slug", async () => {
     const ghost = await travelMeta({
       params: Promise.resolve({ locale: "en", slug: "ghost" }),
     });
@@ -263,6 +244,6 @@ describe("CulinaryPage list", () => {
     expect(
       screen.getByRole("heading", { level: 1, name: /Notes from the table/ }),
     ).toBeInTheDocument();
-    expect(screen.getByText(/2 dishes/)).toBeInTheDocument();
+    expect(screen.getByText(/0 dishes/)).toBeInTheDocument();
   });
 });

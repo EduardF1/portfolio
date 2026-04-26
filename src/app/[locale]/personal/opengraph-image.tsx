@@ -77,8 +77,8 @@ export default async function PersonalOGImage() {
               maxWidth: 980,
             }}
           >
-            Football, cars, and travel — the bits of life that aren&apos;t on my
-            CV but show up in how I show up.
+            Football, cars, and travel: the bits of life that are not on my
+            CV but show up in how I work.
           </div>
         </div>
 
