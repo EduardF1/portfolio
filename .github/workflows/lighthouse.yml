@@ -1,0 +1,59 @@
+name: Lighthouse CI
+
+# Runs Lighthouse against the local production build for every PR.
+# Disabled on push-to-main: we already have steady-state Lighthouse
+# numbers from manual runs and don't want main pushes to spend budget
+# on this. Re-enable for main once the scores are stable across two
+# weeks of PR runs.
+#
+# `continue-on-error: true` is intentional — we collect scores against
+# budgets without blocking PRs while we tune. Promote to a required
+# status check once budgets hold.
+
+on:
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lighthouse:
+    name: Lighthouse audit (PR)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Start preview server
+        run: |
+          npm run start &
+          # Give Next time to bind 3000.
+          for i in $(seq 1 30); do
+            if curl -s -o /dev/null -w "%{http_code}" http://localhost:3000/ | grep -q "200\|307\|308"; then
+              echo "ready"
+              break
+            fi
+            sleep 1
+          done
+      - name: Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v11
+        with:
+          urls: |
+            http://localhost:3000/
+            http://localhost:3000/work
+            http://localhost:3000/writing
+            http://localhost:3000/recommends
+            http://localhost:3000/personal
+            http://localhost:3000/travel
+            http://localhost:3000/now
+            http://localhost:3000/contact
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+          configPath: ./.github/lighthouse/lighthouserc.json
