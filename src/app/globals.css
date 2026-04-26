@@ -20,7 +20,9 @@
   --color-surface-strong: #CBD5E1;
   --color-foreground: #0F172A;
   --color-foreground-muted: #475569;
-  --color-foreground-subtle: #64748B;
+  /* WCAG AA: small (12 px) text needs ≥4.5:1. Old #64748B was 4.42 on
+     #F4F7F9; #57647A is 4.69:1 and visually near-identical. */
+  --color-foreground-subtle: #57647A;
   --color-accent: #0891B2;
   --color-accent-soft: #CFFAFE;
   --color-border: #CBD5E1;
@@ -45,7 +47,8 @@
   --color-surface-strong: #DDD4BC;
   --color-foreground: #1F2A2C;
   --color-foreground-muted: #5C6663;
-  --color-foreground-subtle: #8A8F8A;
+  /* Bumped from #8A8F8A (≈3.0 against #F6F3EA) to ≥4.5:1 for WCAG AA. */
+  --color-foreground-subtle: #6F7570;
   --color-accent: #B89968;
   --color-accent-soft: #E5D4B5;
   --color-border: #D7D0BD;
@@ -57,7 +60,8 @@
   --color-surface-strong: #2A3437;
   --color-foreground: #EFEAD9;
   --color-foreground-muted: #A9A597;
-  --color-foreground-subtle: #6E7270;
+  /* Bumped from #6E7270 (~3.7 against #13191A) to clear 4.5:1. */
+  --color-foreground-subtle: #8A8E89;
   --color-accent: #D9BD86;
   --color-accent-soft: #4A3F28;
   --color-border: #2D3638;
@@ -70,7 +74,8 @@
   --color-surface-strong: #CBD5E1;
   --color-foreground: #0F172A;
   --color-foreground-muted: #475569;
-  --color-foreground-subtle: #64748B;
+  /* Bumped from #64748B (4.42 against #F4F7F9) to clear 4.5:1. */
+  --color-foreground-subtle: #57647A;
   --color-accent: #0891B2;
   --color-accent-soft: #CFFAFE;
   --color-border: #CBD5E1;
@@ -82,7 +87,8 @@
   --color-surface-strong: #334155;
   --color-foreground: #E2E8F0;
   --color-foreground-muted: #94A3B8;
-  --color-foreground-subtle: #64748B;
+  /* Bumped from #64748B (3.75 against #0F172A) to clear 4.5:1. */
+  --color-foreground-subtle: #7B8AA1;
   --color-accent: #22D3EE;
   --color-accent-soft: #164E63;
   --color-border: #334155;
@@ -95,7 +101,8 @@
   --color-surface-strong: #C5BBA2;
   --color-foreground: #2D2620;
   --color-foreground-muted: #5A4F42;
-  --color-foreground-subtle: #8B7F70;
+  /* Bumped from #8B7F70 (~3.7 against #F2EDE0) to clear 4.5:1. */
+  --color-foreground-subtle: #75695C;
   --color-accent: #7A8B6F;
   --color-accent-soft: #D5DCC8;
   --color-border: #C5BBA2;
@@ -107,7 +114,8 @@
   --color-surface-strong: #3A3328;
   --color-foreground: #E9E2D2;
   --color-foreground-muted: #B0A593;
-  --color-foreground-subtle: #807767;
+  /* Bumped from #807767 (~4.0 against #1A1611) to clear 4.5:1. */
+  --color-foreground-subtle: #968B79;
   --color-accent: #A2B493;
   --color-accent-soft: #3D4837;
   --color-border: #2A241D;
