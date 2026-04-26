@@ -118,7 +118,7 @@ export default async function RecommendsOGImage({
           }}
         >
           <span>Eduard Fischer-Szava · Aarhus</span>
-          <span>Things I'd buy again</span>
+          <span>Things I&apos;d buy again</span>
         </div>
       </div>
     ),
