@@ -16,8 +16,8 @@ CI on main was failing pre-existing (the boilerplate-filter regex caught any par
 
 ## Currently in flight
 
-- **Senior Dev A** (background agent, worktree-isolated) is running EXIF + GPS extraction across `D:\Portfolio` and producing `scripts/photo-catalogue.json`, `scripts/build-photo-catalogue.mjs`, real captions on `/personal`, plus 4 additional photos. Branch + commits will appear under a `worktree-agent-*` branch in `.claude/worktrees/` — that path is now correctly gitignored so it won't accidentally re-embed.
-- All other in-flight work has been pushed to `origin/main`.
+- Nothing in flight. All work for this session is on `origin/main`.
+- Senior Dev A landed: 253-photo catalogue (215 with GPS, 20 countries), real captions on `/personal`, 4 more photos (Milan, Vienna, Gibraltar, Pula). Merged in `153fae2`.
 
 ## Next session: pick up here
 
