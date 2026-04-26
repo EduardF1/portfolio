@@ -11,7 +11,12 @@ const CATEGORY_ORDER: ReadonlyArray<Tech["category"]> = [
 ];
 
 function iconUrl(icon: string): string {
+  // Absolute URL — pass through (e.g. https://cdn.simpleicons.org/...)
   if (icon.startsWith("http")) return icon;
+  // Site-relative path — local SVG in /public (e.g. "/logos/phpunit.svg").
+  // Used when devicon doesn't ship a clean mark and we host our own.
+  if (icon.startsWith("/")) return icon;
+  // Otherwise it's a Devicon slug — resolve via the jsDelivr CDN.
   return `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${icon}/${icon}-original.svg`;
 }
 
@@ -39,11 +44,16 @@ function TechTile({ tech }: { tech: Tech }) {
           className="h-8 w-8 rounded bg-white p-0.5 object-contain"
         />
       ) : (
+        // Monogram fallback for techs without a logo (e.g. Lexik JWT,
+        // Windows CMD). Uses the accent-soft palette token so the tile
+        // reads as deliberate across all 6 palette/theme combos rather
+        // than a ghost card. The first letter of the tech's name is
+        // visually equivalent to a logo bug.
         <span
           aria-hidden="true"
-          className="flex h-8 w-8 items-center justify-center rounded-sm border border-border/80 font-mono text-[0.6rem] uppercase tracking-wider text-foreground-subtle group-hover:border-accent group-hover:text-accent transition-colors"
+          className="flex h-8 w-8 items-center justify-center rounded-sm bg-accent-soft font-mono text-sm font-medium uppercase text-accent"
         >
-          {tech.name.slice(0, 3)}
+          {tech.name.replace(/[^A-Za-z0-9]/g, "").charAt(0) || "?"}
         </span>
       )}
       <span className="font-mono text-[0.7rem] uppercase tracking-wider text-foreground-muted group-hover:text-accent transition-colors text-center">

@@ -61,4 +61,27 @@ describe("<Skills />", () => {
     expect(reactLink).toHaveAttribute("target", "_blank");
     expect(reactLink).toHaveAttribute("rel", "noopener noreferrer");
   });
+
+  it("uses a single-letter monogram fallback for techs without an icon", () => {
+    renderWithIntl();
+    // Lexik JWT and Windows CMD have icon: null in src/lib/tech.ts.
+    // Both should render as a deliberate-looking monogram tile, not as
+    // a ghost / empty card.
+    const lexikLink = screen.getByTitle("Lexik JWT");
+    expect(lexikLink).toBeInTheDocument();
+    // The monogram is the first alphanumeric character of the name.
+    expect(lexikLink.textContent).toMatch(/L/);
+
+    const cmdLink = screen.getByTitle("Windows CMD");
+    expect(cmdLink).toBeInTheDocument();
+    expect(cmdLink.textContent).toMatch(/W/);
+  });
+
+  it("renders site-relative icon paths as-is (does not resolve through devicon CDN)", () => {
+    renderWithIntl();
+    // PHPUnit's icon is "/logos/phpunit.svg" — a local SVG. It must NOT
+    // be wrapped in the jsDelivr URL pattern.
+    const phpunit = screen.getByAltText("PHPUnit") as HTMLImageElement;
+    expect(phpunit.getAttribute("src")).toBe("/logos/phpunit.svg");
+  });
 });

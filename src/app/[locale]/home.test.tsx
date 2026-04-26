@@ -82,6 +82,7 @@ const I18N: Record<string, string> = {
   "common.available": "EU citizen · Aarhus, Denmark",
   "common.seeWork": "See work",
   "common.downloadCv": "Download CV",
+  "common.viewCv": "View CV",
   "common.allWork": "All work",
   // home
   "home.hero": "Software Engineer",
@@ -125,6 +126,9 @@ describe("Home (homepage)", () => {
     ).toBeInTheDocument();
     // Hero callout buttons
     expect(screen.getByRole("link", { name: /See work/ })).toBeInTheDocument();
+    // The primary CV CTA now opens the in-page read-only viewer.
+    expect(screen.getByText(/View CV/)).toBeInTheDocument();
+    // The secondary download link remains for users who want the file.
     expect(screen.getByText(/Download CV/)).toBeInTheDocument();
     // Experience entries: each role anchor opens the company site
     expect(screen.getByText("Mjølner Informatics")).toBeInTheDocument();

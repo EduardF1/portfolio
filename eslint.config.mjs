@@ -16,6 +16,10 @@ const eslintConfig = defineConfig([
     ".claude/**",
     "**/.next/**",
     "coverage/**",
+    // Vendored PDF.js worker bundle — third-party minified code, not ours
+    // to lint. Synced from `node_modules/pdfjs-dist` by
+    // scripts/sync-pdfjs-worker.mjs.
+    "public/pdf/**",
   ]),
 ]);
 
