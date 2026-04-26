@@ -68,7 +68,10 @@ export function Skills() {
   const groups = techsByCategory();
 
   return (
-    <section className="@container container-page py-20 md:py-28 border-t border-border/60">
+    <section
+      id="skills"
+      className="@container container-page py-16 md:py-20 border-t border-border/60 scroll-mt-24"
+    >
       <div className="grid gap-12 @md:grid-cols-12">
         <div className="@md:col-span-4">
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
