@@ -138,6 +138,37 @@ export const TECHS: readonly Tech[] = [
     ghLanguage: "Scala",
   },
   {
+    slug: "haskell",
+    name: "Haskell",
+    category: "backend",
+    docsUrl: "https://www.haskell.org/documentation/",
+    description:
+      "Haskell is a purely functional, statically-typed language with lazy evaluation. Used heavily in academia and in selected industry niches that prize correctness (compilers, finance, type-system research).",
+    icon: "haskell",
+    ghLanguage: "Haskell",
+  },
+  {
+    slug: "cpp",
+    name: "C++",
+    category: "backend",
+    docsUrl: "https://en.cppreference.com/",
+    description:
+      "C++ is a multi-paradigm systems language with deterministic memory management and zero-overhead abstractions. The default in performance-critical, embedded, and game-engine contexts.",
+    icon: "cplusplus",
+    ghLanguage: "C++",
+    aliases: ["c++", "cplusplus"],
+  },
+  {
+    slug: "doctrine",
+    name: "Doctrine ORM",
+    category: "backend",
+    docsUrl: "https://www.doctrine-project.org/projects/orm.html",
+    description:
+      "Doctrine is the de-facto ORM for PHP, paired with most modern Symfony applications. Implements the Data Mapper pattern and provides DQL alongside its SQL query builder.",
+    icon: "https://github.com/doctrine.png?size=128",
+    ghLanguage: "PHP",
+  },
+  {
     slug: "symfony",
     name: "Symfony",
     category: "backend",
@@ -202,6 +233,16 @@ export const TECHS: readonly Tech[] = [
       "Redux is a predictable state container for JavaScript apps, popularised alongside React. The modern Redux Toolkit reduces boilerplate while keeping the single-store, pure-reducer model intact.",
     icon: "redux",
     ghLanguage: "TypeScript",
+  },
+  {
+    slug: "twig",
+    name: "Twig",
+    category: "frontend",
+    docsUrl: "https://twig.symfony.com/doc/3.x/",
+    description:
+      "Twig is the templating engine bundled with Symfony, designed for clean, readable templates. Auto-escapes by default, supports inheritance and macros, and is widely reused outside Symfony too.",
+    icon: "https://github.com/twigphp.png?size=128",
+    ghLanguage: "PHP",
   },
   {
     slug: "rxjs",
@@ -343,6 +384,16 @@ export const TECHS: readonly Tech[] = [
     ghLanguage: null,
   },
   {
+    slug: "mongoose",
+    name: "Mongoose",
+    category: "data",
+    docsUrl: "https://mongoosejs.com/docs/",
+    description:
+      "Mongoose is the most-used MongoDB ODM for Node.js. Schema declarations, validators, middleware, and population sit on top of the official MongoDB driver.",
+    icon: "https://github.com/Automattic.png?size=128",
+    ghLanguage: "JavaScript",
+  },
+  {
     slug: "mongodb-atlas",
     name: "MongoDB Atlas",
     category: "data",
@@ -385,6 +436,16 @@ export const TECHS: readonly Tech[] = [
     icon: "https://github.com/xunit.png?size=128",
     ghLanguage: null,
     aliases: ["xunit.net"],
+  },
+  {
+    slug: "cucumber",
+    name: "Cucumber",
+    category: "testing",
+    docsUrl: "https://cucumber.io/docs/cucumber/",
+    description:
+      "Cucumber is a BDD test framework that runs plain-language Gherkin specifications against step definitions. Common alongside Cypress / Selenium for human-readable acceptance suites.",
+    icon: "https://github.com/cucumber.png?size=128",
+    ghLanguage: null,
   },
   {
     slug: "selenium",
@@ -498,6 +559,37 @@ export const TECHS: readonly Tech[] = [
     description:
       "Splunk is an enterprise platform for searching, monitoring, and analysing machine-generated data: logs, metrics, traces. It is widely used for operational visibility and security analytics.",
     icon: "https://github.com/splunk.png?size=128",
+    ghLanguage: null,
+  },
+  {
+    slug: "kubernetes",
+    name: "Kubernetes",
+    category: "ops",
+    docsUrl: "https://kubernetes.io/docs/",
+    description:
+      "Kubernetes is the dominant container orchestrator, pairing declarative manifests with a controller-driven control plane. Production runtime for almost every cloud-native workload.",
+    icon: "kubernetes",
+    ghLanguage: null,
+    aliases: ["k8s"],
+  },
+  {
+    slug: "terraform",
+    name: "Terraform",
+    category: "ops",
+    docsUrl: "https://developer.hashicorp.com/terraform/docs",
+    description:
+      "Terraform is HashiCorp's IaC tool: declarative HCL describes cloud + SaaS resources, and the engine reconciles state against the desired graph. Cloud-agnostic and provider-extensible.",
+    icon: "terraform",
+    ghLanguage: null,
+  },
+  {
+    slug: "ansible",
+    name: "Ansible",
+    category: "ops",
+    docsUrl: "https://docs.ansible.com/",
+    description:
+      "Ansible is Red Hat's agentless configuration-management tool. Playbooks (YAML) drive idempotent state on remote hosts over SSH or WinRM, popular for fleet-wide system setup.",
+    icon: "ansible",
     ghLanguage: null,
   },
   {
