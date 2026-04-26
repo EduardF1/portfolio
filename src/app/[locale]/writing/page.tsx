@@ -5,15 +5,22 @@ import { SectionHeading } from "@/components/section-heading";
 import { ReadingFeed } from "@/components/reading-feed";
 import { getCollection } from "@/lib/content";
 import { formatDate } from "@/lib/format";
+import { isReadingSource } from "@/lib/reading-feed";
 
 export const metadata = { title: "Posts and articles" };
 
-export default async function WritingPage() {
-  const [posts, articles] = await Promise.all([
+export default async function WritingPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ reading?: string }>;
+}) {
+  const [posts, articles, sp] = await Promise.all([
     getCollection("writing"),
     getCollection("articles"),
+    searchParams,
   ]);
   const t = await getTranslations("tooltips");
+  const source = isReadingSource(sp.reading) ? sp.reading : "devto";
 
   return (
     <>
@@ -111,11 +118,8 @@ export default async function WritingPage() {
 
       <ReadingFeed
         kicker="Reading"
-        heading="What the wider community is talking about."
-        description="Auto-pulled from dev.to, top recent posts on the languages and patterns I work with. Refreshed hourly; only the current year is shown so the list never goes stale."
-        emptyMessage="The feed is briefly unavailable. Try again in a moment."
-        tooltip="A live, hourly-refreshed list of community posts in the languages and patterns I work with. Only the current year is shown."
-        source="dev.to"
+        tooltip="A live, hourly-refreshed list of community posts. Pick a source: dev.to (tag-filtered), Hacker News (front page), or All (merged, newest first)."
+        source={source}
         limit={6}
       />
     </>

@@ -1,45 +1,61 @@
 import { ArrowUpRight } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 import { formatDate } from "@/lib/format";
-import { getReadingFeed } from "@/lib/reading-feed";
+import {
+  getReadingFeed,
+  READING_SOURCES,
+  type ReadingSource,
+} from "@/lib/reading-feed";
 import { SectionHeading } from "@/components/section-heading";
+
+const SOURCE_HEADINGS: Record<ReadingSource, string> = {
+  devto: "What the wider community is talking about.",
+  hn: "What is on the front page of Hacker News.",
+  all: "Across dev.to and Hacker News.",
+};
+
+const SOURCE_DESCRIPTIONS: Record<ReadingSource, string> = {
+  devto:
+    "Auto-pulled from dev.to, top recent posts on the languages and patterns I work with. Refreshed hourly; only the current year is shown so the list never goes stale.",
+  hn: "Top stories from Hacker News, refreshed hourly. The HN front page is the curation — no per-topic filter.",
+  all: "Merged stream from dev.to and Hacker News, sorted newest first. Refreshed hourly.",
+};
 
 export async function ReadingFeed({
   kicker,
-  heading,
-  description,
-  emptyMessage,
   tooltip,
-  source,
+  source = "devto",
   limit = 6,
 }: {
   kicker: string;
-  heading: string;
-  description?: string;
-  emptyMessage: string;
   tooltip: string;
-  source: string;
+  source?: ReadingSource;
   limit?: number;
 }) {
-  const items = await getReadingFeed(limit);
+  const items = await getReadingFeed(source, limit);
 
   return (
     <section className="container-page py-12 pb-24">
-      <div className="flex items-end justify-between mb-8 gap-8">
+      <div className="flex items-end justify-between mb-6 gap-8">
         <div>
           <SectionHeading kicker={kicker} tooltip={tooltip}>
-            {heading}
+            {SOURCE_HEADINGS[source]}
           </SectionHeading>
-          {description && <p className="mt-4 max-w-xl">{description}</p>}
+          <p className="mt-4 max-w-xl">{SOURCE_DESCRIPTIONS[source]}</p>
         </div>
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle text-right shrink-0">
-          {source}
+          {READING_SOURCES.find((s) => s.id === source)?.label ?? source}
           {items.length > 0 && ` · ${items.length}`}
         </p>
       </div>
 
+      <SourceTabs current={source} />
+
       {items.length === 0 ? (
         <div className="rounded-lg border border-dashed border-border p-12 text-center">
-          <p className="text-foreground-subtle">{emptyMessage}</p>
+          <p className="text-foreground-subtle">
+            The feed is briefly unavailable. Try again in a moment.
+          </p>
         </div>
       ) : (
         <ul className="divide-y divide-border/60 border-y border-border/60">
@@ -61,9 +77,15 @@ export async function ReadingFeed({
                     </p>
                   )}
                   <p className="mt-2 font-mono text-xs uppercase tracking-wider text-foreground-subtle">
+                    {source === "all" && (
+                      <span className="text-accent mr-2">
+                        {item.source === "hn" ? "HN" : "dev.to"}
+                      </span>
+                    )}
                     {item.author}
                     {item.readingMinutes && ` · ${item.readingMinutes} min read`}
-                    {item.tags.length > 0 && ` · ${item.tags.slice(0, 3).join(" · ")}`}
+                    {item.tags.length > 0 &&
+                      ` · ${item.tags.slice(0, 3).join(" · ")}`}
                   </p>
                 </div>
                 <p className="font-mono text-xs text-foreground-subtle whitespace-nowrap inline-flex items-center gap-1">
@@ -76,5 +98,35 @@ export async function ReadingFeed({
         </ul>
       )}
     </section>
+  );
+}
+
+function SourceTabs({ current }: { current: ReadingSource }) {
+  return (
+    <nav
+      aria-label="Reading feed source"
+      className="mb-6 flex flex-wrap gap-2 border-b border-border/60 pb-3"
+    >
+      {READING_SOURCES.map((s) => {
+        const active = s.id === current;
+        const href = s.id === "devto" ? "/writing" : `/writing?reading=${s.id}`;
+        return (
+          <Link
+            key={s.id}
+            href={href}
+            scroll={false}
+            aria-current={active ? "page" : undefined}
+            className={
+              "rounded-full px-4 py-1.5 text-sm font-mono uppercase tracking-wider transition-colors " +
+              (active
+                ? "bg-accent text-accent-foreground"
+                : "text-foreground-muted hover:text-foreground hover:bg-surface")
+            }
+          >
+            {s.label}
+          </Link>
+        );
+      })}
+    </nav>
   );
 }
