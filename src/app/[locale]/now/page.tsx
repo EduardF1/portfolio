@@ -1,5 +1,6 @@
 import { setRequestLocale } from "next-intl/server";
 import { SectionHeading } from "@/components/section-heading";
+import { SectionNav } from "@/components/section-nav";
 import { Link } from "@/i18n/navigation";
 
 export const metadata = {
@@ -20,7 +21,19 @@ export default async function NowPage({
 
   return (
     <>
-      <section className="container-page pt-24 md:pt-28 pb-12">
+      <SectionNav
+        sections={[
+          { id: "intro", label: "Now" },
+          { id: "focus", label: "Focus" },
+          { id: "reading", label: "Reading" },
+          { id: "side-bets", label: "Side bets" },
+          { id: "lately", label: "Lately" },
+        ]}
+      />
+      <section
+        id="intro"
+        className="container-page pt-24 md:pt-28 pb-12 scroll-mt-24"
+      >
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
           Now
         </p>
@@ -42,7 +55,10 @@ export default async function NowPage({
         </p>
       </section>
 
-      <section className="container-page py-12 max-w-3xl">
+      <section
+        id="focus"
+        className="container-page py-12 max-w-3xl scroll-mt-24"
+      >
         <SectionHeading>Focus</SectionHeading>
         <div className="mt-6 space-y-4">
           <p>
@@ -68,7 +84,10 @@ export default async function NowPage({
         </div>
       </section>
 
-      <section className="container-page py-12 max-w-3xl">
+      <section
+        id="reading"
+        className="container-page py-12 max-w-3xl scroll-mt-24"
+      >
         <SectionHeading>Reading</SectionHeading>
         <div className="mt-6 space-y-4">
           <p>
@@ -86,7 +105,10 @@ export default async function NowPage({
         </div>
       </section>
 
-      <section className="container-page py-12 max-w-3xl">
+      <section
+        id="side-bets"
+        className="container-page py-12 max-w-3xl scroll-mt-24"
+      >
         <SectionHeading>Side bets</SectionHeading>
         <div className="mt-6 space-y-4">
           <p>
@@ -116,7 +138,10 @@ export default async function NowPage({
         </div>
       </section>
 
-      <section className="container-page py-12 pb-24 max-w-3xl">
+      <section
+        id="lately"
+        className="container-page py-12 pb-24 max-w-3xl scroll-mt-24"
+      >
         <SectionHeading>Lately</SectionHeading>
         <div className="mt-6 space-y-4">
           <p>
