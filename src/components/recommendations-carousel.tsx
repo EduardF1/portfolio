@@ -30,19 +30,20 @@ export function RecommendationsCarousel({ recommendations, locale }: Props) {
   const total = slides.length;
   const id = useId();
 
+  const [reduced, setReduced] = useState<boolean>(() => {
+    if (typeof window === "undefined") return false;
+    return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  });
   const [active, setActive] = useState(0);
-  const [mode, setMode] = useState<Mode>("auto");
+  const [mode, setMode] = useState<Mode>(() => (reduced ? "manual" : "auto"));
   const [paused, setPaused] = useState(false);
-  const [reduced, setReduced] = useState(false);
   const touchStartX = useRef<number | null>(null);
   const touchStartY = useRef<number | null>(null);
 
-  // Detect prefers-reduced-motion at mount AND on change.
+  // Subscribe to prefers-reduced-motion changes (initial value already in state).
   useEffect(() => {
     if (typeof window === "undefined") return;
     const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    setReduced(mq.matches);
-    if (mq.matches) setMode("manual");
     function onChange() {
       setReduced(mq.matches);
       if (mq.matches) setMode("manual");

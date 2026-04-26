@@ -53,14 +53,22 @@ function setReducedMotion(reduced: boolean) {
 describe("<RecommendationsCarousel />", () => {
   it("renders all slides as DOM, only the active one with the quote visible", () => {
     setReducedMotion(false);
-    render(<RecommendationsCarousel recommendations={RECS} locale="en" />);
-    // First slide visible
+    const { container } = render(
+      <RecommendationsCarousel recommendations={RECS} locale="en" />,
+    );
+    // First slide's quote is in the visible DOM
     expect(screen.getByText(/Quote A/)).toBeInTheDocument();
-    // Slides B and C exist as articles but their quote text is not in the DOM
-    // (they render placeholder articles, content gated on isActive)
+    // Slides B and C exist as elements but their inactive bodies are not rendered
     expect(screen.queryByText(/Quote B/)).not.toBeInTheDocument();
-    // 3 slide regions
-    expect(screen.getAllByRole("group", { name: /Slide \d of 3/ })).toHaveLength(3);
+    // 3 slide regions in the DOM (using a tree-walking selector — getByRole
+    // honours aria-hidden, which inactive slides set per the APG carousel pattern)
+    expect(container.querySelectorAll('[aria-roledescription="slide"]')).toHaveLength(
+      3,
+    );
+    // Dot controls confirm the slide count too
+    expect(
+      screen.getAllByRole("button", { name: /Go to slide \d of 3/ }),
+    ).toHaveLength(3);
   });
 
   it("dot click advances to that slide and switches mode to manual (Pause hidden)", () => {
