@@ -32,6 +32,10 @@ export default defineConfig({
         "src/**/*.test.{ts,tsx}",
         "src/**/*.spec.{ts,tsx}",
         "scripts/**/*.test.mjs",
+        // Audit / one-shot tooling — never imported from app code, no
+        // unit tests by design. Lives in scripts/ but is not part of
+        // the runtime surface we want to gate coverage against.
+        "scripts/lighthouse-*.mjs",
         "src/i18n/**",
         "src/app/**/layout.tsx",
         "src/app/**/proxy.ts",

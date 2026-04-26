@@ -58,3 +58,8 @@ next-env.d.ts
 
 # photo-catalogue intermediates (raw NDJSON dump from extract-exif.ps1)
 scripts/.exif-raw.ndjson
+
+# Lighthouse audit raw reports (regenerated via scripts/lighthouse-batch.mjs).
+# Keep scores.md committed for historical context; per-route JSONs are
+# huge and noisy. Re-run locally when needed.
+docs/lighthouse-reports/*.json
