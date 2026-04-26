@@ -15,9 +15,11 @@ test.describe("smoke — public routes return 200 and render content", () => {
     test(`GET ${path}`, async ({ page }) => {
       const response = await page.goto(path);
       expect(response?.status(), `${path} should be 200`).toBe(200);
-      // The site name is in the header on every page
+      // The site name is in the header on every page. The brand link's
+      // aria-label is the full name now (matches the visible text — fixes
+      // the label-content-name-mismatch flagged by axe in the perf audit).
       await expect(
-        page.getByRole("link", { name: "Home", exact: true }),
+        page.getByRole("link", { name: "Eduard Fischer-Szava", exact: true }),
       ).toBeVisible();
     });
   }

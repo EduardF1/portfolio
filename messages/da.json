@@ -9,7 +9,10 @@
     "switchLanguage": "Skift sprog",
     "switchToDanish": "Skift til dansk",
     "switchToEnglish": "Skift til engelsk",
-    "toggleTheme": "Skift tema"
+    "toggleTheme": "Skift tema",
+    "openMenu": "Åbn menu",
+    "closeMenu": "Luk menu",
+    "menuTitle": "Sidenavigation"
   },
   "common": {
     "downloadCv": "Download CV",

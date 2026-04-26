@@ -9,7 +9,10 @@
     "switchLanguage": "Switch language",
     "switchToDanish": "Switch to Danish",
     "switchToEnglish": "Switch to English",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menuTitle": "Site navigation"
   },
   "common": {
     "downloadCv": "Download CV",
