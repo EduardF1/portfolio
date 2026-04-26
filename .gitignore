@@ -54,3 +54,4 @@ next-env.d.ts
 # downloaded design refs (local only)
 .refs/
 .claude/settings.local.json
+.claude/worktrees/
