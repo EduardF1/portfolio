@@ -13,6 +13,7 @@
   },
   "common": {
     "downloadCv": "Download CV",
+    "viewCv": "View CV",
     "seeWork": "See selected work",
     "allWork": "All work",
     "readCaseStudy": "Read the case study",
@@ -173,6 +174,21 @@
       "work": "Work",
       "recommends": "Recommends"
     }
+  },
+  "cv": {
+    "title": "CV — read-only viewer",
+    "kicker": "Curriculum Vitae",
+    "heading": "Read-only CV viewer",
+    "description": "An in-page render of my CV. Casual copy/paste is disabled — for a copy of the CV, please contact me.",
+    "english": "English",
+    "danish": "Dansk",
+    "loading": "Loading CV…",
+    "loadError": "The CV couldn't be loaded. Please try again or download the PDF directly.",
+    "prev": "Previous page",
+    "next": "Next page",
+    "pageOf": "Page {current} of {total}",
+    "readonlyNote": "This is a read-only viewer — for a copy of the CV, please contact me.",
+    "directDownload": "Download the PDF"
   },
   "tooltips": {
     "about": "Who I am as a consultant: values, working style, and the kind of work that suits me best.",

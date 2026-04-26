@@ -1,4 +1,4 @@
-import { ArrowUpRight, Download } from "lucide-react";
+import { ArrowUpRight, Download, FileText } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -94,26 +94,55 @@ function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
               {t("common.seeWork")}
               <ArrowUpRight className="h-4 w-4" />
             </Link>
+            {/* Primary CV CTA opens the in-page read-only viewer.
+                The viewer is a UX nudge: it deters casual copy/paste
+                without pretending to be DRM. */}
+            <Link
+              href={{ pathname: "/cv", query: { lang: "en" } }}
+              className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium hover:border-accent hover:text-accent"
+            >
+              <FileText className="h-4 w-4" />
+              {t("common.viewCv")}
+            </Link>
+            {/* Secondary, smaller link for users who actually want the
+                file — Eduard didn't ask to block downloads, only to make
+                the default in-page viewing read-only. */}
             <a
               href="/cv/Eduard_Fischer-Szava_CV_EN.pdf"
-              className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium hover:border-accent hover:text-accent"
+              className="inline-flex items-center gap-1 text-sm text-foreground-subtle hover:text-accent"
               download
             >
-              <Download className="h-4 w-4" />
+              <Download className="h-3.5 w-3.5" />
               {t("common.downloadCv")}
             </a>
           </div>
         </div>
         <div className="md:col-span-5 flex justify-center md:justify-end">
-          <div className="relative w-full max-w-[400px] aspect-square">
-            <Image
-              src="/images/hero/portrait.png"
-              alt="Eduard Fischer-Szava, portrait"
-              fill
-              priority
-              sizes="(min-width: 768px) 400px, 100vw"
-              className="object-contain"
-            />
+          {/* Picture frame — a calm Scandinavian museum mount.
+              Layers (outer→inner):
+                1. slim outer frame (wood/metal tone via --color-foreground-subtle)
+                2. thick mat (off-white in light / warm off-black in dark via --color-surface)
+                3. fine inner accent line (--color-accent-soft)
+                4. portrait
+              All colours come from palette tokens, so the frame adapts across
+              the 6 palette/theme combos. Static — no animation, honours
+              prefers-reduced-motion by default. */}
+          <div
+            data-testid="hero-frame"
+            className="relative w-full max-w-[400px] rounded-sm p-[3px] [background:var(--color-foreground-subtle)] shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)]"
+          >
+            <div className="rounded-[2px] bg-surface p-5 shadow-[inset_0_0_0_1px_var(--color-accent-soft)]">
+              <div className="relative aspect-square w-full">
+                <Image
+                  src="/images/hero/portrait.png"
+                  alt="Eduard Fischer-Szava, portrait"
+                  fill
+                  priority
+                  sizes="(min-width: 768px) 400px, 100vw"
+                  className="object-contain"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

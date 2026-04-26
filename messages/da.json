@@ -13,6 +13,7 @@
   },
   "common": {
     "downloadCv": "Download CV",
+    "viewCv": "Se CV",
     "seeWork": "Se udvalgt arbejde",
     "allWork": "Alt arbejde",
     "readCaseStudy": "Læs casen",
@@ -173,6 +174,21 @@
       "work": "Arbejde",
       "recommends": "Anbefalinger"
     }
+  },
+  "cv": {
+    "title": "CV — kun til visning",
+    "kicker": "Curriculum Vitae",
+    "heading": "CV — kun til visning",
+    "description": "En in-page-visning af mit CV. Almindelig kopi/indsæt er deaktiveret — kontakt mig, hvis du vil have en kopi af CV'et.",
+    "english": "Engelsk",
+    "danish": "Dansk",
+    "loading": "Indlæser CV…",
+    "loadError": "CV'et kunne ikke indlæses. Prøv igen, eller download PDF'en direkte.",
+    "prev": "Forrige side",
+    "next": "Næste side",
+    "pageOf": "Side {current} af {total}",
+    "readonlyNote": "Dette er en kun-visnings-side — kontakt mig, hvis du vil have en kopi af CV'et.",
+    "directDownload": "Download PDF'en"
   },
   "tooltips": {
     "about": "Hvem jeg er som konsulent: værdier, arbejdsstil og den slags opgaver, der passer mig bedst.",
