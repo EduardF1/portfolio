@@ -7,6 +7,10 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      // Next.js' `import "server-only"` marker has no test-mode shim;
+      // alias to a tiny no-op so server-only modules can be imported
+      // by Vitest under jsdom.
+      "server-only": path.resolve(__dirname, "./vitest.server-only-shim.ts"),
     },
   },
   test: {
