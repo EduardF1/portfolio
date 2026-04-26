@@ -96,7 +96,7 @@ export default async function MyStoryPage({
         sections={[
           { id: "intro", label: "Intro" },
           { id: "chapters", label: "Chapters" },
-          { id: "whats-next", label: "What's next" },
+          { id: "whats-next", label: "Now" },
         ]}
       />
       <section
@@ -160,13 +160,11 @@ export default async function MyStoryPage({
         id="whats-next"
         className="container-page py-12 pb-24 max-w-3xl scroll-mt-24"
       >
-        <SectionHeading>What&apos;s next</SectionHeading>
+        <SectionHeading>Where I am now</SectionHeading>
         <p className="mt-6">
-          The direction I&apos;m looking in: long-form work on systems that
-          carry real weight (public-sector, infrastructure, tools used daily
-          by teams that depend on them) in a calm review culture that takes
-          quality seriously. Aarhus is home; I&apos;m open to hybrid and to
-          Copenhagen for the right team. Pairs with{" "}
+          Currently at Mjølner Informatics in Aarhus, working on systems that
+          carry real weight in a calm review culture that takes quality
+          seriously. Pairs with{" "}
           <Link
             href="/now"
             className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
@@ -174,16 +172,6 @@ export default async function MyStoryPage({
             /now
           </Link>{" "}
           which holds the volatile slice.
-        </p>
-        <p className="mt-8">
-          If something here resonates with what you&apos;re hiring for,{" "}
-          <Link
-            href="/contact"
-            className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
-          >
-            I&apos;d be glad to hear from you
-          </Link>
-          .
         </p>
       </section>
     </>
