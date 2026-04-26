@@ -55,7 +55,7 @@ describe("<SiteFooter />", () => {
       "https://www.linkedin.com/in/eduard-fischer-szava/",
     );
 
-    const mail = screen.getByLabelText("Email");
+    const mail = screen.getByLabelText("Send email");
     expect(mail).toHaveAttribute("href", "mailto:fischer_eduard@yahoo.com");
     // mailto: is not http → no target
     expect(mail).not.toHaveAttribute("target");

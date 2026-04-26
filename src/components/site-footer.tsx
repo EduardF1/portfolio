@@ -23,7 +23,7 @@ const socials = [
   },
   {
     href: "mailto:fischer_eduard@yahoo.com",
-    label: "Email",
+    label: "Send email",
     icon: Mail,
     external: true,
   },
