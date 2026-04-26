@@ -24,7 +24,7 @@ test("contact form happy path — submission targets Yahoo @cross", async ({
 
   await page.goto("/contact");
   await page.getByLabel(/Your name/).fill("Playwright Tester");
-  await page.getByLabel(/^Email/).fill("eduardf-portfolio-test@example.com");
+  await page.getByLabel(/^Email$/).fill("eduardf-portfolio-test@example.com");
   await page.getByLabel(/Subject/).fill(SUBJECT);
   await page
     .getByLabel(/Message/)
@@ -36,7 +36,7 @@ test("contact form happy path — submission targets Yahoo @cross", async ({
 
   // Server-action success card
   await expect(
-    page.getByText(/Thanks — got it\./),
+    page.getByText(/Thanks, got it\./),
   ).toBeVisible({ timeout: 10_000 });
 
   // Verify the recipient address shown in the success body is Yahoo.
@@ -56,7 +56,7 @@ test("contact form — live email round-trip via Yahoo IMAP", async ({
 
   await page.goto("/contact");
   await page.getByLabel(/Your name/).fill("Playwright Live");
-  await page.getByLabel(/^Email/).fill("eduardf-portfolio-test@example.com");
+  await page.getByLabel(/^Email$/).fill("eduardf-portfolio-test@example.com");
   await page.getByLabel(/Subject/).fill(SUBJECT);
   await page
     .getByLabel(/Message/)
@@ -64,7 +64,7 @@ test("contact form — live email round-trip via Yahoo IMAP", async ({
       "Live e2e: this message should appear in fischer_eduard@yahoo.com within ~60 seconds. Safe to delete.",
     );
   await page.getByRole("button", { name: /Send message/ }).click();
-  await expect(page.getByText(/Thanks — got it\./)).toBeVisible({
+  await expect(page.getByText(/Thanks, got it\./)).toBeVisible({
     timeout: 30_000,
   });
 
