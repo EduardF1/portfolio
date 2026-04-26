@@ -1,4 +1,4 @@
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/section-heading";
 import { SectionNav } from "@/components/section-nav";
@@ -89,14 +89,15 @@ export default async function MyStoryPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("myStory");
 
   return (
     <>
       <SectionNav
         sections={[
-          { id: "intro", label: "Intro" },
-          { id: "chapters", label: "Chapters" },
-          { id: "whats-next", label: "What's next" },
+          { id: "intro", label: t("navIntro") },
+          { id: "chapters", label: t("navChapters") },
+          { id: "whats-next", label: t("navWhatsNext") },
         ]}
       />
       <section
@@ -104,27 +105,28 @@ export default async function MyStoryPage({
         className="container-page pt-24 md:pt-28 pb-12 scroll-mt-24"
       >
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
-          My story
+          {t("kicker")}
         </p>
-        <h1 className="max-w-3xl">How I got here.</h1>
+        <h1 className="max-w-3xl">{t("heading")}</h1>
         <p className="mt-6 max-w-2xl text-lg">
-          A chronological version of the CV: the choices, not the
-          achievements. Dated, honest, and short. The technical detail of each
-          chapter lives on{" "}
-          <Link
-            href="/work"
-            className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
-          >
-            /work
-          </Link>
-          ; the steadier-life slice lives on{" "}
-          <Link
-            href="/personal"
-            className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
-          >
-            /personal
-          </Link>
-          .
+          {t.rich("description", {
+            work: (chunks) => (
+              <Link
+                href="/work"
+                className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
+              >
+                {chunks}
+              </Link>
+            ),
+            personal: (chunks) => (
+              <Link
+                href="/personal"
+                className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
+              >
+                {chunks}
+              </Link>
+            ),
+          })}
         </p>
       </section>
 
@@ -160,30 +162,30 @@ export default async function MyStoryPage({
         id="whats-next"
         className="container-page py-12 pb-24 max-w-3xl scroll-mt-24"
       >
-        <SectionHeading>What&apos;s next</SectionHeading>
+        <SectionHeading>{t("whatsNext")}</SectionHeading>
         <p className="mt-6">
-          The direction I&apos;m looking in: long-form work on systems that
-          carry real weight (public-sector, infrastructure, tools used daily
-          by teams that depend on them) in a calm review culture that takes
-          quality seriously. Aarhus is home; I&apos;m open to hybrid and to
-          Copenhagen for the right team. Pairs with{" "}
-          <Link
-            href="/now"
-            className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
-          >
-            /now
-          </Link>{" "}
-          which holds the volatile slice.
+          {t.rich("whatsNextLead", {
+            now: (chunks) => (
+              <Link
+                href="/now"
+                className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
+              >
+                {chunks}
+              </Link>
+            ),
+          })}
         </p>
         <p className="mt-8">
-          If something here resonates with what you&apos;re hiring for,{" "}
-          <Link
-            href="/contact"
-            className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
-          >
-            I&apos;d be glad to hear from you
-          </Link>
-          .
+          {t.rich("whatsNextHire", {
+            contact: (chunks) => (
+              <Link
+                href="/contact"
+                className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
+              >
+                {chunks}
+              </Link>
+            ),
+          })}
         </p>
       </section>
     </>
