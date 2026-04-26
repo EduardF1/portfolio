@@ -84,20 +84,9 @@ export default async function PersonalPage({
               </span>
             </SectionHeading>
           </div>
-          <div className="md:col-span-8 space-y-8">
+          <div className="md:col-span-8 space-y-6">
             <p className="max-w-2xl text-lg">{ts("footballLede")}</p>
-            <ul className="grid gap-px bg-border/60 grid-cols-2 sm:grid-cols-3 rounded-lg overflow-hidden">
-              {[0, 1, 2].map((i) => (
-                <li
-                  key={i}
-                  className="aspect-square bg-surface flex items-center justify-center"
-                >
-                  <span className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-                    {ts("photoTBD")}
-                  </span>
-                </li>
-              ))}
-            </ul>
+            <p className="max-w-2xl">{ts("footballBody")}</p>
           </div>
         </div>
       </section>
