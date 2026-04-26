@@ -4,8 +4,11 @@
 
 ## Last commits pushed (origin/main)
 
+- `7349f26` SEO trifecta + deeper GitHub harvest (9 more techs)
+- `994eb8a` Travel map: render real geography (react-simple-maps + Natural Earth)
+- `efb9fb5` Backlog + handoff: tick travel map, culinary, product links, coverage publish
 - `6ca9a09` Culinary sub-route under /travel + CI coverage publish
-- `1fea8c7` Travel page: interactive Europe map with 20 countries from GPS catalogue
+- `1fea8c7` Travel page: interactive Europe map (initial dot-grid)
 - `d90e0f1` Experience timeline product links + Node/Express/Python/Scala
 - `153fae2` Merge: photo catalogue + EXIF GPS captions + 4 new photos (Senior Dev A)
 
@@ -29,20 +32,29 @@ Plus the chain from prior rounds: tech catalogue refresh, backlog restructure, v
    - **Architect pass (optional hardening)**: tests, branch protection, perf audit, carousel container queries, live Yahoo IMAP CI assertion.
    - **PO + Architect future-features (also queued, at the bottom)**: 18 items including sitemap, OG, RSS, search, lightboxes, heatmap, analytics, RO locale, `/now`, honeypot, etc.
 
-5. **Just shipped**:
+5. **Just shipped this session**:
+   - Geographic Travel map at `/travel` (react-simple-maps + Natural Earth 1:50m TopoJSON via jsDelivr; country borders + coastlines under terracotta markers; no API key)
+   - 13 more techs total: Node, Express, Python, Scala (first GitHub pass), Haskell, C++, Doctrine, Twig, Cucumber, Mongoose, Kubernetes, Terraform, Ansible (deeper gh-CLI pass)
    - Experience timeline product links (KOMBIT VALG, STIL, UA.dk, Greenbyte Breeze, Boozt, SitaWare/Frontline/Edge)
-   - 4 more techs (Node, Express, Python, Scala)
-   - Travel map at `/travel` (lightweight SVG with 20-country markers, click → scroll to per-country section)
    - Culinary sub-route at `/travel/culinary` with two seed dishes
-   - CI coverage step + artifact upload (no threshold gating yet — baseline 36%)
+   - CI coverage step + 14-day artifact upload (no threshold gating yet — baseline 36%)
+   - SEO: `src/app/sitemap.ts` (both locales × all routes), `src/app/robots.ts`, RSS feed at `/writing/rss.xml`
 
 ## Open queue, next session priorities
 
-1. **Deeper GitHub harvest** — switch from WebFetch (truncates at ~20) to `gh repo list EduardF1 --limit 100 --json name,language,topics`. Cross-reference with `Desktop\Job search 2026\Linkedin sections (01.12.25)\Skills_*.png` and `Eduard_Fischer-Szava_CV_Ledger_FULL.docx` for the LinkedIn-stated skills harvest. Note: reading the PNG screenshots blew the image budget on Senior Dev A's first attempt; the safe path is `Get-Content -Encoding Byte` size-checks first or just use the gh CLI + WebFetch on `https://github.com/EduardF1` overview which lists language stats.
-2. **Visit-notification daily digest** — needs Eduard's approval before shipping. Design proposal already in backlog.
-3. **`/blog` nav cluster** — Reddit + Danish-culture benchmark first (per `feedback_audience_benchmark.md`).
-4. **`/my-story` page** — same benchmark first.
-5. **Tighten coverage thresholds** — once a few more components have basic tests (writing pages, theme provider, travel-europe-map, hero-video-bg).
+1. **Visit-notification daily digest** — needs Eduard's approval before shipping. Design proposal already in backlog (Vercel cron → Resend → fischer_eduard@yahoo.com).
+2. **`/blog` nav cluster** — Reddit + Danish-culture benchmark first (per `feedback_audience_benchmark.md`).
+3. **`/my-story` page** — same benchmark first. Eduard provides the narrative; layout work tracks structure.
+4. **OG image generation** — `app/opengraph-image.tsx` per route via `next/og`. Serif-on-terracotta card with the page title. Pairs cleanly with the sitemap that just landed.
+5. **LinkedIn screenshots + CV-ledger tech pass** — GitHub side is well-covered now. Remaining gaps in those local artefacts (mind the PNG image-size budget; OCR or smaller resampled copies are safer than reading raw screenshots).
+6. **Tighten coverage thresholds** — once writing pages, theme provider, travel-europe-map, hero-video-bg have basic tests.
+
+## Quick sanity-check checklist for next session
+
+- Visit `https://eduardfischer.dev/travel` — should show real Europe map with country borders + 20 terracotta markers.
+- Visit `https://eduardfischer.dev/sitemap.xml` and `/robots.txt` and `/writing/rss.xml` — all three should serve.
+- Visit `https://eduardfischer.dev/?video=A` and `?video=B` — should show conspicuous flank/full-bleed video bg placeholders.
+- Skills section (home page) — every logo should sit on a small white plate (Symfony, PHPUnit, etc. visible in dark mode).
 
 ## Known issues / sanity-checks
 

@@ -39,7 +39,7 @@
 
 ### User requests
 
-- [ ] **Tools and languages, deeper GitHub harvest** *(Eduard)* — first pass added Node, Express, Python, Scala from a sample of 20 EduardF1 repos. The GitHub `/users/{u}/repos` endpoint truncates each WebFetch call to ~20 entries, and Eduard has 73 public repos. Paginate properly (gh CLI `gh repo list EduardF1 --limit 100 --json name,language,topics,description` is the simplest path), then propose any tech / tool / framework not already in `src/lib/tech.ts`. Mark CV-worthy vs. learning-only.
+- [x] ~~**Tools and languages, deeper GitHub harvest** *(Eduard)*~~ — first pass: Node, Express, Python, Scala. Second pass via `gh repo list EduardF1 --limit 100`: Haskell, C++, Doctrine, Twig, Cucumber, Mongoose, Kubernetes, Terraform, Ansible. Cross-pass with LinkedIn screenshots + CV ledger still open as a separate backlog item below.
 - [x] ~~**Experience timeline product links** *(Eduard)*~~ — shipped: ProductLink helper renders KOMBIT VALG, STIL, UA.dk, Greenbyte Breeze, boozt.com, SitaWare/Frontline/Edge as inline links inside each role's summary.
 - [x] ~~**Travel page interactive Europe map** *(Eduard)*~~ — shipped at `/travel` (lightweight inline SVG, 20-country markers from the EXIF catalogue, click → scroll to per-country anchor). `/travel/culinary` cross-link sits below it.
 - [x] ~~**Culinary section under /travel** *(Eduard)*~~ — shipped 2026-04-26 at `/travel/culinary` with two seed dishes; Eduard fills in real entries.
@@ -47,7 +47,7 @@
 - [ ] **Coverage threshold tightening** *(PO)* — coverage now collected and published as a 14-day CI artifact (`coverage/` upload from the validate job). Whole-codebase baseline at 2026-04-26: 36% stmts / 31% branches / 32% funcs / 35% lines (the lower numbers vs. the earlier 58% reading reflect a wider include scope: untested files now count). Thresholds intentionally NOT enforced yet. Re-enable once writing pages, theme provider, video-bg, travel-map, etc. have basic tests.
 - [ ] **`/blog` appbar / nav cluster** *(Eduard)* — turn `Personal`, `Travel`, `Recommends` into children under a top-level `Blog` nav item. Hover dropdown on desktop, collapsible section in mobile menu. Benchmark first: search Reddit (r/Denmark, r/webdev, r/personal_site) and articles on Danish-culture portfolios to gauge whether grouping under "Blog" reads as natural to a Danish/Scandinavian audience or feels foreign. Report back before shipping.
 - [ ] **`/my-story` page** *(Eduard)* — long-form arc from high school → AP Marketing & Management at IBA Kolding → BSc at VIA → MSc at Aarhus → Systematic → Boozt → Greenbyte → Netcompany → Mjølner. Honest, structured, calm tone. Benchmark: skim Reddit threads and Danish-style portfolio essays for what reads as authentic vs. self-promotional. Eduard provides the narrative; this task tracks layout + structure.
-- [ ] **More tech entries from GitHub / LinkedIn / CV ledger** *(Eduard)* — beyond the 9 just added (JetBrains Toolbox, Rider, WebStorm, Visual Studio, VS Code, Android Studio, Postman, Redis, Kafka), do another harvest pass: look in https://github.com/EduardF1, the LinkedIn screenshots in `Desktop\Job search 2026\Linkedin sections (01.12.25)\Skills_*.png`, and the CV ledger `Eduard_Fischer-Szava_CV_Ledger_FULL.docx`. Propose any tech NOT in `src/lib/tech.ts`.
+- [ ] **Tech entries: LinkedIn screenshots + CV ledger pass** *(Eduard)* — GitHub side is now well-covered. Remaining gaps live in `Desktop\Job search 2026\Linkedin sections (01.12.25)\Skills_*.png` and `Eduard_Fischer-Szava_CV_Ledger_FULL.docx`. Read those (note: PNG screenshots are large and can blow image budgets — resize first or use OCR via `Get-WindowsCapability` Tesseract install if available) and propose any tech still missing from `src/lib/tech.ts`.
 
 ### Architect pass (optional hardening)
 
@@ -61,9 +61,9 @@
 
 > Curated proposals, not committed. Each is sized for a single focused PR. Triage before pulling in. Same arrival-queue treatment as everything above: items move out of this section as they're worked, and new ideas append to the bottom of it.
 
-- [ ] **Sitemap + robots.txt** *(Architect)* — `app/sitemap.ts` route emitting all locales × routes. Lifts SEO discoverability with ~30 lines of code.
+- [x] ~~**Sitemap + robots.txt** *(Architect)*~~ — shipped: `src/app/sitemap.ts` covers both locales × all static + dynamic MDX routes. `src/app/robots.ts` points at the sitemap.
 - [ ] **OG image generation** *(Architect)* — `app/opengraph-image.tsx` per route via `next/og`. Each share-link gets a serif-on-terracotta card with the page title.
-- [ ] **RSS feed for Posts and articles** *(PO)* — `/writing/rss.xml`, served from MDX via the same loader. Lets readers subscribe in feed clients.
+- [x] ~~**RSS feed for Posts and articles** *(PO)*~~ — shipped at `/writing/rss.xml` via a Next 16 route handler. 1h CDN cache, posts + articles merged + sorted newest first.
 - [ ] **Search across writing + work + recommends** *(PO)* — client-side fuzzy search using FlexSearch or fuse.js, indexed at build time. Small footprint, big UX win.
 - [ ] **Per-trip travel pages with photo lightboxes** *(PO)* — once the EXIF catalogue lands, generate `/travel/{trip-slug}` from clusters of photos by date+location.
 - [ ] **Travel map heatmap mode** *(PO)* — toggle on the Europe map between "destinations" (current) and "intensity" (number of trips per country with a chloropleth fill).
