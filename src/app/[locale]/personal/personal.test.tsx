@@ -1,10 +1,30 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { cleanup, render, screen } from "@testing-library/react";
+import enMessages from "../../../../messages/en.json";
+import daMessages from "../../../../messages/da.json";
 
 vi.mock("server-only", () => ({}));
 
+const localeMock = { current: "en" as "en" | "da" };
+
 vi.mock("next-intl/server", () => ({
-  getTranslations: async () => (key: string) => `tooltip:${key}`,
+  getTranslations: async (ns?: string) => {
+    type Bag = Record<string, unknown>;
+    const bag = (localeMock.current === "en" ? enMessages : daMessages) as Bag;
+    const root = (ns ? walk(bag, ns) : bag) ?? {};
+    function walk(b: Bag, path: string): Bag | undefined {
+      let c: unknown = b;
+      for (const seg of path.split(".")) {
+        if (c && typeof c === "object" && seg in c) c = (c as Bag)[seg];
+        else return undefined;
+      }
+      return c as Bag;
+    }
+    return (key: string) => {
+      const v = walk(root, key);
+      return typeof v === "string" ? v : key;
+    };
+  },
   setRequestLocale: () => {},
 }));
 
@@ -31,15 +51,27 @@ import PersonalPage from "./page";
 
 describe("PersonalPage", () => {
   it("renders the personal-page sections (Football / Cars / Travel)", async () => {
+    localeMock.current = "en";
     const tree = await PersonalPage({
       params: Promise.resolve({ locale: "en" }),
     });
     render(tree);
     // h1 from the page header
     expect(
-      screen.getByRole("heading", { level: 1 }),
+      screen.getByRole("heading", { level: 1, name: /Outside the office\./ }),
     ).toBeInTheDocument();
     // Sample alt text from the captioned travel + car photos
     expect(screen.getByAltText(/Ljubljana, Slovenia/)).toBeInTheDocument();
+  });
+
+  it("renders the Danish heading when locale is da", async () => {
+    localeMock.current = "da";
+    const tree = await PersonalPage({
+      params: Promise.resolve({ locale: "da" }),
+    });
+    render(tree);
+    expect(
+      screen.getByRole("heading", { level: 1, name: /Uden for kontoret\./ }),
+    ).toBeInTheDocument();
   });
 });
