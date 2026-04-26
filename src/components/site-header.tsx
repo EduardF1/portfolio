@@ -139,11 +139,14 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-3">
           <SearchTrigger />
+          {/* Locale toggle, palette selector, and theme toggle are hidden
+              on small screens to keep the right-cluster within 360px wide
+              viewports. They're exposed inside the mobile sheet below. */}
           <button
             type="button"
             onClick={switchLocale}
             data-testid="locale-toggle"
-            className="text-xs uppercase tracking-wider text-foreground-subtle hover:text-accent"
+            className="hidden md:inline-flex text-xs uppercase tracking-wider text-foreground-subtle hover:text-accent"
             aria-label={
               otherLocale === "da" ? t("switchToDanish") : t("switchToEnglish")
             }
@@ -152,8 +155,12 @@ export function SiteHeader() {
             <span className="mx-1.5 text-foreground-subtle">/</span>
             <span className={locale === "da" ? "text-foreground" : ""}>DA</span>
           </button>
-          <PaletteSelector />
-          <ThemeToggle />
+          <div className="hidden md:inline-flex">
+            <PaletteSelector />
+          </div>
+          <div className="hidden md:inline-flex">
+            <ThemeToggle />
+          </div>
 
           {/* Hamburger — only on screens where the inline nav is hidden.
               Sits at the end of the right cluster so it's the rightmost,
@@ -234,7 +241,7 @@ export function SiteHeader() {
 
             <nav
               aria-label="Mobile primary"
-              className="container-page pb-6 flex flex-col"
+              className="container-page pb-4 flex flex-col"
             >
               {navItems.map((item) => (
                 <Link
@@ -253,6 +260,32 @@ export function SiteHeader() {
                 </Link>
               ))}
             </nav>
+
+            <div className="container-page flex items-center justify-between gap-3 pb-6 pt-2">
+              <button
+                type="button"
+                onClick={() => {
+                  switchLocale();
+                  closeMenu();
+                }}
+                className="text-xs uppercase tracking-wider text-foreground-subtle hover:text-accent"
+                aria-label={
+                  otherLocale === "da"
+                    ? t("switchToDanish")
+                    : t("switchToEnglish")
+                }
+              >
+                <span className={locale === "en" ? "text-foreground" : ""}>
+                  EN
+                </span>
+                <span className="mx-1.5 text-foreground-subtle">/</span>
+                <span className={locale === "da" ? "text-foreground" : ""}>
+                  DA
+                </span>
+              </button>
+              <PaletteSelector />
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       )}

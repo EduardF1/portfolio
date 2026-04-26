@@ -50,7 +50,12 @@ test.describe("mobile smoke @mobile", () => {
     page,
   }) => {
     await page.goto("/");
-    const sel = page.getByTestId("palette-selector");
+    // On narrow viewports the palette selector lives inside the mobile
+    // sheet to keep the header right-cluster within 360px. Open the sheet,
+    // then reach the selector inside it.
+    await page.getByTestId("mobile-menu-trigger").click();
+    const sheet = page.getByTestId("mobile-menu");
+    const sel = sheet.getByTestId("palette-selector");
     await expect(sel).toBeVisible();
     await sel.selectOption("mountain-navy");
     await expect(page.locator("html")).toHaveAttribute(

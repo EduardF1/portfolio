@@ -25,6 +25,10 @@ export default defineConfig({
     {
       name: "chromium",
       use: { ...devices["Desktop Chrome"] },
+      // Desktop runs the standard suite. @mobile-tagged tests rely on the
+      // hamburger menu (md:hidden), so they only make sense on mobile-width
+      // projects below.
+      grepInvert: /@mobile/,
     },
     {
       name: "chromium-laptop-1366",
