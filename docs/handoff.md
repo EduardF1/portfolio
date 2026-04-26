@@ -4,6 +4,8 @@
 
 ## Last commits pushed (origin/main)
 
+- `b4b00c4` Reading feed: add Hacker News source + tab strip on /writing
+- `8730e20` Handoff: log Vercel deploy crisis fix + senior devs in flight
 - `cb3cbd2` Add .npmrc legacy-peer-deps=true to unblock Vercel build (react-simple-maps peer vs React 19)
 - `e4c4dfa` Per-route OG image for /travel/culinary listing
 - `78a49ef` Fix unescaped apostrophe in recommends OG image

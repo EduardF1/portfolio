@@ -67,7 +67,7 @@
 - [ ] **Search across writing + work + recommends** *(PO)* — client-side fuzzy search using FlexSearch or fuse.js, indexed at build time. Small footprint, big UX win.
 - [ ] **Per-trip travel pages with photo lightboxes** *(PO)* — once the EXIF catalogue lands, generate `/travel/{trip-slug}` from clusters of photos by date+location.
 - [ ] **Travel map heatmap mode** *(PO)* — toggle on the Europe map between "destinations" (current) and "intensity" (number of trips per country with a chloropleth fill).
-- [ ] **Reading-feed source rotation** *(PO)* — currently dev.to only; add Hacker News (`https://hacker-news.firebaseio.com/v0/topstories.json`) and an "All sources" tab.
+- [x] ~~**Reading-feed source rotation** *(PO)*~~ — shipped: dev.to / Hacker News / All-sources tabs on `/writing` via `?reading=devto|hn|all`. HN uses front-page top-stories (no per-topic filter). All-sources merges + sorts by date desc. ISR 1h on every fetch.
 - [ ] **Theme/palette analytics** *(Architect)* — anonymous count of which palette × theme combination visitors prefer; helps decide the default. Vercel Analytics or a single `/api/track-palette` route.
 - [ ] **Contact form anti-spam** *(Architect)* — switch the placeholder Cloudflare Turnstile to a live site key.
 - [ ] **PDF resume regenerated from MDX** *(PO)* — single-source-of-truth: experience timeline → CV PDF via `react-pdf`. Avoids the "two CVs" drift.
