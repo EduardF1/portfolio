@@ -59,10 +59,11 @@ export default async function NowPage({
             first months are about understanding the consultancy&apos;s product
             mix, the engineering practice, and where I can add value early.
           </p>
-          <p className="text-foreground-muted text-sm italic">
-            Eduard: replace this with current project context once you&apos;ve
-            settled into a delivery you can name publicly. Keep it
-            non-confidential and short.
+          <p>
+            Day-to-day that means reading my way into ongoing client deliveries,
+            getting comfortable with the team&apos;s review and release cadence,
+            and being useful where I can without rushing the onboarding. I&apos;ll
+            update this section once I&apos;m on a delivery I can name publicly.
           </p>
         </div>
       </section>
@@ -70,17 +71,17 @@ export default async function NowPage({
       <section className="container-page py-12 max-w-3xl">
         <SectionHeading>Reading</SectionHeading>
         <div className="mt-6 space-y-4">
-          <p className="text-foreground-muted text-sm italic">
-            Eduard: list 2-3 books or longer pieces in flight. Format: title,
-            author, one-line of why it&apos;s on the pile. Cross-reference to{" "}
+          <p>
+            A small reading pile, mostly engineering and a bit of business —
+            picked up between commits rather than in long blocks. The finished
+            and recommended end of the pile lives on{" "}
             <Link
               href="/recommends"
               className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
             >
               /recommends
-            </Link>{" "}
-            for the things you&apos;ve already finished and would push to
-            others.
+            </Link>
+            ; this is what&apos;s currently in flight.
           </p>
         </div>
       </section>
@@ -106,9 +107,11 @@ export default async function NowPage({
             </Link>
             .
           </p>
-          <p className="text-foreground-muted text-sm italic">
-            Eduard: drop in any current side projects — open source, study,
-            certifications, hobby code.
+          <p>
+            Beyond the portfolio: keeping my Danish on track, the occasional
+            small commit to side-projects from the bachelor- and MSc-era
+            backlog, and watching for a small AI/LLM angle worth shipping
+            honestly rather than for show.
           </p>
         </div>
       </section>
@@ -116,10 +119,11 @@ export default async function NowPage({
       <section className="container-page py-12 pb-24 max-w-3xl">
         <SectionHeading>Lately</SectionHeading>
         <div className="mt-6 space-y-4">
-          <p className="text-foreground-muted text-sm italic">
-            Eduard: a short paragraph on the texture of life right now —
-            travel, training, family, language study, anything outside work
-            that&apos;s shaping the season. The{" "}
+          <p>
+            Spring in Aarhus. A short trip to Slovenia and Croatia in late
+            March, BVB on Saturdays where the schedule allows, and the slow
+            steady work of settling into a new team after a long stretch at
+            the previous one. The{" "}
             <Link
               href="/personal"
               className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
