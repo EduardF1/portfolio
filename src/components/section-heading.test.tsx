@@ -265,4 +265,34 @@ describe("<SectionHeading />", () => {
     const resizeCalls = addSpy.mock.calls.filter((c) => c[0] === "resize");
     expect(resizeCalls.length).toBe(0);
   });
+
+  it("renders the tooltip icon outside the heading element so its accessible name is just the section text", () => {
+    render(
+      <SectionHeading kicker="Selected work" tooltip="Hand-picked.">
+        Things I&apos;ve helped build.
+      </SectionHeading>,
+    );
+    const heading = screen.getByRole("heading", { level: 2 });
+    // The heading's accessible name should not include the info button —
+    // the icon now sits in the upper-right of the heading row, not
+    // inline inside the heading.
+    expect(heading.textContent).toBe("Things I've helped build.");
+    // But the info button is still in the surrounding region.
+    expect(
+      screen.getByRole("button", { name: /What is Selected work/ }),
+    ).toBeInTheDocument();
+  });
+
+  it("places the tooltip wrapper to the right of the heading via justify-between", () => {
+    render(
+      <SectionHeading kicker="X" tooltip="t">
+        Heading
+      </SectionHeading>,
+    );
+    const heading = screen.getByRole("heading", { level: 2 });
+    const headingRow = heading.parentElement!;
+    // The heading row is the flex container
+    expect(headingRow.className).toContain("flex");
+    expect(headingRow.className).toContain("justify-between");
+  });
 });
