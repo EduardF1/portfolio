@@ -89,7 +89,20 @@
   "personal": {
     "kicker": "Off the clock",
     "heading": "What I do when I'm not at the keyboard.",
-    "description": "BVB on Saturdays, the open road on weekends, and the slow accumulation of countries on a wall map. The professional half is the easy half — this one's a bit more honest."
+    "description": "BVB on Saturdays, the open road on weekends, and the slow accumulation of countries on a wall map. The professional half is the easy half — this one's a bit more honest.",
+    "sections": {
+      "footballKicker": "Football",
+      "footballHeading": "Saturdays in yellow",
+      "footballLede": "Borussia Dortmund — the most beautiful chaos in football. Tuesday training, Saturday kickoff, Sunday post-mortems.",
+      "carsKicker": "On wheels",
+      "carsHeading": "On the road",
+      "carsLede": "Driving as decompression. Long detours through Jutland, the occasional autobahn run, an embarrassing amount of music.",
+      "travelKicker": "Travel",
+      "travelHeading": "A wall of countries, slowly filling",
+      "travelLede": "Slowly accumulating stamps and memories. Cities for the food, mountains for the silence, coastlines for the wind.",
+      "travelLink": "See trip notes",
+      "photoTBD": "Photo · TBD"
+    }
   },
   "travel": {
     "kicker": "Travel",

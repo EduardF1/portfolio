@@ -89,7 +89,20 @@
   "personal": {
     "kicker": "Uden for arbejdstiden",
     "heading": "Det, jeg laver, når jeg ikke sidder ved tastaturet.",
-    "description": "BVB om lørdagen, åben vej i weekenden, og den langsomme samling af lande på et vægkort. Den professionelle halvdel er den nemme halvdel — denne her er lidt mere ærlig."
+    "description": "BVB om lørdagen, åben vej i weekenden, og den langsomme samling af lande på et vægkort. Den professionelle halvdel er den nemme halvdel — denne her er lidt mere ærlig.",
+    "sections": {
+      "footballKicker": "Fodbold",
+      "footballHeading": "Lørdage i gult",
+      "footballLede": "Borussia Dortmund — det smukkeste kaos i fodbold. Træning om tirsdagen, kickoff om lørdagen, post-mortem om søndagen.",
+      "carsKicker": "På hjul",
+      "carsHeading": "På vejen",
+      "carsLede": "At køre er afkobling. Lange omveje gennem Jylland, en gang imellem en tur på autobahnen, og en pinligt stor mængde musik.",
+      "travelKicker": "Rejser",
+      "travelHeading": "En væg af lande, der langsomt fyldes op",
+      "travelLede": "Langsomt samler stempler og minder sig op. Byer for maden, bjerge for stilheden, kyster for vinden.",
+      "travelLink": "Se rejsenoter",
+      "photoTBD": "Foto · TBD"
+    }
   },
   "travel": {
     "kicker": "Rejser",
