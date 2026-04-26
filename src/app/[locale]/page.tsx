@@ -196,14 +196,14 @@ function Experience() {
       summary: (
         <>
           <ProductLink href="https://kombit.dk/valg">KOMBIT VALG</ProductLink>
-          {", Denmark's administrative election platform. Full-stack C#/.NET + Angular. Summer 2025 stint at "}
+          {", Denmark's administrative election platform. Full-stack C#/.NET + Angular. Jun–Sep 2025 stint at "}
           <ProductLink href="https://www.stil.dk/">STIL</ProductLink>
           {" on "}
           <ProductLink href="https://www.ua.dk/">UA.dk</ProductLink>
-          {" EUD III."}
+          {" EUD III, building a reusable UI component catalog on JBoss + TypeScript + jQuery."}
         </>
       ),
-      tech: ["csharp", "dotnet", "angular", "mssql", "azure-devops"],
+      tech: ["csharp", "dotnet", "aspnet", "ef-core", "angular", "mssql", "azure-devops", "jboss", "typescript", "jquery"],
     },
     {
       company: "Greenbyte",
@@ -233,7 +233,7 @@ function Experience() {
           {" in PHP/Symfony. Introduced Kanban; quality and test automation focus."}
         </>
       ),
-      tech: ["php", "symfony", "mysql"],
+      tech: ["php", "symfony", "doctrine", "mysql", "behat", "mockery", "guzzle", "phpunit"],
     },
     {
       company: "Systematic",
@@ -252,7 +252,7 @@ function Experience() {
           {"). Java + Angular. NATO interoperability."}
         </>
       ),
-      tech: ["java", "angular", "junit"],
+      tech: ["java", "angular", "junit", "karma", "jasmine", "robot-framework"],
     },
   ];
 

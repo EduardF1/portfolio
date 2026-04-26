@@ -178,6 +178,124 @@ export const TECHS: readonly Tech[] = [
     icon: "symfony",
     ghLanguage: "PHP",
   },
+  {
+    slug: "c",
+    name: "C",
+    category: "backend",
+    docsUrl: "https://en.cppreference.com/w/c/language",
+    description:
+      "C is a low-level, statically-typed systems language that underpins operating systems, embedded firmware, and the runtime of higher-level languages.",
+    icon: "c",
+    ghLanguage: "C",
+  },
+  {
+    slug: "aspnet",
+    name: "ASP.NET",
+    category: "backend",
+    docsUrl: "https://learn.microsoft.com/en-us/aspnet/core/",
+    description:
+      "ASP.NET is Microsoft's web stack on top of the .NET runtime. It covers MVC, Web API, Razor Pages, and Blazor — the actual framework most C#/.NET web work ships against.",
+    icon: "https://github.com/dotnet.png?size=128",
+    ghLanguage: "C#",
+    aliases: ["asp.net", "aspnetcore", "asp.net core"],
+  },
+  {
+    slug: "ef-core",
+    name: "Entity Framework Core",
+    category: "backend",
+    docsUrl: "https://learn.microsoft.com/en-us/ef/core/",
+    description:
+      "Entity Framework Core is Microsoft's ORM for .NET. Code-first or database-first, LINQ-driven query expressions, migrations, and a test-friendly InMemory provider.",
+    icon: "https://github.com/dotnet.png?size=128",
+    ghLanguage: "C#",
+    aliases: ["entity framework", "efcore", "ef"],
+  },
+  {
+    slug: "jboss",
+    name: "JBoss / WildFly",
+    category: "backend",
+    docsUrl: "https://www.wildfly.org/",
+    description:
+      "JBoss (now WildFly) is an open-source Jakarta EE application server. It hosts enterprise Java services with JPA, EJB, JAX-RS, and CDI integrated out of the box.",
+    icon: "https://github.com/wildfly.png?size=128",
+    ghLanguage: "Java",
+    aliases: ["wildfly"],
+  },
+  {
+    slug: "hibernate",
+    name: "Hibernate",
+    category: "backend",
+    docsUrl: "https://hibernate.org/orm/documentation/",
+    description:
+      "Hibernate is the long-standing ORM for Java. It implements JPA, manages transactions and lazy loading, and pairs naturally with Spring or Jakarta EE applications.",
+    icon: "hibernate",
+    ghLanguage: "Java",
+  },
+  {
+    slug: "tomcat",
+    name: "Apache Tomcat",
+    category: "backend",
+    docsUrl: "https://tomcat.apache.org/",
+    description:
+      "Tomcat is the reference Java servlet container — small, fast, embeddable. It powers most server-side Java that doesn't need a full Jakarta EE stack.",
+    icon: "tomcat",
+    ghLanguage: "Java",
+  },
+  {
+    slug: "jsp",
+    name: "JSP",
+    category: "backend",
+    docsUrl: "https://jakarta.ee/specifications/pages/",
+    description:
+      "JavaServer Pages is the long-running Java server-side templating standard, paired with servlets and a Jakarta EE container. Still common in legacy enterprise web apps.",
+    icon: "java",
+    ghLanguage: "Java",
+    aliases: ["javaserver pages"],
+  },
+  {
+    slug: "jax-rs",
+    name: "JAX-RS",
+    category: "backend",
+    docsUrl: "https://jakarta.ee/specifications/restful-ws/",
+    description:
+      "JAX-RS is the Jakarta EE specification for building REST APIs in Java. Annotation-driven (@Path, @GET, @Produces) with implementations like RESTEasy and Jersey.",
+    icon: "https://github.com/jakartaee.png?size=128",
+    ghLanguage: "Java",
+    aliases: ["jakarta rest"],
+  },
+  {
+    slug: "jax-ws",
+    name: "JAX-WS",
+    category: "backend",
+    docsUrl: "https://jakarta.ee/specifications/xml-web-services/",
+    description:
+      "JAX-WS is the Jakarta EE SOAP web-services specification. Older than REST but still ubiquitous in enterprise Java integrations and legacy contracts.",
+    icon: "https://github.com/jakartaee.png?size=128",
+    ghLanguage: "Java",
+    aliases: ["jakarta soap"],
+  },
+  {
+    slug: "guzzle",
+    name: "Guzzle",
+    category: "backend",
+    docsUrl: "https://docs.guzzlephp.org/",
+    description:
+      "Guzzle is the standard PHP HTTP client. Promise-based, PSR-7 compliant, with a mock handler for testing — the de facto choice for outbound HTTP from PHP services.",
+    icon: "https://github.com/guzzle.png?size=128",
+    ghLanguage: "PHP",
+  },
+  {
+    slug: "lexik-jwt",
+    name: "Lexik JWT",
+    category: "backend",
+    docsUrl:
+      "https://github.com/lexik/LexikJWTAuthenticationBundle",
+    description:
+      "LexikJWTAuthenticationBundle is the Symfony bundle for JWT-based authentication. Pluggable into the Symfony security firewall as a stateless token provider.",
+    icon: null,
+    ghLanguage: "PHP",
+    aliases: ["lexik", "lexikjwt"],
+  },
 
   // ──────────── Frontend ────────────
   {
@@ -294,6 +412,27 @@ export const TECHS: readonly Tech[] = [
       "Blazor is a .NET UI framework for building interactive web apps using C# and Razor instead of JavaScript. It runs either in the browser via WebAssembly or on the server with SignalR.",
     icon: "dot-net",
     ghLanguage: "C#",
+  },
+  {
+    slug: "javascript",
+    name: "JavaScript",
+    category: "frontend",
+    docsUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    description:
+      "JavaScript is the language of the web — a dynamically-typed, prototype-based language that runs in every browser and on every server (via Node.js, Deno, Bun).",
+    icon: "javascript",
+    ghLanguage: "JavaScript",
+    aliases: ["js"],
+  },
+  {
+    slug: "angular-material",
+    name: "Angular Material",
+    category: "frontend",
+    docsUrl: "https://material.angular.io/",
+    description:
+      "Angular Material is the official Angular component library implementing Google's Material Design. Production-grade form controls, dialogs, tables, and a CDK for building custom interactions.",
+    icon: "https://cdn.simpleicons.org/angular",
+    ghLanguage: "TypeScript",
   },
 
   // ──────────── Mobile ────────────
@@ -507,6 +646,56 @@ export const TECHS: readonly Tech[] = [
       "PHPUnit is the de-facto unit-testing framework for PHP, modelled after the xUnit family. It is the default test runner for Symfony, Laravel, and most modern PHP applications.",
     icon: "/logos/phpunit.svg",
     ghLanguage: "PHP",
+  },
+  {
+    slug: "behat",
+    name: "Behat",
+    category: "testing",
+    docsUrl: "https://docs.behat.org/",
+    description:
+      "Behat is the PHP behaviour-driven-development framework. Tests are written in Gherkin and translated into PHP step definitions — pairs naturally with PHPUnit and Mockery.",
+    icon: "https://github.com/Behat.png?size=128",
+    ghLanguage: "PHP",
+  },
+  {
+    slug: "mockery",
+    name: "Mockery",
+    category: "testing",
+    docsUrl: "https://docs.mockery.io/",
+    description:
+      "Mockery is a PHP mocking library. It plays the same role as PHPUnit's built-in mock builder but with a fluent API and support for partial mocks, expectations, and demeter chains.",
+    icon: "https://github.com/mockery.png?size=128",
+    ghLanguage: "PHP",
+  },
+  {
+    slug: "karma",
+    name: "Karma",
+    category: "testing",
+    docsUrl: "https://karma-runner.github.io/",
+    description:
+      "Karma is the JavaScript test runner that ships with Angular CLI by default. Drives real browsers (or headless Chrome) and integrates with Jasmine, Mocha, or QUnit for assertions.",
+    icon: "karma",
+    ghLanguage: "JavaScript",
+  },
+  {
+    slug: "jasmine",
+    name: "Jasmine",
+    category: "testing",
+    docsUrl: "https://jasmine.github.io/",
+    description:
+      "Jasmine is a behaviour-driven JavaScript testing framework with no external dependencies. The default assertion library for Angular projects via Karma.",
+    icon: "jasmine",
+    ghLanguage: "JavaScript",
+  },
+  {
+    slug: "jest",
+    name: "Jest",
+    category: "testing",
+    docsUrl: "https://jestjs.io/docs/getting-started",
+    description:
+      "Jest is the JavaScript testing framework maintained by Meta. Snapshot testing, isolated worker processes, and zero-config defaults — the standard choice for React and Node.js codebases.",
+    icon: "jest",
+    ghLanguage: "JavaScript",
   },
 
   // ──────────── Ops ────────────
@@ -738,6 +927,47 @@ export const TECHS: readonly Tech[] = [
     icon: "https://github.com/JetBrains.png?size=128",
     ghLanguage: null,
     aliases: ["toolbox"],
+  },
+  {
+    slug: "maven",
+    name: "Apache Maven",
+    category: "ops",
+    docsUrl: "https://maven.apache.org/guides/index.html",
+    description:
+      "Maven is the long-running JVM build and dependency-management tool. Convention-over-configuration via POM XML, central repository for transitive dependencies, lifecycle phases for compile/test/package/deploy.",
+    icon: "apachemaven",
+    ghLanguage: "Java",
+    aliases: ["mvn"],
+  },
+  {
+    slug: "gradle",
+    name: "Gradle",
+    category: "ops",
+    docsUrl: "https://docs.gradle.org/current/userguide/userguide.html",
+    description:
+      "Gradle is the modern JVM build tool — Groovy/Kotlin DSL, incremental builds, configuration caching. Default build system for Android and the most common choice for new Spring/Kotlin services.",
+    icon: "gradle",
+    ghLanguage: "Java",
+  },
+  {
+    slug: "bitbucket",
+    name: "Bitbucket",
+    category: "ops",
+    docsUrl: "https://support.atlassian.com/bitbucket-cloud/",
+    description:
+      "Bitbucket is Atlassian's git hosting platform. Pipelines for CI, native Jira integration, and IP-allowlist controls — the common choice in shops already standardised on Jira/Confluence.",
+    icon: "bitbucket",
+    ghLanguage: null,
+  },
+  {
+    slug: "jira",
+    name: "Jira",
+    category: "ops",
+    docsUrl: "https://support.atlassian.com/jira-software-cloud/",
+    description:
+      "Jira is Atlassian's issue tracker. Configurable workflows, sprint planning, JQL for filters, and a deep ecosystem of integrations — the default in most enterprise software organisations.",
+    icon: "jira",
+    ghLanguage: null,
   },
 ] as const;
 
