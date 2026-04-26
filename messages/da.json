@@ -114,7 +114,18 @@
     "description": "Ture, steder og billeder, det samler sig langsomt. Den ikke-tekniske halvdel af hjernen.",
     "noTrips": "Ingen rejser offentliggjort endnu.",
     "tripCount": "{count, plural, one {# rejse} other {# rejser}}",
-    "all": "Alle rejser"
+    "all": "Alle rejser",
+    "viewTrips": "Se rejser",
+    "recentTripsKicker": "Seneste rejser",
+    "recentTripsHeading": "Nyt fra vejen"
+  },
+  "tripPhotos": {
+    "kicker": "Rejse · {country}",
+    "photoCount": "{count, plural, one {# foto} other {# fotos}}",
+    "countLabel": "Foto {current} af {total}",
+    "prev": "Forrige foto",
+    "next": "Næste foto",
+    "close": "Luk"
   },
   "contact": {
     "kicker": "Kontakt",
