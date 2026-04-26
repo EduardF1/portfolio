@@ -3,6 +3,7 @@ import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/section-heading";
+import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 export const metadata = { title: "Personal" };
 
@@ -100,7 +101,9 @@ export default async function PersonalPage({
           </div>
           <div className="md:col-span-8 space-y-8">
             <p className="max-w-2xl text-lg">{ts("carsLede")}</p>
-            <ul className="grid gap-px bg-border/60 grid-cols-2 sm:grid-cols-3 rounded-lg overflow-hidden">
+            <ul
+              className={`grid gap-px bg-border/60 ${responsiveGridColsClass(CAR_PHOTOS.length)} rounded-lg overflow-hidden`}
+            >
               {CAR_PHOTOS.map((p) => (
                 <li
                   key={p.src}
@@ -129,7 +132,9 @@ export default async function PersonalPage({
           </div>
           <div className="md:col-span-8 space-y-8">
             <p className="max-w-2xl text-lg">{ts("travelLede")}</p>
-            <ul className="grid gap-px bg-border/60 grid-cols-2 rounded-lg overflow-hidden">
+            <ul
+              className={`grid gap-px bg-border/60 ${responsiveGridColsClass(TRAVEL_PHOTOS.length, 2)} rounded-lg overflow-hidden`}
+            >
               {TRAVEL_PHOTOS.map((p) => (
                 <li
                   key={p.src}

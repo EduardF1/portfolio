@@ -1,6 +1,7 @@
 import { Link } from "@/i18n/navigation";
 import { getCollection } from "@/lib/content";
 import { formatDate } from "@/lib/format";
+import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 export const metadata = { title: "Recommends" };
 
@@ -26,7 +27,9 @@ export default async function RecommendsPage() {
             <p className="text-foreground-subtle">No recommendations yet.</p>
           </div>
         ) : (
-          <ul className="grid gap-px bg-border/60 sm:grid-cols-2 lg:grid-cols-3 rounded-lg overflow-hidden">
+          <ul
+            className={`grid gap-px bg-border/60 ${responsiveGridColsClass(items.length)} rounded-lg overflow-hidden`}
+          >
             {items.map((it) => (
               <li key={it.slug} className="bg-background">
                 <Link

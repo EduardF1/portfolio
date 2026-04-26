@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/section-heading";
+import { SectionNav } from "@/components/section-nav";
 
 export const metadata = {
   title: "How I got here",
@@ -91,7 +92,17 @@ export default async function MyStoryPage({
 
   return (
     <>
-      <section className="container-page pt-24 md:pt-28 pb-12">
+      <SectionNav
+        sections={[
+          { id: "intro", label: "Intro" },
+          { id: "chapters", label: "Chapters" },
+          { id: "whats-next", label: "What's next" },
+        ]}
+      />
+      <section
+        id="intro"
+        className="container-page pt-24 md:pt-28 pb-12 scroll-mt-24"
+      >
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
           My story
         </p>
@@ -117,7 +128,10 @@ export default async function MyStoryPage({
         </p>
       </section>
 
-      <section className="container-page py-12 max-w-3xl">
+      <section
+        id="chapters"
+        className="container-page py-12 max-w-3xl scroll-mt-24"
+      >
         <ol className="relative border-l border-border/60 pl-8 space-y-12">
           {CHAPTERS.map((c, i) => (
             <li key={`${c.yearRange}-${i}`} className="relative">
@@ -142,7 +156,10 @@ export default async function MyStoryPage({
         </ol>
       </section>
 
-      <section className="container-page py-12 pb-24 max-w-3xl">
+      <section
+        id="whats-next"
+        className="container-page py-12 pb-24 max-w-3xl scroll-mt-24"
+      >
         <SectionHeading>What&apos;s next</SectionHeading>
         <p className="mt-6">
           The direction I&apos;m looking in: long-form work on systems that

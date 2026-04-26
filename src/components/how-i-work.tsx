@@ -1,77 +1,86 @@
 import { SectionHeading } from "@/components/section-heading";
 
 /**
- * "How I work" — methodologies as honest sentences, not buzzword chips.
+ * "How I work" — short, specific bullets grounded in the actual record.
  *
- * Per `docs/feature-exploration-2026-04.md` idea #1: the Scandinavian
- * register prefers naming where + when each practice was learned, with
- * no marketing inflation. Each entry: methodology, role/year tag,
- * one factual sentence on what it taught.
+ * The earlier draft listed methodologies as honest sentences, but read
+ * generic in audience review (Janteloven test: "could anyone write
+ * this?"). This rewrite anchors each bullet in a decision, a tool, or
+ * a specific moment from Eduard's CV — KOMBIT VALG, the SitaWare
+ * stint, Greenbyte's Flutter app, the Boozt Kanban introduction.
  *
- * Sources (LinkedIn + CV ledger, surfaced via `docs/tech-pass-from-artefacts.md`):
- *   - Scrum, Kanban, FDD, CMMI/TMMI, LEAN, Clean Architecture, BDD.
+ * Source ledger:
+ *   - `src/app/[locale]/page.tsx` Experience block (companies + tech)
+ *   - `src/app/[locale]/my-story/page.tsx` chapters (decisions per role)
+ *   - `content/recommends/letters/*.mdx` (how peers describe him:
+ *     "approachable, solution-oriented" — Nanna; "excellent sparring
+ *     partner ... strong on system architecture and integration" —
+ *     Tobias; "strong project management ... natural understanding of
+ *     IT architecture" — Niels at LEGO; "highly qualified and
+ *     dedicated ... drove real progress on a tight deadline" — Martin
+ *     at STIL)
  */
 
-type Methodology = {
-  name: string;
-  where: string; // role + year tag
+type Bullet = {
+  // The "where + when" tag, kept short and dated.
+  where: string;
+  // The bullet itself, written as one specific sentence.
   body: string;
 };
 
-const ENTRIES: Methodology[] = [
+const BULLETS: Bullet[] = [
   {
-    name: "Scrum",
-    where: "VIA Bachelor + Systematic 2021 + Netcompany 2024–2026",
-    body: "Standard rhythm for most of the work — sprint planning, daily standups, retros. Useful when scope is fluid and the team is co-located.",
+    where: "KOMBIT VALG · Netcompany 2024–2026",
+    body: "I optimise for legibility over cleverness when the audit trail will outlive me. Election platforms have to read clearly to auditors years later, so I treat naming, comments, and PR descriptions as part of the deliverable, not garnish.",
   },
   {
-    name: "Kanban",
-    where: "Boozt 2021–2022 — introduced it on the team",
-    body: "Better fit when the work is operational and incoming, not bounded by a sprint. Pull-based, WIP-limited, fewer meetings.",
+    where: "STIL / UA.dk · Netcompany 2025",
+    body: "When the deadline is fixed and the team is small, I pair the architecture conversation with the first commit. On the four-month EUD III stint at STIL we shipped a reusable component catalog because we agreed the boundaries on day three, not at the retro.",
   },
   {
-    name: "Feature-Driven Development",
-    where: "Systematic 2021 — defence/SitaWare programme",
-    body: "Domain-first modelling, then a plan-by-feature list, then implementation in two-week tracks. Heavier upfront, but the requirements traceability earned its weight on regulated work.",
+    where: "SitaWare · Systematic 2021",
+    body: "I lean on test automation when the cost of a defect is borne downstream. Robot Framework UI tests on Frontline & Edge weren't a vanity exercise — defence software calibrates how seriously you take qualification.",
   },
   {
-    name: "CMMI / TMMI Level 5",
-    where: "Systematic 2021 + VIA coursework on process management",
-    body: "Process maturity as a contractual obligation, not an aspiration. Audit trails, defined defect-removal practice, predictable release cadence.",
+    where: "Greenbyte mobile · 2021–2024",
+    body: "Architect-and-ship rather than architect-then-hand-off. I designed the Flutter / Dart companion app and stayed on it through release, which is also how I learned that the second-hardest part of a mobile app is the release pipeline.",
   },
   {
-    name: "LEAN",
-    where: "Systematic 2021 + Greenbyte 2021–2024",
-    body: "Cut the waste, surface the bottlenecks. In practice: fewer ceremonies, smaller PRs, value-stream-mapping the bits of the pipeline that hurt most.",
+    where: "Boozt Fashion · 2021–2022",
+    body: "I introduce process changes the same way I introduce code changes — small, reversible, and measured. Bringing Kanban into the campaign-booking team was a six-week experiment with an exit ramp, not a mandate.",
   },
   {
-    name: "Clean Architecture",
-    where: "Netcompany 2024–2026 — KOMBIT VALG and STIL stints",
-    body: "Strict dependency direction, business rules in the inner layers, frameworks and IO at the edges. Pays off for long-lived enterprise platforms where the framework will outlast the framework.",
+    where: "Across all five roles",
+    body: "I read the brief twice before writing the first line. The marketing diploma I started with at IBA Kolding wasn't wasted — it left me with a habit of clarifying scope with stakeholders before the IDE is open.",
   },
 ];
 
 export function HowIWork() {
   return (
-    <section className="@container border-t border-border/60 bg-surface/30">
-      <div className="container-page py-20 md:py-28">
+    <section
+      id="how-i-work"
+      className="@container border-t border-border/60 bg-surface/30 scroll-mt-24"
+    >
+      <div className="container-page py-16 md:py-20">
         <div className="grid gap-12 @md:grid-cols-12">
           <div className="@md:col-span-4">
             <SectionHeading>How I work</SectionHeading>
-            <p className="mt-4 max-w-sm text-foreground-muted">
-              Methodologies I&apos;ve actually shipped under, where I picked
-              them up, and what they earned. Not chips — chips on
-              methodologies tend to read as buzzwordy.
+            <p className="mt-6 max-w-sm text-foreground-muted">
+              Six short principles, each grounded in something I&apos;ve
+              actually shipped — not chips, not buzzwords. Where it was
+              learned is on the line above each.
             </p>
           </div>
           <ol className="@md:col-span-8 space-y-8">
-            {ENTRIES.map((m) => (
-              <li key={m.name} className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1">
-                <h3 className="text-xl col-span-2">{m.name}</h3>
+            {BULLETS.map((b, i) => (
+              <li
+                key={`${b.where}-${i}`}
+                className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1"
+              >
                 <p className="col-span-2 font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-                  {m.where}
+                  {b.where}
                 </p>
-                <p className="col-span-2 mt-2 max-w-prose">{m.body}</p>
+                <p className="col-span-2 mt-2 max-w-prose">{b.body}</p>
               </li>
             ))}
           </ol>

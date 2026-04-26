@@ -15,6 +15,7 @@ import { findTech } from "@/lib/tech";
 import { getRecommendations } from "@/lib/recommendations";
 import { roleSlug } from "@/lib/role-slug";
 import { HowIWork } from "@/components/how-i-work";
+import { SectionNav, type SectionLink } from "@/components/section-nav";
 
 export default async function Home({
   params,
@@ -31,11 +32,28 @@ export default async function Home({
   const videoVariant: HeroVideoVariant | null =
     sp.video === "A" ? "A" : sp.video === "B" ? "B" : null;
 
+  // Section anchors for the left-edge TOC. Labels are short and
+  // surface-level — they are rendered in a fixed left rail at lg+ widths
+  // only, so they do not need translation parity with the in-page
+  // headings (which the screen-reader pass already exposes).
+  const sectionLinks: SectionLink[] = [
+    { id: "about", label: t("home.aboutKicker") },
+    { id: "stats", label: "At a glance" },
+    { id: "experience", label: t("home.experienceKicker") },
+    { id: "how-i-work", label: "How I work" },
+    { id: "skills", label: t("skills.kicker") },
+    ...(recommendations.length > 0
+      ? [{ id: "recommends", label: t("testimonials.kicker") }]
+      : []),
+    { id: "selected-work", label: t("home.selectedKicker") },
+  ];
+
   return (
     <>
+      <SectionNav sections={sectionLinks} />
       <Hero videoVariant={videoVariant} />
       <About />
-      <section className="border-t border-border/60">
+      <section id="stats" className="border-t border-border/60 scroll-mt-24">
         <div className="container-page py-16 md:py-20">
           <StatsRow />
         </div>
@@ -44,9 +62,12 @@ export default async function Home({
       <HowIWork />
       <Skills />
       {recommendations.length > 0 && (
-        <section className="border-t border-border/60">
-          <div className="container-page py-20 md:py-28">
-            <div className="mb-12 max-w-2xl">
+        <section
+          id="recommends"
+          className="border-t border-border/60 scroll-mt-24"
+        >
+          <div className="container-page py-16 md:py-20">
+            <div className="mb-8 max-w-2xl">
               <SectionHeading
                 kicker={t("testimonials.kicker")}
                 tooltip={t("tooltips.testimonials")}
@@ -69,7 +90,7 @@ export default async function Home({
 function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
   const t = useTranslations();
   return (
-    <section className="@container relative container-page pt-24 md:pt-32 pb-20">
+    <section className="@container relative container-page pt-20 md:pt-24 pb-16">
       {videoVariant && <HeroVideoBackground variant={videoVariant} />}
       <div className="relative z-10 grid gap-12 md:grid-cols-12 md:items-center">
         <div className="md:col-span-7">
@@ -143,8 +164,8 @@ function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
 function About() {
   const t = useTranslations("home");
   return (
-    <section className="border-t border-border/60">
-      <div className="container-page py-20 md:py-28 grid gap-12 md:grid-cols-12">
+    <section id="about" className="border-t border-border/60 scroll-mt-24">
+      <div className="container-page py-16 md:py-20 grid gap-12 md:grid-cols-12">
         <div className="md:col-span-4">
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
             {t("aboutKicker")}
@@ -297,8 +318,11 @@ function Experience() {
   ];
 
   return (
-    <section className="@container border-t border-border/60 bg-surface/30">
-      <div className="container-page py-20 md:py-28">
+    <section
+      id="experience"
+      className="@container border-t border-border/60 bg-surface/30 scroll-mt-24"
+    >
+      <div className="container-page py-16 md:py-20">
         <div className="grid gap-12 @md:grid-cols-12">
           <div className="@md:col-span-4">
             <SectionHeading
@@ -409,9 +433,12 @@ function FeaturedWork() {
   ];
 
   return (
-    <section className="border-t border-border/60">
-      <div className="container-page py-20 md:py-28">
-        <div className="flex items-end justify-between mb-12">
+    <section
+      id="selected-work"
+      className="border-t border-border/60 scroll-mt-24"
+    >
+      <div className="container-page py-16 md:py-20">
+        <div className="flex items-end justify-between mb-8">
           <SectionHeading
             kicker={t("home.selectedKicker")}
             tooltip={t("tooltips.selectedWork")}

@@ -7,6 +7,7 @@ import { getCollection } from "@/lib/content";
 import { getTravelDestinations } from "@/lib/travel-locations";
 import { getTrips } from "@/lib/trips";
 import { formatDate } from "@/lib/format";
+import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 export const metadata = { title: "Travel" };
 
@@ -71,7 +72,9 @@ export default async function TravelPage({
           <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
             By country
           </h2>
-          <ul className="grid gap-px bg-border/60 sm:grid-cols-2 lg:grid-cols-3 rounded-lg overflow-hidden">
+          <ul
+            className={`grid gap-px bg-border/60 ${responsiveGridColsClass(destinations.length)} rounded-lg overflow-hidden`}
+          >
             {destinations.map((d) => {
               const latest = latestByCountry.get(d.country);
               return (
@@ -113,7 +116,7 @@ export default async function TravelPage({
           <p className="font-serif text-2xl text-foreground mb-6">
             {t("recentTripsHeading")}
           </p>
-          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className={`grid gap-4 ${responsiveGridColsClass(recentTrips.length)}`}>
             {recentTrips.map((trip) => {
               const cover = trip.photos[0];
               const headline = trip.primaryCity ?? trip.country;
@@ -167,7 +170,9 @@ export default async function TravelPage({
             <p className="text-foreground-subtle">{t("noTrips")}</p>
           </div>
         ) : (
-          <ul className="grid gap-px bg-border/60 sm:grid-cols-2 lg:grid-cols-3 rounded-lg overflow-hidden">
+          <ul
+            className={`grid gap-px bg-border/60 ${responsiveGridColsClass(trips.length)} rounded-lg overflow-hidden`}
+          >
             {trips.map((trip) => {
               const location =
                 typeof trip.frontmatter.location === "string"
