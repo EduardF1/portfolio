@@ -76,29 +76,29 @@ export function TravelEuropeMap({
             }
           </Geographies>
 
-          {destinations.map((d) => {
-            const r = markerRadius(d.photoCount);
-            const isHovered = hovered === d.slug;
+          {destinations.map((destination) => {
+            const radius = markerRadius(destination.photoCount);
+            const isHovered = hovered === destination.slug;
             return (
               <Marker
-                key={d.slug}
-                coordinates={[d.centroid.lon, d.centroid.lat]}
-                onMouseEnter={() => setHovered(d.slug)}
+                key={destination.slug}
+                coordinates={[destination.centroid.lon, destination.centroid.lat]}
+                onMouseEnter={() => setHovered(destination.slug)}
                 onMouseLeave={() => setHovered(null)}
-                onFocus={() => setHovered(d.slug)}
+                onFocus={() => setHovered(destination.slug)}
                 onBlur={() => setHovered(null)}
               >
                 <a
-                  href={`#country-${d.slug}`}
-                  aria-label={`${d.country}, ${d.photoCount} ${d.photoCount === 1 ? "photo" : "photos"}, ${d.cities.length} ${d.cities.length === 1 ? "city" : "cities"}`}
+                  href={`#country-${destination.slug}`}
+                  aria-label={`${destination.country}, ${destination.photoCount} ${destination.photoCount === 1 ? "photo" : "photos"}, ${destination.cities.length} ${destination.cities.length === 1 ? "city" : "cities"}`}
                 >
                   <circle
-                    r={r + 6}
+                    r={radius + 6}
                     fill="transparent"
                     style={{ cursor: "pointer" }}
                   />
                   <circle
-                    r={r}
+                    r={radius}
                     fill="var(--color-accent)"
                     fillOpacity={isHovered ? 0.95 : 0.75}
                     stroke="var(--color-background)"
@@ -110,7 +110,7 @@ export function TravelEuropeMap({
                   />
                 </a>
                 <text
-                  x={r + 6}
+                  x={radius + 6}
                   y={4}
                   fontFamily="var(--font-mono), monospace"
                   fontSize={10}
@@ -121,7 +121,7 @@ export function TravelEuropeMap({
                   }
                   style={{ pointerEvents: "none" }}
                 >
-                  {d.country}
+                  {destination.country}
                 </text>
               </Marker>
             );

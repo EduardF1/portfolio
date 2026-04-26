@@ -245,9 +245,9 @@ async function ResultsPanel({ data }: { data: BvbFeedData }) {
 }
 
 function formatDate(iso: string): string {
-  const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return iso;
-  return d.toLocaleDateString("en-GB", {
+  const matchDate = new Date(iso);
+  if (Number.isNaN(matchDate.getTime())) return iso;
+  return matchDate.toLocaleDateString("en-GB", {
     day: "2-digit",
     month: "short",
     year: "numeric",

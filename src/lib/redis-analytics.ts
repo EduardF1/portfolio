@@ -46,6 +46,22 @@ export function isAnalyticsEnabled(): boolean {
   return redisEnv() !== null;
 }
 
+/**
+ * Run a batch of Redis commands through Upstash's `/pipeline` endpoint
+ * in a single round-trip.
+ *
+ * Fault-tolerance contract:
+ *   - Returns `null` (never throws) if env vars are unset, the network
+ *     fails, the response is non-OK, or the JSON is malformed. Callers
+ *     treat null as "Redis unavailable" and silently continue — the
+ *     analytics layer is best-effort and must never break the request
+ *     path or the admin dashboard.
+ *   - On success, returns one element per input command preserving
+ *     order. Per-command errors are mapped to `null`, so a partial
+ *     pipeline failure doesn't poison the rest.
+ *   - `commands.length === 0` short-circuits to null without calling
+ *     fetch — Upstash rejects empty pipelines.
+ */
 async function execPipeline(
   commands: RedisCommand[],
 ): Promise<unknown[] | null> {
@@ -74,6 +90,14 @@ async function execPipeline(
   }
 }
 
+/**
+ * Run a single Redis command against Upstash's REST root. Same
+ * fault-tolerance contract as `execPipeline`: returns `null` for
+ * every failure mode (no env, network, non-OK status, error in the
+ * response body), never throws. Generic `T` is the expected shape of
+ * the `result` field in Upstash's response — the caller is responsible
+ * for it being correct.
+ */
 async function execOne<T>(command: RedisCommand): Promise<T | null> {
   const env = redisEnv();
   if (!env) return null;

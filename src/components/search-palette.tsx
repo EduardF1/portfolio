@@ -398,14 +398,14 @@ export function SearchPalette() {
 function Highlight({ text, needle }: { text: string; needle: string }) {
   const range = findMatchRange(text, needle.trim());
   if (!range) return <>{text}</>;
-  const [a, b] = range;
+  const [start, end] = range;
   return (
     <>
-      {text.slice(0, a)}
+      {text.slice(0, start)}
       <mark className="rounded-sm bg-accent-soft px-0.5 text-foreground">
-        {text.slice(a, b)}
+        {text.slice(start, end)}
       </mark>
-      {text.slice(b)}
+      {text.slice(end)}
     </>
   );
 }

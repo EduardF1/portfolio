@@ -25,10 +25,10 @@ function avatarInitial(name: string): string {
   return trimmed ? trimmed.charAt(0).toUpperCase() : "?";
 }
 
-function linkedinHref(r: Recommendation): string {
-  if (r.linkedinUrl) return r.linkedinUrl;
-  const q = encodeURIComponent(`${r.author} ${r.company}`.trim());
-  return `https://www.linkedin.com/search/results/people/?keywords=${q}`;
+function linkedinHref(rec: Recommendation): string {
+  if (rec.linkedinUrl) return rec.linkedinUrl;
+  const keywords = encodeURIComponent(`${rec.author} ${rec.company}`.trim());
+  return `https://www.linkedin.com/search/results/people/?keywords=${keywords}`;
 }
 
 export function RecommendationsCarousel({ recommendations, locale }: Props) {

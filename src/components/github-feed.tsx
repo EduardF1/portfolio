@@ -23,8 +23,8 @@ const LANGUAGE_COLORS: Record<string, string> = {
 };
 
 function formatDate(iso: string) {
-  const d = new Date(iso);
-  return d.toLocaleDateString("en-GB", { year: "numeric", month: "short" });
+  const parsedDate = new Date(iso);
+  return parsedDate.toLocaleDateString("en-GB", { year: "numeric", month: "short" });
 }
 
 export function GithubFeed({
@@ -59,12 +59,12 @@ export function GithubFeed({
   });
 
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return repos.filter((r) => {
-      if (language && r.language !== language) return false;
-      if (!q) return true;
-      const haystack = `${r.name} ${r.description ?? ""} ${(r.topics ?? []).join(" ")}`.toLowerCase();
-      return haystack.includes(q);
+    const normalizedQuery = query.trim().toLowerCase();
+    return repos.filter((repo) => {
+      if (language && repo.language !== language) return false;
+      if (!normalizedQuery) return true;
+      const haystack = `${repo.name} ${repo.description ?? ""} ${(repo.topics ?? []).join(" ")}`.toLowerCase();
+      return haystack.includes(normalizedQuery);
     });
   }, [repos, query, language]);
 

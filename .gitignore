@@ -63,3 +63,4 @@ scripts/.exif-raw.ndjson
 # Keep scores.md committed for historical context; per-route JSONs are
 # huge and noisy. Re-run locally when needed.
 docs/lighthouse-reports/*.json
+.env*.local

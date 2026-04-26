@@ -47,8 +47,28 @@ export default async function AdminStatsPage({
   const adminCookie = cookieStore.get(ADMIN_COOKIE)?.value;
   const expected = process.env.ADMIN_SECRET;
 
-  // Auth gate. The 404 path is deliberate: we don't want to leak
-  // existence of /admin/stats to a casual probe.
+  // Auth gate. Posture:
+  //   1. Anything that doesn't already hold pf_admin=1 OR present a
+  //      key that exactly equals process.env.ADMIN_SECRET is fed
+  //      `notFound()` (HTTP 404). We never return 401/403 because
+  //      that confirms the route exists; 404 makes the whole
+  //      `/admin/stats` surface invisible to drive-by probes.
+  //   2. `expected && sp.key === expected` is the strict-equality
+  //      gate. Both `sp.key` and `expected` must be non-empty
+  //      strings — an unset ADMIN_SECRET cannot be matched by an
+  //      empty `?key=` query, even though both would coerce to
+  //      empty string.
+  //   3. On a successful key match we mint a 90-day pf_admin
+  //      cookie (httpOnly + secure + sameSite=lax) so subsequent
+  //      visits don't need the secret in the URL. The cookie is a
+  //      static "1" — its ONLY job is to mark the browser as
+  //      previously-authenticated. There's no signature or rotation;
+  //      anyone with cookie-jar access to Eduard's machine has the
+  //      same trust level he does.
+  //   4. There is no logout / cookie-revoke route. To revoke,
+  //      rotate ADMIN_SECRET in Vercel and delete the cookie
+  //      manually (the old cookie still says "1" but no key in any
+  //      URL can re-mint it once the env var rotates).
   let unlocked = adminCookie === "1";
   if (!unlocked && sp.key && expected && sp.key === expected) {
     cookieStore.set(ADMIN_COOKIE, "1", {
@@ -183,17 +203,17 @@ function Dashboard({
             <p className="text-foreground-subtle">No data yet.</p>
           ) : (
             <ul className="space-y-2">
-              {days.map((d) => {
-                const v = perDay[d] ?? 0;
+              {days.map((day) => {
+                const dayViews = perDay[day] ?? 0;
                 const max = Math.max(1, ...Object.values(perDay));
-                const pct = (v / max) * 100;
+                const pct = (dayViews / max) * 100;
                 return (
                   <li
-                    key={d}
+                    key={day}
                     className="grid grid-cols-[8rem_1fr_3rem] items-center gap-3 text-sm"
                   >
                     <span className="font-mono text-xs text-foreground-subtle">
-                      {d}
+                      {day}
                     </span>
                     <div className="h-2 rounded bg-surface">
                       <div
@@ -201,7 +221,7 @@ function Dashboard({
                         style={{ width: `${pct}%` }}
                       />
                     </div>
-                    <span className="text-right font-mono">{v}</span>
+                    <span className="text-right font-mono">{dayViews}</span>
                   </li>
                 );
               })}
