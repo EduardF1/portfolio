@@ -295,7 +295,7 @@ export async function getBvbFeed(): Promise<BvbFeedData> {
 // dev, in CI, and if the live API ever has a wobble.
 
 const MOCK_STANDINGS: StandingRow[] = [
-  ["Bayer 04 Leverkusen", "Leverkusen", "B04", 4],
+  ["Bayer 04 Leverkusen", "Leverkusen", "B04", 3],
   ["FC Bayern München", "Bayern", "FCB", 5],
   ["Borussia Dortmund", "Dortmund", "BVB", BVB_TEAM_ID],
   ["RB Leipzig", "RB Leipzig", "RBL", 721],

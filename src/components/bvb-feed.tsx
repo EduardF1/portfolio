@@ -107,7 +107,7 @@ async function StandingsPanel({ data }: { data: BvbFeedData }) {
                 data-bvb={isBvb || undefined}
                 className={
                   isBvb
-                    ? "border-b border-border bg-accent/10 font-semibold text-accent"
+                    ? "border-b border-border bg-accent/10 font-semibold text-foreground"
                     : "border-b border-border/60"
                 }
               >
