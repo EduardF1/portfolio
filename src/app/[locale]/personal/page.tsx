@@ -33,6 +33,22 @@ const TRAVEL_PHOTOS = [
     src: "/photos/sep-2025-autumn-afternoon.jpg",
     alt: "Málaga, Spain · 17 September 2025",
   },
+  {
+    src: "/photos/apr-2025-vienna.jpg",
+    alt: "Vienna, Austria · 13 April 2025",
+  },
+  {
+    src: "/photos/mar-2026-pula.jpg",
+    alt: "Pula, Croatia · 25 March 2026",
+  },
+  {
+    src: "/photos/sep-2025-gibraltar.jpg",
+    alt: "Gibraltar · 15 September 2025",
+  },
+  {
+    src: "/photos/apr-2023-milan.jpg",
+    alt: "Milan, Italy · 2 April 2023",
+  },
 ];
 
 export default async function PersonalPage({
