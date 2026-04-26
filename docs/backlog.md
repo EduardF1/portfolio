@@ -30,6 +30,25 @@
 - [ ] **Hero video clip** — Eduard approves a Pexels/Coverr/Pixabay reuse-allowed candidate, then PO sets `NEXT_PUBLIC_HERO_VIDEO_MP4` / `…_WEBM` / `…_POSTER` in Vercel env. Compare `?video=A` (flanks) vs. `?video=B` (full-bleed) on the live preview; PO removes the loser.
 - [ ] **Photo location captions** — alt text on `/personal` car + travel photos is marked "(location guess)". Replace with real locations.
 - [ ] **Recommendations carousel — remaining LinkedIn recs** — only 2 of 10 LinkedIn recommendations are wired (Tobias Thisted, Nanna Dohn) plus 2 PDF letters (Niels Svinding/LEGO, Martin Hovbakke/STIL). Drop the other 8 LinkedIn rec quotes into `content/recommends/letters/*.mdx`.
+- [ ] **Recommender LinkedIn URLs** — current `linkedinUrl` values fall back to LinkedIn search queries. Replace with the verified profile URLs once you've confirmed the right people.
+- [ ] **Confirm Tobias Thisted's company** — currently set to Netcompany based on the recommendation date alignment; verify and correct if needed.
+
+## P2 — newer requests (queued in arrival order)
+
+- [ ] **Tools and languages, GitHub harvest** — visit https://github.com/EduardF1, scan repos and READMEs for techs / tools / frameworks NOT yet in `src/lib/tech.ts`, propose additions. Likely candidates from public repos: build / packaging tools, smaller framework usages, learning-only stacks. Mark which are CV-worthy vs. learning-only.
+- [ ] **Experience timeline product links** — for each role link the *project* (KOMBIT VALG, SitaWare Frontline & Edge, Greenbyte SaaS, Boozt Group, Mjølner mobile/embedded UI) in addition to the company URL. Add a `productUrl` field to the role record and linkify the product name where it appears in the summary.
+- [ ] **Travel page interactive Europe map** — clickable destination markers, each scroll-jumping to the matching trip's section. Plug into the EXIF GPS catalogue Senior Dev A is producing.
+- [ ] **Culinary section under /travel** — new sub-page or section listing dishes from trips: photo + brief tasting note + city + date.
+- [ ] **Visit-notification email** — opt-in per-day digest of unique visitors to fischer_eduard@yahoo.com via a Vercel cron job. Per-visit emails would spam; daily digest is the sane default. Approval needed before shipping.
+- [ ] **Coverage threshold + CI publish** — 58.4% statement coverage today. Wire `@vitest/coverage-v8` into the CI workflow with a soft floor (no fail unless ≥5pt regression). Optional: Codecov integration for trend graph.
+- [ ] **Future features / nice-to-haves** — see "## P4 — future-features list" section below.
+- [ ] **`/blog` appbar / nav cluster** — turn `Personal`, `Travel`, `Recommends` into children under a top-level `Blog` nav item. Could render as a hover dropdown on desktop and a collapsible section in the mobile menu. Benchmark first: search Reddit (r/Denmark, r/webdev, r/personal_site) and articles on Danish-culture portfolios to gauge whether grouping under "Blog" reads as natural to a Danish/Scandinavian audience or feels foreign. Report back before shipping.
+- [ ] **`/my-story` page** — long-form arc from high school → AP Marketing & Management at IBA Kolding → BSc at VIA → MSc at Aarhus → Systematic → Boozt → Greenbyte → Netcompany → Mjølner. Honest, structured, calm tone matching the rest of the site. Benchmark: skim Reddit threads and Danish-style portfolio essays for what reads as authentic vs. self-promotional. Eduard will provide the actual narrative; this task tracks the layout + structure.
+
+## Process notes
+
+- New requests are **queued at the END of the backlog** in arrival order, not inserted near the top.
+- Audience-facing copy ideas (sections, taglines, narrative arcs) are **benchmarked against Reddit + Danish-culture articles** before shipping, to verify they hit positively for the local audience.
 
 ## P3 — Architect pass (optional, post-launch)
 
@@ -40,6 +59,29 @@
 - [ ] Performance audit — lighthouse, image-loading, font-loading
 - [ ] Container queries — convert `recommendations-carousel.tsx` (already uses `@container`/`@md:` internally; verify it composes when nested in a constrained parent)
 - [ ] Live Yahoo IMAP MCP assertion in `e2e/contact-form-yahoo.spec.ts` — currently the message-arrival check is gated behind `RUN_LIVE_EMAIL=1` and only attaches the expected subject; wire the actual MCP search once IMAP is reliably reachable from CI
+
+## P4 — future-features list (PO + Architect proposal)
+
+Curated, not committed. Each is sized for a single focused PR. Triage before pulling in.
+
+- **Sitemap + robots.txt** — `app/sitemap.ts` route emitting all locales × routes. Lifts SEO discoverability with ~30 lines of code.
+- **OG image generation** — `app/opengraph-image.tsx` per route via `next/og`. Each share-link gets a serif-on-terracotta card with the page title.
+- **RSS feed for Posts and articles** — `/writing/rss.xml`, served from MDX via the same loader. Lets readers subscribe in feed clients.
+- **Search across writing + work + recommends** — client-side fuzzy search using FlexSearch or fuse.js, indexed at build time. Small footprint, big UX win.
+- **Per-trip travel pages with photo lightboxes** — once the EXIF catalogue lands, generate `/travel/{trip-slug}` from clusters of photos by date+location.
+- **Travel map heatmap mode** — toggle on the Europe map between "destinations" (current) and "intensity" (number of trips per country with a chloropleth fill).
+- **Reading-feed source rotation** — currently dev.to only; add Hacker News (`https://hacker-news.firebaseio.com/v0/topstories.json`) and an "All sources" tab.
+- **Theme/palette analytics** — anonymous count of which palette × theme combination visitors prefer; helps decide the default. Vercel Analytics or a single `/api/track-palette` route.
+- **Newsletter/contact form anti-spam** — switch the placeholder Cloudflare Turnstile to a live site key once Eduard sets one up.
+- **PDF resume regenerated from MDX** — single-source-of-truth: experience timeline → CV PDF via `react-pdf`. Avoids the "two CVs" drift.
+- **Code-snippet syntax highlighting in MDX** — `rehype-pretty-code` + Shiki. Useful once Eduard publishes technical posts.
+- **Analytics dashboard at `/admin/stats`** — protected by simple shared-secret query string. Chart of unique visits, top pages, search queries. Visible only to Eduard.
+- **Tech-chip → live repo demo link** — when a tech has open-source projects on Eduard's GitHub matching the chip's `ghLanguage`, show a tiny "demo" badge on the chip.
+- **Internationalisation expansion** — Romanian (Eduard's native language) as a third locale once long-form copy is more stable.
+- **Light-mode contrast pass** — verify all three palettes hit WCAG AA on body text against the light theme; the Schwarzgelb/cream combo is borderline.
+- **`/now` page** — Derek-Sivers-style "what I'm focused on right now," updated every 1-2 months. Pairs nicely with the dynamic Reading feed.
+- **Contact-form attachment support** — accept a CV / portfolio PDF attachment and forward via Resend. For recruiters with a brief PDF.
+- **Honeypot field on contact form** — invisible text input named "website" or similar; submissions with it filled are spam. Cheap and effective.
 
 ## Done
 

@@ -15,6 +15,7 @@ const eslintConfig = defineConfig([
     // Agent worktrees and any nested build output inside them.
     ".claude/**",
     "**/.next/**",
+    "coverage/**",
   ]),
 ]);
 

@@ -27,21 +27,33 @@ export type HeroVideoVariant = "A" | "B";
 function VideoOrPlaceholder({
   className,
   hidden = false,
+  label,
 }: {
   className?: string;
   hidden?: boolean;
+  label?: string;
 }) {
   if (!MP4 && !WEBM) {
-    // Tonal-gradient placeholder. Cool-tone, palette-aware via CSS vars.
+    // Conspicuous prototype placeholder so the layout shape is obvious
+    // even before a real clip is wired up. Uses the accent token so it's
+    // clearly visible against the page bg in every palette × theme.
     return (
       <div
         aria-hidden="true"
         className={[
           className ?? "",
-          "bg-[radial-gradient(ellipse_at_top,var(--color-surface-strong)_0%,var(--color-surface)_45%,var(--color-background)_100%)]",
+          "relative isolate flex items-center justify-center overflow-hidden",
+          "bg-[linear-gradient(135deg,var(--color-accent)_0%,var(--color-accent-soft)_50%,var(--color-surface-strong)_100%)]",
+          "ring-1 ring-inset ring-accent/40",
           hidden ? "hidden" : "",
         ].join(" ")}
-      />
+      >
+        {label && (
+          <span className="font-mono text-[0.55rem] uppercase tracking-[0.25em] text-background mix-blend-difference">
+            {label}
+          </span>
+        )}
+      </div>
     );
   }
   return (
@@ -63,7 +75,7 @@ function VideoOrPlaceholder({
 
 /**
  * Variant A: two slim vertical columns flanking the hero text.
- * Gated to ≥@lg via container query — invisible on mobile/tablet.
+ * Gated to ≥lg viewport so it shows on desktop but stays out of mobile.
  */
 export function HeroFlanks() {
   return (
@@ -71,10 +83,13 @@ export function HeroFlanks() {
       {/* Left column */}
       <div
         aria-hidden="true"
-        className="hidden @lg:block absolute inset-y-0 left-0 w-[12%] overflow-hidden border-r border-border/60"
+        className="hidden lg:block absolute inset-y-0 left-0 w-[12%] overflow-hidden border-r border-border/60 z-0"
       >
-        <VideoOrPlaceholder className="h-full w-full object-cover motion-reduce:hidden" />
-        {/* Inner vignette — fades video into page bg */}
+        <VideoOrPlaceholder
+          label="Variant A · Left"
+          className="absolute inset-0 motion-reduce:hidden"
+        />
+        {/* Inner vignette: fades video into page bg */}
         <div
           aria-hidden="true"
           className="absolute inset-0 pointer-events-none"
@@ -87,9 +102,12 @@ export function HeroFlanks() {
       {/* Right column */}
       <div
         aria-hidden="true"
-        className="hidden @lg:block absolute inset-y-0 right-0 w-[12%] overflow-hidden border-l border-border/60"
+        className="hidden lg:block absolute inset-y-0 right-0 w-[12%] overflow-hidden border-l border-border/60 z-0"
       >
-        <VideoOrPlaceholder className="h-full w-full object-cover motion-reduce:hidden" />
+        <VideoOrPlaceholder
+          label="Variant A · Right"
+          className="absolute inset-0 motion-reduce:hidden"
+        />
         <div
           aria-hidden="true"
           className="absolute inset-0 pointer-events-none"
@@ -104,20 +122,23 @@ export function HeroFlanks() {
 }
 
 /**
- * Variant B: full-bleed video behind the hero text with a 60% darken overlay.
- * Gated to ≥@lg via container query — invisible on mobile/tablet.
+ * Variant B: full-bleed video behind the hero text with a darken overlay.
+ * Gated to ≥lg viewport so it shows on desktop but stays out of mobile.
  */
 export function HeroBackdrop() {
   return (
     <div
       aria-hidden="true"
-      className="hidden @lg:block absolute inset-0 -z-0 overflow-hidden"
+      className="hidden lg:block absolute inset-0 z-0 overflow-hidden"
     >
-      <VideoOrPlaceholder className="h-full w-full object-cover motion-reduce:hidden" />
-      {/* Darken / lighten overlay (palette-aware via foreground / background tokens) */}
+      <VideoOrPlaceholder
+        label="Variant B · Full bleed"
+        className="absolute inset-0 motion-reduce:hidden"
+      />
+      {/* Darken / lighten overlay (palette-aware via background token) */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 bg-background/60 backdrop-saturate-75"
+        className="absolute inset-0 bg-background/55 backdrop-saturate-75"
       />
     </div>
   );
