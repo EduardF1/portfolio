@@ -21,7 +21,8 @@
     "available": "EU-borger · Aarhus, Danmark · Åben for nye muligheder, on-site eller remote i CET ±2"
   },
   "footer": {
-    "rights": "Aarhus, Danmark"
+    "rights": "Aarhus, Danmark",
+    "lastSeenIn": "Sidst set i"
   },
   "home": {
     "hero": "Softwareingeniør, der bygger <em>stabile, forretningskritiske systemer</em>.",
