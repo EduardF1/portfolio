@@ -8,7 +8,7 @@ describe("robots()", () => {
     const rules = Array.isArray(result.rules) ? result.rules : [result.rules];
     expect(rules[0].userAgent).toBe("*");
     expect(rules[0].allow).toBe("/");
-    expect(rules[0].disallow).toEqual(["/api/", "/_next/"]);
+    expect(rules[0].disallow).toEqual(["/api/", "/_next/", "/admin/"]);
   });
 
   it("points sitemap and host at the production domain", () => {

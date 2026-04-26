@@ -8,7 +8,10 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/_next/"],
+        // /admin/ — gated by secret cookie, but we belt-and-braces
+        // disallow it so casual probes / search engines don't even
+        // ask. The route itself returns notFound() for unauth visits.
+        disallow: ["/api/", "/_next/", "/admin/"],
       },
     ],
     sitemap: `${SITE}/sitemap.xml`,
