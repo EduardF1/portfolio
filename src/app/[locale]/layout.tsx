@@ -40,6 +40,19 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Eduard Fischer-Szava",
   },
+  // hreflang tells Google.dk which language to surface where. The
+  // x-default points at the EN canonical so non-DA visitors land on
+  // English by default.
+  alternates: {
+    canonical: "/",
+    languages: {
+      en: "/",
+      "en-DK": "/",
+      da: "/da",
+      "da-DK": "/da",
+      "x-default": "/",
+    },
+  },
   robots: { index: true, follow: true },
 };
 
