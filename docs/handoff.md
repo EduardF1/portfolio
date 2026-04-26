@@ -41,19 +41,34 @@
 
 Plus the chain from prior rounds: tech catalogue refresh, backlog restructure, video-bg fix, OnePlus 11 recommendation, carousel rework, tooltip refit, em-dash sweep, CI fix.
 
-## Currently in flight (autonomous PO night-run)
+## Autonomous PO night-run — winding down
+
+When you wake up, three new strategic docs live in `docs/`:
+
+- **`docs/recruiter-deep-dive-2026-04.md`** — DK-recruiter market context, screening rubric, P0/P1 action items. **Top finding**: zero AI/LLM project on the portfolio = biggest single gap (32% of DK 2026 junior listings ask for it). Suggested fix: small LLM-augmented feature (semantic search re-rank, MCP server for portfolio search, or a credible OSS CLI tool).
+- **`docs/external-ssd-scout-2026-04.md`** — `G:\` folder-name reconnaissance (no documents opened). 4 concrete content opportunities flagged: SEP4 IoT case study, embedded/firmware tech surface (FreeRTOS / Atmel), Aeldra & JustCook side-projects, Android side-project audit.
+- **`docs/audience-benchmark.md`** (earlier in session) — Reddit + Danish-culture benchmark on `/blog` (recommended skip) + `/my-story` (recommended ship with tone constraints).
 
 All four senior-dev rounds completed and merged this session: A (search → per-trip pages), B (test coverage → perf+a11y hardening), C (media + features research), D (EXIF footer).
 
 PO running autonomously, building features on individual branches and batching 2-3 per deploy per Eduard's directive. CI green required before merge; deploys gated by visible feature count.
 
-**Tonight's deployed batches (4 deploys, 14 features):**
+**Tonight's deployed batches (6 deploys, 17 features + 3 strategic docs):**
 1. `cb3cbd2` `.npmrc` legacy-peer-deps fix (unblocked 6h of failed Vercel builds)
 2. **Batch A** `cd72726` (3 features): a11y hardening + timeline #role anchors + EXIF footer
 3. **Batch B** `0d53695` (2 features): tech catalogue +22 + "How I work" methodology section
 4. **Batch C** `5b3119b` (2 features): reading-time estimator + /my-story pre-tech chapter
+5. **Batch D** `4992604` (1 feature + 1 doc): "Visit live system" buttons on /work + recruiter R&D doc
+6. **Batch E** `e32dacd` (1 doc): G:\ external-SSD scout
 
 Plus several PO inline shipments on main directly during the early-evening interactive phase: site-wide search, per-trip pages (41 trips × 2 locales = 82 pages), /now shell, /my-story shell, listing OGs, 404 page, global error boundary, humans.txt + security.txt, PWA manifest, reading-feed HN tab, contact-form honeypot.
+
+## Where to look first when you wake up
+
+1. `docs/recruiter-deep-dive-2026-04.md` — strategic; specifically the **P0 action items**.
+2. `docs/external-ssd-scout-2026-04.md` — quick wins from `G:\Dev`.
+3. The live site: `Cmd+K` to test the new search; click any /work case study to see the "Visit live system" button; /writing list to see reading-time chips; /my-story to see the new pre-tech chapter; footer to see the "Last seen in" line.
+4. The 4 P0/P1 follow-ups Eduard owns: (a) fill "My contribution" paragraphs in the 4 /work case studies, (b) pick an AI/LLM angle for a small project, (c) confirm the SEP4 IoT case-study idea, (d) write the prose in /now and /my-story.
 
 **Privacy guard active**: nothing from CPR / contracts / private docs from `D:\Portfolio` or `G:\` goes to git. Only LinkedIn-public-equivalent info gets surfaced.
 
