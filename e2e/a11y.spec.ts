@@ -27,10 +27,10 @@ for (const route of ROUTES) {
     page,
   }, testInfo) => {
     await page.goto(route);
-    // Wait for the page to settle: the SiteHeader Home link is on every page.
-    // `exact` so we don't collide with content links like "home page".
+    // Wait for the page to settle: the brand link is on every page.
+    // `exact` so we don't collide with content links.
     await expect(
-      page.getByRole("link", { name: "Home", exact: true }),
+      page.getByRole("link", { name: "Eduard Fischer-Szava", exact: true }),
     ).toBeVisible();
 
     const results = await new AxeBuilder({ page })

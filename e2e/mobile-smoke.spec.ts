@@ -30,11 +30,20 @@ test.describe("mobile smoke @mobile", () => {
     expect(consoleErrors).toEqual([]);
   });
 
-  test("nav reaches Posts and articles", async ({ page }) => {
+  test("nav reaches Posts and articles via hamburger", async ({ page }) => {
     await page.goto("/");
-    const link = page.getByRole("link", { name: /Posts and articles/i });
-    await expect(link.first()).toBeVisible();
-    await link.first().click();
+    // The inline nav is hidden < md — the hamburger is the only path
+    // to /writing on mobile viewports.
+    const trigger = page.getByTestId("mobile-menu-trigger");
+    await expect(trigger).toBeVisible();
+    await trigger.click();
+
+    const sheet = page.getByTestId("mobile-menu");
+    await expect(sheet).toBeVisible();
+
+    const link = sheet.getByRole("link", { name: /Posts and articles/i });
+    await expect(link).toBeVisible();
+    await link.click();
     await page.waitForURL(/\/writing/);
     expect(page.url()).toMatch(/\/writing$/);
   });
