@@ -13,6 +13,8 @@ import {
 } from "@/components/hero-video-bg";
 import { findTech } from "@/lib/tech";
 import { getRecommendations } from "@/lib/recommendations";
+import { roleSlug } from "@/lib/role-slug";
+import { CopyRoleLink } from "@/components/copy-role-link";
 
 export default async function Home({
   params,
@@ -267,17 +269,23 @@ function Experience() {
             </SectionHeading>
           </div>
           <ol className="@md:col-span-8 relative border-l border-border space-y-10 pl-8">
-            {roles.map((r) => (
+            {roles.map((r) => {
+              const slug = roleSlug(r.company);
+              return (
               <li
                 key={r.company}
-                className="relative grid grid-cols-[1fr_auto] gap-x-6 gap-y-2"
+                id={`role-${slug}`}
+                className="relative grid grid-cols-[1fr_auto] gap-x-6 gap-y-2 scroll-mt-24 rounded-md transition-colors target:bg-accent-soft/40 target:ring-1 target:ring-accent/30 target:px-3 target:py-2 target:-mx-3"
               >
                 <span
                   aria-hidden="true"
-                  className="absolute -left-[37px] top-2 h-[10px] w-[10px] rounded-full border-2 border-accent bg-background"
+                  className="absolute -left-[37px] top-2 h-[10px] w-[10px] rounded-full border-2 border-accent bg-background target:bg-accent"
                 />
                 <div>
-                  <h3 className="text-xl">{r.role}</h3>
+                  <div className="flex items-baseline gap-3 flex-wrap">
+                    <h3 className="text-xl">{r.role}</h3>
+                    <CopyRoleLink slug={slug} label={`${r.role} at ${r.company}`} />
+                  </div>
                   <p className="mt-1 text-foreground">
                     <a
                       href={r.url}
@@ -321,7 +329,8 @@ function Experience() {
                   </div>
                 )}
               </li>
-            ))}
+              );
+            })}
           </ol>
         </div>
       </div>
