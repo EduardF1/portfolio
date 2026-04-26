@@ -47,6 +47,9 @@ export default async function WorkCaseStudy({
     location?: string;
     summary?: string;
     tech?: string[];
+    liveUrl?: string;
+    liveLabel?: string;
+    liveCaveat?: string;
   };
 
   const kicker =
@@ -111,6 +114,25 @@ export default async function WorkCaseStudy({
       )}
 
       {fm.summary && <p className="mt-8 text-lg">{fm.summary}</p>}
+
+      {fm.liveUrl && (
+        <div className="mt-8 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+          <a
+            href={fm.liveUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-90"
+          >
+            {fm.liveLabel ?? "Visit the live system"}
+            <ArrowUpRight className="h-4 w-4" />
+          </a>
+          {fm.liveCaveat && (
+            <span className="text-xs text-foreground-subtle italic">
+              {fm.liveCaveat}
+            </span>
+          )}
+        </div>
+      )}
 
       <hr className="my-10" />
 
