@@ -2,10 +2,11 @@ import { ArrowUpRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/section-heading";
+import { ReadingFeed } from "@/components/reading-feed";
 import { getCollection } from "@/lib/content";
 import { formatDate } from "@/lib/format";
 
-export const metadata = { title: "Writing" };
+export const metadata = { title: "Posts and articles" };
 
 export default async function WritingPage() {
   const [posts, articles] = await Promise.all([
@@ -107,6 +108,16 @@ export default async function WritingPage() {
           </ul>
         )}
       </section>
+
+      <ReadingFeed
+        kicker="Reading"
+        heading="What the wider community is talking about."
+        description="Auto-pulled from dev.to — top recent posts on the languages and patterns I work with. Refreshed hourly; only the current year is shown so the list never goes stale."
+        emptyMessage="The feed is briefly unavailable. Try again in a moment."
+        tooltip="A live, hourly-refreshed list of community posts in the languages and patterns I work with. Only the current year is shown."
+        source="dev.to"
+        limit={6}
+      />
     </>
   );
 }
