@@ -215,6 +215,17 @@ export const TECHS: readonly Tech[] = [
 
   // ──────────── Mobile ────────────
   {
+    slug: "android",
+    name: "Android",
+    category: "mobile",
+    docsUrl: "https://developer.android.com/docs",
+    description:
+      "Android is Google's mobile operating system and SDK. Native development centres on Kotlin or Java with the Android Jetpack libraries; the platform runs on the majority of mobile devices worldwide.",
+    icon: "android",
+    ghLanguage: "Java",
+    aliases: ["android-native", "android sdk"],
+  },
+  {
     slug: "flutter",
     name: "Flutter",
     category: "mobile",
@@ -280,6 +291,37 @@ export const TECHS: readonly Tech[] = [
     aliases: ["mongo"],
   },
   {
+    slug: "firebase",
+    name: "Firebase",
+    category: "data",
+    docsUrl: "https://firebase.google.com/docs",
+    description:
+      "Firebase is Google's backend-as-a-service platform: realtime database, Firestore, authentication, cloud functions, and analytics, all managed and tightly integrated for mobile and web apps.",
+    icon: "firebase",
+    ghLanguage: null,
+  },
+  {
+    slug: "mongodb-atlas",
+    name: "MongoDB Atlas",
+    category: "data",
+    docsUrl: "https://www.mongodb.com/docs/atlas/",
+    description:
+      "MongoDB Atlas is the official managed cloud service for MongoDB, available on AWS, Azure, and GCP. It handles provisioning, backups, monitoring, and scaling so teams can run document workloads without operating the database tier.",
+    icon: "mongodb",
+    ghLanguage: null,
+    aliases: ["atlas"],
+  },
+  {
+    slug: "realm",
+    name: "Realm",
+    category: "data",
+    docsUrl: "https://www.mongodb.com/docs/realm/",
+    description:
+      "Realm is an embedded, object-oriented mobile database now part of MongoDB. Its sync engine pairs naturally with MongoDB Atlas to keep mobile apps consistent across offline and online edges.",
+    icon: "https://github.com/realm.png?size=128",
+    ghLanguage: null,
+  },
+  {
     slug: "neo4j",
     name: "Neo4j",
     category: "data",
@@ -298,7 +340,7 @@ export const TECHS: readonly Tech[] = [
     docsUrl: "https://xunit.net/",
     description:
       "xUnit.net is a free, open-source unit-testing framework for .NET, designed by the original NUnit author. It is the de-facto modern choice for C# projects and integrates cleanly with the dotnet CLI.",
-    icon: "https://xunit.net/images/xunit-32x32.png",
+    icon: "https://github.com/xunit.png?size=128",
     ghLanguage: null,
     aliases: ["xunit.net"],
   },
@@ -339,7 +381,7 @@ export const TECHS: readonly Tech[] = [
     docsUrl: "https://robotframework.org/",
     description:
       "Robot Framework is a generic, keyword-driven test automation framework with a human-readable, plain-text syntax. It is widely used for acceptance testing and RPA across web, API, and desktop targets.",
-    icon: "https://cdn.simpleicons.org/robotframework",
+    icon: "https://github.com/robotframework.png?size=128",
     ghLanguage: null,
     aliases: ["robotframework", "robot"],
   },
@@ -360,7 +402,7 @@ export const TECHS: readonly Tech[] = [
     docsUrl: "https://docs.phpunit.de/",
     description:
       "PHPUnit is the de-facto unit-testing framework for PHP, modelled after the xUnit family. It is the default test runner for Symfony, Laravel, and most modern PHP applications.",
-    icon: "https://cdn.simpleicons.org/phpunit",
+    icon: "https://github.com/phpunit.png?size=128",
     ghLanguage: "PHP",
   },
 
@@ -412,8 +454,61 @@ export const TECHS: readonly Tech[] = [
     category: "ops",
     docsUrl: "https://docs.splunk.com/Documentation",
     description:
-      "Splunk is an enterprise platform for searching, monitoring, and analysing machine-generated data — logs, metrics, traces. It is widely used for operational visibility and security analytics.",
-    icon: "https://cdn.simpleicons.org/splunk",
+      "Splunk is an enterprise platform for searching, monitoring, and analysing machine-generated data: logs, metrics, traces. It is widely used for operational visibility and security analytics.",
+    icon: "https://github.com/splunk.png?size=128",
+    ghLanguage: null,
+  },
+  {
+    slug: "powershell",
+    name: "PowerShell",
+    category: "ops",
+    docsUrl: "https://learn.microsoft.com/en-us/powershell/",
+    description:
+      "PowerShell is Microsoft's object-oriented shell and scripting language, cross-platform since version 7. It is the default automation surface on Windows servers, Azure, and Microsoft 365.",
+    icon: "powershell",
+    ghLanguage: "PowerShell",
+    aliases: ["pwsh", "ps"],
+  },
+  {
+    slug: "bash",
+    name: "Bash",
+    category: "ops",
+    docsUrl: "https://www.gnu.org/software/bash/manual/",
+    description:
+      "Bash is the GNU Bourne-Again SHell: the de-facto interactive and scripting shell on Linux and macOS. It powers most CI runners, container entrypoints, and operational scripts in the Unix world.",
+    icon: "bash",
+    ghLanguage: "Shell",
+    aliases: ["sh", "shell"],
+  },
+  {
+    slug: "cmd",
+    name: "Windows CMD",
+    category: "ops",
+    docsUrl: "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands",
+    description:
+      "Windows Command Prompt (cmd.exe) is the legacy Windows shell, still widely scripted in batch files (.bat / .cmd) for Windows-only build steps and on-machine automation.",
+    icon: null,
+    ghLanguage: "Batchfile",
+    aliases: ["cmd.exe", "batch"],
+  },
+  {
+    slug: "teamcity",
+    name: "TeamCity",
+    category: "ops",
+    docsUrl: "https://www.jetbrains.com/help/teamcity/",
+    description:
+      "TeamCity is JetBrains' build management and continuous-integration server. Strong on .NET / JVM build orchestration, with first-class IntelliJ-family IDE integration.",
+    icon: "https://github.com/JetBrains.png?size=128",
+    ghLanguage: null,
+  },
+  {
+    slug: "circleci",
+    name: "CircleCI",
+    category: "ops",
+    docsUrl: "https://circleci.com/docs/",
+    description:
+      "CircleCI is a hosted continuous integration and delivery platform configured via YAML. Common in JS / TS / Ruby ecosystems and integrates cleanly with GitHub and Bitbucket repositories.",
+    icon: "circleci",
     ghLanguage: null,
   },
 ] as const;
