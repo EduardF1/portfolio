@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useTranslations } from "next-intl";
 import type { Repo } from "@/lib/github";
 import { cn } from "@/lib/utils";
 import { responsiveGridColsClass } from "@/lib/grid-cols";
@@ -38,6 +39,7 @@ export function GithubFeed({
    */
   initialLanguage?: string | null;
 }) {
+  const t = useTranslations("work");
   const [query, setQuery] = useState("");
 
   const languages = useMemo(() => {
@@ -71,7 +73,7 @@ export function GithubFeed({
       <div className="flex flex-col gap-4 mb-8">
         <input
           type="search"
-          placeholder="Search repos…"
+          placeholder={t("search")}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className="w-full md:max-w-md rounded-md border border-border bg-background px-4 py-2 text-sm outline-none focus:border-accent focus:ring-1 focus:ring-ring"
@@ -87,7 +89,7 @@ export function GithubFeed({
                 : "border-border text-foreground-muted hover:border-accent hover:text-accent",
             )}
           >
-            All ({repos.length})
+            {t("feedAllCount", { count: repos.length })}
           </button>
           {languages.map(([lang, count]) => (
             <button
@@ -112,7 +114,7 @@ export function GithubFeed({
       </div>
 
       <p className="font-mono text-xs text-foreground-subtle mb-4">
-        {filtered.length} of {repos.length} shown
+        {t("feedShown", { shown: filtered.length, total: repos.length })}
       </p>
 
       <ul className={`grid gap-px bg-border/60 ${responsiveGridColsClass(filtered.length, 3)} rounded-lg overflow-hidden`}>
@@ -135,7 +137,7 @@ export function GithubFeed({
                 )}
               </div>
               <p className="mt-2 text-sm flex-1 line-clamp-3">
-                {r.description ?? "No description"}
+                {r.description ?? t("noDescription")}
               </p>
               <div className="mt-4 flex items-center gap-3 text-xs text-foreground-subtle">
                 {r.language && (
@@ -147,7 +149,9 @@ export function GithubFeed({
                     {r.language}
                   </span>
                 )}
-                <span className="font-mono">Updated {formatDate(r.pushed_at)}</span>
+                <span className="font-mono">
+                  {t("updated", { date: formatDate(r.pushed_at) })}
+                </span>
               </div>
             </a>
           </li>
@@ -156,7 +160,7 @@ export function GithubFeed({
 
       {filtered.length === 0 && (
         <div className="rounded-lg border border-dashed border-border p-12 text-center">
-          <p className="text-foreground-subtle">No repos match those filters.</p>
+          <p className="text-foreground-subtle">{t("noMatches")}</p>
         </div>
       )}
     </div>

@@ -1,6 +1,32 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+
+// next-intl `useTranslations` is mocked to return ICU-aware lookups for the
+// keys this component reads. The map mirrors the English copy so the test
+// assertions stay readable.
+vi.mock("next-intl", () => ({
+  useTranslations: () => (key: string, vars?: Record<string, unknown>) => {
+    const v = vars ?? {};
+    switch (key) {
+      case "search":
+        return "Search repositories…";
+      case "feedAllCount":
+        return `All (${v.count})`;
+      case "feedShown":
+        return `${v.shown} of ${v.total} shown`;
+      case "noDescription":
+        return "No description";
+      case "updated":
+        return `Updated ${v.date}`;
+      case "noMatches":
+        return "No repositories match those filters.";
+      default:
+        return key;
+    }
+  },
+}));
+
 import { GithubFeed } from "./github-feed";
 import type { Repo } from "@/lib/github";
 
@@ -57,7 +83,7 @@ describe("<GithubFeed />", () => {
   it("filters by free-text search across name and description", async () => {
     const user = userEvent.setup();
     render(<GithubFeed repos={fixtures} />);
-    const search = screen.getByPlaceholderText(/Search repos/i);
+    const search = screen.getByPlaceholderText(/Search repositories/i);
     await user.type(search, "practice");
     expect(screen.queryByText("react-thing")).not.toBeInTheDocument();
     expect(screen.getByText("java-handson")).toBeInTheDocument();
