@@ -19,15 +19,10 @@ CI on main was failing pre-existing (the boilerplate-filter regex caught any par
 1. **Wait for Senior Dev A** to push its branch. Review the catalogue + photo additions, merge if clean.
 2. **Push the local uncommitted batch**: video-bg fix, eslint coverage ignore, backlog updates, this handoff. Single commit "Refinements: video-bg visible placeholder, backlog queue, coverage tooling, handoff doc."
 3. **Verify Vercel deploy** — visit `/?video=A` and `/?video=B` on eduardfischer.dev after the push. The placeholder should now be conspicuous (terracotta gradient with a labelled badge).
-4. **Open user requests still pending** (in arrival order, see `docs/backlog.md` "## P2"):
-   - GitHub tech harvest from https://github.com/EduardF1 (heavy: visit each repo, scan README, propose additions to `src/lib/tech.ts`)
-   - Experience timeline product links — link KOMBIT VALG, SitaWare, Greenbyte SaaS, Boozt, Mjølner products in addition to company URLs
-   - Travel page interactive Europe map (depends on Senior Dev A's GPS catalogue)
-   - Culinary section under `/travel`
-   - Visit-notification daily digest email — needs Eduard's approval before shipping
-   - Coverage threshold + CI publish — `@vitest/coverage-v8` already installed; remaining work is wiring Vercel/CI step + soft floor
-   - `/blog` nav cluster (Personal / Travel / Recommends) — benchmark against Reddit + Danish-culture portfolios first
-   - `/my-story` page — long-form arc, layout only; Eduard provides narrative
+4. **Open queue** is now a single ordered list in `docs/backlog.md` `## Queue (open work, in arrival order)`. Three sub-sections, all part of the same queue:
+   - **User requests**: GitHub tech harvest, experience product links, travel map, culinary section, visit-notification, coverage threshold, `/blog` nav cluster, `/my-story` page (last two need Reddit + Danish-culture benchmark before shipping).
+   - **Architect pass (optional hardening)**: tests, branch protection, perf audit, carousel container queries, live Yahoo IMAP CI assertion.
+   - **PO + Architect future-features (also queued, at the bottom)**: 18 items including sitemap, OG, RSS, search, lightboxes, heatmap, analytics, RO locale, `/now`, honeypot, etc.
 
 ## Known issues / sanity-checks
 
