@@ -1,4 +1,4 @@
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SectionHeading } from "@/components/section-heading";
 import { SectionNav } from "@/components/section-nav";
 import { Link } from "@/i18n/navigation";
@@ -18,16 +18,17 @@ export default async function NowPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("now");
 
   return (
     <>
       <SectionNav
         sections={[
-          { id: "intro", label: "Now" },
-          { id: "focus", label: "Focus" },
-          { id: "reading", label: "Reading" },
-          { id: "side-bets", label: "Side bets" },
-          { id: "lately", label: "Lately" },
+          { id: "intro", label: t("navIntro") },
+          { id: "focus", label: t("navFocus") },
+          { id: "reading", label: t("navReading") },
+          { id: "side-bets", label: t("navSideBets") },
+          { id: "lately", label: t("navLately") },
         ]}
       />
       <section
@@ -35,23 +36,22 @@ export default async function NowPage({
         className="container-page pt-24 md:pt-28 pb-12 scroll-mt-24"
       >
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
-          Now
+          {t("kicker")}
         </p>
-        <h1 className="max-w-3xl">What I&apos;m focused on right now.</h1>
+        <h1 className="max-w-3xl">{t("heading")}</h1>
         <p className="mt-6 max-w-2xl text-lg">
-          A snapshot of what has my attention: work, study, side bets,
-          reading. Updated every month or two.{" "}
+          {t("description")}{" "}
           <a
             href="https://nownownow.com/about"
             target="_blank"
             rel="noopener noreferrer"
             className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
           >
-            What is a /now page?
+            {t("whatIsNow")}
           </a>
         </p>
         <p className="mt-4 font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-          Last updated · {LAST_UPDATED}
+          {t("lastUpdated", { date: LAST_UPDATED })}
         </p>
       </section>
 
@@ -59,7 +59,7 @@ export default async function NowPage({
         id="focus"
         className="container-page py-12 max-w-3xl scroll-mt-24"
       >
-        <SectionHeading>Focus</SectionHeading>
+        <SectionHeading>{t("focus")}</SectionHeading>
         <div className="mt-6 space-y-4">
           <p>
             Settling into my new role at{" "}
@@ -88,7 +88,7 @@ export default async function NowPage({
         id="reading"
         className="container-page py-12 max-w-3xl scroll-mt-24"
       >
-        <SectionHeading>Reading</SectionHeading>
+        <SectionHeading>{t("reading")}</SectionHeading>
         <div className="mt-6 space-y-4">
           <p>
             A small reading pile, mostly engineering and a bit of business —
@@ -109,7 +109,7 @@ export default async function NowPage({
         id="side-bets"
         className="container-page py-12 max-w-3xl scroll-mt-24"
       >
-        <SectionHeading>Side bets</SectionHeading>
+        <SectionHeading>{t("sideBets")}</SectionHeading>
         <div className="mt-6 space-y-4">
           <p>
             This site, kept lean and updated as I learn things worth recording.
@@ -142,7 +142,7 @@ export default async function NowPage({
         id="lately"
         className="container-page py-12 pb-24 max-w-3xl scroll-mt-24"
       >
-        <SectionHeading>Lately</SectionHeading>
+        <SectionHeading>{t("lately")}</SectionHeading>
         <div className="mt-6 space-y-4">
           <p>
             Spring in Aarhus. A short trip to Slovenia and Croatia in late

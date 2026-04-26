@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getCollection, getItem } from "@/lib/content";
 import { mdxComponents } from "@/components/mdx-components";
@@ -37,6 +37,8 @@ export default async function WorkCaseStudy({
   setRequestLocale(locale);
   const item = await getItem("work", slug);
   if (!item) return notFound();
+  const tCommon = await getTranslations("common");
+  const tWork = await getTranslations("work");
 
   const fm = item.frontmatter as {
     title: string;
@@ -61,7 +63,7 @@ export default async function WorkCaseStudy({
         href="/work"
         className="inline-flex items-center gap-1 text-sm text-foreground-subtle hover:text-accent mb-12"
       >
-        <ArrowLeft className="h-4 w-4" /> All work
+        <ArrowLeft className="h-4 w-4" /> {tCommon("allWork")}
       </Link>
 
       {kicker && (
@@ -123,7 +125,7 @@ export default async function WorkCaseStudy({
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-90"
           >
-            {fm.liveLabel ?? "Visit the live system"}
+            {fm.liveLabel ?? tWork("visitLiveSystem")}
             <ArrowUpRight className="h-4 w-4" />
           </a>
           {fm.liveCaveat && (

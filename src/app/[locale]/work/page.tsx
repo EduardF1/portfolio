@@ -9,37 +9,32 @@ import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 export const metadata = { title: "Work" };
 
+// Case-study titles + kickers stay in source: titles are proper nouns, kickers
+// are company + year ranges (also proper-noun adjacent). Only the blurbs go
+// through the translation files (work.blurbs.<slug>).
 const selected = [
   {
     slug: "kombit-valg",
     title: "KOMBIT VALG",
     kicker: "Netcompany · 2024 – present",
-    blurb:
-      "Full-stack engineering on Denmark's national administrative election platform. C#/.NET on the back end, Angular on the web.",
     stack: ["C#", ".NET", "Angular", "MS SQL", "Azure DevOps"],
   },
   {
     slug: "sitaware",
     title: "SitaWare Frontline & Edge",
     kicker: "Systematic · 2021",
-    blurb:
-      "Internship on Systematic's NATO-grade command-and-control suite. Java and Angular feature work, plus Robot Framework UI test automation.",
     stack: ["Java", "Spring", "Angular", "JUnit"],
   },
   {
     slug: "greenbyte-saas",
     title: "Greenbyte SaaS + Mobile",
     kicker: "Greenbyte · 2021 – 2024",
-    blurb:
-      "Three years on a renewable-energy SaaS platform. Full-stack .NET Core and React, plus architect and lead developer of the Flutter mobile companion.",
     stack: ["C#", ".NET Core", "EF Core", "React", "Flutter/Dart"],
   },
   {
     slug: "boozt",
     title: "Boozt e-commerce backend",
     kicker: "Boozt Fashion · 2021 – 2022",
-    blurb:
-      "PHP / Symfony backend for one of the larger Nordic fashion retailers. Feature work, automated testing, and a Kanban flow brought to the team.",
     stack: ["PHP", "Symfony", "MySQL", "PHPUnit"],
   },
 ];
@@ -68,30 +63,33 @@ export default async function WorkPage({
       )
     : selected;
   const repos = await getRepos();
-  const t = await getTranslations("tooltips");
+  const t = await getTranslations("work");
+  const tt = await getTranslations("tooltips");
 
   return (
     <>
       <section className="container-page pt-24 md:pt-28 pb-12">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
-          Work
+          {t("kicker")}
         </p>
-        <h1 className="max-w-3xl">Selected case studies.</h1>
-        <p className="mt-6 max-w-2xl text-lg">
-          Case studies of business-critical systems I have helped build,
-          alongside a live feed of my public GitHub repositories.
-        </p>
+        <h1 className="max-w-3xl">{t("heading")}</h1>
+        <p className="mt-6 max-w-2xl text-lg">{t("description")}</p>
       </section>
 
       <section className="container-page py-12">
         <div className="flex items-end justify-between mb-8">
-          <SectionHeading tooltip={t("selectedWork")}>Selected</SectionHeading>
+          <SectionHeading tooltip={tt("selectedWork")}>
+            {t("selected")}
+          </SectionHeading>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-            {visibleSelected.length} of {selected.length} case studies
+            {t("casesOf", {
+              visible: visibleSelected.length,
+              total: selected.length,
+            })}
           </p>
         </div>
         <nav
-          aria-label="Filter case studies by stack"
+          aria-label={t("filterAria")}
           className="mb-6 flex flex-wrap gap-2"
         >
           <Link
@@ -105,7 +103,7 @@ export default async function WorkPage({
                 : "border border-border text-foreground-muted hover:border-accent hover:text-accent")
             }
           >
-            All
+            {t("all")}
           </Link>
           {STACK_CHIPS.map((label) => {
             const slug = normalizeStack(label);
@@ -143,7 +141,7 @@ export default async function WorkPage({
                 <h3 className="mt-3 group-hover:text-accent transition-colors">
                   {p.title}
                 </h3>
-                <p className="mt-3 flex-1">{p.blurb}</p>
+                <p className="mt-3 flex-1">{t(`blurbs.${p.slug}`)}</p>
                 <div className="mt-5 flex flex-wrap gap-2">
                   {p.stack.map((s) => (
                     <span
@@ -155,7 +153,7 @@ export default async function WorkPage({
                   ))}
                 </div>
                 <span className="mt-5 inline-flex items-center gap-1 text-sm text-foreground-muted group-hover:text-accent">
-                  Read the case study <ArrowUpRight className="h-4 w-4" />
+                  {t("readCaseStudy")} <ArrowUpRight className="h-4 w-4" />
                 </span>
               </Link>
             </li>
@@ -170,10 +168,10 @@ export default async function WorkPage({
       >
         <div className="flex items-end justify-between mb-8">
           <SectionHeading
-            kicker="Technologies"
-            tooltip={t("technologies")}
+            kicker={t("technologiesKicker")}
+            tooltip={tt("technologies")}
           >
-            {tech ? tech.name : "Pick a technology"}
+            {tech ? tech.name : t("pickATechnology")}
           </SectionHeading>
         </div>
         {tech ? (
@@ -186,24 +184,25 @@ export default async function WorkPage({
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-sm text-foreground-muted hover:text-accent"
               >
-                Official docs <ArrowUpRight className="h-4 w-4" />
+                {t("officialDocs")} <ArrowUpRight className="h-4 w-4" />
               </a>
               <Link
                 href="/work"
                 className="inline-flex items-center gap-1.5 rounded-full border border-border px-3 py-1 text-xs text-foreground-muted hover:border-accent hover:text-accent transition-colors"
               >
-                Clear filter
+                {t("clearFilter")}
               </Link>
             </div>
           </div>
         ) : (
           <p className="max-w-2xl text-foreground-muted">
-            Click a technology chip on the{" "}
-            <Link href="/" className="underline hover:text-accent">
-              home page
-            </Link>{" "}
-            to see its description here and pre-filter the repository feed
-            below.
+            {t.rich("techHint", {
+              home: (chunks) => (
+                <Link href="/" className="underline hover:text-accent">
+                  {chunks}
+                </Link>
+              ),
+            })}
           </p>
         )}
       </section>
@@ -211,13 +210,14 @@ export default async function WorkPage({
       <section className="container-page py-12 pb-24">
         <div className="flex items-end justify-between mb-8">
           <div>
-            <SectionHeading tooltip={t("openSource")}>
-              Public repositories
+            <SectionHeading tooltip={tt("openSource")}>
+              {t("openSourceHeading")}
             </SectionHeading>
             <p className="mt-2 max-w-xl">
-              {repos.length} public repositories from{" "}
-              {new Date().getFullYear() - 2019}+ years of side-projects, course
-              work, and experiments, pulled from GitHub.
+              {t("openSourceLead", {
+                count: repos.length,
+                years: new Date().getFullYear() - 2019,
+              })}
             </p>
           </div>
         </div>
@@ -228,9 +228,7 @@ export default async function WorkPage({
           />
         ) : (
           <div className="rounded-lg border border-dashed border-border p-12 text-center">
-            <p className="text-foreground-subtle">
-              GitHub feed unavailable, try refreshing in a moment.
-            </p>
+            <p className="text-foreground-subtle">{t("feedUnavailable")}</p>
           </div>
         )}
       </section>

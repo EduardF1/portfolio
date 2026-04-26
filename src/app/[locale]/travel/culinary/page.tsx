@@ -14,38 +14,47 @@ export default async function CulinaryPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  await getTranslations();
+  const t = await getTranslations("culinary");
   const dishes = await getCollection("culinary");
 
   return (
     <>
       <section className="container-page pt-24 md:pt-28 pb-12">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
-          Culinary
+          {t("kicker")}
         </p>
-        <h1 className="max-w-3xl">Notes from the table.</h1>
-        <p className="mt-6 max-w-2xl text-lg">
-          Dishes that earned the trip. Short tasting notes, where they were
-          eaten, and whether I would order them again.
-        </p>
+        <h1 className="max-w-3xl">{t("heading")}</h1>
+        <p className="mt-6 max-w-2xl text-lg">{t("description")}</p>
         <p className="mt-4 max-w-2xl text-foreground-muted">
-          Sub-section of <Link href="/travel" className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent">travel</Link>: same trips, different lens.
+          {t.rich("subSection", {
+            link: (chunks) => (
+              <Link
+                href="/travel"
+                className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
+              >
+                {chunks}
+              </Link>
+            ),
+          })}
         </p>
       </section>
 
       <section className="container-page pb-24">
         <div className="flex items-end justify-between mb-8">
-          <SectionHeading>Dishes</SectionHeading>
+          <SectionHeading>{t("dishesHeading")}</SectionHeading>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-            {dishes.length} {dishes.length === 1 ? "dish" : "dishes"}
+            {t("dishCount", { count: dishes.length })}
           </p>
         </div>
 
         {dishes.length === 0 ? (
           <div className="rounded-lg border border-dashed border-border p-12 text-center">
             <p className="text-foreground-subtle">
-              No dishes published yet. Drop `.mdx` files into{" "}
-              <code className="font-mono text-xs">content/culinary/</code>.
+              {t.rich("noDishes", {
+                code: (chunks) => (
+                  <code className="font-mono text-xs">{chunks}</code>
+                ),
+              })}
             </p>
           </div>
         ) : (

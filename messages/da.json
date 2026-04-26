@@ -38,6 +38,14 @@
     "experienceHeading": "Fem år på tværs af fem virksomheder.",
     "selectedKicker": "Udvalgt arbejde",
     "selectedHeading": "Udvalgte casestudier.",
+    "statsKicker": "I overblik",
+    "howIWorkKicker": "Sådan arbejder jeg",
+    "featured": {
+      "kombit-valg": "Full-stack-udvikling på Danmarks nationale administrative valgplatform: C#/.NET, Angular og de integrationer, hver dansk kommune støtter sig til på valgdagen.",
+      "sitaware": "Praktik på Systematics NATO-niveau C2-suite. Java- og Angular-feature-arbejde, fejlhåndtering og UI-testautomatisering i Robot Framework under FDD.",
+      "greenbyte-saas": "Tre år på en SaaS-platform for vedvarende energi. Full-stack .NET Core og React, samt arkitekt og lead developer på Flutter/Dart-mobilappen.",
+      "boozt": "PHP/Symfony-backend på en stor nordisk modeplatform. Feature-arbejde, automatiserede tests og en Kanban-arbejdsgang indført i teamet."
+    },
     "stats": {
       "years": "Års softwareudvikling",
       "languages": "Sprog",
@@ -68,15 +76,35 @@
     "description": "Casestudier af forretningskritiske systemer, jeg har været med til at bygge, sammen med et live-feed af mine offentlige GitHub-repositories.",
     "selected": "Udvalgt",
     "caseStudies": "{count, plural, one {# case} other {# cases}}",
+    "casesOf": "{visible} af {total, plural, one {# case} other {# cases}}",
+    "filterAria": "Filtrér casestudier efter teknologi",
+    "all": "Alle",
+    "readCaseStudy": "Læs casen",
+    "technologiesKicker": "Teknologier",
+    "pickATechnology": "Vælg en teknologi",
+    "officialDocs": "Officiel dokumentation",
+    "clearFilter": "Ryd filter",
+    "techHint": "Klik på en teknologi-chip på <home>forsiden</home> for at se dens beskrivelse her og forfiltrere repository-feedet nedenfor.",
     "openSourceHeading": "Offentlige repositories",
     "openSourceLead": "{count} offentlige repositories fra {years}+ års sideprojekter, studieopgaver og eksperimenter, hentet fra GitHub.",
+    "feedUnavailable": "GitHub-feedet er utilgængeligt. Prøv at opdatere om et øjeblik.",
     "feedShown": "{shown} af {total} vist",
+    "feedAllCount": "Alle ({count})",
     "search": "Søg repositories…",
-    "all": "Alle",
-    "noMatches": "Ingen repositories matcher filtrene."
+    "noMatches": "Ingen repositories matcher filtrene.",
+    "noDescription": "Ingen beskrivelse",
+    "updated": "Opdateret {date}",
+    "visitLiveSystem": "Besøg det aktive system",
+    "blurbs": {
+      "kombit-valg": "Full-stack-udvikling på Danmarks nationale administrative valgplatform. C#/.NET på backend, Angular på web.",
+      "sitaware": "Praktik på Systematics NATO-niveau kommando- og kontrolsuite. Java- og Angular-feature-arbejde samt UI-testautomatisering i Robot Framework.",
+      "greenbyte-saas": "Tre år på en SaaS-platform for vedvarende energi. Full-stack .NET Core og React, samt arkitekt og lead developer på den medfølgende Flutter-mobilapp.",
+      "boozt": "PHP/Symfony-backend for en af de større nordiske mode-detailhandlere. Feature-arbejde, automatiserede tests og en Kanban-arbejdsgang indført i teamet."
+    }
   },
   "writing": {
-    "kicker": "Indlæg og artikler",
+    "kicker": "Tekster",
+    "kickerLong": "Indlæg og artikler",
     "heading": "Noter fra praksis og fra studietiden.",
     "description": "Korte essays om udvikling og konsulentarbejde, samt akademiske artikler fra min cand.scient.techn. i Technology-Based Business Development.",
     "posts": "Indlæg",
@@ -124,7 +152,20 @@
     "all": "Alle rejser",
     "viewTrips": "Se rejser",
     "recentTripsKicker": "Seneste rejser",
-    "recentTripsHeading": "Nyt fra vejen"
+    "recentTripsHeading": "Nyt fra vejen",
+    "byCountry": "Efter land",
+    "photoCount": "{count, plural, one {# foto} other {# fotos}}",
+    "cityCount": "{count, plural, one {# by} other {# byer}}",
+    "culinaryCrossLink": "Se den kulinariske side af rejserne"
+  },
+  "culinary": {
+    "kicker": "Kulinarisk",
+    "heading": "Noter fra bordet.",
+    "description": "Retter, der gjorde rejsen værd. Korte smagsnoter, hvor de blev spist, og om jeg ville bestille dem igen.",
+    "subSection": "Underafdeling af <link>rejser</link>: samme ture, andet perspektiv.",
+    "dishesHeading": "Retter",
+    "dishCount": "{count, plural, one {# ret} other {# retter}}",
+    "noDishes": "Ingen retter offentliggjort endnu. Læg `.mdx`-filer i <code>content/culinary/</code>."
   },
   "tripPhotos": {
     "kicker": "Rejse · {country}",
@@ -149,6 +190,50 @@
       "successTitle": "Tak, modtaget.",
       "successBody": "Jeg svarer inden for få dage. Hører du intet, kan du skrive direkte til {email}.",
       "errorGeneric": "Noget gik galt. Prøv igen eller skriv direkte."
+    }
+  },
+  "now": {
+    "kicker": "Nu",
+    "heading": "Det, jeg er optaget af lige nu.",
+    "description": "Et øjebliksbillede af det, der har min opmærksomhed: arbejde, studier, sideprojekter og læsning. Opdateres hver eller hver anden måned.",
+    "whatIsNow": "Hvad er en /now-side?",
+    "lastUpdated": "Sidst opdateret · {date}",
+    "navIntro": "Nu",
+    "navFocus": "Fokus",
+    "navReading": "Læsning",
+    "navSideBets": "Sideprojekter",
+    "navLately": "På det seneste",
+    "focus": "Fokus",
+    "reading": "Læsning",
+    "sideBets": "Sideprojekter",
+    "lately": "På det seneste"
+  },
+  "myStory": {
+    "kicker": "Min historie",
+    "heading": "Sådan kom jeg hertil.",
+    "description": "En kronologisk version af CV'et: valgene, ikke bedrifterne. Dateret, ærligt og kort. Den tekniske detalje for hvert kapitel ligger på <work>/work</work>; den stabile livsside ligger på <personal>/personal</personal>.",
+    "metaTitle": "Sådan kom jeg hertil",
+    "metaDescription": "Det længere forløb, fra AP-graden i marketing i Kolding til softwareudvikling i Aarhus. Kronologisk, dateret, roligt.",
+    "navIntro": "Intro",
+    "navChapters": "Kapitler",
+    "navWhatsNext": "Nu",
+    "whatsNext": "Hvor jeg er nu",
+    "whatsNextLead": "Lige nu hos Mjølner Informatics i Aarhus, hvor jeg arbejder på systemer, der bærer reel vægt, i en rolig review-kultur, der tager kvalitet alvorligt. Hænger sammen med <now>/now</now>, der holder den foranderlige del."
+  },
+  "notFound": {
+    "kicker": "404 · Ikke fundet",
+    "heading": "Den side er ikke længere, hvor den plejede at være.",
+    "lead": "Linket kan være forældet, slug'en kan være ændret, eller siden har måske aldrig eksisteret. Prøv en af disse i stedet:",
+    "stuck": "Stadig på herrens mark? <contact>Skriv til mig</contact> med den URL, du forsøgte at nå, så retter jeg linket.",
+    "metaTitle": "Ikke fundet",
+    "metaDescription": "Den side kunne ikke findes.",
+    "links": {
+      "home": "Forside",
+      "work": "Udvalgt arbejde",
+      "writing": "Indlæg og artikler",
+      "travel": "Rejser",
+      "personal": "Personligt",
+      "contact": "Kontakt"
     }
   },
   "palette": {

@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getCollection } from "@/lib/content";
 import { formatDate } from "@/lib/format";
@@ -7,24 +8,22 @@ export const metadata = { title: "Recommends" };
 
 export default async function RecommendsPage() {
   const items = await getCollection("recommends");
+  const t = await getTranslations("recommends");
 
   return (
     <>
       <section className="container-page pt-24 md:pt-28 pb-12">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
-          Recommends
+          {t("kicker")}
         </p>
-        <h1 className="max-w-3xl">Tools, books, and products I trust.</h1>
-        <p className="mt-6 max-w-2xl text-lg">
-          A short, considered list of products, tools, and books I return to.
-          With the reasoning, not just the link.
-        </p>
+        <h1 className="max-w-3xl">{t("heading")}</h1>
+        <p className="mt-6 max-w-2xl text-lg">{t("description")}</p>
       </section>
 
       <section className="container-page pb-24">
         {items.length === 0 ? (
           <div className="rounded-lg border border-dashed border-border p-12 text-center">
-            <p className="text-foreground-subtle">No recommendations yet.</p>
+            <p className="text-foreground-subtle">{t("noItems")}</p>
           </div>
         ) : (
           <ul
@@ -46,7 +45,7 @@ export default async function RecommendsPage() {
                     <p className="mt-3 flex-1">{it.frontmatter.description}</p>
                   )}
                   <p className="mt-5 font-mono text-xs text-foreground-subtle">
-                    Reviewed {formatDate(it.frontmatter.date)}
+                    {t("reviewed", { date: formatDate(it.frontmatter.date) })}
                   </p>
                 </Link>
               </li>

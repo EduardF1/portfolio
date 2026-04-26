@@ -5,6 +5,27 @@ vi.mock("server-only", () => ({}));
 
 vi.mock("next-intl/server", () => ({
   setRequestLocale: () => {},
+  getTranslations: async () => (key: string, vars?: Record<string, unknown>) => {
+    const v = vars ?? {};
+    const map: Record<string, string> = {
+      kicker: "Now",
+      heading: "What I'm focused on right now.",
+      description:
+        "A snapshot of what has my attention: work, study, side bets, reading. Updated every month or two.",
+      whatIsNow: "What is a /now page?",
+      lastUpdated: `Last updated · ${v.date ?? ""}`,
+      navIntro: "Now",
+      navFocus: "Focus",
+      navReading: "Reading",
+      navSideBets: "Side bets",
+      navLately: "Lately",
+      focus: "Focus",
+      reading: "Reading",
+      sideBets: "Side bets",
+      lately: "Lately",
+    };
+    return map[key] ?? key;
+  },
 }));
 
 vi.mock("@/i18n/navigation", () => ({

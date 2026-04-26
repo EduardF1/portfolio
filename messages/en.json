@@ -38,6 +38,14 @@
     "experienceHeading": "Five years across five companies.",
     "selectedKicker": "Selected work",
     "selectedHeading": "Selected case studies.",
+    "statsKicker": "At a glance",
+    "howIWorkKicker": "How I work",
+    "featured": {
+      "kombit-valg": "Full-stack engineering on Denmark's national administrative election platform, C# / .NET, Angular, and the integrations every Danish kommune depends on at poll time.",
+      "sitaware": "Internship on Systematic's NATO-grade C2 suite. Java + Angular feature work, defect triage, and Robot Framework UI test automation under FDD.",
+      "greenbyte-saas": "Three years on a renewable-energy SaaS platform. Full-stack .NET Core + React, and architect and lead developer of the Flutter / Dart mobile companion app.",
+      "boozt": "PHP / Symfony backend on a large-scale Nordic fashion retailer. Feature work, automated testing, and a Kanban flow brought to the team."
+    },
     "stats": {
       "years": "Years engineering software",
       "languages": "Languages",
@@ -68,17 +76,37 @@
     "description": "Case studies of business-critical systems I have helped build, alongside a live feed of my public GitHub repositories.",
     "selected": "Selected",
     "caseStudies": "{count, plural, one {# case study} other {# case studies}}",
+    "casesOf": "{visible} of {total, plural, one {# case study} other {# case studies}}",
+    "filterAria": "Filter case studies by stack",
+    "all": "All",
+    "readCaseStudy": "Read the case study",
+    "technologiesKicker": "Technologies",
+    "pickATechnology": "Pick a technology",
+    "officialDocs": "Official docs",
+    "clearFilter": "Clear filter",
+    "techHint": "Click a technology chip on the <home>home page</home> to see its description here and pre-filter the repository feed below.",
     "openSourceHeading": "Public repositories",
     "openSourceLead": "{count} public repositories from {years}+ years of side-projects, course work, and experiments, pulled from GitHub.",
+    "feedUnavailable": "GitHub feed unavailable, try refreshing in a moment.",
     "feedShown": "{shown} of {total} shown",
+    "feedAllCount": "All ({count})",
     "search": "Search repositories…",
-    "all": "All",
-    "noMatches": "No repositories match those filters."
+    "noMatches": "No repositories match those filters.",
+    "noDescription": "No description",
+    "updated": "Updated {date}",
+    "visitLiveSystem": "Visit the live system",
+    "blurbs": {
+      "kombit-valg": "Full-stack engineering on Denmark's national administrative election platform. C#/.NET on the back end, Angular on the web.",
+      "sitaware": "Internship on Systematic's NATO-grade command-and-control suite. Java and Angular feature work, plus Robot Framework UI test automation.",
+      "greenbyte-saas": "Three years on a renewable-energy SaaS platform. Full-stack .NET Core and React, plus architect and lead developer of the Flutter mobile companion.",
+      "boozt": "PHP / Symfony backend for one of the larger Nordic fashion retailers. Feature work, automated testing, and a Kanban flow brought to the team."
+    }
   },
   "writing": {
-    "kicker": "Posts and articles",
-    "heading": "Notes from practice and from academia.",
-    "description": "Short essays on engineering and consulting, alongside academic articles from my MSc in Technology-Based Business Development.",
+    "kicker": "Writing",
+    "kickerLong": "Posts and articles",
+    "heading": "Notes from practice, and from the master's bench.",
+    "description": "Short essays on engineering and consulting, plus academic articles from my MSc in Technology-Based Business Development.",
     "posts": "Posts",
     "articles": "Articles",
     "articlesLead": "Academic writing from my master's programme at Aarhus University.",
@@ -124,7 +152,20 @@
     "all": "All trips",
     "viewTrips": "View trips",
     "recentTripsKicker": "Recent trips",
-    "recentTripsHeading": "Latest from the road"
+    "recentTripsHeading": "Latest from the road",
+    "byCountry": "By country",
+    "photoCount": "{count, plural, one {# photo} other {# photos}}",
+    "cityCount": "{count, plural, one {# city} other {# cities}}",
+    "culinaryCrossLink": "See the culinary side of these trips"
+  },
+  "culinary": {
+    "kicker": "Culinary",
+    "heading": "Notes from the table.",
+    "description": "Dishes that earned the trip. Short tasting notes, where they were eaten, and whether I would order them again.",
+    "subSection": "Sub-section of <link>travel</link>: same trips, different lens.",
+    "dishesHeading": "Dishes",
+    "dishCount": "{count, plural, one {# dish} other {# dishes}}",
+    "noDishes": "No dishes published yet. Drop `.mdx` files into <code>content/culinary/</code>."
   },
   "tripPhotos": {
     "kicker": "Trip · {country}",
@@ -149,6 +190,50 @@
       "successTitle": "Thanks, got it.",
       "successBody": "I'll reply within a few days. If you don't hear back, my email is {email}.",
       "errorGeneric": "Something went wrong. Please try again or email directly."
+    }
+  },
+  "now": {
+    "kicker": "Now",
+    "heading": "What I'm focused on right now.",
+    "description": "A snapshot of what has my attention: work, study, side bets, reading. Updated every month or two.",
+    "whatIsNow": "What is a /now page?",
+    "lastUpdated": "Last updated · {date}",
+    "navIntro": "Now",
+    "navFocus": "Focus",
+    "navReading": "Reading",
+    "navSideBets": "Side bets",
+    "navLately": "Lately",
+    "focus": "Focus",
+    "reading": "Reading",
+    "sideBets": "Side bets",
+    "lately": "Lately"
+  },
+  "myStory": {
+    "kicker": "My story",
+    "heading": "How I got here.",
+    "description": "A chronological version of the CV: the choices, not the achievements. Dated, honest, and short. The technical detail of each chapter lives on <work>/work</work>; the steadier-life slice lives on <personal>/personal</personal>.",
+    "metaTitle": "How I got here",
+    "metaDescription": "The longer arc, from AP Marketing in Kolding to engineering in Aarhus. Chronological, dated, calm.",
+    "navIntro": "Intro",
+    "navChapters": "Chapters",
+    "navWhatsNext": "Now",
+    "whatsNext": "Where I am now",
+    "whatsNextLead": "Currently at Mjølner Informatics in Aarhus, working on systems that carry real weight in a calm review culture that takes quality seriously. Pairs with <now>/now</now>, which holds the volatile slice."
+  },
+  "notFound": {
+    "kicker": "404 · Not found",
+    "heading": "That page is not where it used to be.",
+    "lead": "The link may be stale, the slug may have changed, or it may never have existed in the first place. Try one of these instead:",
+    "stuck": "Still stuck? <contact>Drop me a line</contact> with the URL you were trying to reach and I'll fix the link.",
+    "metaTitle": "Not found",
+    "metaDescription": "That page could not be found.",
+    "links": {
+      "home": "Home",
+      "work": "Selected work",
+      "writing": "Posts and articles",
+      "travel": "Travel",
+      "personal": "Personal",
+      "contact": "Contact"
     }
   },
   "palette": {

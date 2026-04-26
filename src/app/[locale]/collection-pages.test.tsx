@@ -11,20 +11,84 @@ import { cleanup, render, screen } from "@testing-library/react";
 vi.mock("server-only", () => ({}));
 
 vi.mock("next-intl/server", () => ({
-  getTranslations: async (ns?: string) => (key: string) => {
-    if (ns === "travel") {
-      const map: Record<string, string> = {
-        kicker: "Travel",
-        heading: "Notes from the road.",
-        description: "Trips and the places they took me.",
-        all: "All travel",
-        tripCount: "1 trip",
-        noTrips: "No trips published yet.",
-      };
-      return map[key] ?? `travel.${key}`;
+  getTranslations: async (ns?: string) => {
+    const fn = (key: string, vars?: Record<string, unknown>) => {
+      const v = vars ?? {};
+      if (ns === "travel") {
+        const map: Record<string, string> = {
+          kicker: "Travel",
+          heading: "Notes from the road.",
+          description: "Trips and the places they took me.",
+          all: "All travel",
+          tripCount: `${v.count ?? 1} trip`,
+          noTrips: "No trips published yet.",
+          recentTripsKicker: "Recent trips",
+          recentTripsHeading: "Latest from the road",
+          byCountry: "By country",
+          photoCount: `${v.count ?? 0} photos`,
+          cityCount: `${v.count ?? 0} cities`,
+          culinaryCrossLink: "See the culinary side of these trips",
+          viewTrips: "View trips",
+        };
+        return map[key] ?? `travel.${key}`;
+      }
+      if (ns === "work") {
+        const map: Record<string, string> = {
+          kicker: "Work",
+          heading: "Selected case studies.",
+          description: "Case studies of business-critical systems.",
+          selected: "Selected",
+          casesOf: `${v.visible ?? 0} of ${v.total ?? 0} case studies`,
+          filterAria: "Filter case studies by stack",
+          all: "All",
+          readCaseStudy: "Read the case study",
+          technologiesKicker: "Technologies",
+          pickATechnology: "Pick a technology",
+          officialDocs: "Official docs",
+          clearFilter: "Clear filter",
+          openSourceHeading: "Public repositories",
+          openSourceLead: `${v.count ?? 0} repos, ${v.years ?? 0}+ years.`,
+          feedUnavailable: "GitHub feed unavailable, try refreshing in a moment.",
+          "blurbs.kombit-valg": "KOMBIT VALG blurb",
+          "blurbs.sitaware": "SitaWare blurb",
+          "blurbs.greenbyte-saas": "Greenbyte blurb",
+          "blurbs.boozt": "Boozt blurb",
+        };
+        return map[key] ?? `work.${key}`;
+      }
+      if (ns === "culinary") {
+        const map: Record<string, string> = {
+          kicker: "Culinary",
+          heading: "Notes from the table.",
+          description: "Dishes that earned the trip.",
+          dishesHeading: "Dishes",
+          dishCount: `${v.count ?? 0} dishes`,
+          noDishes: "No dishes published yet.",
+        };
+        return map[key] ?? `culinary.${key}`;
+      }
+      if (ns === "recommends") {
+        const map: Record<string, string> = {
+          kicker: "Recommends",
+          heading: "Tools, books, and products I trust.",
+          description:
+            "A short, considered list of products, tools, and books I return to.",
+          noItems: "No recommendations yet.",
+          reviewed: `Reviewed ${v.date ?? ""}`,
+        };
+        return map[key] ?? `recommends.${key}`;
+      }
+      if (ns === "tooltips") return `tooltip:${key}`;
+      return key;
+    };
+    (fn as unknown as { rich: typeof rich }).rich = rich;
+    function rich(
+      key: string,
+      tags: Record<string, (chunks: React.ReactNode) => React.ReactNode>,
+    ) {
+      return [fn(key), ...Object.values(tags).map((render) => render(""))];
     }
-    if (ns === "tooltips") return `tooltip:${key}`;
-    return key;
+    return fn;
   },
   setRequestLocale: () => {},
 }));
