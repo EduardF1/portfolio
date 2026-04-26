@@ -21,13 +21,17 @@ export default defineConfig({
       use: { ...devices["Desktop Chrome"] },
     },
     {
+      // Mobile projects override the device's defaultBrowserType so they run on
+      // chromium in CI (faster, fewer browser installs — webkit isn't installed
+      // by the e2e workflow). The iPhone/Pixel viewport, user-agent, and touch
+      // settings still come from devices['iPhone 14'] / devices['Pixel 7'].
       name: "iphone-14",
-      use: { ...devices["iPhone 14"] },
+      use: { ...devices["iPhone 14"], defaultBrowserType: "chromium" },
       grep: /@mobile|@cross/,
     },
     {
       name: "pixel-7",
-      use: { ...devices["Pixel 7"] },
+      use: { ...devices["Pixel 7"], defaultBrowserType: "chromium" },
       grep: /@mobile|@cross/,
     },
   ],
