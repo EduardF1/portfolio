@@ -43,13 +43,29 @@ const selected = [
   },
 ];
 
+// Distinct stack chips across the selected list — used to render the
+// filter row above the case-study grid. Deduplicated, in insertion order.
+const STACK_CHIPS = Array.from(
+  new Set(selected.flatMap((s) => s.stack)),
+);
+
+function normalizeStack(value: string): string {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}
+
 export default async function WorkPage({
   searchParams,
 }: {
-  searchParams: Promise<{ tech?: string }>;
+  searchParams: Promise<{ tech?: string; stack?: string }>;
 }) {
-  const { tech: techSlug } = await searchParams;
+  const { tech: techSlug, stack: stackParam } = await searchParams;
   const tech = techSlug ? findTech(techSlug) : null;
+  const stackFilter = stackParam ? normalizeStack(stackParam) : null;
+  const visibleSelected = stackFilter
+    ? selected.filter((s) =>
+        s.stack.some((label) => normalizeStack(label) === stackFilter),
+      )
+    : selected;
   const repos = await getRepos();
   const t = await getTranslations("tooltips");
 
@@ -71,11 +87,49 @@ export default async function WorkPage({
         <div className="flex items-end justify-between mb-8">
           <SectionHeading tooltip={t("selectedWork")}>Selected</SectionHeading>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-            4 case studies
+            {visibleSelected.length} of {selected.length} case studies
           </p>
         </div>
+        <nav
+          aria-label="Filter case studies by stack"
+          className="mb-6 flex flex-wrap gap-2"
+        >
+          <Link
+            href="/work"
+            scroll={false}
+            aria-current={stackFilter === null ? "page" : undefined}
+            className={
+              "rounded-full px-3 py-1 text-xs font-mono uppercase tracking-wider transition-colors " +
+              (stackFilter === null
+                ? "bg-accent text-accent-foreground"
+                : "border border-border text-foreground-muted hover:border-accent hover:text-accent")
+            }
+          >
+            All
+          </Link>
+          {STACK_CHIPS.map((label) => {
+            const slug = normalizeStack(label);
+            const active = stackFilter === slug;
+            return (
+              <Link
+                key={label}
+                href={{ pathname: "/work", query: { stack: slug } }}
+                scroll={false}
+                aria-current={active ? "page" : undefined}
+                className={
+                  "rounded-full px-3 py-1 text-xs font-mono uppercase tracking-wider transition-colors " +
+                  (active
+                    ? "bg-accent text-accent-foreground"
+                    : "border border-border text-foreground-muted hover:border-accent hover:text-accent")
+                }
+              >
+                {label}
+              </Link>
+            );
+          })}
+        </nav>
         <ul className="grid gap-px bg-border/60 sm:grid-cols-2 rounded-lg overflow-hidden">
-          {selected.map((p) => (
+          {visibleSelected.map((p) => (
             <li key={p.slug} className="bg-background">
               <Link
                 href={`/work/${p.slug}`}
