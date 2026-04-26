@@ -78,11 +78,11 @@
 
 If Eduard wants to ship a few without overthinking:
 
-1. **EU passport / right-to-work badge** (S, recruiter-friction-killer)
+1. ~~**EU passport / right-to-work badge**~~ — shipped 2026-04-26 in the hero kicker (EN + DA).
 2. **`/relocating-to-aarhus` long-form** (M, content-driven, Eduard-narrated)
 3. **`/danish-it-glossary`** (S, evergreen SEO)
 4. **Reading-time estimate** (S, polish)
-5. **Hreflang + per-locale sitemap link** (S, SEO mechanics)
+5. ~~**Hreflang**~~ — shipped 2026-04-26; per-locale RSS feed still open.
 6. **Plausible self-hosted analytics** (M, privacy-first signal)
 7. **Salary-transparency footer** (M, only after benchmark)
 8. **Dannebrog or Nordlys palette** (S, visual variety)
