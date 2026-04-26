@@ -42,4 +42,10 @@ describe("<SiteFooter />", () => {
       screen.getByText(new RegExp(`© ${year} Eduard Fischer-Szava`)),
     ).toBeInTheDocument();
   });
+
+  it("links to /privacy in the copyright line", async () => {
+    render(await SiteFooter());
+    const link = screen.getByRole("link", { name: /^Privacy$/ });
+    expect(link).toHaveAttribute("href", "/privacy");
+  });
 });
