@@ -2,17 +2,14 @@
 
 > Updated as the session progresses. Next session: read this first.
 
-## Last commit pushed (origin/main)
+## Last commits pushed (origin/main)
 
-- `17eeb2c` Tech catalogue: 9 more entries + fix CircleCI/PHPUnit/Symfony rendering
-- `0cb8d26` Backlog: collapse queue silos — single ordered list, future-features at bottom
-- `fd2240c` gitignore: agent worktrees
-- `c17977e` Untrack accidentally embedded agent worktree
-- `16071eb` Refinements: video-bg visible placeholder, backlog queue, coverage tooling, handoff doc
-- `0b238d0` Tech catalogue + OnePlus 11 + carousel rework + tooltip refit + em-dash sweep
-- `367d106` Fix CI: extractFirstParagraph no longer rejects "This..." paragraphs
+- `010dd60` Handoff: photo catalogue + GPS captions merged
+- `153fae2` Merge: photo catalogue + EXIF GPS captions + 4 new photos (Senior Dev A)
+- `d90e0f1` Experience timeline product links + Node/Express/Python/Scala
+- *(uncommitted, about to push)* Travel Europe map + per-country anchors
 
-CI on main was failing pre-existing (the boilerplate-filter regex caught any paragraph starting with "This/These/Those/The"). `367d106` fixes it; expect CI to be green on the next run.
+Plus the chain from the prior round: tech catalogue refresh, backlog restructure, video-bg fix, OnePlus 11 recommendation, carousel rework, tooltip refit, em-dash sweep, CI fix.
 
 ## Currently in flight
 
@@ -28,9 +25,11 @@ CI on main was failing pre-existing (the boilerplate-filter regex caught any par
    - PHPUnit logo — should now be a clean blue SVG mark "PHP UNIT" (local file at `public/logos/phpunit.svg`).
    - CircleCI logo — should resolve via `github.com/circleci.png` (was broken Devicon URL).
 4. **Open queue** is now a single ordered list in `docs/backlog.md` `## Queue (open work, in arrival order)`. Three sub-sections, all part of the same queue:
-   - **User requests**: GitHub tech harvest, experience product links, travel map, culinary section, visit-notification, coverage threshold, `/blog` nav cluster, `/my-story` page (last two need Reddit + Danish-culture benchmark before shipping).
+   - **User requests still open**: deeper GitHub tech harvest pass (first pass added Node/Express/Python/Scala — but EduardF1 has 73 repos and the GitHub API truncates per WebFetch call so a paginated harvest is needed), culinary section under `/travel`, visit-notification daily digest (needs approval), coverage CI threshold, `/blog` nav cluster (needs benchmark), `/my-story` page (needs benchmark), additional tech entries from LinkedIn screenshots + CV ledger.
    - **Architect pass (optional hardening)**: tests, branch protection, perf audit, carousel container queries, live Yahoo IMAP CI assertion.
    - **PO + Architect future-features (also queued, at the bottom)**: 18 items including sitemap, OG, RSS, search, lightboxes, heatmap, analytics, RO locale, `/now`, honeypot, etc.
+
+5. **Just shipped this round**: experience timeline product links (KOMBIT VALG, STIL, UA.dk, Greenbyte Breeze, Boozt, SitaWare suite); 4 more techs (Node, Express, Python, Scala); Travel map at `/travel` (lightweight SVG with 20-country markers, click → scroll to per-country section).
 
 ## Known issues / sanity-checks
 
