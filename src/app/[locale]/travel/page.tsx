@@ -63,14 +63,14 @@ export default async function TravelPage({
           href="/travel/culinary"
           className="inline-flex items-center gap-1 text-sm hover:text-accent transition-colors"
         >
-          See the culinary side of these trips <span aria-hidden="true">→</span>
+          {t("culinaryCrossLink")} <span aria-hidden="true">→</span>
         </Link>
       </section>
 
       {destinations.length > 0 && (
         <section className="container-page pb-12">
           <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
-            By country
+            {t("byCountry")}
           </h2>
           <ul
             className={`grid gap-px bg-border/60 ${responsiveGridColsClass(destinations.length)} rounded-lg overflow-hidden`}
@@ -85,9 +85,9 @@ export default async function TravelPage({
                 >
                   <p className="font-serif text-2xl text-foreground">{d.country}</p>
                   <p className="mt-1 font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-                    {d.photoCount} {d.photoCount === 1 ? "photo" : "photos"}
+                    {t("photoCount", { count: d.photoCount })}
                     {" · "}
-                    {d.cities.length} {d.cities.length === 1 ? "city" : "cities"}
+                    {t("cityCount", { count: d.cities.length })}
                   </p>
                   <p className="mt-3 text-sm text-foreground-muted">
                     {d.cities.slice(0, 6).join(", ")}
@@ -146,8 +146,7 @@ export default async function TravelPage({
                         {headline}, {trip.monthLabel}
                       </p>
                       <p className="mt-1 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-foreground-subtle">
-                        {trip.dateRange} · {trip.photoCount}{" "}
-                        {trip.photoCount === 1 ? "photo" : "photos"}
+                        {trip.dateRange} · {t("photoCount", { count: trip.photoCount })}
                       </p>
                     </div>
                   </Link>
