@@ -114,7 +114,18 @@
     "description": "Trips, places, pictures, slowly accumulating. The non-engineering side of the brain.",
     "noTrips": "No trips published yet.",
     "tripCount": "{count, plural, one {# trip} other {# trips}}",
-    "all": "All trips"
+    "all": "All trips",
+    "viewTrips": "View trips",
+    "recentTripsKicker": "Recent trips",
+    "recentTripsHeading": "Latest from the road"
+  },
+  "tripPhotos": {
+    "kicker": "Trip · {country}",
+    "photoCount": "{count, plural, one {# photo} other {# photos}}",
+    "countLabel": "Photo {current} of {total}",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "close": "Close"
   },
   "contact": {
     "kicker": "Contact",

@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getCollection } from "@/lib/content";
+import { getTrips } from "@/lib/trips";
 import { routing } from "@/i18n/routing";
 
 const SITE = "https://eduardfischer.dev";
@@ -22,7 +23,7 @@ function url(locale: string, path: string): string {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [writing, articles, recommends, travel, work, culinary] =
+  const [writing, articles, recommends, travel, work, culinary, trips] =
     await Promise.all([
       getCollection("writing"),
       getCollection("articles"),
@@ -30,6 +31,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       getCollection("travel"),
       getCollection("work"),
       getCollection("culinary"),
+      getTrips(),
     ]);
 
   const entries: MetadataRoute.Sitemap = [];
@@ -78,6 +80,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       entries.push({
         url: url(locale, `/work/${item.slug}`),
         lastModified: new Date(item.frontmatter.date ?? now),
+      });
+    }
+    for (const trip of trips) {
+      entries.push({
+        url: url(locale, `/travel/photos/${trip.slug}`),
+        lastModified: new Date(trip.endsAt ?? now),
       });
     }
   }

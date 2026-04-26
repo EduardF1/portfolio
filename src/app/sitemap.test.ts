@@ -21,6 +21,15 @@ describe("sitemap()", () => {
     expect(urls).toContain(
       "https://eduardfischer.dev/writing/digitalization-of-waste-collection-feral-systems",
     );
+
+    // Per-trip photo pages from the EXIF catalogue clusters.
+    expect(
+      urls.some((u) =>
+        /^https:\/\/eduardfischer\.dev\/travel\/photos\/[a-z0-9-]+-\d{4}-\d{2}$/.test(
+          u,
+        ),
+      ),
+    ).toBe(true);
   });
 
   it("home page has priority 1, weekly cadence", async () => {
