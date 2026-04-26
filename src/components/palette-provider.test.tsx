@@ -1,7 +1,12 @@
-import { describe, it, expect, beforeEach } from "vitest";
+import { describe, it, expect, beforeEach, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { PaletteProvider, usePalette } from "./palette-provider";
+import {
+  PaletteProvider,
+  usePalette,
+  PALETTES,
+  DEFAULT_PALETTE,
+} from "./palette-provider";
 
 function Probe() {
   const { palette, setPalette } = usePalette();
@@ -64,5 +69,89 @@ describe("<PaletteProvider />", () => {
     );
     expect(screen.getByTestId("current").textContent).toBe("mountain-navy");
     expect(document.documentElement.dataset.palette).toBe("mountain-navy");
+  });
+
+  it("ignores attempts to set an invalid palette via setPalette", async () => {
+    const user = userEvent.setup();
+    function Bad() {
+      const { palette, setPalette } = usePalette();
+      return (
+        <div>
+          <span data-testid="current">{palette}</span>
+          {/* Force an invalid value through the type system */}
+          <button
+            onClick={() =>
+              (setPalette as unknown as (value: string) => void)("not-real")
+            }
+          >
+            invalid
+          </button>
+        </div>
+      );
+    }
+    render(
+      <PaletteProvider>
+        <Bad />
+      </PaletteProvider>,
+    );
+    await user.click(screen.getByText("invalid"));
+    expect(screen.getByTestId("current").textContent).toBe("mountain-navy");
+  });
+
+  it("throws when usePalette is consumed outside a provider", () => {
+    function Outside() {
+      usePalette();
+      return null;
+    }
+    // Suppress React's expected error log during the throwing render
+    const orig = console.error;
+    console.error = () => {};
+    try {
+      expect(() => render(<Outside />)).toThrow(
+        /usePalette must be used within a PaletteProvider/,
+      );
+    } finally {
+      console.error = orig;
+    }
+  });
+
+  it("survives a localStorage.setItem that throws (private mode/quota)", async () => {
+    const user = userEvent.setup();
+    const setSpy = vi
+      .spyOn(window.localStorage.__proto__, "setItem")
+      .mockImplementation(() => {
+        throw new Error("QuotaExceeded");
+      });
+    render(
+      <PaletteProvider>
+        <Probe />
+      </PaletteProvider>,
+    );
+    // The click should not throw even though storage write fails
+    await user.click(screen.getByText("to-woods"));
+    expect(screen.getByTestId("current").textContent).toBe("woodsy-cabin");
+    expect(document.documentElement.dataset.palette).toBe("woodsy-cabin");
+    setSpy.mockRestore();
+  });
+
+  it("survives a localStorage.getItem that throws on hydration", () => {
+    const getSpy = vi
+      .spyOn(window.localStorage.__proto__, "getItem")
+      .mockImplementation(() => {
+        throw new Error("ReadDenied");
+      });
+    render(
+      <PaletteProvider>
+        <Probe />
+      </PaletteProvider>,
+    );
+    expect(screen.getByTestId("current").textContent).toBe("mountain-navy");
+    expect(document.documentElement.dataset.palette).toBe("mountain-navy");
+    getSpy.mockRestore();
+  });
+
+  it("exposes a sane PALETTES list and DEFAULT_PALETTE constant", () => {
+    expect(PALETTES).toEqual(["schwarzgelb", "mountain-navy", "woodsy-cabin"]);
+    expect(DEFAULT_PALETTE).toBe("mountain-navy");
   });
 });
