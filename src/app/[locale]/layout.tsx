@@ -5,6 +5,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { SearchPalette } from "@/components/search-palette";
 import { ThemeProvider } from "@/components/theme-provider";
 import { PaletteProvider } from "@/components/palette-provider";
 import { routing } from "@/i18n/routing";
@@ -95,6 +96,7 @@ export default async function LocaleLayout({
               <SiteHeader />
               <main className="flex-1">{children}</main>
               <SiteFooter />
+              <SearchPalette />
             </PaletteProvider>
           </ThemeProvider>
         </NextIntlClientProvider>

@@ -5,6 +5,7 @@ import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { PaletteSelector } from "@/components/palette-selector";
+import { SearchTrigger } from "@/components/search-trigger";
 
 export function SiteHeader() {
   const t = useTranslations("nav");
@@ -54,6 +55,7 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-3">
+          <SearchTrigger />
           <button
             type="button"
             onClick={switchLocale}
