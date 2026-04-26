@@ -2,8 +2,11 @@
 
 > Updated as the session progresses. Next session: read this first.
 
-## Last commits pushed (origin/main)
+## Last commits pushed (origin/main) — autonomous PO night-run
 
+- `5b3119b` Merge feat/reading-time-estimator — 200wpm reading-time chip on /writing posts (live: "6 min read" / "4 min read" / "8 min read" verified)
+- `…` Merge feat/my-story-pre-tech — `/my-story` "Paying my own way" chapter for 2016-2021 retail/logistics/call-centre roles (Janteloven-honest pre-tech disclosure per benchmark)
+- `13a65c7` Handoff + backlog updates: tick tech additions, record autonomous-PO mode + privacy guard + email-blocker protocol
 - `0d53695` Merge feat/how-i-work-methodology — 6 methodologies as honest paragraphs (Scrum/Kanban/FDD/CMMI/LEAN/Clean Architecture)
 - `…` Merge feat/tech-additions-from-artefacts — 22 new tech entries from LinkedIn/CV pass + chip wiring
 - `cd72726` **Merge feat/exif-last-seen-footer** — "Last seen in: Landsberg am Lech, Germany — March 2026" footer line, EN/DA
@@ -38,11 +41,19 @@
 
 Plus the chain from prior rounds: tech catalogue refresh, backlog restructure, video-bg fix, OnePlus 11 recommendation, carousel rework, tooltip refit, em-dash sweep, CI fix.
 
-## Currently in flight (autonomous PO mode while Eduard sleeps)
+## Currently in flight (autonomous PO night-run)
 
 All four senior-dev rounds completed and merged this session: A (search → per-trip pages), B (test coverage → perf+a11y hardening), C (media + features research), D (EXIF footer).
 
-PO is now running autonomously, building features on individual branches and batching 2-3 per deploy per Eduard's directive. CI green required before merge; deploys gated by visible feature count.
+PO running autonomously, building features on individual branches and batching 2-3 per deploy per Eduard's directive. CI green required before merge; deploys gated by visible feature count.
+
+**Tonight's deployed batches (4 deploys, 14 features):**
+1. `cb3cbd2` `.npmrc` legacy-peer-deps fix (unblocked 6h of failed Vercel builds)
+2. **Batch A** `cd72726` (3 features): a11y hardening + timeline #role anchors + EXIF footer
+3. **Batch B** `0d53695` (2 features): tech catalogue +22 + "How I work" methodology section
+4. **Batch C** `5b3119b` (2 features): reading-time estimator + /my-story pre-tech chapter
+
+Plus several PO inline shipments on main directly during the early-evening interactive phase: site-wide search, per-trip pages (41 trips × 2 locales = 82 pages), /now shell, /my-story shell, listing OGs, 404 page, global error boundary, humans.txt + security.txt, PWA manifest, reading-feed HN tab, contact-form honeypot.
 
 **Privacy guard active**: nothing from CPR / contracts / private docs from `D:\Portfolio` or `G:\` goes to git. Only LinkedIn-public-equivalent info gets surfaced.
 
