@@ -125,13 +125,23 @@ function Experience() {
     tech: string[];
   }> = [
     {
+      company: "Mjølner Informatics",
+      url: "https://mjolner.dk/en/",
+      role: "Software Engineer / Consultant",
+      period: "Apr 2026 — Present",
+      location: "Aarhus, Denmark",
+      summary:
+        "Consulting on business-critical software for Danish enterprise and public-sector clients.",
+      tech: [],
+    },
+    {
       company: "Netcompany",
       url: "https://www.netcompany.com/",
       role: "IT Consultant",
-      period: "Oct 2024 — Present",
+      period: "Oct 2024 — Feb 2026",
       location: "Aarhus, Denmark",
       summary:
-        "KOMBIT VALG — Denmark's administrative election platform. Full-stack C#/.NET + Angular.",
+        "KOMBIT VALG — Denmark's administrative election platform. Full-stack C#/.NET + Angular. Summer 2025 stint at STIL on UA.dk EUD III.",
       tech: ["csharp", "dotnet", "angular", "mssql", "azure-devops"],
     },
     {

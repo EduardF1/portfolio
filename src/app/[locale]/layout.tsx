@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     template: "%s · Eduard Fischer-Szava",
   },
   description:
-    "Software Engineer & IT Consultant in Aarhus, Denmark. Building stable, business-critical systems — currently at Netcompany on KOMBIT VALG.",
+    "Software Engineer & IT Consultant in Aarhus, Denmark. Building stable, business-critical systems — currently at Mjølner Informatics.",
   authors: [{ name: "Eduard Fischer-Szava" }],
   openGraph: {
     type: "website",

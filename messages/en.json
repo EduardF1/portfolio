@@ -1,7 +1,7 @@
 {
   "nav": {
     "work": "Work",
-    "writing": "Writing",
+    "writing": "Posts and articles",
     "recommends": "Recommends",
     "personal": "Personal",
     "travel": "Travel",
@@ -25,10 +25,10 @@
   },
   "home": {
     "hero": "Software Engineer building <em>stable, business-critical systems</em>.",
-    "heroSubtitle": "I'm Eduard — an IT Consultant at Netcompany working on KOMBIT VALG, Denmark's administrative election platform. Calm under complexity, meticulous about quality, and motivated by long-term solutions.",
+    "heroSubtitle": "I'm Eduard — a Software Engineer at Mjølner Informatics in Aarhus. Calm under complexity, meticulous about quality, and motivated by long-term solutions for business-critical systems.",
     "aboutKicker": "About",
     "experienceKicker": "Experience",
-    "experienceHeading": "Three years across four companies.",
+    "experienceHeading": "Five years across five companies.",
     "selectedKicker": "Selected work",
     "selectedHeading": "Things I've helped build.",
     "stats": {
@@ -65,7 +65,7 @@
     "noMatches": "No repos match those filters."
   },
   "writing": {
-    "kicker": "Writing",
+    "kicker": "Posts and articles",
     "heading": "Notes from practice — and from the master's bench.",
     "description": "Short essays on engineering and consulting, plus academic articles from my MSc in Technology-Based Business Development.",
     "posts": "Posts",
@@ -129,9 +129,15 @@
       "errorGeneric": "Something went wrong. Please try again or email directly."
     }
   },
+  "palette": {
+    "label": "Select color palette",
+    "schwarzgelb": "Black & Yellow",
+    "mountainNavy": "Mountain Navy",
+    "woodsyCabin": "Woodsy Cabin"
+  },
   "tooltips": {
     "about": "Who I am as a consultant — values, working style, and the kind of work that suits me best.",
-    "experience": "Three years across four companies, current role first. Click company names for their websites.",
+    "experience": "Five years across five companies, current role first. Click company names for their websites.",
     "selectedWork": "Hand-picked case studies from business-critical systems I've helped build.",
     "openSource": "Live feed of every public repo I've shipped — auto-pulled from GitHub.",
     "technologies": "Description of a single tech and a pre-filtered slice of the open-source feed below.",

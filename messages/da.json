@@ -1,7 +1,7 @@
 {
   "nav": {
     "work": "Arbejde",
-    "writing": "Tekster",
+    "writing": "Indlæg og artikler",
     "recommends": "Anbefalinger",
     "personal": "Personligt",
     "travel": "Rejser",
@@ -25,10 +25,10 @@
   },
   "home": {
     "hero": "Softwareingeniør, der bygger <em>stabile, forretningskritiske systemer</em>.",
-    "heroSubtitle": "Jeg er Eduard — IT-konsulent hos Netcompany på KOMBIT VALG, Danmarks administrative valgplatform. Rolig under kompleksitet, omhyggelig med kvaliteten og motiveret af langsigtede løsninger.",
+    "heroSubtitle": "Jeg er Eduard — softwareingeniør hos Mjølner Informatics i Aarhus. Rolig under kompleksitet, omhyggelig med kvaliteten og motiveret af langsigtede løsninger til forretningskritiske systemer.",
     "aboutKicker": "Om mig",
     "experienceKicker": "Erfaring",
-    "experienceHeading": "Tre år på tværs af fire virksomheder.",
+    "experienceHeading": "Fem år på tværs af fem virksomheder.",
     "selectedKicker": "Udvalgt arbejde",
     "selectedHeading": "Noget af det, jeg har været med til at bygge.",
     "stats": {
@@ -65,7 +65,7 @@
     "noMatches": "Ingen repositories matcher filtrene."
   },
   "writing": {
-    "kicker": "Tekster",
+    "kicker": "Indlæg og artikler",
     "heading": "Noter fra praksis — og fra studietiden.",
     "description": "Korte essays om udvikling og konsulentarbejde, samt akademiske artikler fra min cand.scient.techn. i Technology-Based Business Development.",
     "posts": "Indlæg",
@@ -129,9 +129,15 @@
       "errorGeneric": "Noget gik galt. Prøv igen eller skriv direkte."
     }
   },
+  "palette": {
+    "label": "Vælg farvepalette",
+    "schwarzgelb": "Sort & Gul",
+    "mountainNavy": "Bjergblå",
+    "woodsyCabin": "Skovhytte"
+  },
   "tooltips": {
     "about": "Hvem jeg er som konsulent — værdier, arbejdsstil og den slags opgaver, der passer mig bedst.",
-    "experience": "Tre år på tværs af fire virksomheder, nuværende rolle først. Klik på firmanavnene for at besøge deres hjemmesider.",
+    "experience": "Fem år på tværs af fem virksomheder, nuværende rolle først. Klik på firmanavnene for at besøge deres hjemmesider.",
     "selectedWork": "Udvalgte casestudier fra forretningskritiske systemer, jeg har været med til at bygge.",
     "openSource": "Live-feed af alle offentlige repositories, jeg har sendt — hentet direkte fra GitHub.",
     "technologies": "Beskrivelse af en enkelt teknologi og et forfiltreret udsnit af open source-feedet nedenfor.",
