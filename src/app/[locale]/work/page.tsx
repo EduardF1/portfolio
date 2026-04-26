@@ -14,7 +14,7 @@ const selected = [
     title: "KOMBIT VALG",
     kicker: "Netcompany · 2024 – present",
     blurb:
-      "Denmark's administrative election platform. Full-stack C#/.NET + Angular. [Placeholder, case study to be written.]",
+      "Full-stack engineering on Denmark's national administrative election platform. C#/.NET on the back end, Angular on the web.",
     stack: ["C#", ".NET", "Angular", "MS SQL", "Azure DevOps"],
   },
   {
@@ -22,7 +22,7 @@ const selected = [
     title: "SitaWare Frontline & Edge",
     kicker: "Systematic · 2021",
     blurb:
-      "NATO-grade C2 software for defence. Full-stack Java + Angular. [Placeholder, case study to be written.]",
+      "Internship on Systematic's NATO-grade command-and-control suite. Java and Angular feature work, plus Robot Framework UI test automation.",
     stack: ["Java", "Spring", "Angular", "JUnit"],
   },
   {
@@ -30,7 +30,7 @@ const selected = [
     title: "Greenbyte SaaS + Mobile",
     kicker: "Greenbyte · 2021 – 2024",
     blurb:
-      "Renewable-energy monitoring platform with Flutter mobile companion. [Placeholder.]",
+      "Three years on a renewable-energy SaaS platform. Full-stack .NET Core and React, plus architect and lead developer of the Flutter mobile companion.",
     stack: ["C#", ".NET Core", "EF Core", "React", "Flutter/Dart"],
   },
   {
@@ -38,12 +38,12 @@ const selected = [
     title: "Boozt e-commerce backend",
     kicker: "Boozt Fashion · 2021 – 2022",
     blurb:
-      "Symfony backend for a large Nordic retailer. [Placeholder.]",
+      "PHP / Symfony backend for one of the larger Nordic fashion retailers. Feature work, automated testing, and a Kanban flow brought to the team.",
     stack: ["PHP", "Symfony", "MySQL", "PHPUnit"],
   },
 ];
 
-// Distinct stack chips across the selected list — used to render the
+// Distinct stack chips across the selected list, used to render the
 // filter row above the case-study grid. Deduplicated, in insertion order.
 const STACK_CHIPS = Array.from(
   new Set(selected.flatMap((s) => s.stack)),
@@ -75,11 +75,10 @@ export default async function WorkPage({
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
           Work
         </p>
-        <h1 className="max-w-3xl">Selected work and open-source explorations.</h1>
+        <h1 className="max-w-3xl">Selected case studies.</h1>
         <p className="mt-6 max-w-2xl text-lg">
-          Hand-picked case studies of business-critical systems I&apos;ve helped
-          build, alongside a live feed of every public repo where I&apos;ve been
-          learning out loud.
+          Case studies of business-critical systems I have helped build,
+          alongside a live feed of my public GitHub repositories.
         </p>
       </section>
 
@@ -210,12 +209,12 @@ export default async function WorkPage({
         <div className="flex items-end justify-between mb-8">
           <div>
             <SectionHeading tooltip={t("openSource")}>
-              Open source &amp; learning in public
+              Public repositories
             </SectionHeading>
             <p className="mt-2 max-w-xl">
-              {repos.length} public repositories from {new Date().getFullYear() - 2019}+
-              years of side-projects, course work, and weekend experiments,
-              auto-pulled from GitHub.
+              {repos.length} public repositories from{" "}
+              {new Date().getFullYear() - 2019}+ years of side-projects, course
+              work, and experiments, pulled from GitHub.
             </p>
           </div>
         </div>

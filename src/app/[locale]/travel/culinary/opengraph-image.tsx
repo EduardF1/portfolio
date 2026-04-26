@@ -77,7 +77,7 @@ export default async function CulinaryOGImage() {
               maxWidth: 980,
             }}
           >
-            Dishes that earned the trip — short tasting notes, where they were
+            Dishes that earned the trip: short tasting notes, where they were
             eaten, and whether I would order them again.
           </div>
         </div>

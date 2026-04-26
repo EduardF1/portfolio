@@ -17,7 +17,6 @@ describe("sitemap()", () => {
     expect(urls).toContain("https://eduardfischer.dev/da/work");
 
     // Dynamic content from real MDX files
-    expect(urls).toContain("https://eduardfischer.dev/writing/welcome");
     expect(urls).toContain(
       "https://eduardfischer.dev/writing/digitalization-of-waste-collection-feral-systems",
     );

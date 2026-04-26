@@ -10,10 +10,9 @@ describe("GET /writing/rss.xml", () => {
     expect(body).toMatch(/<\?xml/);
     expect(body).toMatch(/<rss[\s\S]*version="2.0"/);
     expect(body).toMatch(/<channel>/);
-    // Welcome post is in the seed content
-    expect(body).toMatch(/Hello, world/);
-    // Articles are merged in too
+    // Articles are present in the feed
     expect(body).toMatch(/Digitalization of waste collection/);
+    expect(body).toMatch(/audit management system/i);
     // Cache-control mentions s-maxage as well
     expect(res.headers.get("Cache-Control")).toMatch(/s-maxage=3600/);
   });

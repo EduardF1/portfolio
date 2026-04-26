@@ -5,7 +5,7 @@ import { Link } from "@/i18n/navigation";
 export const metadata = {
   title: "Now",
   description:
-    "What Eduard is focused on right now — short, dated, honest. Updated every 1-2 months.",
+    "What Eduard is focused on right now. Short, dated, honest. Updated every 1-2 months.",
 };
 
 const LAST_UPDATED = "2026-04-26";
@@ -26,7 +26,7 @@ export default async function NowPage({
         </p>
         <h1 className="max-w-3xl">What I&apos;m focused on right now.</h1>
         <p className="mt-6 max-w-2xl text-lg">
-          A snapshot of what has my attention — work, study, side bets,
+          A snapshot of what has my attention: work, study, side bets,
           reading. Updated every month or two.{" "}
           <a
             href="https://nownownow.com/about"

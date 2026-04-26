@@ -60,7 +60,7 @@ export default function GlobalError({
           </h1>
 
           <p style={{ fontSize: "1.125rem", lineHeight: 1.6, margin: 0 }}>
-            Try the button below to retry — most of the time it&apos;s a
+            Try the button below to retry. Most of the time it&apos;s a
             transient hiccup. If it keeps happening,{" "}
             <a
               href="mailto:fischer_eduard@yahoo.com"

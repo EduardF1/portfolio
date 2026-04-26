@@ -77,7 +77,7 @@ export default async function MyStoryOGImage() {
               maxWidth: 980,
             }}
           >
-            A chronological version of the CV — the choices, not the
+            A chronological version of the CV: the choices, not the
             achievements. Dated, honest, and short.
           </div>
         </div>

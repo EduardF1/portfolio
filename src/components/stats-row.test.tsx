@@ -15,7 +15,7 @@ function renderWithIntl() {
 describe("<StatsRow />", () => {
   it("renders all four labels", () => {
     renderWithIntl();
-    expect(screen.getByText("Years coding")).toBeInTheDocument();
+    expect(screen.getByText("Years engineering software")).toBeInTheDocument();
     expect(screen.getByText("Languages")).toBeInTheDocument();
     expect(screen.getByText("Major projects shipped")).toBeInTheDocument();
     expect(screen.getByText("Countries visited")).toBeInTheDocument();

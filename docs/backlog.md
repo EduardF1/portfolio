@@ -18,6 +18,10 @@
 |---|---|---|---|
 | *(none — clean slate)* | | | |
 
+## Archived / rejected
+
+- **`feat/exif-last-seen-footer`** — Eduard rejected (V1 polish, 2026-04-26). Footer line "Last seen in: …" not shipping. Branch retained for later.
+
 ## Backlog — Eduard fills in (no agent action needed)
 
 - [ ] **Hero About narrative** — replace placeholder paragraphs in About section with Eduard's actual narrative

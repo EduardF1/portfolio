@@ -75,9 +75,6 @@ describe("WritingPage (list)", () => {
       screen.getByRole("heading", { level: 2, name: /^Articles/ }),
     ).toBeInTheDocument();
 
-    // Sanity: the welcome post should appear (frontmatter title)
-    expect(screen.getByText(/Hello, world — first post/)).toBeInTheDocument();
-
     // The two seeded articles should appear
     expect(
       screen.getByText(
@@ -124,31 +121,7 @@ describe("WritingPage (list)", () => {
 });
 
 describe("WritingItem (slug page)", () => {
-  it("renders a writing post: title, formatted date, MDX body", async () => {
-    const tree = await WritingItem({
-      params: Promise.resolve({ locale: "en", slug: "welcome" }),
-    });
-    render(tree);
-
-    expect(
-      screen.getByRole("heading", {
-        level: 1,
-        name: /Hello, world — first post/,
-      }),
-    ).toBeInTheDocument();
-    // Formatted with en-GB locale: "25 April 2026"
-    expect(screen.getByText(/25 April 2026/)).toBeInTheDocument();
-    // MDX body smoke
-    expect(screen.getByTestId("mdx-body").textContent).toMatch(
-      /This is a placeholder post/,
-    );
-    // Back link to the list
-    expect(
-      screen.getByRole("link", { name: /All writing/ }),
-    ).toBeInTheDocument();
-  });
-
-  it("falls back to articles when slug is not in the writing collection", async () => {
+  it("renders an article: title, MDX body, back link", async () => {
     const tree = await WritingItem({
       params: Promise.resolve({
         locale: "en",
@@ -163,6 +136,23 @@ describe("WritingItem (slug page)", () => {
         name: /Digitalization of waste collection/,
       }),
     ).toBeInTheDocument();
+    // MDX body smoke
+    expect(screen.getByTestId("mdx-body")).toBeInTheDocument();
+    // Back link to the list
+    expect(
+      screen.getByRole("link", { name: /All writing/ }),
+    ).toBeInTheDocument();
+  });
+
+  it("looks up articles when slug is in the articles collection", async () => {
+    const tree = await WritingItem({
+      params: Promise.resolve({
+        locale: "en",
+        slug: "digitalization-of-waste-collection-feral-systems",
+      }),
+    });
+    render(tree);
+
     // The article frontmatter has a `publication` field
     expect(screen.getByText(/Aarhus University/)).toBeInTheDocument();
   });
@@ -179,29 +169,13 @@ describe("WritingItem (slug page)", () => {
     it("returns one entry per writing + article slug", async () => {
       const params = await generateStaticParams();
       const slugs = params.map((p) => p.slug);
-      expect(slugs).toContain("welcome");
       expect(slugs).toContain("digitalization-of-waste-collection-feral-systems");
       expect(slugs).toContain("conceptualization-of-an-audit-management-system");
     });
   });
 
   describe("generateMetadata", () => {
-    it("returns the frontmatter title + description", async () => {
-      const meta = await generateMetadata({
-        params: Promise.resolve({ locale: "en", slug: "welcome" }),
-      });
-      expect(meta.title).toMatch(/Hello, world/);
-      expect(meta.description).toMatch(/An opener/);
-    });
-
-    it('returns { title: "Not found" } when slug is unknown', async () => {
-      const meta = await generateMetadata({
-        params: Promise.resolve({ locale: "en", slug: "ghost" }),
-      });
-      expect(meta).toEqual({ title: "Not found" });
-    });
-
-    it("looks up articles too when slug is not in writing", async () => {
+    it("returns the frontmatter title for a known article", async () => {
       const meta = await generateMetadata({
         params: Promise.resolve({
           locale: "en",
@@ -209,6 +183,13 @@ describe("WritingItem (slug page)", () => {
         }),
       });
       expect(meta.title).toMatch(/audit management system/i);
+    });
+
+    it('returns { title: "Not found" } when slug is unknown', async () => {
+      const meta = await generateMetadata({
+        params: Promise.resolve({ locale: "en", slug: "ghost" }),
+      });
+      expect(meta).toEqual({ title: "Not found" });
     });
   });
 });

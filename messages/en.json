@@ -13,45 +13,43 @@
   },
   "common": {
     "downloadCv": "Download CV",
-    "viewCv": "View CV",
     "seeWork": "See selected work",
     "allWork": "All work",
     "readCaseStudy": "Read the case study",
-    "comingSoon": "Placeholder · Content arriving soon",
+    "comingSoon": "Content arriving soon",
     "back": "Back",
     "available": "Aarhus, Denmark · EU/EEA work eligibility"
   },
   "footer": {
-    "rights": "Aarhus, Denmark",
-    "lastSeenIn": "Last seen in"
+    "rights": "Aarhus, Denmark"
   },
   "home": {
     "hero": "Software Engineer building <em>stable, business-critical systems</em>.",
     "heroSubtitle": "I'm Eduard, a Software Engineer at Mjølner Informatics in Aarhus. Calm under complexity, meticulous about quality, and motivated by long-term solutions for business-critical systems.",
     "aboutKicker": "About",
-    "aboutP1": "I'm a Software Engineer and IT Consultant based in Aarhus, with five-plus years across the public sector, defence, retail and renewable-energy SaaS — most recently a multi-system run inside Netcompany across Danish public-sector platforms (KOMBIT VALG elections, STIL / Uddannelse.dk education, and adjacent municipal systems). The throughline is quality-focused delivery: backend and frontend feature work, requirements clarification, automated testing, and the kind of stakeholder coordination that lowers delivery risk. I joined Mjølner Informatics in April 2026 after closing my chapter at Netcompany; before that came Greenbyte, Boozt, and Systematic.",
-    "aboutP2": "Romanian by birth, Danish by residence, European by inclination. I hold an MSc in Engineering — Technology-Based Business Development from Aarhus University (2022 – 2024), and a BSc in Software Technology Engineering from VIA University College in Horsens. The marketing diploma I started with at IBA Kolding wasn't wasted — it left me with a habit of reading a brief carefully before writing a line of code.",
+    "aboutP1": "I'm a Software Engineer and IT Consultant based in Aarhus, with five-plus years across the public sector, defence, retail, and renewable-energy SaaS. Most recently a multi-system run inside Netcompany across Danish public-sector platforms (KOMBIT VALG elections, STIL / Uddannelse.dk education, and adjacent municipal systems). The throughline is quality-focused delivery: backend and frontend feature work, requirements clarification, automated testing, and the kind of stakeholder coordination that lowers delivery risk. I joined Mjølner Informatics in April 2026 after closing my chapter at Netcompany; before that came Greenbyte, Boozt, and Systematic.",
+    "aboutP2": "Romanian by birth, Danish by residence, European by inclination. I hold an MSc in Engineering: Technology-Based Business Development from Aarhus University (2022 – 2024), and a BSc in Software Technology Engineering from VIA University College in Horsens. The marketing diploma I started with at IBA Kolding still pays off; it left me with a habit of reading a brief carefully before writing a line of code.",
     "aboutP3Lead": "What I look for in a team: meaningful systems, calm review culture, and colleagues who treat correctness as the long game.",
     "aboutP3LinksHint": "The /my-story page has the longer arc; the /now page has whatever has my attention this month.",
     "experienceKicker": "Experience",
     "experienceHeading": "Five years across five companies.",
     "selectedKicker": "Selected work",
-    "selectedHeading": "Things I've helped build.",
+    "selectedHeading": "Selected case studies.",
     "stats": {
-      "years": "Years coding",
+      "years": "Years engineering software",
       "languages": "Languages",
       "projects": "Major projects shipped",
       "countries": "Countries visited"
     }
   },
   "testimonials": {
-    "kicker": "What people say",
-    "heading": "Voices from collaborators."
+    "kicker": "References",
+    "heading": "What collaborators have said."
   },
   "skills": {
     "kicker": "Working with",
-    "heading": "Tools and languages I've shipped with.",
-    "description": "Curated from the CV: backend-leaning full-stack with deep-water dives into mobile and tooling. Click any logo for the official docs.",
+    "heading": "Tools and languages.",
+    "description": "Backend-leaning full-stack, with deeper work in mobile and tooling. Click any logo for the official documentation.",
     "categories": {
       "backend": "Backend",
       "frontend": "Frontend",
@@ -63,21 +61,21 @@
   },
   "work": {
     "kicker": "Work",
-    "heading": "Selected work and open-source explorations.",
-    "description": "Hand-picked case studies of business-critical systems I've helped build, alongside a live feed of every public repo where I've been learning out loud.",
+    "heading": "Selected case studies.",
+    "description": "Case studies of business-critical systems I have helped build, alongside a live feed of my public GitHub repositories.",
     "selected": "Selected",
     "caseStudies": "{count, plural, one {# case study} other {# case studies}}",
-    "openSourceHeading": "Open source & learning in public",
-    "openSourceLead": "{count} public repositories from {years}+ years of side-projects, course work, and weekend experiments, auto-pulled from GitHub.",
+    "openSourceHeading": "Public repositories",
+    "openSourceLead": "{count} public repositories from {years}+ years of side-projects, course work, and experiments, pulled from GitHub.",
     "feedShown": "{shown} of {total} shown",
-    "search": "Search repos…",
+    "search": "Search repositories…",
     "all": "All",
-    "noMatches": "No repos match those filters."
+    "noMatches": "No repositories match those filters."
   },
   "writing": {
     "kicker": "Posts and articles",
-    "heading": "Notes from practice, and from the master's bench.",
-    "description": "Short essays on engineering and consulting, plus academic articles from my MSc in Technology-Based Business Development.",
+    "heading": "Notes from practice and from academia.",
+    "description": "Short essays on engineering and consulting, alongside academic articles from my MSc in Technology-Based Business Development.",
     "posts": "Posts",
     "articles": "Articles",
     "articlesLead": "Academic writing from my master's programme at Aarhus University.",
@@ -89,36 +87,35 @@
   },
   "recommends": {
     "kicker": "Recommends",
-    "heading": "Things I've used and would buy again.",
-    "description": "A small, honest collection of products, tools, and books I keep coming back to, with the reasoning, not just the link.",
+    "heading": "Tools, books, and products I trust.",
+    "description": "A short, considered list of products, tools, and books I return to. With the reasoning, not just the link.",
     "noItems": "No recommendations yet.",
     "reviewed": "Reviewed {date}",
     "visit": "Visit product",
     "all": "All recommendations"
   },
   "personal": {
-    "kicker": "Off the clock",
-    "heading": "What I do when I'm not at the keyboard.",
-    "description": "BVB on Saturdays, the open road on weekends, and the slow accumulation of countries on a wall map. The professional half is the easy half: this one's a bit more honest.",
+    "kicker": "Personal",
+    "heading": "Outside the office.",
+    "description": "Borussia Dortmund on Saturdays, long drives on weekends, and a slow, growing list of countries on a wall map.",
     "sections": {
       "footballKicker": "Football",
-      "footballHeading": "Saturdays in yellow",
-      "footballLede": "Borussia Dortmund: the most beautiful chaos in football. Tuesday training, Saturday kickoff, Sunday post-mortems.",
-      "footballBody": "I picked up Dortmund years ago and never let go — Westfalenstadion when the schedule and the budget align, the rest from the sofa, in the rhythm of the Bundesliga calendar. It is a steady kind of fandom: not built on trophies, kept up because the team is mine and because Saturdays are better with a match on.",
-      "carsKicker": "On wheels",
+      "footballHeading": "Borussia Dortmund",
+      "footballLede": "Following Borussia Dortmund through the Bundesliga calendar.",
+      "footballBody": "I picked up Dortmund years ago and have followed them since: Westfalenstadion when the schedule and the budget align, the rest from the sofa. A steady kind of support, kept up because the team is mine and because Saturdays are better with a match on.",
+      "carsKicker": "Driving",
       "carsHeading": "On the road",
-      "carsLede": "Driving as decompression. Long detours through Jutland, the occasional autobahn run, an embarrassing amount of music.",
+      "carsLede": "Driving as decompression. Long detours through Jutland and the occasional autobahn run.",
       "travelKicker": "Travel",
-      "travelHeading": "A wall of countries, slowly filling",
-      "travelLede": "Slowly accumulating stamps and memories. Cities for the food, mountains for the silence, coastlines for the wind.",
-      "travelLink": "See trip notes",
-      "photoTBD": "Photo · TBD"
+      "travelHeading": "Countries, slowly accumulating",
+      "travelLede": "Cities for the food, mountains for the silence, coastlines for the wind.",
+      "travelLink": "See trip notes"
     }
   },
   "travel": {
     "kicker": "Travel",
     "heading": "Notes from the road.",
-    "description": "Trips, places, pictures, slowly accumulating. The non-engineering side of the brain.",
+    "description": "Trips, places, and photographs, slowly accumulating.",
     "noTrips": "No trips published yet.",
     "tripCount": "{count, plural, one {# trip} other {# trips}}",
     "all": "All trips",
@@ -136,8 +133,8 @@
   },
   "contact": {
     "kicker": "Contact",
-    "heading": "Let's talk.",
-    "description": "Recruiters, fellow engineers, fellow consultants: drop a line. I read everything and reply within a few days.",
+    "heading": "Get in touch.",
+    "description": "Recruiters, engineers, and fellow consultants: I read every message and reply within a few business days.",
     "form": {
       "name": "Your name",
       "email": "Email",
@@ -180,32 +177,17 @@
       "recommends": "Recommends"
     }
   },
-  "cv": {
-    "title": "CV — read-only viewer",
-    "kicker": "Curriculum Vitae",
-    "heading": "Read-only CV viewer",
-    "description": "An in-page render of my CV. Casual copy/paste is disabled — for a copy of the CV, please contact me.",
-    "english": "English",
-    "danish": "Dansk",
-    "loading": "Loading CV…",
-    "loadError": "The CV couldn't be loaded. Please try again or download the PDF directly.",
-    "prev": "Previous page",
-    "next": "Next page",
-    "pageOf": "Page {current} of {total}",
-    "readonlyNote": "This is a read-only viewer — for a copy of the CV, please contact me.",
-    "directDownload": "Download the PDF"
-  },
   "tooltips": {
     "about": "Who I am as a consultant: values, working style, and the kind of work that suits me best.",
     "experience": "Five years across five companies, current role first. Click company names for their websites.",
-    "selectedWork": "Hand-picked case studies from business-critical systems I've helped build.",
-    "openSource": "Live feed of every public repo I've shipped, auto-pulled from GitHub.",
-    "technologies": "Description of a single tech and a pre-filtered slice of the open-source feed below.",
-    "writingPosts": "Short essays from practice: engineering, consulting, and the bits in between.",
+    "selectedWork": "Selected case studies from business-critical systems I have helped build.",
+    "openSource": "A live feed of my public GitHub repositories.",
+    "technologies": "Description of a single technology with a pre-filtered slice of the repository feed below.",
+    "writingPosts": "Short essays from practice: engineering and consulting.",
     "writingArticles": "Academic articles from my MSc in Technology-Based Business Development at Aarhus University.",
-    "testimonials": "Recommendations from colleagues, clients, and academic supervisors, pulled from LinkedIn and signed letters.",
-    "recommends": "A small, honest collection of things I'd buy again, with the reasoning, not just the link.",
-    "travel": "Trips, places, pictures. The non-engineering side of the brain.",
-    "contact": "Drop a line, I read everything and reply within a few days."
+    "testimonials": "Recommendations from colleagues, clients, and academic supervisors, sourced from LinkedIn and signed letters.",
+    "recommends": "A short, considered list of products, tools, and books I return to.",
+    "travel": "Trips, places, and photographs.",
+    "contact": "I read every message and reply within a few business days."
   }
 }
