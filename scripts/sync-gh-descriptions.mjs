@@ -30,6 +30,15 @@ const MAX_PARAGRAPH_LEN = 200;
  */
 export function proposeDescription({ name, language, readmeText }) {
   if (readmeText && readmeText.trim().length > 0) {
+    // Short-circuit boilerplate-heavy template READMEs entirely. Paragraph-by-paragraph
+    // filtering keeps falling through because every paragraph is boilerplate.
+    if (
+      /create[-\s]?react[-\s]?app/i.test(readmeText) ||
+      /this is a \[next\.js\]\(https:\/\/nextjs\.org\) project bootstrapped/i.test(readmeText) ||
+      /a progressive \[node\.js\] framework/i.test(readmeText)
+    ) {
+      return { description: finalize(templated(name, language)), source: "templated" };
+    }
     const paragraph = extractFirstParagraph(readmeText);
     if (paragraph) {
       return { description: finalize(paragraph), source: "from-readme" };
@@ -56,6 +65,32 @@ const BOILERPLATE_PATTERNS = [
   /^in the project directory,? you can run\b/i,
   /^you can learn more in the create react app documentation/i,
   /^to learn react,? check out the react documentation/i,
+  /runs the app in the development mode/i,
+  /open https?:\/\/localhost/i,
+  /the page will reload/i,
+  /^launches the test runner/i,
+  /^builds the app for production/i,
+  /^ejects the configuration/i,
+  /^see the section about/i,
+  /^this command will remove/i,
+  /^note: this is a one-way operation/i,
+  /^your app is ready to be deployed/i,
+  /the build is minified/i,
+  /filenames include the hashes/i,
+  /^see the section about deployment/i,
+  /^you can learn more in the/i,
+  /^to learn (react|next\.js)/i,
+  /^the page will (reload|refresh)/i,
+  /^you will also see/i,
+  // numbered-list-item fragments like "1) Add foo to bar" — usually mid-content
+  /^[1-9]\)\s+\w+/i,
+  /^[1-9]\.\s+\w+/i,
+  // mid-paragraph fragments often start with conjunctions / prepositions / lowercase
+  /^(of|to|the|and|but|or|so|in|on|at|by|for|with|from|them|that|this|these|those|directory|launches|builds|ejects|contents)\s+\w+.*[.)]\s*$/i,
+  // any shell-prompt-prefixed line ("$ <anything>") — not a description
+  /^\$\s+\S/,
+  // anything starting with "npm" / "yarn" / "pnpm" / "node" as a bare command
+  /^(npm|yarn|pnpm|node|npx)\s+\S/i,
 ];
 
 /**
@@ -64,6 +99,16 @@ const BOILERPLATE_PATTERNS = [
  * @returns {string | null}
  */
 export function extractFirstParagraph(md) {
+  // Short-circuit CRA / Next.js / NestJS template READMEs entirely — every paragraph
+  // is boilerplate, so paragraph-by-paragraph filtering keeps falling through. Force
+  // the template fallback instead.
+  if (
+    /create[-\s]?react[-\s]?app/i.test(md) ||
+    /this is a \[next\.js\]\(https:\/\/nextjs\.org\) project bootstrapped/i.test(md) ||
+    /a progressive \[node\.js\] framework/i.test(md)
+  ) {
+    return null;
+  }
   const lines = md.replace(/\r\n/g, "\n").split("\n");
   /** @type {string[]} */
   let buf = [];
