@@ -10,10 +10,12 @@ export type Tech = {
   /** 1–2 sentence, framework-agnostic description of what the tool IS. */
   description: string;
   /**
-   * Devicon icon name (e.g. "react", "dotnetcore"). Logos render via:
-   *   https://cdn.jsdelivr.net/gh/devicons/devicon/icons/<icon>/<icon>-original.svg
-   * If devicon doesn't have a clean variant, set null and the consumer falls
-   * back to text.
+   * Logo identifier. Either:
+   *   - a Devicon slug (e.g. "react", "dotnetcore") — rendered via
+   *     https://cdn.jsdelivr.net/gh/devicons/devicon/icons/<icon>/<icon>-original.svg
+   *   - a full URL (starts with "http") — used as-is, e.g. Simple Icons CDN
+   *     https://cdn.simpleicons.org/<slug>
+   *   - null — consumer falls back to a text monogram tile
    */
   icon: string | null;
   /**
@@ -106,6 +108,17 @@ export const TECHS: readonly Tech[] = [
 
   // ──────────── Frontend ────────────
   {
+    slug: "nextjs",
+    name: "Next.js",
+    category: "frontend",
+    docsUrl: "https://nextjs.org/docs",
+    description:
+      "Next.js is a React framework from Vercel for building production web apps. It bundles routing, rendering modes (SSR/SSG/RSC), and an App Router built around React Server Components.",
+    icon: "nextjs",
+    ghLanguage: "TypeScript",
+    aliases: ["next", "next.js"],
+  },
+  {
     slug: "angular",
     name: "Angular",
     category: "frontend",
@@ -137,6 +150,26 @@ export const TECHS: readonly Tech[] = [
     icon: "react",
     ghLanguage: "TypeScript",
     aliases: ["reactjs", "react.js"],
+  },
+  {
+    slug: "redux",
+    name: "Redux",
+    category: "frontend",
+    docsUrl: "https://redux.js.org/",
+    description:
+      "Redux is a predictable state container for JavaScript apps, popularised alongside React. The modern Redux Toolkit reduces boilerplate while keeping the single-store, pure-reducer model intact.",
+    icon: "redux",
+    ghLanguage: "TypeScript",
+  },
+  {
+    slug: "rxjs",
+    name: "RxJS",
+    category: "frontend",
+    docsUrl: "https://rxjs.dev/",
+    description:
+      "RxJS is the JavaScript implementation of ReactiveX — a library for composing asynchronous and event-based programs using observable sequences. It is the reactive backbone of Angular.",
+    icon: "rxjs",
+    ghLanguage: "TypeScript",
   },
   {
     slug: "vue",
@@ -265,9 +298,19 @@ export const TECHS: readonly Tech[] = [
     docsUrl: "https://xunit.net/",
     description:
       "xUnit.net is a free, open-source unit-testing framework for .NET, designed by the original NUnit author. It is the de-facto modern choice for C# projects and integrates cleanly with the dotnet CLI.",
-    icon: null,
+    icon: "https://xunit.net/images/xunit-32x32.png",
     ghLanguage: null,
     aliases: ["xunit.net"],
+  },
+  {
+    slug: "selenium",
+    name: "Selenium",
+    category: "testing",
+    docsUrl: "https://www.selenium.dev/documentation/",
+    description:
+      "Selenium is the long-standing toolset for browser automation, driving real browsers via the W3C WebDriver protocol. It powers acceptance, integration, and regression testing across language ecosystems.",
+    icon: "selenium",
+    ghLanguage: null,
   },
   {
     slug: "playwright",
@@ -296,7 +339,7 @@ export const TECHS: readonly Tech[] = [
     docsUrl: "https://robotframework.org/",
     description:
       "Robot Framework is a generic, keyword-driven test automation framework with a human-readable, plain-text syntax. It is widely used for acceptance testing and RPA across web, API, and desktop targets.",
-    icon: null,
+    icon: "https://cdn.simpleicons.org/robotframework",
     ghLanguage: null,
     aliases: ["robotframework", "robot"],
   },
@@ -317,7 +360,7 @@ export const TECHS: readonly Tech[] = [
     docsUrl: "https://docs.phpunit.de/",
     description:
       "PHPUnit is the de-facto unit-testing framework for PHP, modelled after the xUnit family. It is the default test runner for Symfony, Laravel, and most modern PHP applications.",
-    icon: null,
+    icon: "https://cdn.simpleicons.org/phpunit",
     ghLanguage: "PHP",
   },
 
@@ -361,6 +404,16 @@ export const TECHS: readonly Tech[] = [
     description:
       "Jenkins is a long-standing open-source automation server for building, testing, and deploying software. Its plugin ecosystem covers virtually every CI/CD scenario, especially for self-hosted pipelines.",
     icon: "jenkins",
+    ghLanguage: null,
+  },
+  {
+    slug: "splunk",
+    name: "Splunk",
+    category: "ops",
+    docsUrl: "https://docs.splunk.com/Documentation",
+    description:
+      "Splunk is an enterprise platform for searching, monitoring, and analysing machine-generated data — logs, metrics, traces. It is widely used for operational visibility and security analytics.",
+    icon: "https://cdn.simpleicons.org/splunk",
     ghLanguage: null,
   },
 ] as const;

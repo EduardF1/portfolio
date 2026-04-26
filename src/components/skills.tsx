@@ -10,7 +10,8 @@ const CATEGORY_ORDER: ReadonlyArray<Tech["category"]> = [
   "ops",
 ];
 
-function deviconUrl(icon: string): string {
+function iconUrl(icon: string): string {
+  if (icon.startsWith("http")) return icon;
   return `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${icon}/${icon}-original.svg`;
 }
 
@@ -28,7 +29,7 @@ function TechTile({ tech }: { tech: Tech }) {
         // a remotePatterns entry in next.config.ts for cdn.jsdelivr.net.
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={deviconUrl(tech.icon)}
+          src={iconUrl(tech.icon)}
           alt={tech.name}
           width={32}
           height={32}
