@@ -4,6 +4,8 @@
 
 ## Last commits pushed (origin/main)
 
+- `44691c7` Add OG + Twitter share-image generation (next/og at edge)
+- `877fe8b` Backlog + handoff: SEO trifecta + 9 more techs ticked off
 - `7349f26` SEO trifecta + deeper GitHub harvest (9 more techs)
 - `994eb8a` Travel map: render real geography (react-simple-maps + Natural Earth)
 - `efb9fb5` Backlog + handoff: tick travel map, culinary, product links, coverage publish
@@ -45,8 +47,8 @@ Plus the chain from prior rounds: tech catalogue refresh, backlog restructure, v
 1. **Visit-notification daily digest** — needs Eduard's approval before shipping. Design proposal already in backlog (Vercel cron → Resend → fischer_eduard@yahoo.com).
 2. **`/blog` nav cluster** — Reddit + Danish-culture benchmark first (per `feedback_audience_benchmark.md`).
 3. **`/my-story` page** — same benchmark first. Eduard provides the narrative; layout work tracks structure.
-4. **OG image generation** — `app/opengraph-image.tsx` per route via `next/og`. Serif-on-terracotta card with the page title. Pairs cleanly with the sitemap that just landed.
-5. **LinkedIn screenshots + CV-ledger tech pass** — GitHub side is well-covered now. Remaining gaps in those local artefacts (mind the PNG image-size budget; OCR or smaller resampled copies are safer than reading raw screenshots).
+4. **Per-route OG images** — root-level OG image is shipped. Per-route covers (e.g. `/work/[slug]/opengraph-image.tsx` with the case-study title) is a small follow-up if Eduard wants distinct social previews per page.
+5. **LinkedIn screenshots + CV-ledger tech pass** — GitHub side is well-covered now (13 techs added across two passes). Remaining gaps in those local artefacts (mind the PNG image-size budget; OCR or smaller resampled copies are safer than reading raw screenshots).
 6. **Tighten coverage thresholds** — once writing pages, theme provider, travel-europe-map, hero-video-bg have basic tests.
 
 ## Quick sanity-check checklist for next session

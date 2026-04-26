@@ -62,7 +62,7 @@
 > Curated proposals, not committed. Each is sized for a single focused PR. Triage before pulling in. Same arrival-queue treatment as everything above: items move out of this section as they're worked, and new ideas append to the bottom of it.
 
 - [x] ~~**Sitemap + robots.txt** *(Architect)*~~ — shipped: `src/app/sitemap.ts` covers both locales × all static + dynamic MDX routes. `src/app/robots.ts` points at the sitemap.
-- [ ] **OG image generation** *(Architect)* — `app/opengraph-image.tsx` per route via `next/og`. Each share-link gets a serif-on-terracotta card with the page title.
+- [x] ~~**OG image generation** *(Architect)*~~ — shipped: root-level `src/app/opengraph-image.tsx` + `twitter-image.tsx` render a 1200×630 PNG via `next/og` at edge. Per-route OG images (e.g. `/work/[slug]/opengraph-image.tsx`) remain a follow-up if Eduard wants per-page covers.
 - [x] ~~**RSS feed for Posts and articles** *(PO)*~~ — shipped at `/writing/rss.xml` via a Next 16 route handler. 1h CDN cache, posts + articles merged + sorted newest first.
 - [ ] **Search across writing + work + recommends** *(PO)* — client-side fuzzy search using FlexSearch or fuse.js, indexed at build time. Small footprint, big UX win.
 - [ ] **Per-trip travel pages with photo lightboxes** *(PO)* — once the EXIF catalogue lands, generate `/travel/{trip-slug}` from clusters of photos by date+location.
