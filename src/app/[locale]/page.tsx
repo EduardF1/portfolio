@@ -132,16 +132,35 @@ function About() {
           </p>
         </div>
         <div className="md:col-span-8 space-y-6 text-lg">
-          <p className="text-foreground">
-            [Placeholder narrative, to be written by Eduard.] A few paragraphs
-            reframing the CV opener as a story rather than bullets. Quality,
-            correctness, operational reliability. Diplomatic, structured, calm
-            under pressure.
-          </p>
+          <p className="text-foreground">{t("aboutP1")}</p>
+          <p>{t("aboutP2")}</p>
           <p>
-            [Continued placeholder.] Romanian by birth, Danish by residence,
-            European by inclination. Master&apos;s in Technology-Based Business
-            Development from Aarhus University.
+            {t("aboutP3Lead")}{" "}
+            {t("aboutP3LinksHint")
+              .split(/(\/my-story|\/now)/)
+              .map((part, idx) => {
+                if (part === "/my-story")
+                  return (
+                    <Link
+                      key={idx}
+                      href="/my-story"
+                      className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
+                    >
+                      /my-story
+                    </Link>
+                  );
+                if (part === "/now")
+                  return (
+                    <Link
+                      key={idx}
+                      href="/now"
+                      className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
+                    >
+                      /now
+                    </Link>
+                  );
+                return <span key={idx}>{part}</span>;
+              })}
           </p>
         </div>
       </div>
