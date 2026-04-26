@@ -12,6 +12,7 @@ const STATIC_PATHS = [
   "/travel",
   "/travel/culinary",
   "/now",
+  "/my-story",
   "/contact",
 ];
 
