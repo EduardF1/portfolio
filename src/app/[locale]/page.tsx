@@ -249,26 +249,28 @@ function FeaturedWork() {
       title: "KOMBIT VALG",
       kicker: "Netcompany · 2024 — present",
       blurb:
-        "Denmark's administrative election platform. [Placeholder — case study to be written.]",
+        "Full-stack engineering on Denmark's national administrative election platform — C# / .NET, Angular, and the integrations every Danish kommune depends on at poll time.",
     },
     {
       slug: "sitaware",
       title: "SitaWare Frontline & Edge",
       kicker: "Systematic · 2021",
-      blurb: "NATO-grade C2 software. [Placeholder — case study to be written.]",
+      blurb:
+        "Internship on Systematic's NATO-grade C2 suite. Java + Angular feature work, defect triage, and Robot Framework UI test automation under FDD.",
     },
     {
       slug: "greenbyte-saas",
       title: "Greenbyte SaaS + Mobile",
       kicker: "Greenbyte · 2021 — 2024",
       blurb:
-        "Renewable-energy monitoring platform with Flutter mobile companion. [Placeholder.]",
+        "Three years on a renewable-energy SaaS platform. Full-stack .NET Core + React, and architect and lead developer of the Flutter / Dart mobile companion app.",
     },
     {
       slug: "boozt",
       title: "Boozt e-commerce backend",
       kicker: "Boozt Fashion · 2021 — 2022",
-      blurb: "Symfony backend, large-scale Nordic retailer. [Placeholder.]",
+      blurb:
+        "PHP / Symfony backend on a large-scale Nordic fashion retailer. Feature work, automated testing, and a Kanban flow brought to the team.",
     },
   ];
 

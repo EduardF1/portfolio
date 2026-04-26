@@ -1,0 +1,36 @@
+---
+title: "Conceptualization of an audit management system"
+date: "2023-12-14"
+description: "A case study at The LEGO Group on what should replace an ageing supplier-audit platform — and how to architect a compliance system that survives EU sustainability regulation."
+publication: "Aarhus University · MSc Engineering, Technology-Based Business Development"
+tags: ["research", "thesis", "compliance", "system-architecture", "requirements-engineering"]
+coAuthored: true
+---
+
+A case study, run inside The LEGO Group's compliance department, on how to replace a legacy supplier-audit platform (Adjuno) that had stopped keeping up with the business and with new EU sustainability rules. The thesis works through stakeholder mapping, requirements engineering, system architecture and vendor screening to produce an actionable recommendation rather than a research artefact, and lands on a recommended path the department can act on without further academic translation.
+
+## Context
+
+The LEGO Group monitors social, technical and sustainability compliance across a large supplier base. The in-use system, Adjuno, sat at the vendor's version 3 while the vendor itself had reached version 16 — daily work had drifted into manual operations, undocumented workarounds and a heavy dependency on individual users' tacit knowledge of the system. Operations could take half an hour to complete; bug fixes from the vendor took months; APIs and real-time integration with tools like Power BI were effectively unavailable. At the same time, new and emerging regulation — the EU Taxonomy for Sustainable Activities, the CSDDD and adjacent directives — was about to expand what compliance teams have to track and report. The decision facing the department was concrete: stay on Adjuno, build something in-house, move to a new third-party platform, or stitch together a hybrid.
+
+## What we examined
+
+The main research question was how an effective technological solution could be architected to address the LEGO Group's evolving compliance challenges. The work scoped itself around five objectives: solidify the project scope, identify and involve stakeholders, define system requirements, design a system architecture, and consider current and future system functionality. Method was a qualitative single-case study, with iterative data collection and theme-based coding using the constant-comparative method and abductive reasoning. Primary data came from over thirty interviews, focus groups, workshops, emails and observations across LEGO and external solution providers; secondary data came from existing diagrams, screenshots and the literature. Requirements were elicited, deduplicated, classified into functional and non-functional, and prioritised with MoSCoW. Architecture was modelled in three structural and seven behavioural UML diagrams — domain model, ER diagram, package diagram, use cases, flowcharts for partner, factory, product, audit and certification flows — against a backdrop of theory on stakeholder management, agility/Kanban, COTS selection, requirements engineering and software-architecture standards. The project itself was run on Kanban, with a deliberate communication plan and stakeholder map maintained as living artefacts.
+
+## Key takeaways
+
+- An in-house build was ruled out: the licensing department lacked the compliance-domain depth and the API/integration expertise to own the lifecycle of such a system.
+- Staying on Adjuno was also ruled out: the latest version offered no meaningful improvement over the version in use, vendor support was slow and costly, and the vendor treated auditing as a side product rather than a core domain.
+- A third-party purchase was recommended, with Qarma and Segura emerging as the most credible fits after a structured screening of candidate vendors (ETQ, Workiva, ComplianceQuest, Resolver, MetricStream, LogicManager, Impero, Wordly).
+- Requirements work compressed 399 raw items down to roughly 250 prioritised, business-domain requirements, mapped to 19 processes and 9 functions across 28 identified stakeholders.
+- A hybrid pattern — a thin LEGO-built core (auth, user management, dashboards) plus a vendor module on top, with a data lake as the single source of truth for partner and factory data — was put forward as a credible long-term shape.
+- The non-technical risks dominated: regulatory uncertainty, IT prioritisation, misaligned vendor expectations and user resistance to change all needed mitigation up front, not after kick-off.
+- The action plan recommends a sequenced rollout — vendor exploration, value-chain definition with procurement and finance, IT submission, vendor selection, integration interfaces, legacy data migration and Adjuno deprecation — with continuous tracks for data-lake exploration, role definition, legal monitoring and feedback loops, and full implementation targeted by mid-2025.
+
+## My contribution
+
+My specific contribution to this co-authored thesis is to be added by Eduard.
+
+## Reading the full version
+
+This is a co-authored thesis (Bukowiecka & Fischer-Szava). The full text is available on request — [contact me](/contact).
