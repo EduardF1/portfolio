@@ -5,6 +5,7 @@ import { GithubFeed } from "@/components/github-feed";
 import { SectionHeading } from "@/components/section-heading";
 import { getRepos } from "@/lib/github";
 import { findTech } from "@/lib/tech";
+import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 export const metadata = { title: "Work" };
 
@@ -128,7 +129,9 @@ export default async function WorkPage({
             );
           })}
         </nav>
-        <ul className="grid gap-px bg-border/60 sm:grid-cols-2 rounded-lg overflow-hidden">
+        <ul
+          className={`grid gap-px bg-border/60 ${responsiveGridColsClass(visibleSelected.length, 2)} rounded-lg overflow-hidden`}
+        >
           {visibleSelected.map((p) => (
             <li key={p.slug} className="bg-background">
               <Link
