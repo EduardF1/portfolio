@@ -1,6 +1,7 @@
 import "server-only";
 import fs from "node:fs/promises";
 import path from "node:path";
+import { tripCountByCountry } from "@/lib/trip-clusters";
 
 const CATALOGUE_PATH = path.join(
   process.cwd(),
@@ -99,4 +100,22 @@ export async function getTravelDestinations(): Promise<CountryDestination[]> {
   }
   out.sort((a, b) => a.country.localeCompare(b.country));
   return out;
+}
+
+/**
+ * Per-country distinct trip count, derived from the same catalogue
+ * using the date+country, ≤3-day-gap clustering rule (see
+ * `src/lib/trip-clusters.ts`). Used by the /travel chloropleth toggle
+ * on the Europe map.
+ */
+export async function getCountryTripCounts(): Promise<Record<string, number>> {
+  let raw: string;
+  try {
+    raw = await fs.readFile(CATALOGUE_PATH, "utf-8");
+  } catch {
+    return {};
+  }
+  const items = JSON.parse(raw) as RawCatalogueEntry[];
+  const counts = tripCountByCountry(items);
+  return Object.fromEntries(counts);
 }

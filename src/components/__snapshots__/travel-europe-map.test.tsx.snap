@@ -1,0 +1,100 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<TravelMapLegend /> snapshot > renders five tier swatches with stable range labels 1`] = `
+<div
+  aria-label="Trips per country"
+  class="mt-3 flex items-center gap-3 flex-wrap"
+  data-testid="map-legend"
+  role="group"
+>
+  <p
+    class="font-mono text-[0.65rem] uppercase tracking-[0.2em] text-foreground-subtle"
+  >
+    Trips per country
+  </p>
+  <ul
+    class="flex items-center gap-2 flex-wrap"
+  >
+    <li
+      class="flex items-center gap-1.5"
+      data-testid="legend-tier-0"
+    >
+      <span
+        aria-hidden="true"
+        class="inline-block size-3 rounded-sm border border-border"
+        style="background-color: var(--color-surface-strong);"
+      />
+      <span
+        class="font-mono text-[0.65rem] uppercase tracking-[0.15em] text-foreground-muted"
+      >
+        0
+      </span>
+    </li>
+    <li
+      class="flex items-center gap-1.5"
+      data-testid="legend-tier-1"
+    >
+      <span
+        aria-hidden="true"
+        class="inline-block size-3 rounded-sm border border-border"
+        style="background-color: var(--color-accent-soft);"
+      />
+      <span
+        class="font-mono text-[0.65rem] uppercase tracking-[0.15em] text-foreground-muted"
+      >
+        1
+      </span>
+    </li>
+    <li
+      class="flex items-center gap-1.5"
+      data-testid="legend-tier-2"
+    >
+      <span
+        aria-hidden="true"
+        class="inline-block size-3 rounded-sm border border-border"
+        style="background-color: color-mix(in oklab, var(--color-accent) 55%, var(--color-surface-strong));"
+      />
+      <span
+        class="font-mono text-[0.65rem] uppercase tracking-[0.15em] text-foreground-muted"
+      >
+        2–3
+      </span>
+    </li>
+    <li
+      class="flex items-center gap-1.5"
+      data-testid="legend-tier-3"
+    >
+      <span
+        aria-hidden="true"
+        class="inline-block size-3 rounded-sm border border-border"
+        style="background-color: color-mix(in oklab, var(--color-accent) 80%, var(--color-surface-strong));"
+      />
+      <span
+        class="font-mono text-[0.65rem] uppercase tracking-[0.15em] text-foreground-muted"
+      >
+        4–5
+      </span>
+    </li>
+    <li
+      class="flex items-center gap-1.5"
+      data-testid="legend-tier-4"
+    >
+      <span
+        aria-hidden="true"
+        class="inline-block size-3 rounded-sm border border-border"
+        style="background-color: var(--color-accent);"
+      />
+      <span
+        class="font-mono text-[0.65rem] uppercase tracking-[0.15em] text-foreground-muted"
+      >
+        6+
+      </span>
+    </li>
+    <li
+      class="font-mono text-[0.65rem] uppercase tracking-[0.15em] text-foreground-subtle"
+    >
+      trips
+    </li>
+  </ul>
+</div>
+`;

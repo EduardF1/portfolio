@@ -10,9 +10,25 @@ vi.mock("react-simple-maps", () => ({
       {children}
     </svg>
   ),
-  Geographies: ({ children }: { children: (props: { geographies: unknown[] }) => React.ReactNode }) =>
-    children({ geographies: [] }),
-  Geography: () => null,
+  Geographies: ({
+    children,
+  }: {
+    children: (props: {
+      geographies: { rsmKey: string; properties: { name: string } }[];
+    }) => React.ReactNode;
+  }) =>
+    children({
+      // A handful of fake geographies so we can verify the chloropleth
+      // fill picks them up by `properties.name`.
+      geographies: [
+        { rsmKey: "g-italy", properties: { name: "Italy" } },
+        { rsmKey: "g-czech", properties: { name: "Czech Republic" } },
+        { rsmKey: "g-france", properties: { name: "France" } },
+      ],
+    }),
+  Geography: ({ fill }: { fill?: string }) => (
+    <path data-testid="geo" data-fill={fill ?? ""} />
+  ),
   Marker: ({
     coordinates,
     children,
@@ -42,7 +58,12 @@ vi.mock("react-simple-maps", () => ({
   ),
 }));
 
-import { TravelEuropeMap, type MapDestination } from "./travel-europe-map";
+import {
+  TravelEuropeMap,
+  TravelMapLegend,
+  type MapDestination,
+  type TravelEuropeMapLabels,
+} from "./travel-europe-map";
 
 const SAMPLES: MapDestination[] = [
   {
@@ -70,6 +91,14 @@ const SAMPLES: MapDestination[] = [
     firstTripSlug: "spain-2025-09",
   },
 ];
+
+const TEST_LABELS: TravelEuropeMapLabels = {
+  toggleAriaLabel: "Switch map view",
+  destinationsLabel: "Destinations",
+  intensityLabel: "Intensity",
+  legendTitle: "Trips per country",
+  legendUnit: "trips",
+};
 
 afterEach(() => {
   cleanup();
@@ -128,5 +157,81 @@ describe("<TravelEuropeMap />", () => {
     expect(
       screen.getByText(/3 countries · click a marker/),
     ).toBeInTheDocument();
+  });
+
+  it("exposes a Destinations / Intensity toggle group", () => {
+    render(<TravelEuropeMap destinations={SAMPLES} labels={TEST_LABELS} />);
+    expect(screen.getByTestId("map-view-destinations")).toHaveAttribute(
+      "aria-pressed",
+      "true",
+    );
+    expect(screen.getByTestId("map-view-intensity")).toHaveAttribute(
+      "aria-pressed",
+      "false",
+    );
+  });
+
+  it("starts in intensity mode when initialView is 'intensity' and hides markers", () => {
+    const { container } = render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        initialView="intensity"
+        tripCounts={{ Italy: 2 }}
+        labels={TEST_LABELS}
+      />,
+    );
+    expect(screen.getByTestId("map-view-intensity")).toHaveAttribute(
+      "aria-pressed",
+      "true",
+    );
+    // Markers should not render in intensity mode.
+    expect(container.querySelectorAll('[data-testid="marker"]').length).toBe(0);
+    // Legend should appear.
+    expect(screen.getByTestId("map-legend")).toBeInTheDocument();
+  });
+
+  it("paints geographies with the tier-derived fill in intensity mode", () => {
+    render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        initialView="intensity"
+        tripCounts={{
+          Italy: 6, // tier 4 → darkest accent
+          Czechia: 1, // tier 1 → accent-soft, also exercises NE-name alias
+        }}
+        labels={TEST_LABELS}
+      />,
+    );
+    const geos = screen.getAllByTestId("geo");
+    const fillByGeoName = new Map(
+      geos.map((node, i) => {
+        // Same order as the mocked `geographies` array.
+        const order = ["Italy", "Czech Republic", "France"];
+        return [order[i], node.getAttribute("data-fill") ?? ""] as const;
+      }),
+    );
+    expect(fillByGeoName.get("Italy")).toBe("var(--color-accent)");
+    expect(fillByGeoName.get("Czech Republic")).toBe("var(--color-accent-soft)");
+    // France has no trips → neutral surface fill.
+    expect(fillByGeoName.get("France")).toBe("var(--color-surface-strong)");
+  });
+});
+
+describe("<TravelMapLegend /> snapshot", () => {
+  it("renders five tier swatches with stable range labels", () => {
+    const { container } = render(<TravelMapLegend labels={TEST_LABELS} />);
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it("each tier has a swatch + range label in DOM order", () => {
+    render(<TravelMapLegend labels={TEST_LABELS} />);
+    for (let i = 0; i < 5; i += 1) {
+      expect(screen.getByTestId(`legend-tier-${i}`)).toBeInTheDocument();
+    }
+    // The five expected range labels, in order.
+    const expected = ["0", "1", "2–3", "4–5", "6+"];
+    for (const label of expected) {
+      expect(screen.getByText(label)).toBeInTheDocument();
+    }
   });
 });
