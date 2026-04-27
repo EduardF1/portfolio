@@ -10,6 +10,21 @@ import { cleanup, render, screen } from "@testing-library/react";
 
 vi.mock("server-only", () => ({}));
 
+// `useTranslations` is used inside <TechChip /> rendered by the work case
+// study page. We don't ship a NextIntlClientProvider in this RSC-flavoured
+// test, so stub the hook to a passthrough returning a simple key tag.
+vi.mock("next-intl", () => ({
+  useTranslations: (ns?: string) => {
+    const fn = (key: string, vars?: Record<string, unknown>) => {
+      if (vars && Object.keys(vars).length > 0) {
+        return `${ns ?? ""}.${key}(${JSON.stringify(vars)})`;
+      }
+      return `${ns ?? ""}.${key}`;
+    };
+    return fn;
+  },
+}));
+
 vi.mock("next-intl/server", () => ({
   getTranslations: async (ns?: string) => {
     const fn = (key: string, vars?: Record<string, unknown>) => {
