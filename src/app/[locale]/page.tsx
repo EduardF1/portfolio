@@ -245,8 +245,8 @@ function Experience() {
       period: "Apr 2026 – Present",
       location: "Aarhus, Denmark",
       summary:
-        "Consulting on business-critical software for Danish enterprise and public-sector clients.",
-      tech: [],
+        ".NET back-end engineering on business-critical software for Danish enterprise and public-sector clients. REST APIs, CI/CD, and test automation alongside the consulting practice.",
+      tech: ["csharp", "dotnet", "azure-devops"],
     },
     {
       company: "Netcompany",

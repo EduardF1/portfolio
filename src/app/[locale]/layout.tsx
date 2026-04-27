@@ -41,6 +41,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Eduard Fischer-Szava",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Eduard Fischer-Szava — Software Engineer & IT Consultant",
+        type: "image/png",
+      },
+    ],
   },
   // hreflang tells Google.dk which language to surface where. The
   // x-default points at the EN canonical so non-DA visitors land on
