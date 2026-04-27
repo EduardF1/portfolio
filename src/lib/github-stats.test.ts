@@ -8,7 +8,7 @@ afterEach(() => {
 describe("summarizeStats", () => {
   it("filters forks/archived, sums stars, picks top 3 languages", () => {
     const out = summarizeStats(
-      { public_repos: 42, followers: 7 },
+      { public_repos: 42, followers: 7, created_at: "2019-04-15T10:00:00Z" },
       [
         { language: "TypeScript", stargazers_count: 5, fork: false, archived: false },
         { language: "TypeScript", stargazers_count: 1, fork: false, archived: false },
@@ -21,8 +21,11 @@ describe("summarizeStats", () => {
       ],
     );
     expect(out.user).toBe("EduardF1");
-    expect(out.publicRepos).toBe(42);
+    // publicRepos is the live filtered count (6), not profile.public_repos (42)
+    // — matches the "N public repositories" feed text below the card.
+    expect(out.publicRepos).toBe(6);
     expect(out.followers).toBe(7);
+    expect(out.memberSince).toBe(2019);
     expect(out.totalStars).toBe(5 + 1 + 3 + 0 + 0 + 2);
     expect(out.topLanguages).toHaveLength(3);
     expect(out.topLanguages[0]).toEqual({ name: "TypeScript", count: 2 });
@@ -31,9 +34,13 @@ describe("summarizeStats", () => {
   });
 
   it("handles an empty repo list", () => {
-    const out = summarizeStats({ public_repos: 0, followers: 0 }, []);
+    const out = summarizeStats(
+      { public_repos: 0, followers: 0, created_at: "2020-01-01T00:00:00Z" },
+      [],
+    );
     expect(out.totalStars).toBe(0);
     expect(out.topLanguages).toEqual([]);
+    expect(out.memberSince).toBe(2020);
   });
 });
 
@@ -52,7 +59,11 @@ describe("getProfileStats", () => {
       call += 1;
       if (call === 1) {
         return new Response(
-          JSON.stringify({ public_repos: 5, followers: 2 }),
+          JSON.stringify({
+            public_repos: 5,
+            followers: 2,
+            created_at: "2019-04-15T10:00:00Z",
+          }),
           { status: 200, headers: { "Content-Type": "application/json" } },
         );
       }
@@ -66,9 +77,10 @@ describe("getProfileStats", () => {
     const out = await getProfileStats();
     expect(out).toEqual({
       user: "EduardF1",
-      publicRepos: 5,
+      publicRepos: 1,
       followers: 2,
       totalStars: 10,
+      memberSince: 2019,
       topLanguages: [{ name: "TypeScript", count: 1 }],
     });
   });

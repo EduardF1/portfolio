@@ -120,7 +120,15 @@ function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
               download
             >
               <Download className="h-4 w-4" />
-              {t("common.downloadCv")}
+              {t("common.downloadCvEn")}
+            </a>
+            <a
+              href="/cv/Eduard_Fischer-Szava_CV_DA.pdf"
+              className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium hover:border-accent hover:text-accent"
+              download
+            >
+              <Download className="h-4 w-4" />
+              {t("common.downloadCvDa")}
             </a>
           </div>
         </div>

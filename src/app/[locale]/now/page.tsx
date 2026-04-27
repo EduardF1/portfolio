@@ -91,7 +91,7 @@ export default async function NowPage({
         <SectionHeading>{t("reading")}</SectionHeading>
         <div className="mt-6 space-y-4">
           <p>
-            A small reading pile, mostly engineering and a bit of business —
+            A small reading pile, mostly engineering and a bit of business,
             picked up between commits rather than in long blocks. The finished
             and recommended end of the pile lives on{" "}
             <Link

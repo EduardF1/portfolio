@@ -27,10 +27,17 @@ const CHAPTERS: Chapter[] = [
   },
   {
     yearRange: "2016–2021",
-    place: "Alongside studies, Kolding, Bucharest, Vejle",
+    place: "Alongside studies, Bucharest, Kolding, Vejle",
     heading: "Paying my own way",
-    body: "I funded the degrees with steady part-time work outside the lecture room. Sales assistant at LPP Reserved in Kolding (Apr – Sep 2016), call-centre agent at eMAG in Bucharest (Sep 2016 – Jan 2017), goods receiver at GLS in Kolding (Mar 2017 – Sep 2018), a sales internship at Domisis Construct in Romania (Jul – Oct 2018), and goods receiver at REITAN in Vejle through the BSc years (May 2019 – May 2021). I paid for studies by working logistics and retail, and it taught me about service, operations, and how to be a steady team-mate on a long shift.",
+    body: "I funded the degrees with steady part-time work outside the lecture room. Sales assistant at LPP Reserved in Bucharest (Apr to Sep 2016), call-centre agent at eMAG in Bucharest (Sep 2016 to Jan 2017), goods receiver at GLS in Kolding (Mar 2017 to Sep 2018), a sales internship at Domisis Construct in Romania (Jul to Oct 2018), and goods receiver at REITAN in Vejle through the BSc years (May 2019 to May 2021). I paid for studies by working logistics and retail, and it taught me about service, operations, and how to be a steady team-mate on a long shift.",
     takeaway: "Took with me: respect for service work, the rhythm of inventory, the patience to be calm in a queue.",
+  },
+  {
+    yearRange: "2017–2023",
+    place: "Sprogcenter Midt, Horsens (and beyond)",
+    heading: "Putting roots down",
+    body: "My thinking on Danish was simple: if you choose the country you want to build a life in, you choose its language and its customs too, not the country's to ease for you. The language school at Sprogcenter Midt in Horsens led to Prøve i Dansk 3 (the highest of the three adult-education levels, mapping to CEFR B2) in December 2019, with an average of 7,0 across reading, writing and oral on the Danish 7-trin scale. Working toward formal Danish citizenship continued from there, a long deliberate study cycle through Danish history, civic structures and the cultural references that anchor day-to-day life. The professional Danish and the civic Danish are the same idea in two registers.",
+    takeaway: "Took with me: a working command of Danish across registers, workplace, public service, civic life.",
   },
   {
     yearRange: "2019–2022",

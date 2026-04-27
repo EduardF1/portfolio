@@ -22,6 +22,7 @@ describe("<GithubStats />", () => {
       publicRepos: 42,
       followers: 7,
       totalStars: 123,
+      memberSince: 2019,
       topLanguages: [
         { name: "TypeScript", count: 15 },
         { name: "Java", count: 8 },
@@ -31,6 +32,7 @@ describe("<GithubStats />", () => {
     expect(screen.getByText("42")).toBeInTheDocument();
     expect(screen.getByText("7")).toBeInTheDocument();
     expect(screen.getByText("123")).toBeInTheDocument();
+    expect(screen.getByText("2019")).toBeInTheDocument();
     expect(screen.getByText(/TypeScript \(15\)/)).toBeInTheDocument();
     expect(screen.getByText(/Java \(8\)/)).toBeInTheDocument();
     expect(screen.getByText(/@EduardF1/)).toBeInTheDocument();

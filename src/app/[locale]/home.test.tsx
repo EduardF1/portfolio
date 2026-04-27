@@ -82,6 +82,8 @@ const I18N: Record<string, string> = {
   "common.available": "EU citizen · Aarhus, Denmark",
   "common.seeWork": "See work",
   "common.downloadCv": "Download CV",
+  "common.downloadCvEn": "Download CV (EN)",
+  "common.downloadCvDa": "Download CV (DA)",
   "common.allWork": "All work",
   // home
   "home.hero": "Software Engineer",
@@ -131,7 +133,9 @@ describe("Home (homepage)", () => {
     ).toBeInTheDocument();
     // Hero callout buttons
     expect(screen.getByRole("link", { name: /See work/ })).toBeInTheDocument();
-    expect(screen.getByText(/Download CV/)).toBeInTheDocument();
+    // Two download buttons now: EN and DA CV.
+    expect(screen.getByRole("link", { name: /Download CV \(EN\)/ })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /Download CV \(DA\)/ })).toBeInTheDocument();
     // Experience entries: each role anchor opens the company site
     expect(screen.getByText("Mjølner Informatics")).toBeInTheDocument();
     expect(screen.getByText("Netcompany")).toBeInTheDocument();

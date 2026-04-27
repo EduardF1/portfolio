@@ -17,15 +17,19 @@ const REVALIDATE_SECONDS = 60 * 60; // 1h
 
 export type ProfileStats = {
   user: string;
+  /** Live (non-fork, non-archived) public repo count, matching the feed text on /work. */
   publicRepos: number;
   followers: number;
   totalStars: number;
+  /** Year of GitHub account creation, from /users.created_at. */
+  memberSince: number;
   topLanguages: Array<{ name: string; count: number }>;
 };
 
 type GhProfile = {
   public_repos: number;
   followers: number;
+  created_at: string;
 };
 
 type GhRepo = {
@@ -97,9 +101,13 @@ export function summarizeStats(
 
   return {
     user: USER,
-    publicRepos: profile.public_repos,
+    // Use the filtered live count so the metric matches the "N public repositories"
+    // line directly below the GithubStats card. profile.public_repos counts forks +
+    // archived repos as well, which is misleading on a portfolio.
+    publicRepos: live.length,
     followers: profile.followers,
     totalStars,
+    memberSince: new Date(profile.created_at).getUTCFullYear(),
     topLanguages,
   };
 }

@@ -1,4 +1,4 @@
-import { Star, Users, BookOpen } from "lucide-react";
+import { Star, Users, BookOpen, CalendarClock } from "lucide-react";
 import { getProfileStats } from "@/lib/github-stats";
 
 /**
@@ -43,6 +43,11 @@ export async function GithubStats() {
       value: stats.totalStars.toLocaleString("en-GB"),
       Icon: Star,
     },
+    {
+      label: "On GitHub since", // TODO i18n
+      value: String(stats.memberSince),
+      Icon: CalendarClock,
+    },
   ];
 
   return (
@@ -73,7 +78,7 @@ export async function GithubStats() {
         </a>
       </div>
 
-      <ul className="mt-5 grid gap-3 sm:grid-cols-3">
+      <ul className="mt-5 grid gap-3 grid-cols-2 sm:grid-cols-4">
         {cards.map(({ label, value, Icon }) => (
           <li
             key={label}

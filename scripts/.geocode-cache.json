@@ -568,5 +568,305 @@
     "city": "Landsberg am Lech",
     "country": "Germany",
     "display": "Landsberg am Lech, Germany"
+  },
+  "56.04,9.93": {
+    "city": "Skanderborg Municipality",
+    "country": "Denmark",
+    "display": "Skanderborg Municipality, Denmark"
+  },
+  "55.63,12.65": {
+    "city": "Tårnby Municipality",
+    "country": "Denmark",
+    "display": "Tårnby Municipality, Denmark"
+  },
+  "55.63,12.64": {
+    "city": "Tårnby Municipality",
+    "country": "Denmark",
+    "display": "Tårnby Municipality, Denmark"
+  },
+  "55.63,12.66": {
+    "city": "Tårnby Municipality",
+    "country": "Denmark",
+    "display": "Tårnby Municipality, Denmark"
+  },
+  "48.08,16.44": {
+    "city": "Himberg",
+    "country": "Austria",
+    "display": "Himberg, Austria"
+  },
+  "48.19,16.39": {
+    "city": "Vienna",
+    "country": "Austria",
+    "display": "Vienna, Austria"
+  },
+  "48.19,16.38": {
+    "city": "Vienna",
+    "country": "Austria",
+    "display": "Vienna, Austria"
+  },
+  "48.09,17.10": {
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "display": "Bratislava, Slovakia"
+  },
+  "48.15,17.15": {
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "display": "Bratislava, Slovakia"
+  },
+  "48.18,17.09": {
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "display": "Bratislava, Slovakia"
+  },
+  "48.18,17.10": {
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "display": "Bratislava, Slovakia"
+  },
+  "48.73,19.15": {
+    "city": "Banská Bystrica",
+    "country": "Slovakia",
+    "display": "Banská Bystrica, Slovakia"
+  },
+  "49.28,20.31": {
+    "city": "Ždiar",
+    "country": "Slovakia",
+    "display": "Ždiar, Slovakia"
+  },
+  "49.29,20.23": {
+    "city": "Osturňa",
+    "country": "Slovakia",
+    "display": "Osturňa, Slovakia"
+  },
+  "49.28,19.97": {
+    "city": "Zakopane",
+    "country": "Poland",
+    "display": "Zakopane, Poland"
+  },
+  "49.30,19.95": {
+    "city": "Zakopane",
+    "country": "Poland",
+    "display": "Zakopane, Poland"
+  },
+  "49.27,19.98": {
+    "city": "Zakopane",
+    "country": "Poland",
+    "display": "Zakopane, Poland"
+  },
+  "49.25,19.97": {
+    "city": "Zakopane",
+    "country": "Poland",
+    "display": "Zakopane, Poland"
+  },
+  "49.23,19.98": {
+    "city": "Vysoké Tatry",
+    "country": "Slovakia",
+    "display": "Vysoké Tatry, Slovakia"
+  },
+  "49.25,20.10": {
+    "city": "Brzegi",
+    "country": "Poland",
+    "display": "Brzegi, Poland"
+  },
+  "49.22,20.09": {
+    "city": "Brzegi",
+    "country": "Poland",
+    "display": "Brzegi, Poland"
+  },
+  "49.21,20.07": {
+    "city": "Brzegi",
+    "country": "Poland",
+    "display": "Brzegi, Poland"
+  },
+  "49.20,20.07": {
+    "city": "Brzegi",
+    "country": "Poland",
+    "display": "Brzegi, Poland"
+  },
+  "49.28,20.18": {
+    "city": "Tatranská Javorina",
+    "country": "Slovakia",
+    "display": "Tatranská Javorina, Slovakia"
+  },
+  "50.03,19.17": {
+    "city": "Pławy",
+    "country": "Poland",
+    "display": "Pławy, Poland"
+  },
+  "50.04,19.17": {
+    "city": "Brzezinka",
+    "country": "Poland",
+    "display": "Brzezinka, Poland"
+  },
+  "50.04,19.18": {
+    "city": "Brzezinka",
+    "country": "Poland",
+    "display": "Brzezinka, Poland"
+  },
+  "50.03,19.20": {
+    "city": "Oświęcim",
+    "country": "Poland",
+    "display": "Oświęcim, Poland"
+  },
+  "50.28,18.88": {
+    "city": "Ruda Śląska",
+    "country": "Poland",
+    "display": "Ruda Śląska, Poland"
+  },
+  "50.06,19.93": {
+    "city": "Krakow",
+    "country": "Poland",
+    "display": "Krakow, Poland"
+  },
+  "49.20,16.62": {
+    "city": "Brno",
+    "country": "Czechia",
+    "display": "Brno, Czechia"
+  },
+  "49.19,16.61": {
+    "city": "Brno",
+    "country": "Czechia",
+    "display": "Brno, Czechia"
+  },
+  "49.20,16.60": {
+    "city": "Brno",
+    "country": "Czechia",
+    "display": "Brno, Czechia"
+  },
+  "48.12,16.56": {
+    "city": "Schwechat",
+    "country": "Austria",
+    "display": "Schwechat, Austria"
+  },
+  "56.15,10.21": {
+    "city": "Aarhus",
+    "country": "Denmark",
+    "display": "Aarhus, Denmark"
+  },
+  "36.59,-4.53": {
+    "city": "Benalmádena",
+    "country": "Spain",
+    "display": "Benalmádena, Spain"
+  },
+  "36.74,-3.59": {
+    "city": "Salobreña",
+    "country": "Spain",
+    "display": "Salobreña, Spain"
+  },
+  "36.16,-5.35": {
+    "city": "La Línea de la Concepción",
+    "country": "Spain",
+    "display": "La Línea de la Concepción, Spain"
+  },
+  "36.12,-5.34": {
+    "city": null,
+    "country": "Gibraltar",
+    "display": "Gibraltar"
+  },
+  "36.73,-3.59": {
+    "city": null,
+    "country": "Spain",
+    "display": "Spain"
+  },
+  "36.74,-3.74": {
+    "city": "Almuñécar",
+    "country": "Spain",
+    "display": "Almuñécar, Spain"
+  },
+  "36.75,-3.88": {
+    "city": "Nerja",
+    "country": "Spain",
+    "display": "Nerja, Spain"
+  },
+  "44.44,26.12": {
+    "city": "Bucharest",
+    "country": "Romania",
+    "display": "Bucharest, Romania"
+  },
+  "44.68,22.53": {
+    "city": "Drobeta-Turnu Severin",
+    "country": "Romania",
+    "display": "Drobeta-Turnu Severin, Romania"
+  },
+  "44.67,22.53": {
+    "city": "Kladovo Municipality",
+    "country": "Serbia",
+    "display": "Kladovo Municipality, Serbia"
+  },
+  "44.61,22.61": {
+    "city": "Kladovo Municipality",
+    "country": "Serbia",
+    "display": "Kladovo Municipality, Serbia"
+  },
+  "46.05,14.50": {
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "display": "Ljubljana, Slovenia"
+  },
+  "45.67,13.97": {
+    "city": "Divača",
+    "country": "Slovenia",
+    "display": "Divača, Slovenia"
+  },
+  "44.86,13.82": {
+    "city": "Istria County",
+    "country": "Croatia",
+    "display": "Istria County, Croatia"
+  },
+  "46.51,13.33": {
+    "city": "Pontebba / Ponteibe / Pontafel / Tablija",
+    "country": "Italy",
+    "display": "Pontebba / Ponteibe / Pontafel / Tablija, Italy"
+  },
+  "47.57,12.16": {
+    "city": "Kufstein",
+    "country": "Austria",
+    "display": "Kufstein, Austria"
+  },
+  "48.06,10.85": {
+    "city": "Landsberg am Lech",
+    "country": "Germany",
+    "display": "Landsberg am Lech, Germany"
+  },
+  "47.56,10.74": {
+    "city": "Schwangau",
+    "country": "Germany",
+    "display": "Schwangau, Germany"
+  },
+  "48.26,11.44": {
+    "city": "Dachau",
+    "country": "Germany",
+    "display": "Dachau, Germany"
+  },
+  "48.27,11.47": {
+    "city": "Dachau",
+    "country": "Germany",
+    "display": "Dachau, Germany"
+  },
+  "48.72,11.48": {
+    "city": "Manching",
+    "country": "Germany",
+    "display": "Manching, Germany"
+  },
+  "49.43,11.11": {
+    "city": "Nuremberg",
+    "country": "Germany",
+    "display": "Nuremberg, Germany"
+  },
+  "51.31,9.49": {
+    "city": "Kassel",
+    "country": "Germany",
+    "display": "Kassel, Germany"
+  },
+  "52.49,9.85": {
+    "city": "Burgwedel",
+    "country": "Germany",
+    "display": "Burgwedel, Germany"
+  },
+  "56.20,10.23": {
+    "city": "Aarhus",
+    "country": "Denmark",
+    "display": "Aarhus, Denmark"
   }
 }
