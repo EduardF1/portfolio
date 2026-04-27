@@ -89,6 +89,45 @@ export default async function PersonalPage({
           <div className="md:col-span-8 space-y-8">
             <p className="max-w-2xl text-lg">{ts("footballLede")}</p>
             <p className="max-w-2xl">{ts("footballBody")}</p>
+            <figure className="max-w-2xl space-y-4">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-border bg-surface">
+                <Image
+                  src="/photos/bvb-yellow-wall-suedtribuene.jpg"
+                  alt={ts("footballFigureAlt")}
+                  fill
+                  sizes="(min-width: 768px) 600px, 100vw"
+                  className="object-cover"
+                />
+              </div>
+              <figcaption className="space-y-3 text-sm text-foreground-muted">
+                <p>{ts("bvbCaptionLead")}</p>
+                <p>{ts("bvbCaptionKlopp")}</p>
+                <p className="font-mono text-[0.65rem] uppercase tracking-[0.2em] text-foreground-subtle">
+                  {ts.rich("bvbCaptionCredit", {
+                    photographer: () => (
+                      <a
+                        href="https://commons.wikimedia.org/wiki/File:Suedtribuene.jpg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
+                      >
+                        Pascal Philp
+                      </a>
+                    ),
+                    license: () => (
+                      <a
+                        href="https://creativecommons.org/licenses/by-sa/2.0/de/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
+                      >
+                        CC BY-SA 2.0 DE
+                      </a>
+                    ),
+                  })}
+                </p>
+              </figcaption>
+            </figure>
             <BvbFeed />
           </div>
         </div>

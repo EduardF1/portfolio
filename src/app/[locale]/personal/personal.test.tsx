@@ -20,10 +20,23 @@ vi.mock("next-intl/server", () => ({
       }
       return c as Bag;
     }
-    return (key: string) => {
+    const t = (key: string) => {
       const v = walk(root, key);
       return typeof v === "string" ? v : key;
     };
+    // Minimal `.rich` shim so the personal page can use t.rich for the
+    // BVB photo credit (translated string with two anchor tags).
+    (t as unknown as {
+      rich: (
+        key: string,
+        tags: Record<string, (chunks: React.ReactNode) => React.ReactNode>,
+      ) => React.ReactNode;
+    }).rich = (key, tags) => {
+      const v = walk(root, key);
+      const template = typeof v === "string" ? v : key;
+      return [template, ...Object.values(tags).map((render) => render(""))];
+    };
+    return t;
   },
   setRequestLocale: () => {},
 }));
