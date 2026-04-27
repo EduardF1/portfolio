@@ -5,7 +5,7 @@
  */
 
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { cleanup, render, screen } from "@testing-library/react";
+import { cleanup, render, screen, fireEvent } from "@testing-library/react";
 
 vi.mock("server-only", () => ({}));
 
@@ -125,5 +125,68 @@ describe("ContactForm (idle state)", () => {
     );
     render(<ContactForm />);
     expect(screen.getByText("(optional)")).toBeInTheDocument();
+  });
+});
+
+describe("ContactForm attachment validation", () => {
+  function setup() {
+    useTranslationsMock.mockReturnValue(
+      makeT({
+        name: "Name",
+        email: "Email",
+        subject: "Subject",
+        subjectHint: "(optional)",
+        message: "Message",
+        attachment: "Attachment",
+        attachmentHint: "Optional · PDF only · max 5 MB",
+        attachmentErrorType: "PDF only",
+        attachmentErrorSize: "File is larger than 5 MB",
+        sending: "Sending…",
+        submit: "Send",
+      }),
+    );
+    render(<ContactForm />);
+    return screen.getByLabelText(/Attachment/) as HTMLInputElement;
+  }
+
+  it("renders the attachment file input with the PDF accept hint", () => {
+    const input = setup();
+    expect(input).toBeInTheDocument();
+    expect(input.type).toBe("file");
+    expect(input.accept).toBe("application/pdf");
+    expect(
+      screen.getByText(/Optional · PDF only · max 5 MB/),
+    ).toBeInTheDocument();
+  });
+
+  it("rejects a non-PDF file with an inline error", () => {
+    const input = setup();
+    const file = new File(["png-bytes"], "image.png", { type: "image/png" });
+    fireEvent.change(input, { target: { files: [file] } });
+    const errorEl = document.getElementById("attachment-error");
+    expect(errorEl?.textContent).toMatch(/PDF only/);
+    expect(screen.getByRole("button", { name: /Send/ })).toBeDisabled();
+  });
+
+  it("rejects a too-large PDF with an inline error", () => {
+    const input = setup();
+    const big = new File([new Uint8Array(6 * 1024 * 1024)], "huge.pdf", {
+      type: "application/pdf",
+    });
+    fireEvent.change(input, { target: { files: [big] } });
+    const errorEl = document.getElementById("attachment-error");
+    expect(errorEl?.textContent).toMatch(/File is larger than 5 MB/);
+    expect(screen.getByRole("button", { name: /Send/ })).toBeDisabled();
+  });
+
+  it("accepts a valid small PDF without showing an error", () => {
+    const input = setup();
+    const ok = new File([new Uint8Array(1024)], "cv.pdf", {
+      type: "application/pdf",
+    });
+    fireEvent.change(input, { target: { files: [ok] } });
+    expect(document.getElementById("attachment-error")).toBeNull();
+    expect(screen.getByText("cv.pdf")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Send/ })).not.toBeDisabled();
   });
 });

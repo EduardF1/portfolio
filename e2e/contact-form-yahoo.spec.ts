@@ -11,6 +11,14 @@ import { test, expect } from "@playwright/test";
  *   2. RUN_LIVE_EMAIL=1 — actually submits with a real Resend key set, then
  *      checks the Yahoo inbox via the email MCP. Skipped unless explicitly
  *      opted-in to avoid spamming Eduard's inbox.
+ *
+ * TODO(round6): add a third tier that exercises the optional PDF attachment.
+ * Cases to cover: a valid <5 MB PDF round-trips (the message arrives in
+ * Yahoo with the attachment intact), a non-PDF file is blocked client-side,
+ * and a >5 MB file is rejected before submit. Keep this gated behind
+ * RUN_LIVE_EMAIL to avoid spam, and remember Vercel's server action body
+ * cap is 4.5 MB — a 4.49 MB fixture is the realistic upper bound for live
+ * runs against Production.
  */
 
 const TIMESTAMP = new Date().toISOString();
