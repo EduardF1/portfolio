@@ -1,5 +1,12 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import { __test__, getBvbFeed, BVB_TEAM_ID } from "./bvb";
+import {
+  __test__,
+  getBvbFeed,
+  BVB_TEAM_ID,
+  BUNDESLIGA_LEAGUE,
+  DFB_POKAL_LEAGUE,
+  getCurrentSeasonStartYear,
+} from "./bvb";
 
 const ORIG_FETCH = globalThis.fetch;
 
@@ -10,204 +17,427 @@ function jsonResponse(body: unknown, status = 200): Response {
   });
 }
 
-const FAKE_STANDINGS = {
-  standings: [
-    {
-      type: "TOTAL",
-      table: [
-        {
-          position: 1,
-          team: {
-            id: BVB_TEAM_ID,
-            name: "Borussia Dortmund",
-            shortName: "Dortmund",
-            tla: "BVB",
-            crest: "https://crests.football-data.org/4.svg",
-          },
-          playedGames: 10,
-          won: 7,
-          draw: 2,
-          lost: 1,
-          goalsFor: 22,
-          goalsAgainst: 8,
-          goalDifference: 14,
-          points: 23,
-        },
-      ],
-    },
-  ],
-};
+// --- OpenLigaDB-shaped fixtures -----------------------------------------
 
-const FAKE_FIXTURES = {
-  matches: [
-    {
-      id: 100,
-      utcDate: "2026-05-02T13:30:00Z",
-      status: "SCHEDULED",
-      competition: { code: "BL1", name: "Bundesliga" },
-      homeTeam: { id: BVB_TEAM_ID, name: "Borussia Dortmund", tla: "BVB" },
-      awayTeam: { id: 5, name: "RB Leipzig", tla: "RBL" },
-    },
-  ],
-};
+const FAKE_BL_TABLE = [
+  {
+    teamInfoId: 40,
+    teamName: "FC Bayern München",
+    shortName: "Bayern",
+    teamIconUrl: "https://example.test/fcb.png",
+    points: 28,
+    matches: 10,
+    won: 9,
+    draw: 1,
+    lost: 0,
+    goals: 30,
+    opponentGoals: 5,
+    goalDiff: 25,
+  },
+  {
+    teamInfoId: BVB_TEAM_ID,
+    teamName: "Borussia Dortmund",
+    shortName: "Dortmund",
+    teamIconUrl: "https://example.test/bvb.png",
+    points: 23,
+    matches: 10,
+    won: 7,
+    draw: 2,
+    lost: 1,
+    goals: 22,
+    opponentGoals: 8,
+    goalDiff: 14,
+  },
+  {
+    teamInfoId: 9,
+    teamName: "Bayer 04 Leverkusen",
+    shortName: "Leverkusen",
+    teamIconUrl: "https://example.test/b04.png",
+    points: 22,
+    matches: 10,
+    won: 7,
+    draw: 1,
+    lost: 2,
+    goals: 24,
+    opponentGoals: 12,
+    goalDiff: 12,
+  },
+  {
+    teamInfoId: 1635,
+    teamName: "RB Leipzig",
+    shortName: "RB Leipzig",
+    teamIconUrl: "https://example.test/rbl.png",
+    points: 20,
+    matches: 10,
+    won: 6,
+    draw: 2,
+    lost: 2,
+    goals: 18,
+    opponentGoals: 10,
+    goalDiff: 8,
+  },
+  {
+    teamInfoId: 16,
+    teamName: "VfB Stuttgart",
+    shortName: "Stuttgart",
+    teamIconUrl: "https://example.test/vfb.png",
+    points: 18,
+    matches: 10,
+    won: 5,
+    draw: 3,
+    lost: 2,
+    goals: 17,
+    opponentGoals: 11,
+    goalDiff: 6,
+  },
+  {
+    teamInfoId: 91,
+    teamName: "Eintracht Frankfurt",
+    shortName: "Frankfurt",
+    teamIconUrl: "https://example.test/sge.png",
+    points: 16,
+    matches: 10,
+    won: 5,
+    draw: 1,
+    lost: 4,
+    goals: 16,
+    opponentGoals: 14,
+    goalDiff: 2,
+  },
+];
 
-const FAKE_RESULTS = {
-  matches: [
-    {
-      id: 200,
-      utcDate: "2026-04-19T13:30:00Z",
-      status: "FINISHED",
-      competition: { code: "BL1", name: "Bundesliga" },
-      homeTeam: { id: 6, name: "Werder Bremen", tla: "SVW" },
-      awayTeam: { id: BVB_TEAM_ID, name: "Borussia Dortmund", tla: "BVB" },
-      score: { fullTime: { home: 1, away: 2 } },
+const FAKE_BL_MATCHES = [
+  // Future BVB home match.
+  {
+    matchID: 100,
+    matchDateTimeUTC: "2099-05-02T13:30:00Z",
+    matchIsFinished: false,
+    leagueShortcut: "bl1",
+    leagueName: "1. Bundesliga 2099/2100",
+    team1: {
+      teamId: BVB_TEAM_ID,
+      teamName: "Borussia Dortmund",
+      shortName: "Dortmund",
+      teamIconUrl: "https://example.test/bvb.png",
     },
-    {
-      id: 201,
-      utcDate: "2026-04-12T16:30:00Z",
-      status: "FINISHED",
-      competition: { code: "BL1", name: "Bundesliga" },
-      homeTeam: { id: BVB_TEAM_ID, name: "Borussia Dortmund", tla: "BVB" },
-      awayTeam: { id: 7, name: "FC Bayern", tla: "FCB" },
-      score: { fullTime: { home: 1, away: 1 } },
+    team2: {
+      teamId: 1635,
+      teamName: "RB Leipzig",
+      shortName: "RB Leipzig",
+      teamIconUrl: "https://example.test/rbl.png",
     },
-  ],
-};
+    matchResults: [],
+  },
+  // Past BVB away win.
+  {
+    matchID: 200,
+    matchDateTimeUTC: "2026-04-19T13:30:00Z",
+    matchIsFinished: true,
+    leagueShortcut: "bl1",
+    leagueName: "1. Bundesliga 2025/2026",
+    team1: {
+      teamId: 134,
+      teamName: "Werder Bremen",
+      shortName: "Bremen",
+      teamIconUrl: "https://example.test/svw.png",
+    },
+    team2: {
+      teamId: BVB_TEAM_ID,
+      teamName: "Borussia Dortmund",
+      shortName: "Dortmund",
+      teamIconUrl: "https://example.test/bvb.png",
+    },
+    matchResults: [
+      { resultTypeID: 1, resultName: "Halbzeit", pointsTeam1: 0, pointsTeam2: 1 },
+      { resultTypeID: 2, resultName: "Endergebnis", pointsTeam1: 1, pointsTeam2: 2 },
+    ],
+  },
+  // Past BVB home draw.
+  {
+    matchID: 201,
+    matchDateTimeUTC: "2026-04-12T16:30:00Z",
+    matchIsFinished: true,
+    leagueShortcut: "bl1",
+    leagueName: "1. Bundesliga 2025/2026",
+    team1: {
+      teamId: BVB_TEAM_ID,
+      teamName: "Borussia Dortmund",
+      shortName: "Dortmund",
+      teamIconUrl: "https://example.test/bvb.png",
+    },
+    team2: {
+      teamId: 40,
+      teamName: "FC Bayern München",
+      shortName: "Bayern",
+      teamIconUrl: "https://example.test/fcb.png",
+    },
+    matchResults: [
+      { resultTypeID: 1, resultName: "Halbzeit", pointsTeam1: 0, pointsTeam2: 1 },
+      { resultTypeID: 2, resultName: "Endergebnis", pointsTeam1: 1, pointsTeam2: 1 },
+    ],
+  },
+  // A non-BVB Bundesliga match — must be filtered out.
+  {
+    matchID: 202,
+    matchDateTimeUTC: "2026-04-12T16:30:00Z",
+    matchIsFinished: true,
+    leagueShortcut: "bl1",
+    leagueName: "1. Bundesliga 2025/2026",
+    team1: { teamId: 40, teamName: "FC Bayern München", shortName: "Bayern" },
+    team2: { teamId: 9, teamName: "Bayer 04 Leverkusen", shortName: "Leverkusen" },
+    matchResults: [
+      { resultTypeID: 2, resultName: "Endergebnis", pointsTeam1: 2, pointsTeam2: 2 },
+    ],
+  },
+];
+
+const FAKE_DFB_MATCHES = [
+  // BVB DFB-Pokal win.
+  {
+    matchID: 300,
+    matchDateTimeUTC: "2026-04-02T19:00:00Z",
+    matchIsFinished: true,
+    leagueShortcut: "dfb",
+    leagueName: "DFB-Pokal 2025/2026",
+    team1: {
+      teamId: BVB_TEAM_ID,
+      teamName: "Borussia Dortmund",
+      shortName: "Dortmund",
+      teamIconUrl: "https://example.test/bvb.png",
+    },
+    team2: {
+      teamId: 1635,
+      teamName: "RB Leipzig",
+      shortName: "RB Leipzig",
+      teamIconUrl: "https://example.test/rbl.png",
+    },
+    matchResults: [
+      { resultTypeID: 1, resultName: "Halbzeit", pointsTeam1: 1, pointsTeam2: 0 },
+      { resultTypeID: 2, resultName: "Endergebnis", pointsTeam1: 3, pointsTeam2: 1 },
+    ],
+  },
+];
+
+// ---------------------------------------------------------------------------
+
+function urlMatcher(req: Parameters<typeof globalThis.fetch>[0]): string {
+  return typeof req === "string" ? req : (req as URL | Request).toString();
+}
+
+function installFetchMock(
+  responder: (url: string) => Response | Promise<Response>,
+): ReturnType<typeof vi.fn> {
+  const spy = vi.fn(async (input: Parameters<typeof globalThis.fetch>[0]) =>
+    responder(urlMatcher(input)),
+  );
+  globalThis.fetch = spy as unknown as typeof globalThis.fetch;
+  return spy;
+}
 
 beforeEach(() => {
-  vi.stubEnv("BVB_API_TOKEN", "test-token");
-  vi.stubEnv("BVB_USE_MOCK", "");
+  // Silence expected error logs for the failure-path tests.
+  vi.spyOn(console, "error").mockImplementation(() => {});
 });
 
 afterEach(() => {
   globalThis.fetch = ORIG_FETCH;
-  vi.unstubAllEnvs();
   vi.restoreAllMocks();
 });
 
 describe("getBvbFeed — happy path", () => {
-  it("maps standings, fixtures, and results from a successful API response", async () => {
-    const fetchSpy = vi.fn(async (url: string) => {
-      if (url.includes("/competitions/BL1/standings")) return jsonResponse(FAKE_STANDINGS);
-      if (url.includes("status=SCHEDULED")) return jsonResponse(FAKE_FIXTURES);
-      if (url.includes("status=FINISHED")) return jsonResponse(FAKE_RESULTS);
+  it("maps standings, fixtures, and results from a successful OpenLigaDB response", async () => {
+    installFetchMock((url) => {
+      if (url.includes("/getbltable/")) return jsonResponse(FAKE_BL_TABLE);
+      if (url.includes(`/getmatchdata/${BUNDESLIGA_LEAGUE}/`))
+        return jsonResponse(FAKE_BL_MATCHES);
+      if (url.includes(`/getmatchdata/${DFB_POKAL_LEAGUE}/`))
+        return jsonResponse(FAKE_DFB_MATCHES);
       throw new Error(`unexpected url: ${url}`);
     });
-    globalThis.fetch = fetchSpy as unknown as typeof globalThis.fetch;
 
     const feed = await getBvbFeed();
 
     expect(feed.isMock).toBe(false);
-    expect(feed.standings).toHaveLength(1);
-    expect(feed.standings[0]?.teamTla).toBe("BVB");
-    expect(feed.standings[0]?.points).toBe(23);
+    // Standings: all 6 mock teams, ordered by points desc, BVB present and TLA-derived.
+    expect(feed.standings.length).toBe(6);
+    expect(feed.standings[0]?.teamName).toBe("FC Bayern München");
+    expect(feed.standings[0]?.position).toBe(1);
+    const bvb = feed.standings.find((r) => r.teamId === BVB_TEAM_ID);
+    expect(bvb).toBeDefined();
+    expect(bvb?.position).toBe(2);
+    expect(bvb?.points).toBe(23);
+    expect(bvb?.teamTla).toBe("BVB");
+    expect(bvb?.crest).toBe("https://example.test/bvb.png");
+
+    // Fixtures: only the future BVB BL match (filtered + capped at 5).
     expect(feed.fixtures).toHaveLength(1);
     expect(feed.fixtures[0]?.opponent).toBe("RB Leipzig");
     expect(feed.fixtures[0]?.isHome).toBe(true);
-    expect(feed.results).toHaveLength(2);
-    // Results should be newest-first.
+    expect(feed.fixtures[0]?.competition).toBe("BL1");
+    expect(feed.fixtures[0]?.status).toBe("SCHEDULED");
+
+    // Results: BVB only, newest-first. The non-BVB BL match must NOT appear.
+    expect(feed.results).toHaveLength(3);
     expect(feed.results[0]?.utcDate.startsWith("2026-04-19")).toBe(true);
     expect(feed.results[0]?.outcome).toBe("W");
+    expect(feed.results[0]?.bvbScore).toBe(2);
+    expect(feed.results[0]?.opponentScore).toBe(1);
     expect(feed.results[1]?.outcome).toBe("D");
+    expect(feed.results[2]?.competition).toBe("DFB");
+    expect(feed.results[2]?.opponent).toBe("RB Leipzig");
   });
 
-  it("forwards the X-Auth-Token header on every API call", async () => {
+  it("requests with next.revalidate = 3600 (1-hour ISR window)", async () => {
     type FetchFn = (url: string, init?: RequestInit) => Promise<Response>;
-    const fetchSpy = vi.fn<FetchFn>().mockResolvedValue(
-      jsonResponse({ standings: [], matches: [] }),
-    );
+    const fetchSpy = vi
+      .fn<FetchFn>()
+      .mockResolvedValue(jsonResponse([]));
+    globalThis.fetch = fetchSpy as unknown as typeof globalThis.fetch;
+
+    await getBvbFeed();
+
+    expect(fetchSpy).toHaveBeenCalled();
+    for (const call of fetchSpy.mock.calls) {
+      const init = call[1] as
+        | (RequestInit & { next?: { revalidate?: number } })
+        | undefined;
+      expect(init?.next?.revalidate).toBe(3600);
+    }
+  });
+
+  it("does not require any auth header (OpenLigaDB is keyless)", async () => {
+    type FetchFn = (url: string, init?: RequestInit) => Promise<Response>;
+    const fetchSpy = vi
+      .fn<FetchFn>()
+      .mockResolvedValue(jsonResponse([]));
     globalThis.fetch = fetchSpy as unknown as typeof globalThis.fetch;
 
     await getBvbFeed();
 
     for (const call of fetchSpy.mock.calls) {
       const init = call[1];
-      const headers = init?.headers as Record<string, string> | undefined;
-      expect(headers?.["X-Auth-Token"]).toBe("test-token");
+      const headers = (init?.headers ?? {}) as Record<string, string>;
+      expect(headers["X-Auth-Token"]).toBeUndefined();
+      expect(headers["Authorization"]).toBeUndefined();
     }
+  });
+
+  it("hits the three documented OpenLigaDB endpoints with the current season", async () => {
+    const fetchSpy = installFetchMock(() => jsonResponse([]));
+
+    await getBvbFeed();
+
+    const calledUrls = fetchSpy.mock.calls.map((c) => c[0] as string);
+    const season = getCurrentSeasonStartYear();
+    expect(calledUrls.some((u) => u.includes(`/getbltable/bl1/${season}`))).toBe(true);
+    expect(calledUrls.some((u) => u.includes(`/getmatchdata/bl1/${season}`))).toBe(true);
+    expect(calledUrls.some((u) => u.includes(`/getmatchdata/dfb/${season}`))).toBe(true);
   });
 });
 
 describe("getBvbFeed — error and degraded paths", () => {
-  it("falls back to mock data when every upstream call fails", async () => {
-    globalThis.fetch = vi
-      .fn(async () => new Response("nope", { status: 401, statusText: "Unauthorized" }))
-      .mockName("401-fetch") as unknown as typeof globalThis.fetch;
-    // Suppress the expected console.error noise.
-    const errSpy = vi.spyOn(console, "error").mockImplementation(() => {});
-
-    const feed = await getBvbFeed();
-
-    expect(feed.isMock).toBe(true);
-    expect(feed.standings.length).toBeGreaterThan(0);
-    expect(feed.fixtures.length).toBeGreaterThan(0);
-    expect(errSpy).toHaveBeenCalled();
-  });
-
-  it("tolerates partial failure — keeps successful tabs, empties failing ones", async () => {
-    globalThis.fetch = vi.fn(async (url: string) => {
-      if (url.includes("/competitions/")) return jsonResponse(FAKE_STANDINGS);
-      if (url.includes("status=SCHEDULED"))
-        return new Response("rate limited", { status: 429, statusText: "Too Many Requests" });
-      if (url.includes("status=FINISHED")) return jsonResponse(FAKE_RESULTS);
-      throw new Error(`unexpected url: ${url}`);
-    }) as unknown as typeof globalThis.fetch;
-    vi.spyOn(console, "error").mockImplementation(() => {});
+  it("returns an empty feed (no sample data) when every upstream call fails", async () => {
+    installFetchMock(
+      () => new Response("nope", { status: 500, statusText: "Server Error" }),
+    );
 
     const feed = await getBvbFeed();
 
     expect(feed.isMock).toBe(false);
-    expect(feed.standings).toHaveLength(1);
+    expect(feed.standings).toEqual([]);
     expect(feed.fixtures).toEqual([]);
-    expect(feed.results).toHaveLength(2);
+    expect(feed.results).toEqual([]);
   });
 
-  it("returns mock data when fetch throws (network failure)", async () => {
+  it("returns an empty feed when fetch throws (network failure)", async () => {
     globalThis.fetch = vi.fn(async () => {
       throw new TypeError("fetch failed");
     }) as unknown as typeof globalThis.fetch;
-    vi.spyOn(console, "error").mockImplementation(() => {});
 
     const feed = await getBvbFeed();
 
-    expect(feed.isMock).toBe(true);
-  });
-});
-
-describe("getBvbFeed — token gating", () => {
-  it("returns mock data and never calls fetch when BVB_API_TOKEN is missing", async () => {
-    vi.stubEnv("BVB_API_TOKEN", "");
-    const fetchSpy = vi.fn();
-    globalThis.fetch = fetchSpy as unknown as typeof globalThis.fetch;
-    vi.spyOn(console, "warn").mockImplementation(() => {});
-
-    const feed = await getBvbFeed();
-
-    expect(feed.isMock).toBe(true);
-    expect(fetchSpy).not.toHaveBeenCalled();
+    expect(feed.isMock).toBe(false);
+    expect(feed.standings).toEqual([]);
+    expect(feed.fixtures).toEqual([]);
+    expect(feed.results).toEqual([]);
   });
 
-  it("forces mock data when BVB_USE_MOCK=1 even with a valid token", async () => {
-    vi.stubEnv("BVB_USE_MOCK", "1");
-    const fetchSpy = vi.fn();
-    globalThis.fetch = fetchSpy as unknown as typeof globalThis.fetch;
+  it("tolerates partial failure — keeps successful tabs, empties failing ones", async () => {
+    installFetchMock((url) => {
+      if (url.includes("/getbltable/")) return jsonResponse(FAKE_BL_TABLE);
+      if (url.includes(`/getmatchdata/${BUNDESLIGA_LEAGUE}/`))
+        return new Response("rate limited", { status: 429, statusText: "Too Many Requests" });
+      if (url.includes(`/getmatchdata/${DFB_POKAL_LEAGUE}/`))
+        return jsonResponse(FAKE_DFB_MATCHES);
+      throw new Error(`unexpected url: ${url}`);
+    });
 
     const feed = await getBvbFeed();
 
-    expect(feed.isMock).toBe(true);
-    expect(fetchSpy).not.toHaveBeenCalled();
+    expect(feed.isMock).toBe(false);
+    expect(feed.standings.length).toBeGreaterThan(0);
+    // Bundesliga match feed failed → no scheduled BL fixtures.
+    expect(feed.fixtures).toEqual([]);
+    // DFB-Pokal match still returns the BVB win.
+    expect(feed.results).toHaveLength(1);
+    expect(feed.results[0]?.competition).toBe("DFB");
+  });
+
+  it("returns an empty feed when the upstream JSON is malformed (non-array body)", async () => {
+    installFetchMock(() =>
+      jsonResponse({ not: "the array we expected" }),
+    );
+
+    const feed = await getBvbFeed();
+
+    expect(feed.isMock).toBe(false);
+    expect(feed.standings).toEqual([]);
+    expect(feed.fixtures).toEqual([]);
+    expect(feed.results).toEqual([]);
+  });
+
+  it("ignores match rows missing matchID or matchDateTimeUTC", async () => {
+    installFetchMock((url) => {
+      if (url.includes("/getbltable/")) return jsonResponse([]);
+      if (url.includes(`/getmatchdata/${BUNDESLIGA_LEAGUE}/`))
+        return jsonResponse([
+          // missing matchID
+          {
+            matchDateTimeUTC: "2099-01-01T00:00:00Z",
+            matchIsFinished: false,
+            team1: { teamId: BVB_TEAM_ID, teamName: "Borussia Dortmund" },
+            team2: { teamId: 9, teamName: "Bayer Leverkusen" },
+          },
+          // missing matchDateTimeUTC
+          {
+            matchID: 999,
+            matchIsFinished: false,
+            team1: { teamId: BVB_TEAM_ID, teamName: "Borussia Dortmund" },
+            team2: { teamId: 9, teamName: "Bayer Leverkusen" },
+          },
+        ]);
+      if (url.includes(`/getmatchdata/${DFB_POKAL_LEAGUE}/`)) return jsonResponse([]);
+      throw new Error(`unexpected url: ${url}`);
+    });
+
+    const feed = await getBvbFeed();
+
+    expect(feed.fixtures).toEqual([]);
+    expect(feed.results).toEqual([]);
   });
 });
 
 describe("__test__ helpers", () => {
-  it("mapCompetitionCode normalises CL/UCL/DFB/BL1 and falls back to OTHER", () => {
-    expect(__test__.mapCompetitionCode("BL1")).toBe("BL1");
-    expect(__test__.mapCompetitionCode("DFB")).toBe("DFB");
-    expect(__test__.mapCompetitionCode("CL")).toBe("UCL");
-    expect(__test__.mapCompetitionCode("UCL")).toBe("UCL");
-    expect(__test__.mapCompetitionCode("PL")).toBe("OTHER");
-    expect(__test__.mapCompetitionCode(undefined)).toBe("OTHER");
-    expect(__test__.mapCompetitionCode(null)).toBe("OTHER");
+  it("leagueShortcutToCompetition normalises bl1/dfb/cl/ucl + falls back to OTHER", () => {
+    expect(__test__.leagueShortcutToCompetition("bl1")).toBe("BL1");
+    expect(__test__.leagueShortcutToCompetition("BL1")).toBe("BL1");
+    expect(__test__.leagueShortcutToCompetition("dfb")).toBe("DFB");
+    expect(__test__.leagueShortcutToCompetition("cl")).toBe("UCL");
+    expect(__test__.leagueShortcutToCompetition("ucl")).toBe("UCL");
+    expect(__test__.leagueShortcutToCompetition("ucl2024")).toBe("UCL");
+    expect(__test__.leagueShortcutToCompetition("bl2")).toBe("OTHER");
+    expect(__test__.leagueShortcutToCompetition(undefined)).toBe("OTHER");
+    expect(__test__.leagueShortcutToCompetition(null)).toBe("OTHER");
   });
 
   it("competitionDisplayName returns canonical names and OTHER passthrough", () => {
@@ -218,84 +448,131 @@ describe("__test__ helpers", () => {
     expect(__test__.competitionDisplayName("OTHER", null)).toBe("Other");
   });
 
+  it("isBvbTeam matches by id first, then by name fallback", () => {
+    expect(__test__.isBvbTeam({ teamId: BVB_TEAM_ID })).toBe(true);
+    expect(__test__.isBvbTeam({ teamId: 999, teamName: "Borussia Dortmund" })).toBe(true);
+    expect(__test__.isBvbTeam({ teamId: 999, teamName: "BVB" })).toBe(true);
+    expect(__test__.isBvbTeam({ teamId: 999, teamName: "FC Bayern" })).toBe(false);
+    expect(__test__.isBvbTeam(null)).toBe(false);
+    expect(__test__.isBvbTeam(undefined)).toBe(false);
+  });
+
+  it("deriveTla maps Bundesliga clubs and falls back to first letters", () => {
+    expect(__test__.deriveTla("Borussia Dortmund")).toBe("BVB");
+    expect(__test__.deriveTla("FC Bayern München")).toBe("FCB");
+    expect(__test__.deriveTla("Bayer 04 Leverkusen")).toBe("B04");
+    expect(__test__.deriveTla("RB Leipzig")).toBe("RBL");
+    expect(__test__.deriveTla("Hamburger SV")).toBe("HSV");
+    // Falls back to a heuristic for unmapped names.
+    expect(__test__.deriveTla("SV Sandhausen", "Sandhausen")).toBe("SAN");
+    expect(__test__.deriveTla(null, null)).toBe(null);
+  });
+
   it("toResult assigns W/D/L correctly from BVB's perspective", () => {
     const win = __test__.toResult({
-      id: 1,
-      utcDate: "2026-04-01T18:00:00Z",
-      status: "FINISHED",
-      competition: { code: "BL1" },
-      homeTeam: { id: BVB_TEAM_ID },
-      awayTeam: { id: 999, name: "Other", tla: "OTH" },
-      score: { fullTime: { home: 3, away: 0 } },
+      matchID: 1,
+      matchDateTimeUTC: "2026-04-01T18:00:00Z",
+      matchIsFinished: true,
+      leagueShortcut: "bl1",
+      team1: { teamId: BVB_TEAM_ID, teamName: "Borussia Dortmund" },
+      team2: { teamId: 999, teamName: "Other" },
+      matchResults: [
+        { resultTypeID: 2, resultName: "Endergebnis", pointsTeam1: 3, pointsTeam2: 0 },
+      ],
     });
-    expect(win.outcome).toBe("W");
-    expect(win.bvbScore).toBe(3);
+    expect(win?.outcome).toBe("W");
+    expect(win?.bvbScore).toBe(3);
 
     const loss = __test__.toResult({
-      id: 2,
-      utcDate: "2026-04-01T18:00:00Z",
-      status: "FINISHED",
-      competition: { code: "BL1" },
-      homeTeam: { id: 999, name: "Other", tla: "OTH" },
-      awayTeam: { id: BVB_TEAM_ID },
-      score: { fullTime: { home: 2, away: 1 } },
+      matchID: 2,
+      matchDateTimeUTC: "2026-04-01T18:00:00Z",
+      matchIsFinished: true,
+      leagueShortcut: "bl1",
+      team1: { teamId: 999, teamName: "Other" },
+      team2: { teamId: BVB_TEAM_ID, teamName: "Borussia Dortmund" },
+      matchResults: [
+        { resultTypeID: 2, resultName: "Endergebnis", pointsTeam1: 2, pointsTeam2: 1 },
+      ],
     });
-    expect(loss.outcome).toBe("L");
-    expect(loss.bvbScore).toBe(1);
+    expect(loss?.outcome).toBe("L");
+    expect(loss?.bvbScore).toBe(1);
 
     const draw = __test__.toResult({
-      id: 3,
-      utcDate: "2026-04-01T18:00:00Z",
-      status: "FINISHED",
-      competition: { code: "BL1" },
-      homeTeam: { id: BVB_TEAM_ID },
-      awayTeam: { id: 999, name: "Other", tla: "OTH" },
-      score: { fullTime: { home: 1, away: 1 } },
+      matchID: 3,
+      matchDateTimeUTC: "2026-04-01T18:00:00Z",
+      matchIsFinished: true,
+      leagueShortcut: "bl1",
+      team1: { teamId: BVB_TEAM_ID, teamName: "Borussia Dortmund" },
+      team2: { teamId: 999, teamName: "Other" },
+      matchResults: [
+        { resultTypeID: 2, resultName: "Endergebnis", pointsTeam1: 1, pointsTeam2: 1 },
+      ],
     });
-    expect(draw.outcome).toBe("D");
+    expect(draw?.outcome).toBe("D");
 
     const noScore = __test__.toResult({
-      id: 4,
-      utcDate: "2026-04-01T18:00:00Z",
-      status: "TIMED",
-      competition: { code: "BL1" },
-      homeTeam: { id: BVB_TEAM_ID },
-      awayTeam: { id: 999, name: "Other", tla: "OTH" },
-      score: { fullTime: { home: null, away: null } },
+      matchID: 4,
+      matchDateTimeUTC: "2026-04-01T18:00:00Z",
+      matchIsFinished: false,
+      leagueShortcut: "bl1",
+      team1: { teamId: BVB_TEAM_ID, teamName: "Borussia Dortmund" },
+      team2: { teamId: 999, teamName: "Other" },
+      matchResults: [],
     });
-    expect(noScore.outcome).toBe(null);
+    expect(noScore?.outcome).toBe(null);
+    expect(noScore?.bvbScore).toBe(null);
   });
 
   it("toFixture flips home/away based on BVB_TEAM_ID", () => {
     const home = __test__.toFixture({
-      id: 10,
-      utcDate: "2026-05-01T13:00:00Z",
-      status: "SCHEDULED",
-      competition: { code: "BL1", name: "Bundesliga" },
-      homeTeam: { id: BVB_TEAM_ID },
-      awayTeam: { id: 999, name: "Other", tla: "OTH" },
+      matchID: 10,
+      matchDateTimeUTC: "2099-05-01T13:00:00Z",
+      matchIsFinished: false,
+      leagueShortcut: "bl1",
+      leagueName: "Bundesliga",
+      team1: { teamId: BVB_TEAM_ID, teamName: "Borussia Dortmund" },
+      team2: { teamId: 999, teamName: "Other" },
     });
-    expect(home.isHome).toBe(true);
-    expect(home.opponent).toBe("Other");
+    expect(home?.isHome).toBe(true);
+    expect(home?.opponent).toBe("Other");
 
     const away = __test__.toFixture({
-      id: 11,
-      utcDate: "2026-05-08T13:00:00Z",
-      status: "SCHEDULED",
-      competition: { code: "BL1", name: "Bundesliga" },
-      homeTeam: { id: 999, name: "Other", tla: "OTH" },
-      awayTeam: { id: BVB_TEAM_ID },
+      matchID: 11,
+      matchDateTimeUTC: "2099-05-08T13:00:00Z",
+      matchIsFinished: false,
+      leagueShortcut: "bl1",
+      leagueName: "Bundesliga",
+      team1: { teamId: 999, teamName: "Other" },
+      team2: { teamId: BVB_TEAM_ID, teamName: "Borussia Dortmund" },
     });
-    expect(away.isHome).toBe(false);
-    expect(away.opponent).toBe("Other");
+    expect(away?.isHome).toBe(false);
+    expect(away?.opponent).toBe("Other");
   });
 
-  it("MOCK_FEED has plausible-looking data for the empty-state fallback", () => {
-    expect(__test__.MOCK_FEED.standings.length).toBeGreaterThan(10);
-    expect(__test__.MOCK_FEED.fixtures.length).toBeGreaterThan(0);
-    expect(__test__.MOCK_FEED.results.length).toBeGreaterThan(0);
-    // BVB row exists in the mock standings.
-    const bvbRow = __test__.MOCK_FEED.standings.find((r) => r.teamId === BVB_TEAM_ID);
-    expect(bvbRow).toBeDefined();
+  it("finalScore prefers resultTypeID === 2 over halftime entry", () => {
+    const score = __test__.finalScore({
+      matchResults: [
+        { resultTypeID: 1, resultName: "Halbzeit", pointsTeam1: 0, pointsTeam2: 1 },
+        { resultTypeID: 2, resultName: "Endergebnis", pointsTeam1: 3, pointsTeam2: 1 },
+      ],
+    });
+    expect(score).toEqual({ home: 3, away: 1 });
+
+    const empty = __test__.finalScore({ matchResults: [] });
+    expect(empty).toEqual({ home: null, away: null });
+  });
+
+  it("getCurrentSeasonStartYear flips at 1 July", () => {
+    expect(__test__.getCurrentSeasonStartYear(new Date("2026-04-27T12:00:00Z"))).toBe(2025);
+    expect(__test__.getCurrentSeasonStartYear(new Date("2026-06-30T23:59:59Z"))).toBe(2025);
+    expect(__test__.getCurrentSeasonStartYear(new Date("2026-07-01T00:00:00Z"))).toBe(2026);
+    expect(__test__.getCurrentSeasonStartYear(new Date("2026-12-31T23:59:59Z"))).toBe(2026);
+  });
+
+  it("EMPTY_FEED is the failsafe (no rows, isMock false)", () => {
+    expect(__test__.EMPTY_FEED.standings).toEqual([]);
+    expect(__test__.EMPTY_FEED.fixtures).toEqual([]);
+    expect(__test__.EMPTY_FEED.results).toEqual([]);
+    expect(__test__.EMPTY_FEED.isMock).toBe(false);
   });
 });

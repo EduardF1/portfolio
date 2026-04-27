@@ -1,0 +1,1 @@
+Trigger final pass — Round 5 agents A1-A7 + A10 settled. Orchestrator follow-ups applied: obsolete bvb mock-fallback tests removed, "five companies" → "six companies" in 4 files. Photo reorg complete (173 → 147 in trip subfolders). Run lint + typecheck + tests + build and report against baseline.

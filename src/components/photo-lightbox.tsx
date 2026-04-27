@@ -9,13 +9,22 @@ import {
   useState,
 } from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { responsiveGridColsClass } from "@/lib/grid-cols";
+import { getAttribution, type PhotoSource } from "@/lib/photo-source";
 
 export type LightboxPhoto = {
   src: string;
   alt: string;
   /** Optional caption shown under the full-size image. */
   caption?: string;
+  /**
+   * Optional provenance block. When present and `type === "stock"`
+   * the lightbox renders a small attribution caption underneath the
+   * image. Personal photos (no `source` or `type === "personal"`)
+   * render unchanged.
+   */
+  source?: PhotoSource;
 };
 
 export type PhotoLightboxProps = {
@@ -44,6 +53,8 @@ export function PhotoLightbox({
   nextLabel = "Next photo",
   closeLabel = "Close",
 }: PhotoLightboxProps) {
+  const tt = useTranslations("tooltips");
+  const ta = useTranslations("attribution");
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const dialogId = useId();
   const labelId = `${dialogId}-label`;
@@ -167,6 +178,9 @@ export function PhotoLightbox({
   };
 
   const currentPhoto = openIndex !== null ? photos[openIndex] : null;
+  const attribution = currentPhoto
+    ? getAttribution(currentPhoto.source)
+    : null;
   const countText = useMemo(() => {
     if (openIndex === null) return "";
     return countLabel
@@ -231,6 +245,7 @@ export function PhotoLightbox({
               type="button"
               onClick={close}
               aria-label={closeLabel}
+              title={tt("lightboxClose")}
               className="rounded-md bg-black/40 px-3 py-1 text-sm text-white hover:bg-black/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               data-testid="lightbox-close"
             >
@@ -246,6 +261,7 @@ export function PhotoLightbox({
                 prev();
               }}
               aria-label={prevLabel}
+              title={tt("lightboxPrev")}
               className="absolute left-2 sm:left-6 rounded-full bg-black/40 px-4 py-2 text-2xl text-white hover:bg-black/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               data-testid="lightbox-prev"
             >
@@ -273,6 +289,58 @@ export function PhotoLightbox({
                 {currentPhoto.caption}
               </p>
             )}
+            {attribution && (
+              <p
+                className="mt-2 text-center font-mono text-[11px] tracking-[0.05em] text-white/60"
+                data-testid="lightbox-attribution"
+              >
+                {attribution.photographerUrl ? (
+                  <a
+                    href={attribution.photographerUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${ta("photoBy", { name: attribution.photographer })} (opens in a new tab)`}
+                    className="underline decoration-white/30 underline-offset-2 hover:text-white hover:decoration-white"
+                  >
+                    {ta("photoBy", { name: attribution.photographer })}
+                  </a>
+                ) : (
+                  <span>
+                    {ta("photoBy", { name: attribution.photographer })}
+                  </span>
+                )}
+                {" "}
+                {attribution.providerUrl ? (
+                  <a
+                    href={attribution.providerUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${ta("via", { provider: attribution.provider })} (opens in a new tab)`}
+                    className="underline decoration-white/30 underline-offset-2 hover:text-white hover:decoration-white"
+                  >
+                    {ta("via", { provider: attribution.provider })}
+                  </a>
+                ) : (
+                  <span>
+                    {ta("via", { provider: attribution.provider })}
+                  </span>
+                )}
+                {attribution.licenseUrl && (
+                  <>
+                    {" — "}
+                    <a
+                      href={attribution.licenseUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${ta("licenseLabel")} (opens in a new tab)`}
+                      className="underline decoration-white/30 underline-offset-2 hover:text-white hover:decoration-white"
+                    >
+                      {ta("licenseLabel")}
+                    </a>
+                  </>
+                )}
+              </p>
+            )}
           </div>
 
           {photos.length > 1 && (
@@ -283,6 +351,7 @@ export function PhotoLightbox({
                 next();
               }}
               aria-label={nextLabel}
+              title={tt("lightboxNext")}
               className="absolute right-2 sm:right-6 rounded-full bg-black/40 px-4 py-2 text-2xl text-white hover:bg-black/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               data-testid="lightbox-next"
             >

@@ -94,7 +94,7 @@ const I18N: Record<string, string> = {
   "home.aboutP3Lead": "What I look for.",
   "home.aboutP3LinksHint": "The /my-story page; the /now page.",
   "home.experienceKicker": "Experience",
-  "home.experienceHeading": "Five years across five companies.",
+  "home.experienceHeading": "Five years across six companies.",
   "home.selectedKicker": "Selected work",
   "home.selectedHeading": "Things I've helped build.",
   "home.statsKicker": "At a glance",

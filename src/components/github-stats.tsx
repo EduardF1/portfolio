@@ -1,11 +1,11 @@
 import { Star, Users, BookOpen, CalendarClock } from "lucide-react";
+import { getLocale, getTranslations } from "next-intl/server";
 import { getProfileStats } from "@/lib/github-stats";
 
 /**
  * Public, ISR-cached GitHub aggregate widget. Server Component —
  * runs at the edge during ISR, falls back to an empty state if the
- * GitHub API is rate-limited or down. Hardcoded EN labels for now,
- * Dev A will translate after the i18n sweep lands.
+ * GitHub API is rate-limited or down.
  *
  * Placement: rendered on /work above the public-repos feed (see
  * src/app/[locale]/work/page.tsx). It complements the existing
@@ -14,11 +14,16 @@ import { getProfileStats } from "@/lib/github-stats";
  */
 export async function GithubStats() {
   const stats = await getProfileStats();
+  const tt = await getTranslations("tooltips");
+  const t = await getTranslations("githubStats");
+  const locale = await getLocale();
+  // Numeric formatting follows the active UI locale: en-GB for English
+  // (matches the rest of the site's date/number style), da-DK for Danish.
+  const numberLocale = locale === "da" ? "da-DK" : "en-GB";
   if (!stats) {
     return (
       <div className="rounded-lg border border-dashed border-border p-6 text-center text-sm text-foreground-subtle">
-        {/* TODO i18n */}
-        GitHub stats unavailable.
+        {t("unavailable")}
       </div>
     );
   }
@@ -27,61 +32,66 @@ export async function GithubStats() {
     label: string;
     value: string;
     Icon: typeof Star;
+    tooltip: string;
   }> = [
     {
-      label: "Public repos", // TODO i18n
-      value: stats.publicRepos.toLocaleString("en-GB"),
+      label: t("cards.publicRepos"),
+      value: stats.publicRepos.toLocaleString(numberLocale),
       Icon: BookOpen,
+      tooltip: tt("githubStatsRepos"),
     },
     {
-      label: "Followers", // TODO i18n
-      value: stats.followers.toLocaleString("en-GB"),
+      label: t("cards.followers"),
+      value: stats.followers.toLocaleString(numberLocale),
       Icon: Users,
+      tooltip: tt("githubStatsFollowers"),
     },
     {
-      label: "Total stars", // TODO i18n
-      value: stats.totalStars.toLocaleString("en-GB"),
+      label: t("cards.totalStars"),
+      value: stats.totalStars.toLocaleString(numberLocale),
       Icon: Star,
+      tooltip: tt("githubStatsStars"),
     },
     {
-      label: "On GitHub since", // TODO i18n
+      label: t("cards.memberSince"),
       value: String(stats.memberSince),
       Icon: CalendarClock,
+      tooltip: tt("githubStatsSince"),
     },
   ];
 
   return (
     <section
       data-testid="github-stats"
-      aria-label="GitHub profile stats"
+      aria-label={t("ariaLabel")}
+      title={tt("githubStats")}
       className="rounded-lg border border-border p-6"
     >
       <div className="flex items-end justify-between gap-4">
         <div>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-            {/* TODO i18n */}
-            GitHub · @{stats.user}
+            {t("userLine", { user: stats.user })}
           </p>
           <p className="mt-1 text-sm text-foreground-muted">
-            {/* TODO i18n */}
-            Live numbers from the public profile, refreshed hourly.
+            {t("description")}
           </p>
         </div>
         <a
           href={`https://github.com/${stats.user}`}
           target="_blank"
           rel="noopener noreferrer"
+          title={tt("githubViewProfile")}
           className="text-xs text-foreground-muted hover:text-accent"
         >
-          {/* TODO i18n */}
-          View on GitHub →
+          {t("viewProfile")}
         </a>
       </div>
 
       <ul className="mt-5 grid gap-3 grid-cols-2 sm:grid-cols-4">
-        {cards.map(({ label, value, Icon }) => (
+        {cards.map(({ label, value, Icon, tooltip }) => (
           <li
             key={label}
+            title={tooltip}
             className="flex items-center gap-3 rounded-md border border-border/60 bg-surface/30 px-4 py-3"
           >
             <Icon className="h-4 w-4 text-foreground-subtle" aria-hidden />
@@ -98,8 +108,7 @@ export async function GithubStats() {
       {stats.topLanguages.length > 0 && (
         <div className="mt-5">
           <p className="font-mono text-[0.65rem] uppercase tracking-wider text-foreground-subtle">
-            {/* TODO i18n */}
-            Top languages
+            {t("topLanguages")}
           </p>
           <div className="mt-2 flex flex-wrap gap-2">
             {stats.topLanguages.map((l) => (

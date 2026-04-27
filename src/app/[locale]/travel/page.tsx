@@ -5,7 +5,6 @@ import { SectionHeading } from "@/components/section-heading";
 import { TravelEuropeMap } from "@/components/travel-europe-map";
 import { getTravelDestinations } from "@/lib/travel-locations";
 import { getTrips } from "@/lib/trips";
-import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 export const metadata = { title: "Travel" };
 
@@ -24,7 +23,16 @@ export default async function TravelPage({
     getTrips(),
   ]);
 
-  const recentTrips = photoTrips.slice(0, 6);
+  // Most-recent trip per country, used to wire the country tile to its
+  // matching /travel/photos/[slug] page (the country-name card links
+  // straight to the latest trip-details page for that country).
+  const latestByCountry = new Map<string, (typeof photoTrips)[number]>();
+  for (const tr of photoTrips) {
+    const existing = latestByCountry.get(tr.country);
+    if (!existing || tr.startsAt > existing.startsAt) {
+      latestByCountry.set(tr.country, tr);
+    }
+  }
 
   return (
     <>
@@ -63,33 +71,56 @@ export default async function TravelPage({
           <ul
             className="grid gap-px bg-border/60 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 rounded-lg overflow-hidden"
           >
-            {destinations.map((d) => (
-              <li
-                key={d.slug}
-                id={`country-${d.slug}`}
-                className="bg-background p-6 scroll-mt-24"
-              >
-                <p className="font-serif text-2xl text-foreground">{d.country}</p>
-                <p className="mt-3 text-sm text-foreground-muted">
-                  {d.cities.slice(0, 6).join(", ")}
-                  {d.cities.length > 6 && ", …"}
-                </p>
-              </li>
-            ))}
+            {destinations.map((d) => {
+              const latest = latestByCountry.get(d.country);
+              const countryHref = latest
+                ? `/travel/photos/${latest.slug}`
+                : null;
+              return (
+                <li
+                  key={d.slug}
+                  id={`country-${d.slug}`}
+                  className="bg-background p-6 scroll-mt-24"
+                >
+                  {countryHref ? (
+                    <Link
+                      href={countryHref}
+                      className="font-serif text-2xl text-foreground hover:text-accent transition-colors"
+                    >
+                      {d.country}
+                    </Link>
+                  ) : (
+                    <p className="font-serif text-2xl text-foreground">
+                      {d.country}
+                    </p>
+                  )}
+                  <p className="mt-3 text-sm text-foreground-muted">
+                    {d.cities.slice(0, 6).join(", ")}
+                    {d.cities.length > 6 && ", …"}
+                  </p>
+                  {countryHref && (
+                    <Link
+                      href={countryHref}
+                      className="mt-4 inline-flex items-center gap-1 text-sm text-accent hover:underline"
+                    >
+                      {t("seeTrip")}{" "}
+                      <span aria-hidden="true">→</span>
+                    </Link>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </section>
       )}
 
-      {recentTrips.length > 0 && (
+      {photoTrips.length > 0 && (
         <section className="container-page pb-12">
-          <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-2">
-            {t("recentTripsKicker")}
+          <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
+            {t("allTripsKicker")}
           </h2>
-          <p className="font-serif text-2xl text-foreground mb-6">
-            {t("recentTripsHeading")}
-          </p>
-          <ul className={`grid gap-4 ${responsiveGridColsClass(recentTrips.length)}`}>
-            {recentTrips.map((trip) => {
+          <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            {photoTrips.map((trip) => {
               const cover = trip.photos[0];
               const headline = trip.primaryCity ?? trip.country;
               return (
@@ -118,7 +149,11 @@ export default async function TravelPage({
                         {headline}, {trip.monthLabel}
                       </p>
                       <p className="mt-1 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-foreground-subtle">
-                        {trip.dateRange} · {t("photoCount", { count: trip.photoCount })}
+                        {t("photoCount", { count: trip.photoCount })}
+                      </p>
+                      <p className="mt-3 inline-flex items-center gap-1 text-sm text-accent group-hover:underline">
+                        {t("seeTrip")}{" "}
+                        <span aria-hidden="true">→</span>
                       </p>
                     </div>
                   </Link>

@@ -1,0 +1,14 @@
+
+> portfolio@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.5 C:/Users/Eduard/Projects/portfolio
+
+
+ Test Files  57 passed (57)
+      Tests  414 passed (414)
+   Start at  23:52:40
+   Duration  10.70s (transform 9.69s, setup 16.90s, import 21.97s, tests 11.68s, environment 159.21s)
+
+EXIT=0

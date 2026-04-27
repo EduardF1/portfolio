@@ -2,6 +2,52 @@
 
 > Updated as the session progresses. Next session: read this first.
 
+## Round 6 — autonomous night run (2026-04-28 → 2026-04-29)
+
+Eduard went to sleep instructing autonomous run until token exhaustion. PO must:
+- Triage uncommitted Round 5 WIP on `feat/v1-polish-round4` (current branch) → commit + push + merge to main so A11/A12 can find their audit docs.
+- Review + merge each Round 6 agent PR as they complete.
+- Consolidate photo-classification proposals (P1–P5) into `docs/photo-classification-plan.md`.
+- Email Eduard at fischer_eduard@yahoo.com via Yahoo MCP for crucial blockers (10-min reply window per `feedback_async_email_blocker_protocol.md`).
+- Keep this handoff updated so a fresh session can resume.
+
+**15 dev agents in flight (background):**
+
+| # | Agent ID | Branch | Task |
+|---|---|---|---|
+| A1 | acb79833cf9b243a1 | feat/v1-round6-per-trip-pages | Per-trip travel pages from EXIF clusters + lightbox |
+| A2 | a9d3b579281a68fae | feat/v1-round6-travel-heatmap | Travel map heatmap (chloropleth toggle) |
+| A3 | a567d0b861ccc58b8 | feat/v1-round6-palette-analytics | Palette × theme analytics impl per A21 design |
+| A4 | a50a294c6f59d9af2 | feat/v1-round6-visit-notify-cron | Visit-notification cron per A20 design (PROTO flag) |
+| A5 | ad539e5c76ab943f4 | feat/v1-round6-coverage-tighten | Add tests for thin areas + raise vitest thresholds |
+| A6 | a6bd7784f0c359447 | feat/v1-round6-mdx-shiki | MDX code-snippet highlight (rehype-pretty-code+Shiki) |
+| A7 | abd5ea5e645eda07e | feat/v1-round6-admin-stats | /admin/stats dashboard (ADMIN_SECRET-gated) |
+| A8 | a089ffb6c71ba1b1f | feat/v1-round6-chip-demo-links | Tech-chip → live repo demo link |
+| A9 | ae2d24cec72cbc0ff | feat/v1-round6-contrast-pass | Light-mode WCAG AA pass + token tweaks |
+| A10 | aa9a2175deaff5534 | feat/v1-round6-contact-attach | Contact-form PDF attachment support |
+| A11 | a88c0c4c1aa752253 | feat/v1-round6-safari-fixes | Safari/Webkit CSS fixes per scripts/.round5/A22 |
+| A12 | a53954932eb2b95e2 | feat/v1-round6-tablet-fixes | Tablet+landscape layout fixes per scripts/.round5/A23 |
+| A13 | a6e985b4016210002 | feat/v1-round6-pdf-cv | PDF resume regenerated from MDX (react-pdf) |
+| A14 | a6158b1dd0b5771ce | feat/v1-round6-proto-motion | Animated dividers + scroll-bg + parallax (3 PROTO flags) |
+| A15 | ad7a2d1afb38d130a | feat/v1-round6-test-hardening | Live IMAP MCP assertion + visual regression baselines + R5 verifies |
+
+**5 photo-classification agents in flight (background):**
+
+| # | Agent ID | Slice | Output |
+|---|---|---|---|
+| P1 | aa92aa1bda6f285fc | EXIF year ≤2017 | scripts/.photo-classify/P1/{G,D}-scan.ndjson + proposal.md |
+| P2 | a51ce3320cc8e14c7 | 2018-2020 | scripts/.photo-classify/P2/ |
+| P3 | a74e4ba08cbe83ff5 | 2021-2022 | scripts/.photo-classify/P3/ |
+| P4 | a85913c59bca441d5 | 2023-2024 | scripts/.photo-classify/P4/ |
+| P5 | a26598865d44f5b72 | 2025-2026 + undated | scripts/.photo-classify/P5/ + cross-drive-summary.md (bonus) |
+
+All photo agents do G:\ first, then D:\Portfolio. CATALOG ONLY — no copy/move/commit. PO consolidates into `docs/photo-classification-plan.md` after all return.
+
+**Critical PO follow-ups for next session:**
+1. If session resets mid-run, the agent IDs above can be resumed via `Agent.SendMessage(to=<id>, …)` to check status, OR re-launched fresh if needed.
+2. The dirty `feat/v1-polish-round4` branch (170+ photo deletions = reorg into public/photos/{personal,trips}/, untracked scaffolds, scripts/.round5/* with 52 audit/summary files) needs to land on main before A11/A12 PRs can be reviewed cleanly. PO is committing it as PO triage.
+3. Round 5 follow-ups already queued in `docs/backlog.md` "Round 5 follow-ups" section — most are now in flight via Round 6 agents.
+
 ## Last commits pushed (origin/main) — autonomous PO night-run
 
 - `5b3119b` Merge feat/reading-time-estimator — 200wpm reading-time chip on /writing posts (live: "6 min read" / "4 min read" / "8 min read" verified)

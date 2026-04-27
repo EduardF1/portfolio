@@ -64,3 +64,17 @@ scripts/.exif-raw.ndjson
 # huge and noisy. Re-run locally when needed.
 docs/lighthouse-reports/*.json
 .env*.local
+
+# Scratch dirs from agent runs (Round 4/5 + EXIF tmp)
+scripts/.round4/
+scripts/.tmp-exif/
+scripts/.gposze-*
+scripts/.dportfolio-*
+scripts/.israel-*
+scripts/.catalogue-srcs.txt
+scripts/round4-extension-*.json
+scripts/.round5/agent-*-scratch/
+scripts/.photo-classify/
+
+# Sub-agent worktrees
+.claude/worktrees/

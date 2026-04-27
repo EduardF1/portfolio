@@ -24,16 +24,16 @@
 
 ## Backlog — Eduard fills in (no agent action needed)
 
-- [ ] **Hero About narrative** — replace placeholder paragraphs in About section with Eduard's actual narrative
-- [ ] **"My contribution" sections** in feral-systems article + thesis summary — replace placeholders with Eduard's specific contribution to the co-authored work
+- [x] ~~**Hero About narrative** — replace placeholder paragraphs in About section with Eduard's actual narrative~~ (verified done 2026-04-28 by Round 5 audit — `messages/en.json` + `messages/da.json` `aboutP1`/`aboutP2`/`aboutP3Lead`/`aboutP3LinksHint` are all real prose)
+- [x] ~~**"My contribution" sections** in feral-systems article + thesis summary — replace placeholders with Eduard's specific contribution to the co-authored work~~ (verified done 2026-04-28 by Round 5 audit — both `content/articles/digitalization-of-waste-collection-feral-systems.mdx` and `conceptualization-of-an-audit-management-system.mdx` carry filled `## My contribution` sections)
 - [ ] **Real travel trips** — drop new `.mdx` files into `content/travel/` with frontmatter (location, date, photos). Sample Pisa trip stays as a template.
-- [ ] **Personal page prose** — Football section still uses placeholder grid (BVB game shots TBD); Cars + Travel now have 5 photos from the archive with location-guess captions Eduard should correct.
+- [x] ~~**Personal page prose** — Football section still uses placeholder grid (BVB game shots TBD); Cars + Travel now have 5 photos from the archive with location-guess captions Eduard should correct.~~ (verified done 2026-04-28 by Round 5 audit — Football now renders `/photos/bvb-yellow-wall-suedtribuene.jpg` figure; placeholder grid is gone. Photo-location captions tracked separately below.)
 - [ ] **Recommendations seed entries** — drop `.mdx` files into `content/recommends/` with reading list
 - [ ] **Stats-row final numbers** — update years/projects/countries with Eduard's real numbers (current is approximate)
 - [ ] **GitHub profile bio fields** (name/location/website) — manual at github.com/settings/profile, OR `gh auth refresh -s user` and the PO can do it via API
 - [ ] **Hero video clip** — Eduard approves a Pexels/Coverr/Pixabay reuse-allowed candidate, then PO sets `NEXT_PUBLIC_HERO_VIDEO_MP4` / `…_WEBM` / `…_POSTER` in Vercel env. Compare `?video=A` (flanks) vs. `?video=B` (full-bleed) on the live preview; PO removes the loser.
 - [ ] **Photo location captions** — alt text on `/personal` car + travel photos is marked "(location guess)". Replace with real locations.
-- [ ] **Recommendations carousel — remaining LinkedIn recs** — only 2 of 10 LinkedIn recommendations are wired (Tobias Thisted, Nanna Dohn) plus 2 PDF letters (Niels Svinding/LEGO, Martin Hovbakke/STIL). Drop the other 8 LinkedIn rec quotes into `content/recommends/letters/*.mdx`.
+- [x] ~~**Recommendations carousel — remaining LinkedIn recs** — only 2 of 10 LinkedIn recommendations are wired (Tobias Thisted, Nanna Dohn) plus 2 PDF letters (Niels Svinding/LEGO, Martin Hovbakke/STIL). Drop the other 8 LinkedIn rec quotes into `content/recommends/letters/*.mdx`.~~ (verified done 2026-04-28 by Round 5 audit — `content/recommends/letters/` now has 12 `.mdx` files: tobias-thisted, nanna-dohn, niels-svinding, martin-hovbakke-sorensen, plus claus-hougaard-hansen, daria-maria-pelle, fabian-stefan-bernhardt, jesper-hestkjaer, mathias-stochholm-waehrens, natali-munk-jakobsen, raitis-magone, stefan-daniel-horvath. All loaded by `src/lib/recommendations.ts`.)
 - [ ] **Recommender LinkedIn URLs** — current `linkedinUrl` values fall back to LinkedIn search queries. Replace with the verified profile URLs once you've confirmed the right people.
 - [ ] **Confirm Tobias Thisted's company** — currently set to Netcompany based on the recommendation date alignment; verify and correct if needed.
 
@@ -50,7 +50,7 @@
 - [ ] **Visit-notification email** *(Eduard)* — opt-in per-day digest of unique visitors to fischer_eduard@yahoo.com via a Vercel cron job. Per-visit emails would spam; daily digest is the sane default. Approval needed before shipping.
 - [ ] **Coverage threshold tightening** *(PO)* — coverage now collected and published as a 14-day CI artifact (`coverage/` upload from the validate job). Whole-codebase baseline at 2026-04-26: 36% stmts / 31% branches / 32% funcs / 35% lines (the lower numbers vs. the earlier 58% reading reflect a wider include scope: untested files now count). Thresholds intentionally NOT enforced yet. Re-enable once writing pages, theme provider, video-bg, travel-map, etc. have basic tests.
 - [ ] **`/blog` appbar / nav cluster** *(Eduard)* — **benchmark complete; recommendation: SKIP.** See `docs/audience-benchmark.md` — a "Blog" parent over Personal/Travel/Recommends bundles items with no shared parent in Danish register, lands at the dropdown anti-pattern (3 items in a mobile collapsible), and trips a Janteloven cue ("I have so much content I need to organise it"). Recommended alternative: keep nav flat; if count must drop, demote `/recommends` to footer.
-- [ ] **`/my-story` page** *(Eduard)* — **shell shipped 2026-04-26.** Layout at `src/app/[locale]/my-story/page.tsx` with 8 chapter slots (IBA → VIA → AU → Systematic → Boozt → Greenbyte → Netcompany → Mjølner), each with year-range eyebrow, place, heading, italicised placeholder body for Eduard's prose, optional "Took with me" line. Per-route OG + sitemap entry. Eduard fills prose chapter by chapter, following `docs/audience-benchmark.md` tone constraints.
+- [x] ~~**`/my-story` page** *(Eduard)* — **shell shipped 2026-04-26.** Layout at `src/app/[locale]/my-story/page.tsx` with 8 chapter slots (IBA → VIA → AU → Systematic → Boozt → Greenbyte → Netcompany → Mjølner), each with year-range eyebrow, place, heading, italicised placeholder body for Eduard's prose, optional "Took with me" line. Per-route OG + sitemap entry. Eduard fills prose chapter by chapter, following `docs/audience-benchmark.md` tone constraints.~~ (verified done 2026-04-28 by Round 5 audit — all 10 chapters in `src/app/[locale]/my-story/page.tsx` carry full prose bodies and "Took with me" takeaways; no italicised placeholders remain.)
 - [x] ~~**Tech entries: LinkedIn screenshots + CV ledger pass** *(Eduard)*~~ — shipped 2026-04-26 in `feat/tech-additions-from-artefacts`. Sr Dev C analysed the 5 LinkedIn skills PNGs + CV ledger DOCX (via PowerShell on `word/document.xml`) and produced `docs/tech-pass-from-artefacts.md`. PO added all 22 chip-worthy techs (C, JavaScript, ASP.NET, EF Core, JBoss, Hibernate, Tomcat, JSP, JAX-RS/WS, Behat, Mockery, Guzzle, Lexik, Karma, Jasmine, Jest, Angular Material, Maven, Gradle, Bitbucket, Jira) to `src/lib/tech.ts` and wired the role chip arrays for Netcompany (+aspnet, ef-core, jboss, typescript, jquery), Boozt (+doctrine, behat, mockery, guzzle, phpunit), Systematic (+karma, jasmine, robot-framework). STIL stint detail expanded in Netcompany copy.
 
 ### Architect pass (optional hardening)
@@ -64,6 +64,24 @@
 - [x] ~~Bundle analyzer *(Architect)*~~ — `@next/bundle-analyzer` wired behind `ANALYZE=true npm run build`; off by default.
 - [x] ~~axe-core a11y CI gate *(Architect)*~~ — `e2e/a11y.spec.ts` walks 8 routes; serious/critical fail the run, moderate/minor are advisory in the log.
 - [ ] Live Yahoo IMAP MCP assertion in `e2e/contact-form-yahoo.spec.ts` *(Architect)* — currently the message-arrival check is gated behind `RUN_LIVE_EMAIL=1` and only attaches the expected subject; wire the actual MCP search once IMAP is reliably reachable from CI
+
+### Round 5 follow-ups (2026-04-28)
+
+> Discovered during the 15-agent Round 5 sprint. Each item references its origin agent under `scripts/.round5/` and is queued in arrival order at the bottom of this section.
+
+- [ ] **BVB Playwright route mock** *(Architect)* — A12 flagged: nightly cross-platform matrix hits OpenLigaDB 9× per nightly. A17 added the mock fixture; verify it works after first nightly run.
+- [ ] **Per-route OG images — verification** *(Architect)* — A16 added per-route OG for `/writing`, `/recommends`, `/travel`, `/my-story`. Verify they render in LinkedIn previews after merge.
+- [ ] **Lightbox attribution UI — visual review** *(Architect)* — A18 wired stock-photo attribution; needs visual review at the lightbox to confirm legibility + aesthetic.
+- [ ] **Stock-photo audit (~47 entries)** *(Eduard)* — A14 added Pexels/Unsplash/Pixabay photos to fill thin trip clusters. Eduard should glance through `docs/photo-attributions.md` and swap any photos that don't feel right.
+- [ ] **Cross-platform first-nightly triage** *(Architect)* — A12's nightly workflow has `continue-on-error: true` while burning in. After 5 green nights, flip to `false`. Watch for Webkit/Firefox-specific failures.
+- [ ] **Visual regression baselines for Playwright** *(Architect)* — A12's matrix runs but no screenshot baselines yet. Decide policy + commit baselines after design is stable.
+- [ ] **Safari/Webkit CSS fixes** *(Architect)* — A22's audit punch list at `scripts/.round5/A22-safari-audit.md`. Apply fixes per priority.
+- [ ] **Tablet + landscape layout fixes** *(Architect)* — A23's audit punch list at `scripts/.round5/A23-tablet-landscape-audit.md`. Apply fixes per priority.
+- [ ] **Lightbox UI for stock photos: design review** *(Designer)* — A18's attribution caption needs design pass; subtle vs distracting tradeoff.
+- [ ] **Prototype branch wiring (manual)** *(Eduard)* — see `docs/environments.md`. Create the `prototype` branch, assign `prototype.eduardfischer.dev` in Vercel, add `NEXT_PUBLIC_PROTO_*` envs scoped to Preview only.
+- [ ] **Prototype-flag sweep cleanup** *(Architect, scheduled +2 weeks)* — see "Scheduled agents" below; opens a PR removing dead flags or promoting them to prod.
+- [ ] **Visit-notification email cron** *(Eduard, design review)* — A20 wrote `docs/visit-notification-design.md` + flag-gated scaffold. Eduard reviews, picks SMTP provider, then ships.
+- [ ] **Theme/palette analytics** *(Eduard, design review)* — A21 wrote `docs/palette-analytics-design.md` + flag-gated scaffold. Eduard reviews, then ships.
 
 ### PO + Architect future-features (also queued, at the bottom of the queue)
 
@@ -89,11 +107,21 @@
 - [x] ~~**Styled 404 page** *(PO)*~~ — shipped 2026-04-26: `src/app/[locale]/not-found.tsx` with on-brand suggested-routes grid + contact CTA fallback.
 - [ ] **Contact-form attachment support** *(PO)* — accept a CV / portfolio PDF attachment and forward via Resend. For recruiters with a brief PDF.
 - [x] ~~**Honeypot field on contact form** *(Architect)*~~ — shipped: hidden `<input name="website">` off-screen with `tabIndex={-1}` + `aria-hidden`. Server action silently feigns `status: "ok"` when filled, so bots don't learn the trap.
+- [ ] **Side-section videos** *(Eduard, prototype track)* — short looping videos rendered as bookend visuals on the long-form sections (About, /personal, /writing). Reuse-allowed sources (Pexels/Coverr/Pixabay) only. Behind `NEXT_PUBLIC_PROTO_SIDE_SECTION_VIDEOS=1`. Promote to prod once a winner is picked.
+- [ ] **Hero video full-bleed variant** *(Eduard, prototype track)* — A/B against the current flanked variant. Behind `NEXT_PUBLIC_PROTO_VIDEO_BG_FULL_BLEED=1`. Existing `NEXT_PUBLIC_HERO_VIDEO_*` envs cover the asset; the prototype flag controls which layout renders.
+- [ ] **Animated section dividers** *(PO, prototype track)* — subtle SVG / Lottie / CSS-only motion at section transitions. Behind `NEXT_PUBLIC_PROTO_ANIMATED_DIVIDERS=1`.
+- [ ] **Scroll-driven backgrounds** *(PO, prototype track)* — CSS scroll-driven animations (only Chromium for now, Safari/Firefox fall back gracefully). Behind `NEXT_PUBLIC_PROTO_SCROLL_BG=1`.
+- [ ] **Sticky parallax cards** *(PO, prototype track)* — recommend / case-study cards that pin briefly on scroll. Behind `NEXT_PUBLIC_PROTO_PARALLAX_CARDS=1`.
+
+## Scheduled agents
+
+- **Prototype-flag sweep + cleanup PR** — every 2 weeks, scan `prototype` branch for feature flags older than 2 weeks per the cleanup deadline in `docs/environments.md`. Open a PR removing dead flags or promoting them to prod. First run: 2 weeks after `prototype` branch is created.
 
 ## Process notes
 
 - All new work — Eduard requests, PO additions, Architect proposals, future-features — is **queued at the END of the queue above** in arrival order. Nothing is silently inserted near the top, and there is no separate "ideas" silo: PO/Architect proposals sit in the same queue, just at the bottom (because they were proposed after Eduard's direct asks).
 - Audience-facing copy ideas (sections, taglines, narrative arcs) are **benchmarked against Reddit + Danish-culture articles** before shipping, to verify they hit positively for the local audience.
+- Round 5 (2026-04-28): 15-agent sprint — see `scripts/.round5/` for individual agent summaries.
 
 ## Done
 

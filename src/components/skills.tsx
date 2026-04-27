@@ -20,13 +20,13 @@ function iconUrl(icon: string): string {
   return `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${icon}/${icon}-original.svg`;
 }
 
-function TechTile({ tech }: { tech: Tech }) {
+function TechTile({ tech, tooltipTemplate }: { tech: Tech; tooltipTemplate: string }) {
   return (
     <a
       href={tech.docsUrl}
       target="_blank"
       rel="noopener noreferrer"
-      title={tech.name}
+      title={tooltipTemplate.replace("{name}", tech.name)}
       className="group flex flex-col items-center gap-2 p-4 rounded-md border border-border hover:border-accent transition-colors"
     >
       {tech.icon ? (
@@ -65,11 +65,15 @@ function TechTile({ tech }: { tech: Tech }) {
 
 export function Skills() {
   const t = useTranslations();
+  // Raw template so we can client-side render N tiles without re-translating
+  // for each one — the {name} placeholder is filled in TechTile.
+  const tileTooltipTemplate = t("tooltips.skillsTechTile");
   const groups = techsByCategory();
 
   return (
     <section
       id="skills"
+      title={t("tooltips.skillsHeading")}
       className="@container container-page py-16 md:py-20 border-t border-border/60 scroll-mt-24"
     >
       <div className="grid gap-12 @md:grid-cols-12">
@@ -91,7 +95,11 @@ export function Skills() {
                 </h3>
                 <div className="grid grid-cols-3 @sm:grid-cols-4 @md:grid-cols-6 gap-3">
                   {techs.map((tech) => (
-                    <TechTile key={tech.slug} tech={tech} />
+                    <TechTile
+                      key={tech.slug}
+                      tech={tech}
+                      tooltipTemplate={tileTooltipTemplate}
+                    />
                   ))}
                 </div>
               </div>

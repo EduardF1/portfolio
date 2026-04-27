@@ -95,7 +95,7 @@ export default async function WorkListingOGImage() {
           }}
         >
           <span>Eduard Fischer-Szava · Aarhus</span>
-          <span>Five years across five companies</span>
+          <span>Five years across six companies</span>
         </div>
       </div>
     ),

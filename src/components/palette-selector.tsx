@@ -14,11 +14,13 @@ const KEY_BY_PALETTE: Record<Palette, "schwarzgelb" | "mountainNavy" | "woodsyCa
 export function PaletteSelector() {
   const { palette, setPalette } = usePalette();
   const t = useTranslations("palette");
+  const tt = useTranslations("tooltips");
 
   return (
     <select
       data-testid="palette-selector"
       aria-label={t("label")}
+      title={tt("paletteSelector")}
       value={palette}
       onChange={(event) => setPalette(event.target.value as Palette)}
       className="bg-transparent text-xs text-foreground-subtle hover:text-accent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-sm cursor-pointer"

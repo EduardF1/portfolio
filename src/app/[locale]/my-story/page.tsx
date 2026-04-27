@@ -97,6 +97,7 @@ export default async function MyStoryPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("myStory");
+  const tt = await getTranslations("tooltips");
 
   return (
     <>
@@ -169,7 +170,7 @@ export default async function MyStoryPage({
         id="whats-next"
         className="container-page py-12 pb-24 max-w-3xl scroll-mt-24"
       >
-        <SectionHeading>{t("whatsNext")}</SectionHeading>
+        <SectionHeading tooltip={tt("myStoryWhatsNext")}>{t("whatsNext")}</SectionHeading>
         <p className="mt-6">
           {t.rich("whatsNextLead", {
             now: (chunks) => (

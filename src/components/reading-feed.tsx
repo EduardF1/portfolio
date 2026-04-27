@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { formatDate } from "@/lib/format";
 import {
@@ -8,40 +9,29 @@ import {
 } from "@/lib/reading-feed";
 import { SectionHeading } from "@/components/section-heading";
 
-const SOURCE_HEADINGS: Record<ReadingSource, string> = {
-  devto: "What the wider community is talking about.",
-  hn: "What is on the front page of Hacker News.",
-  all: "Across dev.to and Hacker News.",
-};
-
-const SOURCE_DESCRIPTIONS: Record<ReadingSource, string> = {
-  devto:
-    "Auto-pulled from dev.to, top recent posts on the languages and patterns I work with. Refreshed hourly; only the current year is shown so the list never goes stale.",
-  hn: "Top stories from Hacker News, refreshed hourly. The HN front page is the curation — no per-topic filter.",
-  all: "Merged stream from dev.to and Hacker News, sorted newest first. Refreshed hourly.",
-};
-
 export async function ReadingFeed({
   kicker,
   tooltip,
   source = "devto",
   limit = 6,
 }: {
-  kicker: string;
+  kicker?: string;
   tooltip: string;
   source?: ReadingSource;
   limit?: number;
 }) {
   const items = await getReadingFeed(source, limit);
+  const t = await getTranslations("readingFeed");
+  const resolvedKicker = kicker ?? t("kicker");
 
   return (
     <section className="container-page py-12 pb-24">
       <div className="flex items-end justify-between mb-6 gap-8">
         <div>
-          <SectionHeading kicker={kicker} tooltip={tooltip}>
-            {SOURCE_HEADINGS[source]}
+          <SectionHeading kicker={resolvedKicker} tooltip={tooltip}>
+            {t(`headings.${source}`)}
           </SectionHeading>
-          <p className="mt-4 max-w-xl">{SOURCE_DESCRIPTIONS[source]}</p>
+          <p className="mt-4 max-w-xl">{t(`descriptions.${source}`)}</p>
         </div>
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle text-right shrink-0">
           {READING_SOURCES.find((s) => s.id === source)?.label ?? source}
@@ -49,13 +39,11 @@ export async function ReadingFeed({
         </p>
       </div>
 
-      <SourceTabs current={source} />
+      <SourceTabs current={source} ariaLabel={t("sourceTabsAria")} />
 
       {items.length === 0 ? (
         <div className="rounded-lg border border-dashed border-border p-12 text-center">
-          <p className="text-foreground-subtle">
-            The feed is briefly unavailable. Try again in a moment.
-          </p>
+          <p className="text-foreground-subtle">{t("unavailable")}</p>
         </div>
       ) : (
         <ul className="divide-y divide-border/60 border-y border-border/60">
@@ -83,7 +71,8 @@ export async function ReadingFeed({
                       </span>
                     )}
                     {item.author}
-                    {item.readingMinutes && ` · ${item.readingMinutes} min read`}
+                    {item.readingMinutes &&
+                      ` · ${t("readingMinutes", { count: item.readingMinutes })}`}
                     {item.tags.length > 0 &&
                       ` · ${item.tags.slice(0, 3).join(" · ")}`}
                   </p>
@@ -101,10 +90,16 @@ export async function ReadingFeed({
   );
 }
 
-function SourceTabs({ current }: { current: ReadingSource }) {
+function SourceTabs({
+  current,
+  ariaLabel,
+}: {
+  current: ReadingSource;
+  ariaLabel: string;
+}) {
   return (
     <nav
-      aria-label="Reading feed source"
+      aria-label={ariaLabel}
       className="mb-6 flex flex-wrap gap-2 border-b border-border/60 pb-3"
     >
       {READING_SOURCES.map((s) => {

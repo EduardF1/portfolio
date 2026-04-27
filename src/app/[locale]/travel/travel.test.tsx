@@ -109,4 +109,33 @@ describe("TravelPage i18n", () => {
       screen.getByText(/Se den kulinariske side af rejserne/),
     ).toBeInTheDocument();
   });
+
+  it("does not render any 'Latest:' highlight pill in the country grid", async () => {
+    localeMock.current = "en";
+    render(await TravelPage({ params: Promise.resolve({ locale: "en" }) }));
+    // The old viewLatestTrip pill rendered "Latest: …, … (N photos)";
+    // its key has been removed and replaced with a plain "See trip →".
+    expect(screen.queryByText(/^Latest:/)).not.toBeInTheDocument();
+  });
+
+  it("renders an 'All trips' kicker (no longer 'Recent trips')", async () => {
+    localeMock.current = "en";
+    render(await TravelPage({ params: Promise.resolve({ locale: "en" }) }));
+    // The new section is keyed off allTripsKicker; the old recentTripsKicker
+    // ("Recent trips" / "Latest from the road") is gone.
+    expect(screen.queryByText(/Recent trips/)).not.toBeInTheDocument();
+    expect(screen.queryByText(/Latest from the road/)).not.toBeInTheDocument();
+  });
+
+  it("renders 'See trip' affordance on country tiles when a trip exists", async () => {
+    localeMock.current = "en";
+    render(await TravelPage({ params: Promise.resolve({ locale: "en" }) }));
+    // At least one country with a clustered trip should expose the link.
+    const links = screen.getAllByRole("link", { name: /^See trip\b/ });
+    expect(links.length).toBeGreaterThan(0);
+    // Each link should target a trip-details route.
+    for (const a of links) {
+      expect(a.getAttribute("href")).toMatch(/^\/travel\/photos\//);
+    }
+  });
 });
