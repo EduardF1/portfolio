@@ -241,12 +241,12 @@ function Experience() {
     {
       company: "Mjølner Informatics",
       url: "https://mjolner.dk/en/",
-      role: "Software Engineer / Consultant",
+      role: "Frontend Engineer / Consultant",
       period: "Apr 2026 – Present",
       location: "Aarhus, Denmark",
       summary:
-        ".NET back-end engineering on business-critical software for Danish enterprise and public-sector clients. REST APIs, CI/CD, and test automation alongside the consulting practice.",
-      tech: ["csharp", "dotnet", "azure-devops"],
+        "Frontend engineering on business-critical software for Danish enterprise and public-sector clients, with backend work alongside as the brief calls for it.",
+      tech: ["typescript", "react", "angular", "csharp", "dotnet"],
     },
     {
       company: "Netcompany",
@@ -260,7 +260,7 @@ function Experience() {
           {", Denmark's administrative election platform. Full-stack C#/.NET + Angular. Jun–Sep 2025 stint at "}
           <ProductLink href="https://www.stil.dk/">STIL</ProductLink>
           {" on "}
-          <ProductLink href="https://www.ua.dk/">UA.dk</ProductLink>
+          <ProductLink href="https://uddannelsesadministration.dk/forside.aspx">UA.dk</ProductLink>
           {" EUD III, building a reusable UI component catalog on JBoss + TypeScript + jQuery."}
         </>
       ),
@@ -268,15 +268,15 @@ function Experience() {
     },
     {
       company: "Greenbyte",
-      url: "https://www.greenbyte.com/",
+      url: "https://www.greenbyte.dk/",
       role: "Software Engineer",
       period: "Nov 2021 – Sep 2024",
       location: "Horsens, Denmark",
       summary: (
         <>
           {"Renewable-energy SaaS, "}
-          <ProductLink href="https://www.greenbyte.com/breeze">Greenbyte Breeze</ProductLink>
-          {". .NET Core + EF Core + React. Architect and lead developer of the Flutter mobile companion app."}
+          <ProductLink href="https://www.greenbyte.dk/produkter/kalenda/">Kalenda</ProductLink>
+          {", part of Greenbyte's renewable-energy SaaS suite. .NET Core + EF Core + React on the platform side; architect and lead developer of the mobile companion app."}
         </>
       ),
       tech: ["dotnet", "react", "flutter", "dart"],

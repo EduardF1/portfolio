@@ -188,6 +188,7 @@
     "tripCount": "{count, plural, one {# trip} other {# trips}}",
     "all": "All trips",
     "viewTrips": "View trips",
+    "viewLatestTrip": "Latest: {city}, {month} ({count, plural, one {# photo} other {# photos}})",
     "recentTripsKicker": "Recent trips",
     "recentTripsHeading": "Latest from the road",
     "byCountry": "By country",

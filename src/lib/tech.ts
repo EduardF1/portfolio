@@ -694,7 +694,7 @@ export const TECHS: readonly Tech[] = [
     docsUrl: "https://jestjs.io/docs/getting-started",
     description:
       "Jest is the JavaScript testing framework maintained by Meta. Snapshot testing, isolated worker processes, and zero-config defaults — the standard choice for React and Node.js codebases.",
-    icon: "jest",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
     ghLanguage: "JavaScript",
   },
 
@@ -935,7 +935,7 @@ export const TECHS: readonly Tech[] = [
     docsUrl: "https://maven.apache.org/guides/index.html",
     description:
       "Maven is the long-running JVM build and dependency-management tool. Convention-over-configuration via POM XML, central repository for transitive dependencies, lifecycle phases for compile/test/package/deploy.",
-    icon: "apachemaven",
+    icon: "maven",
     ghLanguage: "Java",
     aliases: ["mvn"],
   },

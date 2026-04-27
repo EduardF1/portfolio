@@ -28,4 +28,27 @@ The work suits how I prefer to operate: small daily commitments, careful trade-o
 
 ## My contribution
 
-I worked across the election-critical and educational platforms in the programme: VC, VCA, VDK, Valg Driftssite, Valg EduAdmin, Valg Infosite, Valg Lokal, and NCSCE. The remit covered backend, frontend, documentation, system design and testing on Denmark's public-sector digital infrastructure. On KMT Valg specifically I delivered features and fixes across 100+ pull requests covering domain logic, integrations and UI behaviour, and contributed to stability and workflow improvements on the NCSCE senior election platform alongside it. I expanded the automated test surface using EF Core test databases, mocks and domain-validation patterns for unit and integration coverage, and added Playwright tests for front-end and cross-browser validation; performance-critical features were exercised on pre-production against real datasets in the order of five million records. Around the code I updated 60+ functional and non-functional design specifications, wrote customer-facing change requests with estimations, scope and acceptance criteria, and kept managers, testers, POs, developers and Scrum Masters aligned through clarification meetings and specification reviews. From June to September 2025 I was loaned to STIL on EUD3, UADK and Uddannelse.dk (JBoss, jQuery, TypeScript and Oracle SQL Developer), where I designed a reusable UI component catalog to standardise front-end behaviour across those platforms.
+I worked across the election-critical and educational platforms in the programme: VC, VCA, VDK, Valg Driftssite, Valg EduAdmin, Valg Infosite, Valg Lokal, and NCSCE. The remit covered backend, frontend, documentation, system design and testing on Denmark's public-sector digital infrastructure. I expanded the automated test surface using EF Core test databases, mocks and domain-validation patterns for unit and integration coverage, and added Playwright tests for front-end and cross-browser validation; performance-critical features were exercised on pre-production against realistic datasets in the order of five million records (the DAO receipt flow, in particular). Around the code I kept managers, testers, POs, developers and Scrum Masters aligned through clarification meetings and specification reviews, supported the implementation teams with root-cause analysis on production issues, and stepped in to lead the daily stand-up on occasions where the Tech Lead or Scrum Master was absent.
+
+## By the numbers
+
+- **~100 pull requests across the KMT Valg ecosystem** (VC, VL, VDK, VCA): roughly 20 features and 80 bug fixes covering domain logic, integrations, and UI behaviour.
+- **12 pull requests on NCSCE** (1 feature, 11 bug fixes), the senior election platform that sits alongside KMT Valg.
+- **60 design specifications** updated or written, spanning functional (complex logic, data models) and non-functional (UI behaviour) work.
+- **8 customer Change Requests** scoped, estimated and priced (CRs 86, 87, 100, 109, 110, 112, 113, 116). I led a customer-facing demo coordinating four of them (109, 110, 112, 113) end-to-end.
+- **100+ automated tests** added against the 3A standard (Arrange–Act–Assert), across unit and integration layers, plus Playwright coverage for UI flows.
+- **Several successful releases** delivered through validation, regression checks and release-window discipline.
+
+## Stack and tooling
+
+C# / .NET 8, Entity Framework Core (with migrations), Angular 17 + TypeScript, Angular Material, RxJS, MS SQL Server, Azure DevOps for source control, pipelines and work tracking, Docker for local infrastructure (CouchDB, PostgreSQL, a CPR mock, PDF generation, Keycloak, adminer, nginx), SonarQube for static analysis, Splunk for log analysis, Hangfire for background jobs, DBeaver and JetBrains DataGrip for database work, and Toolkit, Netcompany's SharePoint-based quality assurance and project management system. Architecture-wise the platform leans on Clean Architecture with CQRS, repository separation between read and write paths, and a domain-driven model of elections, candidates, districts and votes. Integrations include CPR, Datafordeler, Dataforsyningen (DAWA), SFTP, NemSMS and Service Platform tokens; authentication uses OAuth2 / OIDC via `angular-oauth2-oidc`. I also attended Netcompany internal courses during the engagement: an introduction to AI and prompt engineering, Understanding the Client's Business and Customer Relations, the Technology, Code & Craftsmanship Seminar, and a week-long Customer Engagement Seminar.
+
+## STIL stint, Jun – Sep 2025
+
+For four months I was loaned to STIL (Styrelsen for IT og Læring) and contributed to UADK ([uddannelsesadministration.dk](https://uddannelsesadministration.dk/forside.aspx)), CØSA and Uddannelser. The work amounted to:
+
+- **40 pull requests** (20 features, 20 bug fixes) across UADK, CØSA and Uddannelser.
+- **Lead** on the design and implementation of a reusable UI component catalog to standardise front-end behaviour and design across the three platforms.
+- **Two successful releases** delivered, plus PI planning sessions, feature kick-offs and brainstorming, stakeholder meetings, JIRA and Confluence as the working tools.
+- **Stack:** jQuery, JavaScript / TypeScript, tinyMCE, Oracle SQL on the legacy surface; Angular and Java version migrations on the platforms moving forward; JBoss as the application server (Uddannelser ran on JBoss master in Docker containers).
+- **Sparring and coaching** on the team alongside the delivery work.

@@ -20,10 +20,10 @@ export default async function OGImage() {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "80px 96px",
-          backgroundColor: "#C25D3F",
+          backgroundColor: "#0F172A",
           backgroundImage:
-            "radial-gradient(circle at 75% 25%, #d97a5c 0%, #C25D3F 55%, #a04429 100%)",
-          color: "#FAF9F5",
+            "radial-gradient(circle at 78% 22%, #1E3A5F 0%, #0F172A 55%, #060A14 100%)",
+          color: "#E2E8F0",
           fontFamily: "Georgia, serif",
         }}
       >
@@ -36,7 +36,7 @@ export default async function OGImage() {
             letterSpacing: 6,
             textTransform: "uppercase",
             fontFamily: "system-ui, sans-serif",
-            color: "rgba(250, 249, 245, 0.85)",
+            color: "rgba(226, 232, 240, 0.85)",
           }}
         >
           <div
@@ -44,8 +44,8 @@ export default async function OGImage() {
               width: 44,
               height: 44,
               borderRadius: 8,
-              backgroundColor: "rgba(250, 249, 245, 0.95)",
-              color: "#C25D3F",
+              backgroundColor: "#22D3EE",
+              color: "#0F172A",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -76,7 +76,7 @@ export default async function OGImage() {
               fontSize: 36,
               lineHeight: 1.25,
               fontStyle: "italic",
-              color: "rgba(250, 249, 245, 0.92)",
+              color: "#22D3EE",
               maxWidth: 920,
             }}
           >
@@ -93,7 +93,7 @@ export default async function OGImage() {
             letterSpacing: 4,
             textTransform: "uppercase",
             fontFamily: "system-ui, sans-serif",
-            color: "rgba(250, 249, 245, 0.8)",
+            color: "rgba(226, 232, 240, 0.75)",
           }}
         >
           <span>Aarhus · Mjølner Informatics</span>

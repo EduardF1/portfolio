@@ -3,10 +3,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/section-heading";
 import { TravelEuropeMap } from "@/components/travel-europe-map";
-import { getCollection } from "@/lib/content";
 import { getTravelDestinations } from "@/lib/travel-locations";
 import { getTrips } from "@/lib/trips";
-import { formatDate } from "@/lib/format";
 import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 export const metadata = { title: "Travel" };
@@ -21,8 +19,7 @@ export default async function TravelPage({
 
   const t = await getTranslations("travel");
   const tt = await getTranslations("tooltips");
-  const [trips, destinations, photoTrips] = await Promise.all([
-    getCollection("travel"),
+  const [destinations, photoTrips] = await Promise.all([
     getTravelDestinations(),
     getTrips(),
   ]);
@@ -73,7 +70,7 @@ export default async function TravelPage({
             {t("byCountry")}
           </h2>
           <ul
-            className={`grid gap-px bg-border/60 ${responsiveGridColsClass(destinations.length)} rounded-lg overflow-hidden`}
+            className="grid gap-px bg-border/60 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 rounded-lg overflow-hidden"
           >
             {destinations.map((d) => {
               const latest = latestByCountry.get(d.country);
@@ -98,7 +95,12 @@ export default async function TravelPage({
                       href={`/travel/photos/${latest.slug}`}
                       className="mt-4 inline-flex items-center gap-1 text-sm text-accent hover:underline"
                     >
-                      {t("viewTrips")} <span aria-hidden="true">→</span>
+                      {t("viewLatestTrip", {
+                        city: latest.primaryCity ?? latest.country,
+                        month: latest.monthLabel,
+                        count: latest.photoCount,
+                      })}{" "}
+                      <span aria-hidden="true">→</span>
                     </Link>
                   )}
                 </li>
@@ -157,61 +159,6 @@ export default async function TravelPage({
         </section>
       )}
 
-      <section className="container-page pb-24">
-        <div className="flex items-end justify-between mb-8">
-          <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-            {t("tripCount", { count: trips.length })}
-          </p>
-        </div>
-
-        {trips.length === 0 ? (
-          <div className="rounded-lg border border-dashed border-border p-12 text-center">
-            <p className="text-foreground-subtle">{t("noTrips")}</p>
-          </div>
-        ) : (
-          <ul
-            className={`grid gap-px bg-border/60 ${responsiveGridColsClass(trips.length)} rounded-lg overflow-hidden`}
-          >
-            {trips.map((trip) => {
-              const location =
-                typeof trip.frontmatter.location === "string"
-                  ? trip.frontmatter.location
-                  : null;
-              const country =
-                typeof trip.frontmatter.country === "string"
-                  ? trip.frontmatter.country
-                  : null;
-              const summary =
-                typeof trip.frontmatter.summary === "string"
-                  ? trip.frontmatter.summary
-                  : null;
-
-              return (
-                <li key={trip.slug} className="bg-background">
-                  <Link
-                    href={`/travel/${trip.slug}`}
-                    className="group flex h-full flex-col p-8 transition-colors hover:bg-surface"
-                  >
-                    <h3 className="group-hover:text-accent transition-colors">
-                      {trip.frontmatter.title}
-                    </h3>
-                    <p className="mt-3 font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-                      {[location, country, formatDate(trip.frontmatter.date)]
-                        .filter(Boolean)
-                        .join(" · ")}
-                    </p>
-                    {summary && (
-                      <p className="mt-4 flex-1 text-foreground-muted">
-                        {summary}
-                      </p>
-                    )}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-        )}
-      </section>
     </>
   );
 }

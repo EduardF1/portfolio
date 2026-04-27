@@ -1,0 +1,42 @@
+---
+title: "Three-tier thinking, and why it still pays"
+date: "2026-04-27"
+description: "A pattern from the 1970s keeps earning its keep, even in codebases where the framework happily lets you ignore it."
+tags: ["architecture", "patterns", "engineering"]
+---
+
+The three-tier split is older than most of the people now writing applications, and it keeps earning its keep. Modern frameworks make it trivial to put a SQL query, a domain rule and a piece of markup in the same file, and there are days when that is exactly the right call. The interesting question is when it stops being the right call, and what it costs to find out late.
+
+## The three tiers, plainly
+
+**Data.** Storage, persistence and integrity. Tables, indices, ORM mappings, repositories, migrations. The layer that owns the question "what is true right now, and how do we keep it that way after a crash". SQL or NoSQL, EF Core or Hibernate, the responsibility is the same.
+
+**Business logic.** The rules, validations, decisions and orchestration that make the system actually do something specific to the domain. A note can only be edited by the session that holds its lock. A booking cannot start in the past. A vote, once cast, cannot be unsubmitted. This is the bit that is worth writing carefully because it is the bit that is genuinely yours.
+
+**Presentation.** Rendering, formatting, user input, error display. UI components, API response shapes, CLI output, exported PDFs. The layer that translates the domain into something a person or another system can read.
+
+The point of separating them is not aesthetic. It is that each tier has different reasons to change, and mixing them couples those reasons together until any change touches all three.
+
+## Why people skip it
+
+Tightly coupled code ships fast on day one. A Next.js route handler that opens a database connection, validates an input, applies a discount, formats a currency and returns JSX is shorter than the same logic split into a repository, a service, a DTO and a component. For a prototype, an internal admin tool, a weekend script, that brevity is worth more than the abstraction. There is no shame in that trade.
+
+It bites later, in three predictable places. Testing: the discount rule cannot be exercised without spinning up a database and a render context. Team scaling: two people cannot work on rules and presentation in parallel without merge conflicts. Migration: when the next framework arrives, the rules have to be excavated from JSX before they can be moved. None of those costs show up on day one, which is what makes the trade dangerous rather than wrong.
+
+## What this looks like in real codebases
+
+Three of my own repos sit at different points on this curve, and the structure tells the story.
+
+[`booking-platform-dotnet-roadmap`](https://github.com/EduardF1/booking-platform-dotnet-roadmap) is the strict end. It is a .NET 10 learning project organised into feature folders (`Auth`, `Vehicles`, `Health`) under `src/Booking.Api`, with separate `tests` and `Migrations` directories alongside. Inside each feature, persistence, rules and request shapes are kept distinct rather than collapsed into a single handler. It is more files than the same functionality would need in a small Express app, and that is the trade-off chosen on purpose — the project exists to practice the layering, not to win on line count.
+
+[`bankdata-challenge`](https://github.com/EduardF1/bankdata-challenge) takes the same idea into the Spring Boot world: a `backend/banking-application` Maven module sitting under `dk.bankdata.*` packages, paired with a separate `frontend` and a `bank-infra` directory. Repositories, services, controllers and DTOs live in their own packages so a CQRS read path and a write path can evolve without stepping on each other. The cost is real — a feature touches more files — and the benefit is that the domain rules are testable without bringing up the web stack.
+
+[`adversus-interview-assignment`](https://github.com/EduardF1/adversus-interview-assignment) is the deliberate opposite. The whole backend is a handful of TypeScript files (`app.ts`, `db.ts`, `locks.ts`, `server.ts`) on top of Fastify and MySQL. The brief was per-resource edit locking with TTL expiry and atomic acquisition, and the layering would have added more files than insight at that scale. The locking rule lives close to the SQL that enforces it, on purpose. It would be the wrong shape for a system that had to grow another twenty endpoints; it is the right shape for what the assignment was.
+
+The contrast is the lesson. Strict layering is not a virtue in itself, and a flat module is not a sin. The question is which of the three pressures — testability, parallel work, future migration — the codebase is going to face, and how soon.
+
+## When to apply this strictly, and when to relax
+
+The work that has trained my instincts here is mostly on the strict end: election platforms in the KMT Valg ecosystem, the NCSCE senior election system, the SitaWare defence suite at Systematic, the LEGO audit-platform concept. Systems where the rules outlive the UI by a decade and a regulator will eventually ask which line of code applied which rule on which date. In those systems the layers are not optional; they are how the answer stays cheap to give.
+
+The other end — the small Symfony movies app, the Express cars CRUD, the weekend repos — is where the three tiers should blur on purpose. A tool that exists for one person for one week does not need a repository interface. The pragmatic rule: separate the tiers when the rules are going to outlive the framework, and let them blur when they are not. If `repository.findById()` is calling `console.log` for telemetry, the layers have already collapsed; whether to fix it depends on whether the code is going to be there next year.

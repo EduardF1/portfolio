@@ -188,6 +188,7 @@
     "tripCount": "{count, plural, one {# rejse} other {# rejser}}",
     "all": "Alle rejser",
     "viewTrips": "Se rejser",
+    "viewLatestTrip": "Seneste: {city}, {month} ({count, plural, one {# foto} other {# fotos}})",
     "recentTripsKicker": "Seneste rejser",
     "recentTripsHeading": "Nyt fra vejen",
     "byCountry": "Efter land",
