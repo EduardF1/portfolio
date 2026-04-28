@@ -1,0 +1,146 @@
+[
+  {
+    "checkIn": "2026-03-12",
+    "checkOut": "2026-03-13",
+    "type": "Apartment",
+    "city": "Gehrden",
+    "country": "Germany",
+    "tripSlug": "2026-03-balkans-roadtrip"
+  },
+  {
+    "checkIn": "2026-03-13",
+    "checkOut": "2026-03-14",
+    "type": "Apartment",
+    "city": "Prague 5",
+    "country": "Czechia",
+    "tripSlug": "2026-03-balkans-roadtrip"
+  },
+  {
+    "checkIn": "2026-03-14",
+    "checkOut": "2026-03-15",
+    "type": "Apartment",
+    "city": "Vecsés",
+    "country": "Hungary",
+    "tripSlug": "2026-03-balkans-roadtrip"
+  },
+  {
+    "checkIn": "2026-03-15",
+    "checkOut": "2026-03-16",
+    "type": "Condominium",
+    "city": "Sibiu",
+    "country": "Romania",
+    "tripSlug": "2026-03-balkans-roadtrip"
+  },
+  {
+    "checkIn": "2026-03-22",
+    "checkOut": "2026-03-23",
+    "type": "Cottage",
+    "city": "Korbovo",
+    "country": "Serbia",
+    "tripSlug": "2026-03-balkans-roadtrip"
+  },
+  {
+    "checkIn": "2026-03-23",
+    "checkOut": "2026-03-24",
+    "type": "Apartment",
+    "city": "Belgrade",
+    "country": "Serbia",
+    "tripSlug": "2026-03-balkans-roadtrip"
+  },
+  {
+    "checkIn": "2026-03-24",
+    "checkOut": "2026-03-25",
+    "type": "Apartment",
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "tripSlug": "2026-03-balkans-roadtrip"
+  },
+  {
+    "checkIn": "2026-03-25",
+    "checkOut": "2026-03-26",
+    "type": "Condominium",
+    "city": "Trieste",
+    "country": "Italy",
+    "tripSlug": "2026-03-balkans-roadtrip"
+  },
+  {
+    "checkIn": "2026-03-26",
+    "checkOut": "2026-03-27",
+    "type": "Apartment",
+    "city": "Munich",
+    "country": "Germany",
+    "tripSlug": "2026-03-balkans-roadtrip"
+  },
+  {
+    "checkIn": "2026-03-27",
+    "checkOut": "2026-03-28",
+    "type": "Apartment",
+    "city": "Greifenberg",
+    "country": "Germany",
+    "tripSlug": "2026-03-balkans-roadtrip"
+  },
+  {
+    "checkIn": "2026-03-28",
+    "checkOut": "2026-03-29",
+    "type": "Apartment",
+    "city": "Fuldatal",
+    "country": "Germany",
+    "tripSlug": "2026-03-balkans-roadtrip"
+  },
+  {
+    "checkIn": "2025-04-12",
+    "checkOut": "2025-04-14",
+    "type": "House",
+    "city": "Himberg",
+    "country": "Austria",
+    "tripSlug": "2025-04-czechia-poland-slovakia-austria"
+  },
+  {
+    "checkIn": "2025-04-14",
+    "checkOut": "2025-04-16",
+    "type": "Apartment",
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "tripSlug": "2025-04-czechia-poland-slovakia-austria"
+  },
+  {
+    "checkIn": "2025-04-16",
+    "checkOut": "2025-04-20",
+    "type": "Chalet",
+    "city": "Murzasichle",
+    "country": "Poland",
+    "tripSlug": "2025-04-czechia-poland-slovakia-austria"
+  },
+  {
+    "checkIn": "2025-04-22",
+    "checkOut": "2025-04-24",
+    "type": "Apartment",
+    "city": "Ruda Śląska",
+    "country": "Poland",
+    "tripSlug": "2025-04-czechia-poland-slovakia-austria"
+  },
+  {
+    "checkIn": "2025-04-24",
+    "checkOut": "2025-04-26",
+    "type": "Serviced apartment",
+    "city": "Brno-střed",
+    "country": "Czechia",
+    "tripSlug": "2025-04-czechia-poland-slovakia-austria"
+  },
+  {
+    "checkIn": "2018-11-02",
+    "checkOut": "2018-11-03",
+    "type": "House",
+    "city": "Kellinghusen",
+    "country": "Germany",
+    "tripSlug": null
+  },
+  {
+    "checkIn": "2018-11-16",
+    "checkOut": "2018-11-17",
+    "type": "Apartment",
+    "city": "București",
+    "country": "Romania",
+    "tripSlug": null
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "src": "trips/2019-07-belgium/pexels-brussels-grand-place-statue-20595735.jpg",
+    "reason": "Pexels stock: brussels grand place statue; figural sculpture is the subject",
+    "matchedRule": "filename:statue"
+  },
+  {
+    "src": "trips/2019-07-luxembourg/pexels-luxembourg-gothic-revival-30217826.jpg",
+    "reason": "Pexels stock: luxembourg gothic revival; gothic-revival facade with figural ornament",
+    "matchedRule": "filename:gothic-revival"
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-kavala-castle-waterfront-34030677.jpg",
+    "reason": "Pexels stock: kavala castle waterfront; castle facade with figural ornament",
+    "matchedRule": "filename:castle"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-randers-haslund-church-winter-6526779.jpg",
+    "reason": "Pexels stock: randers haslund church winter; church facade with figural ornament",
+    "matchedRule": "filename:church"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-aarhus-cathedral-harbor-15796451.jpg",
+    "reason": "Pexels stock: aarhus cathedral harbor; cathedral facade with carved figures and saints",
+    "matchedRule": "filename:cathedral"
+  },
+  {
+    "src": "trips/2022-12-romania/pexels-bucharest-arcul-de-triumf-night-31829727.jpg",
+    "reason": "Pexels stock: bucharest arcul de triumf night; Bucharest Arcul de Triumf, relief sculpture",
+    "matchedRule": "filename:arcul-de-triumf"
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-autumn-18703684.jpg",
+    "reason": "Pexels stock: sinaia peles castle autumn; castle facade with figural ornament",
+    "matchedRule": "filename:castle"
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-summer-5651718.jpg",
+    "reason": "Pexels stock: sinaia peles castle summer; castle facade with figural ornament",
+    "matchedRule": "filename:castle"
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-brasov-black-church-snow-35380540.jpg",
+    "reason": "Pexels stock: brasov black church snow; church facade with figural ornament",
+    "matchedRule": "filename:church"
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-saranda-lekursi-castle-33067851.jpg",
+    "reason": "Pexels stock: saranda lekursi castle; castle facade with figural ornament",
+    "matchedRule": "filename:castle"
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-gjirokastra-fortress-flag-11932455.jpg",
+    "reason": "Pexels stock: gjirokastra fortress flag; fortress walls; possible figural relief or flag-bearer figures",
+    "matchedRule": "filename:fortress"
+  },
+  {
+    "src": "trips/2025-02-finland/pexels-helsinki-cathedral-dusk-2311602.jpg",
+    "reason": "Pexels stock: helsinki cathedral dusk; cathedral facade with carved figures and saints",
+    "matchedRule": "filename:cathedral"
+  },
+  {
+    "src": "trips/2025-03-romania/pexels-bucharest-triumphal-arch-night-30210641.jpg",
+    "reason": "Pexels stock: bucharest triumphal arch night; triumphal arch with relief sculpture",
+    "matchedRule": "filename:triumph"
+  },
+  {
+    "src": "trips/2022-12-romania/pexels-bucharest-odeon-theatre-8780208.jpg",
+    "reason": "Pexels stock: bucharest odeon theatre; theatre facade with classical figures",
+    "matchedRule": "filename:odeon-theatre"
+  },
+  {
+    "src": "trips/2025-03-romania/pexels-bucharest-neoclassical-tenement-17066982.jpg",
+    "reason": "Pexels stock: bucharest neoclassical tenement; neoclassical facade with figures and reliefs",
+    "matchedRule": "filename:neoclassical"
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-brasov-black-church-aerial-35410900.jpg",
+    "reason": "Pexels stock: brasov black church aerial; church facade with figural ornament",
+    "matchedRule": "filename:church"
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230826122922.jpg",
+    "reason": "Sinaia — Peles Castle area; carved wooden and stone figures",
+    "matchedRule": "place.city=Sinaia"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413153050.jpg",
+    "reason": "Vienna — Schloss Belvedere palace and gardens (sphinx and putti statues)",
+    "matchedRule": "gps:Belvedere"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413153729.jpg",
+    "reason": "Vienna — Schloss Belvedere palace and gardens (sphinx and putti statues)",
+    "matchedRule": "gps:Belvedere"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413153947.jpg",
+    "reason": "Vienna — Schloss Belvedere palace and gardens (sphinx and putti statues)",
+    "matchedRule": "gps:Belvedere"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413154619.jpg",
+    "reason": "Vienna — Schloss Belvedere palace and gardens (sphinx and putti statues)",
+    "matchedRule": "gps:Belvedere"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413160631.jpg",
+    "reason": "Vienna — Schloss Belvedere palace and gardens (sphinx and putti statues)",
+    "matchedRule": "gps:Belvedere"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413162256.jpg",
+    "reason": "Vienna — Schloss Belvedere palace and gardens (sphinx and putti statues)",
+    "matchedRule": "gps:Belvedere"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413162629.jpg",
+    "reason": "Vienna — Schloss Belvedere palace and gardens (sphinx and putti statues)",
+    "matchedRule": "gps:Belvedere"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421142055.jpg",
+    "reason": "Auschwitz-Birkenau memorial — sensitive site; inpainting unsafe",
+    "matchedRule": "place.city=Brzezinka|Oświęcim"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421152958.jpg",
+    "reason": "Auschwitz-Birkenau memorial — sensitive site; inpainting unsafe",
+    "matchedRule": "place.city=Brzezinka|Oświęcim"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421173744.jpg",
+    "reason": "Auschwitz-Birkenau memorial — sensitive site; inpainting unsafe",
+    "matchedRule": "place.city=Brzezinka|Oświęcim"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260325161408.jpg",
+    "reason": "Grad Pula — Roman amphitheatre + anti-fascist bronze memorial (PR #41 catastrophe)",
+    "matchedRule": "place.city=Grad Pula"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260325161728.jpg",
+    "reason": "Grad Pula — Roman amphitheatre + anti-fascist bronze memorial (PR #41 catastrophe)",
+    "matchedRule": "place.city=Grad Pula"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260325161747.jpg",
+    "reason": "Grad Pula — Roman amphitheatre + anti-fascist bronze memorial (PR #41 catastrophe)",
+    "matchedRule": "place.city=Grad Pula"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260325162646.jpg",
+    "reason": "Grad Pula — Roman amphitheatre + anti-fascist bronze memorial (PR #41 catastrophe)",
+    "matchedRule": "place.city=Grad Pula"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260325164444.jpg",
+    "reason": "Grad Pula — Roman amphitheatre + anti-fascist bronze memorial (PR #41 catastrophe)",
+    "matchedRule": "place.city=Grad Pula"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260325214613.jpg",
+    "reason": "Trieste — neoclassical statues on piazze (PR #41 catastrophe)",
+    "matchedRule": "place.city=Trieste"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260325214640_01.jpg",
+    "reason": "Trieste — neoclassical statues on piazze (PR #41 catastrophe)",
+    "matchedRule": "place.city=Trieste"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260325224918.jpg",
+    "reason": "Trieste — neoclassical statues on piazze (PR #41 catastrophe)",
+    "matchedRule": "place.city=Trieste"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260326132151.jpg",
+    "reason": "Trieste — neoclassical statues on piazze (PR #41 catastrophe)",
+    "matchedRule": "place.city=Trieste"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260326132559.jpg",
+    "reason": "Trieste — neoclassical statues on piazze (PR #41 catastrophe)",
+    "matchedRule": "place.city=Trieste"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260326133320.jpg",
+    "reason": "Trieste — neoclassical statues on piazze (PR #41 catastrophe)",
+    "matchedRule": "place.city=Trieste"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260326133323.jpg",
+    "reason": "Trieste — neoclassical statues on piazze (PR #41 catastrophe)",
+    "matchedRule": "place.city=Trieste"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260326133913.jpg",
+    "reason": "Trieste — neoclassical statues on piazze (PR #41 catastrophe)",
+    "matchedRule": "place.city=Trieste"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260326134738.jpg",
+    "reason": "Trieste — neoclassical statues on piazze (PR #41 catastrophe)",
+    "matchedRule": "place.city=Trieste"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260327142450.jpg",
+    "reason": "Schwangau — Neuschwanstein castle facade with decorative figures",
+    "matchedRule": "place.city=Schwangau"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260327155801.jpg",
+    "reason": "Schwangau — Neuschwanstein castle facade with decorative figures",
+    "matchedRule": "place.city=Schwangau"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260327162429.jpg",
+    "reason": "Schwangau — Neuschwanstein castle facade with decorative figures",
+    "matchedRule": "place.city=Schwangau"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260327163656.jpg",
+    "reason": "Schwangau — Neuschwanstein castle facade with decorative figures",
+    "matchedRule": "place.city=Schwangau"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260327171102.jpg",
+    "reason": "Schwangau — Neuschwanstein castle facade with decorative figures",
+    "matchedRule": "place.city=Schwangau"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260328135215.jpg",
+    "reason": "Dachau KZ memorial — sensitive site; sculptural memorial in frame",
+    "matchedRule": "place.city=Dachau"
+  }
+]

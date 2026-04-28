@@ -933,5 +933,85 @@
     "city": "Milton Keynes",
     "country": "United Kingdom",
     "display": "Milton Keynes, United Kingdom"
+  },
+  "40.86,24.70": {
+    "city": "Keramoti",
+    "country": "Greece",
+    "display": "Keramoti, Greece"
+  },
+  "40.67,24.76": {
+    "city": "Thassos Municipality",
+    "country": "Greece",
+    "display": "Thassos Municipality, Greece"
+  },
+  "40.68,24.76": {
+    "city": "Thassos Municipality",
+    "country": "Greece",
+    "display": "Thassos Municipality, Greece"
+  },
+  "40.94,24.96": {
+    "city": "Abdera Municipality",
+    "country": "Greece",
+    "display": "Abdera Municipality, Greece"
+  },
+  "53.23,10.08": {
+    "city": "Garlstorf",
+    "country": "Germany",
+    "display": "Garlstorf, Germany"
+  },
+  "53.24,10.08": {
+    "city": "Garlstorf",
+    "country": "Germany",
+    "display": "Garlstorf, Germany"
+  },
+  "53.55,9.96": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "display": "Hamburg, Germany"
+  },
+  "53.55,9.98": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "display": "Hamburg, Germany"
+  },
+  "53.64,10.05": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "display": "Hamburg, Germany"
+  },
+  "44.46,26.11": {
+    "city": "Bucharest",
+    "country": "Romania",
+    "display": "Bucharest, Romania"
+  },
+  "45.28,24.31": {
+    "city": "Calimanesti",
+    "country": "Romania",
+    "display": "Calimanesti, Romania"
+  },
+  "46.91,19.69": {
+    "city": "Kecskemét",
+    "country": "Hungary",
+    "display": "Kecskemét, Hungary"
+  },
+  "47.41,19.25": {
+    "city": "Vecsés",
+    "country": "Hungary",
+    "display": "Vecsés, Hungary"
+  },
+  "50.07,14.38": {
+    "city": "Prague",
+    "country": "Czechia",
+    "display": "Prague, Czechia"
+  },
+  "50.08,14.42": {
+    "city": "Prague",
+    "country": "Czechia",
+    "display": "Prague, Czechia"
+  },
+  "50.08,14.43": {
+    "city": "Prague",
+    "country": "Czechia",
+    "display": "Prague, Czechia"
   }
 }
