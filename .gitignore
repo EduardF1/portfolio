@@ -78,6 +78,7 @@ scripts/.photo-classify/
 
 # Inpaint pipeline (YOLO + LaMa) -- venv, model cache, and worktree-only
 # test outputs. The python script (inpaint-people.py) IS committed.
+# Re-create with: python -m venv scripts/.inpaint-venv && pip install ultralytics mediapipe Pillow simple-lama-inpainting
 scripts/.inpaint-venv/
 scripts/.inpaint-cache/
 scripts/.inpaint-test-output/

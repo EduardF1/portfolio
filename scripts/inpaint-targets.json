@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-04-28T22:38:27Z",
+  "root": "public/photos/trips",
+  "thresholds": {
+    "faceConfidence": 0.6,
+    "minFaceArea": 0.005,
+    "yoloThreshold": 0.4
+  },
+  "totalScanned": 189,
+  "needsInpaint": 12,
+  "clean": 177,
+  "errors": 0,
+  "targets": [
+    {
+      "src": "trips/2018-03-israel/IMG_20180323_113715.jpg",
+      "faceCount": 1,
+      "personCount": 1,
+      "maxFaceArea": 0.010815
+    },
+    {
+      "src": "trips/2018-03-israel/IMG_20180323_113718.jpg",
+      "faceCount": 1,
+      "personCount": 1,
+      "maxFaceArea": 0.010685
+    },
+    {
+      "src": "trips/2018-03-israel/IMG_20180323_114017.jpg",
+      "faceCount": 3,
+      "personCount": 3,
+      "maxFaceArea": 0.017788
+    },
+    {
+      "src": "trips/2018-03-israel/IMG_20180323_115533.jpg",
+      "faceCount": 1,
+      "personCount": 1,
+      "maxFaceArea": 0.023248
+    },
+    {
+      "src": "trips/2018-03-israel/IMG_20180324_113721.jpg",
+      "faceCount": 2,
+      "personCount": 2,
+      "maxFaceArea": 0.175906
+    },
+    {
+      "src": "trips/2018-03-israel/IMG_20180324_121638.jpg",
+      "faceCount": 3,
+      "personCount": 3,
+      "maxFaceArea": 0.030665
+    },
+    {
+      "src": "trips/2018-03-israel/IMG_20180324_130102.jpg",
+      "faceCount": 2,
+      "personCount": 2,
+      "maxFaceArea": 0.0103
+    },
+    {
+      "src": "trips/2018-03-israel/IMG_20180324_130414.jpg",
+      "faceCount": 2,
+      "personCount": 2,
+      "maxFaceArea": 0.009748
+    },
+    {
+      "src": "trips/2018-03-israel/IMG_20180325_135940.jpg",
+      "faceCount": 2,
+      "personCount": 2,
+      "maxFaceArea": 0.006231
+    },
+    {
+      "src": "trips/2019-07-belgium/IMG_20190731_153659.jpg",
+      "faceCount": 1,
+      "personCount": 1,
+      "maxFaceArea": 0.011589
+    },
+    {
+      "src": "trips/2020-02-denmark/pexels-horsens-aerial-architecture-13519043.jpg",
+      "faceCount": 1,
+      "personCount": 0,
+      "maxFaceArea": 0.012544
+    },
+    {
+      "src": "trips/2026-03-balkans-roadtrip/IMG20260327115726.jpg",
+      "faceCount": 1,
+      "personCount": 0,
+      "maxFaceArea": 0.005651
+    }
+  ]
+}
