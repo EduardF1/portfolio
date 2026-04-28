@@ -53,6 +53,35 @@ export default defineConfig({
       grep: /@cross/,
     },
     {
+      // 1024×768 — classic iPad landscape. Wide enough for the viewport
+      // `lg:` breakpoint to flip on (≥1024 px), but the actual section
+      // *container* sits inside container-page (max 72rem with 1.5rem
+      // gutters) so any layout that should react to container width
+      // rather than viewport width is exercised here. @cross-tagged tests
+      // run against this project to keep the matrix stable.
+      name: "chromium-tablet-landscape",
+      use: {
+        ...devices["iPad (gen 7) landscape"],
+        defaultBrowserType: "chromium",
+        viewport: { width: 1024, height: 768 },
+        isMobile: false,
+      },
+      grep: /@cross|@tablet-landscape/,
+    },
+    {
+      // 1366×1024 — iPad Pro 12.9" landscape, common in DK enterprise
+      // reception areas and recruiter laptops at meetings. Same intent as
+      // chromium-tablet-landscape but exercises the upper end of the
+      // tablet-landscape band where viewport `lg:` is comfortably on.
+      name: "chromium-tablet-landscape-large",
+      use: {
+        ...devices["Desktop Chrome"],
+        defaultBrowserType: "chromium",
+        viewport: { width: 1366, height: 1024 },
+      },
+      grep: /@cross|@tablet-landscape/,
+    },
+    {
       name: "mobile-iphone-14",
       // CHROMIUM_OVERRIDE — iPhone 14 descriptor is webkit by default.
       use: {
