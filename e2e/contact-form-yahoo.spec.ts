@@ -1,16 +1,23 @@
 import { test, expect } from "@playwright/test";
+import {
+  readYahooCredsFromEnv,
+  waitForYahooEmail,
+} from "./helpers/yahoo-imap";
 
 /**
  * End-to-end check that the contact form submission lands at
  * fischer_eduard@yahoo.com — i.e. that the routing target stays Yahoo.
  *
  * Two assertion tiers:
- *   1. Default — verify the server action's success state is reached and
- *      (when no Resend API key is set) a `[contact]` log line is emitted
- *      naming the Yahoo recipient. Safe to run in CI; sends no real email.
- *   2. RUN_LIVE_EMAIL=1 — actually submits with a real Resend key set, then
- *      checks the Yahoo inbox via the email MCP. Skipped unless explicitly
- *      opted-in to avoid spamming Eduard's inbox.
+ *   1. Default — verify the server action's success state is reached
+ *      and that the visible recipient text is the Yahoo address. Safe
+ *      to run in CI; sends no real email when RESEND_API_KEY is absent.
+ *   2. RUN_LIVE_EMAIL=1 — actually submits with a real Resend key set
+ *      and a real Yahoo IMAP app password. Polls the inbox via IMAP
+ *      for up to 60s until the message arrives. Skipped unless
+ *      explicitly opted-in to avoid spamming Eduard's inbox.
+ *
+ * See `e2e/README.md` for the env vars required by tier 2.
  *
  * TODO(round6): add a third tier that exercises the optional PDF attachment.
  * Cases to cover: a valid <5 MB PDF round-trips (the message arrives in
@@ -23,6 +30,7 @@ import { test, expect } from "@playwright/test";
 
 const TIMESTAMP = new Date().toISOString();
 const SUBJECT = `Portfolio e2e ${TIMESTAMP}`;
+const BODY_TOKEN = `e2e-token-${Math.random().toString(36).slice(2, 10)}`;
 
 test("contact form happy path — submission targets Yahoo @cross", async ({
   page,
@@ -62,6 +70,15 @@ test("contact form — live email round-trip via Yahoo IMAP", async ({
   );
   testInfo.setTimeout(120_000);
 
+  const creds = readYahooCredsFromEnv();
+  test.skip(
+    !creds,
+    "YAHOO_IMAP_USER / YAHOO_IMAP_APP_PASS not set — cannot verify Yahoo arrival",
+  );
+  // Capture the wait-window start before we submit, so the IMAP poll
+  // only matches the message we are about to send.
+  const submittedAt = new Date();
+
   await page.goto("/contact");
   await page.getByLabel(/Your name/).fill("Playwright Live");
   await page.getByLabel(/^Email$/).fill("eduardf-portfolio-test@example.com");
@@ -69,21 +86,28 @@ test("contact form — live email round-trip via Yahoo IMAP", async ({
   await page
     .getByLabel(/Message/)
     .fill(
-      "Live e2e: this message should appear in fischer_eduard@yahoo.com within ~60 seconds. Safe to delete.",
+      `Live e2e ${BODY_TOKEN}: this message should appear in fischer_eduard@yahoo.com within ~60 seconds. Safe to delete.`,
     );
   await page.getByRole("button", { name: /Send message/ }).click();
   await expect(page.getByText(/Thanks, got it\./)).toBeVisible({
     timeout: 30_000,
   });
 
-  // The Yahoo arrival assertion runs out-of-process via the Email MCP.
-  // Playwright cannot call MCP tools directly; this hook records the
-  // expected subject so a follow-up MCP search (run by the PO) can verify.
-  await testInfo.attach("expected-subject.txt", {
-    body: SUBJECT,
+  // Now poll Yahoo IMAP until the message lands (or 60s elapses).
+  const arrival = await waitForYahooEmail(creds!, {
+    subject: SUBJECT,
+    bodySnippet: BODY_TOKEN,
+    timeoutMs: 60_000,
+    pollIntervalMs: 5_000,
+    since: submittedAt,
+  });
+
+  expect(arrival.subject).toContain(SUBJECT);
+  await testInfo.attach("matched-uid.txt", {
+    body: String(arrival.uid),
     contentType: "text/plain",
   });
   console.info(
-    `[contact-yahoo-e2e] expected to find subject "${SUBJECT}" in fischer_eduard@yahoo.com within 60s`,
+    `[contact-yahoo-e2e] matched UID ${arrival.uid} subject="${arrival.subject}"`,
   );
 });

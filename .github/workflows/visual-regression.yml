@@ -1,0 +1,85 @@
+name: Visual regression
+
+# Updates Playwright visual baselines on demand. Apply the
+# `visual-regression-update` label to a PR (or run via the workflow
+# dispatch button) and the workflow re-runs Playwright with
+# `--update-snapshots`, then commits the refreshed PNGs back to the
+# PR branch.
+#
+# The label is removed automatically after a successful run so you can
+# re-trigger by re-applying it.
+
+on:
+  pull_request:
+    types: [labeled]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-baselines:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.action == 'labeled' &&
+       github.event.label.name == 'visual-regression-update')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          # We need write access to push baseline updates back. The
+          # default GITHUB_TOKEN can push to the PR branch as long as
+          # the PR was opened from this repo (not a fork).
+          ref: ${{ github.event.pull_request.head.ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - run: npx playwright install --with-deps chromium
+
+      - name: Build site
+        run: npm run build
+
+      - name: Refresh visual baselines
+        run: npx playwright test visual --update-snapshots --project=chromium
+        env:
+          CI: true
+
+      - name: Commit refreshed baselines
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add e2e/visual.spec.ts-snapshots
+          if git diff --cached --quiet; then
+            echo "No baseline changes — nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore(visual): refresh Playwright baselines"
+          git push
+
+      - name: Remove label
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.removeLabel({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              name: 'visual-regression-update',
+            }).catch(() => { /* label may have already been removed */ });
+
+      - name: Upload Playwright report on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-regression-report
+          path: playwright-report/
+          retention-days: 7
