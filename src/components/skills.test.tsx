@@ -55,7 +55,7 @@ describe("<Skills />", () => {
 
   it("links each tile to the official docs in a new tab", () => {
     renderWithIntl();
-    const reactLink = screen.getByTitle("React").closest("a");
+    const reactLink = screen.getByTitle(/\bReact\b/).closest("a");
     expect(reactLink).not.toBeNull();
     expect(reactLink).toHaveAttribute("href", "https://react.dev/");
     expect(reactLink).toHaveAttribute("target", "_blank");
@@ -67,12 +67,12 @@ describe("<Skills />", () => {
     // Lexik JWT and Windows CMD have icon: null in src/lib/tech.ts.
     // Both should render as a deliberate-looking monogram tile, not as
     // a ghost / empty card.
-    const lexikLink = screen.getByTitle("Lexik JWT");
+    const lexikLink = screen.getByTitle(/Lexik JWT/);
     expect(lexikLink).toBeInTheDocument();
     // The monogram is the first alphanumeric character of the name.
     expect(lexikLink.textContent).toMatch(/L/);
 
-    const cmdLink = screen.getByTitle("Windows CMD");
+    const cmdLink = screen.getByTitle(/Windows CMD/);
     expect(cmdLink).toBeInTheDocument();
     expect(cmdLink.textContent).toMatch(/W/);
   });
