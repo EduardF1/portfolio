@@ -76,6 +76,16 @@ scripts/round4-extension-*.json
 scripts/.round5/agent-*-scratch/
 scripts/.photo-classify/
 
+# Inpaint pipeline (YOLO + LaMa) -- venv, model cache, and worktree-only
+# test outputs. The python script (inpaint-people.py) IS committed.
+scripts/.inpaint-venv/
+scripts/.inpaint-cache/
+scripts/.inpaint-test-output/
+scripts/.inpaint-out/
+# Stray YOLO weights if Ultralytics drops them in CWD on first download.
+yolo11n.pt
+*.pt
+
 # Sub-agent worktrees
 .claude/worktrees/
 
