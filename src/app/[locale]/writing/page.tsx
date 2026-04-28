@@ -124,8 +124,7 @@ export default async function WritingPage({
       </section>
 
       <ReadingFeed
-        kicker="Reading"
-        tooltip="A live, hourly-refreshed list of community posts. Pick a source: dev.to (tag-filtered), Hacker News (front page), or All (merged, newest first)."
+        tooltip={t("readingFeed")}
         source={source}
         limit={6}
       />

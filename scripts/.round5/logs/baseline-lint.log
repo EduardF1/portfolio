@@ -1,0 +1,11 @@
+
+> portfolio@0.1.0 lint
+> eslint
+
+
+C:\Users\Eduard\Projects\portfolio\scripts\extend-catalogue.mjs
+  17:3  warning  'roundCoord' is defined but never used  @typescript-eslint/no-unused-vars
+
+✖ 1 problem (0 errors, 1 warning)
+
+EXIT=0

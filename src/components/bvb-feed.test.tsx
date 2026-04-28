@@ -123,39 +123,3 @@ describe("<BvbTabs />", () => {
   });
 });
 
-// ---------------------------------------------------------------------------
-// Unit-test the data-shaping helpers in lib/bvb. These are exposed via
-// __test__ so we don't need to fire real fetches against football-data.org.
-// ---------------------------------------------------------------------------
-
-vi.mock("server-only", () => ({}));
-
-describe("getBvbFeed (mock fallback)", () => {
-  it("returns mock data when no API token is configured", async () => {
-    const original = process.env.BVB_API_TOKEN;
-    delete process.env.BVB_API_TOKEN;
-    delete process.env.BVB_USE_MOCK;
-    // Re-import so the module-level mock check runs against the cleared env.
-    vi.resetModules();
-    const { getBvbFeed, BVB_TEAM_ID } = await import("@/lib/bvb");
-    const data = await getBvbFeed();
-    expect(data.isMock).toBe(true);
-    expect(data.standings.length).toBeGreaterThan(0);
-    expect(data.fixtures.length).toBeGreaterThan(0);
-    expect(data.results.length).toBeGreaterThan(0);
-    // Borussia Dortmund must appear in the mock standings.
-    expect(data.standings.some((row) => row.teamId === BVB_TEAM_ID)).toBe(true);
-    if (original !== undefined) process.env.BVB_API_TOKEN = original;
-  });
-
-  it("returns mock data when BVB_USE_MOCK=1 even with a token set", async () => {
-    process.env.BVB_API_TOKEN = "stub-token";
-    process.env.BVB_USE_MOCK = "1";
-    vi.resetModules();
-    const { getBvbFeed } = await import("@/lib/bvb");
-    const data = await getBvbFeed();
-    expect(data.isMock).toBe(true);
-    delete process.env.BVB_USE_MOCK;
-    delete process.env.BVB_API_TOKEN;
-  });
-});

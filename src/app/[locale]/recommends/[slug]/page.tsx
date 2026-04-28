@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { ArrowLeft, ExternalLink } from "lucide-react";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getCollection, getItem } from "@/lib/content";
 import { mdxComponents } from "@/components/mdx-components";
@@ -37,6 +37,8 @@ export default async function RecommendItem({
   const item = await getItem("recommends", slug);
   if (!item) return notFound();
 
+  const t = await getTranslations("recommendsSlug");
+
   const url =
     typeof item.frontmatter.url === "string" ? item.frontmatter.url : null;
   const category =
@@ -50,12 +52,12 @@ export default async function RecommendItem({
         href="/recommends"
         className="inline-flex items-center gap-1 text-sm text-foreground-subtle hover:text-accent mb-12"
       >
-        <ArrowLeft className="h-4 w-4" /> All recommendations
+        <ArrowLeft className="h-4 w-4" /> {t("back")}
       </Link>
 
       {category && (
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-          {category} · Reviewed {formatDate(item.frontmatter.date)}
+          {category} · {t("reviewed", { date: formatDate(item.frontmatter.date) })}
         </p>
       )}
       <h1 className="mt-3 mb-6">{item.frontmatter.title}</h1>
@@ -69,7 +71,7 @@ export default async function RecommendItem({
           rel="noopener noreferrer"
           className="mt-6 inline-flex items-center gap-1.5 text-sm text-accent hover:underline"
         >
-          Visit product <ExternalLink className="h-4 w-4" />
+          {t("visit")} <ExternalLink className="h-4 w-4" />
         </a>
       )}
 

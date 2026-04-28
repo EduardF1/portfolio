@@ -14,6 +14,7 @@ import { cn } from "@/lib/utils";
  */
 export function SearchTrigger() {
   const t = useTranslations("search");
+  const tt = useTranslations("tooltips");
   const [isMac, setIsMac] = useState(false);
 
   useEffect(() => {
@@ -39,6 +40,7 @@ export function SearchTrigger() {
       type="button"
       onClick={open}
       aria-label={t("openLabel")}
+      title={tt("searchOpen")}
       data-testid="search-trigger"
       className={cn(
         // Use foreground-muted (not -subtle) for the small "Search ⌘K" label

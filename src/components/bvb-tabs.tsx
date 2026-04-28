@@ -8,6 +8,7 @@ import {
   useSyncExternalStore,
   type ReactNode,
 } from "react";
+import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 
 type TabKey = "standings" | "fixtures" | "results";
@@ -59,7 +60,14 @@ function getServerSnapshot(): string {
 }
 
 export function BvbTabs({ labels, isMock, mockBadge, children }: Props) {
+  const tt = useTranslations("tooltips");
   const panels = Children.toArray(children);
+
+  const TAB_TOOLTIP_KEYS: Record<TabKey, "footballBvbStandings" | "footballBvbFixtures" | "footballBvbResults"> = {
+    standings: "footballBvbStandings",
+    fixtures: "footballBvbFixtures",
+    results: "footballBvbResults",
+  };
 
   const hash = useSyncExternalStore(
     subscribeToHash,
@@ -123,7 +131,7 @@ export function BvbTabs({ labels, isMock, mockBadge, children }: Props) {
   }
 
   return (
-    <div data-testid="bvb-feed">
+    <div data-testid="bvb-feed" title={tt("footballBvbFeed")}>
       {isMock && (
         <p
           data-testid="bvb-mock-badge"
@@ -153,6 +161,7 @@ export function BvbTabs({ labels, isMock, mockBadge, children }: Props) {
               aria-controls={`${reactId}-panel-${tab}`}
               tabIndex={selected ? 0 : -1}
               onClick={() => selectTab(tab)}
+              title={tt(TAB_TOOLTIP_KEYS[tab])}
               data-tab={tab}
               data-active={selected || undefined}
               className={cn(

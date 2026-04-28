@@ -19,6 +19,7 @@ export default async function NowPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("now");
+  const tt = await getTranslations("tooltips");
 
   return (
     <>
@@ -59,7 +60,7 @@ export default async function NowPage({
         id="focus"
         className="container-page py-12 max-w-3xl scroll-mt-24"
       >
-        <SectionHeading>{t("focus")}</SectionHeading>
+        <SectionHeading tooltip={tt("nowFocus")}>{t("focus")}</SectionHeading>
         <div className="mt-6 space-y-4">
           <p>
             Settling into my new role at{" "}
@@ -88,7 +89,7 @@ export default async function NowPage({
         id="reading"
         className="container-page py-12 max-w-3xl scroll-mt-24"
       >
-        <SectionHeading>{t("reading")}</SectionHeading>
+        <SectionHeading tooltip={tt("nowReading")}>{t("reading")}</SectionHeading>
         <div className="mt-6 space-y-4">
           <p>
             A small reading pile, mostly engineering and a bit of business,
@@ -109,7 +110,7 @@ export default async function NowPage({
         id="side-bets"
         className="container-page py-12 max-w-3xl scroll-mt-24"
       >
-        <SectionHeading>{t("sideBets")}</SectionHeading>
+        <SectionHeading tooltip={tt("nowSideBets")}>{t("sideBets")}</SectionHeading>
         <div className="mt-6 space-y-4">
           <p>
             This site, kept lean and updated as I learn things worth recording.
@@ -142,7 +143,7 @@ export default async function NowPage({
         id="lately"
         className="container-page py-12 pb-24 max-w-3xl scroll-mt-24"
       >
-        <SectionHeading>{t("lately")}</SectionHeading>
+        <SectionHeading tooltip={tt("nowLately")}>{t("lately")}</SectionHeading>
         <div className="mt-6 space-y-4">
           <p>
             Spring in Aarhus. A short trip to Slovenia and Croatia in late

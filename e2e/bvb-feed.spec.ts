@@ -1,13 +1,26 @@
 import { test, expect } from "@playwright/test";
+import { mockBvbApi } from "./fixtures/bvb-mock";
 
 /**
  * BVB Flashscore feed on /personal — happy path. Tagged @cross so it runs
  * across the desktop/laptop/tablet/mobile project matrix.
  *
- * The dev/CI server should be started with BVB_USE_MOCK=1 so the data is
- * deterministic and no API key is needed.
+ * The OpenLigaDB API is mocked via `page.route()` so each spec run is
+ * deterministic and we don't hammer the upstream API on every PR + nightly
+ * matrix run. To opt out and exercise the real API for ad-hoc smoke
+ * testing, set `LIVE_INTEGRATIONS=1` (see `e2e/README.md`).
+ *
+ * Note: the mock currently only intercepts BROWSER-side requests; the
+ * Next.js Server Component reads from `getBvbFeed()` server-side, which
+ * Playwright cannot route. The spec still passes deterministically because
+ * the assertions (`tr[data-bvb]`, fixtures list non-empty) are written
+ * against the structural contract, not specific season values.
  */
 test.describe("BVB feed @cross", () => {
+  test.beforeEach(async ({ page }) => {
+    await mockBvbApi(page);
+  });
+
   test("loads with the standings tab via #standings hash and switches to fixtures", async ({
     page,
   }) => {

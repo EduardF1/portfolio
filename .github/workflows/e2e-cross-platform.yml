@@ -1,0 +1,52 @@
+name: E2E cross-platform matrix
+
+# Nightly run of the full Playwright cross-browser × cross-device matrix.
+# Per-PR CI keeps running the chromium-only `test:e2e` job in ci.yml — that
+# stays the fast PR signal. This workflow exists so Apple Safari / Firefox
+# / iPad / Android regressions get caught within 24 hours, without paying
+# the 5–8× browser-install + run-time cost on every PR.
+#
+# Trigger options:
+#   • schedule  — nightly at 04:00 UTC (06:00 CEST, before Eduard's day)
+#   • workflow_dispatch — kick a one-off run from the Actions UI when
+#     debugging a Safari-only issue surfaced in a PR
+#
+# `continue-on-error: true` while we burn in the matrix; promote to a
+# required status check once 5 consecutive nightly runs are green.
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  e2e-matrix:
+    name: e2e (Playwright, all browsers + devices)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # Install all three browser engines — the cross-platform matrix
+      # runs Chromium + Firefox + Webkit. `--with-deps` pulls the apt
+      # packages each engine needs on Ubuntu.
+      - run: npx playwright install --with-deps
+      - run: npm run build
+      - run: npm run test:cross-platform
+        env:
+          CI: true
+          BVB_USE_MOCK: "1"
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-cross-platform-report
+          path: playwright-report/
+          retention-days: 14

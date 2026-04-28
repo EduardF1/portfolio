@@ -11,17 +11,18 @@ import { SearchTrigger } from "@/components/search-trigger";
 
 export function SiteHeader() {
   const t = useTranslations("nav");
+  const tt = useTranslations("tooltips");
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
 
   const navItems = [
-    { href: "/work", label: t("work") },
-    { href: "/writing", label: t("writing") },
-    { href: "/recommends", label: t("recommends") },
-    { href: "/personal", label: t("personal") },
-    { href: "/travel", label: t("travel") },
-    { href: "/contact", label: t("contact") },
+    { href: "/work", label: t("work"), tooltip: tt("navWork") },
+    { href: "/writing", label: t("writing"), tooltip: tt("navWriting") },
+    { href: "/recommends", label: t("recommends"), tooltip: tt("navRecommends") },
+    { href: "/personal", label: t("personal"), tooltip: tt("navPersonal") },
+    { href: "/travel", label: t("travel"), tooltip: tt("navTravel") },
+    { href: "/contact", label: t("contact"), tooltip: tt("navContact") },
   ] as const;
 
   const otherLocale = locale === "en" ? "da" : "en";
@@ -124,6 +125,7 @@ export function SiteHeader() {
             <Link
               key={item.href}
               href={item.href}
+              title={item.tooltip}
               aria-current={isActive(item.href) ? "page" : undefined}
               className={cn(
                 "text-sm transition-colors",
@@ -150,6 +152,11 @@ export function SiteHeader() {
             aria-label={
               otherLocale === "da" ? t("switchToDanish") : t("switchToEnglish")
             }
+            title={
+              otherLocale === "da"
+                ? tt("switchToDanish")
+                : tt("switchToEnglish")
+            }
           >
             <span className={locale === "en" ? "text-foreground" : ""}>EN</span>
             <span className="mx-1.5 text-foreground-subtle">/</span>
@@ -170,6 +177,7 @@ export function SiteHeader() {
             type="button"
             onClick={() => setMenuOpen(true)}
             aria-label={t("openMenu")}
+            title={tt("openMenu")}
             aria-expanded={menuOpen}
             aria-controls={dialogId}
             data-testid="mobile-menu-trigger"
@@ -230,6 +238,7 @@ export function SiteHeader() {
                 type="button"
                 onClick={closeMenu}
                 aria-label={t("closeMenu")}
+                title={tt("closeMenu")}
                 data-testid="mobile-menu-close"
                 className={cn(
                   "inline-flex items-center justify-center rounded-md border border-border p-1.5 text-foreground-muted",
@@ -250,6 +259,7 @@ export function SiteHeader() {
                   key={item.href}
                   href={item.href}
                   onClick={closeMenu}
+                  title={item.tooltip}
                   aria-current={isActive(item.href) ? "page" : undefined}
                   className={cn(
                     "py-3 text-base border-b border-border/40 transition-colors",
@@ -275,6 +285,11 @@ export function SiteHeader() {
                   otherLocale === "da"
                     ? t("switchToDanish")
                     : t("switchToEnglish")
+                }
+                title={
+                  otherLocale === "da"
+                    ? tt("switchToDanish")
+                    : tt("switchToEnglish")
                 }
               >
                 <span className={locale === "en" ? "text-foreground" : ""}>

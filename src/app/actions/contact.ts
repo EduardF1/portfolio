@@ -2,8 +2,8 @@
 
 import { z } from "zod";
 
-export const MAX_ATTACHMENT_BYTES = 5 * 1024 * 1024; // 5 MB
-export const ATTACHMENT_MIME = "application/pdf";
+const MAX_ATTACHMENT_BYTES = 5 * 1024 * 1024; // 5 MB
+const ATTACHMENT_MIME = "application/pdf";
 
 const attachmentSchema = z
   .instanceof(File)

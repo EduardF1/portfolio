@@ -1,23 +1,31 @@
 import { useTranslations } from "next-intl";
 
-const stats = [
-  { value: "5+", labelKey: "stats.years" }, // years coding professionally
-  { value: "4", labelKey: "stats.languages" }, // spoken languages: Romanian, Danish, English, Swedish/Norwegian
-  { value: "4", labelKey: "stats.projects" }, // major shipped projects: KOMBIT VALG, SitaWare, Greenbyte SaaS, Boozt
-  { value: "20+", labelKey: "stats.countries" }, // countries visited (placeholder — Eduard will refine)
+type TooltipKey =
+  | "statsYears"
+  | "statsLanguages"
+  | "statsProjects"
+  | "statsCountries";
+
+const stats: Array<{ value: string; labelKey: string; tooltipKey: TooltipKey }> = [
+  { value: "5+", labelKey: "stats.years", tooltipKey: "statsYears" }, // years coding professionally
+  { value: "4", labelKey: "stats.languages", tooltipKey: "statsLanguages" }, // spoken languages: Romanian, Danish, English, Swedish/Norwegian
+  { value: "4", labelKey: "stats.projects", tooltipKey: "statsProjects" }, // major shipped projects: KOMBIT VALG, SitaWare, Greenbyte SaaS, Boozt
+  { value: "20+", labelKey: "stats.countries", tooltipKey: "statsCountries" }, // countries visited (placeholder — Eduard will refine)
 ];
 
 export function StatsRow() {
   const t = useTranslations("home");
+  const tt = useTranslations("tooltips");
   return (
     // Wrap with a flex centring layer so 4-up at @md and the 2-up wrap at
     // narrow widths both centre as a group, not left-align. Each tile
     // also centres its own text — so a single tile in a wrapped row sits
     // visually balanced rather than dangling at the start of the row.
     <dl className="@container flex flex-wrap justify-center gap-x-8 gap-y-10">
-      {stats.map(({ value, labelKey }) => (
+      {stats.map(({ value, labelKey, tooltipKey }) => (
         <div
           key={labelKey}
+          title={tt(tooltipKey)}
           className="flex flex-col items-center text-center w-[calc(50%-1rem)] @md:w-[calc(25%-1.5rem)]"
         >
           <dd className="font-serif text-5xl leading-none tracking-tight text-foreground @md:text-6xl">

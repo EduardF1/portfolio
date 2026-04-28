@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { SectionHeading } from "@/components/section-heading";
 
 /**
@@ -56,6 +57,7 @@ const BULLETS: Bullet[] = [
 ];
 
 export function HowIWork() {
+  const tt = useTranslations("tooltips");
   return (
     <section
       id="how-i-work"
@@ -64,7 +66,7 @@ export function HowIWork() {
       <div className="container-page py-16 md:py-20">
         <div className="grid gap-12 @md:grid-cols-12">
           <div className="@md:col-span-4">
-            <SectionHeading>How I work</SectionHeading>
+            <SectionHeading tooltip={tt("howIWork")}>How I work</SectionHeading>
             <p className="mt-6 max-w-sm text-foreground-muted">
               Six short principles, each grounded in something I&apos;ve
               actually shipped — not chips, not buzzwords. Where it was

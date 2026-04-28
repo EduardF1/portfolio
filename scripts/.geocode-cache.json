@@ -868,5 +868,70 @@
     "city": "Aarhus",
     "country": "Denmark",
     "display": "Aarhus, Denmark"
+  },
+  "55.75,9.15": {
+    "city": "Vejle Municipality",
+    "country": "Denmark",
+    "display": "Vejle Municipality, Denmark"
+  },
+  "54.67,8.82": {
+    "city": "Ockholm",
+    "country": "Germany",
+    "display": "Ockholm, Germany"
+  },
+  "36.58,-4.37": {
+    "city": null,
+    "country": "Spain",
+    "display": "Spain"
+  },
+  "36.74,-3.88": {
+    "city": null,
+    "country": "Spain",
+    "display": "Spain"
+  },
+  "44.45,26.21": {
+    "city": "Pantelimon",
+    "country": "Romania",
+    "display": "Pantelimon, Romania"
+  },
+  "44.46,26.21": {
+    "city": "Pantelimon",
+    "country": "Romania",
+    "display": "Pantelimon, Romania"
+  },
+  "32.71,35.57": {
+    "city": "Emek HaYarden Regional Council",
+    "country": "Israel",
+    "display": "Emek HaYarden Regional Council, Israel"
+  },
+  "33.09,35.11": {
+    "city": "Mate Asher Regional Council",
+    "country": "Israel",
+    "display": "Mate Asher Regional Council, Israel"
+  },
+  "33.09,35.10": {
+    "city": "Mate Asher Regional Council",
+    "country": "Israel",
+    "display": "Mate Asher Regional Council, Israel"
+  },
+  "32.71,35.30": {
+    "city": "Nazareth",
+    "country": "Israel",
+    "display": "Nazareth, Israel"
+  },
+  "32.70,35.30": {
+    "city": "Nazareth",
+    "country": "Israel",
+    "display": "Nazareth, Israel"
+  },
+  "32.75,35.34": {
+    "city": "Kfar Kanna",
+    "country": "Israel",
+    "display": "Kfar Kanna, Israel"
+  },
+  "52.04,-0.74": {
+    "city": "Milton Keynes",
+    "country": "United Kingdom",
+    "display": "Milton Keynes, United Kingdom"
   }
 }

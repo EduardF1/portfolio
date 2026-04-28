@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 import type { Recommendation } from "@/lib/recommendations";
 
 const DWELL_MS = 7000;
@@ -32,6 +33,7 @@ function linkedinHref(rec: Recommendation): string {
 }
 
 export function RecommendationsCarousel({ recommendations, locale }: Props) {
+  const tt = useTranslations("tooltips");
   const slides = recommendations;
   const total = slides.length;
   const id = useId();
@@ -215,6 +217,7 @@ export function RecommendationsCarousel({ recommendations, locale }: Props) {
           <button
             type="button"
             aria-label="Previous slide"
+            title={tt("carouselPrev")}
             onClick={prev}
             className="absolute left-2 top-1/2 -translate-y-1/2 hidden @md:[@media(hover:hover)]:inline-flex h-9 w-9 items-center justify-center rounded-full border border-border bg-background/80 text-foreground-subtle opacity-0 transition-opacity hover:text-accent group-hover/carousel:opacity-100 focus-visible:opacity-100"
           >
@@ -223,6 +226,7 @@ export function RecommendationsCarousel({ recommendations, locale }: Props) {
           <button
             type="button"
             aria-label="Next slide"
+            title={tt("carouselNext")}
             onClick={next}
             className="absolute right-2 top-1/2 -translate-y-1/2 hidden @md:[@media(hover:hover)]:inline-flex h-9 w-9 items-center justify-center rounded-full border border-border bg-background/80 text-foreground-subtle opacity-0 transition-opacity hover:text-accent group-hover/carousel:opacity-100 focus-visible:opacity-100"
           >

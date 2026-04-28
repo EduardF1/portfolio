@@ -18,6 +18,7 @@ export default function PrivacyPage() {
         Questions? Contact{" "}
         <a
           href="mailto:fischer_eduard@yahoo.com"
+          title="Send me an email at fischer_eduard@yahoo.com — I reply within a few business days."
           className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
         >
           fischer_eduard@yahoo.com
