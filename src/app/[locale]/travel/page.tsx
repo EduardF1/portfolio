@@ -3,7 +3,10 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/section-heading";
 import { TravelEuropeMap } from "@/components/travel-europe-map";
-import { getTravelDestinations } from "@/lib/travel-locations";
+import {
+  getCountryTripCounts,
+  getTravelDestinations,
+} from "@/lib/travel-locations";
 import { getTrips } from "@/lib/trips";
 import { responsiveGridColsClass } from "@/lib/grid-cols";
 
@@ -11,17 +14,24 @@ export const metadata = { title: "Travel" };
 
 export default async function TravelPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ locale: string }>;
+  searchParams?: Promise<{ map?: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
 
+  const sp = (await searchParams) ?? {};
+  const initialView: "destinations" | "intensity" =
+    sp.map === "intensity" ? "intensity" : "destinations";
+
   const t = await getTranslations("travel");
   const tt = await getTranslations("tooltips");
-  const [destinations, photoTrips] = await Promise.all([
+  const [destinations, photoTrips, tripCounts] = await Promise.all([
     getTravelDestinations(),
     getTrips(),
+    getCountryTripCounts(),
   ]);
 
   const recentTrips = photoTrips.slice(0, 6);
@@ -66,6 +76,15 @@ export default async function TravelPage({
               ...d,
               firstTripSlug: firstTripSlug(d.country),
             }))}
+            tripCounts={tripCounts}
+            initialView={initialView}
+            labels={{
+              toggleAriaLabel: t("mapToggleAriaLabel"),
+              destinationsLabel: t("mapDestinations"),
+              intensityLabel: t("mapIntensity"),
+              legendTitle: t("mapLegendTitle"),
+              legendUnit: t("mapLegendUnit"),
+            }}
           />
         </section>
       )}

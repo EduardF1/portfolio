@@ -237,7 +237,12 @@
     "byCountry": "By country",
     "photoCount": "{count, plural, one {# photo} other {# photos}}",
     "cityCount": "{count, plural, one {# city} other {# cities}}",
-    "culinaryCrossLink": "See the culinary side of these trips"
+    "culinaryCrossLink": "See the culinary side of these trips",
+    "mapToggleAriaLabel": "Switch map view",
+    "mapDestinations": "Destinations",
+    "mapIntensity": "Intensity",
+    "mapLegendTitle": "Trips per country",
+    "mapLegendUnit": "trips"
   },
   "culinary": {
     "kicker": "Culinary",

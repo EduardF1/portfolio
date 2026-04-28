@@ -237,7 +237,12 @@
     "byCountry": "Efter land",
     "photoCount": "{count, plural, one {# foto} other {# fotos}}",
     "cityCount": "{count, plural, one {# by} other {# byer}}",
-    "culinaryCrossLink": "Se den kulinariske side af rejserne"
+    "culinaryCrossLink": "Se den kulinariske side af rejserne",
+    "mapToggleAriaLabel": "Skift kortvisning",
+    "mapDestinations": "Destinationer",
+    "mapIntensity": "Intensitet",
+    "mapLegendTitle": "Rejser pr. land",
+    "mapLegendUnit": "rejser"
   },
   "culinary": {
     "kicker": "Kulinarisk",
