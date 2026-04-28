@@ -225,6 +225,82 @@
     }
   },
   {
+    "src": "trips/2018-04-sweden/pexels-malmo-turning-torso-7019069.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Malmö",
+      "country": "Sweden",
+      "display": "Malmö, Sweden"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/turning-torso-building-in-malmo-sweden-photographed-from-across-the-canal-7019069/",
+      "photographer": "Nikolai Kolosov",
+      "photographerUrl": "https://www.pexels.com/@nikolai-kolosov/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-04-sweden/pexels-malmo-turning-torso-sunset-13071531.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Malmö",
+      "country": "Sweden",
+      "display": "Malmö, Sweden"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/city-skyline-across-body-of-water-13071531/",
+      "photographer": "Patrik Stoltz",
+      "photographerUrl": "https://www.pexels.com/@pipo/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-04-sweden/pexels-malmo-kungsparken-windmill-19475590.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Malmö",
+      "country": "Sweden",
+      "display": "Malmö, Sweden"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/an-old-windmill-in-kungsparken-in-malmo-sweden-19475590/",
+      "photographer": "Roda Agnas",
+      "photographerUrl": "https://www.pexels.com/@roda-agnas-1581723/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-04-sweden/pexels-malmo-turning-torso-fog-17225672.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Malmö",
+      "country": "Sweden",
+      "display": "Malmö, Sweden"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/apartments-in-front-of-the-fog-shrouded-turning-torso-skyscraper-17225672/",
+      "photographer": "Ira",
+      "photographerUrl": "https://www.pexels.com/@ira-2300811/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2019-07-belgium/IMG_20190729_141017.jpg",
     "takenAt": "2019-07-29T14:10:18Z",
     "hasGps": true,
@@ -237,21 +313,6 @@
       "city": "Brussels",
       "country": "Belgium",
       "display": "Brussels, Belgium"
-    }
-  },
-  {
-    "src": "trips/2019-07-luxembourg/IMG_20190730_194048.jpg",
-    "takenAt": "2019-07-30T19:40:49Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 49.60476,
-      "lon": 6.13384
-    },
-    "place": {
-      "city": "Luxembourg",
-      "country": "Luxembourg",
-      "display": "Luxembourg, Luxembourg"
     }
   },
   {
@@ -285,6 +346,135 @@
     }
   },
   {
+    "src": "trips/2019-07-belgium/pexels-brussels-grand-place-statue-20595735.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Brussels",
+      "country": "Belgium",
+      "display": "Brussels, Belgium"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/golden-statue-at-grand-place-in-brussels-20595735/",
+      "photographer": "Wolf Art",
+      "photographerUrl": "https://www.pexels.com/@wolfart/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-belgium/pexels-ghent-canal-twilight-30427221.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Ghent",
+      "country": "Belgium",
+      "display": "Ghent, Belgium"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/iconic-medieval-architecture-along-the-waterside-in-ghent-30427221/",
+      "photographer": "Dylan Chan",
+      "photographerUrl": "https://www.pexels.com/@dylan-chan-2880813/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-luxembourg/IMG_20190730_194048.jpg",
+    "takenAt": "2019-07-30T19:40:49Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 49.60476,
+      "lon": 6.13384
+    },
+    "place": {
+      "city": "Luxembourg",
+      "country": "Luxembourg",
+      "display": "Luxembourg, Luxembourg"
+    }
+  },
+  {
+    "src": "trips/2019-07-luxembourg/pexels-luxembourg-gothic-revival-30217826.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Luxembourg",
+      "country": "Luxembourg",
+      "display": "Luxembourg, Luxembourg"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/gothic-revival-architecture-in-luxembourg-city-30217826/",
+      "photographer": "Büşra Karabulut",
+      "photographerUrl": "https://www.pexels.com/@busra-karabulut-2046162766/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-luxembourg/pexels-luxembourg-bar-night-20054718.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Luxembourg",
+      "country": "Luxembourg",
+      "display": "Luxembourg, Luxembourg"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/bar-by-the-street-in-luxembourg-at-night-20054718/",
+      "photographer": "Ad Thiry",
+      "photographerUrl": "https://www.pexels.com/@adthiry/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-luxembourg/pexels-luxembourg-adolphe-bridge-autumn-19909061.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Luxembourg",
+      "country": "Luxembourg",
+      "display": "Luxembourg, Luxembourg"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/adolphe-bridge-in-luxembourg-19909061/",
+      "photographer": "Ad Thiry",
+      "photographerUrl": "https://www.pexels.com/@adthiry/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-luxembourg/pexels-luxembourg-philharmonie-16376181.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Luxembourg",
+      "country": "Luxembourg",
+      "display": "Luxembourg, Luxembourg"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/building-of-luxembourg-philharmonie-16376181/",
+      "photographer": "Ruben Da Costa",
+      "photographerUrl": "https://www.pexels.com/@rubendcf/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2020-02-denmark/IMG_20200217_093523.jpg",
     "takenAt": "2020-02-17T09:35:24Z",
     "hasGps": true,
@@ -297,6 +487,82 @@
       "city": "Horsens",
       "country": "Denmark",
       "display": "Horsens, Denmark"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-horsens-aerial-rooftops-13274625.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-photography-of-city-buildings-13274625/",
+      "photographer": "KAO MHG",
+      "photographerUrl": "https://www.pexels.com/@kaomhg/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-horsens-aerial-cityscape-13274632.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-photography-of-city-buildings-13274632/",
+      "photographer": "KAO MHG",
+      "photographerUrl": "https://www.pexels.com/@kaomhg/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-horsens-aerial-architecture-13519043.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-buildings-13519043/",
+      "photographer": "KAO MHG",
+      "photographerUrl": "https://www.pexels.com/@kaomhg/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-horsens-park-pathway-14547046.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/lush-green-park-with-pathway-14547046/",
+      "photographer": "Igor Meghega",
+      "photographerUrl": "https://www.pexels.com/@igor-meghega-315695093/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -315,6 +581,82 @@
     }
   },
   {
+    "src": "trips/2022-07-greece/pexels-kavala-castle-waterfront-34030677.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Kavala",
+      "country": "Greece",
+      "display": "Kavala, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/picturesque-kavala-castle-waterfront-34030677/",
+      "photographer": "Tetiana Hutsu",
+      "photographerUrl": "https://www.pexels.com/@tetiana-hutsu-2151030711/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-kavala-stone-arch-36114859.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Kavala",
+      "country": "Greece",
+      "display": "Kavala, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/kavala-stone-arch-view-36114859/",
+      "photographer": "Barkalı",
+      "photographerUrl": "https://www.pexels.com/@barkali-340353352/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-kavala-harbor-twilight-29072782.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Kavala",
+      "country": "Greece",
+      "display": "Kavala, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/kavala-harbor-twilight-29072782/",
+      "photographer": "Sevgi LALE",
+      "photographerUrl": "https://www.pexels.com/@sevgiilale/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-kavala-rooftops-sunset-35837532.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Kavala",
+      "country": "Greece",
+      "display": "Kavala, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/sunset-coastal-city-kavala-greece-35837532/",
+      "photographer": "Lydia Griva",
+      "photographerUrl": "https://www.pexels.com/@iris/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2022-08-romania/IMG_20220807_172701.jpg",
     "takenAt": "2022-08-07T17:27:01Z",
     "hasGps": true,
@@ -327,6 +669,82 @@
       "city": "Săcele",
       "country": "Romania",
       "display": "Săcele, Romania"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-brasov-council-square-tower-34069343.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Brașov",
+      "country": "Romania",
+      "display": "Brașov, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-square-clock-tower-brasov-34069343/",
+      "photographer": "Râmbeț Ioana",
+      "photographerUrl": "https://www.pexels.com/@rambe-ioana-211953981/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-brasov-mountain-panorama-9315381.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Brașov",
+      "country": "Romania",
+      "display": "Brașov, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/cityscape-with-mountain-backdrop-9315381/",
+      "photographer": "Ana-Maria Antonenco",
+      "photographerUrl": "https://www.pexels.com/@ana-maria-antonenco-78158389/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-brasov-cobblestone-street-36957142.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Brașov",
+      "country": "Romania",
+      "display": "Brașov, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/cobblestone-street-historic-architecture-brasov-36957142/",
+      "photographer": "Alexandra H. Maria",
+      "photographerUrl": "https://www.pexels.com/@alexandra-h-maria-51314627/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-brasov-black-church-aerial-35410900.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Brașov",
+      "country": "Romania",
+      "display": "Brașov, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/black-church-aerial-brasov-35410900/",
+      "photographer": "Valeria Drozdova",
+      "photographerUrl": "https://www.pexels.com/@valeria-drozdova-2148646707/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -375,6 +793,44 @@
     }
   },
   {
+    "src": "trips/2022-08-denmark/pexels-billund-airport-airliner-11554593.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Billund Municipality",
+      "country": "Denmark",
+      "display": "Billund Municipality, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/airplane-billund-airport-11554593/",
+      "photographer": "Fatih Turan",
+      "photographerUrl": "https://www.pexels.com/@fatih-turan-63325184/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-horsens-aerial-summer-13519728.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-town-near-body-of-water-13519728/",
+      "photographer": "KAO MHG",
+      "photographerUrl": "https://www.pexels.com/@kaomhg/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2022-10-denmark/IMG_20221015_165451.jpg",
     "takenAt": "2022-10-15T16:54:51Z",
     "hasGps": true,
@@ -387,6 +843,82 @@
       "city": null,
       "country": "Denmark",
       "display": "Denmark"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-randers-haslund-church-winter-6526779.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Randers",
+      "country": "Denmark",
+      "display": "Randers, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/haslund-church-in-winter-6526779/",
+      "photographer": "Mark Hansen",
+      "photographerUrl": "https://www.pexels.com/@mark-hansen-12409788/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-randers-wind-turbines-4512516.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Randers",
+      "country": "Denmark",
+      "display": "Randers, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/white-wind-turbines-under-blue-sky-and-white-clouds-4512516/",
+      "photographer": "Peter Holmboe",
+      "photographerUrl": "https://www.pexels.com/@holmboe/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-aarhus-cathedral-harbor-15796451.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aarhus-cathedral-harbor-15796451/",
+      "photographer": "Deyaar Rumi",
+      "photographerUrl": "https://www.pexels.com/@deyaar-rumi-427064673/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-aarhus-half-timbered-street-32136937.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aarhus-historic-architecture-32136937/",
+      "photographer": "Jakob Andersson",
+      "photographerUrl": "https://www.pexels.com/@jakobandersson/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -420,6 +952,63 @@
     }
   },
   {
+    "src": "trips/2022-10-germany/pexels-hamburg-wasserschloss-bw-7133327.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/the-wasserschloss-in-speicherstadt-hamburg-7133327/",
+      "photographer": "Niklas Jeromin",
+      "photographerUrl": "https://www.pexels.com/@njeromin/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/pexels-hamburg-elbphilharmonie-brick-26443234.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/elbphilharmonie-in-hamburg-in-germany-26443234/",
+      "photographer": "Dario Rawert",
+      "photographerUrl": "https://www.pexels.com/@dario-rawert-724203352/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/pexels-hamburg-speicherstadt-canal-30195965.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-red-brick-warehouses-30195965/",
+      "photographer": "Jan Reichelt",
+      "photographerUrl": "https://www.pexels.com/@jan-reichelt-911302335/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2022-12-romania/IMG_20221225_211840.jpg",
     "takenAt": "2022-12-25T21:18:37Z",
     "hasGps": true,
@@ -432,6 +1021,82 @@
       "city": "Bucharest",
       "country": "Romania",
       "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "trips/2022-12-romania/pexels-bucharest-arcul-de-triumf-night-31829727.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/arcul-de-triumf-bucharest-night-31829727/",
+      "photographer": "Barış Kılınç",
+      "photographerUrl": "https://www.pexels.com/@baris-kilinc-124682051/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-12-romania/pexels-bucharest-military-circle-corner-16715136.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/military-circle-palace-bucharest-16715136/",
+      "photographer": "nurs raw",
+      "photographerUrl": "https://www.pexels.com/@nurs-raw-42373260/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-12-romania/pexels-bucharest-quiet-street-28898464.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-street-scene-in-bucharest-romania-28898464/",
+      "photographer": "Uiliam Nörnberg",
+      "photographerUrl": "https://www.pexels.com/@uiliamnornberg/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-12-romania/pexels-bucharest-odeon-theatre-8780208.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/odeon-theatre-bucharest-8780208/",
+      "photographer": "Ana-Maria Antonenco",
+      "photographerUrl": "https://www.pexels.com/@ana-maria-antonenco-78158389/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -495,6 +1160,25 @@
     }
   },
   {
+    "src": "trips/2023-04-italy/pexels-milan-galleria-vittorio-29655807.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Milan",
+      "country": "Italy",
+      "display": "Milan, Italy"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/galleria-vittorio-emanuele-ii-in-milan-italy-29655807/",
+      "photographer": "Haim Charbit",
+      "photographerUrl": "https://www.pexels.com/@haim-charbit-46102840/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2023-07-turkey/IMG_20230712_135809.jpg",
     "takenAt": "2023-07-12T13:58:10Z",
     "hasGps": true,
@@ -555,6 +1239,25 @@
     }
   },
   {
+    "src": "trips/2023-07-turkey/pexels-istanbul-galata-tower-street-29069777.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "display": "Istanbul, Turkey"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/street-view-of-galata-tower-in-istanbul-29069777/",
+      "photographer": "Rahime Gül",
+      "photographerUrl": "https://www.pexels.com/@rahimegul/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2023-08-romania/IMG20230826122922.jpg",
     "takenAt": "2023-08-26T12:29:22Z",
     "hasGps": true,
@@ -582,6 +1285,63 @@
       "city": "Săcele",
       "country": "Romania",
       "display": "Săcele, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-autumn-18703684.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Sinaia",
+      "country": "Romania",
+      "display": "Sinaia, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/peles-castle-autumn-18703684/",
+      "photographer": "Swiss Atlas",
+      "photographerUrl": "https://www.pexels.com/@swiss-atlas-485481359/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-summer-5651718.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Sinaia",
+      "country": "Romania",
+      "display": "Sinaia, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historical-castle-building-architecture-5651718/",
+      "photographer": "Mika",
+      "photographerUrl": "https://www.pexels.com/@mika-1818106/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-brasov-black-church-snow-35380540.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Brașov",
+      "country": "Romania",
+      "display": "Brașov, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/black-church-snow-winter-35380540/",
+      "photographer": "Valeria Drozdova",
+      "photographerUrl": "https://www.pexels.com/@valeria-drozdova-2148646707/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -615,6 +1375,63 @@
     }
   },
   {
+    "src": "trips/2024-09-albania-saranda/pexels-saranda-night-lights-6863718.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Saranda",
+      "country": "Albania",
+      "display": "Saranda, Albania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/saranda-city-in-albania-night-lights-view-6863718/",
+      "photographer": "Andrew Schwark",
+      "photographerUrl": "https://www.pexels.com/@andrew-schwark-540305/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-saranda-lekursi-castle-33067851.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Saranda",
+      "country": "Albania",
+      "display": "Saranda, Albania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/lekursi-castle-saranda-evening-33067851/",
+      "photographer": "Arlind D",
+      "photographerUrl": "https://www.pexels.com/@arlindphotography/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-gjirokastra-fortress-flag-11932455.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Gjirokastra",
+      "country": "Albania",
+      "display": "Gjirokastra, Albania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/albanian-flag-flying-above-ruins-of-fortress-11932455/",
+      "photographer": "Minsu B",
+      "photographerUrl": "https://www.pexels.com/@minsubreitenstein/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2025-02-finland/IMG20250221150611.jpg",
     "takenAt": "2025-02-21T15:06:11Z",
     "hasGps": true,
@@ -645,6 +1462,63 @@
     }
   },
   {
+    "src": "trips/2025-02-finland/pexels-helsinki-winter-aerial-8751413.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Helsinki",
+      "country": "Finland",
+      "display": "Helsinki, Finland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/captivating-aerial-view-of-helsinki-cityscape-during-winter-8751413/",
+      "photographer": "Kseniia Bezz",
+      "photographerUrl": "https://www.pexels.com/@bezzaponnaya/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-02-finland/pexels-helsinki-cathedral-dusk-2311602.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Helsinki",
+      "country": "Finland",
+      "display": "Helsinki, Finland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/photo-of-cathedral-near-buildings-and-river-2311602/",
+      "photographer": "Tapio Haaja",
+      "photographerUrl": "https://www.pexels.com/@tapio-haaja-1214336/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-02-finland/pexels-helsinki-tram-sunrise-37079862.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Helsinki",
+      "country": "Finland",
+      "display": "Helsinki, Finland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-tram-helsinki-37079862/",
+      "photographer": "Mingyang LIU",
+      "photographerUrl": "https://www.pexels.com/@mingyang-liu-301813241/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2025-03-romania/IMG20250330133046.jpg",
     "takenAt": "2025-03-30T13:30:46Z",
     "hasGps": true,
@@ -657,6 +1531,97 @@
       "city": "Bucharest",
       "country": "Romania",
       "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "trips/2025-03-romania/pexels-bucharest-carturesti-carusel-16103344.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/carturesti-carusel-in-bucharest-romania-16103344/",
+      "photographer": "Czapp Árpád",
+      "photographerUrl": "https://www.pexels.com/@czapp-arpad-3647289/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-03-romania/pexels-bucharest-parliament-cloudy-17066979.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historical-landmark-bucharest-cloud-17066979/",
+      "photographer": "Roman Muntean",
+      "photographerUrl": "https://www.pexels.com/@roman-muntean-369190311/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-03-romania/pexels-bucharest-triumphal-arch-night-30210641.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/triumphal-arch-bucharest-night-30210641/",
+      "photographer": "Angelos Lamprakopoulos",
+      "photographerUrl": "https://www.pexels.com/@angelos-lamprakopoulos-3670919/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-03-romania/pexels-bucharest-neoclassical-tenement-17066982.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/neoclassical-tenement-bucharest-17066982/",
+      "photographer": "Roman Muntean",
+      "photographerUrl": "https://www.pexels.com/@roman-muntean-369190311/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413135502.jpg",
+    "takenAt": "2025-04-13T13:55:02Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18468,
+      "lon": 16.39191
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
     }
   },
   {
@@ -705,6 +1670,21 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413154128.jpg",
+    "takenAt": "2025-04-13T15:41:28Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18417,
+      "lon": 16.38915
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413154619.jpg",
     "takenAt": "2025-04-13T15:46:19Z",
     "hasGps": true,
@@ -727,6 +1707,21 @@
     "gps": {
       "lat": 48.18403,
       "lon": 16.38867
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413161509.jpg",
+    "takenAt": "2025-04-13T16:15:09Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18388,
+      "lon": 16.38825
     },
     "place": {
       "city": "Vienna",
@@ -765,6 +1760,21 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413175602.jpg",
+    "takenAt": "2025-04-13T17:56:02Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18673,
+      "lon": 16.31334
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413180630.jpg",
     "takenAt": "2025-04-13T18:06:30Z",
     "hasGps": true,
@@ -772,6 +1782,21 @@
     "gps": {
       "lat": 48.18398,
       "lon": 16.31114
+    },
+    "place": {
+      "city": "Vienna",
+      "country": "Austria",
+      "display": "Vienna, Austria"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413184003.jpg",
+    "takenAt": "2025-04-13T18:40:03Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.17961,
+      "lon": 16.30851
     },
     "place": {
       "city": "Vienna",
@@ -810,6 +1835,21 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250414134649.jpg",
+    "takenAt": "2025-04-14T13:46:49Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.13645,
+      "lon": 17.11436
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250414141622.jpg",
     "takenAt": "2025-04-14T14:16:22Z",
     "hasGps": true,
@@ -817,6 +1857,36 @@
     "gps": {
       "lat": 48.13667,
       "lon": 17.10463
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250414164624.jpg",
+    "takenAt": "2025-04-14T16:46:24Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14547,
+      "lon": 17.14545
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250414201528.jpg",
+    "takenAt": "2025-04-14T20:15:28Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14209,
+      "lon": 17.10938
     },
     "place": {
       "city": "Bratislava",
@@ -855,6 +1925,51 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250414205312.jpg",
+    "takenAt": "2025-04-14T20:53:12Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14162,
+      "lon": 17.10578
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250415131143.jpg",
+    "takenAt": "2025-04-15T13:11:43Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14498,
+      "lon": 17.10908
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250415152539.jpg",
+    "takenAt": "2025-04-15T15:25:39Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.18287,
+      "lon": 17.09474
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250415172154.jpg",
     "takenAt": "2025-04-15T17:21:54Z",
     "hasGps": true,
@@ -870,6 +1985,36 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250415185648.jpg",
+    "takenAt": "2025-04-15T18:56:48Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14515,
+      "lon": 17.11415
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250416135246.jpg",
+    "takenAt": "2025-04-16T13:52:46Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.73573,
+      "lon": 19.15109
+    },
+    "place": {
+      "city": "Banská Bystrica",
+      "country": "Slovakia",
+      "display": "Banská Bystrica, Slovakia"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250416135247.jpg",
     "takenAt": "2025-04-16T13:52:47Z",
     "hasGps": true,
@@ -877,6 +2022,21 @@
     "gps": {
       "lat": 48.73573,
       "lon": 19.15109
+    },
+    "place": {
+      "city": "Banská Bystrica",
+      "country": "Slovakia",
+      "display": "Banská Bystrica, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250416145732.jpg",
+    "takenAt": "2025-04-16T14:57:32Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.73564,
+      "lon": 19.14586
     },
     "place": {
       "city": "Banská Bystrica",
@@ -897,6 +2057,21 @@
       "city": "Banská Bystrica",
       "country": "Slovakia",
       "display": "Banská Bystrica, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250416162107.jpg",
+    "takenAt": "2025-04-16T16:21:07Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.79417,
+      "lon": 19.10013
+    },
+    "place": {
+      "city": "Harmanec",
+      "country": "Slovakia",
+      "display": "Harmanec, Slovakia"
     }
   },
   {
@@ -945,6 +2120,51 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250416213022.jpg",
+    "takenAt": "2025-04-16T21:30:22Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.30828,
+      "lon": 20.04444
+    },
+    "place": {
+      "city": "Murzasichle",
+      "country": "Poland",
+      "display": "Murzasichle, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250417132230.jpg",
+    "takenAt": "2025-04-17T13:22:30Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.27851,
+      "lon": 20.31264
+    },
+    "place": {
+      "city": "Ždiar",
+      "country": "Slovakia",
+      "display": "Ždiar, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250417132544.jpg",
+    "takenAt": "2025-04-17T13:25:44Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.28553,
+      "lon": 20.31454
+    },
+    "place": {
+      "city": "Malá Franková",
+      "country": "Slovakia",
+      "display": "Malá Franková, Slovakia"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250417132930.jpg",
     "takenAt": "2025-04-17T13:29:30Z",
     "hasGps": true,
@@ -957,6 +2177,156 @@
       "city": "Malá Franková",
       "country": "Slovakia",
       "display": "Malá Franková, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250417133651.jpg",
+    "takenAt": "2025-04-17T13:36:51Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.28508,
+      "lon": 20.31215
+    },
+    "place": {
+      "city": "Malá Franková",
+      "country": "Slovakia",
+      "display": "Malá Franková, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250417135406.jpg",
+    "takenAt": "2025-04-17T13:54:06Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.28611,
+      "lon": 20.31427
+    },
+    "place": {
+      "city": "Malá Franková",
+      "country": "Slovakia",
+      "display": "Malá Franková, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250417140607.jpg",
+    "takenAt": "2025-04-17T14:06:07Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.28603,
+      "lon": 20.31439
+    },
+    "place": {
+      "city": "Malá Franková",
+      "country": "Slovakia",
+      "display": "Malá Franková, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250417152918.jpg",
+    "takenAt": "2025-04-17T15:29:18Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.29118,
+      "lon": 20.23156
+    },
+    "place": {
+      "city": "Osturňa",
+      "country": "Slovakia",
+      "display": "Osturňa, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250417162312.jpg",
+    "takenAt": "2025-04-17T16:23:12Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.40631,
+      "lon": 20.36947
+    },
+    "place": {
+      "city": "Sromowce Wyżne",
+      "country": "Poland",
+      "display": "Sromowce Wyżne, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250418144330.jpg",
+    "takenAt": "2025-04-18T14:43:30Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.30838,
+      "lon": 20.04449
+    },
+    "place": {
+      "city": "Murzasichle",
+      "country": "Poland",
+      "display": "Murzasichle, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250418180620.jpg",
+    "takenAt": "2025-04-18T18:06:20Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.29879,
+      "lon": 19.9477
+    },
+    "place": {
+      "city": "Zakopane",
+      "country": "Poland",
+      "display": "Zakopane, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250418185111.jpg",
+    "takenAt": "2025-04-18T18:51:11Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.29658,
+      "lon": 19.94873
+    },
+    "place": {
+      "city": "Zakopane",
+      "country": "Poland",
+      "display": "Zakopane, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250418225155.jpg",
+    "takenAt": "2025-04-18T22:51:55Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.30836,
+      "lon": 20.04456
+    },
+    "place": {
+      "city": "Murzasichle",
+      "country": "Poland",
+      "display": "Murzasichle, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250419132929.jpg",
+    "takenAt": "2025-04-19T13:29:29Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.26939,
+      "lon": 19.98064
+    },
+    "place": {
+      "city": "Zakopane",
+      "country": "Poland",
+      "display": "Zakopane, Poland"
     }
   },
   {
@@ -975,6 +2345,36 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250419145559.jpg",
+    "takenAt": "2025-04-19T14:55:59Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.2524,
+      "lon": 19.97409
+    },
+    "place": {
+      "city": "Zakopane",
+      "country": "Poland",
+      "display": "Zakopane, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250419162332.jpg",
+    "takenAt": "2025-04-19T16:23:32Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.23284,
+      "lon": 19.98271
+    },
+    "place": {
+      "city": "Vysoké Tatry",
+      "country": "Slovakia",
+      "display": "Vysoké Tatry, Slovakia"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250420101709.jpg",
     "takenAt": "2025-04-20T10:17:09Z",
     "hasGps": true,
@@ -987,6 +2387,51 @@
       "city": "Murzasichle",
       "country": "Poland",
       "display": "Murzasichle, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250420101913.jpg",
+    "takenAt": "2025-04-20T10:19:13Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.30838,
+      "lon": 20.0445
+    },
+    "place": {
+      "city": "Murzasichle",
+      "country": "Poland",
+      "display": "Murzasichle, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250420140036.jpg",
+    "takenAt": "2025-04-20T14:00:36Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.25113,
+      "lon": 20.09979
+    },
+    "place": {
+      "city": "Brzegi",
+      "country": "Poland",
+      "display": "Brzegi, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250420160408.jpg",
+    "takenAt": "2025-04-20T16:04:08Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.20536,
+      "lon": 20.07359
+    },
+    "place": {
+      "city": "Brzegi",
+      "country": "Poland",
+      "display": "Brzegi, Poland"
     }
   },
   {
@@ -1005,6 +2450,36 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250420184822.jpg",
+    "takenAt": "2025-04-20T18:48:22Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.25115,
+      "lon": 20.10001
+    },
+    "place": {
+      "city": "Brzegi",
+      "country": "Poland",
+      "display": "Brzegi, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421135058.jpg",
+    "takenAt": "2025-04-21T13:50:58Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.03452,
+      "lon": 19.18303
+    },
+    "place": {
+      "city": "Brzezinka",
+      "country": "Poland",
+      "display": "Brzezinka, Poland"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421142055.jpg",
     "takenAt": "2025-04-21T14:20:55Z",
     "hasGps": true,
@@ -1012,6 +2487,36 @@
     "gps": {
       "lat": 50.03304,
       "lon": 19.1803
+    },
+    "place": {
+      "city": "Brzezinka",
+      "country": "Poland",
+      "display": "Brzezinka, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421145321.jpg",
+    "takenAt": "2025-04-21T14:53:21Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.03405,
+      "lon": 19.16845
+    },
+    "place": {
+      "city": "Pławy",
+      "country": "Poland",
+      "display": "Pławy, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421150030.jpg",
+    "takenAt": "2025-04-21T15:00:30Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.03551,
+      "lon": 19.16859
     },
     "place": {
       "city": "Brzezinka",
@@ -1035,6 +2540,36 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421155332.jpg",
+    "takenAt": "2025-04-21T15:53:32Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.03793,
+      "lon": 19.18016
+    },
+    "place": {
+      "city": "Brzezinka",
+      "country": "Poland",
+      "display": "Brzezinka, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421170306.jpg",
+    "takenAt": "2025-04-21T17:03:06Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.0264,
+      "lon": 19.204
+    },
+    "place": {
+      "city": "Oświęcim",
+      "country": "Poland",
+      "display": "Oświęcim, Poland"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421173744.jpg",
     "takenAt": "2025-04-21T17:37:44Z",
     "hasGps": true,
@@ -1047,6 +2582,126 @@
       "city": "Oświęcim",
       "country": "Poland",
       "display": "Oświęcim, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421174759.jpg",
+    "takenAt": "2025-04-21T17:47:59Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.02619,
+      "lon": 19.20376
+    },
+    "place": {
+      "city": "Oświęcim",
+      "country": "Poland",
+      "display": "Oświęcim, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421190301.jpg",
+    "takenAt": "2025-04-21T19:03:01Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.02522,
+      "lon": 19.20359
+    },
+    "place": {
+      "city": "Oświęcim",
+      "country": "Poland",
+      "display": "Oświęcim, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250422232317.jpg",
+    "takenAt": "2025-04-22T23:23:17Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.28474,
+      "lon": 18.87892
+    },
+    "place": {
+      "city": "Ruda Śląska",
+      "country": "Poland",
+      "display": "Ruda Śląska, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250423151511.jpg",
+    "takenAt": "2025-04-23T15:15:11Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.26026,
+      "lon": 19.02055
+    },
+    "place": {
+      "city": "Katowice",
+      "country": "Poland",
+      "display": "Katowice, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250423160602.jpg",
+    "takenAt": "2025-04-23T16:06:02Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.26006,
+      "lon": 19.02158
+    },
+    "place": {
+      "city": "Katowice",
+      "country": "Poland",
+      "display": "Katowice, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250423161411.jpg",
+    "takenAt": "2025-04-23T16:14:11Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.2601,
+      "lon": 19.02161
+    },
+    "place": {
+      "city": "Katowice",
+      "country": "Poland",
+      "display": "Katowice, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250423200844.jpg",
+    "takenAt": "2025-04-23T20:08:44Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.05887,
+      "lon": 19.933
+    },
+    "place": {
+      "city": "Krakow",
+      "country": "Poland",
+      "display": "Krakow, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250423202207.jpg",
+    "takenAt": "2025-04-23T20:22:07Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.06198,
+      "lon": 19.93691
+    },
+    "place": {
+      "city": "Krakow",
+      "country": "Poland",
+      "display": "Krakow, Poland"
     }
   },
   {
@@ -1065,6 +2720,21 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250423202422.jpg",
+    "takenAt": "2025-04-23T20:24:22Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.06164,
+      "lon": 19.93779
+    },
+    "place": {
+      "city": "Krakow",
+      "country": "Poland",
+      "display": "Krakow, Poland"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250423202744.jpg",
     "takenAt": "2025-04-23T20:27:44Z",
     "hasGps": true,
@@ -1072,6 +2742,21 @@
     "gps": {
       "lat": 50.06211,
       "lon": 19.93854
+    },
+    "place": {
+      "city": "Krakow",
+      "country": "Poland",
+      "display": "Krakow, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250423203955.jpg",
+    "takenAt": "2025-04-23T20:39:55Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.06364,
+      "lon": 19.9358
     },
     "place": {
       "city": "Krakow",
@@ -1110,8 +2795,38 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250424203544.jpg",
+    "takenAt": "2025-04-24T20:35:44Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.19252,
+      "lon": 16.60898
+    },
+    "place": {
+      "city": "Brno",
+      "country": "Czechia",
+      "display": "Brno, Czechia"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250424220612.jpg",
     "takenAt": "2025-04-24T22:06:12Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.19404,
+      "lon": 16.60891
+    },
+    "place": {
+      "city": "Brno",
+      "country": "Czechia",
+      "display": "Brno, Czechia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250424220613.jpg",
+    "takenAt": "2025-04-24T22:06:13Z",
     "hasGps": true,
     "cameraModel": "OnePlus 11 5G",
     "gps": {
@@ -1132,6 +2847,21 @@
     "gps": {
       "lat": 49.19523,
       "lon": 16.60486
+    },
+    "place": {
+      "city": "Brno",
+      "country": "Czechia",
+      "display": "Brno, Czechia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250425164308.jpg",
+    "takenAt": "2025-04-25T16:43:08Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.19148,
+      "lon": 16.61112
     },
     "place": {
       "city": "Brno",
@@ -1242,6 +2972,21 @@
       "city": "Jaroslavice",
       "country": "Czechia",
       "display": "Jaroslavice, Czechia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250426152459.jpg",
+    "takenAt": "2025-04-26T15:24:59Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.12088,
+      "lon": 16.56453
+    },
+    "place": {
+      "city": "Schwechat",
+      "country": "Austria",
+      "display": "Schwechat, Austria"
     }
   },
   {
@@ -2082,956 +3827,6 @@
       "city": "Burgwedel",
       "country": "Germany",
       "display": "Burgwedel, Germany"
-    }
-  },
-  {
-    "src": "trips/2018-04-sweden/pexels-malmo-turning-torso-7019069.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Malmö",
-      "country": "Sweden",
-      "display": "Malmö, Sweden"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/turning-torso-building-in-malmo-sweden-photographed-from-across-the-canal-7019069/",
-      "photographer": "Nikolai Kolosov",
-      "photographerUrl": "https://www.pexels.com/@nikolai-kolosov/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2018-04-sweden/pexels-malmo-turning-torso-sunset-13071531.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Malmö",
-      "country": "Sweden",
-      "display": "Malmö, Sweden"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/city-skyline-across-body-of-water-13071531/",
-      "photographer": "Patrik Stoltz",
-      "photographerUrl": "https://www.pexels.com/@pipo/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2018-04-sweden/pexels-malmo-kungsparken-windmill-19475590.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Malmö",
-      "country": "Sweden",
-      "display": "Malmö, Sweden"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/an-old-windmill-in-kungsparken-in-malmo-sweden-19475590/",
-      "photographer": "Roda Agnas",
-      "photographerUrl": "https://www.pexels.com/@roda-agnas-1581723/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-belgium/pexels-brussels-grand-place-statue-20595735.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Brussels",
-      "country": "Belgium",
-      "display": "Brussels, Belgium"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/golden-statue-at-grand-place-in-brussels-20595735/",
-      "photographer": "Wolf Art",
-      "photographerUrl": "https://www.pexels.com/@wolfart/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-belgium/pexels-ghent-canal-twilight-30427221.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Ghent",
-      "country": "Belgium",
-      "display": "Ghent, Belgium"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/iconic-medieval-architecture-along-the-waterside-in-ghent-30427221/",
-      "photographer": "Dylan Chan",
-      "photographerUrl": "https://www.pexels.com/@dylan-chan-2880813/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-luxembourg/pexels-luxembourg-gothic-revival-30217826.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Luxembourg",
-      "country": "Luxembourg",
-      "display": "Luxembourg, Luxembourg"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/gothic-revival-architecture-in-luxembourg-city-30217826/",
-      "photographer": "Büşra Karabulut",
-      "photographerUrl": "https://www.pexels.com/@busra-karabulut-2046162766/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-luxembourg/pexels-luxembourg-bar-night-20054718.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Luxembourg",
-      "country": "Luxembourg",
-      "display": "Luxembourg, Luxembourg"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/bar-by-the-street-in-luxembourg-at-night-20054718/",
-      "photographer": "Ad Thiry",
-      "photographerUrl": "https://www.pexels.com/@adthiry/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-luxembourg/pexels-luxembourg-adolphe-bridge-autumn-19909061.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Luxembourg",
-      "country": "Luxembourg",
-      "display": "Luxembourg, Luxembourg"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/adolphe-bridge-in-luxembourg-19909061/",
-      "photographer": "Ad Thiry",
-      "photographerUrl": "https://www.pexels.com/@adthiry/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-luxembourg/pexels-luxembourg-philharmonie-16376181.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Luxembourg",
-      "country": "Luxembourg",
-      "display": "Luxembourg, Luxembourg"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/building-of-luxembourg-philharmonie-16376181/",
-      "photographer": "Ruben Da Costa",
-      "photographerUrl": "https://www.pexels.com/@rubendcf/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2020-02-denmark/pexels-horsens-aerial-rooftops-13274625.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Horsens",
-      "country": "Denmark",
-      "display": "Horsens, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-photography-of-city-buildings-13274625/",
-      "photographer": "KAO MHG",
-      "photographerUrl": "https://www.pexels.com/@kaomhg/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2020-02-denmark/pexels-horsens-aerial-cityscape-13274632.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Horsens",
-      "country": "Denmark",
-      "display": "Horsens, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-photography-of-city-buildings-13274632/",
-      "photographer": "KAO MHG",
-      "photographerUrl": "https://www.pexels.com/@kaomhg/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2020-02-denmark/pexels-horsens-aerial-architecture-13519043.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Horsens",
-      "country": "Denmark",
-      "display": "Horsens, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-view-of-buildings-13519043/",
-      "photographer": "KAO MHG",
-      "photographerUrl": "https://www.pexels.com/@kaomhg/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2020-02-denmark/pexels-horsens-park-pathway-14547046.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Horsens",
-      "country": "Denmark",
-      "display": "Horsens, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/lush-green-park-with-pathway-14547046/",
-      "photographer": "Igor Meghega",
-      "photographerUrl": "https://www.pexels.com/@igor-meghega-315695093/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-kavala-castle-waterfront-34030677.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Kavala",
-      "country": "Greece",
-      "display": "Kavala, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/picturesque-kavala-castle-waterfront-34030677/",
-      "photographer": "Tetiana Hutsu",
-      "photographerUrl": "https://www.pexels.com/@tetiana-hutsu-2151030711/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-kavala-stone-arch-36114859.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Kavala",
-      "country": "Greece",
-      "display": "Kavala, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/kavala-stone-arch-view-36114859/",
-      "photographer": "Barkalı",
-      "photographerUrl": "https://www.pexels.com/@barkali-340353352/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-kavala-harbor-twilight-29072782.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Kavala",
-      "country": "Greece",
-      "display": "Kavala, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/kavala-harbor-twilight-29072782/",
-      "photographer": "Sevgi LALE",
-      "photographerUrl": "https://www.pexels.com/@sevgiilale/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-kavala-rooftops-sunset-35837532.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Kavala",
-      "country": "Greece",
-      "display": "Kavala, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/sunset-coastal-city-kavala-greece-35837532/",
-      "photographer": "Lydia Griva",
-      "photographerUrl": "https://www.pexels.com/@iris/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-08-denmark/pexels-billund-airport-airliner-11554593.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Billund Municipality",
-      "country": "Denmark",
-      "display": "Billund Municipality, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/airplane-billund-airport-11554593/",
-      "photographer": "Fatih Turan",
-      "photographerUrl": "https://www.pexels.com/@fatih-turan-63325184/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-08-denmark/pexels-horsens-aerial-summer-13519728.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Horsens",
-      "country": "Denmark",
-      "display": "Horsens, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-view-of-town-near-body-of-water-13519728/",
-      "photographer": "KAO MHG",
-      "photographerUrl": "https://www.pexels.com/@kaomhg/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-08-romania/pexels-brasov-council-square-tower-34069343.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Brașov",
-      "country": "Romania",
-      "display": "Brașov, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-square-clock-tower-brasov-34069343/",
-      "photographer": "Râmbeț Ioana",
-      "photographerUrl": "https://www.pexels.com/@rambe-ioana-211953981/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-08-romania/pexels-brasov-mountain-panorama-9315381.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Brașov",
-      "country": "Romania",
-      "display": "Brașov, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/cityscape-with-mountain-backdrop-9315381/",
-      "photographer": "Ana-Maria Antonenco",
-      "photographerUrl": "https://www.pexels.com/@ana-maria-antonenco-78158389/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-08-romania/pexels-brasov-cobblestone-street-36957142.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Brașov",
-      "country": "Romania",
-      "display": "Brașov, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/cobblestone-street-historic-architecture-brasov-36957142/",
-      "photographer": "Alexandra H. Maria",
-      "photographerUrl": "https://www.pexels.com/@alexandra-h-maria-51314627/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-randers-haslund-church-winter-6526779.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Randers",
-      "country": "Denmark",
-      "display": "Randers, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/haslund-church-in-winter-6526779/",
-      "photographer": "Mark Hansen",
-      "photographerUrl": "https://www.pexels.com/@mark-hansen-12409788/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-randers-wind-turbines-4512516.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Randers",
-      "country": "Denmark",
-      "display": "Randers, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/white-wind-turbines-under-blue-sky-and-white-clouds-4512516/",
-      "photographer": "Peter Holmboe",
-      "photographerUrl": "https://www.pexels.com/@holmboe/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-aarhus-cathedral-harbor-15796451.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Aarhus",
-      "country": "Denmark",
-      "display": "Aarhus, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aarhus-cathedral-harbor-15796451/",
-      "photographer": "Deyaar Rumi",
-      "photographerUrl": "https://www.pexels.com/@deyaar-rumi-427064673/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-aarhus-half-timbered-street-32136937.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Aarhus",
-      "country": "Denmark",
-      "display": "Aarhus, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aarhus-historic-architecture-32136937/",
-      "photographer": "Jakob Andersson",
-      "photographerUrl": "https://www.pexels.com/@jakobandersson/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-10-germany/pexels-hamburg-wasserschloss-bw-7133327.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/the-wasserschloss-in-speicherstadt-hamburg-7133327/",
-      "photographer": "Niklas Jeromin",
-      "photographerUrl": "https://www.pexels.com/@njeromin/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-10-germany/pexels-hamburg-elbphilharmonie-brick-26443234.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/elbphilharmonie-in-hamburg-in-germany-26443234/",
-      "photographer": "Dario Rawert",
-      "photographerUrl": "https://www.pexels.com/@dario-rawert-724203352/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-10-germany/pexels-hamburg-speicherstadt-canal-30195965.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-red-brick-warehouses-30195965/",
-      "photographer": "Jan Reichelt",
-      "photographerUrl": "https://www.pexels.com/@jan-reichelt-911302335/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-12-romania/pexels-bucharest-arcul-de-triumf-night-31829727.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Bucharest",
-      "country": "Romania",
-      "display": "Bucharest, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/arcul-de-triumf-bucharest-night-31829727/",
-      "photographer": "Barış Kılınç",
-      "photographerUrl": "https://www.pexels.com/@baris-kilinc-124682051/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-12-romania/pexels-bucharest-military-circle-corner-16715136.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Bucharest",
-      "country": "Romania",
-      "display": "Bucharest, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/military-circle-palace-bucharest-16715136/",
-      "photographer": "nurs raw",
-      "photographerUrl": "https://www.pexels.com/@nurs-raw-42373260/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-12-romania/pexels-bucharest-quiet-street-28898464.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Bucharest",
-      "country": "Romania",
-      "display": "Bucharest, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/charming-street-scene-in-bucharest-romania-28898464/",
-      "photographer": "Uiliam Nörnberg",
-      "photographerUrl": "https://www.pexels.com/@uiliamnornberg/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-04-italy/pexels-milan-galleria-vittorio-29655807.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Milan",
-      "country": "Italy",
-      "display": "Milan, Italy"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/galleria-vittorio-emanuele-ii-in-milan-italy-29655807/",
-      "photographer": "Haim Charbit",
-      "photographerUrl": "https://www.pexels.com/@haim-charbit-46102840/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-turkey/pexels-istanbul-galata-tower-street-29069777.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Istanbul",
-      "country": "Turkey",
-      "display": "Istanbul, Turkey"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/street-view-of-galata-tower-in-istanbul-29069777/",
-      "photographer": "Rahime Gül",
-      "photographerUrl": "https://www.pexels.com/@rahimegul/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-autumn-18703684.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Sinaia",
-      "country": "Romania",
-      "display": "Sinaia, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/peles-castle-autumn-18703684/",
-      "photographer": "Swiss Atlas",
-      "photographerUrl": "https://www.pexels.com/@swiss-atlas-485481359/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-summer-5651718.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Sinaia",
-      "country": "Romania",
-      "display": "Sinaia, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historical-castle-building-architecture-5651718/",
-      "photographer": "Mika",
-      "photographerUrl": "https://www.pexels.com/@mika-1818106/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-08-romania/pexels-brasov-black-church-snow-35380540.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Brașov",
-      "country": "Romania",
-      "display": "Brașov, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/black-church-snow-winter-35380540/",
-      "photographer": "Valeria Drozdova",
-      "photographerUrl": "https://www.pexels.com/@valeria-drozdova-2148646707/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2024-09-albania-saranda/pexels-saranda-night-lights-6863718.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Saranda",
-      "country": "Albania",
-      "display": "Saranda, Albania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/saranda-city-in-albania-night-lights-view-6863718/",
-      "photographer": "Andrew Schwark",
-      "photographerUrl": "https://www.pexels.com/@andrew-schwark-540305/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2024-09-albania-saranda/pexels-saranda-lekursi-castle-33067851.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Saranda",
-      "country": "Albania",
-      "display": "Saranda, Albania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/lekursi-castle-saranda-evening-33067851/",
-      "photographer": "Arlind D",
-      "photographerUrl": "https://www.pexels.com/@arlindphotography/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2024-09-albania-saranda/pexels-gjirokastra-fortress-flag-11932455.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Gjirokastra",
-      "country": "Albania",
-      "display": "Gjirokastra, Albania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/albanian-flag-flying-above-ruins-of-fortress-11932455/",
-      "photographer": "Minsu B",
-      "photographerUrl": "https://www.pexels.com/@minsubreitenstein/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-02-finland/pexels-helsinki-winter-aerial-8751413.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Helsinki",
-      "country": "Finland",
-      "display": "Helsinki, Finland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/captivating-aerial-view-of-helsinki-cityscape-during-winter-8751413/",
-      "photographer": "Kseniia Bezz",
-      "photographerUrl": "https://www.pexels.com/@bezzaponnaya/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-02-finland/pexels-helsinki-cathedral-dusk-2311602.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Helsinki",
-      "country": "Finland",
-      "display": "Helsinki, Finland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/photo-of-cathedral-near-buildings-and-river-2311602/",
-      "photographer": "Tapio Haaja",
-      "photographerUrl": "https://www.pexels.com/@tapio-haaja-1214336/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-02-finland/pexels-helsinki-tram-sunrise-37079862.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Helsinki",
-      "country": "Finland",
-      "display": "Helsinki, Finland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-tram-helsinki-37079862/",
-      "photographer": "Mingyang LIU",
-      "photographerUrl": "https://www.pexels.com/@mingyang-liu-301813241/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-03-romania/pexels-bucharest-carturesti-carusel-16103344.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Bucharest",
-      "country": "Romania",
-      "display": "Bucharest, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/carturesti-carusel-in-bucharest-romania-16103344/",
-      "photographer": "Czapp Árpád",
-      "photographerUrl": "https://www.pexels.com/@czapp-arpad-3647289/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-03-romania/pexels-bucharest-parliament-cloudy-17066979.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Bucharest",
-      "country": "Romania",
-      "display": "Bucharest, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historical-landmark-bucharest-cloud-17066979/",
-      "photographer": "Roman Muntean",
-      "photographerUrl": "https://www.pexels.com/@roman-muntean-369190311/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-03-romania/pexels-bucharest-triumphal-arch-night-30210641.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Bucharest",
-      "country": "Romania",
-      "display": "Bucharest, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/triumphal-arch-bucharest-night-30210641/",
-      "photographer": "Angelos Lamprakopoulos",
-      "photographerUrl": "https://www.pexels.com/@angelos-lamprakopoulos-3670919/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2018-04-sweden/pexels-malmo-turning-torso-fog-17225672.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Malmö",
-      "country": "Sweden",
-      "display": "Malmö, Sweden"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/apartments-in-front-of-the-fog-shrouded-turning-torso-skyscraper-17225672/",
-      "photographer": "Ira",
-      "photographerUrl": "https://www.pexels.com/@ira-2300811/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-12-romania/pexels-bucharest-odeon-theatre-8780208.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Bucharest",
-      "country": "Romania",
-      "display": "Bucharest, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/odeon-theatre-bucharest-8780208/",
-      "photographer": "Ana-Maria Antonenco",
-      "photographerUrl": "https://www.pexels.com/@ana-maria-antonenco-78158389/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-03-romania/pexels-bucharest-neoclassical-tenement-17066982.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Bucharest",
-      "country": "Romania",
-      "display": "Bucharest, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/neoclassical-tenement-bucharest-17066982/",
-      "photographer": "Roman Muntean",
-      "photographerUrl": "https://www.pexels.com/@roman-muntean-369190311/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-08-romania/pexels-brasov-black-church-aerial-35410900.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Brașov",
-      "country": "Romania",
-      "display": "Brașov, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/black-church-aerial-brasov-35410900/",
-      "photographer": "Valeria Drozdova",
-      "photographerUrl": "https://www.pexels.com/@valeria-drozdova-2148646707/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
     }
   }
 ]
