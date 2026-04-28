@@ -211,7 +211,9 @@ export function SiteHeader() {
           <div
             className={cn(
               "absolute inset-x-0 top-0 bg-background border-b border-border shadow-lg",
-              "max-h-[100svh] overflow-y-auto",
+              // iOS Safari 15.0–15.3 lacks `svh`; pair with `100vh` so the
+              // sheet is still capped on those builds. Newer Safari uses svh.
+              "max-h-screen max-h-[100svh] overflow-y-auto",
               "transition-transform duration-150",
               "motion-reduce:transition-none",
             )}

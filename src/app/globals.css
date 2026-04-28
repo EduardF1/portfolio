@@ -204,3 +204,24 @@
     padding-inline: 1.5rem;
   }
 }
+
+/* Safari/Webkit below 18 needs the -webkit-backdrop-filter prefix.
+   Tailwind v4 emits only the unprefixed property and our PostCSS
+   pipeline has no autoprefixer, so mirror the values for every
+   backdrop utility we use. Defaults match Tailwind v4:
+   backdrop-blur=8px, -sm=4px, saturate-75=.75. */
+@layer utilities {
+  .backdrop-blur { -webkit-backdrop-filter: blur(8px); }
+  .backdrop-blur-sm { -webkit-backdrop-filter: blur(4px); }
+  .backdrop-blur-md { -webkit-backdrop-filter: blur(12px); }
+  .backdrop-blur-lg { -webkit-backdrop-filter: blur(16px); }
+  .backdrop-blur-xl { -webkit-backdrop-filter: blur(24px); }
+  .backdrop-saturate-75 { -webkit-backdrop-filter: saturate(0.75); }
+
+  /* dvh lands in Safari 15.4. Stacked declarations let pre-15.4 iOS
+     fall back to 100vh cleanly; modern Safari overrides with 100dvh. */
+  .min-h-screen-dvh {
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+}
