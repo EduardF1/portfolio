@@ -8,16 +8,17 @@ import {
   useState,
   type ReactNode,
 } from "react";
+import {
+  DEFAULT_PALETTE,
+  PALETTES,
+  type Palette,
+} from "@/lib/palettes";
 
-export type Palette = "schwarzgelb" | "mountain-navy" | "woodsy-cabin";
+// Re-export so existing imports from `@/components/palette-provider`
+// keep working. Server code should prefer `@/lib/palettes` directly.
+export { DEFAULT_PALETTE, PALETTES };
+export type { Palette };
 
-export const PALETTES: readonly Palette[] = [
-  "schwarzgelb",
-  "mountain-navy",
-  "woodsy-cabin",
-] as const;
-
-export const DEFAULT_PALETTE: Palette = "mountain-navy";
 const STORAGE_KEY = "palette";
 
 function isPalette(value: unknown): value is Palette {

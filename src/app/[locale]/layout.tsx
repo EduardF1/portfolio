@@ -8,6 +8,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { SearchPalette } from "@/components/search-palette";
 import { ThemeProvider } from "@/components/theme-provider";
 import { PaletteProvider } from "@/components/palette-provider";
+import { PaletteTracker } from "@/components/palette-tracker";
 import { VisitTracker } from "@/components/visit-tracker";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
@@ -194,6 +195,7 @@ export default async function LocaleLayout({
               <SiteFooter />
               <SearchPalette />
               <VisitTracker />
+              <PaletteTracker />
             </PaletteProvider>
           </ThemeProvider>
         </NextIntlClientProvider>
