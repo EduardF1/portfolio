@@ -58,6 +58,7 @@ export function PhotoLightbox({
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const dialogId = useId();
   const labelId = `${dialogId}-label`;
+  const captionId = `${dialogId}-caption`;
   const dialogRef = useRef<HTMLDivElement | null>(null);
   const closeButtonRef = useRef<HTMLButtonElement | null>(null);
   const triggerRefs = useRef<Array<HTMLButtonElement | null>>([]);
@@ -223,6 +224,7 @@ export function PhotoLightbox({
           role="dialog"
           aria-modal="true"
           aria-labelledby={labelId}
+          aria-describedby={currentPhoto.caption ? captionId : undefined}
           onClick={handleBackdropClick}
           onTouchStart={onTouchStart}
           onTouchEnd={onTouchEnd}
@@ -285,7 +287,13 @@ export function PhotoLightbox({
               sizes="92vw"
             />
             {currentPhoto.caption && (
-              <p className="mt-3 text-center font-mono text-xs uppercase tracking-[0.2em] text-white/80">
+              <p
+                id={captionId}
+                role="note"
+                aria-label="Photo attribution"
+                data-testid="lightbox-caption"
+                className="mt-3 text-center font-mono text-xs uppercase tracking-[0.2em] text-white/80"
+              >
                 {currentPhoto.caption}
               </p>
             )}

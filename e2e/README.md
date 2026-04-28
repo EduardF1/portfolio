@@ -8,11 +8,27 @@ This directory holds the Playwright suite. The configuration lives in
 | Command | What it runs |
 | --- | --- |
 | `npm run test:e2e` | Single-project (chromium desktop) — the PR-fast path |
+| `npm run test:e2e:ui` | Interactive Playwright UI mode |
 | `npm run test:cross-platform` | Full 9-project matrix (`CROSS_PLATFORM=1`) — desktop chromium/firefox/webkit + 4 mobile/tablet emulations |
 
 The cross-platform matrix is the nightly job (and is gated locally so PRs
 don't pay the cost). See `docs/cross-platform-testing.md` for the
 engine-specific gotchas.
+
+The dev/CI server is started automatically (see `playwright.config.ts`)
+and reuses an existing one in dev. Pass `BASE_URL=…` to point at a
+deployed environment instead of starting a local server.
+
+## Project matrix
+
+The cross-platform config exercises a device matrix to catch
+mobile-only regressions:
+
+- `chromium` — desktop Chrome (1280×720). Skips `@mobile`.
+- `chromium-laptop-1366` — common DK enterprise laptop. Runs `@cross`.
+- `chromium-tablet` — iPad-sized viewport (Chromium engine for CI parity).
+- `mobile-iphone-14` / `mobile-iphone-se` — iPhone 14 + smallest iPhone SE.
+- `mobile-pixel-7` / `mobile-galaxy-s5` — Pixel 7 + smallest Galaxy.
 
 ## Tagging
 
@@ -21,6 +37,23 @@ engine-specific gotchas.
 | _untagged_ | Desktop chromium only |
 | `@cross` | Every project (desktop + mobile + tablet) |
 | `@mobile` | Mobile/tablet projects only (skips desktop) |
+
+## Environment variables
+
+Most specs run against the default test build with no extra env. A few
+specs need opt-in flags:
+
+| Variable                | Used by                              | Default | Notes |
+| ----------------------- | ------------------------------------ | ------- | ----- |
+| `BASE_URL`              | all                                  | local   | Skip the bundled webServer; hit a deployed URL instead. |
+| `BVB_USE_MOCK`          | `bvb-feed.spec.ts` (`getBvbFeed`)   | unset   | Set to `1` on the dev server so the BVB feed renders deterministic mock data with no network. CI does this implicitly because `BVB_API_TOKEN` is unset. |
+| `LIVE_INTEGRATIONS`     | mock helpers                         | unset   | Set to `1` to bypass `page.route()` mocks and hit real upstreams. Never set in CI. |
+| `RUN_LIVE_EMAIL`        | `contact-form-yahoo.spec.ts`         | unset   | Opt-in for the live Yahoo round-trip. |
+| `YAHOO_IMAP_USER`       | `contact-form-yahoo.spec.ts`         | —       | Yahoo address to poll, e.g. `fischer_eduard@yahoo.com`. |
+| `YAHOO_IMAP_APP_PASS`   | `contact-form-yahoo.spec.ts`         | —       | 16-char Yahoo *app password* (not the account password). Generate one at <https://login.yahoo.com/account/security>. |
+| `YAHOO_IMAP_HOST`       | `contact-form-yahoo.spec.ts`         | `imap.mail.yahoo.com` | Override only if you proxy IMAP. |
+| `YAHOO_IMAP_PORT`       | `contact-form-yahoo.spec.ts`         | `993`   | TLS port. |
+| `YAHOO_IMAP_FOLDER`     | `contact-form-yahoo.spec.ts`         | `INBOX` | Folder to poll. |
 
 ## Live integrations
 
@@ -112,3 +145,42 @@ your integration runs server-side:
 | Integration | Fixture | Mock helper |
 | --- | --- | --- |
 | OpenLigaDB (BVB feed) | `fixtures/bvb-fixtures.ts` | `fixtures/bvb-mock.ts` |
+
+### Live Yahoo round-trip
+
+The default contact-form spec only checks the server-action success
+card and that the visible recipient address is Yahoo. The full
+round-trip variant submits a real form, then polls Yahoo over IMAP
+until the message arrives (60s timeout). Run it locally with:
+
+```bash
+RUN_LIVE_EMAIL=1 \
+RESEND_API_KEY=re_... \
+YAHOO_IMAP_USER=fischer_eduard@yahoo.com \
+YAHOO_IMAP_APP_PASS=xxxxxxxxxxxxxxxx \
+npm run test:e2e -- contact-form-yahoo
+```
+
+The helper that talks to IMAP lives at `e2e/helpers/yahoo-imap.ts`
+and uses the [`imapflow`](https://www.npmjs.com/package/imapflow)
+client. Tests cannot call MCP tools directly, which is why we keep a
+parallel IMAP path here.
+
+## Visual regression
+
+`visual.spec.ts` captures baseline screenshots for the main routes
+(home light + dark, /work, /writing, /personal, /travel). Baselines
+live alongside the spec under
+`e2e/visual.spec.ts-snapshots/`. To refresh after intentional UI
+changes, push a PR with the `visual-regression-update` label — the
+`.github/workflows/visual-regression.yml` workflow runs Playwright
+with `--update-snapshots` and commits the new baselines back to the
+PR. Locally:
+
+```bash
+npx playwright test visual --update-snapshots
+```
+
+Dynamic regions (current date in the footer, fetched feeds like BVB)
+are masked with `mask: [page.locator(...)]` so timing-induced diff
+noise is minimised.

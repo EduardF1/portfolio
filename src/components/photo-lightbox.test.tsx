@@ -130,6 +130,35 @@ describe("<PhotoLightbox />", () => {
     expect(screen.getByText("Photo of an alley")).toBeInTheDocument();
   });
 
+  it("renders the caption as an accessible note linked via aria-describedby", () => {
+    const captioned: LightboxPhoto[] = [
+      {
+        src: "/photos/a.jpg",
+        alt: "Yellow Wall",
+        caption: "Photo by Eduard Fischer-Szava",
+      },
+    ];
+    render(<PhotoLightbox photos={captioned} />);
+    fireEvent.click(screen.getByLabelText("Yellow Wall"));
+
+    const caption = screen.getByTestId("lightbox-caption");
+    expect(caption).toBeInTheDocument();
+    expect(caption).toHaveAttribute("role", "note");
+    expect(caption).toHaveAttribute("aria-label", "Photo attribution");
+    expect(caption).toHaveTextContent("Photo by Eduard Fischer-Szava");
+
+    const dialog = screen.getByRole("dialog");
+    expect(dialog).toHaveAttribute("aria-describedby", caption.id);
+  });
+
+  it("omits aria-describedby when the photo has no caption", () => {
+    render(<PhotoLightbox photos={photos} />);
+    fireEvent.click(screen.getByLabelText("Photo A"));
+    const dialog = screen.getByRole("dialog");
+    expect(dialog).not.toHaveAttribute("aria-describedby");
+    expect(screen.queryByTestId("lightbox-caption")).toBeNull();
+  });
+
   it("a horizontal swipe-left advances to the next photo", () => {
     render(<PhotoLightbox photos={photos} />);
     fireEvent.click(screen.getByLabelText("Photo A"));

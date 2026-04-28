@@ -15,6 +15,11 @@ import { mockBvbApi } from "./fixtures/bvb-mock";
  * Playwright cannot route. The spec still passes deterministically because
  * the assertions (`tr[data-bvb]`, fixtures list non-empty) are written
  * against the structural contract, not specific season values.
+ *
+ * Round 5 A17 verification: we also assert from the client side that the
+ * page does not call api.football-data.org. The data is fetched
+ * server-side today, but a regression that leaks the API call into the
+ * client bundle would be caught here.
  */
 test.describe("BVB feed @cross", () => {
   test.beforeEach(async ({ page }) => {
@@ -24,6 +29,16 @@ test.describe("BVB feed @cross", () => {
   test("loads with the standings tab via #standings hash and switches to fixtures", async ({
     page,
   }) => {
+    // Round 5 A17 verification: no live football-data.org calls leak
+    // through to the client. Server-side fetches happen before the HTML
+    // is sent so they never appear here, but if the data ever moved
+    // client-side without the mock guard, this would catch it.
+    const liveApiHits: string[] = [];
+    await page.route("**/api.football-data.org/**", (route) => {
+      liveApiHits.push(route.request().url());
+      return route.abort();
+    });
+
     const response = await page.goto("/personal#standings");
     expect(response?.status(), "/personal should be 200").toBe(200);
 
@@ -48,5 +63,8 @@ test.describe("BVB feed @cross", () => {
 
     // URL hash should follow the active tab.
     expect(page.url()).toContain("#next");
+
+    // No live football-data.org calls were attempted from the client.
+    expect(liveApiHits, "client must not hit football-data.org").toEqual([]);
   });
 });
