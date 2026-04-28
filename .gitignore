@@ -78,3 +78,8 @@ scripts/.photo-classify/
 
 # Sub-agent worktrees
 .claude/worktrees/
+
+# Transient build outputs (CV PDF builder uses /.cache for transpiled
+# TS modules and /tmp for the smoke-test fixture output).
+/.cache/
+/tmp/
