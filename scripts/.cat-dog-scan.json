@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-04-28T23:07:14Z",
+  "root": "public/photos/trips",
+  "threshold": 0.5,
+  "totalScanned": 373,
+  "remove": 3,
+  "keep": 370,
+  "errors": 0,
+  "removals": [
+    {
+      "src": "trips/2025-09-andalusia-gibraltar/IMG20250915131621.jpg",
+      "cat_count": 0,
+      "dog_count": 1,
+      "max_cat_conf": 0.0,
+      "max_dog_conf": 0.914
+    },
+    {
+      "src": "trips/2026-03-balkans-roadtrip/IMG20260319141400.jpg",
+      "cat_count": 1,
+      "dog_count": 0,
+      "max_cat_conf": 0.9091,
+      "max_dog_conf": 0.0
+    },
+    {
+      "src": "trips/2026-03-balkans-roadtrip/IMG20260329234655.jpg",
+      "cat_count": 0,
+      "dog_count": 1,
+      "max_cat_conf": 0.0,
+      "max_dog_conf": 0.8463
+    }
+  ]
+}
