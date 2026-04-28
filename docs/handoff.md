@@ -26,11 +26,16 @@ Eduard went to sleep instructing autonomous run until token exhaustion.
 | A12 | feat/v1-round6-tablet-fixes | #28 | done | Hero/About/Personal/Contact viewport→@container; 1024 + 1366 Playwright projects |
 | A14 | feat/v1-round6-proto-motion | #24 | done | Animated dividers + scroll-bg + parallax behind 3 PROTO flags |
 
-**Still running (4 dev agents):**
+**Now at 14/15 dev agents complete. Updated table:**
+
+| # | Branch | PR | Notes |
+|---|---|---|---|
+| A11 | feat/v1-round6-safari-fixes | #30 | -webkit-backdrop-filter prefixes + svh/dvh fallbacks; uses A22 audit on parent worktree |
+| A13 | feat/v1-round6-pdf-cv | #32 | 24KB single-page A4 PDFs; src/lib/experience.ts as single source of truth; old PDFs preserved |
+| A15 | feat/v1-round6-test-hardening | #31 | imapflow live IMAP poll; 6 visual baselines (Win); label-driven refresh workflow; OG smoke + BVB no-network verifies |
+
+**Still running (1 dev agent):**
 - A5 (`feat/v1-round6-coverage-tighten`): coverage tightening; agent ID `ad539e5c76ab943f4`
-- A11 (`feat/v1-round6-safari-fixes`): Safari/Webkit per A22 audit; agent `a88c0c4c1aa752253`. **A22 audit doc not on main yet** (in PR #18) — A11 may exit cleanly with a blocker if it can't find the doc.
-- A13 (`feat/v1-round6-pdf-cv`): PDF resume from MDX via react-pdf; agent `a6e985b4016210002`
-- A15 (`feat/v1-round6-test-hardening`): live IMAP MCP assertion + visual regression baselines + R5 verifies; agent `ad7a2d1afb38d130a`
 
 ### Photo-classification reports landed
 
@@ -50,10 +55,24 @@ Outputs in `scripts/.photo-classify/P*/`. Still NOT committed (waiting for conso
 | P13 | sensitive content sweep | done | **CRITICAL**: 15 sensitive folders on G:\ (Netcompany NDA backup, Important Documents, Whatsapp, Citizenship); 6+2 on D:\\Portfolio; only safe source roots are `G:\Poze` + `D:\Portfolio\poze`. Recommended new §6.1 source-folder allowlist for `docs/photo-organization.md`. |
 | P14 | EXIF camera fingerprinting | report written | |
 
-**Still running photo agents**: P7 (D:\Portfolio comprehensive), P9 (best-of shortlist), P10 (per-slot recommendations).
+**Photo agents updated (P3, P7, P9 also done):**
 
-### Disk-space warning
-Multiple agents reported disk pressure. `scripts/.tmp-exif/` was 19GB before being .gitignored; agent worktrees each carry ~700MB node_modules; A12 saw 3GB free at one point. Watch G:\ + C:\ free space in next session — purge old agent worktrees if needed (`git worktree remove --force <path>`).
+- **P3** (2021-2022): 6,272 photos / 1,949 GPS-tagged. Found 2 trips not yet on /travel: Hamburg/Lüneburg Oct 2022 (worth `public/photos/trips/2022-10-de-hamburg`) and Greece 2022. exiftool NOT installed on the system — recommend installing before next pass (78% pure-PowerShell EXIF coverage today).
+- **P7** (D:\Portfolio): 70k files / 91.5GB. Big extraction candidates: Ernesto wedding zip 16.97GB, 1749442124878.jpg.zip 1.35GB, Photos Hamburg.zip 1.32GB. 92 smaller archives in father's TATA construction archive. 95 video files / 1.2GB; TS2 interview .mp4s duplicated 4× (cleanup candidate). Recommended target tree: `D:\Portfolio\classified\{trips,personal,subjects,by-year}\` + `archive-legacy\poze\` non-destructively.
+- **P9** (best-of shortlist): strongest heroes Schwangau/Neuschwanstein (Mar 2026) + Málaga Roman Theatre. ~150 unimported Hamburg 2022 photos in `G:\Poze\Ha_Photos\` + `D:\Portfolio\poze\Ha_Photos\` = biggest single import opportunity, would flip Hamburg trip slot from "thin (2 own + 3 stock)" to "well-covered". Thin categories confirmed: BVB (1 photo only), cars (4 prior, 1 valid after R5 audit), food/culinary (zero), self-portraits (P3 classifier excludes — needs new heuristic + hand-pass on `G:\Poze\Instagram\`'s 143 curated frames).
+
+**Still running photo agents**: P10 (per-slot recommendations) only.
+
+### Disk-space warning (now CRITICAL)
+A13 reported **C:\ at 18GB free / 95% full** during install. A12 hit 3GB free at one point. `scripts/.tmp-exif/` was 19GB before .gitignore. Each agent worktree ~700MB node_modules; we have ~30 worktrees (17 Round 5 locked + 15 Round 6).
+
+**First-thing-next-session**: purge old agent worktrees:
+```
+for w in $(git worktree list --porcelain | grep -E '^worktree.*\.claude/worktrees' | awk '{print $2}'); do
+  git worktree remove --force "$w"
+done
+```
+Will reclaim ~20GB.
 
 ### Next-session priorities (in order)
 1. **Fix CI** on PR #18 — wrap useTranslations callers in NextIntlClientProvider in vitest.setup.ts (or downgrade threshold). Then merge PR #18 to land Round 5 WIP on main.
