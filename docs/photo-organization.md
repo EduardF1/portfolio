@@ -193,6 +193,17 @@ for round-2 batches.
 Per Eduard's standing rules. Remove on sight; never accept these in stock fills
 or new archive uploads:
 
+- **Recognisable relatives** (faces, even with verbal consent — require written
+  per-photo re-confirmation). Children of relatives are excluded outright.
+- **Document photos**: any frame where a printed page, ID, passport, contract,
+  receipt, screen-of-document, mailpiece, or whiteboard is the dominant
+  content, or where text on such items is readable in the background.
+- **Work environments**: indoor photos at any current or former employer's
+  site (Netcompany, Greenbyte, Boozt, prior); whiteboards / screens from any
+  client engagement; other employees' faces. Excluded indefinitely.
+- **Apartment interiors** with identifying detail (mail, address, parcel
+  labels, floor-plan-revealing wide shots, window views identifying the
+  building). Cropped detail shots (e.g. plant, desk corner) are case-by-case.
 - Identifiable third parties without consent (faces in foreground, recognisable
   individuals).
 - VELO nicotine product placement, or any similar product foregrounded on
@@ -209,6 +220,39 @@ or new archive uploads:
 
 When in doubt, flag in the agent summary rather than silently keeping. See
 `scripts/.round5/A1-summary.md` Phase 1 for the working audit log format.
+
+### 6.1 Source-folder policy
+
+Per the privacy sweep at `scripts/.photo-classify/P13/sensitive-sweep.md`. Build
+script `scripts/build-photo-catalogue.mjs` accepts only `--folder` args, so this
+is policy not enforcement — but a documented blocklist prevents accidental
+imports from sensitive directories.
+
+**Approved import sources** (safe to pass to `--folder`):
+
+- `G:\Poze\`
+- `D:\Portfolio\poze\`
+- Loose `D:\Portfolio\IMG*.jpg` at drive root (after manual sort)
+
+**Blocked import sources** (never pass to `--folder`):
+
+- `G:\Important Documents\`, `D:\Portfolio\Important Documents\` — Cat-2 (residence permit, police, medical, tax, housing, qualifications, others' documents)
+- `G:\Documents\`, `D:\Portfolio\Documents\` — Cat-2 mixed PDFs
+- `G:\Citizenship\`, `G:\Citizenship_Application\` — passport / ID / birth-cert scans
+- `G:\Whatsapp\` — group-chat exports with relatives + children of relatives
+- `G:\backup media telefon\` — older phone snapshot, mixed sensitive content
+- `G:\backup NC (24.02.2026)\` — **Netcompany NDA**, work artefacts
+- `G:\Desktop Files (Before Reinstall)\` — pre-reinstall dump with screenshots / login screens
+- `G:\Calendars\` — meeting subjects revealing employer / client names
+- All coursework folders (`G:\AU-MSC\`, `G:\University\`, `G:\IBA Studies\`,
+  `G:\VIA_UCL*\`, `D:\Portfolio\AU-MSC\`, `D:\Portfolio\University\`,
+  `D:\Portfolio\master thesis\`) — group-work consent required
+- `D:\Portfolio\Text files\` — `*-stdout.txt` / `*-stderr.txt` may leak
+  work-machine paths, employer hostnames, ticket IDs
+
+For ambiguous slugs (e.g. `mar-2026-recent-trip` — too vague), the photo is
+held out of the page until renamed to a content-descriptive slug encoding both
+location AND subject.
 
 ## 7. Trip-detail target
 
