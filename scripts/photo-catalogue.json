@@ -1,80 +1,5 @@
 [
   {
-    "src": "trips/2018-03-israel/IMG_20180323_113715.jpg",
-    "takenAt": "2018-03-23T11:37:16Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 32.71134,
-      "lon": 35.57151
-    },
-    "place": {
-      "city": "Emek HaYarden Regional Council",
-      "country": "Israel",
-      "display": "Emek HaYarden Regional Council, Israel"
-    }
-  },
-  {
-    "src": "trips/2018-03-israel/IMG_20180323_113718.jpg",
-    "takenAt": "2018-03-23T11:37:19Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 32.711338043055555,
-      "lon": 35.571510314722225
-    },
-    "place": {
-      "city": "Yardenit (Sea of Galilee)",
-      "country": "Israel",
-      "display": "Yardenit (Sea of Galilee), Israel"
-    }
-  },
-  {
-    "src": "trips/2018-03-israel/IMG_20180323_114017.jpg",
-    "takenAt": "2018-03-23T11:40:24Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 32.71131,
-      "lon": 35.57151
-    },
-    "place": {
-      "city": "Emek HaYarden Regional Council",
-      "country": "Israel",
-      "display": "Emek HaYarden Regional Council, Israel"
-    }
-  },
-  {
-    "src": "trips/2018-03-israel/IMG_20180323_115533.jpg",
-    "takenAt": "2018-03-23T11:55:39Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 32.7114,
-      "lon": 35.57149
-    },
-    "place": {
-      "city": "Emek HaYarden Regional Council",
-      "country": "Israel",
-      "display": "Emek HaYarden Regional Council, Israel"
-    }
-  },
-  {
-    "src": "trips/2018-03-israel/IMG_20180324_113721.jpg",
-    "takenAt": "2018-03-24T11:37:25Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 33.09259,
-      "lon": 35.10718
-    },
-    "place": {
-      "city": "Mate Asher Regional Council",
-      "country": "Israel",
-      "display": "Mate Asher Regional Council, Israel"
-    }
-  },
-  {
     "src": "trips/2018-03-israel/IMG_20180324_114159.jpg",
     "takenAt": "2018-03-24T11:42:02Z",
     "hasGps": true,
@@ -105,21 +30,6 @@
     }
   },
   {
-    "src": "trips/2018-03-israel/IMG_20180324_121638.jpg",
-    "takenAt": "2018-03-24T12:16:57Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 33.09298,
-      "lon": 35.10396
-    },
-    "place": {
-      "city": "Mate Asher Regional Council",
-      "country": "Israel",
-      "display": "Mate Asher Regional Council, Israel"
-    }
-  },
-  {
     "src": "trips/2018-03-israel/IMG_20180324_130051.jpg",
     "takenAt": "2018-03-24T13:00:51Z",
     "hasGps": true,
@@ -132,36 +42,6 @@
       "city": "Rosh HaNikra (Mate Asher)",
       "country": "Israel",
       "display": "Rosh HaNikra (Mate Asher), Israel"
-    }
-  },
-  {
-    "src": "trips/2018-03-israel/IMG_20180324_130102.jpg",
-    "takenAt": "2018-03-24T13:01:03Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 33.0933,
-      "lon": 35.10501
-    },
-    "place": {
-      "city": "Mate Asher Regional Council",
-      "country": "Israel",
-      "display": "Mate Asher Regional Council, Israel"
-    }
-  },
-  {
-    "src": "trips/2018-03-israel/IMG_20180324_130414.jpg",
-    "takenAt": "2018-03-24T13:04:14Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 33.09368,
-      "lon": 35.10492
-    },
-    "place": {
-      "city": "Mate Asher Regional Council",
-      "country": "Israel",
-      "display": "Mate Asher Regional Council, Israel"
     }
   },
   {
@@ -192,21 +72,6 @@
       "city": "Nazareth",
       "country": "Israel",
       "display": "Nazareth, Israel"
-    }
-  },
-  {
-    "src": "trips/2018-03-israel/IMG_20180325_135940.jpg",
-    "takenAt": "2018-03-25T13:59:41Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 32.74694,
-      "lon": 35.338
-    },
-    "place": {
-      "city": "Kfar Kanna",
-      "country": "Israel",
-      "display": "Kfar Kanna, Israel"
     }
   },
   {

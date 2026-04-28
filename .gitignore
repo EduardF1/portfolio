@@ -106,6 +106,7 @@ scripts/.inpaint-edge-output/
 # before/after fixtures used by the SAMPLE doc dry-run.
 public/photos/_inpaint-thumbs/
 scripts/.inpaint-staging/
+scripts/.inpaint-staging-israel-only/
 scripts/.inpaint-test-output/
 scripts/.inpaint-sample-before/
 scripts/.inpaint-sample-after/
