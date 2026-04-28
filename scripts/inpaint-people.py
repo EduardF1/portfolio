@@ -82,6 +82,12 @@ os.environ.setdefault("XDG_CACHE_HOME", str(_CACHE_DIR))
 
 PERSON_CLASS_ID = 0  # COCO id for "person" -- shared by YOLO11/YOLOv8 weights.
 FACE_FALLBACK_EXPANSION = 0.8  # 80 % bbox inflation when face has no parent person.
+# LaMa CPU memory caps: a 3456x4608 photo trips an OOM around 16 GB tensor
+# allocations on 32 GB hosts. Cap the long edge fed to LaMa to this size, then
+# composite the inpainted result back onto the full-resolution source so output
+# dimensions are still preserved bit-exactly. 2048 px long edge keeps peak RAM
+# under ~4 GB while remaining high-quality.
+LAMA_MAX_SIDE = 2048
 
 
 def _require_runtime_deps():
@@ -462,7 +468,34 @@ def _process_one(
         record["decision"] = "inpainted"
         if not dry_run:
             mask = _build_mask(src_size, selected, mask_dilate)
-            inpainted = lama(image, mask)
+            # LaMa is memory-hungry: tensor allocations scale ~quadratically with
+            # pixel count, and a 3456x4608 photo would need ~16GB of CPU RAM in
+            # one of the FFC convolution layers (observed crash on 32GB host
+            # while other processes consumed half the RAM). Cap the LaMa input
+            # to LAMA_MAX_SIDE on the long edge; upscale the inpainted output
+            # back to src and composite ONLY the masked regions onto the
+            # original. Unmasked pixels stay pixel-identical to the source.
+            sw, sh = src_size
+            long_side = max(sw, sh)
+            if long_side > LAMA_MAX_SIDE:
+                scale = LAMA_MAX_SIDE / float(long_side)
+                rw = max(1, int(round(sw * scale)))
+                rh = max(1, int(round(sh * scale)))
+                small_image = image.resize((rw, rh), Image.LANCZOS)
+                small_mask = mask.resize((rw, rh), Image.NEAREST)
+                small_inpainted = lama(small_image, small_mask)
+                # Upscale to src dims, then composite onto the source using
+                # the full-resolution mask so unmasked pixels are unchanged.
+                upscaled = small_inpainted.convert("RGB").resize(src_size, Image.LANCZOS)
+                inpainted = Image.composite(upscaled, image, mask)
+            else:
+                inpainted = lama(image, mask)
+            # SimpleLama pads the input to a multiple of 8 before inference
+            # (`pad_out_to_modulo=8` in prepare_img_and_mask) and returns the
+            # padded output without cropping. Crop back to src dimensions
+            # to preserve the input shape exactly.
+            if inpainted.size != src_size:
+                inpainted = inpainted.crop((0, 0, src_size[0], src_size[1]))
             # SimpleLama returns a PIL.Image (same dimensions as input). Save as
             # JPEG to match input extension when possible; high quality keeps
             # second-generation compression damage minimal.
