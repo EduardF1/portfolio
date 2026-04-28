@@ -26,6 +26,25 @@ export default async function TravelPage({
 
   const recentTrips = photoTrips.slice(0, 6);
 
+  // Map each country to the chronologically earliest trip slug, so the
+  // country card and map pin can both deep-link straight into a real
+  // photo set rather than just a fragment on this page.
+  const earliestByCountry = new Map<string, string>();
+  for (const trip of photoTrips) {
+    const key = trip.country.toLowerCase();
+    const existing = earliestByCountry.get(key);
+    if (
+      !existing ||
+      trip.startsAt < (photoTrips.find((t) => t.slug === existing)?.startsAt ?? "")
+    ) {
+      earliestByCountry.set(key, trip.slug);
+    }
+  }
+
+  function firstTripSlug(country: string): string | undefined {
+    return earliestByCountry.get(country.toLowerCase());
+  }
+
   return (
     <>
       <section className="container-page pt-24 md:pt-28 pb-12">
@@ -42,7 +61,12 @@ export default async function TravelPage({
 
       {destinations.length > 0 && (
         <section className="container-page pb-12">
-          <TravelEuropeMap destinations={destinations} />
+          <TravelEuropeMap
+            destinations={destinations.map((d) => ({
+              ...d,
+              firstTripSlug: firstTripSlug(d.country),
+            }))}
+          />
         </section>
       )}
 
@@ -63,19 +87,38 @@ export default async function TravelPage({
           <ul
             className="grid gap-px bg-border/60 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 rounded-lg overflow-hidden"
           >
-            {destinations.map((d) => (
-              <li
-                key={d.slug}
-                id={`country-${d.slug}`}
-                className="bg-background p-6 scroll-mt-24"
-              >
-                <p className="font-serif text-2xl text-foreground">{d.country}</p>
-                <p className="mt-3 text-sm text-foreground-muted">
-                  {d.cities.slice(0, 6).join(", ")}
-                  {d.cities.length > 6 && ", …"}
-                </p>
-              </li>
-            ))}
+            {destinations.map((d) => {
+              const slug = firstTripSlug(d.country);
+              const inner = (
+                <>
+                  <p className="font-serif text-2xl text-foreground group-hover:text-accent transition-colors">
+                    {d.country}
+                  </p>
+                  <p className="mt-3 text-sm text-foreground-muted">
+                    {d.cities.slice(0, 6).join(", ")}
+                    {d.cities.length > 6 && ", …"}
+                  </p>
+                </>
+              );
+              return (
+                <li
+                  key={d.slug}
+                  id={`country-${d.slug}`}
+                  className="bg-background scroll-mt-24"
+                >
+                  {slug ? (
+                    <Link
+                      href={`/travel/photos/${slug}`}
+                      className="group block p-6 transition-colors hover:bg-surface focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+                    >
+                      {inner}
+                    </Link>
+                  ) : (
+                    <div className="p-6">{inner}</div>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </section>
       )}

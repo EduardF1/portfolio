@@ -9,6 +9,15 @@ import {
 } from "react-simple-maps";
 import type { CountryDestination } from "@/lib/travel-locations";
 
+/**
+ * Destination shape consumed by the map. The base `CountryDestination`
+ * is enriched on the server with `firstTripSlug` so a pin click can
+ * deep-link straight to a real photo set when one exists.
+ */
+export type MapDestination = CountryDestination & {
+  firstTripSlug?: string;
+};
+
 // World TopoJSON (Natural Earth 1:50m) served from jsDelivr CDN. ~250KB
 // gzipped, edge-cached. We use a Mercator projection clipped to a
 // Europe-shaped viewport so coastlines and country borders render
@@ -38,7 +47,7 @@ function markerRadius(photoCount: number): number {
 export function TravelEuropeMap({
   destinations,
 }: {
-  destinations: CountryDestination[];
+  destinations: MapDestination[];
 }) {
   const [hovered, setHovered] = useState<string | null>(null);
 
@@ -89,7 +98,11 @@ export function TravelEuropeMap({
                 onBlur={() => setHovered(null)}
               >
                 <a
-                  href={`#country-${destination.slug}`}
+                  href={
+                    destination.firstTripSlug
+                      ? `/travel/photos/${destination.firstTripSlug}`
+                      : `#country-${destination.slug}`
+                  }
                   aria-label={`${destination.country}, ${destination.photoCount} ${destination.photoCount === 1 ? "photo" : "photos"}, ${destination.cities.length} ${destination.cities.length === 1 ? "city" : "cities"}`}
                 >
                   <circle
@@ -130,7 +143,7 @@ export function TravelEuropeMap({
       </figure>
 
       <p className="mt-3 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-foreground-subtle">
-        {destinations.length} countries · click a marker to jump to that country&apos;s photos · base map © Natural Earth
+        {destinations.length} countries · click a marker to open that country&apos;s photo set · base map © Natural Earth
       </p>
     </div>
   );
