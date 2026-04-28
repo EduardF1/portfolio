@@ -1,7 +1,13 @@
 import type { MDXComponents } from "mdx/types";
 import Link from "next/link";
+import { TripStays } from "@/components/trip-stays";
 
 export const mdxComponents: MDXComponents = {
+  // Trip-scoped stays list. Embed in a trip MDX as
+  // `<TripStays slug="2025-04-czechia-poland-slovakia-austria" />`.
+  // Renders nothing if no stays match the slug, so it's safe to leave
+  // in unrelated MDX too.
+  TripStays,
   h1: ({ children, ...props }) => (
     <h1 className="mt-12 mb-6" {...props}>
       {children}
