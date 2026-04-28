@@ -76,4 +76,28 @@ describe("mdxComponents", () => {
     render(<>{el(mdxComponents.a, {}, "plain")}</>);
     expect(screen.getByRole("link", { name: "plain" })).toHaveAttribute("href", "#");
   });
+
+  it("pre/code skip the surface-chip styling when data-language is present (rehype-pretty-code path)", () => {
+    // When rehype-pretty-code wraps a fenced block it puts data-language on
+    // both <pre> and <code>. Our overrides must let those through bare so
+    // globals.css `pre[data-language]` rule + Shiki's inline --shiki-* vars
+    // can do the styling — otherwise we'd force `bg-surface` and clobber the
+    // highlighting structure.
+    const { container } = render(
+      <>
+        {el(
+          mdxComponents.pre,
+          { "data-language": "ts" },
+          el(mdxComponents.code, { "data-language": "ts" }, "const x = 1;"),
+        )}
+      </>,
+    );
+    const pre = container.querySelector("pre")!;
+    const code = container.querySelector("code")!;
+    expect(pre.getAttribute("data-language")).toBe("ts");
+    expect(code.getAttribute("data-language")).toBe("ts");
+    // No Tailwind shell classes — globals.css owns the styling.
+    expect(pre.className).toBe("");
+    expect(code.className).toBe("");
+  });
 });

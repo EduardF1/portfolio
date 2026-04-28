@@ -5,6 +5,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getCollection, getItem } from "@/lib/content";
 import { mdxComponents } from "@/components/mdx-components";
+import { mdxOptions } from "@/lib/mdx-options";
 import { formatDate } from "@/lib/format";
 import { PhotoGallery, type Photo } from "@/components/photo-gallery";
 
@@ -79,7 +80,11 @@ export default async function TravelItem({
       <hr className="my-10" />
 
       <div className="prose-content">
-        <MDXRemote source={item.body} components={mdxComponents} />
+        <MDXRemote
+          source={item.body}
+          components={mdxComponents}
+          options={mdxOptions}
+        />
       </div>
 
       {photos.length > 0 && (
