@@ -3,27 +3,14 @@
   "missingFiles": [],
   "orphanFiles": [],
   "pageRefs": [
-    "/photos/mar-2024-spring-evening.jpg",
-    "/photos/may-2024-late-spring.jpg",
-    "/photos/nov-2023-autumn.jpg",
-    "/photos/mar-2026-recent-trip.jpg",
-    "/photos/sep-2025-autumn-afternoon.jpg",
-    "/photos/apr-2025-vienna.jpg",
-    "/photos/mar-2026-pula.jpg",
-    "/photos/sep-2025-gibraltar.jpg",
-    "/photos/apr-2023-milan.jpg",
-    "/photos/bvb-yellow-wall-suedtribuene.jpg"
+    "/photos/personal/mar-2024-spring-evening.jpg",
+    "/photos/personal/may-2024-late-spring.jpg",
+    "/photos/personal/nov-2023-autumn.jpg",
+    "/photos/personal/mar-2026-recent-trip.jpg",
+    "/photos/personal/apr-2025-vienna.jpg",
+    "/photos/personal/mar-2026-pula.jpg",
+    "/photos/personal/apr-2023-milan.jpg",
+    "/photos/personal/bvb-yellow-wall-suedtribuene.jpg"
   ],
-  "pageMissing": [
-    "/photos/mar-2024-spring-evening.jpg",
-    "/photos/may-2024-late-spring.jpg",
-    "/photos/nov-2023-autumn.jpg",
-    "/photos/mar-2026-recent-trip.jpg",
-    "/photos/sep-2025-autumn-afternoon.jpg",
-    "/photos/apr-2025-vienna.jpg",
-    "/photos/mar-2026-pula.jpg",
-    "/photos/sep-2025-gibraltar.jpg",
-    "/photos/apr-2023-milan.jpg",
-    "/photos/bvb-yellow-wall-suedtribuene.jpg"
-  ]
+  "pageMissing": []
 }
