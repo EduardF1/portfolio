@@ -933,5 +933,25 @@
     "city": "Milton Keynes",
     "country": "United Kingdom",
     "display": "Milton Keynes, United Kingdom"
+  },
+  "40.86,24.70": {
+    "city": "Keramoti",
+    "country": "Greece",
+    "display": "Keramoti, Greece"
+  },
+  "40.67,24.76": {
+    "city": "Thassos Municipality",
+    "country": "Greece",
+    "display": "Thassos Municipality, Greece"
+  },
+  "40.68,24.76": {
+    "city": "Thassos Municipality",
+    "country": "Greece",
+    "display": "Thassos Municipality, Greece"
+  },
+  "40.94,24.96": {
+    "city": "Abdera Municipality",
+    "country": "Greece",
+    "display": "Abdera Municipality, Greece"
   }
 }
