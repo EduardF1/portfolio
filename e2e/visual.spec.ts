@@ -40,6 +40,14 @@ const dynamicMasks = (page: Page) => [
 // across them would explode the snapshot count and produce non-actionable
 // failures.
 test.describe("visual regression", () => {
+  // Opt-in: baselines aren't committed yet, so the default CI run skips
+  // these. The label-driven `visual-regression.yml` workflow sets
+  // `RUN_VISUAL_REGRESSION=1` to capture/update snapshots.
+  test.skip(
+    process.env.RUN_VISUAL_REGRESSION !== "1",
+    "Visual regression is opt-in until baselines are committed",
+  );
+
   // The default `chromium` project skips `@mobile`-tagged tests but
   // includes everything else by default, so no tag is needed here.
   // Stabilise screenshots: disable animations and pin the system theme.
