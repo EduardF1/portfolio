@@ -212,6 +212,7 @@
   },
   "tripPhotos": {
     "kicker": "Trip · {country}",
+    "intro": "Photographs from a stretch through {country} in {month}. The frames are roughly chronological; the captions stay light, the geography does the talking.",
     "photoCount": "{count, plural, one {# photo} other {# photos}}",
     "countLabel": "Photo {current} of {total}",
     "prev": "Previous photo",

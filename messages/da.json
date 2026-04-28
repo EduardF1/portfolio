@@ -212,6 +212,7 @@
   },
   "tripPhotos": {
     "kicker": "Rejse · {country}",
+    "intro": "Billeder fra en tur gennem {country} i {month}. Billederne er groft kronologiske; billedteksterne er korte, geografien taler for sig selv.",
     "photoCount": "{count, plural, one {# foto} other {# fotos}}",
     "countLabel": "Foto {current} af {total}",
     "prev": "Forrige foto",
