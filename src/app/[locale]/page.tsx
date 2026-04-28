@@ -17,6 +17,12 @@ import { roleSlug } from "@/lib/role-slug";
 import { ROLES, tokenizeSummary } from "@/lib/experience";
 import { HowIWork } from "@/components/how-i-work";
 import { SectionNav, type SectionLink } from "@/components/section-nav";
+import { AnimatedDivider } from "@/components/animated-divider";
+import { ScrollDrivenBackground } from "@/components/scroll-driven-bg";
+import {
+  animatedDividersEnabled,
+  scrollBackgroundEnabled,
+} from "@/lib/proto-flags";
 
 export default async function Home({
   params,
@@ -32,6 +38,11 @@ export default async function Home({
   const sp = (await searchParams) ?? {};
   const videoVariant: HeroVideoVariant | null =
     sp.video === "A" ? "A" : sp.video === "B" ? "B" : null;
+
+  // Prototype-track motion features — each one is fully off when its
+  // PROTO flag is unset, so the markup is also absent server-side.
+  const showAnimatedDividers = animatedDividersEnabled();
+  const showScrollBackground = scrollBackgroundEnabled();
 
   // Section anchors for the left-edge TOC. Labels are short and
   // surface-level — they are rendered in a fixed left rail at lg+ widths
@@ -51,17 +62,24 @@ export default async function Home({
 
   return (
     <>
+      {showScrollBackground && <ScrollDrivenBackground />}
       <SectionNav sections={sectionLinks} />
       <Hero videoVariant={videoVariant} />
+      {showAnimatedDividers && <AnimatedDivider />}
       <About />
+      {showAnimatedDividers && <AnimatedDivider />}
       <section id="stats" className="border-t border-border/60 scroll-mt-24">
         <div className="container-page py-16 md:py-20">
           <StatsRow />
         </div>
       </section>
+      {showAnimatedDividers && <AnimatedDivider />}
       <Experience />
+      {showAnimatedDividers && <AnimatedDivider />}
       <HowIWork />
+      {showAnimatedDividers && <AnimatedDivider />}
       <Skills />
+      {showAnimatedDividers && <AnimatedDivider />}
       {recommendations.length > 0 && (
         <section
           id="recommends"
@@ -83,6 +101,7 @@ export default async function Home({
           </div>
         </section>
       )}
+      {showAnimatedDividers && <AnimatedDivider />}
       <FeaturedWork />
     </>
   );

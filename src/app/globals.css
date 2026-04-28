@@ -293,3 +293,66 @@
     min-height: 100dvh;
   }
 }
+
+/* -----------------------------------------------------------------------
+   Prototype-track motion (gated at component level by NEXT_PUBLIC_PROTO_*).
+   These rules are inert unless the gated component renders.
+   ----------------------------------------------------------------------- */
+
+/* Animated section divider — SVG sweep slides in with a CSS transition.
+   The `data-visible` flip is owned by the IntersectionObserver in the
+   component; here we declare the resulting motion. */
+@keyframes proto-divider-sweep {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+[data-testid="animated-divider"][data-visible="true"]
+  .proto-divider-sweep-rect {
+  animation: proto-divider-sweep 600ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-testid="animated-divider"][data-visible="true"]
+    .proto-divider-sweep-rect {
+    animation: none;
+  }
+}
+
+/* Scroll-driven background — Chromium-only. The `@supports` guard means
+   Safari/Firefox keep the static gradient with no animation. */
+@keyframes proto-scroll-bg-pan {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+    filter: hue-rotate(0deg);
+  }
+  to {
+    transform: translate3d(0, -8%, 0) scale(1.08);
+    filter: hue-rotate(20deg);
+  }
+}
+
+@supports (animation-timeline: scroll()) {
+  .proto-scroll-bg-layer {
+    animation: proto-scroll-bg-pan linear both;
+    animation-timeline: scroll();
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .proto-scroll-bg-layer {
+      animation: none;
+    }
+  }
+}
+
+/* Sticky parallax cards — `position: sticky` per item. Reduced-motion
+   users get static flow so cards don't pin. */
+@media (prefers-reduced-motion: reduce) {
+  .proto-sticky-item {
+    position: static;
+  }
+}

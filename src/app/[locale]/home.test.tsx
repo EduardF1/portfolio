@@ -9,6 +9,21 @@ import { cleanup, render, screen } from "@testing-library/react";
 
 vi.mock("server-only", () => ({}));
 
+// Stub IntersectionObserver since the AnimatedDivider component (mounted
+// when NEXT_PUBLIC_PROTO_ANIMATED_DIVIDERS=1) uses it on mount.
+class StubIO {
+  observe() {}
+  disconnect() {}
+  unobserve() {}
+  takeRecords() {
+    return [];
+  }
+  readonly root = null;
+  readonly rootMargin = "";
+  readonly thresholds: ReadonlyArray<number> = [];
+}
+vi.stubGlobal("IntersectionObserver", StubIO);
+
 beforeEach(() => {
   Object.defineProperty(window, "matchMedia", {
     writable: true,
@@ -175,5 +190,81 @@ describe("Home (homepage)", () => {
     const { container } = render(tree);
     expect(container.textContent).not.toMatch(/Variant A/);
     expect(container.textContent).not.toMatch(/Variant B/);
+  });
+});
+
+describe("Home — prototype motion flags", () => {
+  beforeEach(() => {
+    useTranslationsMock.mockImplementation((ns?: string) => makeT(I18N, ns));
+  });
+
+  afterEach(() => {
+    vi.unstubAllEnvs();
+  });
+
+  it("omits animated dividers + scroll-bg when flags are unset", async () => {
+    vi.stubEnv("NEXT_PUBLIC_PROTO_ANIMATED_DIVIDERS", "");
+    vi.stubEnv("NEXT_PUBLIC_PROTO_SCROLL_BG", "");
+    const tree = await Home({
+      params: Promise.resolve({ locale: "en" }),
+      searchParams: Promise.resolve({}),
+    });
+    const { container } = render(tree);
+    expect(
+      container.querySelector('[data-testid="animated-divider"]'),
+    ).toBeNull();
+    expect(
+      container.querySelector('[data-testid="scroll-driven-bg"]'),
+    ).toBeNull();
+  });
+
+  it('omits animated dividers + scroll-bg when flags are "0"', async () => {
+    vi.stubEnv("NEXT_PUBLIC_PROTO_ANIMATED_DIVIDERS", "0");
+    vi.stubEnv("NEXT_PUBLIC_PROTO_SCROLL_BG", "0");
+    const tree = await Home({
+      params: Promise.resolve({ locale: "en" }),
+      searchParams: Promise.resolve({}),
+    });
+    const { container } = render(tree);
+    expect(
+      container.querySelector('[data-testid="animated-divider"]'),
+    ).toBeNull();
+    expect(
+      container.querySelector('[data-testid="scroll-driven-bg"]'),
+    ).toBeNull();
+  });
+
+  it('mounts animated dividers when NEXT_PUBLIC_PROTO_ANIMATED_DIVIDERS="1"', async () => {
+    vi.stubEnv("NEXT_PUBLIC_PROTO_ANIMATED_DIVIDERS", "1");
+    vi.stubEnv("NEXT_PUBLIC_PROTO_SCROLL_BG", "");
+    const tree = await Home({
+      params: Promise.resolve({ locale: "en" }),
+      searchParams: Promise.resolve({}),
+    });
+    const { container } = render(tree);
+    const dividers = container.querySelectorAll(
+      '[data-testid="animated-divider"]',
+    );
+    expect(dividers.length).toBeGreaterThan(0);
+    // scroll-bg flag stayed off
+    expect(
+      container.querySelector('[data-testid="scroll-driven-bg"]'),
+    ).toBeNull();
+  });
+
+  it('mounts scroll-driven background when NEXT_PUBLIC_PROTO_SCROLL_BG="1"', async () => {
+    vi.stubEnv("NEXT_PUBLIC_PROTO_ANIMATED_DIVIDERS", "");
+    vi.stubEnv("NEXT_PUBLIC_PROTO_SCROLL_BG", "1");
+    const tree = await Home({
+      params: Promise.resolve({ locale: "en" }),
+      searchParams: Promise.resolve({}),
+    });
+    const { container } = render(tree);
+    expect(
+      container.querySelector('[data-testid="scroll-driven-bg"]'),
+    ).not.toBeNull();
+    expect(
+      container.querySelector('[data-testid="animated-divider"]'),
+    ).toBeNull();
   });
 });

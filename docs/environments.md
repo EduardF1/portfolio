@@ -115,11 +115,16 @@ The code reads them via `src/lib/proto-flags.ts` — see the next section.
 ## Reading flags in code
 
 `src/lib/proto-flags.ts` exports a `protoFlags` object and an
-`isProtoEnabled(name)` helper. Use either; both compile to the same
+`isProtoEnabled(name)` helper, plus per-flag `*Enabled()` functions for
+component/page mount sites. All three styles compile to the same
 client-bundle output.
 
 ```ts
-import { isProtoEnabled, protoFlags } from "@/lib/proto-flags";
+import {
+  isProtoEnabled,
+  protoFlags,
+  animatedDividersEnabled,
+} from "@/lib/proto-flags";
 
 // In a component:
 if (isProtoEnabled("sideSectionVideos")) {
@@ -128,6 +133,11 @@ if (isProtoEnabled("sideSectionVideos")) {
 
 // Or directly:
 const layout = protoFlags.videoBackgroundFullBleed ? "B" : "A";
+
+// Or the bare-function form (preferred at mount sites):
+if (animatedDividersEnabled()) {
+  // render the divider
+}
 ```
 
 **Why static references matter** (Next.js gotcha): only literal
@@ -137,6 +147,29 @@ bundle at build time. Dynamic lookups like
 browser. The helper file uses one literal reference per flag for that
 reason; do not refactor it to a dynamic lookup. See
 `node_modules/next/dist/docs/01-app/02-guides/environment-variables.md`.
+
+## Active prototype flags
+
+Each flag is `"1"` → on, anything else (unset, `""`, `"0"`) → off. Add
+new flags to `src/lib/proto-flags.ts`, register them in this table, and
+append the empty placeholder to `.env.example`.
+
+| Flag                                       | Default | Effect                                                                                                                                                                                  |
+| ------------------------------------------ | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `NEXT_PUBLIC_PROTO_VIDEO_BG_FULL_BLEED`    | off     | Hero video background renders full-bleed instead of contained inside the hero card.                                                                                                     |
+| `NEXT_PUBLIC_PROTO_SIDE_SECTION_VIDEOS`    | off     | Inline videos in side-by-side sections on the homepage.                                                                                                                                 |
+| `NEXT_PUBLIC_PROTO_ANIMATED_DIVIDERS`      | off     | Subtle animated dividers between major homepage sections. Thin gradient line + SVG sweep, 600ms ease-out, IntersectionObserver-driven, motion-reduce respected.                          |
+| `NEXT_PUBLIC_PROTO_SCROLL_BG`              | off     | Scroll-driven decorative background behind the hero/about. Uses CSS `animation-timeline: scroll()`; wrapped in `@supports (...)` so Safari/Firefox fall back to a static gradient.       |
+| `NEXT_PUBLIC_PROTO_PARALLAX_CARDS`         | off     | Sticky-parallax cards on `/writing` and `/recommends`. Each card pins briefly at the top of the viewport on scroll then releases. Pure CSS `position: sticky`, motion-reduce respected. |
+
+Enable locally by adding the flag to `.env.local`, e.g.
+
+```bash
+NEXT_PUBLIC_PROTO_ANIMATED_DIVIDERS=1
+```
+
+Restart `next dev` after changing any `NEXT_PUBLIC_*` var so the build
+pipeline re-inlines the value.
 
 ## Keeping prototype fresh
 

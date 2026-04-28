@@ -3,10 +3,15 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/section-heading";
 import { ReadingFeed } from "@/components/reading-feed";
+import {
+  StickyParallaxStack,
+  StickyParallaxItem,
+} from "@/components/sticky-parallax";
 import { getCollection } from "@/lib/content";
 import { formatDate } from "@/lib/format";
 import { isReadingSource } from "@/lib/reading-feed";
 import { readingMinutes, formatReadingTime } from "@/lib/reading-time";
+import { parallaxCardsEnabled } from "@/lib/proto-flags";
 
 export const metadata = { title: "Posts and articles" };
 
@@ -23,6 +28,7 @@ export default async function WritingPage({
   const t = await getTranslations("tooltips");
   const tw = await getTranslations("writing");
   const source = isReadingSource(sp.reading) ? sp.reading : "devto";
+  const showParallaxCards = parallaxCardsEnabled();
 
   return (
     <>
@@ -46,34 +52,38 @@ export default async function WritingPage({
         {posts.length === 0 ? (
           <PlaceholderEmpty>{tw("noPosts")}</PlaceholderEmpty>
         ) : (
-          <ul className="divide-y divide-border/60 border-y border-border/60">
-            {posts.map((p) => (
-              <li key={p.slug}>
-                <Link
-                  href={`/writing/${p.slug}`}
-                  className="group flex flex-col gap-2 py-6 md:flex-row md:items-baseline md:justify-between md:gap-8 hover:bg-surface px-2 -mx-2 rounded-md transition-colors"
-                >
-                  <div className="flex-1">
-                    <h3 className="text-xl group-hover:text-accent transition-colors">
-                      {p.frontmatter.title}
-                    </h3>
-                    {p.frontmatter.description && (
-                      <p className="mt-1 text-sm">{p.frontmatter.description}</p>
-                    )}
-                  </div>
-                  <p className="font-mono text-xs text-foreground-subtle whitespace-nowrap">
-                    {formatDate(p.frontmatter.date)}
-                    {readingMinutes(p.body) > 0 && (
-                      <>
-                        {" · "}
-                        {formatReadingTime(readingMinutes(p.body))}
-                      </>
-                    )}
-                  </p>
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <MaybeParallax enabled={showParallaxCards}>
+            <ul className="divide-y divide-border/60 border-y border-border/60">
+              {posts.map((p, idx) => (
+                <li key={p.slug}>
+                  <MaybeStickyItem enabled={showParallaxCards} index={idx}>
+                    <Link
+                      href={`/writing/${p.slug}`}
+                      className="group flex flex-col gap-2 py-6 md:flex-row md:items-baseline md:justify-between md:gap-8 hover:bg-surface px-2 -mx-2 rounded-md transition-colors"
+                    >
+                      <div className="flex-1">
+                        <h3 className="text-xl group-hover:text-accent transition-colors">
+                          {p.frontmatter.title}
+                        </h3>
+                        {p.frontmatter.description && (
+                          <p className="mt-1 text-sm">{p.frontmatter.description}</p>
+                        )}
+                      </div>
+                      <p className="font-mono text-xs text-foreground-subtle whitespace-nowrap">
+                        {formatDate(p.frontmatter.date)}
+                        {readingMinutes(p.body) > 0 && (
+                          <>
+                            {" · "}
+                            {formatReadingTime(readingMinutes(p.body))}
+                          </>
+                        )}
+                      </p>
+                    </Link>
+                  </MaybeStickyItem>
+                </li>
+              ))}
+            </ul>
+          </MaybeParallax>
         )}
       </section>
 
@@ -92,34 +102,38 @@ export default async function WritingPage({
         {articles.length === 0 ? (
           <PlaceholderEmpty>{tw("noArticles")}</PlaceholderEmpty>
         ) : (
-          <ul className="divide-y divide-border/60 border-y border-border/60">
-            {articles.map((a) => (
-              <li key={a.slug}>
-                <Link
-                  href={`/writing/${a.slug}`}
-                  className="group flex flex-col gap-2 py-6 md:flex-row md:items-baseline md:justify-between md:gap-8 hover:bg-surface px-2 -mx-2 rounded-md transition-colors"
-                >
-                  <div className="flex-1">
-                    <h3 className="text-xl group-hover:text-accent transition-colors">
-                      {a.frontmatter.title}
-                    </h3>
-                    {a.frontmatter.description && (
-                      <p className="mt-1 text-sm">{a.frontmatter.description}</p>
-                    )}
-                    {typeof a.frontmatter.publication === "string" && (
-                      <p className="mt-1 font-mono text-xs uppercase tracking-wider text-foreground-subtle">
-                        {a.frontmatter.publication}
+          <MaybeParallax enabled={showParallaxCards}>
+            <ul className="divide-y divide-border/60 border-y border-border/60">
+              {articles.map((a, idx) => (
+                <li key={a.slug}>
+                  <MaybeStickyItem enabled={showParallaxCards} index={idx}>
+                    <Link
+                      href={`/writing/${a.slug}`}
+                      className="group flex flex-col gap-2 py-6 md:flex-row md:items-baseline md:justify-between md:gap-8 hover:bg-surface px-2 -mx-2 rounded-md transition-colors"
+                    >
+                      <div className="flex-1">
+                        <h3 className="text-xl group-hover:text-accent transition-colors">
+                          {a.frontmatter.title}
+                        </h3>
+                        {a.frontmatter.description && (
+                          <p className="mt-1 text-sm">{a.frontmatter.description}</p>
+                        )}
+                        {typeof a.frontmatter.publication === "string" && (
+                          <p className="mt-1 font-mono text-xs uppercase tracking-wider text-foreground-subtle">
+                            {a.frontmatter.publication}
+                          </p>
+                        )}
+                      </div>
+                      <p className="font-mono text-xs text-foreground-subtle whitespace-nowrap">
+                        {formatDate(a.frontmatter.date)}
                       </p>
-                    )}
-                  </div>
-                  <p className="font-mono text-xs text-foreground-subtle whitespace-nowrap">
-                    {formatDate(a.frontmatter.date)}
-                  </p>
-                  <ArrowUpRight className="hidden md:inline h-4 w-4 text-foreground-subtle group-hover:text-accent" />
-                </Link>
-              </li>
-            ))}
-          </ul>
+                      <ArrowUpRight className="hidden md:inline h-4 w-4 text-foreground-subtle group-hover:text-accent" />
+                    </Link>
+                  </MaybeStickyItem>
+                </li>
+              ))}
+            </ul>
+          </MaybeParallax>
         )}
       </section>
 
@@ -138,4 +152,28 @@ function PlaceholderEmpty({ children }: { children: React.ReactNode }) {
       <p className="text-foreground-subtle">{children}</p>
     </div>
   );
+}
+
+function MaybeParallax({
+  enabled,
+  children,
+}: {
+  enabled: boolean;
+  children: React.ReactNode;
+}) {
+  if (!enabled) return <>{children}</>;
+  return <StickyParallaxStack>{children}</StickyParallaxStack>;
+}
+
+function MaybeStickyItem({
+  enabled,
+  index,
+  children,
+}: {
+  enabled: boolean;
+  index: number;
+  children: React.ReactNode;
+}) {
+  if (!enabled) return <>{children}</>;
+  return <StickyParallaxItem index={index}>{children}</StickyParallaxItem>;
 }

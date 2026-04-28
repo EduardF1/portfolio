@@ -141,6 +141,46 @@ describe("WritingPage (list)", () => {
   });
 });
 
+describe("WritingPage — parallax cards flag", () => {
+  afterEach(() => {
+    vi.unstubAllEnvs();
+  });
+
+  it("omits sticky-parallax markup when NEXT_PUBLIC_PROTO_PARALLAX_CARDS is unset", async () => {
+    vi.stubEnv("NEXT_PUBLIC_PROTO_PARALLAX_CARDS", "");
+    const tree = await WritingPage({ searchParams: Promise.resolve({}) });
+    const { container } = render(tree);
+    expect(
+      container.querySelector('[data-testid="sticky-parallax-stack"]'),
+    ).toBeNull();
+    expect(
+      container.querySelector('[data-testid="sticky-parallax-item"]'),
+    ).toBeNull();
+  });
+
+  it('omits sticky-parallax markup when NEXT_PUBLIC_PROTO_PARALLAX_CARDS="0"', async () => {
+    vi.stubEnv("NEXT_PUBLIC_PROTO_PARALLAX_CARDS", "0");
+    const tree = await WritingPage({ searchParams: Promise.resolve({}) });
+    const { container } = render(tree);
+    expect(
+      container.querySelector('[data-testid="sticky-parallax-stack"]'),
+    ).toBeNull();
+  });
+
+  it('mounts sticky-parallax markup when NEXT_PUBLIC_PROTO_PARALLAX_CARDS="1"', async () => {
+    vi.stubEnv("NEXT_PUBLIC_PROTO_PARALLAX_CARDS", "1");
+    const tree = await WritingPage({ searchParams: Promise.resolve({}) });
+    const { container } = render(tree);
+    expect(
+      container.querySelector('[data-testid="sticky-parallax-stack"]'),
+    ).not.toBeNull();
+    const items = container.querySelectorAll(
+      '[data-testid="sticky-parallax-item"]',
+    );
+    expect(items.length).toBeGreaterThan(0);
+  });
+});
+
 describe("WritingItem (slug page)", () => {
   it("renders an article: title, MDX body, back link", async () => {
     const tree = await WritingItem({
