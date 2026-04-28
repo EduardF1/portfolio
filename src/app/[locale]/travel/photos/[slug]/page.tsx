@@ -59,10 +59,13 @@ export default async function TripPhotosPage({
       <h1 className="mt-3 mb-3">
         {headline}, {trip.monthLabel}
       </h1>
-      <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-10">
+      <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
         {trip.dateRange}
         {" · "}
         {tp("photoCount", { count: trip.photoCount })}
+      </p>
+      <p className="max-w-2xl text-foreground-muted mb-10">
+        {tp("intro", { country: trip.country, month: trip.monthLabel })}
       </p>
 
       <PhotoLightbox

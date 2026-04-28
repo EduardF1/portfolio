@@ -50,14 +50,15 @@ export default defineConfig({
         // Photo-source resolver — thin pass-through, manual-tested.
         "src/lib/photo-source.ts",
       ],
-      // Round 5 WIP added many files (OG cards, scaffolds, photo helpers)
-      // before their tests landed. A5 (round 6) raises these to 72/65/78/73
-      // once its branch merges. Keep the floor here so PR #18 can land.
+      // Round 6 baseline (A5 + Round 5 WIP excludes): tests covering main's
+      // surface; Round 5 prototype scaffolds excluded above. Thresholds ~5pp
+      // below baseline so a single regression fails CI but small refactors
+      // don't churn the gate.
       thresholds: {
-        statements: 40,
-        branches: 40,
-        functions: 50,
-        lines: 40,
+        statements: 72,
+        branches: 65,
+        functions: 78,
+        lines: 73,
       },
     },
   },

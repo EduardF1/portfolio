@@ -1,4 +1,4 @@
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers";
 import { notFound, redirect } from "next/navigation";
 import {
   bucketHitsByDay,
@@ -17,6 +17,14 @@ import {
   getUniqueSessionCount,
   isAnalyticsEnabled,
 } from "@/lib/redis-analytics";
+import {
+  barChartPercents,
+  fetchPaletteStats,
+  getSearchQueryStats,
+  topPaletteCombos,
+  type CountRow,
+  type PaletteStats,
+} from "@/lib/admin-stats";
 
 // Force dynamic — we always read the cookie and never want to cache
 // the dashboard. Required because cookies() opts a Server Component
@@ -86,9 +94,22 @@ export default async function AdminStatsPage({
     ? (sp.range as RangeKey)
     : "today";
   const days = dayKeysForRange(new Date(), RANGE_DAYS[range]);
-  const [hits, uniqueAcrossDays] = await Promise.all([
+
+  // Build the absolute base URL for the internal /api/track-palette
+  // call. We can't use a relative URL on the server (no `window`),
+  // and we can't hardcode the prod domain (breaks preview deploys).
+  // x-forwarded-host + x-forwarded-proto are set by Vercel's edge.
+  const headerStore = await headers();
+  const proto = headerStore.get("x-forwarded-proto") ?? "https";
+  const host =
+    headerStore.get("x-forwarded-host") ?? headerStore.get("host") ?? "";
+  const baseUrl = host ? `${proto}://${host}` : "";
+
+  const [hits, uniqueAcrossDays, paletteStats, searchQueries] = await Promise.all([
     getHits(days),
     getUniqueSessionCount(days),
+    fetchPaletteStats(baseUrl, expected),
+    getSearchQueryStats(),
   ]);
 
   return (
@@ -97,6 +118,8 @@ export default async function AdminStatsPage({
       days={days}
       hits={hits}
       uniqueAcrossDays={uniqueAcrossDays}
+      paletteStats={paletteStats}
+      searchQueries={searchQueries}
     />
   );
 }
@@ -121,11 +144,15 @@ function Dashboard({
   days,
   hits,
   uniqueAcrossDays,
+  paletteStats,
+  searchQueries,
 }: {
   range: RangeKey;
   days: string[];
   hits: Hit[];
   uniqueAcrossDays: number;
+  paletteStats: PaletteStats;
+  searchQueries: CountRow[];
 }) {
   // Aggregate everything we need for the cards in one pass through hits.
   const totalViews = hits.length;
@@ -251,11 +278,108 @@ function Dashboard({
         <RankTable title="Browser mix" rows={browsers} keyHeader="Browser" />
       </div>
 
+      <div className="mt-12 grid gap-8 md:grid-cols-2">
+        <PaletteCard stats={paletteStats} />
+        <SearchQueriesCard rows={searchQueries} />
+      </div>
+
       <p className="mt-16 text-xs text-foreground-subtle">
         First-party, anonymous, aggregate. No IP addresses or persistent
         identifiers stored. See <code>/privacy</code>.
       </p>
     </main>
+  );
+}
+
+/**
+ * Top palette × theme combos card. Reads A3's `/api/track-palette`
+ * contract: `{ counters, palettes, themes, updatedAt }`. Renders a
+ * horizontal CSS bar chart (no chart-lib dependency) and a "no data
+ * yet" placeholder when the route hasn't shipped or hasn't recorded
+ * any hits.
+ */
+function PaletteCard({ stats }: { stats: PaletteStats }) {
+  const top = topPaletteCombos(stats, 6);
+  const bars = barChartPercents(top);
+  return (
+    <section>
+      <h2 className="text-lg font-medium">Top palette × theme</h2>
+      <div className="mt-4 rounded-lg border border-border p-4">
+        {bars.length === 0 ? (
+          <p className="text-sm text-foreground-subtle">
+            No data yet. Once <code>/api/track-palette</code> is wired up
+            this card will rank palette × theme picks by count.
+          </p>
+        ) : (
+          <ul className="space-y-3">
+            {bars.map((row) => (
+              <li key={row.key}>
+                <div className="flex items-center justify-between text-sm">
+                  <span className="font-mono">{row.key}</span>
+                  <span className="font-mono text-xs text-foreground-subtle">
+                    {row.count}
+                  </span>
+                </div>
+                <div className="mt-1 h-2 rounded bg-surface">
+                  <div
+                    className="h-2 rounded bg-accent"
+                    style={{ width: `${row.pct}%` }}
+                  />
+                </div>
+              </li>
+            ))}
+          </ul>
+        )}
+        {stats.updatedAt && (
+          <p className="mt-3 text-xs text-foreground-subtle">
+            Updated {stats.updatedAt}
+          </p>
+        )}
+      </div>
+    </section>
+  );
+}
+
+/**
+ * Top search queries card. Reads from the FlexSearch query log; the
+ * log is currently a no-op stub (queries stay client-side for privacy)
+ * so this card always shows the empty state until PO greenlights
+ * server-side search analytics.
+ */
+function SearchQueriesCard({ rows }: { rows: CountRow[] }) {
+  const top = rows.slice(0, 10);
+  const bars = barChartPercents(top);
+  return (
+    <section>
+      <h2 className="text-lg font-medium">Top search queries</h2>
+      <div className="mt-4 rounded-lg border border-border p-4">
+        {bars.length === 0 ? (
+          <p className="text-sm text-foreground-subtle">
+            No data yet. Search queries stay client-side by default;
+            server-side logging will land once a privacy review signs off.
+          </p>
+        ) : (
+          <ul className="space-y-3">
+            {bars.map((row) => (
+              <li key={row.key}>
+                <div className="flex items-center justify-between text-sm">
+                  <span className="font-mono">{row.key}</span>
+                  <span className="font-mono text-xs text-foreground-subtle">
+                    {row.count}
+                  </span>
+                </div>
+                <div className="mt-1 h-2 rounded bg-surface">
+                  <div
+                    className="h-2 rounded bg-accent"
+                    style={{ width: `${row.pct}%` }}
+                  />
+                </div>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </section>
   );
 }
 

@@ -1,0 +1,167 @@
+{
+  "C#": [
+    {
+      "name": "booking-platform-dotnet-roadmap",
+      "url": "https://github.com/EduardF1/booking-platform-dotnet-roadmap",
+      "description": ""
+    }
+  ],
+  "C++": [
+    {
+      "name": "ESW",
+      "url": "https://github.com/EduardF1/ESW",
+      "description": "A small project for practicing esw in C++."
+    }
+  ],
+  "CSS": [
+    {
+      "name": "conditional-rendering-practice",
+      "url": "https://github.com/EduardF1/conditional-rendering-practice",
+      "description": "A small project exploring conditional rendering practice with CSS."
+    }
+  ],
+  "Dockerfile": [
+    {
+      "name": "nginx-stack-demo",
+      "url": "https://github.com/EduardF1/nginx-stack-demo",
+      "description": "Fast lightweight Docker network using PHP MySQL Nginx and Node."
+    }
+  ],
+  "EJS": [
+    {
+      "name": "Authentication",
+      "url": "https://github.com/EduardF1/Authentication",
+      "description": "A project for practicing different implementations of security within web apps"
+    }
+  ],
+  "HTML": [
+    {
+      "name": "advanced_css",
+      "url": "https://github.com/EduardF1/advanced_css",
+      "description": "A small static site exploring advanced css with HTML."
+    },
+    {
+      "name": "basic_html",
+      "url": "https://github.com/EduardF1/basic_html",
+      "description": "A small static site exploring basic html with HTML."
+    },
+    {
+      "name": "DOM",
+      "url": "https://github.com/EduardF1/DOM",
+      "description": "A project for understanding how the DOM works"
+    }
+  ],
+  "Haskell": [
+    {
+      "name": "haskell-hands-on",
+      "url": "https://github.com/EduardF1/haskell-hands-on",
+      "description": "A small project for practicing haskell hands on in Haskell."
+    }
+  ],
+  "Java": [
+    {
+      "name": "And-Project",
+      "url": "https://github.com/EduardF1/And-Project",
+      "description": "The concepts are: 1) Layouts (various layouts used) 2) Intents 3) Activities and Fragments 4) Navigation/The use of the Navigation Component 5) Local data storage - using the Room library 6) Web serv."
+    },
+    {
+      "name": "Android_Exam_Practice",
+      "url": "https://github.com/EduardF1/Android_Exam_Practice",
+      "description": "A repository with small projects made for practicing android development with Java."
+    },
+    {
+      "name": "DBS_1",
+      "url": "https://github.com/EduardF1/DBS_1",
+      "description": "A repository containing all the assignments of the Database Systems' Course."
+    }
+  ],
+  "JavaScript": [
+    {
+      "name": "SWA",
+      "url": "https://github.com/EduardF1/SWA",
+      "description": "A small project for practicing swa in JavaScript."
+    },
+    {
+      "name": "Beat-The-Drums",
+      "url": "https://github.com/EduardF1/Beat-The-Drums",
+      "description": "A small game that allows the user to reproduce sounds specific to drums."
+    },
+    {
+      "name": "Calculator",
+      "url": "https://github.com/EduardF1/Calculator",
+      "description": "A small project of a Calculator web application built with NodeJS and Express"
+    }
+  ],
+  "Jupyter Notebook": [
+    {
+      "name": "Linear_Algebra",
+      "url": "https://github.com/EduardF1/Linear_Algebra",
+      "description": "A small project for practicing linear algebra in Jupyter Notebook."
+    },
+    {
+      "name": "machine-learning",
+      "url": "https://github.com/EduardF1/machine-learning",
+      "description": ""
+    }
+  ],
+  "PHP": [
+    {
+      "name": "Symfony-api-and-react",
+      "url": "https://github.com/EduardF1/Symfony-api-and-react",
+      "description": "A small project for practicing symfony api and react in PHP."
+    },
+    {
+      "name": "bbp-backend",
+      "url": "https://github.com/EduardF1/bbp-backend",
+      "description": ""
+    },
+    {
+      "name": "movies",
+      "url": "https://github.com/EduardF1/movies",
+      "description": "A small Symfony 4 + Doctrine PHP project for managing movies."
+    }
+  ],
+  "Python": [
+    {
+      "name": "python_essentials",
+      "url": "https://github.com/EduardF1/python_essentials",
+      "description": "A small project for practicing python essentials in Python."
+    },
+    {
+      "name": "Selenium-tutorial",
+      "url": "https://github.com/EduardF1/Selenium-tutorial",
+      "description": "A small project for practicing selenium tutorial in Python."
+    }
+  ],
+  "Scala": [
+    {
+      "name": "scala-hands-on",
+      "url": "https://github.com/EduardF1/scala-hands-on",
+      "description": "A small project for practicing scala hands on in Scala."
+    }
+  ],
+  "TSQL": [
+    {
+      "name": "Data_Analytics_Infrastructure",
+      "url": "https://github.com/EduardF1/Data_Analytics_Infrastructure",
+      "description": "A repository containing all the assignments and projects from the fourth semester's D.A.I course."
+    }
+  ],
+  "TypeScript": [
+    {
+      "name": "adversus-interview-assignment",
+      "url": "https://github.com/EduardF1/adversus-interview-assignment",
+      "description": "Minimal full-stack notes application implementing per-resource edit locking with TTL-based expiration and atomic acquisition using MySQL transactions."
+    },
+    {
+      "name": "array-utils",
+      "url": "https://github.com/EduardF1/array-utils",
+      "description": "A small project for practicing array utils in TypeScript."
+    },
+    {
+      "name": "bankdata-challenge",
+      "url": "https://github.com/EduardF1/bankdata-challenge",
+      "description": "Full-stack Bankdata code challenge (Spring Boot, Angular, Docker, CQRS)"
+    }
+  ]
+}

@@ -12,9 +12,11 @@ export default function GlobalError({
   return (
     <html lang="en">
       <body
+        // `min-h-screen-dvh` stacks 100vh + 100dvh so iOS Safari < 15.4
+        // (no `dvh` support) still gets a vertically-centered error screen.
+        className="min-h-screen-dvh"
         style={{
           margin: 0,
-          minHeight: "100dvh",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",

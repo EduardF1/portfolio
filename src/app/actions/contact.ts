@@ -2,6 +2,15 @@
 
 import { z } from "zod";
 
+export const MAX_ATTACHMENT_BYTES = 5 * 1024 * 1024; // 5 MB
+export const ATTACHMENT_MIME = "application/pdf";
+
+const attachmentSchema = z
+  .instanceof(File)
+  .optional()
+  .refine((f) => !f || f.size <= MAX_ATTACHMENT_BYTES, "Too big")
+  .refine((f) => !f || f.type === ATTACHMENT_MIME, "PDF only");
+
 const contactSchema = z.object({
   name: z.string().min(1, "Name is required").max(100),
   email: z.string().email("Enter a valid email"),
@@ -12,6 +21,7 @@ const contactSchema = z.object({
     .max(5000),
   // Cloudflare Turnstile token — added once site is wired up.
   "cf-turnstile-response": z.string().optional(),
+  attachment: attachmentSchema,
 });
 
 export type ContactState =
@@ -36,18 +46,46 @@ async function verifyTurnstile(token: string | undefined): Promise<boolean> {
   return data.success === true;
 }
 
+type EmailAttachment = { filename: string; content: string };
+
 async function sendEmail(payload: {
   name: string;
   email: string;
   subject?: string;
   message: string;
+  attachment?: EmailAttachment;
 }): Promise<boolean> {
   const apiKey = process.env.RESEND_API_KEY;
   const to = process.env.CONTACT_TO ?? "fischer_eduard@yahoo.com";
   if (!apiKey) {
     // No email provider configured yet — log and succeed so dev flow continues.
-    console.info("[contact] (no email provider) submission:", payload);
+    console.info("[contact] (no email provider) submission:", {
+      ...payload,
+      attachment: payload.attachment
+        ? {
+            filename: payload.attachment.filename,
+            bytes: payload.attachment.content.length,
+          }
+        : undefined,
+    });
     return true;
+  }
+  const body: Record<string, unknown> = {
+    from: "Portfolio <noreply@eduardfischer.dev>",
+    to,
+    reply_to: payload.email,
+    subject: payload.subject?.trim()
+      ? `[Portfolio] ${payload.subject}`
+      : "[Portfolio] New message",
+    text: `From: ${payload.name} <${payload.email}>\n\n${payload.message}`,
+  };
+  if (payload.attachment) {
+    body.attachments = [
+      {
+        filename: payload.attachment.filename,
+        content: payload.attachment.content,
+      },
+    ];
   }
   const res = await fetch("https://api.resend.com/emails", {
     method: "POST",
@@ -55,21 +93,23 @@ async function sendEmail(payload: {
       Authorization: `Bearer ${apiKey}`,
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({
-      from: "Portfolio <noreply@eduardfischer.dev>",
-      to,
-      reply_to: payload.email,
-      subject: payload.subject?.trim()
-        ? `[Portfolio] ${payload.subject}`
-        : "[Portfolio] New message",
-      text: `From: ${payload.name} <${payload.email}>\n\n${payload.message}`,
-    }),
+    body: JSON.stringify(body),
   });
   if (!res.ok) {
     console.error("[contact] resend failed", res.status, await res.text());
     return false;
   }
   return true;
+}
+
+async function fileToBase64Attachment(
+  file: File,
+): Promise<EmailAttachment> {
+  const buf = Buffer.from(await file.arrayBuffer());
+  return {
+    filename: file.name || "attachment.pdf",
+    content: buf.toString("base64"),
+  };
 }
 
 export async function submitContact(
@@ -83,6 +123,15 @@ export async function submitContact(
     return { status: "ok" };
   }
 
+  // The attachment field is a File when present; an empty file input
+  // surfaces as a zero-byte File with an empty name, which we treat as
+  // "no attachment" so Zod's optional() applies.
+  const attachmentRaw = formData.get("attachment");
+  let attachment: File | undefined;
+  if (attachmentRaw instanceof File && attachmentRaw.size > 0) {
+    attachment = attachmentRaw;
+  }
+
   const raw = {
     name: formData.get("name"),
     email: formData.get("email"),
@@ -90,6 +139,7 @@ export async function submitContact(
     message: formData.get("message"),
     "cf-turnstile-response":
       formData.get("cf-turnstile-response") || undefined,
+    attachment,
   };
   const parsed = contactSchema.safeParse(raw);
   if (!parsed.success) {
@@ -104,7 +154,17 @@ export async function submitContact(
     return { status: "error", message: "Captcha verification failed." };
   }
 
-  const sent = await sendEmail(parsed.data);
+  const emailAttachment = parsed.data.attachment
+    ? await fileToBase64Attachment(parsed.data.attachment)
+    : undefined;
+
+  const sent = await sendEmail({
+    name: parsed.data.name,
+    email: parsed.data.email,
+    subject: parsed.data.subject,
+    message: parsed.data.message,
+    attachment: emailAttachment,
+  });
   if (!sent) {
     return {
       status: "error",

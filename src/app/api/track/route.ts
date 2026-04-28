@@ -5,6 +5,7 @@ import {
 } from "@/lib/analytics";
 import { isAnalyticsEnabled, recordHit } from "@/lib/redis-analytics";
 import { parseUserAgent } from "@/lib/ua-parser";
+import { extractClientIp, recordVisit } from "@/lib/visit-tracker";
 
 /**
  * POST /api/track — anonymous page-view ingestion.
@@ -103,7 +104,12 @@ export async function POST(request: Request): Promise<Response> {
     ts: Date.now(),
   };
 
-  await recordHit(hit);
+  // Per-IP-hash daily uniqueness counter for the digest cron. Sibling
+  // signal to `recordHit`: shares the same KV instance and the same
+  // privacy posture (no PII — IP is hashed with a daily-rotated salt
+  // before it touches Redis). Best-effort, never throws.
+  const ip = extractClientIp(headerStore);
+  await Promise.all([recordHit(hit), recordVisit(ip)]);
 
   const response = new Response(null, { status: 204 });
   if (mintedNew) {

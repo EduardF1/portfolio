@@ -42,16 +42,16 @@ vi.mock("react-simple-maps", () => ({
   ),
 }));
 
-import { TravelEuropeMap } from "./travel-europe-map";
-import type { CountryDestination } from "@/lib/travel-locations";
+import { TravelEuropeMap, type MapDestination } from "./travel-europe-map";
 
-const SAMPLES: CountryDestination[] = [
+const SAMPLES: MapDestination[] = [
   {
     country: "Italy",
     slug: "italy",
     centroid: { lat: 43.5, lon: 11.0 },
     cities: ["Pisa"],
     photoCount: 8,
+    firstTripSlug: "italy-2024-04",
   },
   {
     country: "Denmark",
@@ -59,6 +59,7 @@ const SAMPLES: CountryDestination[] = [
     centroid: { lat: 56.0, lon: 10.0 },
     cities: ["Aarhus", "Copenhagen"],
     photoCount: 100,
+    // No firstTripSlug — fallback should be the in-page anchor.
   },
   {
     country: "Spain",
@@ -66,6 +67,7 @@ const SAMPLES: CountryDestination[] = [
     centroid: { lat: 40.0, lon: -3.7 },
     cities: ["Madrid"],
     photoCount: 1,
+    firstTripSlug: "spain-2025-09",
   },
 ];
 
@@ -80,14 +82,15 @@ describe("<TravelEuropeMap />", () => {
     expect(markers.length).toBe(3);
   });
 
-  it("each marker links to the per-country anchor #country-<slug>", () => {
+  it("each marker deep-links to the country's first trip page when available, falling back to the in-page anchor", () => {
     render(<TravelEuropeMap destinations={SAMPLES} />);
     const itLink = screen.getByLabelText(/^Italy, 8 photos, 1 city$/);
-    expect(itLink).toHaveAttribute("href", "#country-italy");
+    expect(itLink).toHaveAttribute("href", "/travel/photos/italy-2024-04");
     const dkLink = screen.getByLabelText(/^Denmark, 100 photos, 2 cities$/);
+    // Fallback for the country with no published trip slug.
     expect(dkLink).toHaveAttribute("href", "#country-denmark");
     const esLink = screen.getByLabelText(/^Spain, 1 photo, 1 city$/);
-    expect(esLink).toHaveAttribute("href", "#country-spain");
+    expect(esLink).toHaveAttribute("href", "/travel/photos/spain-2025-09");
   });
 
   it("renders an aria-label summarising the destination count", () => {

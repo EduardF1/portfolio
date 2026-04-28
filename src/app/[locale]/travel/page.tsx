@@ -5,6 +5,7 @@ import { SectionHeading } from "@/components/section-heading";
 import { TravelEuropeMap } from "@/components/travel-europe-map";
 import { getTravelDestinations } from "@/lib/travel-locations";
 import { getTrips } from "@/lib/trips";
+import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 export const metadata = { title: "Travel" };
 
@@ -23,15 +24,25 @@ export default async function TravelPage({
     getTrips(),
   ]);
 
-  // Most-recent trip per country, used to wire the country tile to its
-  // matching /travel/photos/[slug] page (the country-name card links
-  // straight to the latest trip-details page for that country).
-  const latestByCountry = new Map<string, (typeof photoTrips)[number]>();
-  for (const tr of photoTrips) {
-    const existing = latestByCountry.get(tr.country);
-    if (!existing || tr.startsAt > existing.startsAt) {
-      latestByCountry.set(tr.country, tr);
+  const recentTrips = photoTrips.slice(0, 6);
+
+  // Map each country to the chronologically earliest trip slug, so the
+  // country card and map pin can both deep-link straight into a real
+  // photo set rather than just a fragment on this page.
+  const earliestByCountry = new Map<string, string>();
+  for (const trip of photoTrips) {
+    const key = trip.country.toLowerCase();
+    const existing = earliestByCountry.get(key);
+    if (
+      !existing ||
+      trip.startsAt < (photoTrips.find((t) => t.slug === existing)?.startsAt ?? "")
+    ) {
+      earliestByCountry.set(key, trip.slug);
     }
+  }
+
+  function firstTripSlug(country: string): string | undefined {
+    return earliestByCountry.get(country.toLowerCase());
   }
 
   return (
@@ -50,7 +61,12 @@ export default async function TravelPage({
 
       {destinations.length > 0 && (
         <section className="container-page pb-12">
-          <TravelEuropeMap destinations={destinations} />
+          <TravelEuropeMap
+            destinations={destinations.map((d) => ({
+              ...d,
+              firstTripSlug: firstTripSlug(d.country),
+            }))}
+          />
         </section>
       )}
 
@@ -72,40 +88,33 @@ export default async function TravelPage({
             className="grid gap-px bg-border/60 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 rounded-lg overflow-hidden"
           >
             {destinations.map((d) => {
-              const latest = latestByCountry.get(d.country);
-              const countryHref = latest
-                ? `/travel/photos/${latest.slug}`
-                : null;
-              return (
-                <li
-                  key={d.slug}
-                  id={`country-${d.slug}`}
-                  className="bg-background p-6 scroll-mt-24"
-                >
-                  {countryHref ? (
-                    <Link
-                      href={countryHref}
-                      className="font-serif text-2xl text-foreground hover:text-accent transition-colors"
-                    >
-                      {d.country}
-                    </Link>
-                  ) : (
-                    <p className="font-serif text-2xl text-foreground">
-                      {d.country}
-                    </p>
-                  )}
+              const slug = firstTripSlug(d.country);
+              const inner = (
+                <>
+                  <p className="font-serif text-2xl text-foreground group-hover:text-accent transition-colors">
+                    {d.country}
+                  </p>
                   <p className="mt-3 text-sm text-foreground-muted">
                     {d.cities.slice(0, 6).join(", ")}
                     {d.cities.length > 6 && ", …"}
                   </p>
-                  {countryHref && (
+                </>
+              );
+              return (
+                <li
+                  key={d.slug}
+                  id={`country-${d.slug}`}
+                  className="bg-background scroll-mt-24"
+                >
+                  {slug ? (
                     <Link
-                      href={countryHref}
-                      className="mt-4 inline-flex items-center gap-1 text-sm text-accent hover:underline"
+                      href={`/travel/photos/${slug}`}
+                      className="group block p-6 transition-colors hover:bg-surface focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
                     >
-                      {t("seeTrip")}{" "}
-                      <span aria-hidden="true">→</span>
+                      {inner}
                     </Link>
+                  ) : (
+                    <div className="p-6">{inner}</div>
                   )}
                 </li>
               );
@@ -114,13 +123,16 @@ export default async function TravelPage({
         </section>
       )}
 
-      {photoTrips.length > 0 && (
+      {recentTrips.length > 0 && (
         <section className="container-page pb-12">
-          <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
-            {t("allTripsKicker")}
+          <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-2">
+            {t("recentTripsKicker")}
           </h2>
-          <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-            {photoTrips.map((trip) => {
+          <p className="font-serif text-2xl text-foreground mb-6">
+            {t("recentTripsHeading")}
+          </p>
+          <ul className={`grid gap-4 ${responsiveGridColsClass(recentTrips.length)}`}>
+            {recentTrips.map((trip) => {
               const cover = trip.photos[0];
               const headline = trip.primaryCity ?? trip.country;
               return (
@@ -149,11 +161,7 @@ export default async function TravelPage({
                         {headline}, {trip.monthLabel}
                       </p>
                       <p className="mt-1 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-foreground-subtle">
-                        {t("photoCount", { count: trip.photoCount })}
-                      </p>
-                      <p className="mt-3 inline-flex items-center gap-1 text-sm text-accent group-hover:underline">
-                        {t("seeTrip")}{" "}
-                        <span aria-hidden="true">→</span>
+                        {trip.dateRange} · {t("photoCount", { count: trip.photoCount })}
                       </p>
                     </div>
                   </Link>

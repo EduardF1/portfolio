@@ -11,7 +11,7 @@ import {
   HeroVideoBackground,
   type HeroVideoVariant,
 } from "@/components/hero-video-bg";
-import { findTech } from "@/lib/tech";
+import { TechChip } from "@/components/tech-chip";
 import { getRecommendations } from "@/lib/recommendations";
 import { roleSlug } from "@/lib/role-slug";
 import { HowIWork } from "@/components/how-i-work";
@@ -92,8 +92,14 @@ function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
   return (
     <section className="@container relative container-page pt-20 md:pt-24 pb-16">
       {videoVariant && <HeroVideoBackground variant={videoVariant} />}
-      <div className="relative z-10 grid gap-12 md:grid-cols-12 md:items-center">
-        <div className="md:col-span-7">
+      {/* Container-queried two-column hero. The portrait + copy split must
+          honour parent width, not viewport — at 1024 px landscape the
+          viewport-based `md:` would pin a 5-col portrait against a 7-col
+          copy block even when the container itself is narrower than that.
+          @md (≥768 px container) keeps the two-up layout consistent across
+          tablet portrait, tablet landscape, and laptop without surprises. */}
+      <div className="relative z-10 grid gap-12 @md:grid-cols-12 @md:items-center">
+        <div className="@md:col-span-7">
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle mb-6">
             {t("common.available")}
           </p>
@@ -132,7 +138,7 @@ function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
             </a>
           </div>
         </div>
-        <div className="md:col-span-5 flex justify-center md:justify-end">
+        <div className="@md:col-span-5 flex justify-center @md:justify-end">
           {/* Picture frame — a calm Scandinavian museum mount.
               Layers (outer→inner):
                 1. slim outer frame (wood/metal tone via --color-foreground-subtle)
@@ -172,14 +178,17 @@ function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
 function About() {
   const t = useTranslations("home");
   return (
-    <section id="about" className="border-t border-border/60 scroll-mt-24">
-      <div className="container-page py-16 md:py-20 grid gap-12 md:grid-cols-12">
-        <div className="md:col-span-4">
+    <section
+      id="about"
+      className="@container border-t border-border/60 scroll-mt-24"
+    >
+      <div className="container-page py-16 md:py-20 grid gap-12 @md:grid-cols-12">
+        <div className="@md:col-span-4">
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
             {t("aboutKicker")}
           </p>
         </div>
-        <div className="md:col-span-8 space-y-6 text-lg">
+        <div className="@md:col-span-8 space-y-6 text-lg">
           <p className="text-foreground">{t("aboutP1")}</p>
           <p>{t("aboutP2")}</p>
           <p>
@@ -377,24 +386,9 @@ function Experience() {
                     className="col-span-2 mt-2 flex flex-wrap gap-2"
                     data-testid={`role-tech-${r.company.toLowerCase().replace(/\s+/g, "-")}`}
                   >
-                    {r.tech.map((slug) => {
-                      const tech = findTech(slug);
-                      if (!tech) return null;
-                      return (
-                        <Link
-                          key={slug}
-                          href={{
-                            pathname: "/work",
-                            query: { tech: slug },
-                            hash: "technologies",
-                          }}
-                          data-tech-slug={slug}
-                          className="inline-flex items-center gap-1.5 rounded-full border border-border px-3 py-1 text-xs text-foreground-muted hover:border-accent hover:text-accent transition-colors"
-                        >
-                          {tech.name}
-                        </Link>
-                      );
-                    })}
+                    {r.tech.map((slug) => (
+                      <TechChip key={slug} slug={slug} data-tech-slug={slug} />
+                    ))}
                   </div>
                 )}
               </li>

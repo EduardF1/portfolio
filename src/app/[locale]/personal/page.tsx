@@ -11,48 +11,44 @@ export const metadata = { title: "Personal" };
 // Captions derived from EXIF DateTimeOriginal + reverse-geocoded GPS
 // (see scripts/build-photo-catalogue.mjs and scripts/photo-catalogue.json).
 // Photos without EXIF GPS get a date-only caption rather than a guessed location.
-//
-// Round 5 audit: the previous CAR_PHOTOS slugs (mar-2024-spring-evening,
-// may-2024-late-spring, nov-2023-autumn) all resolved to non-car images
-// (Cantacuzino castle, Flensburg harbour, Aarhus rail yard) and have
-// been removed. Pending a proper car-photo discovery pass we keep only
-// the Vienna shot, which has incidental cars and is on-theme for the
-// "driving as decompression" lede.
 const CAR_PHOTOS = [
   {
-    src: "/photos/personal/apr-2025-vienna.jpg",
-    alt: "Vienna, Austria · 13 April 2025",
+    src: "/photos/mar-2024-spring-evening.jpg",
+    alt: "31 March 2024",
+  },
+  {
+    src: "/photos/may-2024-late-spring.jpg",
+    alt: "25 May 2024",
+  },
+  {
+    src: "/photos/nov-2023-autumn.jpg",
+    alt: "26 November 2023",
   },
 ];
 
 const TRAVEL_PHOTOS = [
   {
-    src: "/photos/personal/mar-2026-recent-trip.jpg",
+    src: "/photos/mar-2026-recent-trip.jpg",
     alt: "Ljubljana, Slovenia · 25 March 2026",
   },
   {
-    // Replaced sep-2025-autumn-afternoon (duplicate slug for the Málaga
-    // Roman Theatre file) with the canonical IMG... path under its trip
-    // folder.
-    src: "/photos/trips/2025-09-andalusia-gibraltar/IMG20250917154701.jpg",
+    src: "/photos/sep-2025-autumn-afternoon.jpg",
     alt: "Málaga, Spain · 17 September 2025",
   },
   {
-    src: "/photos/personal/apr-2025-vienna.jpg",
+    src: "/photos/apr-2025-vienna.jpg",
     alt: "Vienna, Austria · 13 April 2025",
   },
   {
-    src: "/photos/personal/mar-2026-pula.jpg",
+    src: "/photos/mar-2026-pula.jpg",
     alt: "Pula, Croatia · 25 March 2026",
   },
   {
-    // Replaced sep-2025-gibraltar (duplicate slug for the Gibraltar bay
-    // file) with the canonical IMG... path under its trip folder.
-    src: "/photos/trips/2025-09-andalusia-gibraltar/IMG20250915123242.jpg",
+    src: "/photos/sep-2025-gibraltar.jpg",
     alt: "Gibraltar · 15 September 2025",
   },
   {
-    src: "/photos/personal/apr-2023-milan.jpg",
+    src: "/photos/apr-2023-milan.jpg",
     alt: "Milan, Italy · 2 April 2023",
   },
 ];
@@ -67,7 +63,6 @@ export default async function PersonalPage({
 
   const t = await getTranslations("personal");
   const ts = await getTranslations("personal.sections");
-  const tt = await getTranslations("tooltips");
 
   return (
     <>
@@ -82,25 +77,22 @@ export default async function PersonalPage({
         <p className="mt-8 max-w-2xl text-lg">{t("description")}</p>
       </section>
 
-      <section className="border-t border-border/60">
-        <div className="container-page py-20 md:py-28 grid gap-12 md:grid-cols-12">
-          <div className="md:col-span-4">
-            <SectionHeading
-              kicker={ts("footballKicker")}
-              tooltip={tt("footballSection")}
-            >
+      <section className="@container border-t border-border/60">
+        <div className="container-page py-20 md:py-28 grid gap-12 @md:grid-cols-12">
+          <div className="@md:col-span-4">
+            <SectionHeading kicker={ts("footballKicker")}>
               <span className="underline decoration-[#FDE100] decoration-4 underline-offset-4">
                 {ts("footballHeading")}
               </span>
             </SectionHeading>
           </div>
-          <div className="md:col-span-8 space-y-8">
+          <div className="@md:col-span-8 space-y-8">
             <p className="max-w-2xl text-lg">{ts("footballLede")}</p>
             <p className="max-w-2xl">{ts("footballBody")}</p>
             <figure className="max-w-2xl space-y-4">
               <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-border bg-surface">
                 <Image
-                  src="/photos/personal/bvb-yellow-wall-suedtribuene.jpg"
+                  src="/photos/bvb-yellow-wall-suedtribuene.jpg"
                   alt={ts("footballFigureAlt")}
                   fill
                   sizes="(min-width: 768px) 600px, 100vw"
@@ -111,7 +103,28 @@ export default async function PersonalPage({
                 <p>{ts("bvbCaptionLead")}</p>
                 <p>{ts("bvbCaptionKlopp")}</p>
                 <p className="font-mono text-[0.65rem] uppercase tracking-[0.2em] text-foreground-subtle">
-                  {ts("bvbCaptionCredit")}
+                  {ts.rich("bvbCaptionCredit", {
+                    photographer: () => (
+                      <a
+                        href="https://commons.wikimedia.org/wiki/File:Suedtribuene.jpg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
+                      >
+                        Pascal Philp
+                      </a>
+                    ),
+                    license: () => (
+                      <a
+                        href="https://creativecommons.org/licenses/by-sa/2.0/de/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
+                      >
+                        CC BY-SA 2.0 DE
+                      </a>
+                    ),
+                  })}
                 </p>
               </figcaption>
             </figure>
@@ -120,17 +133,14 @@ export default async function PersonalPage({
         </div>
       </section>
 
-      <section className="border-t border-border/60">
-        <div className="container-page py-20 md:py-28 grid gap-12 md:grid-cols-12">
-          <div className="md:col-span-4">
-            <SectionHeading
-              kicker={ts("carsKicker")}
-              tooltip={tt("carsSection")}
-            >
+      <section className="@container border-t border-border/60">
+        <div className="container-page py-20 md:py-28 grid gap-12 @md:grid-cols-12">
+          <div className="@md:col-span-4">
+            <SectionHeading kicker={ts("carsKicker")}>
               {ts("carsHeading")}
             </SectionHeading>
           </div>
-          <div className="md:col-span-8 space-y-8">
+          <div className="@md:col-span-8 space-y-8">
             <p className="max-w-2xl text-lg">{ts("carsLede")}</p>
             <ul
               className={`grid gap-px bg-border/60 ${responsiveGridColsClass(CAR_PHOTOS.length)} rounded-lg overflow-hidden`}
@@ -154,17 +164,14 @@ export default async function PersonalPage({
         </div>
       </section>
 
-      <section className="border-t border-border/60">
-        <div className="container-page py-20 md:py-28 grid gap-12 md:grid-cols-12">
-          <div className="md:col-span-4">
-            <SectionHeading
-              kicker={ts("travelKicker")}
-              tooltip={tt("travelSection")}
-            >
+      <section className="@container border-t border-border/60">
+        <div className="container-page py-20 md:py-28 grid gap-12 @md:grid-cols-12">
+          <div className="@md:col-span-4">
+            <SectionHeading kicker={ts("travelKicker")}>
               {ts("travelHeading")}
             </SectionHeading>
           </div>
-          <div className="md:col-span-8 space-y-8">
+          <div className="@md:col-span-8 space-y-8">
             <p className="max-w-2xl text-lg">{ts("travelLede")}</p>
             <ul
               className={`grid gap-px bg-border/60 ${responsiveGridColsClass(TRAVEL_PHOTOS.length, 2)} rounded-lg overflow-hidden`}

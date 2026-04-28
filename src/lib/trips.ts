@@ -13,12 +13,12 @@ const CATALOGUE_PATH = path.join(
 // later, only this constant moves.
 const PHOTO_URL_PREFIX = "/photos/";
 
-// If a photo cluster spans two adjacent (year-month) buckets, we merge
-// them when the photos at the boundary are within this many days.
-// 14 days is the brief's tolerance for "trip spilling into the next
-// month" (e.g. a trip that starts on 27 March and continues until 4
-// April should be one trip, not two).
-const ADJACENT_MONTH_MERGE_DAYS = 14;
+// Maximum gap between consecutive photos (within the same country) for
+// them to still belong to the same trip. The brief models a "trip" as
+// contiguous photos by country with at most this many days between
+// frames; anything longer starts a new cluster, even if the country
+// did not change.
+const MAX_GAP_DAYS = 3;
 
 type RawCatalogueEntry = {
   src: string;
@@ -45,10 +45,14 @@ export type TripPhoto = {
 };
 
 export type Trip = {
-  /** Stable kebab slug, e.g. `italy-2024-04`. */
+  /** Stable kebab slug, e.g. `italy-2024-04` (or `italy-2024-04-2`
+   *  when a same-month return-trip would otherwise collide). */
   slug: string;
   /** Country name (as Nominatim returned it). */
   country: string;
+  /** Country slug without the year-month suffix; equal across slug
+   *  collisions so cross-links can pick the first matching trip. */
+  countrySlug: string;
   /** Year of the cluster's earliest photo. */
   year: number;
   /** Long English month label, e.g. "April 2024". */
@@ -81,11 +85,6 @@ function slugifyCountry(s: string): string {
 
 function pad2(n: number): string {
   return n < 10 ? `0${n}` : String(n);
-}
-
-function ymKey(iso: string): string {
-  // YYYY-MM, sliced from a guaranteed-ISO timestamp.
-  return iso.slice(0, 7);
 }
 
 function daysBetween(aIso: string, bIso: string): number {
@@ -165,13 +164,18 @@ function pickPrimaryCity(
 
 /**
  * Pure clustering helper, exported for unit tests. Takes raw catalogue
- * entries (already filtered to the ones with country + date) and emits
- * a list of Trips, applying:
+ * entries (already filtered to the ones with country + date + GPS)
+ * and emits a list of Trips, applying:
  *
- *   1. Bucketing by (country, YYYY-MM)
- *   2. Adjacent-month merge when boundary photos are within
- *      ADJACENT_MONTH_MERGE_DAYS days.
- *   3. Single-photo trips KEPT, but flagged `isCluster: false`.
+ *   1. Filter out entries missing country, date, or GPS.
+ *   2. Walk photos chronologically; start a new cluster whenever the
+ *      country changes OR the gap from the previous photo exceeds
+ *      MAX_GAP_DAYS days.
+ *   3. Single-photo trips are KEPT but flagged `isCluster: false`.
+ *   4. Build the slug from the cluster's earliest photo:
+ *      `<country-kebab>-<YYYY-MM>`. If two clusters land on the same
+ *      slug (e.g. two trips to Italy in the same month, separated by
+ *      time at home), the second gets `-2`, the third `-3`, etc.
  */
 export function clusterTrips(entries: RawCatalogueEntry[]): Trip[] {
   // 1. Filter + normalise.
@@ -192,71 +196,40 @@ export function clusterTrips(entries: RawCatalogueEntry[]): Trip[] {
     });
   }
 
-  // 2. Bucket by (country, year-month).
-  const buckets = new Map<string, TripPhoto[]>();
-  for (const p of usable) {
-    const key = `${p.country}|${ymKey(p.takenAt)}`;
-    let arr = buckets.get(key);
-    if (!arr) {
-      arr = [];
-      buckets.set(key, arr);
-    }
-    arr.push(p);
-  }
-  // Sort photos inside each bucket chronologically.
-  for (const arr of buckets.values()) {
-    arr.sort((a, b) => a.takenAt.localeCompare(b.takenAt));
-  }
+  // 2. Sort all photos chronologically.
+  usable.sort((a, b) => a.takenAt.localeCompare(b.takenAt));
 
-  // 3. Group buckets by country, then merge adjacent months when
-  //    boundary photos are close in time.
+  // 3. Walk and split into clusters whenever country changes or the
+  //    gap from the previous photo exceeds MAX_GAP_DAYS.
   type Cluster = { country: string; photos: TripPhoto[] };
-  const byCountry = new Map<string, { ym: string; photos: TripPhoto[] }[]>();
-  for (const [key, photos] of buckets) {
-    const [country, ym] = key.split("|");
-    let list = byCountry.get(country);
-    if (!list) {
-      list = [];
-      byCountry.set(country, list);
-    }
-    list.push({ ym, photos });
-  }
-
   const clusters: Cluster[] = [];
-  for (const [country, monthBuckets] of byCountry) {
-    monthBuckets.sort((a, b) => a.ym.localeCompare(b.ym));
-    let i = 0;
-    while (i < monthBuckets.length) {
-      const current: Cluster = {
-        country,
-        photos: [...monthBuckets[i].photos],
-      };
-      // Greedy merge with subsequent adjacent months.
-      while (i + 1 < monthBuckets.length) {
-        const a = monthBuckets[i];
-        const b = monthBuckets[i + 1];
-        if (!isAdjacentMonth(a.ym, b.ym)) break;
-        const lastA = a.photos[a.photos.length - 1].takenAt;
-        const firstB = b.photos[0].takenAt;
-        if (daysBetween(lastA, firstB) > ADJACENT_MONTH_MERGE_DAYS) break;
-        current.photos.push(...b.photos);
-        i += 1;
-      }
-      clusters.push(current);
-      i += 1;
+  for (const photo of usable) {
+    const last = clusters[clusters.length - 1];
+    if (
+      !last ||
+      last.country !== photo.country ||
+      daysBetween(last.photos[last.photos.length - 1].takenAt, photo.takenAt) >
+        MAX_GAP_DAYS
+    ) {
+      clusters.push({ country: photo.country, photos: [photo] });
+    } else {
+      last.photos.push(photo);
     }
   }
 
-  // 4. Materialise into Trip objects.
-  const trips: Trip[] = clusters.map((c) => {
-    c.photos.sort((a, b) => a.takenAt.localeCompare(b.takenAt));
+  // 4. Materialise into Trip objects (without final slug yet — that
+  //    needs the collision-aware second pass).
+  type Draft = Omit<Trip, "slug"> & { baseSlug: string };
+  const drafts: Draft[] = clusters.map((c) => {
     const start = c.photos[0].takenAt;
     const end = c.photos[c.photos.length - 1].takenAt;
     const startD = new Date(start);
-    const slug = `${slugifyCountry(c.country)}-${startD.getUTCFullYear()}-${pad2(startD.getUTCMonth() + 1)}`;
+    const countrySlug = slugifyCountry(c.country);
+    const baseSlug = `${countrySlug}-${startD.getUTCFullYear()}-${pad2(startD.getUTCMonth() + 1)}`;
     return {
-      slug,
+      baseSlug,
       country: c.country,
+      countrySlug,
       year: startD.getUTCFullYear(),
       monthLabel: monthLabelFromIso(start),
       dateRange: formatDateRange(start, end),
@@ -269,18 +242,26 @@ export function clusterTrips(entries: RawCatalogueEntry[]): Trip[] {
     };
   });
 
-  // Most-recent first across the whole list.
+  // 5. Resolve slug collisions in chronological order: first
+  //    occurrence keeps the bare base slug, subsequent ones get
+  //    `-2`, `-3`, … This is deterministic because `drafts` is sorted
+  //    by chronology of the underlying photos.
+  drafts.sort((a, b) => a.startsAt.localeCompare(b.startsAt));
+  const occurrences = new Map<string, number>();
+  const trips: Trip[] = drafts.map((d) => {
+    const prev = occurrences.get(d.baseSlug) ?? 0;
+    occurrences.set(d.baseSlug, prev + 1);
+    const slug = prev === 0 ? d.baseSlug : `${d.baseSlug}-${prev + 1}`;
+    // Drop the temporary `baseSlug` discriminator before returning the
+    // public Trip shape.
+    const { baseSlug, ...rest } = d;
+    void baseSlug;
+    return { slug, ...rest };
+  });
+
+  // 6. Most-recent first across the whole list.
   trips.sort((a, b) => b.startsAt.localeCompare(a.startsAt));
   return trips;
-}
-
-function isAdjacentMonth(a: string, b: string): boolean {
-  // a, b are YYYY-MM keys; b should be exactly one month later.
-  const [ay, am] = a.split("-").map(Number);
-  const [by, bm] = b.split("-").map(Number);
-  if (ay === by && bm - am === 1) return true;
-  if (by - ay === 1 && am === 12 && bm === 1) return true;
-  return false;
 }
 
 let cached: Trip[] | null = null;
@@ -302,6 +283,28 @@ export async function getTrips(): Promise<Trip[]> {
 export async function getTrip(slug: string): Promise<Trip | null> {
   const trips = await getTrips();
   return trips.find((t) => t.slug === slug) ?? null;
+}
+
+/**
+ * Find the chronologically first trip in a given country. Used by the
+ * /travel page so that clicking the country card or its map pin sends
+ * the visitor straight to a real photo set rather than a fragment.
+ *
+ * `countryName` matches against the country as it appears in the
+ * catalogue (e.g. "Italy"); the comparison is case-insensitive.
+ */
+export async function getFirstTripForCountry(
+  countryName: string,
+): Promise<Trip | null> {
+  const trips = await getTrips();
+  const target = countryName.toLowerCase();
+  const matches = trips.filter((t) => t.country.toLowerCase() === target);
+  if (matches.length === 0) return null;
+  // `trips` is sorted most-recent first; the chronologically first
+  // trip is the one with the earliest startsAt.
+  return matches.reduce((earliest, t) =>
+    t.startsAt < earliest.startsAt ? t : earliest,
+  );
 }
 
 // Test-only escape hatch so unit tests can re-import without

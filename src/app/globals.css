@@ -52,14 +52,21 @@
   --color-surface-strong: #DDD4BC;
   --color-foreground: #1F2A2C;
   --color-foreground-muted: #5C6663;
-  /* Bumped from #8A8F8A (≈3.0 against #F6F3EA) to ≥4.5:1 for WCAG AA. */
-  --color-foreground-subtle: #6F7570;
-  --color-accent: #B89968;
+  /* Round 6 contrast pass: #6F7570 was 4.25:1 on #F6F3EA — borderline.
+     #6B716C is 4.50:1 (ΔL* ≈ 1.6, visually identical). */
+  --color-foreground-subtle: #6B716C;
+  /* Round 6 contrast pass: #B89968 was 2.43:1 on #F6F3EA — fails AA
+     for body and UI. #A88554 is 3.08:1 — clears AA-large/UI (3:1) and
+     keeps the brand gold feel; ΔL* ≈ 7.2. Body links using `text-accent`
+     must still combine color with underline (covered globally in @layer
+     base — see `a` rule below). The dark chip text #1F2A2C on #A88554
+     is 4.31:1 — borderline AA-body but clears AA-large (3:1) and the
+     graphical-objects rule (1.4.11). See docs/contrast-fixes-2026-04-28.md. */
+  --color-accent: #A88554;
   --color-accent-soft: #E5D4B5;
-  /* Dark text on the warm accent. #1F2A2C on #B89968 = 6.5:1. */
   --color-accent-foreground: #1F2A2C;
   --color-border: #D7D0BD;
-  --color-ring: #B89968;
+  --color-ring: #A88554;
 }
 [data-palette="schwarzgelb"].dark {
   --color-background: #13191A;
@@ -117,12 +124,19 @@
   --color-foreground-muted: #5A4F42;
   /* Bumped from #8B7F70 (~3.7 against #F2EDE0) to clear 4.5:1. */
   --color-foreground-subtle: #75695C;
-  --color-accent: #7A8B6F;
+  /* Round 6 contrast pass: #7A8B6F was 3.12:1 on #F2EDE0 — failed
+     AA-body for `text-accent` links and 3.12:1 for cream chip text on
+     bg-accent. #5F6F54 is 4.62:1 (clears AA-body for both link AND
+     chip simultaneously). ΔL* ≈ 11; this exceeds the heuristic ≤8 cap
+     because the cream/sage gamut cannot satisfy both 4.5:1 link-on-bg
+     AND 4.5:1 cream-chip-on-accent at any smaller delta. The deeper
+     sage retains the woodsy character. See docs/contrast-fixes-2026-04-28.md. */
+  --color-accent: #5F6F54;
   --color-accent-soft: #D5DCC8;
-  /* Light cream on the muted-green accent. #F2EDE0 on #7A8B6F = 4.65:1. */
+  /* Light cream on the deeper sage. #F2EDE0 on #5F6F54 = 4.62:1. */
   --color-accent-foreground: #F2EDE0;
   --color-border: #C5BBA2;
-  --color-ring: #7A8B6F;
+  --color-ring: #5F6F54;
 }
 [data-palette="woodsy-cabin"].dark {
   --color-background: #1A1611;
@@ -202,5 +216,26 @@
     max-width: 72rem;
     margin-inline: auto;
     padding-inline: 1.5rem;
+  }
+}
+
+/* Safari/Webkit below 18 needs the -webkit-backdrop-filter prefix.
+   Tailwind v4 emits only the unprefixed property and our PostCSS
+   pipeline has no autoprefixer, so mirror the values for every
+   backdrop utility we use. Defaults match Tailwind v4:
+   backdrop-blur=8px, -sm=4px, saturate-75=.75. */
+@layer utilities {
+  .backdrop-blur { -webkit-backdrop-filter: blur(8px); }
+  .backdrop-blur-sm { -webkit-backdrop-filter: blur(4px); }
+  .backdrop-blur-md { -webkit-backdrop-filter: blur(12px); }
+  .backdrop-blur-lg { -webkit-backdrop-filter: blur(16px); }
+  .backdrop-blur-xl { -webkit-backdrop-filter: blur(24px); }
+  .backdrop-saturate-75 { -webkit-backdrop-filter: saturate(0.75); }
+
+  /* dvh lands in Safari 15.4. Stacked declarations let pre-15.4 iOS
+     fall back to 100vh cleanly; modern Safari overrides with 100dvh. */
+  .min-h-screen-dvh {
+    min-height: 100vh;
+    min-height: 100dvh;
   }
 }
