@@ -196,21 +196,6 @@
     }
   },
   {
-    "src": "trips/2019-07-belgium/IMG_20190731_153659.jpg",
-    "takenAt": "2019-07-31T15:36:59Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 51.05405,
-      "lon": 3.72043
-    },
-    "place": {
-      "city": "Ghent",
-      "country": "Belgium",
-      "display": "Ghent, Belgium"
-    }
-  },
-  {
     "src": "trips/2019-07-belgium/pexels-brussels-grand-place-statue-20595735.jpg",
     "takenAt": null,
     "hasGps": false,
@@ -352,25 +337,6 @@
       "city": "Horsens",
       "country": "Denmark",
       "display": "Horsens, Denmark"
-    }
-  },
-  {
-    "src": "trips/2020-02-denmark/pexels-horsens-aerial-architecture-13519043.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Horsens",
-      "country": "Denmark",
-      "display": "Horsens, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-view-of-buildings-13519043/",
-      "photographer": "KAO MHG",
-      "photographerUrl": "https://www.pexels.com/@kaomhg/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
