@@ -101,4 +101,102 @@ describe("<PhotoLightbox />", () => {
     fireEvent.click(screen.getByLabelText("Photo A"));
     expect(screen.getByText("Foto 1 af 3")).toBeInTheDocument();
   });
+
+  it("Next / Prev arrow buttons cycle through photos", () => {
+    render(<PhotoLightbox photos={photos} />);
+    fireEvent.click(screen.getByLabelText("Photo A"));
+    expect(screen.getByText("Photo 1 of 3")).toBeInTheDocument();
+    fireEvent.click(screen.getByTestId("lightbox-next"));
+    expect(screen.getByText("Photo 2 of 3")).toBeInTheDocument();
+    fireEvent.click(screen.getByTestId("lightbox-prev"));
+    expect(screen.getByText("Photo 1 of 3")).toBeInTheDocument();
+  });
+
+  it("hides the prev/next arrows when only one photo is shown", () => {
+    render(
+      <PhotoLightbox photos={[{ src: "/photos/a.jpg", alt: "Solo" }]} />,
+    );
+    fireEvent.click(screen.getByLabelText("Solo"));
+    expect(screen.queryByTestId("lightbox-prev")).not.toBeInTheDocument();
+    expect(screen.queryByTestId("lightbox-next")).not.toBeInTheDocument();
+  });
+
+  it("renders the caption under the active photo when present", () => {
+    const captioned: LightboxPhoto[] = [
+      { src: "/photos/a.jpg", alt: "A", caption: "Photo of an alley" },
+    ];
+    render(<PhotoLightbox photos={captioned} />);
+    fireEvent.click(screen.getByLabelText("A"));
+    expect(screen.getByText("Photo of an alley")).toBeInTheDocument();
+  });
+
+  it("a horizontal swipe-left advances to the next photo", () => {
+    render(<PhotoLightbox photos={photos} />);
+    fireEvent.click(screen.getByLabelText("Photo A"));
+    const dialog = screen.getByTestId("lightbox-dialog");
+    fireEvent.touchStart(dialog, {
+      touches: [{ clientX: 250, clientY: 100 }],
+    });
+    fireEvent.touchEnd(dialog, {
+      changedTouches: [{ clientX: 100, clientY: 100 }],
+    });
+    expect(screen.getByText("Photo 2 of 3")).toBeInTheDocument();
+  });
+
+  it("a horizontal swipe-right goes back (and wraps from index 0 to last)", () => {
+    render(<PhotoLightbox photos={photos} />);
+    fireEvent.click(screen.getByLabelText("Photo A"));
+    const dialog = screen.getByTestId("lightbox-dialog");
+    fireEvent.touchStart(dialog, {
+      touches: [{ clientX: 100, clientY: 100 }],
+    });
+    fireEvent.touchEnd(dialog, {
+      changedTouches: [{ clientX: 250, clientY: 100 }],
+    });
+    expect(screen.getByText("Photo 3 of 3")).toBeInTheDocument();
+  });
+
+  it("a vertical drag is ignored (page scroll, not slide nav)", () => {
+    render(<PhotoLightbox photos={photos} />);
+    fireEvent.click(screen.getByLabelText("Photo A"));
+    const dialog = screen.getByTestId("lightbox-dialog");
+    fireEvent.touchStart(dialog, {
+      touches: [{ clientX: 100, clientY: 100 }],
+    });
+    fireEvent.touchEnd(dialog, {
+      changedTouches: [{ clientX: 110, clientY: 400 }],
+    });
+    expect(screen.getByText("Photo 1 of 3")).toBeInTheDocument();
+  });
+
+  it("a swipe shorter than 50px is ignored", () => {
+    render(<PhotoLightbox photos={photos} />);
+    fireEvent.click(screen.getByLabelText("Photo A"));
+    const dialog = screen.getByTestId("lightbox-dialog");
+    fireEvent.touchStart(dialog, {
+      touches: [{ clientX: 100, clientY: 100 }],
+    });
+    fireEvent.touchEnd(dialog, {
+      changedTouches: [{ clientX: 130, clientY: 100 }],
+    });
+    expect(screen.getByText("Photo 1 of 3")).toBeInTheDocument();
+  });
+
+  it("touchEnd without a prior touchStart is a no-op (defensive)", () => {
+    render(<PhotoLightbox photos={photos} />);
+    fireEvent.click(screen.getByLabelText("Photo A"));
+    const dialog = screen.getByTestId("lightbox-dialog");
+    fireEvent.touchEnd(dialog, {
+      changedTouches: [{ clientX: 0, clientY: 0 }],
+    });
+    expect(screen.getByText("Photo 1 of 3")).toBeInTheDocument();
+  });
+
+  it("close button closes the dialog", () => {
+    render(<PhotoLightbox photos={photos} />);
+    fireEvent.click(screen.getByLabelText("Photo A"));
+    expect(screen.getByRole("dialog")).toBeInTheDocument();
+    fireEvent.click(screen.getByTestId("lightbox-close"));
+    expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+  });
 });

@@ -39,10 +39,17 @@ export default defineConfig({
         "src/app/**/proxy.ts",
       ],
       thresholds: {
-        statements: 60,
-        branches: 55,
-        functions: 65,
-        lines: 60,
+        // Round 6 baseline: 77.01 / 70.09 / 83.71 / 78.28. Thresholds set
+        // ~5pp below baseline so a single regression fails CI but small
+        // refactors don't churn the gate. Raised from 60/55/65/60 after
+        // adding tests for /my-story, /privacy, /search (palette + page),
+        // global-error, BvbFeed (server), reading-feed, /api/track,
+        // /api/search-index, lib/search/client, and more photo-lightbox
+        // branches.
+        statements: 72,
+        branches: 65,
+        functions: 78,
+        lines: 73,
       },
     },
   },
