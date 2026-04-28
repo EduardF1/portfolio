@@ -953,5 +953,30 @@
     "city": "Abdera Municipality",
     "country": "Greece",
     "display": "Abdera Municipality, Greece"
+  },
+  "53.23,10.08": {
+    "city": "Garlstorf",
+    "country": "Germany",
+    "display": "Garlstorf, Germany"
+  },
+  "53.24,10.08": {
+    "city": "Garlstorf",
+    "country": "Germany",
+    "display": "Garlstorf, Germany"
+  },
+  "53.55,9.96": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "display": "Hamburg, Germany"
+  },
+  "53.55,9.98": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "display": "Hamburg, Germany"
+  },
+  "53.64,10.05": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "display": "Hamburg, Germany"
   }
 }

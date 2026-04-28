@@ -570,6 +570,247 @@
     }
   },
   {
+    "src": "trips/2022-10-germany/20221020_193919.jpg",
+    "takenAt": "2022-10-20T17:39:20Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_075708.jpg",
+    "takenAt": "2022-10-21T05:57:09Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_100121.jpg",
+    "takenAt": "2022-10-21T08:01:21Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_100237.jpg",
+    "takenAt": "2022-10-21T08:02:37Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_100620.jpg",
+    "takenAt": "2022-10-21T08:06:20Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_102819.jpg",
+    "takenAt": "2022-10-21T08:28:19Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_103051.jpg",
+    "takenAt": "2022-10-21T08:30:51Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_103215.jpg",
+    "takenAt": "2022-10-21T08:32:15Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221021_103729087_HDR.jpg",
+    "takenAt": "2022-10-21T08:37:30Z",
+    "hasGps": false,
+    "cameraModel": "moto g pro"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_105022.jpg",
+    "takenAt": "2022-10-21T08:50:22Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_105442.jpg",
+    "takenAt": "2022-10-21T08:54:42Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_110855.jpg",
+    "takenAt": "2022-10-21T09:08:55Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_111231.jpg",
+    "takenAt": "2022-10-21T09:12:31Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221021_111525357_HDR.jpg",
+    "takenAt": "2022-10-21T09:15:27Z",
+    "hasGps": false,
+    "cameraModel": "moto g pro"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_111727.jpg",
+    "takenAt": "2022-10-21T09:17:27Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_111820.jpg",
+    "takenAt": "2022-10-21T09:18:21Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221021_112250039_HDR.jpg",
+    "takenAt": "2022-10-21T09:22:52Z",
+    "hasGps": false,
+    "cameraModel": "moto g pro"
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221021_113054254_HDR.jpg",
+    "takenAt": "2022-10-21T09:30:56Z",
+    "hasGps": false,
+    "cameraModel": "moto g pro"
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_114151.jpg",
+    "takenAt": "2022-10-21T09:41:51Z",
+    "hasGps": true,
+    "cameraModel": "SM-A525F",
+    "gps": {
+      "lat": 53.59609,
+      "lon": 9.93488
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_20221021_110324.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221021_114938316_HDR.jpg",
+    "takenAt": "2022-10-21T09:49:40Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.59609,
+      "lon": 9.93488
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_20221021_110324.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_120242.jpg",
+    "takenAt": "2022-10-21T10:02:42Z",
+    "hasGps": true,
+    "cameraModel": "SM-A525F",
+    "gps": {
+      "lat": 53.59609,
+      "lon": 9.93488
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_20221021_110324.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_120647.jpg",
+    "takenAt": "2022-10-21T10:06:47Z",
+    "hasGps": true,
+    "cameraModel": "SM-A525F",
+    "gps": {
+      "lat": 53.59609,
+      "lon": 9.93488
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_20221021_110324.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_121039.jpg",
+    "takenAt": "2022-10-21T10:10:39Z",
+    "hasGps": true,
+    "cameraModel": "SM-A525F",
+    "gps": {
+      "lat": 53.59609,
+      "lon": 9.93488
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_20221021_110324.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221021_121447359_HDR.jpg",
+    "takenAt": "2022-10-21T10:14:49Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.59609,
+      "lon": 9.93488
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_20221021_110324.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221021_121644340_HDR.jpg",
+    "takenAt": "2022-10-21T10:16:46Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.59609,
+      "lon": 9.93488
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_20221021_110324.jpg"
+    ]
+  },
+  {
     "src": "trips/2022-10-germany/IMG_20221021_110324.jpg",
     "takenAt": "2022-10-21T11:03:24Z",
     "hasGps": true,
@@ -585,6 +826,908 @@
     }
   },
   {
+    "src": "trips/2022-10-germany/20221021_134042.jpg",
+    "takenAt": "2022-10-21T11:40:43Z",
+    "hasGps": true,
+    "cameraModel": "SM-A525F",
+    "gps": {
+      "lat": 53.59609,
+      "lon": 9.93488
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_20221021_110324.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0113.jpg",
+    "takenAt": "2022-10-21T13:48:43Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.98676,
+      "lon": 10.10879
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0116.jpg",
+    "takenAt": "2022-10-21T13:51:49Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.98681,
+      "lon": 10.109
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_155218.jpg",
+    "takenAt": "2022-10-21T13:52:18Z",
+    "hasGps": true,
+    "cameraModel": "SM-A525F",
+    "gps": {
+      "lat": 52.98676,
+      "lon": 10.10901
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0116.jpg",
+      "trips/2022-10-germany/IMG_0118.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0118.jpg",
+    "takenAt": "2022-10-21T13:54:44Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.98671,
+      "lon": 10.10902
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0120.jpg",
+    "takenAt": "2022-10-21T13:55:25Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.98671,
+      "lon": 10.10905
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0122.jpg",
+    "takenAt": "2022-10-21T13:57:23Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.98689,
+      "lon": 10.10929
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0124.jpg",
+    "takenAt": "2022-10-21T13:58:12Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.98687,
+      "lon": 10.10924
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0128.jpg",
+    "takenAt": "2022-10-21T14:00:42Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.98683,
+      "lon": 10.10929
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0132.jpg",
+    "takenAt": "2022-10-21T14:05:28Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.98684,
+      "lon": 10.10953
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_161556.jpg",
+    "takenAt": "2022-10-21T14:15:55Z",
+    "hasGps": true,
+    "cameraModel": "SM-A525F",
+    "gps": {
+      "lat": 52.98672,
+      "lon": 10.1099
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0132.jpg",
+      "trips/2022-10-germany/IMG_0141.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0141.jpg",
+    "takenAt": "2022-10-21T14:20:14Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.98659,
+      "lon": 10.11026
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0143.jpg",
+    "takenAt": "2022-10-21T14:26:35Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.98644,
+      "lon": 10.11013
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0150.jpg",
+    "takenAt": "2022-10-21T14:42:34Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.9864,
+      "lon": 10.10904
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0152.jpg",
+    "takenAt": "2022-10-21T14:45:11Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.98647,
+      "lon": 10.10843
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0156.jpg",
+    "takenAt": "2022-10-21T14:49:24Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.98625,
+      "lon": 10.108
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0159.jpg",
+    "takenAt": "2022-10-21T14:51:49Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 52.98648,
+      "lon": 10.10798
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0162.jpg",
+    "takenAt": "2022-10-21T15:52:59Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.23444,
+      "lon": 10.07804
+    },
+    "place": {
+      "city": "Garlstorf",
+      "country": "Germany",
+      "display": "Garlstorf, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0164.jpg",
+    "takenAt": "2022-10-21T15:53:01Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.23538,
+      "lon": 10.07846
+    },
+    "place": {
+      "city": "Garlstorf",
+      "country": "Germany",
+      "display": "Garlstorf, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221021_183920675_HDR.jpg",
+    "takenAt": "2022-10-21T16:39:22Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.39221,
+      "lon": 10.01795
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0164.jpg",
+      "trips/2022-10-germany/IMG_0165.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0165.jpg",
+    "takenAt": "2022-10-21T16:45:02Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54903,
+      "lon": 9.95743
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_191658.jpg",
+    "takenAt": "2022-10-21T17:16:59Z",
+    "hasGps": true,
+    "cameraModel": "SM-A525F",
+    "gps": {
+      "lat": 53.54903,
+      "lon": 9.95743
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0165.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221021_194426800_HDR.jpg",
+    "takenAt": "2022-10-21T17:44:28Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.54903,
+      "lon": 9.95743
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0165.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_195010.jpg",
+    "takenAt": "2022-10-21T17:50:10Z",
+    "hasGps": true,
+    "cameraModel": "SM-A525F",
+    "gps": {
+      "lat": 53.54903,
+      "lon": 9.95743
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0165.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_202328.jpg",
+    "takenAt": "2022-10-21T18:23:29Z",
+    "hasGps": false,
+    "cameraModel": "SM-A525F"
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0167.jpg",
+    "takenAt": "2022-10-22T08:00:40Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.64409,
+      "lon": 10.04796
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0169.jpg",
+    "takenAt": "2022-10-22T08:56:24Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54318,
+      "lon": 10.00039
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0172.jpg",
+    "takenAt": "2022-10-22T08:57:43Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54298,
+      "lon": 9.99993
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0174.jpg",
+    "takenAt": "2022-10-22T08:58:16Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54296,
+      "lon": 9.99996
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0177.jpg",
+    "takenAt": "2022-10-22T09:19:28Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54345,
+      "lon": 9.99983
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0190.jpg",
+    "takenAt": "2022-10-22T09:24:03Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54336,
+      "lon": 9.99987
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0177.jpg",
+      "trips/2022-10-germany/IMG_0222.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0196.jpg",
+    "takenAt": "2022-10-22T09:30:58Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54336,
+      "lon": 9.99987
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0177.jpg",
+      "trips/2022-10-germany/IMG_0222.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/20221022_113507.jpg",
+    "takenAt": "2022-10-22T09:35:07Z",
+    "hasGps": true,
+    "cameraModel": "SM-A525F",
+    "gps": {
+      "lat": 53.54336,
+      "lon": 9.99987
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0177.jpg",
+      "trips/2022-10-germany/IMG_0222.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0203.jpg",
+    "takenAt": "2022-10-22T09:38:33Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54336,
+      "lon": 9.99987
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0177.jpg",
+      "trips/2022-10-germany/IMG_0222.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0207.jpg",
+    "takenAt": "2022-10-22T09:42:23Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54336,
+      "lon": 9.99987
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0177.jpg",
+      "trips/2022-10-germany/IMG_0222.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0210.jpg",
+    "takenAt": "2022-10-22T09:44:43Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54336,
+      "lon": 9.99987
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0177.jpg",
+      "trips/2022-10-germany/IMG_0222.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0215.jpg",
+    "takenAt": "2022-10-22T09:47:36Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54336,
+      "lon": 9.99987
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0177.jpg",
+      "trips/2022-10-germany/IMG_0222.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0222.jpg",
+    "takenAt": "2022-10-22T09:51:13Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54326,
+      "lon": 9.99991
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0227.jpg",
+    "takenAt": "2022-10-22T10:05:04Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.5432,
+      "lon": 9.99993
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0222.jpg",
+      "trips/2022-10-germany/IMG_0234.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_120955484_HDR.jpg",
+    "takenAt": "2022-10-22T10:09:56Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.5432,
+      "lon": 9.99993
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0222.jpg",
+      "trips/2022-10-germany/IMG_0234.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0231.jpg",
+    "takenAt": "2022-10-22T10:16:25Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.5432,
+      "lon": 9.99993
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0222.jpg",
+      "trips/2022-10-germany/IMG_0234.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0234.jpg",
+    "takenAt": "2022-10-22T10:26:56Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54314,
+      "lon": 9.99995
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/20221022_122801.jpg",
+    "takenAt": "2022-10-22T10:28:02Z",
+    "hasGps": true,
+    "cameraModel": "SM-A525F",
+    "gps": {
+      "lat": 53.54316,
+      "lon": 9.99985
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0234.jpg",
+      "trips/2022-10-germany/IMG_20221022_114756.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_124225360_HDR.jpg",
+    "takenAt": "2022-10-22T10:42:26Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.54316,
+      "lon": 9.99985
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0234.jpg",
+      "trips/2022-10-germany/IMG_20221022_114756.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_124407767_HDR.jpg",
+    "takenAt": "2022-10-22T10:44:09Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.54316,
+      "lon": 9.99985
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0234.jpg",
+      "trips/2022-10-germany/IMG_20221022_114756.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_124859087_HDR.jpg",
+    "takenAt": "2022-10-22T10:49:00Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.54316,
+      "lon": 9.99985
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0234.jpg",
+      "trips/2022-10-germany/IMG_20221022_114756.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_125435708.jpg",
+    "takenAt": "2022-10-22T10:54:37Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.54316,
+      "lon": 9.99985
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0234.jpg",
+      "trips/2022-10-germany/IMG_20221022_114756.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/original_16daf845-1eaa-45da-a415-61c184d2bde8_IMG_20221022_130459028.jpg",
+    "takenAt": "2022-10-22T11:04:59Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.54316,
+      "lon": 9.99985
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0234.jpg",
+      "trips/2022-10-germany/IMG_20221022_114756.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_130724386.jpg",
+    "takenAt": "2022-10-22T11:07:25Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.54316,
+      "lon": 9.99985
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0234.jpg",
+      "trips/2022-10-germany/IMG_20221022_114756.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_131638320.jpg",
+    "takenAt": "2022-10-22T11:16:38Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.54316,
+      "lon": 9.99985
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0234.jpg",
+      "trips/2022-10-germany/IMG_20221022_114756.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_133156537.jpg",
+    "takenAt": "2022-10-22T11:31:59Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.54316,
+      "lon": 9.99985
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0234.jpg",
+      "trips/2022-10-germany/IMG_20221022_114756.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_133639778.jpg",
+    "takenAt": "2022-10-22T11:36:40Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.54316,
+      "lon": 9.99985
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0234.jpg",
+      "trips/2022-10-germany/IMG_20221022_114756.jpg"
+    ]
+  },
+  {
     "src": "trips/2022-10-germany/IMG_20221022_114756.jpg",
     "takenAt": "2022-10-22T11:47:56Z",
     "hasGps": true,
@@ -598,6 +1741,306 @@
       "country": "Germany",
       "display": "Hamburg, Germany"
     }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0246.jpg",
+    "takenAt": "2022-10-22T12:39:20Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54317,
+      "lon": 9.99975
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_20221022_114756.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0247.jpg",
+    "takenAt": "2022-10-22T13:50:40Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0249.jpg",
+    "takenAt": "2022-10-22T13:51:42Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0250.jpg",
+    "takenAt": "2022-10-22T13:52:06Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0253.jpg",
+    "takenAt": "2022-10-22T13:53:25Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0254.jpg",
+    "takenAt": "2022-10-22T13:57:33Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0256.jpg",
+    "takenAt": "2022-10-22T14:07:48Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0263.jpg",
+    "takenAt": "2022-10-22T14:08:31Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0269.jpg",
+    "takenAt": "2022-10-22T14:23:53Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0283.jpg",
+    "takenAt": "2022-10-22T14:32:27Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0292.jpg",
+    "takenAt": "2022-10-22T14:45:28Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_164626291_HDR.jpg",
+    "takenAt": "2022-10-22T14:46:29Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/20221022_165157.jpg",
+    "takenAt": "2022-10-22T14:51:57Z",
+    "hasGps": true,
+    "cameraModel": "SM-A525F",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0303.jpg",
+    "takenAt": "2022-10-22T14:52:57Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0307.jpg",
+    "takenAt": "2022-10-22T14:54:03Z",
+    "hasGps": true,
+    "cameraModel": "iPhone SE (3rd generation)",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/20221022_172538.jpg",
+    "takenAt": "2022-10-22T15:25:38Z",
+    "hasGps": true,
+    "cameraModel": "SM-A525F",
+    "gps": {
+      "lat": 53.54769,
+      "lon": 9.97821
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0303.jpg"
+    ]
   },
   {
     "src": "trips/2022-12-romania/IMG_20221225_211840.jpg",
