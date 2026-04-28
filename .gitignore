@@ -92,6 +92,12 @@ yolo11n.pt
 # and PR #41). The script + JSON manifest IS committed.
 scripts/.inpaint-edge-output/
 
+# Aggressive person re-scan output (NDJSON log + flagged-srcs list).
+# The python script (aggressive-person-rescan.py) IS committed; the run output
+# is reproducible from the catalogue + thresholds documented in
+# docs/aggressive-person-rescan.md.
+scripts/.aggressive-rescan/
+
 # Sub-agent worktrees
 .claude/worktrees/
 
