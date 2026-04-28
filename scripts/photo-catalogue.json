@@ -3078,6 +3078,351 @@
     }
   },
   {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260311221733.jpg",
+    "takenAt": "2026-03-11T22:17:33Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 56.20396,
+      "lon": 10.23448
+    },
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260312210109.jpg",
+    "takenAt": "2026-03-12T21:01:09Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 54.07141,
+      "lon": 9.97642
+    },
+    "place": {
+      "city": "Neumünster",
+      "country": "Germany",
+      "display": "Neumünster, Germany"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260312214126.jpg",
+    "takenAt": "2026-03-12T21:41:26Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 54.07129,
+      "lon": 9.9768
+    },
+    "place": {
+      "city": "Neumünster",
+      "country": "Germany",
+      "display": "Neumünster, Germany"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260313205914.jpg",
+    "takenAt": "2026-03-13T20:59:14Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.07091,
+      "lon": 14.38444
+    },
+    "place": {
+      "city": "Prague",
+      "country": "Czechia",
+      "display": "Prague, Czechia"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260313221523.jpg",
+    "takenAt": "2026-03-13T22:15:23Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.08306,
+      "lon": 14.41997
+    },
+    "place": {
+      "city": "Prague",
+      "country": "Czechia",
+      "display": "Prague, Czechia"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260313230237.jpg",
+    "takenAt": "2026-03-13T23:02:37Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.07722,
+      "lon": 14.42819
+    },
+    "place": {
+      "city": "Prague",
+      "country": "Czechia",
+      "display": "Prague, Czechia"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260314013322.jpg",
+    "takenAt": "2026-03-14T01:33:22Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 50.07719,
+      "lon": 14.42816
+    },
+    "place": {
+      "city": "Prague",
+      "country": "Czechia",
+      "display": "Prague, Czechia"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260314153523.jpg",
+    "takenAt": "2026-03-14T15:35:23Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.14283,
+      "lon": 17.10726
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260314222230.jpg",
+    "takenAt": "2026-03-14T22:22:30Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.41259,
+      "lon": 19.24756
+    },
+    "place": {
+      "city": "Budapest",
+      "country": "Hungary",
+      "display": "Budapest, Hungary"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260315125427.jpg",
+    "takenAt": "2026-03-15T12:54:27Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.90705,
+      "lon": 19.68729
+    },
+    "place": {
+      "city": "Kecskemét",
+      "country": "Hungary",
+      "display": "Kecskemét, Hungary"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260316133055.jpg",
+    "takenAt": "2026-03-16T13:30:55Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.27808,
+      "lon": 24.30673
+    },
+    "place": {
+      "city": "Calimanesti",
+      "country": "Romania",
+      "display": "Calimanesti, Romania"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260316141552.jpg",
+    "takenAt": "2026-03-16T14:15:52Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.27813,
+      "lon": 24.30648
+    },
+    "place": {
+      "city": "Calimanesti",
+      "country": "Romania",
+      "display": "Calimanesti, Romania"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260317002010.jpg",
+    "takenAt": "2026-03-17T00:20:10Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43536,
+      "lon": 26.12158
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260317002237.jpg",
+    "takenAt": "2026-03-17T00:22:37Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43535,
+      "lon": 26.12143
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260317002519.jpg",
+    "takenAt": "2026-03-17T00:25:19Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43554,
+      "lon": 26.12133
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260318172645.jpg",
+    "takenAt": "2026-03-18T17:26:45Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43533,
+      "lon": 26.12133
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260318211940.jpg",
+    "takenAt": "2026-03-18T21:19:40Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43539,
+      "lon": 26.12153
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260319141344.jpg",
+    "takenAt": "2026-03-19T14:13:44Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.45215,
+      "lon": 26.20501
+    },
+    "place": {
+      "city": "Pantelimon",
+      "country": "Romania",
+      "display": "Pantelimon, Romania"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260319141400.jpg",
+    "takenAt": "2026-03-19T14:14:00Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.45523,
+      "lon": 26.20634
+    },
+    "place": {
+      "city": "Pantelimon",
+      "country": "Romania",
+      "display": "Pantelimon, Romania"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260320145246.jpg",
+    "takenAt": "2026-03-20T14:52:46Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43569,
+      "lon": 26.12168
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260320200759.jpg",
+    "takenAt": "2026-03-20T20:07:59Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.46039,
+      "lon": 26.11138
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260320211758.jpg",
+    "takenAt": "2026-03-20T21:17:58Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43568,
+      "lon": 26.12099
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260321204502.jpg",
+    "takenAt": "2026-03-21T20:45:02Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43547,
+      "lon": 26.12154
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
+    }
+  },
+  {
     "src": "trips/2026-03-balkans-roadtrip/IMG20260323004541.jpg",
     "takenAt": "2026-03-23T00:45:41Z",
     "hasGps": true,
@@ -3693,6 +4038,34 @@
     }
   },
   {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260328173446.jpg",
+    "takenAt": "2026-03-28T17:34:46Z",
+    "hasGps": true,
+    "gps": {
+      "lat": 49.43146,
+      "lon": 11.11451
+    },
+    "place": {
+      "city": "Nuremberg",
+      "country": "Germany",
+      "display": "Nuremberg, Germany"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260328220133.jpg",
+    "takenAt": "2026-03-28T22:01:33Z",
+    "hasGps": true,
+    "gps": {
+      "lat": 51.31407,
+      "lon": 9.4883
+    },
+    "place": {
+      "city": "Kassel",
+      "country": "Germany",
+      "display": "Kassel, Germany"
+    }
+  },
+  {
     "src": "trips/2026-03-balkans-roadtrip/IMG20260329143206.jpg",
     "takenAt": "2026-03-29T14:32:06Z",
     "hasGps": true,
@@ -3705,6 +4078,20 @@
       "city": "Burgwedel",
       "country": "Germany",
       "display": "Burgwedel, Germany"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260329234655.jpg",
+    "takenAt": "2026-03-29T23:46:55Z",
+    "hasGps": true,
+    "gps": {
+      "lat": 56.20397,
+      "lon": 10.23439
+    },
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
     }
   },
   {

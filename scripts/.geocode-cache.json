@@ -978,5 +978,40 @@
     "city": "Hamburg",
     "country": "Germany",
     "display": "Hamburg, Germany"
+  },
+  "44.46,26.11": {
+    "city": "Bucharest",
+    "country": "Romania",
+    "display": "Bucharest, Romania"
+  },
+  "45.28,24.31": {
+    "city": "Calimanesti",
+    "country": "Romania",
+    "display": "Calimanesti, Romania"
+  },
+  "46.91,19.69": {
+    "city": "Kecskemét",
+    "country": "Hungary",
+    "display": "Kecskemét, Hungary"
+  },
+  "47.41,19.25": {
+    "city": "Vecsés",
+    "country": "Hungary",
+    "display": "Vecsés, Hungary"
+  },
+  "50.07,14.38": {
+    "city": "Prague",
+    "country": "Czechia",
+    "display": "Prague, Czechia"
+  },
+  "50.08,14.42": {
+    "city": "Prague",
+    "country": "Czechia",
+    "display": "Prague, Czechia"
+  },
+  "50.08,14.43": {
+    "city": "Prague",
+    "country": "Czechia",
+    "display": "Prague, Czechia"
   }
 }

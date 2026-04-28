@@ -1,0 +1,22 @@
+{
+  "_doc": "Day-by-day Balkan road trip city map (2026-03). All entries are derived from EXIF GPS on the actual photos at G:\\Poze\\IMG2026MMDD*.jpg — every photo on every trip date carried real EXIF GPS, so no synthesis was required. Coordinates are the daily centroid of the day's distinct GPS clusters; place names are reverse-geocoded via Nominatim (cached in scripts/.geocode-cache.json).",
+  "2026-03-11": { "city": "Aarhus", "country": "Denmark", "lat": 56.20396, "lon": 10.23448, "note": "Departure from home." },
+  "2026-03-12": { "city": "Neumünster", "country": "Germany", "lat": 54.07141, "lon": 9.97642, "note": "Schleswig-Holstein roadside / overnight stop. Hannover stop expected by itinerary not captured on camera." },
+  "2026-03-13": { "city": "Prague", "country": "Czechia", "lat": 50.07722, "lon": 14.42819 },
+  "2026-03-14": { "city": "Prague→Bratislava→Budapest", "country": "Multiple", "centroidNote": "Day spans Prague (50.08/14.43 morning), Bratislava (48.14/17.11 mid), Vecsés/Budapest (47.41/19.25 evening). Catalogue rows split per cluster." },
+  "2026-03-15": { "city": "Kecskemét", "country": "Hungary", "lat": 46.90705, "lon": 19.68729, "note": "South-Hungary lunch / fuel stop on the way to Romania." },
+  "2026-03-16": { "city": "Calimanesti", "country": "Romania", "lat": 45.27808, "lon": 24.30673, "note": "Olt valley town, between Sibiu and Bucharest. The Sibiu stop expected by itinerary was a drive-through; photos start south of it." },
+  "2026-03-17": { "city": "Bucharest", "country": "Romania", "lat": 44.43536, "lon": 26.12158 },
+  "2026-03-18": { "city": "Bucharest", "country": "Romania", "lat": 44.43533, "lon": 26.12133 },
+  "2026-03-19": { "city": "Pantelimon (Bucharest east)", "country": "Romania", "lat": 44.45215, "lon": 26.20501 },
+  "2026-03-20": { "city": "Bucharest", "country": "Romania", "lat": 44.43568, "lon": 26.12099 },
+  "2026-03-21": { "city": "Bucharest", "country": "Romania", "lat": 44.43547, "lon": 26.12154 },
+  "2026-03-22": { "city": "(no photos)", "country": "(unknown)", "note": "Zero source photos on this date; presumably an offline travel day Bucharest -> Kladovo region." },
+  "2026-03-23": { "city": "Kladovo Municipality", "country": "Serbia", "centroidNote": "Already catalogued (44.67/22.53)." },
+  "2026-03-24": { "city": "Belgrade", "country": "Serbia", "centroidNote": "Already catalogued (44.81/20.45)." },
+  "2026-03-25": { "city": "Ljubljana → Pula → Trieste", "country": "Multiple", "centroidNote": "Already catalogued." },
+  "2026-03-26": { "city": "Trieste → Carinthia → Tirol", "country": "Multiple", "centroidNote": "Already catalogued (Italy / Austria mix)." },
+  "2026-03-27": { "city": "Schwangau / Landsberg am Lech", "country": "Germany", "centroidNote": "Already catalogued (Munich approach via Neuschwanstein)." },
+  "2026-03-28": { "city": "Dachau (München) → Nuremberg → Kassel", "country": "Germany", "centroidNote": "Mar 28 spans Dachau (already catalogued, 48.27/11.47), Nuremberg (49.43/11.11 newly added) and Kassel (51.31/9.49 newly added)." },
+  "2026-03-29": { "city": "Burgwedel → Aarhus", "country": "Germany → Denmark", "centroidNote": "Burgwedel (52.49/9.85) already catalogued; Aarhus arrival (56.20/10.23) added by this backfill." }
+}
