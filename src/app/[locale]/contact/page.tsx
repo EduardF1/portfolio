@@ -10,8 +10,8 @@ export default async function ContactPage() {
   const tt = await getTranslations("tooltips");
   const t = await getTranslations("contact");
   return (
-    <section className="container-page py-24 md:py-28 grid gap-12 md:grid-cols-12">
-      <div className="md:col-span-5">
+    <section className="@container container-page py-24 md:py-28 grid gap-12 @md:grid-cols-12">
+      <div className="@md:col-span-5">
         <SectionHeading level="h1" kicker={t("kicker")} tooltip={tt("contact")}>
           {t("heading")}
         </SectionHeading>
@@ -44,7 +44,7 @@ export default async function ContactPage() {
           </a>
         </div>
       </div>
-      <div className="md:col-span-7">
+      <div className="@md:col-span-7">
         <ContactForm />
       </div>
     </section>
