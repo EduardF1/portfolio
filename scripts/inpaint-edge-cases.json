@@ -1,0 +1,188 @@
+{
+  "$comment": "20-photo edge-case corpus for the v2 face-gated inpaint pipeline. Companion to docs/inpaint-edge-cases.md and PR #41. Run via scripts/inpaint-edge-test.ps1 AFTER PR #41 lands.",
+  "version": 1,
+  "pipeline": "scripts/inpaint-people.py (v2 face-gated)",
+  "outputDir": "scripts/.inpaint-edge-output",
+  "photos": [
+    {
+      "n": 1,
+      "src": "public/photos/trips/2025-04-czechia-poland-slovakia-austria/IMG20250413162629.jpg",
+      "trip": "2025-04-czechia-poland-slovakia-austria",
+      "place": "Vienna - Heeresgeschichtliches Museum",
+      "category": "person-walking-away",
+      "predicted": "COPY",
+      "notes": "Subject is back-to-camera near WWI aero engine. Face NOT visible -> no trigger expected."
+    },
+    {
+      "n": 2,
+      "src": "public/photos/trips/2026-03-balkans-roadtrip/IMG20260328135215.jpg",
+      "trip": "2026-03-balkans-roadtrip",
+      "place": "Dachau Memorial",
+      "category": "person-walking-away",
+      "predicted": "COPY",
+      "notes": "Visitor at right edge, edge-cropped, no face exposed."
+    },
+    {
+      "n": 3,
+      "src": "public/photos/trips/2018-03-israel/IMG_20180323_115533.jpg",
+      "trip": "2018-03-israel",
+      "place": "Yardenit (Sea of Galilee)",
+      "category": "sunglasses",
+      "predicted": "INPAINT",
+      "notes": "Eduard wearing dark sunglasses; face partially occluded. Watch for false-negative (BlazeFace dislikes full-eye occlusion)."
+    },
+    {
+      "n": 4,
+      "src": "public/photos/trips/2018-03-israel/IMG_20180324_130051.jpg",
+      "trip": "2018-03-israel",
+      "place": "Rosh HaNikra direction sign",
+      "category": "sunglasses-plus-hat",
+      "predicted": "INPAINT",
+      "notes": "One subject in red sunglasses + black cap, second subject bare-faced. Two adjacent person bboxes - mask UNION test."
+    },
+    {
+      "n": 5,
+      "src": "public/photos/trips/2018-03-israel/IMG_20180323_113715.jpg",
+      "trip": "2018-03-israel",
+      "place": "Yardenit",
+      "category": "half-face-profile",
+      "predicted": "INPAINT",
+      "notes": "3-quarter profile. BlazeFace is frontal-tuned; profile detection is threshold-sensitive. May fall through to COPY."
+    },
+    {
+      "n": 6,
+      "src": "public/photos/trips/2025-04-czechia-poland-slovakia-austria/IMG20250416162110.jpg",
+      "trip": "2025-04-czechia-poland-slovakia-austria",
+      "place": "Slovakia mountain hut",
+      "category": "half-face-cropped",
+      "predicted": "COPY",
+      "notes": "Face cropped above the lips - eyes/nose missing. Likely no detection -> COPY. If detected, INPAINT."
+    },
+    {
+      "n": 7,
+      "src": "public/photos/trips/2018-03-israel/IMG_20180323_114017.jpg",
+      "trip": "2018-03-israel",
+      "place": "Yardenit",
+      "category": "children-and-adults",
+      "predicted": "INPAINT",
+      "notes": "Adult + 2 younger faces, all front-facing. Mask must union all 3 person bboxes."
+    },
+    {
+      "n": 8,
+      "src": "public/photos/trips/2018-03-israel/IMG_20180324_114159.jpg",
+      "trip": "2018-03-israel",
+      "place": "Rosh HaNikra coastline",
+      "category": "distant-crowd",
+      "predicted": "COPY",
+      "notes": "Tiny silhouettes on cliff path - well below 0.5% min-face-area floor. Threshold sanity check."
+    },
+    {
+      "n": 9,
+      "src": "public/photos/trips/2025-04-czechia-poland-slovakia-austria/IMG20250413180630.jpg",
+      "trip": "2025-04-czechia-poland-slovakia-austria",
+      "place": "Schoenbrunn Palace, Vienna",
+      "category": "distant-crowd-borderline",
+      "predicted": "COPY",
+      "notes": "Distant tourists. One closer foreground figure may flirt with the 0.5% floor."
+    },
+    {
+      "n": 10,
+      "src": "public/photos/trips/2025-04-czechia-poland-slovakia-austria/IMG20250416135247.jpg",
+      "trip": "2025-04-czechia-poland-slovakia-austria",
+      "place": "SNP Museum, Banska Bystrica",
+      "category": "distant-crowd",
+      "predicted": "COPY",
+      "notes": "Two figures on path are sub-threshold."
+    },
+    {
+      "n": 11,
+      "src": "public/photos/trips/2025-09-andalusia-gibraltar/IMG20250915170432.jpg",
+      "trip": "2025-09-andalusia-gibraltar",
+      "place": "Gibraltar - Burma Stores Central tunnel sign",
+      "category": "photographer-reflection",
+      "predicted": "COPY",
+      "notes": "Eduard's silhouette/shadow on glass vitrine. No facial features. False-positive would corrupt the vitrine + sign."
+    },
+    {
+      "n": 12,
+      "src": "public/photos/trips/2023-07-turkey/IMG_20230715_165617.jpg",
+      "trip": "2023-07-turkey",
+      "place": "Istanbul - New Mosque (taxi window)",
+      "category": "photographer-reflection",
+      "predicted": "COPY",
+      "notes": "Mosque shot through windshield with faint reflection of figure + driver in parked car. Borderline trigger."
+    },
+    {
+      "n": 13,
+      "src": "public/photos/trips/2018-03-israel/IMG_20180324_130414.jpg",
+      "trip": "2018-03-israel",
+      "place": "Rosh HaNikra checkpoint",
+      "category": "protective-gear",
+      "predicted": "INPAINT",
+      "notes": "Soldier in maroon beret + plate carrier + slung rifle, civilian alongside. Both faces visible. CRITICAL: rifle and tactical gear must be erased WITH the soldier - no orphaned weapon (cf. v1 Ljubljana bicycle bug)."
+    },
+    {
+      "n": 14,
+      "src": "public/photos/trips/2025-04-czechia-poland-slovakia-austria/IMG20250413154619.jpg",
+      "trip": "2025-04-czechia-poland-slovakia-austria",
+      "place": "Vienna museum - Napoleonic uniform display",
+      "category": "mannequins-painted-faces",
+      "predicted": "COPY",
+      "notes": "Three mannequins in helmets behind glass with painted/cast faces. Same family as bronze-statue v1 regression."
+    },
+    {
+      "n": 15,
+      "src": "public/photos/trips/2026-03-balkans-roadtrip/IMG20260326132151.jpg",
+      "trip": "2026-03-balkans-roadtrip",
+      "place": "Trieste - chiesa di Sant'Antonio Taumaturgo (rooftop saints)",
+      "category": "statues-realistic-faces",
+      "predicted": "COPY",
+      "notes": "The exact rooftop saints v1 destroyed. v2's reason to exist is to leave these alone. HARD FAIL if any face triggers."
+    },
+    {
+      "n": 16,
+      "src": "public/photos/trips/2025-02-finland/IMG20250222175401.jpg",
+      "trip": "2025-02-finland",
+      "place": "Helsinki - Senate Square, Alexander II monument",
+      "category": "statues-realistic-faces",
+      "predicted": "COPY",
+      "notes": "Bronze statues at dusk + rooftop saints. Tougher lighting than #15. Monument blocklist is the safety net."
+    },
+    {
+      "n": 17,
+      "src": "public/photos/trips/2025-09-andalusia-gibraltar/IMG20250917160439.jpg",
+      "trip": "2025-09-andalusia-gibraltar",
+      "place": "Malaga Cathedral - chapel saints in niches",
+      "category": "statues-realistic-faces",
+      "predicted": "COPY",
+      "notes": "Polychrome saints under warm interior lighting - higher false-positive risk than bronze."
+    },
+    {
+      "n": 18,
+      "src": "public/photos/trips/2023-08-romania/IMG20230826122922.jpg",
+      "trip": "2023-08-romania",
+      "place": "Peles Castle, Sinaia",
+      "category": "statues-realistic-faces",
+      "predicted": "COPY",
+      "notes": "Stone face on foreground fountain + distant tourists. Both should be sub-trigger. If fountain face triggers, foreground gets a hole."
+    },
+    {
+      "n": 19,
+      "src": "public/photos/trips/2025-09-andalusia-gibraltar/IMG20250914201512.jpg",
+      "trip": "2025-09-andalusia-gibraltar",
+      "place": "Playa de La Herradura, Andalusia",
+      "category": "backlit-silhouette",
+      "predicted": "COPY",
+      "notes": "Three silhouettes against sunset - no facial features. False positive would ruin the wet-sand sunset reflection."
+    },
+    {
+      "n": 20,
+      "src": "public/photos/trips/2018-03-israel/IMG_20180325_135940.jpg",
+      "trip": "2018-03-israel",
+      "place": "Greek Orthodox church interior",
+      "category": "overlapping-bboxes",
+      "predicted": "INPAINT",
+      "notes": "Two subjects shoulder-to-shoulder + iconostasis with dozens of painted icon faces. Living faces detect, painted icons must NOT. Mask union must cover both bodies without spilling into iconostasis."
+    }
+  ]
+}
