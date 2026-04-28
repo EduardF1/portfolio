@@ -5,7 +5,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getCollection, getItem } from "@/lib/content";
 import { mdxComponents } from "@/components/mdx-components";
-import { findTech } from "@/lib/tech";
+import { TechChip } from "@/components/tech-chip";
 
 export async function generateStaticParams() {
   const items = await getCollection("work");
@@ -95,23 +95,9 @@ export default async function WorkCaseStudy({
 
       {Array.isArray(fm.tech) && fm.tech.length > 0 && (
         <div className="mt-5 flex flex-wrap gap-2">
-          {fm.tech.map((slug) => {
-            const tech = findTech(slug);
-            if (!tech) return null;
-            return (
-              <Link
-                key={slug}
-                href={{
-                  pathname: "/work",
-                  query: { tech: slug },
-                  hash: "technologies",
-                }}
-                className="inline-flex items-center gap-1.5 rounded-full border border-border px-3 py-1 text-xs text-foreground-muted hover:border-accent hover:text-accent transition-colors"
-              >
-                {tech.name}
-              </Link>
-            );
-          })}
+          {fm.tech.map((slug) => (
+            <TechChip key={slug} slug={slug} />
+          ))}
         </div>
       )}
 
