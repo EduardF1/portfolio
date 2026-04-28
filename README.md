@@ -29,6 +29,20 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Build the printed CV (PDF)
+
+The CV PDFs in `public/cv/eduard-fischer-{en,da}.pdf` are regenerated from
+the experience data in `src/lib/experience.ts`, the case-study frontmatter
+in `content/work/*.mdx`, and the locale messages in `messages/{en,da}.json`.
+
+```bash
+npm run build:cv
+```
+
+Manual step — there is no `predeploy` hook, so re-run this whenever the
+experience timeline, case studies, or skills/messages change. The output
+files are committed under `public/cv/`.
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.

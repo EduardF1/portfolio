@@ -14,6 +14,7 @@ import {
 import { TechChip } from "@/components/tech-chip";
 import { getRecommendations } from "@/lib/recommendations";
 import { roleSlug } from "@/lib/role-slug";
+import { ROLES, tokenizeSummary } from "@/lib/experience";
 import { HowIWork } from "@/components/how-i-work";
 import { SectionNav, type SectionLink } from "@/components/section-nav";
 
@@ -246,93 +247,10 @@ function ProductLink({
 
 function Experience() {
   const t = useTranslations();
-  const roles: Array<{
-    company: string;
-    url: string;
-    role: string;
-    period: string;
-    location: string;
-    summary: React.ReactNode;
-    tech: string[];
-  }> = [
-    {
-      company: "Mjølner Informatics",
-      url: "https://mjolner.dk/en/",
-      role: "Frontend Engineer / Consultant",
-      period: "Apr 2026 – Present",
-      location: "Aarhus, Denmark",
-      summary:
-        "Frontend engineering on business-critical software for Danish enterprise and public-sector clients, with backend work alongside as the brief calls for it.",
-      tech: ["typescript", "react", "angular", "csharp", "dotnet"],
-    },
-    {
-      company: "Netcompany",
-      url: "https://www.netcompany.com/",
-      role: "IT Consultant",
-      period: "Oct 2024 – Feb 2026",
-      location: "Aarhus, Denmark",
-      summary: (
-        <>
-          <ProductLink href="https://kombit.dk/valg">KOMBIT VALG</ProductLink>
-          {", Denmark's administrative election platform. Full-stack C#/.NET + Angular. Jun–Sep 2025 stint at "}
-          <ProductLink href="https://www.stil.dk/">STIL</ProductLink>
-          {" on "}
-          <ProductLink href="https://uddannelsesadministration.dk/forside.aspx">UA.dk</ProductLink>
-          {" EUD III, building a reusable UI component catalog on JBoss + TypeScript + jQuery."}
-        </>
-      ),
-      tech: ["csharp", "dotnet", "aspnet", "ef-core", "angular", "mssql", "azure-devops", "jboss", "typescript", "jquery"],
-    },
-    {
-      company: "Greenbyte",
-      url: "https://www.greenbyte.dk/",
-      role: "Software Engineer",
-      period: "Nov 2021 – Sep 2024",
-      location: "Horsens, Denmark",
-      summary: (
-        <>
-          {"Renewable-energy SaaS, "}
-          <ProductLink href="https://www.greenbyte.dk/produkter/kalenda/">Kalenda</ProductLink>
-          {", part of Greenbyte's renewable-energy SaaS suite. .NET Core + EF Core + React on the platform side; architect and lead developer of the mobile companion app."}
-        </>
-      ),
-      tech: ["dotnet", "react", "flutter", "dart"],
-    },
-    {
-      company: "Boozt Fashion",
-      url: "https://www.booztgroup.com/",
-      role: "System Engineer",
-      period: "Oct 2021 – May 2022",
-      location: "Malmö, Sweden",
-      summary: (
-        <>
-          {"Large-scale e-commerce backend on "}
-          <ProductLink href="https://www.boozt.com/">boozt.com</ProductLink>
-          {" in PHP/Symfony. Introduced Kanban; quality and test automation focus."}
-        </>
-      ),
-      tech: ["php", "symfony", "doctrine", "mysql", "behat", "mockery", "guzzle", "phpunit"],
-    },
-    {
-      company: "Systematic",
-      url: "https://systematic.com/",
-      role: "Junior Systems Engineer",
-      period: "Feb 2021 – Jun 2021",
-      location: "Aarhus, Denmark",
-      summary: (
-        <>
-          {"Mission-critical "}
-          <ProductLink href="https://systematic.com/en-gb/industries/defence/products/sitaware-suite/">SitaWare</ProductLink>
-          {" suite ("}
-          <ProductLink href="https://systematic.com/en-gb/industries/defence/products/sitaware-suite/sitaware-frontline/">Frontline</ProductLink>
-          {", "}
-          <ProductLink href="https://systematic.com/en-gb/industries/defence/products/sitaware-suite/sitaware-edge/">Edge</ProductLink>
-          {"). Java + Angular. NATO interoperability."}
-        </>
-      ),
-      tech: ["java", "angular", "junit", "karma", "jasmine", "robot-framework"],
-    },
-  ];
+  // Single source of truth — `src/lib/experience.ts`. Plain-text
+  // summaries are tokenised here against each role's `links` table so
+  // mentions like "KOMBIT VALG" or "Kalenda" still render as anchors.
+  const roles = ROLES;
 
   return (
     <section
@@ -380,7 +298,17 @@ function Experience() {
                 <p className="font-mono text-xs text-foreground-subtle text-right">
                   {r.period}
                 </p>
-                <p className="col-span-2 mt-2 max-w-prose">{r.summary}</p>
+                <p className="col-span-2 mt-2 max-w-prose">
+                  {tokenizeSummary(r).map((tok, idx) =>
+                    tok.kind === "link" ? (
+                      <ProductLink key={idx} href={tok.href}>
+                        {tok.value}
+                      </ProductLink>
+                    ) : (
+                      <span key={idx}>{tok.value}</span>
+                    ),
+                  )}
+                </p>
                 {r.tech.length > 0 && (
                   <div
                     className="col-span-2 mt-2 flex flex-wrap gap-2"

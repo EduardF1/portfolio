@@ -14,10 +14,12 @@
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:cross-platform": "cross-env CROSS_PLATFORM=1 playwright test",
-    "build:tech-demos": "node scripts/build-tech-demos.mjs"
+    "build:tech-demos": "node scripts/build-tech-demos.mjs",
+    "build:cv": "node scripts/build-cv-pdf.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
+    "@react-pdf/renderer": "^4.5.1",
     "clsx": "^2.1.1",
     "d3-geo": "^3.1.1",
     "flexsearch": "^0.7.43",
