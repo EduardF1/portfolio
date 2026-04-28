@@ -9,19 +9,20 @@ itinerary-synthesised coordinates were needed.
 
 The confirmed itinerary was `Aarhus -> Hannover -> Prague -> Bratislava ->
 Budapest -> Sibiu -> Bucharest -> Kladovo -> Belgrade -> Ljubljana -> Pula ->
-Trieste -> Munich -> Nuremberg -> Kassel -> DK`. Two stops did not match the
-photos as expected:
+Trieste -> Munich -> Nuremberg -> Kassel -> DK`. Cross-referenced against
+Eduard's Airbnb history (`scripts/trip-stays.json`):
 
-- **Hannover, DE (Mar 12)** — no photos. The Mar 12 cluster is at 54.07/9.98 =
-  Neumünster (Schleswig-Holstein, ~270 km north of Hannover). The Hannover
-  stop was either skipped or photo-less; Neumünster is what the camera roll
-  shows for the day.
-- **Sibiu, RO (Mar 16)** — no photos at Sibiu (45.79/24.13). The Mar 16 cluster
-  is at 45.28/24.31 = Calimanesti (south of the Olt valley pass, between Sibiu
-  and Bucharest). The pass-through happened, but the photo stops were further
-  south.
+- **Hannover, DE (Mar 12-13)** — overnight was Gehrden, a Hannover suburb (Airbnb).
+  The Mar 12 daytime photos cluster at Neumünster (Schleswig-Holstein), 270 km
+  north — that's the lunch/coffee stop on the drive south. Hannover/Gehrden is
+  unphotographed but the stop happened.
+- **Sibiu, RO (Mar 15-16)** — overnight was a Sibiu condominium (Airbnb). No
+  Sibiu-pinned photos exist on the camera roll; Mar 16 daytime photos cluster
+  at Calimanesti (45.28/24.31), the drive-south stop on the Olt valley pass.
+  Both stops happened — Sibiu overnight, Calimanesti drive-through.
 
-Mar 22 has zero photos in the source archive (offline day, presumably).
+Mar 17-21 (Bucharest stay) and Mar 22 are not Airbnb-stays — Bucharest is the
+home-stay leg with family (no photos Mar 22 = offline travel day to Korbovo).
 
 All other planned cities (Prague, Bratislava, Budapest, Bucharest, Nuremberg,
 Kassel, plus the already-catalogued Kladovo/Belgrade/Ljubljana/Pula/Trieste
@@ -44,7 +45,7 @@ Total new entries: 26.
 | 2026-03-13T23:02:37Z | trips/2026-03-balkans-roadtrip/IMG20260313230237.jpg | Prague, Czechia | [EXIF] |
 | 2026-03-14T01:33:22Z | trips/2026-03-balkans-roadtrip/IMG20260314013322.jpg | Prague, Czechia | [EXIF] |
 | 2026-03-14T15:35:23Z | trips/2026-03-balkans-roadtrip/IMG20260314153523.jpg | Bratislava, Slovakia | [EXIF] |
-| 2026-03-14T22:22:30Z | trips/2026-03-balkans-roadtrip/IMG20260314222230.jpg | Vecsés, Hungary | [EXIF] |
+| 2026-03-14T22:22:30Z | trips/2026-03-balkans-roadtrip/IMG20260314222230.jpg | Budapest, Hungary | [EXIF] |
 | 2026-03-15T12:54:27Z | trips/2026-03-balkans-roadtrip/IMG20260315125427.jpg | Kecskemét, Hungary | [EXIF] |
 | 2026-03-16T13:30:55Z | trips/2026-03-balkans-roadtrip/IMG20260316133055.jpg | Calimanesti, Romania | [EXIF] |
 | 2026-03-16T14:15:52Z | trips/2026-03-balkans-roadtrip/IMG20260316141552.jpg | Calimanesti, Romania | [EXIF] |
