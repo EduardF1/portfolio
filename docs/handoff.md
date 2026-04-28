@@ -26,16 +26,27 @@ Eduard went to sleep instructing autonomous run until token exhaustion.
 | A12 | feat/v1-round6-tablet-fixes | #28 | done | Hero/About/Personal/Contact viewport→@container; 1024 + 1366 Playwright projects |
 | A14 | feat/v1-round6-proto-motion | #24 | done | Animated dividers + scroll-bg + parallax behind 3 PROTO flags |
 
-**Now at 14/15 dev agents complete. Updated table:**
+**ALL 15/15 dev agents COMPLETE. Final PR list:**
 
 | # | Branch | PR | Notes |
 |---|---|---|---|
-| A11 | feat/v1-round6-safari-fixes | #30 | -webkit-backdrop-filter prefixes + svh/dvh fallbacks; uses A22 audit on parent worktree |
-| A13 | feat/v1-round6-pdf-cv | #32 | 24KB single-page A4 PDFs; src/lib/experience.ts as single source of truth; old PDFs preserved |
-| A15 | feat/v1-round6-test-hardening | #31 | imapflow live IMAP poll; 6 visual baselines (Win); label-driven refresh workflow; OG smoke + BVB no-network verifies |
+| A1 | per-trip-pages | #29 | Gap-based clustering + deep-links + OG/twitter-image |
+| A2 | travel-heatmap | #19 | Destinations↔Intensity chloropleth toggle |
+| A3 | palette-analytics | #27 | Edge route + tracker beacon + sparse-counter KV |
+| A4 | visit-notify-cron | #20 | **Eduard env vars needed** before merge |
+| A5 | coverage-tighten | #33 | +99 tests; coverage 64→77%; thresholds 72/65/78/73 |
+| A6 | mdx-shiki | #26 | Shiki dual-theme; zero client bundle impact |
+| A7 | admin-stats | #21 | Palette + search-query cards (cookie auth kept) |
+| A8 | chip-demo-links | #25 | tech-demos.json (15 langs/27 demos) + CSS popover |
+| A9 | contrast-pass | #22 | WCAG AA × 3 palettes; Schwarzgelb 3:1 + always-underline |
+| A10 | contact-attach | #23 | PDF≤5MB; **Vercel 4.5MB cap** flagged |
+| A11 | safari-fixes | #30 | -webkit-backdrop-filter + svh/dvh fallbacks |
+| A12 | tablet-fixes | #28 | viewport→@container; 1024+1366 Playwright projects |
+| A13 | pdf-cv | #32 | 24KB A4 PDFs from src/lib/experience.ts |
+| A14 | proto-motion | #24 | Animated dividers + scroll-bg + parallax (PROTO flags) |
+| A15 | test-hardening | #31 | Live IMAP + visual baselines + R5 verifies |
 
-**Still running (1 dev agent):**
-- A5 (`feat/v1-round6-coverage-tighten`): coverage tightening; agent ID `ad539e5c76ab943f4`
+**Critical insight on PR #18 CI failure**: A5 ran `npm run test:coverage` LOCALLY against `origin/main` + their tests and it PASSED with 509 tests. The CI failures on PR #18 (test:coverage step) are caused specifically by the new test files in the Round 5 WIP commit — likely tests that render components calling `useTranslations` without wrapping in `NextIntlClientProvider`. Those tests need fixing or removal.
 
 ### Photo-classification reports landed
 
@@ -75,14 +86,25 @@ done
 Will reclaim ~20GB.
 
 ### Next-session priorities (in order)
-1. **Fix CI** on PR #18 — wrap useTranslations callers in NextIntlClientProvider in vitest.setup.ts (or downgrade threshold). Then merge PR #18 to land Round 5 WIP on main.
-2. **Apply P13 privacy recommendations to docs/photo-organization.md** — add §6.1 source-folder allowlist before any G:\ / D:\Portfolio import.
-3. **Triage 11 Round 6 PRs** (#19-#29). Most are independent; A7 + A3 should land together for /admin/stats palette tile to populate.
-4. **A4 visit-notify cron** — set Vercel env vars before merge OR merge dark.
-5. **A10 contact-form** — decide on 4MB vs separate upload route for PDF ceiling.
-6. **Photo classification consolidation** — merge per-slice NDJSON, write `docs/photo-classification-plan.md`, propose moves with Eduard approval.
-7. **Re-run P2 + P8** if their outputs are unusable.
-8. **Lock files cleanup** — if more `npm install` happens, recommit lock alongside package.json.
+1. **Disk hygiene first**: purge agent worktrees (~20GB reclaimable). Disk at 18GB free / 95% full.
+2. **Fix CI** on PR #18 — identify and fix the new Round 5 test files that call `useTranslations` without `NextIntlClientProvider`. Likely candidates: collection-pages.test.tsx, my-story tests, /now tests added in Round 5 WIP. Once green, merge PR #18 to land Round 5 WIP (audit docs, photo reorg, scaffolds, per-route OG).
+3. **Apply P13 privacy recommendations to docs/photo-organization.md** — add §6.1 source-folder allowlist before any G:\ / D:\Portfolio import. Only safe roots are `G:\Poze` + `D:\Portfolio\poze`.
+4. **Triage 15 Round 6 PRs** (#19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33). Suggested merge order:
+   - **First batch**: #29 (A1 per-trip), #19 (A2 heatmap), #22 (A9 contrast), #28 (A12 tablet), #30 (A11 safari) — pure-code, low risk, no env requirements.
+   - **Second batch**: #25 (A8 chip demos), #26 (A6 shiki), #24 (A14 proto-motion), #32 (A13 pdf-cv), #31 (A15 hardening) — additive features.
+   - **Third batch (coupled)**: #27 (A3 palette analytics) + #21 (A7 admin-stats) — A7's palette card needs A3's API.
+   - **Eduard-decisions**: #20 (A4 visit-notify, env-var-gated), #23 (A10 contact-attach, 4MB vs Route Handler decision), #33 (A5 coverage threshold raise — ensure no regressions on CI).
+5. **A4 visit-notify cron** — set Vercel env vars (NEXT_PUBLIC_PROTO_VISIT_DIGEST=1, CRON_SECRET, DAILY_SALT, RESEND_API_KEY) before merge OR merge dark.
+6. **A10 contact-form** — decide 4MB vs separate upload route for PDF ceiling.
+7. **Photo classification consolidation** — merge per-slice NDJSON (P1, P3, P4, P5; P2 + P8 partial), write `docs/photo-classification-plan.md`, propose moves with Eduard approval. Then act on:
+   - Hamburg 2022 import (~150 photos in `G:\Poze\Ha_Photos\` + `D:\Portfolio\poze\Ha_Photos\`) — biggest single content win
+   - New trip pages: `2022-10-de-hamburg`, `2022-XX-greece` (P3 found these GPS-clustered but not on /travel yet)
+   - 9 stock photo replacements per P6/stock-audit.md (tonal mismatches)
+   - 23 photo re-clusterings in `2026-03-balkans-roadtrip/` per P11 (transit legs Italy/Germany/Austria)
+   - Self-portrait hand-pass on `G:\Poze\Instagram\` (143 frames)
+8. **Re-run P2 + P8** if their NDJSONs are incomplete (they stalled in monitor-wait).
+9. **Lock files**: if more `npm install` happens, recommit lock alongside package.json.
+10. **Install exiftool** on the Windows host before next photo pass — current pure-PowerShell EXIF reader covers ~78% of files (HEIC/PNG/RAW miss).
 
 ### Email-blocker protocol
 None triggered this run. Per `feedback_async_email_blocker_protocol.md`, only crucial blockers warrant a 10-min-window email; CI failure on a WIP merge isn't crucial enough.
