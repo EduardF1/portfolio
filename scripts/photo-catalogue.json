@@ -315,6 +315,186 @@
     }
   },
   {
+    "src": "trips/2022-07-greece/IMG_20220717_125431.jpg",
+    "takenAt": "2022-07-17T12:54:31Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 40.93479,
+      "lon": 24.4175
+    },
+    "place": {
+      "city": "Kavala",
+      "country": "Greece",
+      "display": "Kavala, Greece"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/IMG_20220717_125434.jpg",
+    "takenAt": "2022-07-17T12:54:34Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 40.93479,
+      "lon": 24.4175
+    },
+    "place": {
+      "city": "Kavala",
+      "country": "Greece",
+      "display": "Kavala, Greece"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/IMG_20220717_125446.jpg",
+    "takenAt": "2022-07-17T12:54:46Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 40.93479,
+      "lon": 24.4175
+    },
+    "place": {
+      "city": "Kavala",
+      "country": "Greece",
+      "display": "Kavala, Greece"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/IMG_20220718_140934.jpg",
+    "takenAt": "2022-07-18T14:09:35Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 40.85767,
+      "lon": 24.70224
+    },
+    "place": {
+      "city": "Keramoti",
+      "country": "Greece",
+      "display": "Keramoti, Greece"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/IMG_20220719_224308.jpg",
+    "takenAt": "2022-07-19T22:43:08Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 40.85846,
+      "lon": 24.70289
+    },
+    "place": {
+      "city": "Keramoti",
+      "country": "Greece",
+      "display": "Keramoti, Greece"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/IMG_20220720_124416.jpg",
+    "takenAt": "2022-07-20T12:44:16Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 40.67472,
+      "lon": 24.76
+    },
+    "place": {
+      "city": "Thassos Municipality",
+      "country": "Greece",
+      "display": "Thassos Municipality, Greece"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/IMG_20220720_124433.jpg",
+    "takenAt": "2022-07-20T12:44:34Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 40.67477,
+      "lon": 24.76012
+    },
+    "place": {
+      "city": "Thassos Municipality",
+      "country": "Greece",
+      "display": "Thassos Municipality, Greece"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/IMG_20220720_124507.jpg",
+    "takenAt": "2022-07-20T12:45:08Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 40.67667,
+      "lon": 24.76231
+    },
+    "place": {
+      "city": "Thassos Municipality",
+      "country": "Greece",
+      "display": "Thassos Municipality, Greece"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/IMG_20220720_124509.jpg",
+    "takenAt": "2022-07-20T12:45:09Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 40.67667,
+      "lon": 24.76231
+    },
+    "place": {
+      "city": "Thassos Municipality",
+      "country": "Greece",
+      "display": "Thassos Municipality, Greece"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/IMG_20220721_105248.jpg",
+    "takenAt": "2022-07-21T10:52:49Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 40.85908,
+      "lon": 24.70352
+    },
+    "place": {
+      "city": "Keramoti",
+      "country": "Greece",
+      "display": "Keramoti, Greece"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/IMG_20220721_105257.jpg",
+    "takenAt": "2022-07-21T10:52:57Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 40.85908,
+      "lon": 24.70352
+    },
+    "place": {
+      "city": "Keramoti",
+      "country": "Greece",
+      "display": "Keramoti, Greece"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/IMG_20220722_142634.jpg",
+    "takenAt": "2022-07-22T14:26:34Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 40.93732,
+      "lon": 24.95646
+    },
+    "place": {
+      "city": "Abdera Municipality",
+      "country": "Greece",
+      "display": "Abdera Municipality, Greece"
+    }
+  },
+  {
     "src": "trips/2022-08-romania/IMG_20220807_172701.jpg",
     "takenAt": "2022-08-07T17:27:01Z",
     "hasGps": true,
