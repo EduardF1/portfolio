@@ -119,7 +119,7 @@ export function parseArgs(argv) {
  * @param {string} p
  */
 export function toPosix(p) {
-  return p.split(sep).join("/");
+  return p.split(/[\\/]/).join("/");
 }
 
 /**
