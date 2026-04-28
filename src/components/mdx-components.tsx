@@ -23,9 +23,15 @@ export const mdxComponents: MDXComponents = {
     </p>
   ),
   a: ({ href = "#", children, ...props }) => (
+    // Body links are always underlined: WCAG SC 1.4.1 (Use of Color)
+    // requires a non-color indicator for in-text links, and on the
+    // schwarzgelb light palette the gold accent is 3.08:1 against
+    // cream — clears AA-large/UI but not AA-body, so the underline is
+    // the visual fallback. `decoration-1` keeps it subtle; `hover:`
+    // bumps to a thicker underline as the affordance.
     <Link
       href={href}
-      className="text-accent underline-offset-4 hover:underline"
+      className="text-accent underline decoration-1 underline-offset-4 hover:decoration-2"
       {...props}
     >
       {children}
