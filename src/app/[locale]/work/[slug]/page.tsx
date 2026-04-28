@@ -6,6 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { getCollection, getItem } from "@/lib/content";
 import { mdxComponents } from "@/components/mdx-components";
 import { TechChip } from "@/components/tech-chip";
+import { mdxOptions } from "@/lib/mdx-options";
 
 export async function generateStaticParams() {
   const items = await getCollection("work");
@@ -125,7 +126,11 @@ export default async function WorkCaseStudy({
       <hr className="my-10" />
 
       <div className="prose-content">
-        <MDXRemote source={item.body} components={mdxComponents} />
+        <MDXRemote
+          source={item.body}
+          components={mdxComponents}
+          options={mdxOptions}
+        />
       </div>
     </article>
   );

@@ -37,22 +37,43 @@ export const mdxComponents: MDXComponents = {
       {children}
     </Link>
   ),
-  code: ({ children, ...props }) => (
-    <code
-      className="rounded bg-surface px-1.5 py-0.5 font-mono text-[0.92em] text-foreground"
-      {...props}
-    >
-      {children}
-    </code>
-  ),
-  pre: ({ children, ...props }) => (
-    <pre
-      className="my-6 overflow-x-auto rounded-lg bg-surface p-4 font-mono text-sm"
-      {...props}
-    >
-      {children}
-    </pre>
-  ),
+  // Inline `code` (no fenced block). Fenced blocks are wrapped in <pre> by
+  // rehype-pretty-code and styled via globals.css — see `pre[data-language]`.
+  // We avoid clobbering rehype-pretty-code's `data-language` attribute on
+  // <code> inside a highlighted block: when present, render a bare element
+  // so the inline token <span style="--shiki-light..."> values win.
+  code: ({ children, ...props }) => {
+    const hasLang = "data-language" in (props as Record<string, unknown>);
+    if (hasLang) {
+      // Inside a highlighted <pre> block — let globals.css drive the styling.
+      return <code {...props}>{children}</code>;
+    }
+    return (
+      <code
+        className="rounded bg-surface px-1.5 py-0.5 font-mono text-[0.92em] text-foreground"
+        {...props}
+      >
+        {children}
+      </code>
+    );
+  },
+  // Plain (un-highlighted) <pre>. Highlighted blocks ship with
+  // `data-language` and are styled in globals.css under `@layer components`.
+  pre: ({ children, ...props }) => {
+    const hasLang = "data-language" in (props as Record<string, unknown>);
+    if (hasLang) {
+      // Pass through — globals.css `pre[data-language]` rule owns the styling.
+      return <pre {...props}>{children}</pre>;
+    }
+    return (
+      <pre
+        className="my-6 overflow-x-auto rounded-lg border border-border bg-surface p-4 font-mono text-sm"
+        {...props}
+      >
+        {children}
+      </pre>
+    );
+  },
   ul: ({ children, ...props }) => (
     <ul className="my-4 list-disc pl-6 marker:text-foreground-subtle" {...props}>
       {children}

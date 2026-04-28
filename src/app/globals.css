@@ -217,6 +217,60 @@
     margin-inline: auto;
     padding-inline: 1.5rem;
   }
+
+  /* Syntax-highlighted MDX code blocks (rehype-pretty-code + Shiki).
+     We render a single HTML output that carries both light + dark token
+     colours as CSS variables on each <span>. The `.dark` toggle (set by
+     next-themes) flips which variable is read, so theme switching is
+     instant and SSR-stable. */
+  .prose-content pre[data-language] {
+    margin-block: 1.5rem;
+    padding: 1rem 1.25rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+    overflow-x: auto;
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    line-height: 1.65;
+    color: var(--color-foreground);
+  }
+
+  .prose-content pre[data-language] code {
+    display: grid;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    font: inherit;
+    color: inherit;
+  }
+
+  /* Each line is a <span data-line>; preserve the grid row structure
+     so future line-highlighting works without a layout reflow. */
+  .prose-content pre[data-language] code [data-line] {
+    padding-inline: 0.25rem;
+  }
+
+  /* Light mode: read the --shiki-light token colour from each <span>.
+     Dark mode (.dark on <html>): read --shiki-dark instead. */
+  .prose-content pre[data-language] span {
+    color: var(--shiki-light);
+  }
+
+  .dark .prose-content pre[data-language] span {
+    color: var(--shiki-dark);
+  }
+
+  /* Inline highlighted code (e.g. `foo{:ts}` in MDX) — rehype-pretty-code
+     marks these with `data-inline-code`. Keep the surface chip styling but
+     let Shiki's inline colour win. */
+  .prose-content code[data-inline-code] {
+    color: var(--shiki-light);
+  }
+
+  .dark .prose-content code[data-inline-code] {
+    color: var(--shiki-dark);
+  }
 }
 
 /* Safari/Webkit below 18 needs the -webkit-backdrop-filter prefix.
