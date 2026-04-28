@@ -13,42 +13,34 @@ export const metadata = { title: "Personal" };
 // Photos without EXIF GPS get a date-only caption rather than a guessed location.
 const CAR_PHOTOS = [
   {
-    src: "/photos/mar-2024-spring-evening.jpg",
+    src: "/photos/personal/mar-2024-spring-evening.jpg",
     alt: "31 March 2024",
   },
   {
-    src: "/photos/may-2024-late-spring.jpg",
+    src: "/photos/personal/may-2024-late-spring.jpg",
     alt: "25 May 2024",
   },
   {
-    src: "/photos/nov-2023-autumn.jpg",
+    src: "/photos/personal/nov-2023-autumn.jpg",
     alt: "26 November 2023",
   },
 ];
 
 const TRAVEL_PHOTOS = [
   {
-    src: "/photos/mar-2026-recent-trip.jpg",
+    src: "/photos/personal/mar-2026-recent-trip.jpg",
     alt: "Ljubljana, Slovenia · 25 March 2026",
   },
   {
-    src: "/photos/sep-2025-autumn-afternoon.jpg",
-    alt: "Málaga, Spain · 17 September 2025",
-  },
-  {
-    src: "/photos/apr-2025-vienna.jpg",
+    src: "/photos/personal/apr-2025-vienna.jpg",
     alt: "Vienna, Austria · 13 April 2025",
   },
   {
-    src: "/photos/mar-2026-pula.jpg",
+    src: "/photos/personal/mar-2026-pula.jpg",
     alt: "Pula, Croatia · 25 March 2026",
   },
   {
-    src: "/photos/sep-2025-gibraltar.jpg",
-    alt: "Gibraltar · 15 September 2025",
-  },
-  {
-    src: "/photos/apr-2023-milan.jpg",
+    src: "/photos/personal/apr-2023-milan.jpg",
     alt: "Milan, Italy · 2 April 2023",
   },
 ];
@@ -92,7 +84,7 @@ export default async function PersonalPage({
             <figure className="max-w-2xl space-y-4">
               <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-border bg-surface">
                 <Image
-                  src="/photos/bvb-yellow-wall-suedtribuene.jpg"
+                  src="/photos/personal/bvb-yellow-wall-suedtribuene.jpg"
                   alt={ts("footballFigureAlt")}
                   fill
                   sizes="(min-width: 768px) 600px, 100vw"
