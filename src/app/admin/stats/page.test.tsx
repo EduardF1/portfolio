@@ -2,26 +2,45 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { cleanup, render, screen, within } from "@testing-library/react";
 import type { Hit } from "@/lib/analytics";
 
-const { cookieStore, notFoundFn, redirectFn, redisMocks } = vi.hoisted(() => ({
-  cookieStore: {
-    get: vi.fn<(name: string) => { value: string } | undefined>(),
-    set: vi.fn(),
-  },
-  notFoundFn: vi.fn(() => {
-    throw new Error("NEXT_NOT_FOUND");
-  }),
-  redirectFn: vi.fn((url: string) => {
-    throw new Error(`NEXT_REDIRECT:${url}`);
-  }),
-  redisMocks: {
-    isAnalyticsEnabled: vi.fn<() => boolean>(),
-    getHits: vi.fn<(days: string[]) => Promise<unknown[]>>(),
-    getUniqueSessionCount: vi.fn<(days: string[]) => Promise<number>>(),
-  },
-}));
+const { cookieStore, headerStore, notFoundFn, redirectFn, redisMocks, adminStatsMocks } =
+  vi.hoisted(() => ({
+    cookieStore: {
+      get: vi.fn<(name: string) => { value: string } | undefined>(),
+      set: vi.fn(),
+    },
+    headerStore: {
+      get: vi.fn<(name: string) => string | null>(),
+    },
+    notFoundFn: vi.fn(() => {
+      throw new Error("NEXT_NOT_FOUND");
+    }),
+    redirectFn: vi.fn((url: string) => {
+      throw new Error(`NEXT_REDIRECT:${url}`);
+    }),
+    redisMocks: {
+      isAnalyticsEnabled: vi.fn<() => boolean>(),
+      getHits: vi.fn<(days: string[]) => Promise<unknown[]>>(),
+      getUniqueSessionCount: vi.fn<(days: string[]) => Promise<number>>(),
+    },
+    adminStatsMocks: {
+      fetchPaletteStats: vi.fn<
+        (
+          baseUrl: string,
+          secret: string | undefined,
+        ) => Promise<{
+          counters: Record<string, number>;
+          palettes: string[];
+          themes: string[];
+          updatedAt: string;
+        }>
+      >(),
+      getSearchQueryStats: vi.fn<() => Promise<unknown[]>>(),
+    },
+  }));
 
 vi.mock("next/headers", () => ({
   cookies: async () => cookieStore,
+  headers: async () => headerStore,
 }));
 
 vi.mock("next/navigation", () => ({
@@ -30,6 +49,20 @@ vi.mock("next/navigation", () => ({
 }));
 
 vi.mock("@/lib/redis-analytics", () => redisMocks);
+
+vi.mock("@/lib/admin-stats", async () => {
+  // Re-export the pure helpers (barChartPercents, topPaletteCombos,
+  // EMPTY_PALETTE_STATS, etc.) from the real module so the dashboard
+  // renders the same maths under test, and only stub the I/O paths.
+  const actual = await vi.importActual<typeof import("@/lib/admin-stats")>(
+    "@/lib/admin-stats",
+  );
+  return {
+    ...actual,
+    fetchPaletteStats: adminStatsMocks.fetchPaletteStats,
+    getSearchQueryStats: adminStatsMocks.getSearchQueryStats,
+  };
+});
 
 import AdminStatsPage from "./page";
 
@@ -55,11 +88,28 @@ beforeEach(() => {
   process.env.ADMIN_SECRET = "test-secret";
   cookieStore.get.mockReset();
   cookieStore.set.mockReset();
+  headerStore.get.mockReset();
+  // Default header behaviour: simulate a Vercel-edge request to
+  // example.test. Individual tests can override.
+  headerStore.get.mockImplementation((name: string) => {
+    if (name === "x-forwarded-proto") return "https";
+    if (name === "x-forwarded-host") return "example.test";
+    return null;
+  });
   notFoundFn.mockClear();
   redirectFn.mockClear();
   redisMocks.isAnalyticsEnabled.mockReset();
   redisMocks.getHits.mockReset();
   redisMocks.getUniqueSessionCount.mockReset();
+  adminStatsMocks.fetchPaletteStats.mockReset();
+  adminStatsMocks.fetchPaletteStats.mockResolvedValue({
+    counters: {},
+    palettes: [],
+    themes: [],
+    updatedAt: "",
+  });
+  adminStatsMocks.getSearchQueryStats.mockReset();
+  adminStatsMocks.getSearchQueryStats.mockResolvedValue([]);
 });
 
 afterEach(() => {
@@ -265,5 +315,90 @@ describe("/admin/stats — dashboard render", () => {
     expect(
       screen.getByText(/No external referrers in this window/),
     ).toBeInTheDocument();
+  });
+});
+
+describe("/admin/stats — palette × theme + search queries", () => {
+  beforeEach(() => {
+    cookieStore.get.mockImplementation((name: string) =>
+      name === "pf_admin" ? { value: "1" } : undefined,
+    );
+    redisMocks.isAnalyticsEnabled.mockReturnValue(true);
+    redisMocks.getHits.mockResolvedValue([]);
+    redisMocks.getUniqueSessionCount.mockResolvedValue(0);
+  });
+
+  it("renders the palette × theme card with bars sorted by count desc", async () => {
+    adminStatsMocks.fetchPaletteStats.mockResolvedValue({
+      counters: {
+        "schwarzgelb::dark": 8,
+        "mountain-navy::light": 3,
+        "woodsy-cabin::dark": 5,
+      },
+      palettes: ["schwarzgelb", "mountain-navy", "woodsy-cabin"],
+      themes: ["dark", "light"],
+      updatedAt: "2026-04-28T10:00:00Z",
+    });
+
+    const tree = await AdminStatsPage({ searchParams: Promise.resolve({}) });
+    render(tree);
+    const card = screen.getByText("Top palette × theme").parentElement!;
+    expect(
+      within(card).getByText("schwarzgelb · dark"),
+    ).toBeInTheDocument();
+    expect(within(card).getByText("8")).toBeInTheDocument();
+    expect(within(card).getByText("woodsy-cabin · dark")).toBeInTheDocument();
+    expect(within(card).getByText(/Updated 2026-04-28/)).toBeInTheDocument();
+  });
+
+  it("shows the no-data placeholder for palette × theme when counters are empty", async () => {
+    adminStatsMocks.fetchPaletteStats.mockResolvedValue({
+      counters: {},
+      palettes: [],
+      themes: [],
+      updatedAt: "",
+    });
+
+    const tree = await AdminStatsPage({ searchParams: Promise.resolve({}) });
+    render(tree);
+    const card = screen.getByText("Top palette × theme").parentElement!;
+    expect(within(card).getByText(/No data yet/)).toBeInTheDocument();
+    expect(within(card).getByText(/api\/track-palette/)).toBeInTheDocument();
+  });
+
+  it("shows the no-data placeholder for search queries by default (privacy)", async () => {
+    adminStatsMocks.getSearchQueryStats.mockResolvedValue([]);
+    const tree = await AdminStatsPage({ searchParams: Promise.resolve({}) });
+    render(tree);
+    const card = screen.getByText("Top search queries").parentElement!;
+    expect(
+      within(card).getByText(/Search queries stay client-side by default/),
+    ).toBeInTheDocument();
+  });
+
+  it("renders search query bars when the log returns rows", async () => {
+    adminStatsMocks.getSearchQueryStats.mockResolvedValue([
+      { key: "react", count: 7 },
+      { key: "next", count: 3 },
+    ]);
+    const tree = await AdminStatsPage({ searchParams: Promise.resolve({}) });
+    render(tree);
+    const card = screen.getByText("Top search queries").parentElement!;
+    expect(within(card).getByText("react")).toBeInTheDocument();
+    expect(within(card).getByText("next")).toBeInTheDocument();
+  });
+
+  it("forwards the env secret + Vercel host to the palette fetcher", async () => {
+    headerStore.get.mockImplementation((name: string) => {
+      if (name === "x-forwarded-proto") return "https";
+      if (name === "x-forwarded-host") return "preview.example.test";
+      return null;
+    });
+
+    await AdminStatsPage({ searchParams: Promise.resolve({}) });
+    expect(adminStatsMocks.fetchPaletteStats).toHaveBeenCalledWith(
+      "https://preview.example.test",
+      "test-secret",
+    );
   });
 });
