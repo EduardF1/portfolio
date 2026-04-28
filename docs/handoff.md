@@ -109,6 +109,12 @@ Will reclaim ~20GB.
 ### Email-blocker protocol
 None triggered this run. Per `feedback_async_email_blocker_protocol.md`, only crucial blockers warrant a 10-min-window email; CI failure on a WIP merge isn't crucial enough.
 
+### Rate-limit stop (2026-04-28 ~02:40 Europe/Copenhagen)
+
+Anthropic message limit hit during the run. Reset at 04:40 Europe/Copenhagen. Background photo agents P1, P4, P5, P10, P14 all returned "You've hit your limit" mid-execution — their outputs may be partial or empty. Treat their NDJSONs as best-effort.
+
+After 04:40, a fresh session can resume from this handoff. All 15 dev PRs (#19–#33) + PR #18 (Round 5 WIP) are pushed and visible on GitHub. PO state is durable.
+
 **15 dev agents in flight (background):**
 
 | # | Agent ID | Branch | Task |
