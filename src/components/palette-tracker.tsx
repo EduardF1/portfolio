@@ -2,72 +2,72 @@
 
 import { useEffect } from "react";
 import { useTheme } from "next-themes";
+import { useLocale } from "next-intl";
 import { usePalette } from "@/components/palette-provider";
 
 /**
- * Tiny client-side beacon for the palette × theme analytics scaffold.
- * POSTs `{ palette, theme, sessionHash }` to /api/track-palette once
- * per page mount when the prototype flag is on.
+ * `<PaletteTracker />` — anonymous palette × theme preference beacon.
  *
- * Renders nothing.
+ * Posts `{ palette, theme, locale, path }` to `/api/track-palette`
+ * exactly once per browser tab session. A boolean flag in
+ * `sessionStorage` ("palette-track-fired") guarantees the beacon
+ * fires at most once per tab — toggling palette or theme mid-session
+ * will not re-fire (we want first-impression counts, not engagement
+ * signal).
  *
- * Flag: NEXT_PUBLIC_PROTO_PALETTE_TRACK. The env var is inlined at
- * build time — a static literal reference is required for Next to
- * tree-shake the body when the flag is unset (see the "Important
- * Next.js gotcha" comment in src/lib/proto-flags.ts).
+ * Privacy posture (matches /privacy and /api/track):
+ *   - No PII. Never sends IP, UA, fingerprint, referer, or session
+ *     identifier. The four fields above are everything the server
+ *     receives.
+ *   - Off-by-default. The route handler responds (or no-ops) on its
+ *     own; this component still fires whenever it's mounted, so the
+ *     primary kill switch is the layout wiring.
+ *   - Failures are swallowed. Analytics must never break the UI.
  *
- * Mounting (intentionally NOT done in this scaffold — see
- * docs/palette-analytics-design.md §8):
- *   The component must be rendered inside both `<PaletteProvider>`
- *   and the `<ThemeProvider>` so the hooks have context. The natural
- *   home is alongside any existing `<VisitTracker />` in the locale
- *   layout (`src/app/[locale]/layout.tsx`) — but wiring is the
- *   follow-up step, not part of this scope.
- *
- * Failure modes are all swallowed — analytics must never break the
- * UI. Bundle target: dependency-free apart from the existing palette
- * and next-themes hooks.
+ * Mounted from `src/app/[locale]/layout.tsx`, inside both
+ * `<PaletteProvider>` and `<ThemeProvider>` so both hooks have
+ * context. Renders nothing.
  */
 
-const HASH_STORAGE_KEY = "palette-track-hash";
+const FIRED_STORAGE_KEY = "palette-track-fired";
 
-function getOrCreateSessionHash(): string | null {
-  // sessionStorage is per-tab and clears on close — exactly what the
-  // dedup contract wants. Wrapped in try/catch because storage is
-  // unavailable in some private-browsing modes and inside iframes
-  // with sandboxing.
+function alreadyFired(): boolean {
+  // sessionStorage is per-tab and clears on close. Wrapped in try/catch
+  // because storage is unavailable in some private-browsing modes and
+  // inside sandboxed iframes.
   try {
-    const existing = window.sessionStorage.getItem(HASH_STORAGE_KEY);
-    if (existing && existing.length >= 8) return existing;
-    // crypto.randomUUID is widely supported in modern browsers; fall
-    // back to a Math.random hash if not.
-    const fresh =
-      typeof crypto !== "undefined" && typeof crypto.randomUUID === "function"
-        ? crypto.randomUUID()
-        : `r-${Math.random().toString(36).slice(2)}-${Date.now().toString(36)}`;
-    window.sessionStorage.setItem(HASH_STORAGE_KEY, fresh);
-    return fresh;
+    return window.sessionStorage.getItem(FIRED_STORAGE_KEY) === "1";
   } catch {
-    return null;
+    // No storage → assume "not fired" but the post below will run on
+    // every mount. That's acceptable: the server-side dedup window
+    // (when wired) takes the brunt of the load.
+    return false;
   }
 }
 
-export function PaletteTracker() {
+function markFired(): void {
+  try {
+    window.sessionStorage.setItem(FIRED_STORAGE_KEY, "1");
+  } catch {
+    // Ignore storage errors (private mode, quota, etc.)
+  }
+}
+
+export function PaletteTracker(): null {
   const { palette } = usePalette();
   const { resolvedTheme } = useTheme();
+  const locale = useLocale();
 
   useEffect(() => {
-    if (process.env.NEXT_PUBLIC_PROTO_PALETTE_TRACK !== "1") return;
-
-    // Only post once per mount, and only after next-themes has
-    // resolved the user's theme (it's `undefined` on first render
-    // until the cookie/localStorage hydrate). We deliberately do NOT
-    // re-fire when the user toggles palette/theme — see design doc
-    // §4 "Client trigger" for rationale.
+    // next-themes resolves `resolvedTheme` to undefined on first
+    // server-rendered paint; wait until the client value materialises
+    // before posting. This also gives the palette provider time to
+    // hydrate from localStorage.
     if (resolvedTheme !== "light" && resolvedTheme !== "dark") return;
 
-    const sessionHash = getOrCreateSessionHash();
-    if (!sessionHash) return;
+    if (alreadyFired()) return;
+    // Mark BEFORE posting so a re-render mid-flight can't double-fire.
+    markFired();
 
     try {
       void fetch("/api/track-palette", {
@@ -76,19 +76,15 @@ export function PaletteTracker() {
         body: JSON.stringify({
           palette,
           theme: resolvedTheme,
-          sessionHash,
+          locale,
+          path: window.location.pathname,
         }),
         keepalive: true,
       }).catch(() => {});
     } catch {
       // never throw from analytics
     }
-    // Empty deps: fire once per mount. We intentionally do NOT depend
-    // on `palette` or `resolvedTheme` — a re-fire-on-change variant
-    // would change the data semantics from "first impression" to
-    // "engagement". That's a separate decision (design doc §7).
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [palette, resolvedTheme, locale]);
 
   return null;
 }

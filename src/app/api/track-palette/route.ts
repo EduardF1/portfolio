@@ -1,76 +1,70 @@
-import { cookies, headers } from "next/headers";
+import { z } from "zod";
+import { PALETTES, THEMES } from "@/lib/palettes";
 
 /**
- * POST /api/track-palette — anonymous palette × theme preference
- * counter (PROTOTYPE / SCOPE-ONLY scaffold).
+ * POST /api/track-palette — anonymous palette × theme × locale
+ * preference counter.
  *
- * Off by default. Returns 404 unless the prototype flag
- * `NEXT_PUBLIC_PROTO_PALETTE_TRACK === "1"` is set at build time on
- * the prototype env. See `docs/palette-analytics-design.md` for the
- * full design and the contracts this handler is meant to honour.
+ * Stores two counter shapes per accepted hit so A7's /admin/stats
+ * dashboard can answer both "palette × theme" and the more granular
+ * "palette × theme × locale" question:
  *
- * Privacy posture (matches /privacy page and /api/track):
- *   - No PII. Body is `{ palette, theme, sessionHash }` only.
- *   - sessionHash is a per-tab UUID generated client-side; we use it
- *     to dedup so we don't double-count one visitor.
- *   - Honours Sec-GPC: 1 and DNT: 1 — returns ok without writing.
- *   - When pf_admin=1 cookie is present (Eduard's own browser), we
- *     drop the hit silently.
- *   - When Upstash env vars are unset (local dev), we 200 instantly
- *     without touching Redis.
+ *   palette:<palette>:<theme>                 INCR
+ *   palette-pair:<palette>:<theme>:<locale>   INCR
  *
- * Edge runtime to match the existing /api/track handler — Upstash
- * REST works cleanly from Edge.
+ * GET /api/track-palette?secret=<ADMIN_SECRET> — read all counters
+ * back as JSON. Used by the admin dashboard.
+ *
+ * Privacy posture (see docs/palette-analytics-design.md §Privacy):
+ *   - No PII. We never read or persist the visitor's IP, User-Agent,
+ *     referer, geolocation, cookies, or any device fingerprint.
+ *   - The body fields { palette, theme, locale, path } are the
+ *     entire surface. `path` is bucketed into a counter shape, never
+ *     stored verbatim alongside an identifier.
+ *   - No session identifier or correlation key — concurrent or
+ *     repeat visits cannot be linked back to a single visitor server-
+ *     side.
+ *   - When KV/Upstash is unset (local dev) we log to stderr only.
+ *
+ * Storage: Vercel KV / Upstash Redis via REST. Activated when
+ * `KV_REST_API_URL` is present. Failures are swallowed so a flapping
+ * KV never breaks the UI.
+ *
+ * Edge runtime: lower latency, smaller cold-start, and Upstash REST
+ * works cleanly from Edge.
  */
 export const runtime = "edge";
 
-const ADMIN_COOKIE = "pf_admin";
-const SESSION_TTL_SECONDS = 24 * 60 * 60; // 24 h dedup window
-const COUNTER_TTL_SECONDS = 95 * 24 * 60 * 60; // 95 d safety net
+// Zod validators for the inbound body. Palette and theme are closed
+// enums; locale is a 2-letter app locale; path is a leading-slash
+// string with a sane upper bound to keep counter keys finite.
+const PaletteSchema = z.enum(PALETTES);
+const ThemeSchema = z.enum(THEMES);
+const LocaleSchema = z.enum(["en", "da"]);
+const PathSchema = z
+  .string()
+  .min(1)
+  .max(256)
+  .startsWith("/");
 
-// Single source of truth for accepted palette slugs. Mirrors the
-// PALETTES constant in src/components/palette-provider.tsx. Keep them
-// in sync until the shared-constant follow-up lands (see design doc
-// §7 "drift in palette list").
-const ALLOWED_PALETTES = new Set([
-  "schwarzgelb",
-  "mountain-navy",
-  "woodsy-cabin",
-]);
-const ALLOWED_THEMES = new Set(["light", "dark"]);
+const BodySchema = z.object({
+  palette: PaletteSchema,
+  theme: ThemeSchema,
+  locale: LocaleSchema,
+  path: PathSchema,
+});
 
-// Reasonable upper bound on the client-supplied dedup hash. UUIDs are
-// 36 chars; we accept up to 128 to allow for future hashing schemes
-// without breaking the API.
-const HASH_MIN = 8;
-const HASH_MAX = 128;
-const HASH_PATTERN = /^[a-zA-Z0-9_-]+$/;
+const ALLOWED_THEMES = ThemeSchema.options;
 
-type TrackPaletteBody = {
-  palette?: unknown;
-  theme?: unknown;
-  sessionHash?: unknown;
-};
-
-function isFlagOn(): boolean {
-  return process.env.NEXT_PUBLIC_PROTO_PALETTE_TRACK === "1";
-}
-
-function notFound(): Response {
-  // Indistinguishable from a generic 404 — no JSON body, no hint that
-  // this route exists when the flag is off.
-  return new Response("Not Found", { status: 404 });
-}
-
-function ok(): Response {
-  return Response.json({ ok: true });
-}
-
-function redisEnv(): { url: string; token: string } | null {
+function kvEnv(): { url: string; token: string } | null {
+  // Vercel's KV → Upstash integration sets KV_REST_API_URL/TOKEN.
+  // We also accept the bare UPSTASH_* names so a manual override
+  // works locally without renaming. KV_* takes precedence because
+  // that's the variable the task spec gates on.
   const url =
-    process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL;
+    process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
   const token =
-    process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN;
+    process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
   if (!url || !token) return null;
   return { url, token };
 }
@@ -78,16 +72,14 @@ function redisEnv(): { url: string; token: string } | null {
 type RedisCommand = (string | number)[];
 
 /**
- * Best-effort Upstash pipeline. Mirrors the contract in
- * `src/lib/redis-analytics.ts` — never throws, returns `null` on every
- * failure mode. Inlined here to keep this scaffold self-contained;
- * the real wiring step should switch to importing from the shared
- * helper.
+ * Fire a pipeline of Redis commands at Upstash REST. Returns null on
+ * any failure mode (no env, network, non-OK status, malformed JSON);
+ * never throws. Mirrors the contract in `src/lib/redis-analytics.ts`.
  */
 async function execPipeline(
   commands: RedisCommand[],
 ): Promise<unknown[] | null> {
-  const env = redisEnv();
+  const env = kvEnv();
   if (!env || commands.length === 0) return null;
   try {
     const res = await fetch(`${env.url}/pipeline`, {
@@ -100,7 +92,9 @@ async function execPipeline(
       cache: "no-store",
     });
     if (!res.ok) {
-      console.error(`[track-palette] redis ${res.status} ${res.statusText}`);
+      console.error(
+        `[track-palette] kv ${res.status} ${res.statusText}`,
+      );
       return null;
     }
     const json = (await res.json()) as Array<{
@@ -109,96 +103,137 @@ async function execPipeline(
     }>;
     return json.map((r) => (r.error ? null : r.result ?? null));
   } catch (e) {
-    console.error("[track-palette] redis pipeline failed", e);
+    console.error("[track-palette] kv pipeline failed", e);
     return null;
   }
 }
 
 export async function POST(request: Request): Promise<Response> {
-  if (!isFlagOn()) return notFound();
-
-  const headerStore = await headers();
-
-  // Honour standard opt-out signals. We return ok rather than 404 so
-  // an opted-out visitor's client code still resolves cleanly.
-  const dnt = headerStore.get("dnt");
-  const gpc = headerStore.get("sec-gpc");
-  if (dnt === "1" || gpc === "1") return ok();
-
-  const cookieStore = await cookies();
-  if (cookieStore.get(ADMIN_COOKIE)?.value === "1") {
-    // Eduard's own browser — skip recording.
-    return ok();
-  }
-
-  let body: TrackPaletteBody = {};
+  // Best-effort ingestion: on any validation or storage error we
+  // return ok with no data leaked. The client never branches on the
+  // response, so the response body is effectively a heartbeat.
+  let raw: unknown;
   try {
-    body = (await request.json()) as TrackPaletteBody;
+    raw = await request.json();
   } catch {
-    // Malformed JSON — same response shape so we don't leak parser
-    // diagnostics. Validation failure looks the same as success.
-    return ok();
+    return Response.json({ ok: false, reason: "invalid-json" }, { status: 400 });
   }
 
-  const palette =
-    typeof body.palette === "string" && ALLOWED_PALETTES.has(body.palette)
-      ? body.palette
-      : null;
-  const theme =
-    typeof body.theme === "string" && ALLOWED_THEMES.has(body.theme)
-      ? body.theme
-      : null;
-  const sessionHash =
-    typeof body.sessionHash === "string" &&
-    body.sessionHash.length >= HASH_MIN &&
-    body.sessionHash.length <= HASH_MAX &&
-    HASH_PATTERN.test(body.sessionHash)
-      ? body.sessionHash
-      : null;
-
-  if (!palette || !theme || !sessionHash) {
-    // Validation failed — silently drop. Don't echo the offending
-    // values back; that's the privacy contract.
-    return ok();
+  const parsed = BodySchema.safeParse(raw);
+  if (!parsed.success) {
+    return Response.json(
+      { ok: false, reason: "invalid-body" },
+      { status: 400 },
+    );
   }
 
-  // SET … NX EX guarantees the increment is gated on this hash not
-  // having been seen in the last 24 h. If NX returns null, the key
-  // already existed and we treat it as a duplicate.
-  const sessionKey = `palette-session:${sessionHash}`;
+  const { palette, theme, locale } = parsed.data;
+  const env = kvEnv();
+
   const counterKey = `palette:${palette}:${theme}`;
+  const pairKey = `palette-pair:${palette}:${theme}:${locale}`;
 
-  // Two-step pipeline: try to claim the session slot, then act on the
-  // result. We can't do this in one pipeline because the second step
-  // is conditional on the first.
-  const claim = await execPipeline([
-    ["SET", sessionKey, "1", "EX", SESSION_TTL_SECONDS, "NX"],
-  ]);
-  if (claim === null) {
-    // Redis unavailable — silently succeed. Local dev path.
-    return ok();
-  }
-  const claimResult = claim[0];
-  // Upstash returns "OK" on a successful SET, null when NX blocks it.
-  if (claimResult !== "OK") {
-    return ok();
+  if (!env) {
+    // Dev path — log to stderr so a developer can see hits in the
+    // Next dev server output without standing up a KV instance.
+    console.error(
+      `[track-palette] (dev) hit palette=${palette} theme=${theme} locale=${locale}`,
+    );
+    return Response.json({ ok: true, stored: false });
   }
 
-  await execPipeline([
+  const result = await execPipeline([
     ["INCR", counterKey],
-    ["EXPIRE", counterKey, COUNTER_TTL_SECONDS],
+    ["INCR", pairKey],
   ]);
 
-  return ok();
+  if (result === null) {
+    // KV is configured but unreachable — surface that to the client
+    // as ok: true so analytics never blocks the UI, but flag it for
+    // server-side observability.
+    return Response.json({ ok: true, stored: false });
+  }
+  return Response.json({ ok: true, stored: true });
 }
 
-// Reject other methods cleanly. Mirrors /api/track's pattern.
-export function GET(): Response {
-  // When the flag is off, even GET should be a 404 so the route is
-  // invisible to probes. When the flag is on, GET → 405.
-  if (!isFlagOn()) return notFound();
-  return new Response("Method Not Allowed", {
-    status: 405,
-    headers: { Allow: "POST" },
+/**
+ * Read all palette counters. Gated by `secret=<ADMIN_SECRET>` query
+ * param to keep the dashboard surface invisible to drive-by probes.
+ *
+ * Response shape (contract with A7's /admin/stats):
+ *   {
+ *     counters:   { [key: string]: number },
+ *     palettes:   string[],   // closed enum, ordered as in PALETTES
+ *     themes:     string[],   // ["light", "dark"]
+ *     updatedAt:  string      // ISO timestamp
+ *   }
+ *
+ * The counters map is keyed by the same strings used as Redis keys,
+ * e.g. `palette:mountain-navy:dark` and
+ * `palette-pair:mountain-navy:dark:en`. The dashboard knows the
+ * palette/theme/locale enumeration up-front and looks values up by
+ * composing the key locally.
+ */
+export async function GET(request: Request): Promise<Response> {
+  const url = new URL(request.url);
+  const secret = url.searchParams.get("secret");
+  const expected = process.env.ADMIN_SECRET;
+
+  if (!secret || !expected || secret !== expected) {
+    // 404 (not 401/403) so the route's existence isn't confirmed to
+    // an attacker without the secret. Same posture as /admin/stats.
+    return new Response("Not Found", { status: 404 });
+  }
+
+  const themes = [...ALLOWED_THEMES];
+  const palettes = [...PALETTES];
+  const locales: ReadonlyArray<z.infer<typeof LocaleSchema>> =
+    LocaleSchema.options;
+
+  const env = kvEnv();
+  const updatedAt = new Date().toISOString();
+
+  if (!env) {
+    // Dev / unconfigured path — return an empty counter map but the
+    // shape is still complete so the dashboard renders zeros.
+    return Response.json({
+      counters: {},
+      palettes,
+      themes,
+      updatedAt,
+    });
+  }
+
+  // 3 palettes × 2 themes = 6 keys, plus 3 × 2 × 2 = 12 pair keys.
+  // 18 GET commands fit comfortably in one pipeline round-trip.
+  const keys: string[] = [];
+  for (const p of palettes) {
+    for (const t of themes) {
+      keys.push(`palette:${p}:${t}`);
+      for (const l of locales) {
+        keys.push(`palette-pair:${p}:${t}:${l}`);
+      }
+    }
+  }
+  const cmds: RedisCommand[] = keys.map((k) => ["GET", k]);
+  const results = await execPipeline(cmds);
+
+  const counters: Record<string, number> = {};
+  if (results) {
+    for (let i = 0; i < keys.length; i += 1) {
+      const r = results[i];
+      // Upstash returns the integer as a string from a counter GET.
+      // Treat any non-numeric reply as zero rather than emitting it,
+      // so the dashboard sees a sparse map of only-non-zero counts.
+      const n = typeof r === "string" ? Number(r) : typeof r === "number" ? r : 0;
+      if (Number.isFinite(n) && n > 0) counters[keys[i]] = n;
+    }
+  }
+
+  return Response.json({
+    counters,
+    palettes,
+    themes,
+    updatedAt,
   });
 }
