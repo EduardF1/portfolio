@@ -4,12 +4,69 @@
 
 ## Round 6 — autonomous night run (2026-04-28 → 2026-04-29)
 
-Eduard went to sleep instructing autonomous run until token exhaustion. PO must:
-- Triage uncommitted Round 5 WIP on `feat/v1-polish-round4` (current branch) → commit + push + merge to main so A11/A12 can find their audit docs.
-- Review + merge each Round 6 agent PR as they complete.
-- Consolidate photo-classification proposals (P1–P5) into `docs/photo-classification-plan.md`.
-- Email Eduard at fischer_eduard@yahoo.com via Yahoo MCP for crucial blockers (10-min reply window per `feedback_async_email_blocker_protocol.md`).
-- Keep this handoff updated so a fresh session can resume.
+Eduard went to sleep instructing autonomous run until token exhaustion.
+
+### Status snapshot (last updated mid-run)
+
+**PR #18 — Round 5 WIP land (`feat/v1-polish-round4` → `main`)**: 349 files committed (`a166cf1` + lock fix `dc70279`), pushed, PR open, **CI failing** at lint/typecheck/unit/build step on `npm run test:coverage`. Failure: 100+ tests calling `useTranslations` from next-intl without a `NextIntlClientProvider` wrap (ThemeToggle, PhotoLightbox, others). A3 confirmed these failures pre-exist on `origin/main` — they slip past `npm run test` somehow but `test:coverage` surfaces them. **Next-session priority**: fix the test-setup so PR #18 can merge — likely add a global `NextIntlClientProvider` wrapper to `vitest.setup.ts`, or fix individual tests to wrap their components, or temporarily downgrade the threshold gate.
+
+**11 of 15 dev agents complete + pushed + PR'd** (PRs against `main`):
+
+| # | Branch | PR | Status | Notes |
+|---|---|---|---|---|
+| A1 | feat/v1-round6-per-trip-pages | #29 | done | 3 commits; gap-based clustering refactor + deep-links + OG/twitter-image |
+| A2 | feat/v1-round6-travel-heatmap | #19 | done | Destinations↔Intensity chloropleth toggle on /travel |
+| A3 | feat/v1-round6-palette-analytics | #27 | done | Edge route + tracker beacon + sparse-counter KV |
+| A4 | feat/v1-round6-visit-notify-cron | #20 | done | Cron + IP-hashed visit tracker; **needs Eduard env vars** (NEXT_PUBLIC_PROTO_VISIT_DIGEST=1, CRON_SECRET, DAILY_SALT, RESEND_API_KEY) |
+| A6 | feat/v1-round6-mdx-shiki | #26 | done | rehype-pretty-code + Shiki dual-theme; zero client bundle impact |
+| A7 | feat/v1-round6-admin-stats | #21 | done | Palette + search-query cards on /admin/stats; kept cookie auth |
+| A8 | feat/v1-round6-chip-demo-links | #25 | done | tech-demos.json built (15 langs / 27 demos); CSS popover badge |
+| A9 | feat/v1-round6-contrast-pass | #22 | done | WCAG AA across 3 palettes light; Schwarzgelb at 3:1 AA-large + always-underlined links |
+| A10 | feat/v1-round6-contact-attach | #23 | done | PDF≤5MB; **Vercel 4.5MB body cap** flagged — drop to 4MB OR build separate upload route |
+| A12 | feat/v1-round6-tablet-fixes | #28 | done | Hero/About/Personal/Contact viewport→@container; 1024 + 1366 Playwright projects |
+| A14 | feat/v1-round6-proto-motion | #24 | done | Animated dividers + scroll-bg + parallax behind 3 PROTO flags |
+
+**Still running (4 dev agents):**
+- A5 (`feat/v1-round6-coverage-tighten`): coverage tightening; agent ID `ad539e5c76ab943f4`
+- A11 (`feat/v1-round6-safari-fixes`): Safari/Webkit per A22 audit; agent `a88c0c4c1aa752253`. **A22 audit doc not on main yet** (in PR #18) — A11 may exit cleanly with a blocker if it can't find the doc.
+- A13 (`feat/v1-round6-pdf-cv`): PDF resume from MDX via react-pdf; agent `a6e985b4016210002`
+- A15 (`feat/v1-round6-test-hardening`): live IMAP MCP assertion + visual regression baselines + R5 verifies; agent `ad7a2d1afb38d130a`
+
+### Photo-classification reports landed
+
+Outputs in `scripts/.photo-classify/P*/`. Still NOT committed (waiting for consolidation + Eduard review).
+
+| Agent | Slice | Done | Output highlight |
+|---|---|---|---|
+| P1 | EXIF ≤2017 | report written | check P1/proposal.md for top-20 candidates |
+| P2 | 2018-2020 | partial — agent stalled in monitor-wait | NDJSON may be incomplete |
+| P3 | 2021-2022 | report written | |
+| P4 | 2023-2024 | report written | |
+| P5 | 2025-2026 + undated | report written | |
+| P6 | stock-photo audit | done | 49 stock photos audited, 9 Replace recs, 0 location mismatches; doc-drift: photo-attributions.md says 50 but disk has 49 |
+| P8 | G:\ perceptual dedup | partial — agent stalled | NDJSON may be incomplete |
+| P11 | GPS cluster validation | done | 87.8% match, 23 mismatches all in `2026-03-balkans-roadtrip/` (Italy/Germany/Austria transit legs) |
+| P12 | burst detection | done | 94 bursts, 379 demote candidates; **caveat**: pexels stocks cluster as "bursts" by mtime artifact |
+| P13 | sensitive content sweep | done | **CRITICAL**: 15 sensitive folders on G:\ (Netcompany NDA backup, Important Documents, Whatsapp, Citizenship); 6+2 on D:\\Portfolio; only safe source roots are `G:\Poze` + `D:\Portfolio\poze`. Recommended new §6.1 source-folder allowlist for `docs/photo-organization.md`. |
+| P14 | EXIF camera fingerprinting | report written | |
+
+**Still running photo agents**: P7 (D:\Portfolio comprehensive), P9 (best-of shortlist), P10 (per-slot recommendations).
+
+### Disk-space warning
+Multiple agents reported disk pressure. `scripts/.tmp-exif/` was 19GB before being .gitignored; agent worktrees each carry ~700MB node_modules; A12 saw 3GB free at one point. Watch G:\ + C:\ free space in next session — purge old agent worktrees if needed (`git worktree remove --force <path>`).
+
+### Next-session priorities (in order)
+1. **Fix CI** on PR #18 — wrap useTranslations callers in NextIntlClientProvider in vitest.setup.ts (or downgrade threshold). Then merge PR #18 to land Round 5 WIP on main.
+2. **Apply P13 privacy recommendations to docs/photo-organization.md** — add §6.1 source-folder allowlist before any G:\ / D:\Portfolio import.
+3. **Triage 11 Round 6 PRs** (#19-#29). Most are independent; A7 + A3 should land together for /admin/stats palette tile to populate.
+4. **A4 visit-notify cron** — set Vercel env vars before merge OR merge dark.
+5. **A10 contact-form** — decide on 4MB vs separate upload route for PDF ceiling.
+6. **Photo classification consolidation** — merge per-slice NDJSON, write `docs/photo-classification-plan.md`, propose moves with Eduard approval.
+7. **Re-run P2 + P8** if their outputs are unusable.
+8. **Lock files cleanup** — if more `npm install` happens, recommit lock alongside package.json.
+
+### Email-blocker protocol
+None triggered this run. Per `feedback_async_email_blocker_protocol.md`, only crucial blockers warrant a 10-min-window email; CI failure on a WIP merge isn't crucial enough.
 
 **15 dev agents in flight (background):**
 
