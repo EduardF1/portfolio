@@ -22,12 +22,22 @@
 const isOn = (value: string | undefined): boolean => value === "1";
 
 export const protoFlags = {
-  videoBackgroundFullBleed: isOn(process.env.NEXT_PUBLIC_PROTO_VIDEO_BG_FULL_BLEED),
-  sideSectionVideos: isOn(process.env.NEXT_PUBLIC_PROTO_SIDE_SECTION_VIDEOS),
-  animatedDividers: isOn(process.env.NEXT_PUBLIC_PROTO_ANIMATED_DIVIDERS),
-  scrollDrivenBackgrounds: isOn(process.env.NEXT_PUBLIC_PROTO_SCROLL_BG),
-  stickyParallaxCards: isOn(process.env.NEXT_PUBLIC_PROTO_PARALLAX_CARDS),
-} as const;
+  get videoBackgroundFullBleed(): boolean {
+    return isOn(process.env.NEXT_PUBLIC_PROTO_VIDEO_BG_FULL_BLEED);
+  },
+  get sideSectionVideos(): boolean {
+    return isOn(process.env.NEXT_PUBLIC_PROTO_SIDE_SECTION_VIDEOS);
+  },
+  get animatedDividers(): boolean {
+    return isOn(process.env.NEXT_PUBLIC_PROTO_ANIMATED_DIVIDERS);
+  },
+  get scrollDrivenBackgrounds(): boolean {
+    return isOn(process.env.NEXT_PUBLIC_PROTO_SCROLL_BG);
+  },
+  get stickyParallaxCards(): boolean {
+    return isOn(process.env.NEXT_PUBLIC_PROTO_PARALLAX_CARDS);
+  },
+};
 
 export type ProtoFlag = keyof typeof protoFlags;
 
