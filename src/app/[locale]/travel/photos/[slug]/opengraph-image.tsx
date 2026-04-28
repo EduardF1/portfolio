@@ -4,6 +4,8 @@ import { getTrip } from "@/lib/trips";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export const alt = "Trip, Eduard Fischer-Szava";
+// `nodejs` runtime so the route handler can read the on-disk catalogue
+// via `getTrip` (the edge runtime forbids `node:fs`).
 export const runtime = "nodejs";
 
 export default async function TripPhotosOGImage({
@@ -33,10 +35,10 @@ export default async function TripPhotosOGImage({
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "80px 96px",
-          backgroundColor: "#0F1A1F",
+          backgroundColor: "#FAF9F5",
           backgroundImage:
-            "radial-gradient(circle at 70% 30%, rgba(8,145,178,0.45) 0%, rgba(15,26,31,0) 55%), linear-gradient(180deg, #0F1A1F 0%, #1a2a32 100%)",
-          color: "#F2EEE3",
+            "linear-gradient(135deg, #FAF9F5 0%, #F2EAD6 100%)",
+          color: "#1F1B16",
           fontFamily: "Georgia, serif",
         }}
       >
@@ -49,7 +51,7 @@ export default async function TripPhotosOGImage({
             letterSpacing: 6,
             textTransform: "uppercase",
             fontFamily: "system-ui, sans-serif",
-            color: "rgba(242,238,227,0.75)",
+            color: "rgba(31,27,22,0.7)",
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
@@ -71,7 +73,7 @@ export default async function TripPhotosOGImage({
             </div>
             <span>EduardFischer.dev</span>
           </div>
-          <span style={{ color: "#22D3EE" }}>Trip</span>
+          <span style={{ color: "#C25D3F" }}>Trip</span>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
@@ -92,7 +94,7 @@ export default async function TripPhotosOGImage({
                 letterSpacing: 4,
                 textTransform: "uppercase",
                 fontFamily: "system-ui, sans-serif",
-                color: "rgba(242,238,227,0.85)",
+                color: "rgba(31,27,22,0.78)",
               }}
             >
               {placeline}
@@ -105,7 +107,7 @@ export default async function TripPhotosOGImage({
                 letterSpacing: 4,
                 textTransform: "uppercase",
                 fontFamily: "system-ui, sans-serif",
-                color: "rgba(34,211,238,0.85)",
+                color: "#C25D3F",
               }}
             >
               {photoLine}
@@ -122,7 +124,7 @@ export default async function TripPhotosOGImage({
             letterSpacing: 4,
             textTransform: "uppercase",
             fontFamily: "system-ui, sans-serif",
-            color: "rgba(242,238,227,0.65)",
+            color: "rgba(31,27,22,0.65)",
           }}
         >
           <span>Eduard Fischer-Szava · Aarhus</span>
