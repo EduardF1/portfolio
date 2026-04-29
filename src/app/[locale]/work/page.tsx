@@ -8,7 +8,10 @@ import { getRepos } from "@/lib/github";
 import { findTech } from "@/lib/tech";
 import { responsiveGridColsClass } from "@/lib/grid-cols";
 
-export const metadata = { title: "Work" };
+export const metadata = {
+  title: "Work",
+  alternates: { canonical: "/work" },
+};
 
 // Case-study titles + kickers stay in source: titles are proper nouns, kickers
 // are company + year ranges (also proper-noun adjacent). Only the blurbs go
