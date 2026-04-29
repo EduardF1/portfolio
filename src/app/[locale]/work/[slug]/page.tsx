@@ -26,6 +26,7 @@ export async function generateMetadata({
     description:
       (item.frontmatter.summary as string | undefined) ??
       item.frontmatter.description,
+    alternates: { canonical: `/work/${slug}` },
   };
 }
 

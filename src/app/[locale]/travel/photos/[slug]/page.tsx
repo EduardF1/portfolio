@@ -23,6 +23,9 @@ export async function generateMetadata({
   return {
     title: `${where}, ${trip.monthLabel}`,
     description: `${trip.photoCount} photo${trip.photoCount === 1 ? "" : "s"} from ${trip.country}, ${trip.dateRange}.`,
+    // Per-route canonical so each trip page advertises itself rather
+    // than inheriting the layout's `/` canonical (Lighthouse SEO win).
+    alternates: { canonical: `/travel/photos/${slug}` },
   };
 }
 

@@ -5,7 +5,10 @@ import { getCollection } from "@/lib/content";
 import { formatDate } from "@/lib/format";
 import { responsiveGridColsClass } from "@/lib/grid-cols";
 
-export const metadata = { title: "Culinary" };
+export const metadata = {
+  title: "Culinary",
+  alternates: { canonical: "/travel/culinary" },
+};
 
 export default async function CulinaryPage({
   params,

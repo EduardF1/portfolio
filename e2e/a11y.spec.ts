@@ -18,6 +18,12 @@ const ROUTES = [
   "/recommends",
   "/personal",
   "/travel",
+  // V1 audit (qa/v1-perf-a11y-audit): cover the per-trip photo pages
+  // — they ship the largest <Image> grids on the site so any new
+  // alt-text / heading / contrast regression shows up here first.
+  "/travel/photos/germany-2022-10",
+  "/travel/photos/romania-2024-06",
+  "/travel/photos/united-kingdom-2023-07",
   "/now",
   "/contact",
 ] as const;

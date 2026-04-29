@@ -1,0 +1,6 @@
+{
+  "route": "/contact",
+  "slug": "contact",
+  "url": "http://localhost:3100/contact",
+  "violations": []
+}

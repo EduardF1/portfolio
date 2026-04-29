@@ -9,7 +9,10 @@ import { formatDate } from "@/lib/format";
 import { responsiveGridColsClass } from "@/lib/grid-cols";
 import { parallaxCardsEnabled } from "@/lib/proto-flags";
 
-export const metadata = { title: "Recommends" };
+export const metadata = {
+  title: "Recommends",
+  alternates: { canonical: "/recommends" },
+};
 
 export default async function RecommendsPage() {
   const items = await getCollection("recommends");
