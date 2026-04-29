@@ -1964,6 +1964,256 @@
     }
   },
   {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-aerial-cityscape-17291320.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/cityscape-of-tel-aviv-17291320/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-beach-skyscrapers-18837990.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aviv-beach-with-the-view-of-skyscrapers-tel-aviv-israel-18837990/",
+      "photographer": "Solomonik Vik",
+      "photographerUrl": "https://www.pexels.com/@solomonikvik/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-skyline-mediterranean-5028008.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/city-skyline-across-the-ocean-5028008/",
+      "photographer": "Yeshaya Dinerstein",
+      "photographerUrl": "https://www.pexels.com/@yeshaya-dinerstein-683189/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-beachfront-sunny-35916174.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-tel-aviv-beachfront-on-a-sunny-day-35916174/",
+      "photographer": "Samar L",
+      "photographerUrl": "https://www.pexels.com/@samar-l-525068134/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-promenade-mediterranean-35916202.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/bicycle-on-tel-aviv-promenade-overlooking-mediterranean-35916202/",
+      "photographer": "Samar L",
+      "photographerUrl": "https://www.pexels.com/@samar-l-525068134/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-train-station-aerial-30499936.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-train-station-and-parking-lot-in-petah-tikva-30499936/",
+      "photographer": "Samir Smier",
+      "photographerUrl": "https://www.pexels.com/@samir-smier-314916757/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-rail-system-aerial-30108617.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-rail-system-in-petah-tikva-israel-30108617/",
+      "photographer": "Samir Smier",
+      "photographerUrl": "https://www.pexels.com/@samir-smier-314916757/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-suburb-skyline-17291329.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/buildings-near-park-in-haifa-in-israel-17291329/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-tramway-modern-building-12286815.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/tramway-and-buildings-in-city-12286815/",
+      "photographer": "Aysegul Aytoren",
+      "photographerUrl": "https://www.pexels.com/@aysegul-aytoren-46790226/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-coastal-suburbs-17291324.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/sea-coast-in-tel-aviv-17291324/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2018-03-israel/IMG_20180324_114159.jpg",
     "takenAt": "2018-03-24T11:42:02Z",
     "hasGps": true,
@@ -2214,6 +2464,256 @@
     }
   },
   {
+    "src": "trips/2018-03-israel/pexels-haifa-bahai-gardens-panorama-18223881.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/bahai-garden-haifa-in-israel-18223881/",
+      "photographer": "Sunbeam",
+      "photographerUrl": "https://www.pexels.com/@sunbeam-114409506/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-bahai-gardens-cityscape-17291338.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/green-gardens-in-cityscape-17291338/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-bahai-port-aerial-17291340.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/drone-shot-of-haifa-in-israel-17291340/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-hilltop-cityview-27638436.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/the-view-of-the-city-from-a-hilltop-27638436/",
+      "photographer": "Haim Charbit",
+      "photographerUrl": "https://www.pexels.com/@haim-charbit-46102840/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-harbor-twilight-34793422.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-haifa-harbor-at-twilight-34793422/",
+      "photographer": "Regan D'Souza",
+      "photographerUrl": "https://www.pexels.com/@regan-dsouza-1315522347/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-old-city-aerial-25947277.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/view-of-jerusalem-25947277/",
+      "photographer": "Zeev Hazenfratz",
+      "photographerUrl": "https://www.pexels.com/@zeev-hazenfratz-1636750/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-dome-of-the-rock-sunset-18013977.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/dome-of-the-rock-18013977/",
+      "photographer": "Ayse",
+      "photographerUrl": "https://www.pexels.com/@ayse-58498816/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-dome-of-the-rock-arches-11696743.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historical-places-in-jerusalem-11696743/",
+      "photographer": "Yasir Gurbuz",
+      "photographerUrl": "https://www.pexels.com/@yasirgurbuz/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-walled-old-city-27358635.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/the-city-of-jerusalem-is-seen-from-above-27358635/",
+      "photographer": "Solomonik Vik",
+      "photographerUrl": "https://www.pexels.com/@solomonikvik/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-mary-magdalene-domes-17814829.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/church-of-mary-magdalene-in-jerusalem-17814829/",
+      "photographer": "Andromeda99",
+      "photographerUrl": "https://www.pexels.com/@andromeda99/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2018-04-sweden/IMG_20180408_194257.jpg",
     "takenAt": "2018-04-08T19:42:58Z",
     "hasGps": true,
@@ -2374,6 +2874,81 @@
       "url": "https://www.pexels.com/photo/36941452/",
       "photographer": "Bahri Gun",
       "photographerUrl": "https://www.pexels.com/@bahri-gun/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-01-romania/pexels-covasna-rimetea-village-mountains-35684347.jpg",
+    "takenAt": "2019-01-12T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8506,
+      "lon": 26.185
+    },
+    "place": {
+      "city": "Covasna",
+      "country": "Romania",
+      "display": "Covasna, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/35684347/",
+      "photographer": "Madalina Brandasiu",
+      "photographerUrl": "https://www.pexels.com/@madalina-brandasiu-2149502434/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-01-romania/pexels-covasna-sheep-snowcapped-peaks-30735312.jpg",
+    "takenAt": "2019-01-12T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8506,
+      "lon": 26.185
+    },
+    "place": {
+      "city": "Covasna",
+      "country": "Romania",
+      "display": "Covasna, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/30735312/",
+      "photographer": "Ábrahám Szilárd",
+      "photographerUrl": "https://www.pexels.com/@abraham-szilard-2149600427/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-01-romania/pexels-covasna-toplita-snow-village-dusk-19264990.jpg",
+    "takenAt": "2019-01-12T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8506,
+      "lon": 26.185
+    },
+    "place": {
+      "city": "Covasna",
+      "country": "Romania",
+      "display": "Covasna, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/19264990/",
+      "photographer": "Denis Zagorodniuc",
+      "photographerUrl": "https://www.pexels.com/@imdennyz/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
@@ -5288,6 +5863,131 @@
     }
   },
   {
+    "src": "trips/2023-07-uk-tour/pexels-london-eye-dusk-thames-33419289.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-the-london-eye-at-dusk-33419289/",
+      "photographer": "Shambadatta",
+      "photographerUrl": "https://www.pexels.com/@shambadatta/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-tower-of-london-fortress-30483647.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/tower-of-london-with-historic-architecture-30483647/",
+      "photographer": "Tom Hermans",
+      "photographerUrl": "https://www.pexels.com/@tom-hermans-2148380566/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-dungeon-themed-historic-crypt-33939371.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-brick-crypt-architecture-with-vaulted-ceilings-33939371/",
+      "photographer": "Anna Rynkowska",
+      "photographerUrl": "https://www.pexels.com/@anna-rynkowska/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-tussauds-themed-wax-sculpture-16035584.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/wax-sculpture-in-a-museum-16035584/",
+      "photographer": "Aysenaz Bilgin",
+      "photographerUrl": "https://www.pexels.com/@aysenaz-bilgin-421884106/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-imperial-war-museum-cannons-34855089.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/imperial-war-museum-front-view-with-cannons-34855089/",
+      "photographer": "Patricio",
+      "photographerUrl": "https://www.pexels.com/@patricio/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2023-07-uk-tour/pexels-oxford-radcliffe-camera-aerial-1796720.jpg",
     "takenAt": "2023-07-09T12:00:00Z",
     "hasGps": true,
@@ -7468,6 +8168,881 @@
       "url": "https://www.pexels.com/photo/10811603/",
       "photographer": "Fii Pefaza",
       "photographerUrl": "https://www.pexels.com/@fii-pefaza/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-pitesti-curtea-de-arges-monastery-30621326.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.8606,
+      "lon": 24.8678
+    },
+    "place": {
+      "city": "Pitești",
+      "country": "Romania",
+      "display": "Pitești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/30621326/",
+      "photographer": "Design Diva",
+      "photographerUrl": "https://www.pexels.com/@designdiva/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-pitesti-orthodox-church-domes-5178441.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.8606,
+      "lon": 24.8678
+    },
+    "place": {
+      "city": "Pitești",
+      "country": "Romania",
+      "display": "Pitești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/5178441/",
+      "photographer": "Diana ✨",
+      "photographerUrl": "https://www.pexels.com/@didsss/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-pitesti-cathedral-interior-dome-2757830.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.8606,
+      "lon": 24.8678
+    },
+    "place": {
+      "city": "Pitești",
+      "country": "Romania",
+      "display": "Pitești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/2757830/",
+      "photographer": "Diana ✨",
+      "photographerUrl": "https://www.pexels.com/@didsss/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-pitesti-romanian-village-house-17010860.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.8606,
+      "lon": 24.8678
+    },
+    "place": {
+      "city": "Pitești",
+      "country": "Romania",
+      "display": "Pitești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/17010860/",
+      "photographer": "Lucian Lungu",
+      "photographerUrl": "https://www.pexels.com/@lucian-lungu-580910624/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-pitesti-village-church-tower-33402114.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.8606,
+      "lon": 24.8678
+    },
+    "place": {
+      "city": "Pitești",
+      "country": "Romania",
+      "display": "Pitești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/33402114/",
+      "photographer": "Christopher Politano",
+      "photographerUrl": "https://www.pexels.com/@christopher-politano-978995/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-ploiesti-sinaia-peles-aerial-forest-17853892.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.9408,
+      "lon": 26.0103
+    },
+    "place": {
+      "city": "Ploiești",
+      "country": "Romania",
+      "display": "Ploiești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/17853892/",
+      "photographer": "Dan Voican",
+      "photographerUrl": "https://www.pexels.com/@dan-voican-2624103/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-ploiesti-sinaia-peles-greenery-aerial-17853910.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.9408,
+      "lon": 26.0103
+    },
+    "place": {
+      "city": "Ploiești",
+      "country": "Romania",
+      "display": "Ploiești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/17853910/",
+      "photographer": "Dan Voican",
+      "photographerUrl": "https://www.pexels.com/@dan-voican-2624103/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-ploiesti-sinaia-peles-summer-forest-17853891.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.9408,
+      "lon": 26.0103
+    },
+    "place": {
+      "city": "Ploiești",
+      "country": "Romania",
+      "display": "Ploiești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/17853891/",
+      "photographer": "Dan Voican",
+      "photographerUrl": "https://www.pexels.com/@dan-voican-2624103/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-ploiesti-sinaia-winter-trees-13222849.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.9408,
+      "lon": 26.0103
+    },
+    "place": {
+      "city": "Ploiești",
+      "country": "Romania",
+      "display": "Ploiești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/13222849/",
+      "photographer": "Javier Linares",
+      "photographerUrl": "https://www.pexels.com/@javier-linares-293447137/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-ploiesti-sinaia-peles-neorenaissance-facade-14061226.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.9408,
+      "lon": 26.0103
+    },
+    "place": {
+      "city": "Ploiești",
+      "country": "Romania",
+      "display": "Ploiești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/14061226/",
+      "photographer": "Princess Ara Versabal",
+      "photographerUrl": "https://www.pexels.com/@princess-ara-versabal-3110140/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-craiova-madona-dudu-brancovenesc-church-25450652.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.3302,
+      "lon": 23.7949
+    },
+    "place": {
+      "city": "Craiova",
+      "country": "Romania",
+      "display": "Craiova, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/25450652/",
+      "photographer": "Ayan Pasol",
+      "photographerUrl": "https://www.pexels.com/@ayan-pasol-1340587356/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-craiova-winter-market-snow-12265682.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.3302,
+      "lon": 23.7949
+    },
+    "place": {
+      "city": "Craiova",
+      "country": "Romania",
+      "display": "Craiova, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/12265682/",
+      "photographer": "Cristina Tiris",
+      "photographerUrl": "https://www.pexels.com/@cristina-tiris-225421306/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-craiova-oltenia-orthodox-monastery-river-28113005.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.3302,
+      "lon": 23.7949
+    },
+    "place": {
+      "city": "Craiova",
+      "country": "Romania",
+      "display": "Craiova, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/28113005/",
+      "photographer": "Irina A. Balashova",
+      "photographerUrl": "https://www.pexels.com/@irina-a-balashova/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-craiova-romanian-orthodox-church-35286173.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.3302,
+      "lon": 23.7949
+    },
+    "place": {
+      "city": "Craiova",
+      "country": "Romania",
+      "display": "Craiova, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/35286173/",
+      "photographer": "Maria M",
+      "photographerUrl": "https://www.pexels.com/@maria-m-1070886292/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-craiova-romanian-village-church-valley-14367794.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.3302,
+      "lon": 23.7949
+    },
+    "place": {
+      "city": "Craiova",
+      "country": "Romania",
+      "display": "Craiova, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/14367794/",
+      "photographer": "Ioan Dan Plesa",
+      "photographerUrl": "https://www.pexels.com/@ioan-dan-plesa-75309815/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-campina-busteni-carpathians-aerial-25026862.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.1259,
+      "lon": 25.7322
+    },
+    "place": {
+      "city": "Câmpina",
+      "country": "Romania",
+      "display": "Câmpina, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/25026862/",
+      "photographer": "Balázs Gábor",
+      "photographerUrl": "https://www.pexels.com/@gaborbalazs97/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-campina-bucegi-fog-clouds-25026864.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.1259,
+      "lon": 25.7322
+    },
+    "place": {
+      "city": "Câmpina",
+      "country": "Romania",
+      "display": "Câmpina, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/25026864/",
+      "photographer": "Balázs Gábor",
+      "photographerUrl": "https://www.pexels.com/@gaborbalazs97/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-campina-bucegi-panorama-19755730.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.1259,
+      "lon": 25.7322
+    },
+    "place": {
+      "city": "Câmpina",
+      "country": "Romania",
+      "display": "Câmpina, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/19755730/",
+      "photographer": "Iulian Patrascu",
+      "photographerUrl": "https://www.pexels.com/@gip07/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-campina-prahova-mountain-peaks-5601709.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.1259,
+      "lon": 25.7322
+    },
+    "place": {
+      "city": "Câmpina",
+      "country": "Romania",
+      "display": "Câmpina, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/5601709/",
+      "photographer": "Filip Marcus Adam",
+      "photographerUrl": "https://www.pexels.com/@filip-marcus-adam-3638207/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-campina-carpathian-forest-boardwalk-6558453.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.1259,
+      "lon": 25.7322
+    },
+    "place": {
+      "city": "Câmpina",
+      "country": "Romania",
+      "display": "Câmpina, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/6558453/",
+      "photographer": "Andrei Tanase",
+      "photographerUrl": "https://www.pexels.com/@andreimike/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-braila-danube-delta-pelicans-serene-6216092.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2692,
+      "lon": 27.9574
+    },
+    "place": {
+      "city": "Brăila",
+      "country": "Romania",
+      "display": "Brăila, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/6216092/",
+      "photographer": "Andrei Prodan",
+      "photographerUrl": "https://www.pexels.com/@andrei-prodan-10235249/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-braila-danube-delta-pelicans-water-6216085.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2692,
+      "lon": 27.9574
+    },
+    "place": {
+      "city": "Brăila",
+      "country": "Romania",
+      "display": "Brăila, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/6216085/",
+      "photographer": "Andrei Prodan",
+      "photographerUrl": "https://www.pexels.com/@andrei-prodan-10235249/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-braila-danube-delta-pelicans-vibrant-6216086.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2692,
+      "lon": 27.9574
+    },
+    "place": {
+      "city": "Brăila",
+      "country": "Romania",
+      "display": "Brăila, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/6216086/",
+      "photographer": "Andrei Prodan",
+      "photographerUrl": "https://www.pexels.com/@andrei-prodan-10235249/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-braila-danube-delta-pelicans-sunrise-6176173.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2692,
+      "lon": 27.9574
+    },
+    "place": {
+      "city": "Brăila",
+      "country": "Romania",
+      "display": "Brăila, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/6176173/",
+      "photographer": "Andrei Prodan",
+      "photographerUrl": "https://www.pexels.com/@andrei-prodan-10235249/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-braila-danube-mahmudia-wetland-pelicans-11105458.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2692,
+      "lon": 27.9574
+    },
+    "place": {
+      "city": "Brăila",
+      "country": "Romania",
+      "display": "Brăila, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/11105458/",
+      "photographer": "Marian Strinoiu",
+      "photographerUrl": "https://www.pexels.com/@marian-strinoiu-1805558/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-costinesti-schitu-beach-tranquil-19203209.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.9494,
+      "lon": 28.6336
+    },
+    "place": {
+      "city": "Costinești",
+      "country": "Romania",
+      "display": "Costinești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/19203209/",
+      "photographer": "Diana ✨",
+      "photographerUrl": "https://www.pexels.com/@didsss/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-costinesti-pink-white-beach-huts-35605671.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.9494,
+      "lon": 28.6336
+    },
+    "place": {
+      "city": "Costinești",
+      "country": "Romania",
+      "display": "Costinești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/35605671/",
+      "photographer": "The IOP",
+      "photographerUrl": "https://www.pexels.com/@the-iop-86002042/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-costinesti-venus-beach-sunset-2531325.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.9494,
+      "lon": 28.6336
+    },
+    "place": {
+      "city": "Costinești",
+      "country": "Romania",
+      "display": "Costinești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/2531325/",
+      "photographer": "Andreea Simion",
+      "photographerUrl": "https://www.pexels.com/@andreeasimion/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-costinesti-eforie-nord-sunrise-5085466.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.9494,
+      "lon": 28.6336
+    },
+    "place": {
+      "city": "Costinești",
+      "country": "Romania",
+      "display": "Costinești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/5085466/",
+      "photographer": "Mădălina Vlăduță",
+      "photographerUrl": "https://www.pexels.com/@madalina/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-costinesti-seagull-sandy-shore-4992518.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.9494,
+      "lon": 28.6336
+    },
+    "place": {
+      "city": "Costinești",
+      "country": "Romania",
+      "display": "Costinești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/4992518/",
+      "photographer": "Diana ✨",
+      "photographerUrl": "https://www.pexels.com/@didsss/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-vama-veche-olimp-sea-evening-17276014.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.7515,
+      "lon": 28.575
+    },
+    "place": {
+      "city": "Vama Veche",
+      "country": "Romania",
+      "display": "Vama Veche, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/17276014/",
+      "photographer": "Andromeda Stan",
+      "photographerUrl": "https://www.pexels.com/@andromeda-stan-133604221/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-vama-veche-thatched-beach-huts-33781725.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.7515,
+      "lon": 28.575
+    },
+    "place": {
+      "city": "Vama Veche",
+      "country": "Romania",
+      "display": "Vama Veche, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/33781725/",
+      "photographer": "Oana Cicalau",
+      "photographerUrl": "https://www.pexels.com/@oana-cicalau-1402903180/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-vama-veche-corbu-seaside-deck-18949577.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.7515,
+      "lon": 28.575
+    },
+    "place": {
+      "city": "Vama Veche",
+      "country": "Romania",
+      "display": "Vama Veche, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/18949577/",
+      "photographer": "Bianca Jelezniac",
+      "photographerUrl": "https://www.pexels.com/@bianca-jelezniac-38713659/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-vama-veche-abandoned-pier-sunset-28456593.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.7515,
+      "lon": 28.575
+    },
+    "place": {
+      "city": "Vama Veche",
+      "country": "Romania",
+      "display": "Vama Veche, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/28456593/",
+      "photographer": "Teodor Costachioiu",
+      "photographerUrl": "https://www.pexels.com/@tcostachioiu/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-vama-veche-seagull-sunset-coast-7285299.jpg",
+    "takenAt": "2024-06-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.7515,
+      "lon": 28.575
+    },
+    "place": {
+      "city": "Vama Veche",
+      "country": "Romania",
+      "display": "Vama Veche, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/7285299/",
+      "photographer": "Gigxels",
+      "photographerUrl": "https://www.pexels.com/@gigxels/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
