@@ -13,7 +13,10 @@ import { isReadingSource } from "@/lib/reading-feed";
 import { readingMinutes, formatReadingTime } from "@/lib/reading-time";
 import { parallaxCardsEnabled } from "@/lib/proto-flags";
 
-export const metadata = { title: "Posts and articles" };
+export const metadata = {
+  title: "Posts and articles",
+  alternates: { canonical: "/writing" },
+};
 
 export default async function WritingPage({
   searchParams,

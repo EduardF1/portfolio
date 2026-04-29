@@ -96,6 +96,7 @@ The catalogue is a JSON array. Each entry describes one photo on disk under
     "country": "Spain",
     "display": "Málaga, Spain"
   },
+  "caption": "Málaga, Spain · September 2025",
   "source": {
     "type": "stock",
     "provider": "Pexels",
@@ -126,6 +127,24 @@ The catalogue is a JSON array. Each entry describes one photo on disk under
 - `inferredPlace` / `inferredFrom` — present when the entry's `place` was
   derived from temporally-adjacent GPS neighbours rather than its own EXIF. See
   `docs/photo-location-tooling.md` for the inference rule.
+- `caption` — optional human-friendly alt text used by the lightbox / trip
+  pages for accessibility and SEO. Backfilled by
+  `scripts/enrich-photo-captions.mjs` (idempotent, run with `--write` to
+  persist). Format:
+  - **Stock (Pexels)**: `"<Landmark> · <City, Country> · <Month Year>"` —
+    e.g. `"Tower of London Fortress · London, United Kingdom · July 2023"`.
+    Landmark is parsed from the Pexels filename
+    (`pexels-<city-slug>-<landmark-slug>-<id>.jpg`); the city prefix is
+    stripped so we never produce "London London Eye". `Month Year` is
+    omitted when `takenAt` is `null` (typical for stock).
+  - **Personal**: `"<City, Country> · <Month Year>"` — e.g.
+    `"Pula, Croatia · March 2026"`.
+  - **Fallback**: when the filename parse fails, the caption is just
+    `"<place.display> · <Month Year>"`.
+
+  Render code prefers `caption` for `<Image alt>`; if absent, falls back
+  to the previous `"<city>, <country>"` form (see `src/lib/trips.ts`).
+  Re-run the enrichment script after every catalogue rebuild.
 
 ### `source` block
 

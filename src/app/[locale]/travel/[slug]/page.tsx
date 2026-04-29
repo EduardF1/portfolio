@@ -29,6 +29,7 @@ export async function generateMetadata({
   return {
     title: item.frontmatter.title,
     description: summary,
+    alternates: { canonical: `/travel/${slug}` },
   };
 }
 

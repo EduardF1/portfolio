@@ -241,18 +241,26 @@ export function RecommendationsCarousel({ recommendations, locale }: Props) {
           <ul className="flex items-center gap-2">
             {slides.map((_, i) => (
               <li key={i}>
+                {/* WCAG 2.5.5/2.5.8 target-size: hitbox is 24×24, the
+                    visible dot stays 6×6 via a presentational <span>.
+                    Lighthouse a11y win on / (V1 audit). */}
                 <button
                   type="button"
                   aria-label={`Go to slide ${i + 1} of ${total}`}
                   aria-current={i === active ? "true" : undefined}
                   onClick={() => goTo(i)}
-                  className={[
-                    "h-1.5 w-1.5 rounded-full transition-colors",
-                    i === active
-                      ? "bg-accent"
-                      : "bg-border hover:bg-foreground-subtle",
-                  ].join(" ")}
-                />
+                  className="group inline-flex h-6 w-6 items-center justify-center"
+                >
+                  <span
+                    aria-hidden="true"
+                    className={[
+                      "block h-1.5 w-1.5 rounded-full transition-colors",
+                      i === active
+                        ? "bg-accent"
+                        : "bg-border group-hover:bg-foreground-subtle",
+                    ].join(" ")}
+                  />
+                </button>
               </li>
             ))}
           </ul>

@@ -23,6 +23,9 @@ export async function generateMetadata({
   return {
     title: `${where}, ${trip.monthLabel}`,
     description: `${trip.photoCount} photo${trip.photoCount === 1 ? "" : "s"} from ${trip.country}, ${trip.dateRange}.`,
+    // Per-route canonical so each trip page advertises itself rather
+    // than inheriting the layout's `/` canonical (Lighthouse SEO win).
+    alternates: { canonical: `/travel/photos/${slug}` },
   };
 }
 
@@ -138,6 +141,9 @@ export default async function TripPhotosPage({
       {sections.map((section) => {
         const sectionPhotos: LightboxPhoto[] = section.photos.map((p) => ({
           src: p.src,
+          // `p.alt` already prefers the catalogue caption (landmark +
+          // city + month) thanks to clusterTrips; the country/month
+          // fallback only kicks in when the catalogue lacks both.
           alt: p.alt || `${trip.country}, ${trip.monthLabel}`,
         }));
         const heading = section.city ?? tp("otherCity");
