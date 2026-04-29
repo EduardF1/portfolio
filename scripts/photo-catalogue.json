@@ -1291,6 +1291,698 @@
     }
   },
   {
+    "src": "trips/2020-02-denmark/pexels-vejle-bolgen-waterfront-35135228.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Vejle",
+      "country": "Denmark",
+      "display": "Vejle, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/modern-architectural-waves-by-waterfront-35135228/",
+      "photographer": "Ayco World",
+      "photographerUrl": "https://www.pexels.com/@ayco-world-108848112/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-marmaris-bay-marina-aerial-30981667.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 36.8551,
+      "lon": 28.2737
+    },
+    "place": {
+      "city": "Marmaris",
+      "country": "Turkey",
+      "display": "Marmaris, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-marmaris-bay-marina-turkey-30981667/",
+      "photographer": "Burak Eroglu",
+      "photographerUrl": "https://www.pexels.com/@burakeroglu3/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-marmaris-harbor-sailboats-36826787.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 36.8551,
+      "lon": 28.2737
+    },
+    "place": {
+      "city": "Marmaris",
+      "country": "Turkey",
+      "display": "Marmaris, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-marina-with-sailboats-in-marmaris-harbor-36826787/",
+      "photographer": "MÖV Frame",
+      "photographerUrl": "https://www.pexels.com/@mov-frame-288920282/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-marmaris-castle-museum-36879737.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 36.8551,
+      "lon": 28.2737
+    },
+    "place": {
+      "city": "Marmaris",
+      "country": "Turkey",
+      "display": "Marmaris, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-marmaris-museum-in-a-stone-fortress-36879737/",
+      "photographer": "MÖV Frame",
+      "photographerUrl": "https://www.pexels.com/@mov-frame-288920282/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-marmaris-pier-sunset-34802445.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 36.8551,
+      "lon": 28.2737
+    },
+    "place": {
+      "city": "Marmaris",
+      "country": "Turkey",
+      "display": "Marmaris, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/serene-boat-by-marmaris-pier-at-sunset-34802445/",
+      "photographer": "Marina Grechko",
+      "photographerUrl": "https://www.pexels.com/@marina-grechko-701637593/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-marmaris-bay-forest-boats-36579189.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 36.8551,
+      "lon": 28.2737
+    },
+    "place": {
+      "city": "Marmaris",
+      "country": "Turkey",
+      "display": "Marmaris, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-marmaris-bay-with-forest-and-boats-36579189/",
+      "photographer": "Ruhşen Toygun",
+      "photographerUrl": "https://www.pexels.com/@ruhsen-toygun-2149781584/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-ephesus-ancient-columns-30375567.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 37.9416,
+      "lon": 27.3742
+    },
+    "place": {
+      "city": "Selçuk",
+      "country": "Turkey",
+      "display": "Selçuk, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/ancient-ruins-in-ephesus-izmir-turkiye-30375567/",
+      "photographer": "Ayşegül Delice",
+      "photographerUrl": "https://www.pexels.com/@ayseguldelice/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-ephesus-temple-ruins-30375556.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 37.9416,
+      "lon": 27.3742
+    },
+    "place": {
+      "city": "Selçuk",
+      "country": "Turkey",
+      "display": "Selçuk, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/ancient-ruins-of-ephesus-temple-in-izmir-30375556/",
+      "photographer": "Ayşegül Delice",
+      "photographerUrl": "https://www.pexels.com/@ayseguldelice/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-ephesus-roman-relief-30375558.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 37.9416,
+      "lon": 27.3742
+    },
+    "place": {
+      "city": "Selçuk",
+      "country": "Turkey",
+      "display": "Selçuk, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/ancient-roman-architecture-in-ephesus-turkey-30375558/",
+      "photographer": "Ayşegül Delice",
+      "photographerUrl": "https://www.pexels.com/@ayseguldelice/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-ephesus-roman-detail-32265867.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 37.9416,
+      "lon": 27.3742
+    },
+    "place": {
+      "city": "Selçuk",
+      "country": "Turkey",
+      "display": "Selçuk, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/ancient-roman-ruins-in-ephesus-izmir-turkiye-32265867/",
+      "photographer": "beth .",
+      "photographerUrl": "https://www.pexels.com/@beth-62576936/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-ephesus-celsus-library-33980084.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 37.9416,
+      "lon": 27.3742
+    },
+    "place": {
+      "city": "Selçuk",
+      "country": "Turkey",
+      "display": "Selçuk, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/celsus-library-in-ephesus-against-blue-skies-33980084/",
+      "photographer": "Pelin",
+      "photographerUrl": "https://www.pexels.com/@pelin-2937827/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-pamukkale-travertine-terraces-23322370.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 37.9214,
+      "lon": 29.1213
+    },
+    "place": {
+      "city": "Pamukkale",
+      "country": "Turkey",
+      "display": "Pamukkale, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/travertine-terraces-of-pamukkale-23322370/",
+      "photographer": "Ehtiram Mammadov",
+      "photographerUrl": "https://www.pexels.com/@ehtiram-mammadov-1243593972/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-pamukkale-terraces-sunset-29800608.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 37.9214,
+      "lon": 29.1213
+    },
+    "place": {
+      "city": "Pamukkale",
+      "country": "Turkey",
+      "display": "Pamukkale, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/sunset-at-pamukkale-travertine-terraces-turkey-29800608/",
+      "photographer": "Elvin Muradzade",
+      "photographerUrl": "https://www.pexels.com/@elvin-muradzade-1879795/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-pamukkale-scenic-terraces-31627879.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 37.9214,
+      "lon": 29.1213
+    },
+    "place": {
+      "city": "Pamukkale",
+      "country": "Turkey",
+      "display": "Pamukkale, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-travertine-terraces-at-pamukkale-31627879/",
+      "photographer": "Abdullah BEGTAŞ",
+      "photographerUrl": "https://www.pexels.com/@abdullahbegtas/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-pamukkale-thermal-blue-31627886.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 37.9214,
+      "lon": 29.1213
+    },
+    "place": {
+      "city": "Pamukkale",
+      "country": "Turkey",
+      "display": "Pamukkale, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-pamukkale-thermal-terraces-in-turkey-31627886/",
+      "photographer": "Abdullah BEGTAŞ",
+      "photographerUrl": "https://www.pexels.com/@abdullahbegtas/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-pamukkale-travertine-pool-27829279.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 37.9214,
+      "lon": 29.1213
+    },
+    "place": {
+      "city": "Pamukkale",
+      "country": "Turkey",
+      "display": "Pamukkale, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/pamukkale-travertine-pool-in-turkey-27829279/",
+      "photographer": "From Salih",
+      "photographerUrl": "https://www.pexels.com/@fromsalih/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-izmir-clock-tower-konak-20702899.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 38.4192,
+      "lon": 27.1287
+    },
+    "place": {
+      "city": "İzmir",
+      "country": "Turkey",
+      "display": "İzmir, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/izmir-clock-tower-at-the-konak-square-in-izmir-turkey-20702899/",
+      "photographer": "Muhammed Tubtemur",
+      "photographerUrl": "https://www.pexels.com/@muhammedtubtemur/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-izmir-konak-square-tower-24380464.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 38.4192,
+      "lon": 27.1287
+    },
+    "place": {
+      "city": "İzmir",
+      "country": "Turkey",
+      "display": "İzmir, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/view-of-the-izmir-clock-tower-at-the-konak-square-izmir-turkey-24380464/",
+      "photographer": "Doğan Alpaslan Demir",
+      "photographerUrl": "https://www.pexels.com/@izafi/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-izmir-aerial-cityscape-11374865.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 38.4192,
+      "lon": 27.1287
+    },
+    "place": {
+      "city": "İzmir",
+      "country": "Turkey",
+      "display": "İzmir, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-izmir-turkey-11374865/",
+      "photographer": "Fatih Doğrul",
+      "photographerUrl": "https://www.pexels.com/@fthdgrl/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-izmir-clock-tower-landscape-14451425.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 38.4192,
+      "lon": 27.1287
+    },
+    "place": {
+      "city": "İzmir",
+      "country": "Turkey",
+      "display": "İzmir, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/landscape-photography-of-the-izmir-clock-tower-14451425/",
+      "photographer": "Hüdanur Erolan",
+      "photographerUrl": "https://www.pexels.com/@hudanur-erolan-364768623/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-07-turkey/pexels-izmir-clock-tower-blue-sky-13571072.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 38.4192,
+      "lon": 27.1287
+    },
+    "place": {
+      "city": "İzmir",
+      "country": "Turkey",
+      "display": "İzmir, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/the-izmir-clock-tower-in-turkey-13571072/",
+      "photographer": "Enes Faruk Yarar",
+      "photographerUrl": "https://www.pexels.com/@eenesfaruk/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-turkey/pexels-alanya-castle-seashore-11116337.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 36.5444,
+      "lon": 31.9994
+    },
+    "place": {
+      "city": "Alanya",
+      "country": "Turkey",
+      "display": "Alanya, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/alanya-castle-on-the-seashore-in-turkey-11116337/",
+      "photographer": "Kamp Ve Enduro",
+      "photographerUrl": "https://www.pexels.com/@kamp-ve-enduro-14126260/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-turkey/pexels-alanya-harbor-red-tower-29043511.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 36.5444,
+      "lon": 31.9994
+    },
+    "place": {
+      "city": "Alanya",
+      "country": "Turkey",
+      "display": "Alanya, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-alanya-harbor-and-red-tower-29043511/",
+      "photographer": "Sevgi LALE",
+      "photographerUrl": "https://www.pexels.com/@sevgiilale/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-turkey/pexels-alanya-lighthouse-16689790.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 36.5444,
+      "lon": 31.9994
+    },
+    "place": {
+      "city": "Alanya",
+      "country": "Turkey",
+      "display": "Alanya, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/alanya-lighthouse-in-turkey-16689790/",
+      "photographer": "Eda Nur Karabulut",
+      "photographerUrl": "https://www.pexels.com/@eda-nur-karabulut-302582287/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-turkey/pexels-antalya-hadrians-gate-17402105.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 36.8841,
+      "lon": 30.7056
+    },
+    "place": {
+      "city": "Antalya",
+      "country": "Turkey",
+      "display": "Antalya, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/hadrians-gate-in-antalya-17402105/",
+      "photographer": "Pelin Karatekin",
+      "photographerUrl": "https://www.pexels.com/@pelin-karatekin-568818637/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-turkey/pexels-antalya-harbor-old-town-18761177.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 36.8841,
+      "lon": 30.7056
+    },
+    "place": {
+      "city": "Antalya",
+      "country": "Turkey",
+      "display": "Antalya, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/photo-of-the-harbor-and-old-town-in-antalya-turkey-18761177/",
+      "photographer": "Kemal Sait Kaplan",
+      "photographerUrl": "https://www.pexels.com/@kemalsaitkaplan/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-turkey/pexels-antalya-hadrians-gate-historic-34727245.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 36.8841,
+      "lon": 30.7056
+    },
+    "place": {
+      "city": "Antalya",
+      "country": "Turkey",
+      "display": "Antalya, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-hadrian-s-gate-in-antalya-turkey-34727245/",
+      "photographer": "Valeria Drozdova",
+      "photographerUrl": "https://www.pexels.com/@valeria-drozdova-2148646707/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-turkey/pexels-antalya-harbor-view-31717491.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 36.8841,
+      "lon": 30.7056
+    },
+    "place": {
+      "city": "Antalya",
+      "country": "Turkey",
+      "display": "Antalya, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-harbor-view-in-antalya-turkiye-31717491/",
+      "photographer": "Nikita Pishchugin",
+      "photographerUrl": "https://www.pexels.com/@nikitapishchugin/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-turkey/pexels-antalya-taurus-mountains-31340571.jpg",
+    "takenAt": null,
+    "hasGps": true,
+    "gps": {
+      "lat": 36.8841,
+      "lon": 30.7056
+    },
+    "place": {
+      "city": "Antalya",
+      "country": "Turkey",
+      "display": "Antalya, Turkey"
+    },
+    "gpsSource": "stock-centroid",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-the-taurus-mountains-in-antalya-31340571/",
+      "photographer": "Muhammed Hanefi",
+      "photographerUrl": "https://www.pexels.com/@muhammed-hanefi-778129632/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2018-03-israel/IMG_20180324_114159.jpg",
     "takenAt": "2018-03-24T11:42:02Z",
     "hasGps": true,
@@ -1503,6 +2195,40 @@
       "city": "Malmö kommun",
       "country": "Sweden",
       "display": "Malmö kommun, Sweden"
+    }
+  },
+  {
+    "src": "trips/2019-07-turkey/IMG_20190709_214550.jpg",
+    "takenAt": "2019-07-09T21:45:51Z",
+    "hasGps": true,
+    "cameraModel": "HUAWEI VTR-L29",
+    "gps": {
+      "lat": 36.53264,
+      "lon": 31.99161
+    },
+    "place": {
+      "city": "Alanya",
+      "country": "Turkey",
+      "display": "Alanya, Turkey",
+      "lat": 36.5444,
+      "lon": 31.9994
+    }
+  },
+  {
+    "src": "trips/2019-07-turkey/IMG_20190712_204614.jpg",
+    "takenAt": "2019-07-12T20:46:15Z",
+    "hasGps": true,
+    "cameraModel": "HUAWEI VTR-L29",
+    "gps": {
+      "lat": 36.53981,
+      "lon": 32.00436
+    },
+    "place": {
+      "city": "Alanya",
+      "country": "Turkey",
+      "display": "Alanya, Turkey",
+      "lat": 36.5444,
+      "lon": 31.9994
     }
   },
   {
@@ -1803,26 +2529,6 @@
       "city": "Ghent",
       "country": "Belgium",
       "display": "Ghent, Belgium"
-    }
-  },
-  {
-    "src": "trips/2020-02-denmark/pexels-vejle-bolgen-waterfront-35135228.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Vejle",
-      "country": "Denmark",
-      "display": "Vejle, Denmark"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/modern-architectural-waves-by-waterfront-35135228/",
-      "photographer": "Ayco World",
-      "photographerUrl": "https://www.pexels.com/@ayco-world-108848112/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
