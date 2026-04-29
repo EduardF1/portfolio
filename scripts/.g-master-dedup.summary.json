@@ -1,0 +1,514 @@
+{
+  "dryRun": false,
+  "threshold": 0,
+  "startedAt": "2026-04-29T08:48:04.906Z",
+  "finishedAt": "2026-04-29T08:49:30.876Z",
+  "durationMs": 85970,
+  "recordsLoaded": 71033,
+  "filtered": {
+    "missing": 29346,
+    "sensitive": 135,
+    "skipDir": 1315,
+    "exactOnly": 11564
+  },
+  "eligible": 40237,
+  "distinctHashes": 0,
+  "groupsTotal": 7715,
+  "membersTotal": 18850,
+  "moved": 11135,
+  "moveFailed": 0,
+  "collisionsSuffixed": 0,
+  "skip": {
+    "max-moves": 0
+  },
+  "byRootMoved": {
+    "G:\\Poze (other)": 571,
+    "G:\\Video\\WhatsApp_Images": 4881,
+    "G:\\backup media telefon": 4502,
+    "G:\\Poze\\WhatsApp-by-year": 44,
+    "G:\\WD_EXT_HDD": 1113,
+    "G:\\Poze\\<year>": 24
+  },
+  "byRootKept": {
+    "G:\\Poze (other)": 2538,
+    "G:\\Poze\\WhatsApp-by-year": 2258,
+    "G:\\Poze\\<year>": 1915,
+    "G:\\WD_EXT_HDD": 726,
+    "G:\\Video\\WhatsApp_Images": 180,
+    "G:\\backup media telefon": 98
+  },
+  "crossFolderGroups": 6697,
+  "crossFolderMoves": [
+    {
+      "group_id": 4563,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0008.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20180415-WA0017.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 2911,
+      "kept": "G:\\Poze\\2016\\IMG_20160816_212345.jpg",
+      "kept_root": "G:\\Poze\\<year>",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20230831-WA0013.jpeg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 4155,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0018.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20180415-WA0022.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 4412,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0019.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20180415-WA0020.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 3614,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0009.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20180415-WA0009.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 4452,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0015.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20190106-WA0010.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 3679,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0007.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20180415-WA0007.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 4022,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0010.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20180415-WA0010.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 214,
+      "kept": "G:\\Poze\\2023\\Denmark 23 (02-4)\\IMG_20230211_151516_BURST001_COVER.jpg",
+      "kept_root": "G:\\Poze\\<year>",
+      "moved": "G:\\Poze\\1000003826.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 2926,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0024.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20180415-WA0024.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 2949,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0026.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20180415-WA0030.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 2956,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0025.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20190106-WA0012.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 3074,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0029.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20180415-WA0029.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 3078,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2022\\IMG-20220630-WA0014.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20220630-WA0016.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 3087,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180107-WA0016.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20180107-WA0006.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 3099,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0027.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20190106-WA0019.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 3216,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2019\\IMG-20190806-WA0022.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20190806-WA0060.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 3220,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2016\\IMG-20161216-WA0000.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20161221-WA0000.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 3406,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2016\\IMG-20161014-WA0006.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20161014-WA0006.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 3424,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2019\\IMG-20190806-WA0007.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20190806-WA0007.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 3621,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0028.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20190106-WA0018.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 3743,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2016\\IMG-20161029-WA0041.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20161029-WA0042.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 4360,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0013.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20180415-WA0013.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 4405,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2019\\IMG-20190928-WA0003.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20190928-WA0004.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 4564,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2023\\IMG-20230426-WA0001.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20230621-WA0000.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 4717,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0005.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20180415-WA0005.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 1113,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2023\\IMG-20230714-WA0087.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000015092.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 1275,
+      "kept": "G:\\Poze\\1000024939.jpg",
+      "kept_root": "G:\\Poze (other)",
+      "moved": "G:\\Poze\\1000024942.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 2895,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2023\\IMG-20230407-WA0028.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\IMG-20230407-WA0028_2.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 2901,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2023\\IMG-20230407-WA0326.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\IMG-20230407-WA0326_2.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 5523,
+      "kept": "G:\\Poze\\2026\\Italy 26\\IMG20260325173303.jpg",
+      "kept_root": "G:\\Poze\\<year>",
+      "moved": "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\Sent\\IMG-20260325-WA0036.jpg",
+      "moved_root": "G:\\Video\\WhatsApp_Images"
+    },
+    {
+      "group_id": 29,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2022\\IMG-20221124-WA0001.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000013734.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 30,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2016\\IMG-20161205-WA0000.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000014051.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 31,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180203-WA0001.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000014848.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 32,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2023\\IMG-20230429-WA0000.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000015077.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 61,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2022\\IMG-20221128-WA0001.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000013383.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 66,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2016\\IMG-20160813-WA0001.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000014420.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 67,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2020\\IMG-20200426-WA0000.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000013628.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 70,
+      "kept": "G:\\Poze\\2025\\Bucharest 25 (03)\\IMG20250330133045.jpg",
+      "kept_root": "G:\\Poze\\<year>",
+      "moved": "G:\\Poze\\1000033526.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 74,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2023\\IMG-20230713-WA0003.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000013770.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 224,
+      "kept": "G:\\Poze\\2019\\Denmark 19 (05)\\IMG_20190507_013841.jpg",
+      "kept_root": "G:\\Poze\\<year>",
+      "moved": "G:\\Poze\\1000005950.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 228,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2022\\IMG-20220227-WA0000.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000013623.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 229,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2020\\IMG-20200413-WA0000.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000013640.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 230,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2022\\IMG-20220223-WA0000.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000013722.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 231,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2016\\IMG-20161123-WA0000.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000013870.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 232,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2022\\IMG-20220220-WA0049.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000014081.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 233,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2022\\IMG-20220626-WA0000.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000014162.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 234,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2022\\IMG-20220427-WA0000.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000014197.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 235,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2020\\IMG-20200320-WA0000.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000014279.jpg",
+      "moved_root": "G:\\Poze (other)"
+    },
+    {
+      "group_id": 236,
+      "kept": "G:\\Poze\\WhatsApp-by-year\\2020\\IMG-20201025-WA0000.jpg",
+      "kept_root": "G:\\Poze\\WhatsApp-by-year",
+      "moved": "G:\\Poze\\1000014397.jpg",
+      "moved_root": "G:\\Poze (other)"
+    }
+  ],
+  "topGroups": [
+    {
+      "group_id": 1846,
+      "member_count": 26,
+      "moved_count": 25,
+      "keeper": "G:\\Poze\\ic_launcher_107.png",
+      "keeper_root": "G:\\Poze (other)",
+      "cross_folder": false,
+      "roots": [
+        "G:\\Poze (other)"
+      ]
+    },
+    {
+      "group_id": 1847,
+      "member_count": 26,
+      "moved_count": 25,
+      "keeper": "G:\\Poze\\ic_launcher_108.png",
+      "keeper_root": "G:\\Poze (other)",
+      "cross_folder": false,
+      "roots": [
+        "G:\\Poze (other)"
+      ]
+    },
+    {
+      "group_id": 1848,
+      "member_count": 26,
+      "moved_count": 25,
+      "keeper": "G:\\Poze\\ic_launcher_109.png",
+      "keeper_root": "G:\\Poze (other)",
+      "cross_folder": false,
+      "roots": [
+        "G:\\Poze (other)"
+      ]
+    },
+    {
+      "group_id": 1849,
+      "member_count": 26,
+      "moved_count": 25,
+      "keeper": "G:\\Poze\\ic_launcher_110.png",
+      "keeper_root": "G:\\Poze (other)",
+      "cross_folder": false,
+      "roots": [
+        "G:\\Poze (other)"
+      ]
+    },
+    {
+      "group_id": 1850,
+      "member_count": 26,
+      "moved_count": 25,
+      "keeper": "G:\\Poze\\ic_launcher_111.png",
+      "keeper_root": "G:\\Poze (other)",
+      "cross_folder": false,
+      "roots": [
+        "G:\\Poze (other)"
+      ]
+    },
+    {
+      "group_id": 4563,
+      "member_count": 18,
+      "moved_count": 17,
+      "keeper": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0008.jpg",
+      "keeper_root": "G:\\Poze\\WhatsApp-by-year",
+      "cross_folder": true,
+      "roots": [
+        "G:\\Video\\WhatsApp_Images",
+        "G:\\backup media telefon",
+        "G:\\Poze\\WhatsApp-by-year"
+      ]
+    },
+    {
+      "group_id": 2911,
+      "member_count": 15,
+      "moved_count": 14,
+      "keeper": "G:\\Poze\\2016\\IMG_20160816_212345.jpg",
+      "keeper_root": "G:\\Poze\\<year>",
+      "cross_folder": true,
+      "roots": [
+        "G:\\Video\\WhatsApp_Images",
+        "G:\\WD_EXT_HDD",
+        "G:\\backup media telefon",
+        "G:\\Poze\\<year>"
+      ]
+    },
+    {
+      "group_id": 4155,
+      "member_count": 15,
+      "moved_count": 14,
+      "keeper": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0018.jpg",
+      "keeper_root": "G:\\Poze\\WhatsApp-by-year",
+      "cross_folder": true,
+      "roots": [
+        "G:\\Video\\WhatsApp_Images",
+        "G:\\backup media telefon",
+        "G:\\Poze\\WhatsApp-by-year"
+      ]
+    },
+    {
+      "group_id": 4412,
+      "member_count": 15,
+      "moved_count": 14,
+      "keeper": "G:\\Poze\\WhatsApp-by-year\\2018\\IMG-20180415-WA0019.jpg",
+      "keeper_root": "G:\\Poze\\WhatsApp-by-year",
+      "cross_folder": true,
+      "roots": [
+        "G:\\Video\\WhatsApp_Images",
+        "G:\\backup media telefon",
+        "G:\\Poze\\WhatsApp-by-year"
+      ]
+    },
+    {
+      "group_id": 6511,
+      "member_count": 14,
+      "moved_count": 13,
+      "keeper": "G:\\WD_EXT_HDD\\C PARTITION EDY PC\\upload\\114.jpg",
+      "keeper_root": "G:\\WD_EXT_HDD",
+      "cross_folder": false,
+      "roots": [
+        "G:\\WD_EXT_HDD"
+      ]
+    }
+  ]
+}
