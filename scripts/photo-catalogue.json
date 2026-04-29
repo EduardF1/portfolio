@@ -3107,6 +3107,306 @@
     }
   },
   {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-szeged-cathedral-golden-hour-31727189.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.253,
+      "lon": 20.1414
+    },
+    "place": {
+      "city": "Szeged",
+      "country": "Hungary",
+      "display": "Szeged, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/31727189/",
+      "photographer": "Liza Sigareva",
+      "photographerUrl": "https://www.pexels.com/@liza-sigareva-2149951107/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-szeged-cathedral-spires-dramatic-12467094.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.253,
+      "lon": 20.1414
+    },
+    "place": {
+      "city": "Szeged",
+      "country": "Hungary",
+      "display": "Szeged, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/12467094/",
+      "photographer": "Molnár Tamás Photography",
+      "photographerUrl": "https://www.pexels.com/@molnartamasphotography/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-szeged-new-synagogue-34457222.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.253,
+      "lon": 20.1414
+    },
+    "place": {
+      "city": "Szeged",
+      "country": "Hungary",
+      "display": "Szeged, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/34457222/",
+      "photographer": "Umair Ali Asad",
+      "photographerUrl": "https://www.pexels.com/@umair-ali-asad-315697493/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-keszthely-pier-balaton-13101101.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.7706,
+      "lon": 17.2432
+    },
+    "place": {
+      "city": "Keszthely",
+      "country": "Hungary",
+      "display": "Keszthely, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/13101101/",
+      "photographer": "Nikolett Emmert",
+      "photographerUrl": "https://www.pexels.com/@nikiemmert/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-keszthely-festetics-palace-gardens-19509512.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.7706,
+      "lon": 17.2432
+    },
+    "place": {
+      "city": "Keszthely",
+      "country": "Hungary",
+      "display": "Keszthely, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/19509512/",
+      "photographer": "Anikó Liptai",
+      "photographerUrl": "https://www.pexels.com/@aniko-liptai-842186932/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-keszthely-festetics-palace-baroque-14738310.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.7706,
+      "lon": 17.2432
+    },
+    "place": {
+      "city": "Keszthely",
+      "country": "Hungary",
+      "display": "Keszthely, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/14738310/",
+      "photographer": "Ivan Dražić",
+      "photographerUrl": "https://www.pexels.com/@ivan-drazic-20457695/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-castle-autumn-reflection-10104803.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.6486,
+      "lon": 21.2828
+    },
+    "place": {
+      "city": "Gyula",
+      "country": "Hungary",
+      "display": "Gyula, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/10104803/",
+      "photographer": "Nora",
+      "photographerUrl": "https://www.pexels.com/@sznori/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-hungarian-grey-cattle-27074971.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.6486,
+      "lon": 21.2828
+    },
+    "place": {
+      "city": "Gyula",
+      "country": "Hungary",
+      "display": "Gyula, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/27074971/",
+      "photographer": "Péter Borkó",
+      "photographerUrl": "https://www.pexels.com/@stokeron/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-grey-steppe-cattle-pasture-23963002.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.6486,
+      "lon": 21.2828
+    },
+    "place": {
+      "city": "Gyula",
+      "country": "Hungary",
+      "display": "Gyula, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/23963002/",
+      "photographer": "Ágnes Léber",
+      "photographerUrl": "https://www.pexels.com/@agnes-leber-1272629812/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-szarvas-tranquil-river-greenery-27724022.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.8678,
+      "lon": 20.5536
+    },
+    "place": {
+      "city": "Szarvas",
+      "country": "Hungary",
+      "display": "Szarvas, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/27724022/",
+      "photographer": "Molnár Tamás Photography",
+      "photographerUrl": "https://www.pexels.com/@molnartamasphotography/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-szarvas-misty-green-fields-32577825.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.8678,
+      "lon": 20.5536
+    },
+    "place": {
+      "city": "Szarvas",
+      "country": "Hungary",
+      "display": "Szarvas, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/32577825/",
+      "photographer": "Barnabas Davoti",
+      "photographerUrl": "https://www.pexels.com/@barnabas-davoti-31615494/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-szarvas-aerial-farmland-13456593.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.8678,
+      "lon": 20.5536
+    },
+    "place": {
+      "city": "Szarvas",
+      "country": "Hungary",
+      "display": "Szarvas, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/13456593/",
+      "photographer": "Barnabas Davoti",
+      "photographerUrl": "https://www.pexels.com/@barnabas-davoti-31615494/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2024-09-albania-saranda/IMG20240918191245.jpg",
     "takenAt": "2024-09-18T19:12:45Z",
     "hasGps": true,
@@ -4492,6 +4792,126 @@
     }
   },
   {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-budapest-parliament-night-15381620.jpg",
+    "takenAt": "2026-03-14T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 47.4979,
+      "lon": 19.0402
+    },
+    "place": {
+      "city": "Budapest",
+      "country": "Hungary",
+      "display": "Budapest, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/15381620/",
+      "photographer": "Dimitris Penidis",
+      "photographerUrl": "https://www.pexels.com/@dimitris-penidis-439677039/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-budapest-chain-bridge-buda-castle-36849758.jpg",
+    "takenAt": "2026-03-14T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 47.4979,
+      "lon": 19.0402
+    },
+    "place": {
+      "city": "Budapest",
+      "country": "Hungary",
+      "display": "Budapest, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/36849758/",
+      "photographer": "Lajos Kristóf Kántor",
+      "photographerUrl": "https://www.pexels.com/@lajos-kristof-kantor-2158796893/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-budapest-fishermans-bastion-sunset-37243201.jpg",
+    "takenAt": "2026-03-14T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 47.4979,
+      "lon": 19.0402
+    },
+    "place": {
+      "city": "Budapest",
+      "country": "Hungary",
+      "display": "Budapest, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/37243201/",
+      "photographer": "Talha Kılıç",
+      "photographerUrl": "https://www.pexels.com/@talha-kilic-517654077/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260314222230.jpg",
+    "takenAt": "2026-03-14T22:22:30Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.41259,
+      "lon": 19.24756
+    },
+    "place": {
+      "city": "Budapest",
+      "country": "Hungary",
+      "display": "Budapest, Hungary"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260315003840.jpg",
+    "takenAt": "2026-03-15T00:38:40Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.41255,
+      "lon": 19.24752
+    },
+    "place": {
+      "city": "Budapest",
+      "country": "Hungary",
+      "display": "Budapest, Hungary"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260315003841.jpg",
+    "takenAt": "2026-03-15T00:38:41Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 47.41255,
+      "lon": 19.24752
+    },
+    "place": {
+      "city": "Budapest",
+      "country": "Hungary",
+      "display": "Budapest, Hungary"
+    }
+  },
+  {
     "src": "trips/2026-03-balkans-roadtrip/IMG20260315125427.jpg",
     "takenAt": "2026-03-15T12:54:27Z",
     "hasGps": true,
@@ -4939,6 +5359,321 @@
       "city": "Landsberg am Lech",
       "country": "Germany",
       "display": "Landsberg am Lech, Germany"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260328120403.jpg",
+    "takenAt": "2026-03-28T12:04:03Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.25558,
+      "lon": 11.43861
+    },
+    "place": {
+      "city": "Dachau",
+      "country": "Germany",
+      "display": "Dachau, Germany"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260328120453.jpg",
+    "takenAt": "2026-03-28T12:04:53Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.25557,
+      "lon": 11.43862
+    },
+    "place": {
+      "city": "Dachau",
+      "country": "Germany",
+      "display": "Dachau, Germany"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260328135135.jpg",
+    "takenAt": "2026-03-28T13:51:35Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.26838,
+      "lon": 11.46679
+    },
+    "place": {
+      "city": "Dachau",
+      "country": "Germany",
+      "display": "Dachau, Germany"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260328151221.jpg",
+    "takenAt": "2026-03-28T15:12:21Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.27208,
+      "lon": 11.46871
+    },
+    "place": {
+      "city": "Dachau",
+      "country": "Germany",
+      "display": "Dachau, Germany"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260328154040.jpg",
+    "takenAt": "2026-03-28T15:40:40Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 48.26892,
+      "lon": 11.46708
+    },
+    "place": {
+      "city": "Dachau",
+      "country": "Germany",
+      "display": "Dachau, Germany"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-munich-marienplatz-aerial-13762982.jpg",
+    "takenAt": "2026-03-28T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.1351,
+      "lon": 11.582
+    },
+    "place": {
+      "city": "Munich",
+      "country": "Germany",
+      "display": "Munich, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/13762982/",
+      "photographer": "Prakhyath DESHPANDE",
+      "photographerUrl": "https://www.pexels.com/@desh/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-munich-marienplatz-frauenkirche-28733346.jpg",
+    "takenAt": "2026-03-28T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.1351,
+      "lon": 11.582
+    },
+    "place": {
+      "city": "Munich",
+      "country": "Germany",
+      "display": "Munich, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/28733346/",
+      "photographer": "Ilia Bronskiy",
+      "photographerUrl": "https://www.pexels.com/@ilia-bronskiy-1137858493/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-munich-new-town-hall-dusk-4213371.jpg",
+    "takenAt": "2026-03-28T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.1351,
+      "lon": 11.582
+    },
+    "place": {
+      "city": "Munich",
+      "country": "Germany",
+      "display": "Munich, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/4213371/",
+      "photographer": "Anastasia Shuraeva",
+      "photographerUrl": "https://www.pexels.com/@anastasia-shuraeva/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-munich-frauenkirche-towers-29651753.jpg",
+    "takenAt": "2026-03-28T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.1351,
+      "lon": 11.582
+    },
+    "place": {
+      "city": "Munich",
+      "country": "Germany",
+      "display": "Munich, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/29651753/",
+      "photographer": "Omar Ramadan",
+      "photographerUrl": "https://www.pexels.com/@omar-ramadan-1739260/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-munich-marienplatz-sunset-33361059.jpg",
+    "takenAt": "2026-03-28T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.1351,
+      "lon": 11.582
+    },
+    "place": {
+      "city": "Munich",
+      "country": "Germany",
+      "display": "Munich, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/33361059/",
+      "photographer": "Ravjot Singh",
+      "photographerUrl": "https://www.pexels.com/@mustang/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-nuremberg-historic-bridge-36359707.jpg",
+    "takenAt": "2026-03-28T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.4521,
+      "lon": 11.0767
+    },
+    "place": {
+      "city": "Nuremberg",
+      "country": "Germany",
+      "display": "Nuremberg, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/36359707/",
+      "photographer": "Alyona Nagel",
+      "photographerUrl": "https://www.pexels.com/@alyona-nagel-1468385055/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-nuremberg-pegnitz-timber-houses-36864163.jpg",
+    "takenAt": "2026-03-28T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.4521,
+      "lon": 11.0767
+    },
+    "place": {
+      "city": "Nuremberg",
+      "country": "Germany",
+      "display": "Nuremberg, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/36864163/",
+      "photographer": "Travel Photographer",
+      "photographerUrl": "https://www.pexels.com/@travel-photographer-127255675/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-nuremberg-skyline-32472110.jpg",
+    "takenAt": "2026-03-28T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.4521,
+      "lon": 11.0767
+    },
+    "place": {
+      "city": "Nuremberg",
+      "country": "Germany",
+      "display": "Nuremberg, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/32472110/",
+      "photographer": "Ravjot Singh",
+      "photographerUrl": "https://www.pexels.com/@mustang/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-nuremberg-aerial-church-tower-34270730.jpg",
+    "takenAt": "2026-03-28T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.4521,
+      "lon": 11.0767
+    },
+    "place": {
+      "city": "Nuremberg",
+      "country": "Germany",
+      "display": "Nuremberg, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/34270730/",
+      "photographer": "0xd1ma",
+      "photographerUrl": "https://www.pexels.com/@0xd1ma-2150011827/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260328173447_01.jpg",
+    "takenAt": "2026-03-28T17:34:47Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 49.43146,
+      "lon": 11.11451
+    },
+    "place": {
+      "city": "Nuremberg",
+      "country": "Germany",
+      "display": "Nuremberg, Germany"
     }
   },
   {
