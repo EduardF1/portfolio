@@ -263,7 +263,9 @@
     "countLabel": "Photo {current} of {total}",
     "prev": "Previous photo",
     "next": "Next photo",
-    "close": "Close"
+    "close": "Close",
+    "otherCity": "Elsewhere",
+    "sparseCity": "more on the way"
   },
   "contact": {
     "kicker": "Contact",
