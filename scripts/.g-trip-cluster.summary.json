@@ -1,0 +1,3811 @@
+{
+  "dryRun": false,
+  "startedAt": "2026-04-29T06:44:38.302Z",
+  "finishedAt": "2026-04-29T06:47:51.596Z",
+  "durationMs": 193294,
+  "totalClusters": 412,
+  "totalMoved": 7793,
+  "totalSingletons": 156,
+  "gpsBoxLookupHits": 308,
+  "nominatimCacheHits": 0,
+  "nominatimNetworkCalls": 0,
+  "nominatimRateLimited": 0,
+  "perYear": [
+    {
+      "year": "2016",
+      "files": 103,
+      "moved": 93,
+      "singletons": 10,
+      "clusters": [
+        {
+          "name": "2016-07-15..16 trip",
+          "photoCount": 10,
+          "firstAt": "2016-07-15T23:41:11.000Z",
+          "lastAt": "2016-07-16T13:53:36.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2016-07-18 trip",
+          "photoCount": 6,
+          "firstAt": "2016-07-18T15:54:54.000Z",
+          "lastAt": "2016-07-18T15:56:01.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2016-07-31 trip",
+          "photoCount": 4,
+          "firstAt": "2016-07-31T16:22:26.000Z",
+          "lastAt": "2016-07-31T16:22:41.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Bucharest 16",
+          "photoCount": 3,
+          "firstAt": "2016-08-12T18:58:35.000Z",
+          "lastAt": "2016-08-14T07:07:14.000Z",
+          "centroidLat": 44.4263888888889,
+          "centroidLon": 26.1036111111111,
+          "city": "Bucharest"
+        },
+        {
+          "name": "2016-08-25 trip",
+          "photoCount": 3,
+          "firstAt": "2016-08-25T11:59:59.000Z",
+          "lastAt": "2016-08-25T12:00:27.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Sinaia 16",
+          "photoCount": 11,
+          "firstAt": "2016-09-09T20:58:58.000Z",
+          "lastAt": "2016-09-11T22:01:24.000Z",
+          "centroidLat": 45.3825,
+          "centroidLon": 25.5413888888889,
+          "city": "Sinaia"
+        },
+        {
+          "name": "2016-09-13 trip",
+          "photoCount": 3,
+          "firstAt": "2016-09-13T12:03:03.000Z",
+          "lastAt": "2016-09-13T12:39:08.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Bucharest 16 (09)",
+          "photoCount": 2,
+          "firstAt": "2016-09-16T05:45:23.000Z",
+          "lastAt": "2016-09-16T23:01:03.000Z",
+          "centroidLat": 44.4355555555556,
+          "centroidLon": 26.1213888888889,
+          "city": "Bucharest"
+        },
+        {
+          "name": "2016-10-09..11 trip",
+          "photoCount": 3,
+          "firstAt": "2016-10-09T20:57:37.000Z",
+          "lastAt": "2016-10-11T08:18:21.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2016-10-17..18 trip",
+          "photoCount": 3,
+          "firstAt": "2016-10-17T19:55:04.000Z",
+          "lastAt": "2016-10-18T00:03:40.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Spain 16",
+          "photoCount": 2,
+          "firstAt": "2016-10-19T17:25:21.000Z",
+          "lastAt": "2016-10-19T23:44:15.000Z",
+          "centroidLat": 36.7751972222222,
+          "centroidLon": -4.10034166666667,
+          "city": "Spain"
+        },
+        {
+          "name": "2016-10-24..26 trip",
+          "photoCount": 4,
+          "firstAt": "2016-10-24T16:19:05.000Z",
+          "lastAt": "2016-10-26T15:36:36.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2016-10-29 trip",
+          "photoCount": 3,
+          "firstAt": "2016-10-29T01:14:40.000Z",
+          "lastAt": "2016-10-29T01:14:58.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2016-11-08 trip",
+          "photoCount": 5,
+          "firstAt": "2016-11-08T23:29:45.000Z",
+          "lastAt": "2016-11-08T23:37:55.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2016-11-13 trip",
+          "photoCount": 2,
+          "firstAt": "2016-11-13T12:21:42.000Z",
+          "lastAt": "2016-11-13T12:22:00.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2016-11-16 trip",
+          "photoCount": 2,
+          "firstAt": "2016-11-16T22:58:38.000Z",
+          "lastAt": "2016-11-16T22:58:42.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Bucharest 16 (11)",
+          "photoCount": 2,
+          "firstAt": "2016-11-20T18:54:51.000Z",
+          "lastAt": "2016-11-20T21:05:52.000Z",
+          "centroidLat": 44.4408333333333,
+          "centroidLon": 26.11,
+          "city": "Bucharest"
+        },
+        {
+          "name": "2016-11-26..27 trip",
+          "photoCount": 6,
+          "firstAt": "2016-11-26T13:29:43.000Z",
+          "lastAt": "2016-11-27T19:01:15.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2016-12-04..06 trip",
+          "photoCount": 4,
+          "firstAt": "2016-12-04T21:33:00.000Z",
+          "lastAt": "2016-12-06T22:33:25.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2016-12-22..23 trip",
+          "photoCount": 6,
+          "firstAt": "2016-12-22T17:09:28.000Z",
+          "lastAt": "2016-12-23T23:28:03.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2016-12-26 trip",
+          "photoCount": 9,
+          "firstAt": "2016-12-26T08:18:17.000Z",
+          "lastAt": "2016-12-26T19:02:11.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        }
+      ]
+    },
+    {
+      "year": "2017",
+      "files": 183,
+      "moved": 159,
+      "singletons": 24,
+      "clusters": [
+        {
+          "name": "2017-01-04 trip",
+          "photoCount": 3,
+          "firstAt": "2017-01-04T10:50:03.000Z",
+          "lastAt": "2017-01-04T21:59:44.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Kolding 17",
+          "photoCount": 45,
+          "firstAt": "2017-01-22T12:36:13.000Z",
+          "lastAt": "2017-01-29T22:43:25.000Z",
+          "centroidLat": 55.4916666666667,
+          "centroidLon": 9.47638888888889,
+          "city": "Kolding"
+        },
+        {
+          "name": "2017-02-01..02 trip",
+          "photoCount": 2,
+          "firstAt": "2017-02-01T14:51:14.000Z",
+          "lastAt": "2017-02-02T15:02:48.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-02-12..13 trip",
+          "photoCount": 7,
+          "firstAt": "2017-02-12T13:40:26.000Z",
+          "lastAt": "2017-02-13T10:59:35.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-02-15 trip",
+          "photoCount": 3,
+          "firstAt": "2017-02-15T12:16:58.000Z",
+          "lastAt": "2017-02-15T12:17:12.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Denmark 17",
+          "photoCount": 3,
+          "firstAt": "2017-02-20T14:31:50.000Z",
+          "lastAt": "2017-02-20T19:24:29.000Z",
+          "centroidLat": 55.5130555555556,
+          "centroidLon": 9.63175925925926,
+          "city": "Denmark"
+        },
+        {
+          "name": "Kolding 17 (03)",
+          "photoCount": 3,
+          "firstAt": "2017-03-01T11:41:20.000Z",
+          "lastAt": "2017-03-01T18:29:32.000Z",
+          "centroidLat": 55.5008333333333,
+          "centroidLon": 9.44611111111111,
+          "city": "Kolding"
+        },
+        {
+          "name": "2017-03-03 trip",
+          "photoCount": 2,
+          "firstAt": "2017-03-03T10:32:45.000Z",
+          "lastAt": "2017-03-03T10:33:00.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-03-07..08 trip",
+          "photoCount": 4,
+          "firstAt": "2017-03-07T17:17:36.000Z",
+          "lastAt": "2017-03-08T17:18:38.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Denmark 17 (03)",
+          "photoCount": 10,
+          "firstAt": "2017-03-11T00:03:40.000Z",
+          "lastAt": "2017-03-11T17:01:43.000Z",
+          "centroidLat": 55.486388888888904,
+          "centroidLon": 8.94416666666667,
+          "city": "Denmark"
+        },
+        {
+          "name": "2017-03-14..15 trip",
+          "photoCount": 6,
+          "firstAt": "2017-03-14T12:23:44.000Z",
+          "lastAt": "2017-03-15T08:50:12.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-03-18 trip",
+          "photoCount": 6,
+          "firstAt": "2017-03-18T15:39:40.000Z",
+          "lastAt": "2017-03-18T15:40:40.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-03-30..31 trip",
+          "photoCount": 4,
+          "firstAt": "2017-03-30T00:48:50.000Z",
+          "lastAt": "2017-03-31T09:52:02.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-04-12 trip",
+          "photoCount": 6,
+          "firstAt": "2017-04-12T14:16:04.000Z",
+          "lastAt": "2017-04-12T14:17:28.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-04-20 trip",
+          "photoCount": 5,
+          "firstAt": "2017-04-20T22:00:29.000Z",
+          "lastAt": "2017-04-20T22:08:26.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-05-02 trip",
+          "photoCount": 2,
+          "firstAt": "2017-05-02T15:02:08.000Z",
+          "lastAt": "2017-05-02T15:02:12.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "UK 17",
+          "photoCount": 12,
+          "firstAt": "2017-05-17T18:18:04.000Z",
+          "lastAt": "2017-05-19T23:04:12.000Z",
+          "centroidLat": 52.036722916666676,
+          "centroidLon": -0.7410687499999999,
+          "city": "UK"
+        },
+        {
+          "name": "Kolding 17 (06)",
+          "photoCount": 5,
+          "firstAt": "2017-06-25T20:10:45.000Z",
+          "lastAt": "2017-06-26T05:04:49.000Z",
+          "centroidLat": 55.4869444444444,
+          "centroidLon": 9.47555555555556,
+          "city": "Kolding"
+        },
+        {
+          "name": "Kolding 17 (07)",
+          "photoCount": 2,
+          "firstAt": "2017-07-04T14:42:05.000Z",
+          "lastAt": "2017-07-05T00:20:45.000Z",
+          "centroidLat": 55.4861111111111,
+          "centroidLon": 9.47527777777778,
+          "city": "Kolding"
+        },
+        {
+          "name": "2017-07-26..27 trip",
+          "photoCount": 5,
+          "firstAt": "2017-07-26T16:52:14.000Z",
+          "lastAt": "2017-07-27T20:28:02.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-08-05..06 trip",
+          "photoCount": 2,
+          "firstAt": "2017-08-05T18:15:15.000Z",
+          "lastAt": "2017-08-06T19:41:26.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-08-16 trip",
+          "photoCount": 2,
+          "firstAt": "2017-08-16T08:35:46.000Z",
+          "lastAt": "2017-08-16T08:35:51.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-08-21..22 trip",
+          "photoCount": 7,
+          "firstAt": "2017-08-21T11:09:12.000Z",
+          "lastAt": "2017-08-22T13:58:21.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Kolding 17 (09)",
+          "photoCount": 2,
+          "firstAt": "2017-09-06T01:41:36.000Z",
+          "lastAt": "2017-09-06T01:54:17.000Z",
+          "centroidLat": 55.5022222222222,
+          "centroidLon": 9.48388888888889,
+          "city": "Kolding"
+        },
+        {
+          "name": "Kolding 17 (10)",
+          "photoCount": 3,
+          "firstAt": "2017-10-17T12:39:12.000Z",
+          "lastAt": "2017-10-18T14:09:55.000Z",
+          "centroidLat": 55.4855555555556,
+          "centroidLon": 9.47722222222222,
+          "city": "Kolding"
+        },
+        {
+          "name": "2017-11-18..19 trip",
+          "photoCount": 2,
+          "firstAt": "2017-11-18T20:13:06.000Z",
+          "lastAt": "2017-11-19T04:45:36.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-12-03 trip",
+          "photoCount": 2,
+          "firstAt": "2017-12-03T17:57:53.000Z",
+          "lastAt": "2017-12-03T17:58:00.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-12-15 trip",
+          "photoCount": 2,
+          "firstAt": "2017-12-15T22:33:08.000Z",
+          "lastAt": "2017-12-15T22:33:12.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2017-12-21..22 trip",
+          "photoCount": 2,
+          "firstAt": "2017-12-21T10:06:43.000Z",
+          "lastAt": "2017-12-22T14:21:20.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        }
+      ]
+    },
+    {
+      "year": "2018",
+      "files": 745,
+      "moved": 735,
+      "singletons": 10,
+      "clusters": [
+        {
+          "name": "2018-01-01 trip",
+          "photoCount": 4,
+          "firstAt": "2018-01-01T13:55:10.000Z",
+          "lastAt": "2018-01-01T13:58:18.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2018-01-06 trip",
+          "photoCount": 2,
+          "firstAt": "2018-01-06T12:35:56.000Z",
+          "lastAt": "2018-01-06T12:36:03.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2018-01-24 trip",
+          "photoCount": 36,
+          "firstAt": "2018-01-24T01:04:05.000Z",
+          "lastAt": "2018-01-24T01:11:06.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2018-01-31 trip",
+          "photoCount": 23,
+          "firstAt": "2018-01-31T08:03:49.000Z",
+          "lastAt": "2018-01-31T09:38:27.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2018-02-02 trip",
+          "photoCount": 32,
+          "firstAt": "2018-02-02T09:14:49.000Z",
+          "lastAt": "2018-02-02T10:47:57.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2018-02-07 trip",
+          "photoCount": 8,
+          "firstAt": "2018-02-07T09:30:58.000Z",
+          "lastAt": "2018-02-07T09:33:37.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Israel 18",
+          "photoCount": 93,
+          "firstAt": "2018-03-23T11:33:59.000Z",
+          "lastAt": "2018-03-25T14:00:03.000Z",
+          "centroidLat": 32.91019095133961,
+          "centroidLon": 35.29377771176076,
+          "city": "Israel"
+        },
+        {
+          "name": "Kolding 18",
+          "photoCount": 5,
+          "firstAt": "2018-03-28T16:01:53.000Z",
+          "lastAt": "2018-03-28T16:08:03.000Z",
+          "centroidLat": 55.4860351561111,
+          "centroidLon": 9.475567436166667,
+          "city": "Kolding"
+        },
+        {
+          "name": "Kolding 18 (04)",
+          "photoCount": 4,
+          "firstAt": "2018-04-03T18:07:31.000Z",
+          "lastAt": "2018-04-04T11:42:23.000Z",
+          "centroidLat": 55.4879722594444,
+          "centroidLon": 9.46845531444444,
+          "city": "Kolding"
+        },
+        {
+          "name": "Kolding 18 (04-2)",
+          "photoCount": 4,
+          "firstAt": "2018-04-06T12:48:56.000Z",
+          "lastAt": "2018-04-07T16:03:39.000Z",
+          "centroidLat": 55.4861768086111,
+          "centroidLon": 9.475428898981482,
+          "city": "Kolding"
+        },
+        {
+          "name": "Denmark 18",
+          "photoCount": 5,
+          "firstAt": "2018-04-08T19:42:58.000Z",
+          "lastAt": "2018-04-09T19:42:58.000Z",
+          "centroidLat": 55.57291030875,
+          "centroidLon": 12.83811330777775,
+          "city": "Denmark"
+        },
+        {
+          "name": "Hamburg 18",
+          "photoCount": 14,
+          "firstAt": "2018-04-09T19:43:19.000Z",
+          "lastAt": "2018-04-09T19:44:33.000Z",
+          "centroidLat": 53.58864239269841,
+          "centroidLon": 9.899387563809528,
+          "city": "Hamburg"
+        },
+        {
+          "name": "Denmark 18 (04)",
+          "photoCount": 9,
+          "firstAt": "2018-04-11T15:48:45.000Z",
+          "lastAt": "2018-04-13T09:03:11.000Z",
+          "centroidLat": 55.23532676680555,
+          "centroidLon": 9.50032329541667,
+          "city": "Denmark"
+        },
+        {
+          "name": "Kolding 18 (04-3)",
+          "photoCount": 11,
+          "firstAt": "2018-04-15T18:56:54.000Z",
+          "lastAt": "2018-04-15T18:57:44.000Z",
+          "centroidLat": 55.486213683888884,
+          "centroidLon": 9.476067196010105,
+          "city": "Kolding"
+        },
+        {
+          "name": "Denmark 18 (04-2)",
+          "photoCount": 21,
+          "firstAt": "2018-04-21T15:55:28.000Z",
+          "lastAt": "2018-04-22T13:56:46.000Z",
+          "centroidLat": 55.39776674888889,
+          "centroidLon": 9.584148247893516,
+          "city": "Denmark"
+        },
+        {
+          "name": "Kolding 18 (04-4)",
+          "photoCount": 6,
+          "firstAt": "2018-04-24T10:14:14.000Z",
+          "lastAt": "2018-04-24T10:18:46.000Z",
+          "centroidLat": 55.4870758055556,
+          "centroidLon": 9.47767829888889,
+          "city": "Kolding"
+        },
+        {
+          "name": "2018-04-28 trip",
+          "photoCount": 2,
+          "firstAt": "2018-04-28T13:52:44.000Z",
+          "lastAt": "2018-04-28T13:52:56.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2018-05-08 trip",
+          "photoCount": 4,
+          "firstAt": "2018-05-08T12:32:44.000Z",
+          "lastAt": "2018-05-08T12:32:58.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Kolding 18 (05)",
+          "photoCount": 4,
+          "firstAt": "2018-05-10T20:55:50.000Z",
+          "lastAt": "2018-05-12T03:38:54.000Z",
+          "centroidLat": 55.4946155547222,
+          "centroidLon": 9.479693889444444,
+          "city": "Kolding"
+        },
+        {
+          "name": "Kolding 18 (05-2)",
+          "photoCount": 49,
+          "firstAt": "2018-05-13T20:20:08.000Z",
+          "lastAt": "2018-05-15T09:47:15.000Z",
+          "centroidLat": 55.48599658530247,
+          "centroidLon": 9.475334358086416,
+          "city": "Kolding"
+        },
+        {
+          "name": "Denmark 18 (05)",
+          "photoCount": 41,
+          "firstAt": "2018-05-18T09:54:59.000Z",
+          "lastAt": "2018-05-18T13:38:00.000Z",
+          "centroidLat": 55.73082880807347,
+          "centroidLon": 9.424554393987457,
+          "city": "Denmark"
+        },
+        {
+          "name": "Kolding 18 (05-3)",
+          "photoCount": 8,
+          "firstAt": "2018-05-22T11:22:36.000Z",
+          "lastAt": "2018-05-24T08:19:26.000Z",
+          "centroidLat": 55.50048119670636,
+          "centroidLon": 9.471405574126985,
+          "city": "Kolding"
+        },
+        {
+          "name": "Kolding 18 (05-4)",
+          "photoCount": 2,
+          "firstAt": "2018-05-26T00:47:36.000Z",
+          "lastAt": "2018-05-26T00:49:30.000Z",
+          "centroidLat": 55.48600959763885,
+          "centroidLon": 9.475538730555556,
+          "city": "Kolding"
+        },
+        {
+          "name": "Kolding 18 (06)",
+          "photoCount": 13,
+          "firstAt": "2018-06-03T11:28:59.000Z",
+          "lastAt": "2018-06-03T11:36:16.000Z",
+          "centroidLat": 55.4868774412607,
+          "centroidLon": 9.472286370918798,
+          "city": "Kolding"
+        },
+        {
+          "name": "Bucharest 18",
+          "photoCount": 5,
+          "firstAt": "2018-06-13T13:59:58.000Z",
+          "lastAt": "2018-06-13T14:00:49.000Z",
+          "centroidLat": 44.4354515075,
+          "centroidLon": 26.121549606111095,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Germany 18",
+          "photoCount": 11,
+          "firstAt": "2018-06-15T00:35:24.000Z",
+          "lastAt": "2018-06-15T00:35:49.000Z",
+          "centroidLat": 50.03698348972221,
+          "centroidLon": 8.477044105277782,
+          "city": "Germany"
+        },
+        {
+          "name": "Kolding 18 (06-2)",
+          "photoCount": 3,
+          "firstAt": "2018-06-29T00:24:34.000Z",
+          "lastAt": "2018-06-30T11:36:55.000Z",
+          "centroidLat": 55.506766001296334,
+          "centroidLon": 9.45789496092593,
+          "city": "Kolding"
+        },
+        {
+          "name": "Bucharest 18 (07)",
+          "photoCount": 16,
+          "firstAt": "2018-07-10T16:44:30.000Z",
+          "lastAt": "2018-07-11T09:11:15.000Z",
+          "centroidLat": 44.428516626232664,
+          "centroidLon": 26.11998736843751,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Istanbul 18",
+          "photoCount": 101,
+          "firstAt": "2018-07-12T17:54:03.000Z",
+          "lastAt": "2018-07-14T08:27:29.000Z",
+          "centroidLat": 41.01119220937908,
+          "centroidLon": 28.979364451111085,
+          "city": "Istanbul"
+        },
+        {
+          "name": "Greece 18",
+          "photoCount": 49,
+          "firstAt": "2018-07-17T20:31:23.000Z",
+          "lastAt": "2018-07-19T12:56:56.000Z",
+          "centroidLat": 36.81448248914728,
+          "centroidLon": 28.269317005820398,
+          "city": "Greece"
+        },
+        {
+          "name": "Turkey 18",
+          "photoCount": 37,
+          "firstAt": "2018-07-22T11:28:26.000Z",
+          "lastAt": "2018-07-23T19:52:45.000Z",
+          "centroidLat": 40.90332571652005,
+          "centroidLon": 29.239723152445997,
+          "city": "Turkey"
+        },
+        {
+          "name": "Bucharest 18 (07-2)",
+          "photoCount": 5,
+          "firstAt": "2018-07-27T17:40:51.000Z",
+          "lastAt": "2018-07-27T23:14:54.000Z",
+          "centroidLat": 44.4353599547222,
+          "centroidLon": 26.1214370725,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Kolding 18 (07)",
+          "photoCount": 2,
+          "firstAt": "2018-07-30T11:34:40.000Z",
+          "lastAt": "2018-07-30T11:34:45.000Z",
+          "centroidLat": 55.4861106872222,
+          "centroidLon": 9.47553348527778,
+          "city": "Kolding"
+        },
+        {
+          "name": "Kolding 18 (08)",
+          "photoCount": 10,
+          "firstAt": "2018-08-17T07:05:14.000Z",
+          "lastAt": "2018-08-19T12:47:52.000Z",
+          "centroidLat": 55.4860877988889,
+          "centroidLon": 9.47546482083333,
+          "city": "Kolding"
+        },
+        {
+          "name": "Kolding 18 (08-2)",
+          "photoCount": 15,
+          "firstAt": "2018-08-29T00:06:30.000Z",
+          "lastAt": "2018-08-29T00:10:22.000Z",
+          "centroidLat": 55.48607907958332,
+          "centroidLon": 9.475477354662702,
+          "city": "Kolding"
+        },
+        {
+          "name": "Denmark 18 (09)",
+          "photoCount": 12,
+          "firstAt": "2018-09-05T10:42:01.000Z",
+          "lastAt": "2018-09-05T11:16:58.000Z",
+          "centroidLat": 55.86738649990739,
+          "centroidLon": 9.856948455023147,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 18 (09-2)",
+          "photoCount": 24,
+          "firstAt": "2018-09-10T10:44:38.000Z",
+          "lastAt": "2018-09-10T11:09:35.000Z",
+          "centroidLat": 55.87113730097221,
+          "centroidLon": 9.894772132094904,
+          "city": "Denmark"
+        },
+        {
+          "name": "Kolding 18 (09)",
+          "photoCount": 3,
+          "firstAt": "2018-09-12T11:48:41.000Z",
+          "lastAt": "2018-09-12T11:48:45.000Z",
+          "centroidLat": 55.4860763547222,
+          "centroidLon": 9.47550773611111,
+          "city": "Kolding"
+        },
+        {
+          "name": "Kolding 18 (09-2)",
+          "photoCount": 2,
+          "firstAt": "2018-09-18T00:26:45.000Z",
+          "lastAt": "2018-09-18T00:26:52.000Z",
+          "centroidLat": 55.4860687255556,
+          "centroidLon": 9.47547054277778,
+          "city": "Kolding"
+        },
+        {
+          "name": "Denmark 18 (10)",
+          "photoCount": 3,
+          "firstAt": "2018-10-10T22:31:06.000Z",
+          "lastAt": "2018-10-10T22:31:10.000Z",
+          "centroidLat": 55.4239006041667,
+          "centroidLon": 9.88115024555556,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 18 (10-2)",
+          "photoCount": 8,
+          "firstAt": "2018-10-25T16:59:47.000Z",
+          "lastAt": "2018-10-25T23:21:01.000Z",
+          "centroidLat": 55.423913574111076,
+          "centroidLon": 9.881085777277779,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 18 (10-3)",
+          "photoCount": 5,
+          "firstAt": "2018-10-31T12:54:23.000Z",
+          "lastAt": "2018-10-31T22:20:48.000Z",
+          "centroidLat": 55.871351623444454,
+          "centroidLon": 9.899221229388887,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 18 (11)",
+          "photoCount": 3,
+          "firstAt": "2018-11-14T10:53:51.000Z",
+          "lastAt": "2018-11-14T20:36:22.000Z",
+          "centroidLat": 55.2791824338889,
+          "centroidLon": 10.1039361952778,
+          "city": "Denmark"
+        },
+        {
+          "name": "Bucharest 18 (11)",
+          "photoCount": 9,
+          "firstAt": "2018-11-17T14:55:23.000Z",
+          "lastAt": "2018-11-18T11:25:19.000Z",
+          "centroidLat": 44.42660598738888,
+          "centroidLon": 26.100083160333362,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Kolding 18 (12)",
+          "photoCount": 5,
+          "firstAt": "2018-12-06T06:25:59.000Z",
+          "lastAt": "2018-12-06T06:36:44.000Z",
+          "centroidLat": 55.5402717588889,
+          "centroidLon": 9.495369434305555,
+          "city": "Kolding"
+        },
+        {
+          "name": "2018-12-17 trip",
+          "photoCount": 3,
+          "firstAt": "2018-12-17T19:12:16.000Z",
+          "lastAt": "2018-12-17T19:12:21.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Bucharest 18 (12)",
+          "photoCount": 4,
+          "firstAt": "2018-12-30T20:02:31.000Z",
+          "lastAt": "2018-12-31T03:26:19.000Z",
+          "centroidLat": 44.43080266296297,
+          "centroidLon": 26.103473663148133,
+          "city": "Bucharest"
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "files": 753,
+      "moved": 743,
+      "singletons": 10,
+      "clusters": [
+        {
+          "name": "Romania 19",
+          "photoCount": 2,
+          "firstAt": "2019-01-12T15:42:51.000Z",
+          "lastAt": "2019-01-12T15:42:53.000Z",
+          "centroidLat": 45.8968238830556,
+          "centroidLon": 25.7059535977778,
+          "city": "Romania"
+        },
+        {
+          "name": "Bucharest 19",
+          "photoCount": 2,
+          "firstAt": "2019-01-15T21:14:08.000Z",
+          "lastAt": "2019-01-15T21:15:36.000Z",
+          "centroidLat": 44.43586921680555,
+          "centroidLon": 26.121201515000003,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Denmark 19",
+          "photoCount": 4,
+          "firstAt": "2019-01-26T12:32:34.000Z",
+          "lastAt": "2019-01-26T16:40:23.000Z",
+          "centroidLat": 55.871331214722204,
+          "centroidLon": 9.89931750284722,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 19 (02)",
+          "photoCount": 2,
+          "firstAt": "2019-02-23T15:44:00.000Z",
+          "lastAt": "2019-02-23T15:44:06.000Z",
+          "centroidLat": 55.8713874816667,
+          "centroidLon": 9.89922809583333,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 19 (03)",
+          "photoCount": 3,
+          "firstAt": "2019-03-06T15:13:33.000Z",
+          "lastAt": "2019-03-06T15:13:54.000Z",
+          "centroidLat": 55.87139256777777,
+          "centroidLon": 9.899238904259256,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 19 (03-2)",
+          "photoCount": 5,
+          "firstAt": "2019-03-31T22:27:05.000Z",
+          "lastAt": "2019-03-31T22:27:41.000Z",
+          "centroidLat": 55.87138290399996,
+          "centroidLon": 9.899209785277776,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 19 (04)",
+          "photoCount": 2,
+          "firstAt": "2019-04-09T16:49:04.000Z",
+          "lastAt": "2019-04-11T04:44:06.000Z",
+          "centroidLat": 55.8716659544444,
+          "centroidLon": 9.89917469,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 19 (04-2)",
+          "photoCount": 5,
+          "firstAt": "2019-04-16T14:43:54.000Z",
+          "lastAt": "2019-04-17T16:53:58.000Z",
+          "centroidLat": 55.872823333666645,
+          "centroidLon": 9.884556007222224,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 19 (04-3)",
+          "photoCount": 6,
+          "firstAt": "2019-04-22T20:56:15.000Z",
+          "lastAt": "2019-04-24T22:57:31.000Z",
+          "centroidLat": 55.8951721188889,
+          "centroidLon": 9.865782737638892,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 19 (05)",
+          "photoCount": 210,
+          "firstAt": "2019-05-07T01:17:01.000Z",
+          "lastAt": "2019-05-07T01:48:21.000Z",
+          "centroidLat": 55.871381025957355,
+          "centroidLon": 9.899224735089469,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 19 (06)",
+          "photoCount": 3,
+          "firstAt": "2019-06-06T09:38:58.000Z",
+          "lastAt": "2019-06-07T14:09:54.000Z",
+          "centroidLat": 55.8709602355556,
+          "centroidLon": 9.88603115055555,
+          "city": "Denmark"
+        },
+        {
+          "name": "Vejle 19",
+          "photoCount": 2,
+          "firstAt": "2019-06-15T05:36:25.000Z",
+          "lastAt": "2019-06-16T12:32:37.000Z",
+          "centroidLat": 55.6763172148611,
+          "centroidLon": 9.58219528180556,
+          "city": "Vejle"
+        },
+        {
+          "name": "Denmark 19 (06-2)",
+          "photoCount": 2,
+          "firstAt": "2019-06-27T13:33:54.000Z",
+          "lastAt": "2019-06-27T13:33:59.000Z",
+          "centroidLat": 55.8723869322222,
+          "centroidLon": 9.88585948916667,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 19 (07)",
+          "photoCount": 4,
+          "firstAt": "2019-07-02T07:39:31.000Z",
+          "lastAt": "2019-07-02T07:47:51.000Z",
+          "centroidLat": 55.8638038633333,
+          "centroidLon": 9.84107303611111,
+          "city": "Denmark"
+        },
+        {
+          "name": "Bucharest 19 (07)",
+          "photoCount": 4,
+          "firstAt": "2019-07-04T21:41:49.000Z",
+          "lastAt": "2019-07-05T17:49:01.000Z",
+          "centroidLat": 44.4281558988889,
+          "centroidLon": 26.1059093473611,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Istanbul 19",
+          "photoCount": 3,
+          "firstAt": "2019-07-06T18:22:27.000Z",
+          "lastAt": "2019-07-07T10:36:38.000Z",
+          "centroidLat": 41.1098442075,
+          "centroidLon": 29.0306987761111,
+          "city": "Istanbul"
+        },
+        {
+          "name": "Turkey 19",
+          "photoCount": 35,
+          "firstAt": "2019-07-09T14:15:12.000Z",
+          "lastAt": "2019-07-10T12:33:59.000Z",
+          "centroidLat": 36.5342718180976,
+          "centroidLon": 31.998374129680148,
+          "city": "Turkey"
+        },
+        {
+          "name": "Turkey 19 (07)",
+          "photoCount": 14,
+          "firstAt": "2019-07-12T14:10:14.000Z",
+          "lastAt": "2019-07-12T20:48:14.000Z",
+          "centroidLat": 36.54040845222221,
+          "centroidLon": 32.00589625027781,
+          "city": "Turkey"
+        },
+        {
+          "name": "Turkey 19 (07-2)",
+          "photoCount": 18,
+          "firstAt": "2019-07-14T15:43:58.000Z",
+          "lastAt": "2019-07-16T19:20:35.000Z",
+          "centroidLat": 36.81532073010416,
+          "centroidLon": 31.450066923958353,
+          "city": "Turkey"
+        },
+        {
+          "name": "Turkey 19 (07-3)",
+          "photoCount": 2,
+          "firstAt": "2019-07-19T09:50:31.000Z",
+          "lastAt": "2019-07-19T21:23:27.000Z",
+          "centroidLat": 39.4210014341667,
+          "centroidLon": 29.9859008788889,
+          "city": "Turkey"
+        },
+        {
+          "name": "Turkey 19 (07-4)",
+          "photoCount": 3,
+          "firstAt": "2019-07-21T10:48:46.000Z",
+          "lastAt": "2019-07-21T19:35:22.000Z",
+          "centroidLat": 40.9300498961111,
+          "centroidLon": 29.1500778197222,
+          "city": "Turkey"
+        },
+        {
+          "name": "Denmark 19 (07-2)",
+          "photoCount": 20,
+          "firstAt": "2019-07-26T09:06:53.000Z",
+          "lastAt": "2019-07-29T12:45:49.000Z",
+          "centroidLat": 55.82910842883338,
+          "centroidLon": 9.83872604366667,
+          "city": "Denmark"
+        },
+        {
+          "name": "Belgium 19",
+          "photoCount": 199,
+          "firstAt": "2019-07-29T12:48:19.000Z",
+          "lastAt": "2019-08-01T17:49:24.000Z",
+          "centroidLat": 50.39419396702209,
+          "centroidLon": 5.018781744143523,
+          "city": "Belgium"
+        },
+        {
+          "name": "2019-08-03..05 trip",
+          "photoCount": 7,
+          "firstAt": "2019-08-03T08:37:02.000Z",
+          "lastAt": "2019-08-05T12:22:53.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Denmark 19 (08)",
+          "photoCount": 4,
+          "firstAt": "2019-08-07T12:24:09.000Z",
+          "lastAt": "2019-08-08T10:43:18.000Z",
+          "centroidLat": 55.5750923155556,
+          "centroidLon": 9.75190734861111,
+          "city": "Denmark"
+        },
+        {
+          "name": "Vejle 19 (08)",
+          "photoCount": 9,
+          "firstAt": "2019-08-10T09:29:58.000Z",
+          "lastAt": "2019-08-11T13:11:51.000Z",
+          "centroidLat": 55.674624442881964,
+          "centroidLon": 9.583976864652776,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 19 (08-2)",
+          "photoCount": 11,
+          "firstAt": "2019-08-13T10:33:26.000Z",
+          "lastAt": "2019-08-14T13:24:16.000Z",
+          "centroidLat": 55.667255401464665,
+          "centroidLon": 9.595693241338385,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 19 (08-3)",
+          "photoCount": 34,
+          "firstAt": "2019-08-16T09:26:58.000Z",
+          "lastAt": "2019-08-17T12:22:34.000Z",
+          "centroidLat": 55.67618083938369,
+          "centroidLon": 9.579935818758683,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 19 (08-4)",
+          "photoCount": 3,
+          "firstAt": "2019-08-19T12:09:47.000Z",
+          "lastAt": "2019-08-19T12:38:35.000Z",
+          "centroidLat": 55.67605209333337,
+          "centroidLon": 9.581527391944443,
+          "city": "Vejle"
+        },
+        {
+          "name": "Denmark 19 (08-2)",
+          "photoCount": 12,
+          "firstAt": "2019-08-21T12:44:49.000Z",
+          "lastAt": "2019-08-22T19:31:15.000Z",
+          "centroidLat": 55.69360143472225,
+          "centroidLon": 9.60404283338384,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 19 (08-3)",
+          "photoCount": 3,
+          "firstAt": "2019-08-27T18:16:23.000Z",
+          "lastAt": "2019-08-27T18:16:27.000Z",
+          "centroidLat": 55.8658599852778,
+          "centroidLon": 9.84105777722222,
+          "city": "Denmark"
+        },
+        {
+          "name": "Vejle 19 (08-5)",
+          "photoCount": 7,
+          "firstAt": "2019-08-29T11:21:00.000Z",
+          "lastAt": "2019-08-29T12:09:06.000Z",
+          "centroidLat": 55.67674909305559,
+          "centroidLon": 9.580199241507938,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 19 (08-6)",
+          "photoCount": 9,
+          "firstAt": "2019-08-31T10:28:33.000Z",
+          "lastAt": "2019-09-01T12:23:42.000Z",
+          "centroidLat": 55.67569647882717,
+          "centroidLon": 9.580494138796295,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 19 (09)",
+          "photoCount": 7,
+          "firstAt": "2019-09-07T09:34:15.000Z",
+          "lastAt": "2019-09-08T10:35:45.000Z",
+          "centroidLat": 55.675511677962966,
+          "centroidLon": 9.580872535462964,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 19 (09-2)",
+          "photoCount": 6,
+          "firstAt": "2019-09-14T09:43:48.000Z",
+          "lastAt": "2019-09-15T13:48:36.000Z",
+          "centroidLat": 55.67638473500001,
+          "centroidLon": 9.579824638222224,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 19 (09-3)",
+          "photoCount": 8,
+          "firstAt": "2019-09-21T12:22:17.000Z",
+          "lastAt": "2019-09-22T12:53:12.000Z",
+          "centroidLat": 55.67595182134919,
+          "centroidLon": 9.580770492420635,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 19 (09-4)",
+          "photoCount": 11,
+          "firstAt": "2019-09-28T07:17:14.000Z",
+          "lastAt": "2019-09-29T09:31:22.000Z",
+          "centroidLat": 55.67516604323232,
+          "centroidLon": 9.580959926868685,
+          "city": "Vejle"
+        },
+        {
+          "name": "Denmark 19 (10)",
+          "photoCount": 6,
+          "firstAt": "2019-10-04T18:41:11.000Z",
+          "lastAt": "2019-10-06T10:08:41.000Z",
+          "centroidLat": 55.70870971666668,
+          "centroidLon": 9.633185704351853,
+          "city": "Denmark"
+        },
+        {
+          "name": "Vejle 19 (10)",
+          "photoCount": 10,
+          "firstAt": "2019-10-12T05:52:24.000Z",
+          "lastAt": "2019-10-13T09:47:35.000Z",
+          "centroidLat": 55.67631578427085,
+          "centroidLon": 9.579848766215278,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 19 (10-2)",
+          "photoCount": 4,
+          "firstAt": "2019-10-19T08:28:01.000Z",
+          "lastAt": "2019-10-20T07:44:56.000Z",
+          "centroidLat": 55.6747779844444,
+          "centroidLon": 9.58428192111111,
+          "city": "Vejle"
+        },
+        {
+          "name": "Denmark 19 (10-2)",
+          "photoCount": 3,
+          "firstAt": "2019-10-21T20:17:02.000Z",
+          "lastAt": "2019-10-22T12:18:35.000Z",
+          "centroidLat": 55.86794281,
+          "centroidLon": 9.872131347500002,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 19 (10-3)",
+          "photoCount": 2,
+          "firstAt": "2019-10-31T19:28:34.000Z",
+          "lastAt": "2019-10-31T19:28:43.000Z",
+          "centroidLat": 55.8660736083333,
+          "centroidLon": 9.84075260138889,
+          "city": "Denmark"
+        },
+        {
+          "name": "Vejle 19 (11)",
+          "photoCount": 8,
+          "firstAt": "2019-11-03T09:56:08.000Z",
+          "lastAt": "2019-11-03T12:47:08.000Z",
+          "centroidLat": 55.6765213011111,
+          "centroidLon": 9.57990264888889,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 19 (11-2)",
+          "photoCount": 6,
+          "firstAt": "2019-11-09T10:17:50.000Z",
+          "lastAt": "2019-11-09T11:07:22.000Z",
+          "centroidLat": 55.6757691699537,
+          "centroidLon": 9.581300576435185,
+          "city": "Vejle"
+        },
+        {
+          "name": "Denmark 19 (11)",
+          "photoCount": 4,
+          "firstAt": "2019-11-17T11:26:50.000Z",
+          "lastAt": "2019-11-17T18:00:29.000Z",
+          "centroidLat": 56.071115493611124,
+          "centroidLon": 10.030365466875002,
+          "city": "Denmark"
+        },
+        {
+          "name": "Vejle 19 (11-3)",
+          "photoCount": 8,
+          "firstAt": "2019-11-23T11:23:10.000Z",
+          "lastAt": "2019-11-23T13:18:07.000Z",
+          "centroidLat": 55.67675685868055,
+          "centroidLon": 9.580238580486112,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 19 (11-4)",
+          "photoCount": 3,
+          "firstAt": "2019-11-30T09:53:42.000Z",
+          "lastAt": "2019-12-01T07:36:49.000Z",
+          "centroidLat": 55.67621994,
+          "centroidLon": 9.57929134361111,
+          "city": "Vejle"
+        },
+        {
+          "name": "Denmark 19 (12)",
+          "photoCount": 2,
+          "firstAt": "2019-12-04T11:43:34.000Z",
+          "lastAt": "2019-12-04T11:43:36.000Z",
+          "centroidLat": 55.8721084594444,
+          "centroidLon": 9.88646030416667,
+          "city": "Denmark"
+        },
+        {
+          "name": "Vejle 19 (12)",
+          "photoCount": 6,
+          "firstAt": "2019-12-14T07:38:05.000Z",
+          "lastAt": "2019-12-15T07:30:20.000Z",
+          "centroidLat": 55.676946258388895,
+          "centroidLon": 9.578953742777777,
+          "city": "Vejle"
+        }
+      ]
+    },
+    {
+      "year": "2020",
+      "files": 167,
+      "moved": 153,
+      "singletons": 14,
+      "clusters": [
+        {
+          "name": "Vejle 20",
+          "photoCount": 3,
+          "firstAt": "2020-01-05T06:49:16.000Z",
+          "lastAt": "2020-01-05T06:49:30.000Z",
+          "centroidLat": 55.6759910583333,
+          "centroidLon": 9.58221530888889,
+          "city": "Vejle"
+        },
+        {
+          "name": "Denmark 20",
+          "photoCount": 3,
+          "firstAt": "2020-01-24T10:17:31.000Z",
+          "lastAt": "2020-01-24T10:17:41.000Z",
+          "centroidLat": 55.871391296111106,
+          "centroidLon": 9.89932537055556,
+          "city": "Denmark"
+        },
+        {
+          "name": "2020-01-28 trip",
+          "photoCount": 3,
+          "firstAt": "2020-01-28T14:35:47.000Z",
+          "lastAt": "2020-01-28T14:35:54.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Denmark 20 (02)",
+          "photoCount": 11,
+          "firstAt": "2020-02-09T07:09:15.000Z",
+          "lastAt": "2020-02-10T15:31:20.000Z",
+          "centroidLat": 55.85203018180556,
+          "centroidLon": 9.867392444527777,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 20 (02-2)",
+          "photoCount": 5,
+          "firstAt": "2020-02-13T15:23:52.000Z",
+          "lastAt": "2020-02-14T15:45:13.000Z",
+          "centroidLat": 55.868374633722205,
+          "centroidLon": 9.83759212488889,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 20 (02-3)",
+          "photoCount": 8,
+          "firstAt": "2020-02-16T07:39:25.000Z",
+          "lastAt": "2020-02-17T16:12:20.000Z",
+          "centroidLat": 55.816534859682534,
+          "centroidLon": 9.804244177539681,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 20 (02-4)",
+          "photoCount": 10,
+          "firstAt": "2020-02-22T08:07:19.000Z",
+          "lastAt": "2020-02-24T18:52:14.000Z",
+          "centroidLat": 55.84874997809522,
+          "centroidLon": 9.808167593611111,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 20 (03)",
+          "photoCount": 2,
+          "firstAt": "2020-03-24T14:00:16.000Z",
+          "lastAt": "2020-03-24T14:00:50.000Z",
+          "centroidLat": 55.8714179991667,
+          "centroidLon": 9.89923858638889,
+          "city": "Denmark"
+        },
+        {
+          "name": "Vejle 20 (04)",
+          "photoCount": 6,
+          "firstAt": "2020-04-04T07:46:15.000Z",
+          "lastAt": "2020-04-05T09:30:21.000Z",
+          "centroidLat": 55.67483329763888,
+          "centroidLon": 9.582423686875,
+          "city": "Vejle"
+        },
+        {
+          "name": "Denmark 20 (04)",
+          "photoCount": 3,
+          "firstAt": "2020-04-15T22:34:54.000Z",
+          "lastAt": "2020-04-15T22:35:29.000Z",
+          "centroidLat": 55.871440887222235,
+          "centroidLon": 9.899190266851853,
+          "city": "Denmark"
+        },
+        {
+          "name": "Vejle 20 (04-2)",
+          "photoCount": 4,
+          "firstAt": "2020-04-18T09:35:08.000Z",
+          "lastAt": "2020-04-18T09:39:37.000Z",
+          "centroidLat": 55.6761608122222,
+          "centroidLon": 9.580022811805556,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 20 (04-3)",
+          "photoCount": 7,
+          "firstAt": "2020-04-25T09:31:53.000Z",
+          "lastAt": "2020-04-25T10:34:46.000Z",
+          "centroidLat": 55.67606462746031,
+          "centroidLon": 9.581885337738097,
+          "city": "Vejle"
+        },
+        {
+          "name": "Denmark 20 (05)",
+          "photoCount": 20,
+          "firstAt": "2020-05-05T09:54:02.000Z",
+          "lastAt": "2020-05-05T10:22:50.000Z",
+          "centroidLat": 55.87139511090279,
+          "centroidLon": 9.899240159875001,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 20 (05-2)",
+          "photoCount": 4,
+          "firstAt": "2020-05-07T07:59:41.000Z",
+          "lastAt": "2020-05-07T08:00:33.000Z",
+          "centroidLat": 55.87136650069445,
+          "centroidLon": 9.89922857270833,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 20 (05-3)",
+          "photoCount": 12,
+          "firstAt": "2020-05-31T20:01:18.000Z",
+          "lastAt": "2020-05-31T20:04:16.000Z",
+          "centroidLat": 55.87132199590277,
+          "centroidLon": 9.899243195625003,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 20 (06)",
+          "photoCount": 2,
+          "firstAt": "2020-06-12T08:39:20.000Z",
+          "lastAt": "2020-06-12T08:39:21.000Z",
+          "centroidLat": 55.8713302611111,
+          "centroidLon": 9.89927291861111,
+          "city": "Denmark"
+        },
+        {
+          "name": "2020-06-23 trip",
+          "photoCount": 2,
+          "firstAt": "2020-06-23T16:28:04.000Z",
+          "lastAt": "2020-06-23T16:28:12.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Vejle 20 (07)",
+          "photoCount": 4,
+          "firstAt": "2020-07-11T09:54:36.000Z",
+          "lastAt": "2020-07-11T09:54:45.000Z",
+          "centroidLat": 55.6719589233333,
+          "centroidLon": 9.55770492527778,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 20 (07-2)",
+          "photoCount": 3,
+          "firstAt": "2020-07-26T07:43:43.000Z",
+          "lastAt": "2020-07-26T07:44:32.000Z",
+          "centroidLat": 55.6780242919444,
+          "centroidLon": 9.58008766166667,
+          "city": "Vejle"
+        },
+        {
+          "name": "Bucharest 20",
+          "photoCount": 7,
+          "firstAt": "2020-08-10T20:33:44.000Z",
+          "lastAt": "2020-08-10T20:34:10.000Z",
+          "centroidLat": 44.483466556984126,
+          "centroidLon": 26.091610772103138,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Bucharest 20 (08)",
+          "photoCount": 2,
+          "firstAt": "2020-08-13T16:52:56.000Z",
+          "lastAt": "2020-08-14T14:57:40.000Z",
+          "centroidLat": 44.4354019163889,
+          "centroidLon": 26.1215534208333,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Bucharest 20 (08-2)",
+          "photoCount": 6,
+          "firstAt": "2020-08-21T16:42:29.000Z",
+          "lastAt": "2020-08-21T16:43:34.000Z",
+          "centroidLat": 44.43540191638888,
+          "centroidLon": 26.1215715407639,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Denmark 20 (08)",
+          "photoCount": 2,
+          "firstAt": "2020-08-23T14:46:07.000Z",
+          "lastAt": "2020-08-23T23:39:39.000Z",
+          "centroidLat": 55.8714027404167,
+          "centroidLon": 9.899244785138885,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 20 (09)",
+          "photoCount": 2,
+          "firstAt": "2020-09-02T21:24:38.000Z",
+          "lastAt": "2020-09-02T21:25:58.000Z",
+          "centroidLat": 55.8714427945833,
+          "centroidLon": 9.899269103750001,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 20 (09-2)",
+          "photoCount": 4,
+          "firstAt": "2020-09-14T07:52:24.000Z",
+          "lastAt": "2020-09-14T18:24:26.000Z",
+          "centroidLat": 55.8714179991667,
+          "centroidLon": 9.899277210138889,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 20 (09-3)",
+          "photoCount": 6,
+          "firstAt": "2020-09-16T12:07:48.000Z",
+          "lastAt": "2020-09-16T17:23:58.000Z",
+          "centroidLat": 55.8714179991667,
+          "centroidLon": 9.8992557525,
+          "city": "Denmark"
+        },
+        {
+          "name": "Vejle 20 (10)",
+          "photoCount": 2,
+          "firstAt": "2020-10-03T07:41:59.000Z",
+          "lastAt": "2020-10-03T07:42:07.000Z",
+          "centroidLat": 55.6761054991667,
+          "centroidLon": 9.58075332638889,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 20 (10-2)",
+          "photoCount": 2,
+          "firstAt": "2020-10-10T13:48:17.000Z",
+          "lastAt": "2020-10-11T07:04:43.000Z",
+          "centroidLat": 55.6771011351389,
+          "centroidLon": 9.580320835,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 20 (10-3)",
+          "photoCount": 4,
+          "firstAt": "2020-10-17T06:32:55.000Z",
+          "lastAt": "2020-10-18T10:22:41.000Z",
+          "centroidLat": 55.67553234090275,
+          "centroidLon": 9.584412574652777,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 20 (11)",
+          "photoCount": 2,
+          "firstAt": "2020-11-13T20:54:46.000Z",
+          "lastAt": "2020-11-14T11:40:28.000Z",
+          "centroidLat": 55.6782646177778,
+          "centroidLon": 9.58003234861111,
+          "city": "Vejle"
+        },
+        {
+          "name": "Vejle 20 (12)",
+          "photoCount": 2,
+          "firstAt": "2020-12-26T07:05:02.000Z",
+          "lastAt": "2020-12-26T07:51:14.000Z",
+          "centroidLat": 55.67597389208335,
+          "centroidLon": 9.58219909652778,
+          "city": "Vejle"
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "files": 48,
+      "moved": 35,
+      "singletons": 13,
+      "clusters": [
+        {
+          "name": "Vejle 21",
+          "photoCount": 2,
+          "firstAt": "2021-01-03T11:44:18.000Z",
+          "lastAt": "2021-01-03T11:47:07.000Z",
+          "centroidLat": 55.6754417416667,
+          "centroidLon": 9.58128547666667,
+          "city": "Vejle"
+        },
+        {
+          "name": "Denmark 21",
+          "photoCount": 3,
+          "firstAt": "2021-01-21T16:10:47.000Z",
+          "lastAt": "2021-01-21T16:10:55.000Z",
+          "centroidLat": 55.871387481666694,
+          "centroidLon": 9.89915657027778,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 21 (08)",
+          "photoCount": 3,
+          "firstAt": "2021-08-17T21:22:39.000Z",
+          "lastAt": "2021-08-18T20:43:10.000Z",
+          "centroidLat": 55.86365763333333,
+          "centroidLon": 9.831769307314813,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 21 (08-2)",
+          "photoCount": 2,
+          "firstAt": "2021-08-27T12:03:43.000Z",
+          "lastAt": "2021-08-27T12:03:54.000Z",
+          "centroidLat": 55.868383407361094,
+          "centroidLon": 9.83994913097222,
+          "city": "Denmark"
+        },
+        {
+          "name": "Aarhus 21",
+          "photoCount": 4,
+          "firstAt": "2021-11-21T17:38:08.000Z",
+          "lastAt": "2021-11-22T17:12:55.000Z",
+          "centroidLat": 56.1544036863889,
+          "centroidLon": 10.20696401583335,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Denmark 21 (12)",
+          "photoCount": 21,
+          "firstAt": "2021-12-31T12:39:48.000Z",
+          "lastAt": "2021-12-31T21:13:16.000Z",
+          "centroidLat": 55.96311732682542,
+          "centroidLon": 9.872795604378313,
+          "city": "Denmark"
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "files": 995,
+      "moved": 977,
+      "singletons": 18,
+      "clusters": [
+        {
+          "name": "Denmark 22",
+          "photoCount": 3,
+          "firstAt": "2022-02-28T09:48:27.000Z",
+          "lastAt": "2022-03-02T14:24:44.000Z",
+          "centroidLat": 55.8779144286111,
+          "centroidLon": 9.83281183236111,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (03)",
+          "photoCount": 8,
+          "firstAt": "2022-03-04T19:44:06.000Z",
+          "lastAt": "2022-03-04T19:44:57.000Z",
+          "centroidLat": 55.863971709999994,
+          "centroidLon": 9.837374686944441,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (03-2)",
+          "photoCount": 2,
+          "firstAt": "2022-03-23T16:03:26.000Z",
+          "lastAt": "2022-03-23T16:03:28.000Z",
+          "centroidLat": 55.8785972594444,
+          "centroidLon": 9.83582973472222,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (03-3)",
+          "photoCount": 2,
+          "firstAt": "2022-03-29T12:44:57.000Z",
+          "lastAt": "2022-03-29T12:44:58.000Z",
+          "centroidLat": 55.8638381955556,
+          "centroidLon": 9.83764934527778,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (04)",
+          "photoCount": 17,
+          "firstAt": "2022-04-09T13:14:03.000Z",
+          "lastAt": "2022-04-09T13:20:22.000Z",
+          "centroidLat": 56.15594572169937,
+          "centroidLon": 10.007768518660123,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (04-2)",
+          "photoCount": 6,
+          "firstAt": "2022-04-14T17:12:19.000Z",
+          "lastAt": "2022-04-14T17:26:17.000Z",
+          "centroidLat": 55.87860641455554,
+          "centroidLon": 9.835775756722219,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (05)",
+          "photoCount": 2,
+          "firstAt": "2022-05-14T13:41:22.000Z",
+          "lastAt": "2022-05-14T13:41:24.000Z",
+          "centroidLat": 55.8786811827778,
+          "centroidLon": 9.83552742,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (06)",
+          "photoCount": 3,
+          "firstAt": "2022-06-05T15:24:02.000Z",
+          "lastAt": "2022-06-05T15:24:06.000Z",
+          "centroidLat": 56.1244773863889,
+          "centroidLon": 9.71761894222222,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (06-2)",
+          "photoCount": 6,
+          "firstAt": "2022-06-19T11:25:53.000Z",
+          "lastAt": "2022-06-19T11:46:08.000Z",
+          "centroidLat": 56.29136339810183,
+          "centroidLon": 9.10822025925926,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (06-3)",
+          "photoCount": 4,
+          "firstAt": "2022-06-23T19:39:44.000Z",
+          "lastAt": "2022-06-24T16:00:59.000Z",
+          "centroidLat": 56.06358718868057,
+          "centroidLon": 9.193319558958331,
+          "city": "Denmark"
+        },
+        {
+          "name": "Bucharest 22",
+          "photoCount": 6,
+          "firstAt": "2022-07-06T18:51:30.000Z",
+          "lastAt": "2022-07-07T09:50:53.000Z",
+          "centroidLat": 44.4030195871296,
+          "centroidLon": 26.15363852171295,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Greece 22",
+          "photoCount": 29,
+          "firstAt": "2022-07-17T12:54:20.000Z",
+          "lastAt": "2022-07-22T22:38:38.000Z",
+          "centroidLat": 40.82952106681035,
+          "centroidLon": 24.706560176819934,
+          "city": "Greece"
+        },
+        {
+          "name": "Bucharest 22 (07)",
+          "photoCount": 3,
+          "firstAt": "2022-07-31T21:26:54.000Z",
+          "lastAt": "2022-07-31T21:27:09.000Z",
+          "centroidLat": 44.4355316161111,
+          "centroidLon": 26.1213874816667,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Bucharest 22 (08)",
+          "photoCount": 2,
+          "firstAt": "2022-08-02T19:40:14.000Z",
+          "lastAt": "2022-08-03T05:44:50.000Z",
+          "centroidLat": 44.42399597152775,
+          "centroidLon": 26.140765190000003,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Romania 22",
+          "photoCount": 22,
+          "firstAt": "2022-08-05T02:16:10.000Z",
+          "lastAt": "2022-08-09T12:27:42.000Z",
+          "centroidLat": 45.394830226753456,
+          "centroidLon": 25.613885283298607,
+          "city": "Romania"
+        },
+        {
+          "name": "Denmark 22 (08)",
+          "photoCount": 10,
+          "firstAt": "2022-08-10T18:02:04.000Z",
+          "lastAt": "2022-08-10T18:40:09.000Z",
+          "centroidLat": 55.892219533194464,
+          "centroidLon": 9.80815822797222,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (08-2)",
+          "photoCount": 18,
+          "firstAt": "2022-08-12T16:32:28.000Z",
+          "lastAt": "2022-08-13T19:57:47.000Z",
+          "centroidLat": 55.92714034175927,
+          "centroidLon": 9.891647391759257,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (08-3)",
+          "photoCount": 21,
+          "firstAt": "2022-08-19T18:03:37.000Z",
+          "lastAt": "2022-08-20T13:49:44.000Z",
+          "centroidLat": 55.81736646366403,
+          "centroidLon": 9.731065568267198,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (08-4)",
+          "photoCount": 116,
+          "firstAt": "2022-08-25T08:14:56.000Z",
+          "lastAt": "2022-08-29T23:40:45.000Z",
+          "centroidLat": 55.75005505509748,
+          "centroidLon": 9.164014521108669,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (09)",
+          "photoCount": 7,
+          "firstAt": "2022-09-03T15:41:33.000Z",
+          "lastAt": "2022-09-04T10:30:13.000Z",
+          "centroidLat": 56.05766868578706,
+          "centroidLon": 10.089226881527754,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (09-2)",
+          "photoCount": 44,
+          "firstAt": "2022-09-10T13:43:46.000Z",
+          "lastAt": "2022-09-10T17:11:03.000Z",
+          "centroidLat": 56.46903928104938,
+          "centroidLon": 9.145825121018516,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (09-3)",
+          "photoCount": 3,
+          "firstAt": "2022-09-26T16:39:22.000Z",
+          "lastAt": "2022-09-27T11:13:37.000Z",
+          "centroidLat": 56.1295852661111,
+          "centroidLon": 9.02708625777778,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (10)",
+          "photoCount": 11,
+          "firstAt": "2022-10-01T19:05:28.000Z",
+          "lastAt": "2022-10-01T19:59:19.000Z",
+          "centroidLat": 56.14045507247474,
+          "centroidLon": 8.99083059469697,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (10-2)",
+          "photoCount": 5,
+          "firstAt": "2022-10-08T00:34:59.000Z",
+          "lastAt": "2022-10-08T22:32:31.000Z",
+          "centroidLat": 56.135122680499975,
+          "centroidLon": 9.015666580111112,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (10-3)",
+          "photoCount": 26,
+          "firstAt": "2022-10-15T15:08:51.000Z",
+          "lastAt": "2022-10-16T11:30:37.000Z",
+          "centroidLat": 56.26392173753786,
+          "centroidLon": 10.496997052878783,
+          "city": "Denmark"
+        },
+        {
+          "name": "Germany 22",
+          "photoCount": 554,
+          "firstAt": "2022-10-21T09:51:03.000Z",
+          "lastAt": "2022-10-22T17:25:50.000Z",
+          "centroidLat": 53.43030674719089,
+          "centroidLon": 10.012225153194455,
+          "city": "Germany"
+        },
+        {
+          "name": "Denmark 22 (11)",
+          "photoCount": 7,
+          "firstAt": "2022-11-04T23:15:29.000Z",
+          "lastAt": "2022-11-06T01:08:44.000Z",
+          "centroidLat": 56.13633019563492,
+          "centroidLon": 8.976548875833336,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (11-2)",
+          "photoCount": 15,
+          "firstAt": "2022-11-16T21:07:39.000Z",
+          "lastAt": "2022-11-19T19:23:37.000Z",
+          "centroidLat": 56.13082831232144,
+          "centroidLon": 9.6708396501984,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (12)",
+          "photoCount": 2,
+          "firstAt": "2022-12-01T00:33:45.000Z",
+          "lastAt": "2022-12-01T16:59:54.000Z",
+          "centroidLat": 56.00076103194445,
+          "centroidLon": 9.418869972083336,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 22 (12-2)",
+          "photoCount": 4,
+          "firstAt": "2022-12-15T16:54:06.000Z",
+          "lastAt": "2022-12-18T11:49:22.000Z",
+          "centroidLat": 56.13560771930555,
+          "centroidLon": 8.995299577569442,
+          "city": "Denmark"
+        },
+        {
+          "name": "Bucharest 22 (12)",
+          "photoCount": 15,
+          "firstAt": "2022-12-24T01:56:29.000Z",
+          "lastAt": "2022-12-26T21:22:11.000Z",
+          "centroidLat": 44.42984880702382,
+          "centroidLon": 26.122775077698414,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Bucharest 22 (12-2)",
+          "photoCount": 4,
+          "firstAt": "2022-12-28T22:01:13.000Z",
+          "lastAt": "2022-12-29T22:30:56.000Z",
+          "centroidLat": 44.43593597402777,
+          "centroidLon": 26.1197066304861,
+          "city": "Bucharest"
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "files": 1765,
+      "moved": 1746,
+      "singletons": 19,
+      "clusters": [
+        {
+          "name": "Bucharest 23",
+          "photoCount": 5,
+          "firstAt": "2023-01-01T03:31:17.000Z",
+          "lastAt": "2023-01-01T16:14:49.000Z",
+          "centroidLat": 44.422795104777755,
+          "centroidLon": 26.1383190153333,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Denmark 23",
+          "photoCount": 3,
+          "firstAt": "2023-01-09T01:03:18.000Z",
+          "lastAt": "2023-01-09T01:52:02.000Z",
+          "centroidLat": 56.13679758703703,
+          "centroidLon": 8.979570706481487,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (01)",
+          "photoCount": 3,
+          "firstAt": "2023-01-14T23:34:22.000Z",
+          "lastAt": "2023-01-15T13:46:37.000Z",
+          "centroidLat": 56.1358413694444,
+          "centroidLon": 8.97564983361111,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (01-2)",
+          "photoCount": 5,
+          "firstAt": "2023-01-24T14:38:21.000Z",
+          "lastAt": "2023-01-25T21:57:44.000Z",
+          "centroidLat": 56.14120712272224,
+          "centroidLon": 8.988568496555553,
+          "city": "Denmark"
+        },
+        {
+          "name": "Aarhus 23",
+          "photoCount": 5,
+          "firstAt": "2023-01-27T23:40:21.000Z",
+          "lastAt": "2023-01-27T23:40:32.000Z",
+          "centroidLat": 56.158962249722194,
+          "centroidLon": 10.2061834333333,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Denmark 23 (02)",
+          "photoCount": 7,
+          "firstAt": "2023-02-02T07:21:27.000Z",
+          "lastAt": "2023-02-02T14:26:01.000Z",
+          "centroidLat": 55.85494068674607,
+          "centroidLon": 9.846986634246033,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (02-2)",
+          "photoCount": 4,
+          "firstAt": "2023-02-06T13:02:08.000Z",
+          "lastAt": "2023-02-06T13:45:52.000Z",
+          "centroidLat": 56.12965965263889,
+          "centroidLon": 9.02722024902778,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (02-3)",
+          "photoCount": 14,
+          "firstAt": "2023-02-08T09:45:28.000Z",
+          "lastAt": "2023-02-08T09:46:59.000Z",
+          "centroidLat": 56.1431503294444,
+          "centroidLon": 8.991990089166674,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (02-4)",
+          "photoCount": 111,
+          "firstAt": "2023-02-10T07:15:20.000Z",
+          "lastAt": "2023-02-13T00:27:47.000Z",
+          "centroidLat": 55.87653658455646,
+          "centroidLon": 8.334329051200713,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (02-5)",
+          "photoCount": 2,
+          "firstAt": "2023-02-14T15:13:58.000Z",
+          "lastAt": "2023-02-14T22:10:01.000Z",
+          "centroidLat": 56.12626075736115,
+          "centroidLon": 9.025224685555553,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (02-6)",
+          "photoCount": 12,
+          "firstAt": "2023-02-16T15:41:49.000Z",
+          "lastAt": "2023-02-17T09:38:24.000Z",
+          "centroidLat": 55.84760006969697,
+          "centroidLon": 9.846119273636361,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (02-7)",
+          "photoCount": 18,
+          "firstAt": "2023-02-20T12:26:38.000Z",
+          "lastAt": "2023-02-23T14:31:18.000Z",
+          "centroidLat": 56.041004816543214,
+          "centroidLon": 9.037058989074076,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (02-8)",
+          "photoCount": 11,
+          "firstAt": "2023-02-25T20:58:18.000Z",
+          "lastAt": "2023-03-01T15:30:06.000Z",
+          "centroidLat": 55.81216964708334,
+          "centroidLon": 9.23588170986111,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (03)",
+          "photoCount": 33,
+          "firstAt": "2023-03-03T15:38:43.000Z",
+          "lastAt": "2023-03-07T16:10:13.000Z",
+          "centroidLat": 56.129623770590236,
+          "centroidLon": 9.576798826354171,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (03-2)",
+          "photoCount": 11,
+          "firstAt": "2023-03-13T21:11:25.000Z",
+          "lastAt": "2023-03-16T14:34:40.000Z",
+          "centroidLat": 56.14448127736114,
+          "centroidLon": 9.002902889166666,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (03-3)",
+          "photoCount": 10,
+          "firstAt": "2023-03-20T12:02:06.000Z",
+          "lastAt": "2023-03-22T14:11:14.000Z",
+          "centroidLat": 56.12712309080249,
+          "centroidLon": 9.016333367962961,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (03-4)",
+          "photoCount": 6,
+          "firstAt": "2023-03-26T16:51:54.000Z",
+          "lastAt": "2023-03-27T12:40:32.000Z",
+          "centroidLat": 56.129484812361085,
+          "centroidLon": 9.027744928935183,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (03-5)",
+          "photoCount": 7,
+          "firstAt": "2023-03-29T14:56:37.000Z",
+          "lastAt": "2023-04-01T10:57:10.000Z",
+          "centroidLat": 56.13370068861107,
+          "centroidLon": 9.00701586388889,
+          "city": "Denmark"
+        },
+        {
+          "name": "Milan 23",
+          "photoCount": 484,
+          "firstAt": "2023-04-02T08:45:49.000Z",
+          "lastAt": "2023-04-05T21:24:47.000Z",
+          "centroidLat": 45.49457184984913,
+          "centroidLon": 9.243431344239035,
+          "city": "Milan"
+        },
+        {
+          "name": "Aarhus 23 (04)",
+          "photoCount": 19,
+          "firstAt": "2023-04-08T11:54:18.000Z",
+          "lastAt": "2023-04-08T14:02:55.000Z",
+          "centroidLat": 56.14884079817901,
+          "centroidLon": 10.195705678626544,
+          "city": "Aarhus"
+        },
+        {
+          "name": "2023-04-17..19 trip",
+          "photoCount": 10,
+          "firstAt": "2023-04-17T10:11:01.000Z",
+          "lastAt": "2023-04-19T21:53:29.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Denmark 23 (04)",
+          "photoCount": 27,
+          "firstAt": "2023-04-22T23:26:51.000Z",
+          "lastAt": "2023-04-25T10:13:57.000Z",
+          "centroidLat": 56.1285438536111,
+          "centroidLon": 9.03217697138889,
+          "city": "Denmark"
+        },
+        {
+          "name": "2023-05-07 trip",
+          "photoCount": 7,
+          "firstAt": "2023-05-07T01:23:23.000Z",
+          "lastAt": "2023-05-07T01:24:29.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Denmark 23 (05)",
+          "photoCount": 11,
+          "firstAt": "2023-05-08T21:03:59.000Z",
+          "lastAt": "2023-05-12T21:01:21.000Z",
+          "centroidLat": 56.25421206148149,
+          "centroidLon": 8.817770004212962,
+          "city": "Denmark"
+        },
+        {
+          "name": "2023-05-14..15 trip",
+          "photoCount": 2,
+          "firstAt": "2023-05-14T22:15:45.000Z",
+          "lastAt": "2023-05-15T12:19:28.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-05-24 trip",
+          "photoCount": 4,
+          "firstAt": "2023-05-24T11:48:02.000Z",
+          "lastAt": "2023-05-24T11:48:40.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Denmark 23 (06)",
+          "photoCount": 11,
+          "firstAt": "2023-06-07T05:54:01.000Z",
+          "lastAt": "2023-06-07T19:51:55.000Z",
+          "centroidLat": 56.1404685972222,
+          "centroidLon": 8.99102878555555,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (06-2)",
+          "photoCount": 11,
+          "firstAt": "2023-06-10T03:35:34.000Z",
+          "lastAt": "2023-06-10T03:38:25.000Z",
+          "centroidLat": 56.14041657873738,
+          "centroidLon": 8.990597551363635,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (06-3)",
+          "photoCount": 19,
+          "firstAt": "2023-06-14T12:53:37.000Z",
+          "lastAt": "2023-06-16T20:01:16.000Z",
+          "centroidLat": 55.97198181133332,
+          "centroidLon": 9.505160712944447,
+          "city": "Denmark"
+        },
+        {
+          "name": "2023-06-19..20 trip",
+          "photoCount": 9,
+          "firstAt": "2023-06-19T09:43:40.000Z",
+          "lastAt": "2023-06-20T23:19:40.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Aarhus 23 (06)",
+          "photoCount": 3,
+          "firstAt": "2023-06-23T22:07:36.000Z",
+          "lastAt": "2023-06-23T22:09:38.000Z",
+          "centroidLat": 56.16844050083336,
+          "centroidLon": 10.226823806574101,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Denmark 23 (07)",
+          "photoCount": 8,
+          "firstAt": "2023-07-03T17:40:54.000Z",
+          "lastAt": "2023-07-03T21:01:05.000Z",
+          "centroidLat": 56.12822580326388,
+          "centroidLon": 9.031564235486108,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (07-2)",
+          "photoCount": 11,
+          "firstAt": "2023-07-05T13:24:37.000Z",
+          "lastAt": "2023-07-06T06:00:32.000Z",
+          "centroidLat": 56.13472112009257,
+          "centroidLon": 9.009639421944447,
+          "city": "Denmark"
+        },
+        {
+          "name": "UK 23",
+          "photoCount": 2,
+          "firstAt": "2023-07-06T07:18:37.000Z",
+          "lastAt": "2023-07-06T07:18:43.000Z",
+          "centroidLat": 55.94865036,
+          "centroidLon": -3.3629484175,
+          "city": "UK"
+        },
+        {
+          "name": "Greece 23",
+          "photoCount": 6,
+          "firstAt": "2023-07-06T17:23:04.000Z",
+          "lastAt": "2023-07-06T19:11:16.000Z",
+          "centroidLat": 37.9563713071528,
+          "centroidLon": 23.970817565833322,
+          "city": "Greece"
+        },
+        {
+          "name": "Greece 23 (07)",
+          "photoCount": 19,
+          "firstAt": "2023-07-07T10:01:12.000Z",
+          "lastAt": "2023-07-08T14:15:59.000Z",
+          "centroidLat": 39.94991322561404,
+          "centroidLon": 26.5124732568275,
+          "city": "Greece"
+        },
+        {
+          "name": "Greece 23 (07-2)",
+          "photoCount": 157,
+          "firstAt": "2023-07-09T16:08:39.000Z",
+          "lastAt": "2023-07-14T20:41:49.000Z",
+          "centroidLat": 37.89922596187499,
+          "centroidLon": 27.79305188614034,
+          "city": "Greece"
+        },
+        {
+          "name": "Istanbul 23",
+          "photoCount": 128,
+          "firstAt": "2023-07-15T16:56:18.000Z",
+          "lastAt": "2023-07-18T11:07:05.000Z",
+          "centroidLat": 41.01086278065308,
+          "centroidLon": 28.9752521213948,
+          "city": "Istanbul"
+        },
+        {
+          "name": "Romania 23",
+          "photoCount": 4,
+          "firstAt": "2023-07-18T19:45:29.000Z",
+          "lastAt": "2023-07-18T20:19:36.000Z",
+          "centroidLat": 43.87413787833334,
+          "centroidLon": 25.96725511534725,
+          "city": "Romania"
+        },
+        {
+          "name": "Aarhus 23 (07)",
+          "photoCount": 8,
+          "firstAt": "2023-07-23T12:08:45.000Z",
+          "lastAt": "2023-07-24T12:43:02.000Z",
+          "centroidLat": 56.17152023305561,
+          "centroidLon": 10.2037801741667,
+          "city": "Aarhus"
+        },
+        {
+          "name": "2023-07-31 trip",
+          "photoCount": 4,
+          "firstAt": "2023-07-31T10:59:46.000Z",
+          "lastAt": "2023-07-31T11:00:07.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Denmark 23 (08)",
+          "photoCount": 3,
+          "firstAt": "2023-08-03T20:09:04.000Z",
+          "lastAt": "2023-08-05T00:49:01.000Z",
+          "centroidLat": 56.1357994077778,
+          "centroidLon": 8.9781217575,
+          "city": "Denmark"
+        },
+        {
+          "name": "Aarhus 23 (08)",
+          "photoCount": 2,
+          "firstAt": "2023-08-11T09:50:41.000Z",
+          "lastAt": "2023-08-11T09:50:42.000Z",
+          "centroidLat": 56.1715202330556,
+          "centroidLon": 10.2037801741667,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Denmark 23 (08-2)",
+          "photoCount": 4,
+          "firstAt": "2023-08-12T23:41:22.000Z",
+          "lastAt": "2023-08-14T15:16:36.000Z",
+          "centroidLat": 56.042177200138894,
+          "centroidLon": 9.026798248124997,
+          "city": "Denmark"
+        },
+        {
+          "name": "Brasov region 23",
+          "photoCount": 14,
+          "firstAt": "2023-08-16T09:58:37.000Z",
+          "lastAt": "2023-08-18T13:39:12.000Z",
+          "centroidLat": 45.51221143264958,
+          "centroidLon": 25.563969391965827,
+          "city": "Brașov region"
+        },
+        {
+          "name": "Brasov region 23 (08)",
+          "photoCount": 255,
+          "firstAt": "2023-08-20T17:33:43.000Z",
+          "lastAt": "2023-08-29T20:00:45.000Z",
+          "centroidLat": 45.458618197510916,
+          "centroidLon": 25.314056015514183,
+          "city": "Brașov region"
+        },
+        {
+          "name": "Denmark 23 (09)",
+          "photoCount": 2,
+          "firstAt": "2023-09-01T09:06:53.000Z",
+          "lastAt": "2023-09-01T12:29:09.000Z",
+          "centroidLat": 56.128924999999995,
+          "centroidLon": 9.025819444444444,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (09-2)",
+          "photoCount": 3,
+          "firstAt": "2023-09-09T14:51:42.000Z",
+          "lastAt": "2023-09-09T23:49:04.000Z",
+          "centroidLat": 56.132647222222204,
+          "centroidLon": 9.00245138888889,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (09-3)",
+          "photoCount": 2,
+          "firstAt": "2023-09-11T17:29:36.000Z",
+          "lastAt": "2023-09-12T07:01:51.000Z",
+          "centroidLat": 55.85382361111115,
+          "centroidLon": 9.84425,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 23 (09-4)",
+          "photoCount": 8,
+          "firstAt": "2023-09-22T13:29:13.000Z",
+          "lastAt": "2023-09-26T18:22:45.000Z",
+          "centroidLat": 56.00874246031746,
+          "centroidLon": 9.364347222222225,
+          "city": "Denmark"
+        },
+        {
+          "name": "2023-10-06..07 trip",
+          "photoCount": 4,
+          "firstAt": "2023-10-06T13:26:08.000Z",
+          "lastAt": "2023-10-07T11:42:01.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-10-20..22 trip",
+          "photoCount": 9,
+          "firstAt": "2023-10-20T21:28:20.000Z",
+          "lastAt": "2023-10-22T16:34:43.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-10-25..26 trip",
+          "photoCount": 5,
+          "firstAt": "2023-10-25T23:28:55.000Z",
+          "lastAt": "2023-10-26T18:49:17.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-11-04..05 trip",
+          "photoCount": 8,
+          "firstAt": "2023-11-04T22:13:15.000Z",
+          "lastAt": "2023-11-05T19:11:47.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-11-12..13 trip",
+          "photoCount": 6,
+          "firstAt": "2023-11-12T12:46:33.000Z",
+          "lastAt": "2023-11-13T10:33:37.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-11-18..21 trip",
+          "photoCount": 22,
+          "firstAt": "2023-11-18T20:14:32.000Z",
+          "lastAt": "2023-11-21T20:18:08.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-11-23..25 trip",
+          "photoCount": 37,
+          "firstAt": "2023-11-23T08:36:45.000Z",
+          "lastAt": "2023-11-25T00:06:38.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-11-26..30 trip",
+          "photoCount": 30,
+          "firstAt": "2023-11-26T16:07:40.000Z",
+          "lastAt": "2023-11-30T14:19:13.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-12-04 trip",
+          "photoCount": 13,
+          "firstAt": "2023-12-04T17:58:21.000Z",
+          "lastAt": "2023-12-04T23:12:54.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-12-07 trip",
+          "photoCount": 13,
+          "firstAt": "2023-12-07T12:52:24.000Z",
+          "lastAt": "2023-12-07T15:25:41.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-12-09 trip",
+          "photoCount": 2,
+          "firstAt": "2023-12-09T11:37:25.000Z",
+          "lastAt": "2023-12-09T11:37:35.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-12-15 trip",
+          "photoCount": 2,
+          "firstAt": "2023-12-15T07:12:34.000Z",
+          "lastAt": "2023-12-15T07:12:36.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-12-17 trip",
+          "photoCount": 2,
+          "firstAt": "2023-12-17T18:29:26.000Z",
+          "lastAt": "2023-12-17T19:36:27.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-12-22 trip",
+          "photoCount": 6,
+          "firstAt": "2023-12-22T09:45:31.000Z",
+          "lastAt": "2023-12-22T20:37:05.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-12-26 trip",
+          "photoCount": 14,
+          "firstAt": "2023-12-26T16:03:04.000Z",
+          "lastAt": "2023-12-26T18:44:51.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2023-12-28..31 trip",
+          "photoCount": 49,
+          "firstAt": "2023-12-28T20:26:05.000Z",
+          "lastAt": "2023-12-31T18:40:46.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "files": 677,
+      "moved": 656,
+      "singletons": 21,
+      "clusters": [
+        {
+          "name": "2024-01-01..02 trip",
+          "photoCount": 45,
+          "firstAt": "2024-01-01T18:20:02.000Z",
+          "lastAt": "2024-01-02T19:27:02.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-01-09 trip",
+          "photoCount": 2,
+          "firstAt": "2024-01-09T08:17:52.000Z",
+          "lastAt": "2024-01-09T14:44:10.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-01-14 trip",
+          "photoCount": 2,
+          "firstAt": "2024-01-14T16:17:34.000Z",
+          "lastAt": "2024-01-14T22:22:30.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-01-16..17 trip",
+          "photoCount": 3,
+          "firstAt": "2024-01-16T19:54:02.000Z",
+          "lastAt": "2024-01-17T13:58:32.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-01-20..22 trip",
+          "photoCount": 15,
+          "firstAt": "2024-01-20T18:01:22.000Z",
+          "lastAt": "2024-01-22T19:40:10.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-01-25..26 trip",
+          "photoCount": 20,
+          "firstAt": "2024-01-25T12:15:03.000Z",
+          "lastAt": "2024-01-26T23:21:47.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-01-30 trip",
+          "photoCount": 4,
+          "firstAt": "2024-01-30T15:48:28.000Z",
+          "lastAt": "2024-01-30T20:59:45.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-02-04 trip",
+          "photoCount": 2,
+          "firstAt": "2024-02-04T22:34:18.000Z",
+          "lastAt": "2024-02-04T22:34:19.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-02-16..22 trip",
+          "photoCount": 16,
+          "firstAt": "2024-02-16T11:59:01.000Z",
+          "lastAt": "2024-02-22T21:28:09.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-02-27..03-02 trip",
+          "photoCount": 19,
+          "firstAt": "2024-02-27T19:53:28.000Z",
+          "lastAt": "2024-03-02T22:52:07.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-03-06..08 trip",
+          "photoCount": 9,
+          "firstAt": "2024-03-06T13:47:48.000Z",
+          "lastAt": "2024-03-08T16:59:43.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-03-13 trip",
+          "photoCount": 2,
+          "firstAt": "2024-03-13T07:16:01.000Z",
+          "lastAt": "2024-03-13T07:16:02.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-03-15..16 trip",
+          "photoCount": 13,
+          "firstAt": "2024-03-15T10:44:59.000Z",
+          "lastAt": "2024-03-16T12:46:26.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-03-19 trip",
+          "photoCount": 2,
+          "firstAt": "2024-03-19T07:12:11.000Z",
+          "lastAt": "2024-03-19T07:12:14.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-03-28..04-02 trip",
+          "photoCount": 168,
+          "firstAt": "2024-03-28T13:56:55.000Z",
+          "lastAt": "2024-04-02T19:28:24.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-04-22..23 trip",
+          "photoCount": 2,
+          "firstAt": "2024-04-22T17:59:15.000Z",
+          "lastAt": "2024-04-23T09:44:43.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-04-28..30 trip",
+          "photoCount": 8,
+          "firstAt": "2024-04-28T00:01:15.000Z",
+          "lastAt": "2024-04-30T19:39:44.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-05-08..09 trip",
+          "photoCount": 13,
+          "firstAt": "2024-05-08T08:49:03.000Z",
+          "lastAt": "2024-05-09T09:59:59.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-05-11 trip",
+          "photoCount": 11,
+          "firstAt": "2024-05-11T21:36:50.000Z",
+          "lastAt": "2024-05-11T21:38:12.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-05-17..18 trip",
+          "photoCount": 8,
+          "firstAt": "2024-05-17T18:41:19.000Z",
+          "lastAt": "2024-05-18T21:24:06.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-05-21..22 trip",
+          "photoCount": 2,
+          "firstAt": "2024-05-21T08:14:46.000Z",
+          "lastAt": "2024-05-22T19:19:19.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-05-25 trip",
+          "photoCount": 10,
+          "firstAt": "2024-05-25T16:46:25.000Z",
+          "lastAt": "2024-05-25T19:10:41.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-06-14..15 trip",
+          "photoCount": 2,
+          "firstAt": "2024-06-14T19:07:55.000Z",
+          "lastAt": "2024-06-15T12:25:00.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-06-19..23 trip",
+          "photoCount": 13,
+          "firstAt": "2024-06-19T13:25:38.000Z",
+          "lastAt": "2024-06-23T01:06:58.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-07-03 trip",
+          "photoCount": 2,
+          "firstAt": "2024-07-03T15:35:04.000Z",
+          "lastAt": "2024-07-03T15:35:47.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-07-17..19 trip",
+          "photoCount": 6,
+          "firstAt": "2024-07-17T09:02:26.000Z",
+          "lastAt": "2024-07-19T08:25:03.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-07-26..27 trip",
+          "photoCount": 2,
+          "firstAt": "2024-07-26T09:21:13.000Z",
+          "lastAt": "2024-07-27T13:56:12.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-07-29..30 trip",
+          "photoCount": 2,
+          "firstAt": "2024-07-29T13:18:24.000Z",
+          "lastAt": "2024-07-30T14:51:33.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-08-05..09 trip",
+          "photoCount": 15,
+          "firstAt": "2024-08-05T12:00:37.000Z",
+          "lastAt": "2024-08-09T13:34:10.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-08-25 trip",
+          "photoCount": 7,
+          "firstAt": "2024-08-25T13:45:50.000Z",
+          "lastAt": "2024-08-25T20:27:48.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-08-30..09-02 trip",
+          "photoCount": 33,
+          "firstAt": "2024-08-30T15:05:08.000Z",
+          "lastAt": "2024-09-02T23:08:25.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-09-04 trip",
+          "photoCount": 3,
+          "firstAt": "2024-09-04T12:59:08.000Z",
+          "lastAt": "2024-09-04T13:25:06.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-09-09..11 trip",
+          "photoCount": 9,
+          "firstAt": "2024-09-09T11:10:10.000Z",
+          "lastAt": "2024-09-11T21:01:40.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "2024-09-14..15 trip",
+          "photoCount": 3,
+          "firstAt": "2024-09-14T18:52:07.000Z",
+          "lastAt": "2024-09-15T12:28:13.000Z",
+          "centroidLat": null,
+          "centroidLon": null,
+          "city": null
+        },
+        {
+          "name": "Greece 24",
+          "photoCount": 81,
+          "firstAt": "2024-09-18T12:38:21.000Z",
+          "lastAt": "2024-09-20T19:06:01.000Z",
+          "centroidLat": 39.94933628257888,
+          "centroidLon": 20.05681032235942,
+          "city": "Greece"
+        },
+        {
+          "name": "Greece 24 (09)",
+          "photoCount": 34,
+          "firstAt": "2024-09-22T20:20:39.000Z",
+          "lastAt": "2024-09-24T18:58:04.000Z",
+          "centroidLat": 40.13635024509806,
+          "centroidLon": 20.112001633986928,
+          "city": "Greece"
+        },
+        {
+          "name": "Romania 24",
+          "photoCount": 11,
+          "firstAt": "2024-09-26T13:05:01.000Z",
+          "lastAt": "2024-09-29T00:50:44.000Z",
+          "centroidLat": 44.5526297979798,
+          "centroidLon": 26.06495227272726,
+          "city": "Romania"
+        },
+        {
+          "name": "Denmark 24",
+          "photoCount": 11,
+          "firstAt": "2024-09-30T12:50:48.000Z",
+          "lastAt": "2024-10-01T20:24:24.000Z",
+          "centroidLat": 55.80094191919193,
+          "centroidLon": 10.299306313131313,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 24 (10)",
+          "photoCount": 6,
+          "firstAt": "2024-10-13T00:45:39.000Z",
+          "lastAt": "2024-10-14T20:37:37.000Z",
+          "centroidLat": 55.867389351851834,
+          "centroidLon": 9.844865740740739,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 24 (10-2)",
+          "photoCount": 4,
+          "firstAt": "2024-10-21T20:04:44.000Z",
+          "lastAt": "2024-10-21T20:04:51.000Z",
+          "centroidLat": 55.8703,
+          "centroidLon": 9.84007777777778,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 24 (11)",
+          "photoCount": 7,
+          "firstAt": "2024-11-02T19:16:01.000Z",
+          "lastAt": "2024-11-03T09:43:39.000Z",
+          "centroidLat": 55.86419761904758,
+          "centroidLon": 9.853334126984127,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 24 (11-2)",
+          "photoCount": 4,
+          "firstAt": "2024-11-17T13:22:51.000Z",
+          "lastAt": "2024-11-17T16:12:28.000Z",
+          "centroidLat": 56.0283263888889,
+          "centroidLon": 10.015953472222238,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 24 (12)",
+          "photoCount": 2,
+          "firstAt": "2024-12-06T20:43:48.000Z",
+          "lastAt": "2024-12-07T20:17:33.000Z",
+          "centroidLat": 55.8786597222222,
+          "centroidLon": 9.83550972222222,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 24 (12-2)",
+          "photoCount": 17,
+          "firstAt": "2024-12-13T12:11:28.000Z",
+          "lastAt": "2024-12-14T15:17:44.000Z",
+          "centroidLat": 55.694526633986946,
+          "centroidLon": 12.236924999999989,
+          "city": "Denmark"
+        },
+        {
+          "name": "Aarhus 24",
+          "photoCount": 2,
+          "firstAt": "2024-12-16T16:24:33.000Z",
+          "lastAt": "2024-12-16T16:24:34.000Z",
+          "centroidLat": 56.15375,
+          "centroidLon": 10.2058444444444,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Denmark 24 (12-3)",
+          "photoCount": 2,
+          "firstAt": "2024-12-19T19:09:11.000Z",
+          "lastAt": "2024-12-19T19:28:41.000Z",
+          "centroidLat": 55.8691486111111,
+          "centroidLon": 9.843305555555556,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 24 (12-4)",
+          "photoCount": 2,
+          "firstAt": "2024-12-21T14:48:47.000Z",
+          "lastAt": "2024-12-21T16:50:31.000Z",
+          "centroidLat": 55.85804166666665,
+          "centroidLon": 9.851706944444445,
+          "city": "Denmark"
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "files": 1701,
+      "moved": 1684,
+      "singletons": 14,
+      "clusters": [
+        {
+          "name": "Denmark 25",
+          "photoCount": 4,
+          "firstAt": "2025-01-01T00:00:07.000Z",
+          "lastAt": "2025-01-01T00:00:11.000Z",
+          "centroidLat": 55.8691222222222,
+          "centroidLon": 9.84329722222222,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 25 (01)",
+          "photoCount": 2,
+          "firstAt": "2025-01-08T19:14:06.000Z",
+          "lastAt": "2025-01-08T19:19:43.000Z",
+          "centroidLat": 55.8691611111111,
+          "centroidLon": 9.84331111111111,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 25 (01-2)",
+          "photoCount": 4,
+          "firstAt": "2025-01-12T21:23:41.000Z",
+          "lastAt": "2025-01-12T21:23:59.000Z",
+          "centroidLat": 55.8691638888889,
+          "centroidLon": 9.84330555555556,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 25 (01-3)",
+          "photoCount": 8,
+          "firstAt": "2025-01-14T15:10:43.000Z",
+          "lastAt": "2025-01-15T21:45:47.000Z",
+          "centroidLat": 55.9047329861111,
+          "centroidLon": 9.888636458333334,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 25 (01-4)",
+          "photoCount": 3,
+          "firstAt": "2025-01-18T13:55:51.000Z",
+          "lastAt": "2025-01-18T15:17:28.000Z",
+          "centroidLat": 55.98295555555554,
+          "centroidLon": 9.897114814814827,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 25 (01-5)",
+          "photoCount": 32,
+          "firstAt": "2025-01-20T13:33:30.000Z",
+          "lastAt": "2025-01-24T12:31:24.000Z",
+          "centroidLat": 56.02306649305553,
+          "centroidLon": 12.597336458333329,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 25 (01-6)",
+          "photoCount": 8,
+          "firstAt": "2025-01-26T15:42:13.000Z",
+          "lastAt": "2025-01-26T16:57:29.000Z",
+          "centroidLat": 55.86942013888892,
+          "centroidLon": 9.84856076388889,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 25 (02)",
+          "photoCount": 7,
+          "firstAt": "2025-02-01T12:30:46.000Z",
+          "lastAt": "2025-02-04T07:07:04.000Z",
+          "centroidLat": 55.69927738095237,
+          "centroidLon": 12.18799325396823,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 25 (02-2)",
+          "photoCount": 31,
+          "firstAt": "2025-02-07T11:26:54.000Z",
+          "lastAt": "2025-02-12T16:08:03.000Z",
+          "centroidLat": 55.94327616487457,
+          "centroidLon": 9.934305734767031,
+          "city": "Denmark"
+        },
+        {
+          "name": "Copenhagen 25",
+          "photoCount": 2,
+          "firstAt": "2025-02-20T19:06:56.000Z",
+          "lastAt": "2025-02-20T19:07:03.000Z",
+          "centroidLat": 55.6283583333333,
+          "centroidLon": 12.6407333333333,
+          "city": "Copenhagen"
+        },
+        {
+          "name": "Helsinki 25",
+          "photoCount": 29,
+          "firstAt": "2025-02-21T15:02:58.000Z",
+          "lastAt": "2025-02-23T17:21:31.000Z",
+          "centroidLat": 60.17508132183909,
+          "centroidLon": 24.949938601532576,
+          "city": "Helsinki"
+        },
+        {
+          "name": "Denmark 25 (03)",
+          "photoCount": 5,
+          "firstAt": "2025-03-03T15:01:36.000Z",
+          "lastAt": "2025-03-04T23:39:10.000Z",
+          "centroidLat": 55.8691416666667,
+          "centroidLon": 9.84333055555556,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 25 (03-2)",
+          "photoCount": 6,
+          "firstAt": "2025-03-09T18:29:03.000Z",
+          "lastAt": "2025-03-11T22:40:31.000Z",
+          "centroidLat": 55.869165277777746,
+          "centroidLon": 9.843372685185185,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 25 (03-3)",
+          "photoCount": 7,
+          "firstAt": "2025-03-17T20:59:04.000Z",
+          "lastAt": "2025-03-20T13:15:25.000Z",
+          "centroidLat": 55.86913650793651,
+          "centroidLon": 9.843318253968254,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 25 (03-4)",
+          "photoCount": 5,
+          "firstAt": "2025-03-22T10:37:32.000Z",
+          "lastAt": "2025-03-22T14:39:28.000Z",
+          "centroidLat": 55.99482166666665,
+          "centroidLon": 9.978745555555573,
+          "city": "Denmark"
+        },
+        {
+          "name": "Bucharest 25",
+          "photoCount": 6,
+          "firstAt": "2025-03-24T13:19:36.000Z",
+          "lastAt": "2025-03-24T13:20:11.000Z",
+          "centroidLat": 44.4353527777778,
+          "centroidLon": 26.1213472222222,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Bucharest 25 (03)",
+          "photoCount": 151,
+          "firstAt": "2025-03-30T13:04:46.000Z",
+          "lastAt": "2025-03-31T21:20:07.000Z",
+          "centroidLat": 44.49356215967621,
+          "centroidLon": 26.064400110375285,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Bucharest 25 (04)",
+          "photoCount": 2,
+          "firstAt": "2025-04-02T22:29:18.000Z",
+          "lastAt": "2025-04-02T22:29:29.000Z",
+          "centroidLat": 44.43542222222225,
+          "centroidLon": 26.121490277777802,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Denmark 25 (04)",
+          "photoCount": 2,
+          "firstAt": "2025-04-09T21:25:03.000Z",
+          "lastAt": "2025-04-10T18:00:11.000Z",
+          "centroidLat": 55.9562236111111,
+          "centroidLon": 9.884265277777779,
+          "city": "Denmark"
+        },
+        {
+          "name": "Copenhagen 25 (04)",
+          "photoCount": 7,
+          "firstAt": "2025-04-12T19:21:12.000Z",
+          "lastAt": "2025-04-12T20:25:24.000Z",
+          "centroidLat": 55.627016666666655,
+          "centroidLon": 12.648193650793672,
+          "city": "Copenhagen"
+        },
+        {
+          "name": "Austria 25",
+          "photoCount": 389,
+          "firstAt": "2025-04-12T23:14:04.000Z",
+          "lastAt": "2025-04-16T16:38:00.000Z",
+          "centroidLat": 48.24526729505861,
+          "centroidLon": 16.96836988003426,
+          "city": "Austria"
+        },
+        {
+          "name": "Poland 25",
+          "photoCount": 364,
+          "firstAt": "2025-04-16T21:21:24.000Z",
+          "lastAt": "2025-04-23T20:39:55.000Z",
+          "centroidLat": 49.75215203754568,
+          "centroidLon": 19.589719757325987,
+          "city": "Poland"
+        },
+        {
+          "name": "Austria 25 (04)",
+          "photoCount": 18,
+          "firstAt": "2025-04-24T15:50:27.000Z",
+          "lastAt": "2025-04-26T15:25:08.000Z",
+          "centroidLat": 48.77191882716052,
+          "centroidLon": 16.394077469135816,
+          "city": "Austria"
+        },
+        {
+          "name": "Denmark 25 (04-2)",
+          "photoCount": 10,
+          "firstAt": "2025-04-27T18:21:32.000Z",
+          "lastAt": "2025-04-30T20:18:07.000Z",
+          "centroidLat": 55.897890833333314,
+          "centroidLon": 9.879381944444443,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 25 (05)",
+          "photoCount": 3,
+          "firstAt": "2025-05-05T13:25:00.000Z",
+          "lastAt": "2025-05-06T18:53:01.000Z",
+          "centroidLat": 55.86553611111113,
+          "centroidLon": 9.84199259259259,
+          "city": "Denmark"
+        },
+        {
+          "name": "Aarhus 25",
+          "photoCount": 8,
+          "firstAt": "2025-05-16T17:11:56.000Z",
+          "lastAt": "2025-05-18T02:09:56.000Z",
+          "centroidLat": 56.11801736111113,
+          "centroidLon": 10.151792013888851,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (05)",
+          "photoCount": 2,
+          "firstAt": "2025-05-22T18:32:20.000Z",
+          "lastAt": "2025-05-23T12:14:23.000Z",
+          "centroidLat": 56.179209722222254,
+          "centroidLon": 10.221409722222251,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Denmark 25 (05-2)",
+          "photoCount": 19,
+          "firstAt": "2025-05-25T13:31:36.000Z",
+          "lastAt": "2025-05-29T01:02:42.000Z",
+          "centroidLat": 56.02780994152047,
+          "centroidLon": 10.968312280701756,
+          "city": "Denmark"
+        },
+        {
+          "name": "Denmark 25 (06)",
+          "photoCount": 10,
+          "firstAt": "2025-06-01T01:14:00.000Z",
+          "lastAt": "2025-06-01T23:25:30.000Z",
+          "centroidLat": 56.06788416666667,
+          "centroidLon": 10.059209444444443,
+          "city": "Denmark"
+        },
+        {
+          "name": "Aarhus 25 (06)",
+          "photoCount": 4,
+          "firstAt": "2025-06-04T07:52:18.000Z",
+          "lastAt": "2025-06-04T19:28:22.000Z",
+          "centroidLat": 56.19364791666665,
+          "centroidLon": 10.16768055555555,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (06-2)",
+          "photoCount": 18,
+          "firstAt": "2025-06-06T21:20:36.000Z",
+          "lastAt": "2025-06-09T16:27:02.000Z",
+          "centroidLat": 56.17224595959597,
+          "centroidLon": 10.189930808080826,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (06-3)",
+          "photoCount": 2,
+          "firstAt": "2025-06-13T14:58:51.000Z",
+          "lastAt": "2025-06-15T00:32:52.000Z",
+          "centroidLat": 56.2039208333333,
+          "centroidLon": 10.23439166666665,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (06-4)",
+          "photoCount": 9,
+          "firstAt": "2025-06-16T20:47:05.000Z",
+          "lastAt": "2025-06-18T16:05:26.000Z",
+          "centroidLat": 56.204674999999966,
+          "centroidLon": 10.233975308641977,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Denmark 25 (06-2)",
+          "photoCount": 18,
+          "firstAt": "2025-06-22T16:58:26.000Z",
+          "lastAt": "2025-06-26T15:28:30.000Z",
+          "centroidLat": 55.79684135802467,
+          "centroidLon": 11.892044753086441,
+          "city": "Denmark"
+        },
+        {
+          "name": "Aarhus 25 (06-5)",
+          "photoCount": 3,
+          "firstAt": "2025-06-29T22:55:27.000Z",
+          "lastAt": "2025-06-30T22:10:20.000Z",
+          "centroidLat": 56.20395925925923,
+          "centroidLon": 10.234520370370367,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (07)",
+          "photoCount": 4,
+          "firstAt": "2025-07-02T10:46:51.000Z",
+          "lastAt": "2025-07-02T10:47:51.000Z",
+          "centroidLat": 56.1097625,
+          "centroidLon": 10.2066194444444,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (07-2)",
+          "photoCount": 11,
+          "firstAt": "2025-07-06T16:15:18.000Z",
+          "lastAt": "2025-07-07T14:08:55.000Z",
+          "centroidLat": 56.203937373737396,
+          "centroidLon": 10.234376262626256,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Copenhagen 25 (07)",
+          "photoCount": 2,
+          "firstAt": "2025-07-25T22:14:08.000Z",
+          "lastAt": "2025-07-25T22:14:13.000Z",
+          "centroidLat": 55.6258166666667,
+          "centroidLon": 12.6563722222222,
+          "city": "Copenhagen"
+        },
+        {
+          "name": "Romania 25",
+          "photoCount": 8,
+          "firstAt": "2025-07-27T19:33:12.000Z",
+          "lastAt": "2025-07-29T13:04:37.000Z",
+          "centroidLat": 44.57965034722224,
+          "centroidLon": 26.118757291666665,
+          "city": "Romania"
+        },
+        {
+          "name": "Aarhus 25 (08)",
+          "photoCount": 7,
+          "firstAt": "2025-08-04T15:18:14.000Z",
+          "lastAt": "2025-08-04T19:59:57.000Z",
+          "centroidLat": 56.18593968253968,
+          "centroidLon": 10.128069047619041,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (08-2)",
+          "photoCount": 7,
+          "firstAt": "2025-08-07T19:41:02.000Z",
+          "lastAt": "2025-08-08T19:50:47.000Z",
+          "centroidLat": 56.18397976190476,
+          "centroidLon": 10.224206746031742,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (08-3)",
+          "photoCount": 9,
+          "firstAt": "2025-08-10T15:08:01.000Z",
+          "lastAt": "2025-08-12T02:03:59.000Z",
+          "centroidLat": 56.12890216049384,
+          "centroidLon": 10.147612345679036,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (08-4)",
+          "photoCount": 62,
+          "firstAt": "2025-08-13T15:54:54.000Z",
+          "lastAt": "2025-08-20T19:43:38.000Z",
+          "centroidLat": 56.196352071563105,
+          "centroidLon": 10.214445056497178,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Denmark 25 (08)",
+          "photoCount": 12,
+          "firstAt": "2025-08-22T16:05:00.000Z",
+          "lastAt": "2025-08-24T15:55:48.000Z",
+          "centroidLat": 56.167697685185196,
+          "centroidLon": 9.385530787037034,
+          "city": "Denmark"
+        },
+        {
+          "name": "Aarhus 25 (08-5)",
+          "photoCount": 16,
+          "firstAt": "2025-08-28T16:54:00.000Z",
+          "lastAt": "2025-08-29T15:37:41.000Z",
+          "centroidLat": 56.20401388888891,
+          "centroidLon": 10.234501736111119,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Denmark 25 (09)",
+          "photoCount": 44,
+          "firstAt": "2025-09-09T10:28:43.000Z",
+          "lastAt": "2025-09-10T13:36:13.000Z",
+          "centroidLat": 55.62654126984127,
+          "centroidLon": 9.517733730158733,
+          "city": "Denmark"
+        },
+        {
+          "name": "Spain 25",
+          "photoCount": 230,
+          "firstAt": "2025-09-10T13:43:33.000Z",
+          "lastAt": "2025-09-18T19:17:54.000Z",
+          "centroidLat": 36.531934983017926,
+          "centroidLon": -4.4421985443959215,
+          "city": "Spain"
+        },
+        {
+          "name": "Spain 25 (09)",
+          "photoCount": 10,
+          "firstAt": "2025-09-20T18:34:19.000Z",
+          "lastAt": "2025-09-21T12:27:02.000Z",
+          "centroidLat": 36.72992222222219,
+          "centroidLon": -4.20559222222222,
+          "city": "Spain"
+        },
+        {
+          "name": "Copenhagen 25 (09)",
+          "photoCount": 2,
+          "firstAt": "2025-09-22T01:38:20.000Z",
+          "lastAt": "2025-09-22T01:38:21.000Z",
+          "centroidLat": 55.6722833333333,
+          "centroidLon": 12.5654722222222,
+          "city": "Copenhagen"
+        },
+        {
+          "name": "Aarhus 25 (10)",
+          "photoCount": 2,
+          "firstAt": "2025-10-06T08:21:03.000Z",
+          "lastAt": "2025-10-06T08:21:04.000Z",
+          "centroidLat": 56.20418888888889,
+          "centroidLon": 10.22943888888885,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Copenhagen 25 (10)",
+          "photoCount": 6,
+          "firstAt": "2025-10-23T07:35:41.000Z",
+          "lastAt": "2025-10-23T08:34:16.000Z",
+          "centroidLat": 55.67406805555555,
+          "centroidLon": 12.580140277777751,
+          "city": "Copenhagen"
+        },
+        {
+          "name": "Aarhus 25 (11)",
+          "photoCount": 10,
+          "firstAt": "2025-11-01T23:37:13.000Z",
+          "lastAt": "2025-11-03T17:44:26.000Z",
+          "centroidLat": 56.17822194444443,
+          "centroidLon": 10.213223055555561,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (11-2)",
+          "photoCount": 10,
+          "firstAt": "2025-11-19T14:21:05.000Z",
+          "lastAt": "2025-11-19T18:52:13.000Z",
+          "centroidLat": 56.174669444444454,
+          "centroidLon": 10.196766666666672,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (11-3)",
+          "photoCount": 4,
+          "firstAt": "2025-11-24T13:15:13.000Z",
+          "lastAt": "2025-11-24T13:15:42.000Z",
+          "centroidLat": 56.15378333333335,
+          "centroidLon": 10.20566527777775,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (11-4)",
+          "photoCount": 3,
+          "firstAt": "2025-11-28T09:41:11.000Z",
+          "lastAt": "2025-11-28T17:18:11.000Z",
+          "centroidLat": 56.157267592592596,
+          "centroidLon": 10.211062962962933,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (12)",
+          "photoCount": 2,
+          "firstAt": "2025-12-11T13:15:06.000Z",
+          "lastAt": "2025-12-11T13:15:08.000Z",
+          "centroidLat": 56.2039527777778,
+          "centroidLon": 10.2343444444444,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (12-2)",
+          "photoCount": 2,
+          "firstAt": "2025-12-14T17:03:39.000Z",
+          "lastAt": "2025-12-15T23:52:03.000Z",
+          "centroidLat": 56.18263611111115,
+          "centroidLon": 10.222375,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 25 (12-3)",
+          "photoCount": 2,
+          "firstAt": "2025-12-17T23:06:35.000Z",
+          "lastAt": "2025-12-17T23:06:37.000Z",
+          "centroidLat": 56.203925,
+          "centroidLon": 10.2344944444444,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Bucharest 25 (12)",
+          "photoCount": 5,
+          "firstAt": "2025-12-24T19:26:40.000Z",
+          "lastAt": "2025-12-25T21:11:20.000Z",
+          "centroidLat": 44.435238333333345,
+          "centroidLon": 26.11674222222224,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Bucharest 25 (12-2)",
+          "photoCount": 16,
+          "firstAt": "2025-12-27T14:17:57.000Z",
+          "lastAt": "2025-12-30T18:00:13.000Z",
+          "centroidLat": 44.43334670138888,
+          "centroidLon": 26.10662777777779,
+          "city": "Bucharest"
+        }
+      ]
+    },
+    {
+      "year": "2026",
+      "files": 815,
+      "moved": 812,
+      "singletons": 3,
+      "clusters": [
+        {
+          "name": "Bucharest 26",
+          "photoCount": 2,
+          "firstAt": "2026-01-03T17:37:26.000Z",
+          "lastAt": "2026-01-03T17:37:27.000Z",
+          "centroidLat": 44.4355694444444,
+          "centroidLon": 26.1212527777778,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Aarhus 26",
+          "photoCount": 10,
+          "firstAt": "2026-01-11T23:14:04.000Z",
+          "lastAt": "2026-01-13T00:18:24.000Z",
+          "centroidLat": 56.20079777777778,
+          "centroidLon": 10.221934722222208,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 26 (01)",
+          "photoCount": 2,
+          "firstAt": "2026-01-23T17:30:05.000Z",
+          "lastAt": "2026-01-23T17:30:31.000Z",
+          "centroidLat": 56.2039416666667,
+          "centroidLon": 10.23445,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 26 (01-2)",
+          "photoCount": 8,
+          "firstAt": "2026-01-26T18:34:03.000Z",
+          "lastAt": "2026-01-27T20:43:06.000Z",
+          "centroidLat": 56.203930902777806,
+          "centroidLon": 10.234420486111087,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 26 (01-3)",
+          "photoCount": 32,
+          "firstAt": "2026-01-29T14:33:22.000Z",
+          "lastAt": "2026-02-04T14:48:44.000Z",
+          "centroidLat": 56.20396498015871,
+          "centroidLon": 10.234466567460322,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 26 (02)",
+          "photoCount": 55,
+          "firstAt": "2026-02-06T12:57:24.000Z",
+          "lastAt": "2026-02-14T03:01:13.000Z",
+          "centroidLat": 56.19884237726099,
+          "centroidLon": 10.23043042635658,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 26 (02-2)",
+          "photoCount": 26,
+          "firstAt": "2026-02-18T11:50:50.000Z",
+          "lastAt": "2026-02-23T14:01:18.000Z",
+          "centroidLat": 56.19672291666665,
+          "centroidLon": 10.227257060185186,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 26 (02-3)",
+          "photoCount": 8,
+          "firstAt": "2026-02-27T02:52:40.000Z",
+          "lastAt": "2026-03-01T02:37:54.000Z",
+          "centroidLat": 56.20394583333333,
+          "centroidLon": 10.2344805555556,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 26 (03)",
+          "photoCount": 7,
+          "firstAt": "2026-03-04T23:30:08.000Z",
+          "lastAt": "2026-03-05T18:48:34.000Z",
+          "centroidLat": 56.20395674603174,
+          "centroidLon": 10.234476190476213,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 26 (03-2)",
+          "photoCount": 6,
+          "firstAt": "2026-03-08T00:23:36.000Z",
+          "lastAt": "2026-03-09T19:05:02.000Z",
+          "centroidLat": 56.20396944444447,
+          "centroidLon": 10.2345022222222,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 26 (03-3)",
+          "photoCount": 5,
+          "firstAt": "2026-03-11T19:48:30.000Z",
+          "lastAt": "2026-03-11T22:17:38.000Z",
+          "centroidLat": 56.203959444444436,
+          "centroidLon": 10.23447555555558,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Germany 26",
+          "photoCount": 12,
+          "firstAt": "2026-03-12T21:01:09.000Z",
+          "lastAt": "2026-03-12T21:41:28.000Z",
+          "centroidLat": 54.07129837962964,
+          "centroidLon": 9.976547685185183,
+          "city": "Germany"
+        },
+        {
+          "name": "Prague 26",
+          "photoCount": 9,
+          "firstAt": "2026-03-13T20:59:16.000Z",
+          "lastAt": "2026-03-14T02:45:39.000Z",
+          "centroidLat": 50.07512222222221,
+          "centroidLon": 14.407924691358046,
+          "city": "Prague"
+        },
+        {
+          "name": "Hungary 26",
+          "photoCount": 7,
+          "firstAt": "2026-03-14T15:35:25.000Z",
+          "lastAt": "2026-03-15T13:05:04.000Z",
+          "centroidLat": 47.300251190476175,
+          "centroidLon": 19.130255158730158,
+          "city": "Hungary"
+        },
+        {
+          "name": "Romania 26",
+          "photoCount": 17,
+          "firstAt": "2026-03-16T13:30:55.000Z",
+          "lastAt": "2026-03-17T00:25:54.000Z",
+          "centroidLat": 44.63373153594772,
+          "centroidLon": 25.694394771241846,
+          "city": "Romania"
+        },
+        {
+          "name": "Bucharest 26 (03)",
+          "photoCount": 13,
+          "firstAt": "2026-03-18T17:26:45.000Z",
+          "lastAt": "2026-03-21T20:45:02.000Z",
+          "centroidLat": 44.439484829059815,
+          "centroidLon": 26.130571794871816,
+          "city": "Bucharest"
+        },
+        {
+          "name": "Romania 26 (03)",
+          "photoCount": 99,
+          "firstAt": "2026-03-23T00:37:57.000Z",
+          "lastAt": "2026-03-24T15:54:52.000Z",
+          "centroidLat": 44.759909006734006,
+          "centroidLon": 21.061934455667796,
+          "city": "Romania"
+        },
+        {
+          "name": "Italy 26",
+          "photoCount": 224,
+          "firstAt": "2026-03-25T11:05:12.000Z",
+          "lastAt": "2026-03-26T16:56:04.000Z",
+          "centroidLat": 45.425107514880956,
+          "centroidLon": 13.923020114087311,
+          "city": "Italy"
+        },
+        {
+          "name": "Germany 26 (03)",
+          "photoCount": 204,
+          "firstAt": "2026-03-26T18:59:22.000Z",
+          "lastAt": "2026-03-28T17:34:47.000Z",
+          "centroidLat": 47.87276702069718,
+          "centroidLon": 11.014036151960777,
+          "city": "Germany"
+        },
+        {
+          "name": "Germany 26 (03-2)",
+          "photoCount": 5,
+          "firstAt": "2026-03-28T22:01:33.000Z",
+          "lastAt": "2026-03-29T14:32:06.000Z",
+          "centroidLat": 52.25583055555554,
+          "centroidLon": 9.779650555555557,
+          "city": "Germany"
+        },
+        {
+          "name": "Aarhus 26 (03-4)",
+          "photoCount": 2,
+          "firstAt": "2026-03-29T23:47:01.000Z",
+          "lastAt": "2026-03-29T23:53:29.000Z",
+          "centroidLat": 56.20399305555555,
+          "centroidLon": 10.23436527777775,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 26 (03-5)",
+          "photoCount": 32,
+          "firstAt": "2026-03-31T17:15:35.000Z",
+          "lastAt": "2026-04-03T16:32:26.000Z",
+          "centroidLat": 56.22979765625,
+          "centroidLon": 10.151579340277772,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 26 (04)",
+          "photoCount": 2,
+          "firstAt": "2026-04-07T14:47:33.000Z",
+          "lastAt": "2026-04-07T23:04:03.000Z",
+          "centroidLat": 56.153331944444446,
+          "centroidLon": 10.1915152777778,
+          "city": "Aarhus"
+        },
+        {
+          "name": "Aarhus 26 (04-2)",
+          "photoCount": 25,
+          "firstAt": "2026-04-09T12:55:08.000Z",
+          "lastAt": "2026-04-12T01:51:03.000Z",
+          "centroidLat": 56.186896666666655,
+          "centroidLon": 10.215075666666655,
+          "city": "Aarhus"
+        }
+      ]
+    }
+  ]
+}
