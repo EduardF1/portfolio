@@ -140,14 +140,24 @@ const TIER_FILLS: readonly string[] = [
   "var(--color-accent)",
 ];
 
-export type TravelMapView = "destinations" | "intensity" | "cities";
+/**
+ * Two-state toggle: a simple country-pin view ("destinations") and a
+ * combined chloropleth + city-dot view ("map", the default).
+ *
+ * The legacy `"intensity"` and `"cities"` values are accepted for
+ * backward compatibility with deep-links that predate the merge —
+ * both resolve to the new combined `"map"` view at component mount.
+ */
+export type TravelMapView = "destinations" | "map" | "intensity" | "cities";
 
 export type TravelEuropeMapLabels = {
   toggleAriaLabel: string;
   destinationsLabel: string;
-  intensityLabel: string;
-  /** Label for the "Cities" toggle button. Optional for back-compat
-   *  with existing call-sites; defaults to "Cities". */
+  /** Label for the combined chloropleth + city-dots view button. */
+  mapLabel?: string;
+  /** @deprecated Kept for back-compat — falls back to `mapLabel`. */
+  intensityLabel?: string;
+  /** @deprecated Cities are now folded into the combined `map` view. */
   citiesLabel?: string;
   legendTitle: string;
   legendUnit: string;
@@ -164,13 +174,21 @@ export type TravelEuropeMapLabels = {
 const DEFAULT_LABELS: TravelEuropeMapLabels = {
   toggleAriaLabel: "Switch map view",
   destinationsLabel: "Destinations",
-  intensityLabel: "Intensity",
-  citiesLabel: "Cities",
+  mapLabel: "Map",
   legendTitle: "Trips per country",
   legendUnit: "trips",
   photoCountOne: "1 photo",
   photoCountOther: "{count} photos",
 };
+
+/**
+ * Coalesce any legacy view value (`"intensity"` / `"cities"`) into the
+ * combined `"map"` view. Keeps state machine internally binary while
+ * letting older `?map=` URLs continue to deep-link sensibly.
+ */
+function coalesceView(v: TravelMapView): "destinations" | "map" {
+  return v === "destinations" ? "destinations" : "map";
+}
 
 function formatPhotoCount(
   n: number,
@@ -199,7 +217,7 @@ export function TravelEuropeMap({
   destinations,
   cities = [],
   tripCounts = {},
-  initialView = "destinations",
+  initialView = "map",
   labels = DEFAULT_LABELS,
 }: {
   destinations: MapDestination[];
@@ -210,24 +228,26 @@ export function TravelEuropeMap({
 }) {
   const [hovered, setHovered] = useState<string | null>(null);
   const [hoveredCity, setHoveredCity] = useState<string | null>(null);
-  const [view, setView] = useState<TravelMapView>(initialView);
+  const [view, setView] = useState<"destinations" | "map">(
+    coalesceView(initialView),
+  );
 
-  const handleToggle = useCallback((next: TravelMapView) => {
+  const handleToggle = useCallback((next: "destinations" | "map") => {
     setView(next);
     // Clear any sticky hover state when switching modes so an
     // overlay-specific hover does not leak across views.
     setHovered(null);
     setHoveredCity(null);
     // Persist via the `?map=` URL search param so the view survives a
-    // refresh / share. We mutate the URL directly with replaceState
-    // (no localStorage, no router push) so we do not trigger a
-    // server round-trip.
+    // refresh / share. The combined `map` view is the default, so we
+    // strip the param entirely; only the simpler `destinations` view
+    // pins itself in the URL.
     if (typeof window === "undefined") return;
     const url = new URL(window.location.href);
     if (next === "destinations") {
-      url.searchParams.delete("map");
+      url.searchParams.set("map", "destinations");
     } else {
-      url.searchParams.set("map", next);
+      url.searchParams.delete("map");
     }
     window.history.replaceState(null, "", url.toString());
   }, []);
@@ -262,11 +282,17 @@ export function TravelEuropeMap({
 
   if (destinations.length === 0) return null;
 
-  const isIntensity = view === "intensity";
-  const isCities = view === "cities";
+  const isMap = view === "map";
   const isDestinations = view === "destinations";
 
-  const citiesLabel = labels.citiesLabel ?? "Cities";
+  // The combined view paints the chloropleth and overlays per-city
+  // dots. The simpler view shows neutral country fills with one pin
+  // per country. City overlay only renders when we have cities.
+  const showChloropleth = isMap;
+  const showCountryPins = isDestinations;
+  const showCityDots = isMap && cities.length > 0;
+
+  const mapLabel = labels.mapLabel ?? labels.intensityLabel ?? "Map";
 
   return (
     <div className="@container relative">
@@ -291,32 +317,17 @@ export function TravelEuropeMap({
           </button>
           <button
             type="button"
-            data-testid="map-view-intensity"
-            aria-pressed={isIntensity}
-            onClick={() => handleToggle("intensity")}
+            data-testid="map-view-map"
+            aria-pressed={isMap}
+            onClick={() => handleToggle("map")}
             className={
-              isIntensity
+              isMap
                 ? "px-3 py-1.5 bg-accent text-accent-foreground"
                 : "px-3 py-1.5 bg-background text-foreground-muted hover:text-foreground"
             }
           >
-            {labels.intensityLabel}
+            {mapLabel}
           </button>
-          {cities.length > 0 && (
-            <button
-              type="button"
-              data-testid="map-view-cities"
-              aria-pressed={isCities}
-              onClick={() => handleToggle("cities")}
-              className={
-                isCities
-                  ? "px-3 py-1.5 bg-accent text-accent-foreground"
-                  : "px-3 py-1.5 bg-background text-foreground-muted hover:text-foreground"
-              }
-            >
-              {citiesLabel}
-            </button>
-          )}
         </div>
       </div>
 
@@ -338,7 +349,7 @@ export function TravelEuropeMap({
                   (geo.properties as { name?: unknown } | undefined)?.name,
                 );
                 let fill = "var(--color-surface-strong)";
-                if (isIntensity) {
+                if (showChloropleth) {
                   const trips = tripCountForGeography(geoName, tripCounts);
                   fill = TIER_FILLS[tierForTripCount(trips)];
                 }
@@ -360,7 +371,7 @@ export function TravelEuropeMap({
             }
           </Geographies>
 
-          {isDestinations &&
+          {showCountryPins &&
             destinations.map((destination) => {
               const radius = markerRadius(destination.photoCount);
               const isHovered = hovered === destination.slug;
@@ -416,7 +427,7 @@ export function TravelEuropeMap({
               );
             })}
 
-          {isCities &&
+          {showCityDots &&
             cities.map((city) => {
               const baseRadius = cityDotRadius(city.photoCount);
               const isHovered = hoveredCity === city.slug;
@@ -453,12 +464,20 @@ export function TravelEuropeMap({
                       fill="transparent"
                       style={{ cursor: "pointer" }}
                     />
+                    {/*
+                      City dots sit on top of an accent-tinted
+                      chloropleth, so an accent fill would melt into
+                      the background. Use the inverse swatch
+                      (`accent-foreground` — cream on light, deep on
+                      dark) for the body, with a `--color-foreground`
+                      ring for hard contrast against any tier.
+                    */}
                     <circle
                       r={radius}
-                      fill="var(--color-accent)"
-                      fillOpacity={isHovered ? 1 : 0.85}
-                      stroke="var(--color-background)"
-                      strokeWidth={1}
+                      fill="var(--color-accent-foreground)"
+                      fillOpacity={isHovered ? 1 : 0.95}
+                      stroke="var(--color-foreground)"
+                      strokeWidth={1.25}
                       style={{
                         cursor: "pointer",
                         transition: "r 150ms ease, fill-opacity 150ms",
@@ -471,6 +490,12 @@ export function TravelEuropeMap({
                         // Anchor the tooltip just above the dot.
                         transform={`translate(0, ${-baseRadius - 6})`}
                       >
+                        {/*
+                          Solid background with a foreground-coloured
+                          border so the tooltip reads cleanly over
+                          any chloropleth tier (including darkest
+                          accent and accent-foreground dot fills).
+                        */}
                         <rect
                           x={-tooltip.length * 3 - 6}
                           y={-16}
@@ -479,9 +504,9 @@ export function TravelEuropeMap({
                           width={tooltip.length * 6 + 12}
                           height={18}
                           fill="var(--color-background)"
-                          stroke="var(--color-border)"
+                          stroke="var(--color-foreground)"
                           strokeWidth={0.75}
-                          opacity={0.96}
+                          opacity={1}
                         />
                         <text
                           textAnchor="middle"
@@ -501,11 +526,11 @@ export function TravelEuropeMap({
         </ComposableMap>
       </figure>
 
-      {isIntensity && <TravelMapLegend labels={labels} />}
+      {showChloropleth && <TravelMapLegend labels={labels} />}
 
       <p className="mt-3 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-foreground-subtle">
-        {isCities
-          ? `${cities.length} cities · click a dot to jump to the trip · base map © Natural Earth`
+        {showCityDots
+          ? `${destinations.length} countries · ${cities.length} cities · click a dot to jump to the trip · base map © Natural Earth`
           : `${destinations.length} countries · click a marker to open that country's photo set · base map © Natural Earth`}
       </p>
     </div>

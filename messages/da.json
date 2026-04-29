@@ -240,8 +240,7 @@
     "culinaryCrossLink": "Se den kulinariske side af rejserne",
     "mapToggleAriaLabel": "Skift kortvisning",
     "mapDestinations": "Destinationer",
-    "mapIntensity": "Intensitet",
-    "mapCities": "Byer",
+    "mapCombined": "Kort",
     "mapLegendTitle": "Rejser pr. land",
     "mapLegendUnit": "rejser",
     "recentTripsKicker": "Seneste rejser",
@@ -263,7 +262,9 @@
     "countLabel": "Foto {current} af {total}",
     "prev": "Forrige foto",
     "next": "Næste foto",
-    "close": "Luk"
+    "close": "Luk",
+    "otherCity": "Andre steder",
+    "sparseCity": "flere på vej"
   },
   "contact": {
     "kicker": "Kontakt",

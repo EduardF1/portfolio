@@ -96,8 +96,7 @@ const SAMPLES: MapDestination[] = [
 const TEST_LABELS: TravelEuropeMapLabels = {
   toggleAriaLabel: "Switch map view",
   destinationsLabel: "Destinations",
-  intensityLabel: "Intensity",
-  citiesLabel: "Cities",
+  mapLabel: "Map",
   legendTitle: "Trips per country",
   legendUnit: "trips",
 };
@@ -128,14 +127,26 @@ afterEach(() => {
 });
 
 describe("<TravelEuropeMap />", () => {
-  it("renders a marker for each destination", () => {
-    const { container } = render(<TravelEuropeMap destinations={SAMPLES} />);
+  it("renders a marker for each destination in the Destinations view", () => {
+    const { container } = render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        initialView="destinations"
+        labels={TEST_LABELS}
+      />,
+    );
     const markers = container.querySelectorAll('[data-testid="marker"]');
     expect(markers.length).toBe(3);
   });
 
   it("each marker deep-links to the country's first trip page when available, falling back to the in-page anchor", () => {
-    render(<TravelEuropeMap destinations={SAMPLES} />);
+    render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        initialView="destinations"
+        labels={TEST_LABELS}
+      />,
+    );
     const itLink = screen.getByLabelText(/^Italy, 8 photos, 1 city$/);
     expect(itLink).toHaveAttribute("href", "/travel/photos/italy-2024-04");
     const dkLink = screen.getByLabelText(/^Denmark, 100 photos, 2 cities$/);
@@ -152,8 +163,14 @@ describe("<TravelEuropeMap />", () => {
     ).toBeInTheDocument();
   });
 
-  it("renders the country name as a label next to each marker", () => {
-    const { container } = render(<TravelEuropeMap destinations={SAMPLES} />);
+  it("renders the country name as a label next to each marker in the Destinations view", () => {
+    const { container } = render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        initialView="destinations"
+        labels={TEST_LABELS}
+      />,
+    );
     const labels = Array.from(container.querySelectorAll("text")).map(
       (t) => t.textContent,
     );
@@ -166,7 +183,13 @@ describe("<TravelEuropeMap />", () => {
   });
 
   it("uses the provided centroid lat/lon as marker coordinates", () => {
-    const { container } = render(<TravelEuropeMap destinations={SAMPLES} />);
+    const { container } = render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        initialView="destinations"
+        labels={TEST_LABELS}
+      />,
+    );
     const markers = container.querySelectorAll('[data-testid="marker"]');
     // Ordering matches the input array
     expect(markers[0].getAttribute("data-lon")).toBe("11");
@@ -175,27 +198,55 @@ describe("<TravelEuropeMap />", () => {
     expect(markers[2].getAttribute("data-lat")).toBe("40");
   });
 
-  it("renders the per-map metadata footer line", () => {
-    render(<TravelEuropeMap destinations={SAMPLES} />);
+  it("renders the per-map metadata footer line in Destinations view", () => {
+    render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        initialView="destinations"
+        labels={TEST_LABELS}
+      />,
+    );
     expect(
       screen.getByText(/3 countries · click a marker/),
     ).toBeInTheDocument();
   });
 
-  it("exposes a Destinations / Intensity toggle group", () => {
+  it("exposes a binary Destinations / Map toggle group, defaulting to Map", () => {
     render(<TravelEuropeMap destinations={SAMPLES} labels={TEST_LABELS} />);
     expect(screen.getByTestId("map-view-destinations")).toHaveAttribute(
       "aria-pressed",
-      "true",
-    );
-    expect(screen.getByTestId("map-view-intensity")).toHaveAttribute(
-      "aria-pressed",
       "false",
     );
+    expect(screen.getByTestId("map-view-map")).toHaveAttribute(
+      "aria-pressed",
+      "true",
+    );
+    // The legacy Intensity / Cities toggles must be gone.
+    expect(screen.queryByTestId("map-view-intensity")).not.toBeInTheDocument();
+    expect(screen.queryByTestId("map-view-cities")).not.toBeInTheDocument();
   });
 
-  it("starts in intensity mode when initialView is 'intensity' and hides markers", () => {
+  it("hides country pins and shows the legend in the default Map view", () => {
     const { container } = render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        tripCounts={{ Italy: 2 }}
+        labels={TEST_LABELS}
+      />,
+    );
+    expect(screen.getByTestId("map-view-map")).toHaveAttribute(
+      "aria-pressed",
+      "true",
+    );
+    // Country pins should not render in the combined view; their
+    // role is taken over by the chloropleth + city dots.
+    expect(container.querySelectorAll('[data-testid="marker"]').length).toBe(0);
+    // Legend appears alongside the chloropleth.
+    expect(screen.getByTestId("map-legend")).toBeInTheDocument();
+  });
+
+  it("treats legacy initialView='intensity' as the new combined Map view", () => {
+    render(
       <TravelEuropeMap
         destinations={SAMPLES}
         initialView="intensity"
@@ -203,41 +254,33 @@ describe("<TravelEuropeMap />", () => {
         labels={TEST_LABELS}
       />,
     );
-    expect(screen.getByTestId("map-view-intensity")).toHaveAttribute(
+    expect(screen.getByTestId("map-view-map")).toHaveAttribute(
       "aria-pressed",
       "true",
     );
-    // Markers should not render in intensity mode.
-    expect(container.querySelectorAll('[data-testid="marker"]').length).toBe(0);
-    // Legend should appear.
-    expect(screen.getByTestId("map-legend")).toBeInTheDocument();
   });
 
-  it("does not show the Cities toggle when no cities are provided", () => {
-    render(<TravelEuropeMap destinations={SAMPLES} labels={TEST_LABELS} />);
-    expect(screen.queryByTestId("map-view-cities")).not.toBeInTheDocument();
-  });
-
-  it("shows the Cities toggle when cities are provided", () => {
-    render(
-      <TravelEuropeMap
-        destinations={SAMPLES}
-        cities={SAMPLE_CITIES}
-        labels={TEST_LABELS}
-      />,
-    );
-    expect(screen.getByTestId("map-view-cities")).toHaveAttribute(
-      "aria-pressed",
-      "false",
-    );
-  });
-
-  it("renders one city dot per provided city when initialView='cities'", () => {
+  it("treats legacy initialView='cities' as the new combined Map view and renders city dots", () => {
     render(
       <TravelEuropeMap
         destinations={SAMPLES}
         cities={SAMPLE_CITIES}
         initialView="cities"
+        labels={TEST_LABELS}
+      />,
+    );
+    expect(screen.getByTestId("map-view-map")).toHaveAttribute(
+      "aria-pressed",
+      "true",
+    );
+    expect(screen.getAllByTestId("city-dot")).toHaveLength(2);
+  });
+
+  it("renders city dots overlaid in the default Map view when cities are provided", () => {
+    render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        cities={SAMPLE_CITIES}
         labels={TEST_LABELS}
       />,
     );
@@ -252,7 +295,6 @@ describe("<TravelEuropeMap />", () => {
       <TravelEuropeMap
         destinations={SAMPLES}
         cities={SAMPLE_CITIES}
-        initialView="cities"
         labels={TEST_LABELS}
       />,
     );
@@ -268,7 +310,6 @@ describe("<TravelEuropeMap />", () => {
       <TravelEuropeMap
         destinations={SAMPLES}
         cities={SAMPLE_CITIES}
-        initialView="cities"
         labels={{
           ...TEST_LABELS,
           photoCountOne: "1 foto",
@@ -294,11 +335,10 @@ describe("<TravelEuropeMap />", () => {
             photoCount: 1,
           },
         ]}
-        initialView="cities"
         labels={{
           toggleAriaLabel: "x",
           destinationsLabel: "x",
-          intensityLabel: "x",
+          mapLabel: "x",
           legendTitle: "x",
           legendUnit: "x",
         }}
@@ -307,31 +347,42 @@ describe("<TravelEuropeMap />", () => {
     expect(screen.getByLabelText(/^Solo, Italy · 1 photo$/)).toBeInTheDocument();
   });
 
-  it("city dots are not rendered in destinations or intensity mode", () => {
-    const { rerender, container } = render(
+  it("city dots are not rendered in the Destinations view", () => {
+    const { container } = render(
       <TravelEuropeMap
         destinations={SAMPLES}
         cities={SAMPLE_CITIES}
+        initialView="destinations"
         labels={TEST_LABELS}
       />,
     );
-    expect(container.querySelectorAll('[data-testid="city-dot"]').length).toBe(0);
-    rerender(
-      <TravelEuropeMap
-        destinations={SAMPLES}
-        cities={SAMPLE_CITIES}
-        initialView="intensity"
-        labels={TEST_LABELS}
-      />,
+    expect(container.querySelectorAll('[data-testid="city-dot"]').length).toBe(
+      0,
     );
-    expect(container.querySelectorAll('[data-testid="city-dot"]').length).toBe(0);
   });
 
-  it("paints geographies with the tier-derived fill in intensity mode", () => {
+  it("city dots use the contrast-friendly accent-foreground fill with a foreground stroke for readability over the chloropleth", () => {
+    const { container } = render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        cities={SAMPLE_CITIES}
+        labels={TEST_LABELS}
+      />,
+    );
+    const dot = container.querySelector('[data-testid="city-dot"]');
+    expect(dot).not.toBeNull();
+    // The visible body of the dot is the second <circle> child (the
+    // first is the larger, transparent hit area).
+    const circles = dot!.querySelectorAll("circle");
+    const body = circles[1];
+    expect(body.getAttribute("fill")).toBe("var(--color-accent-foreground)");
+    expect(body.getAttribute("stroke")).toBe("var(--color-foreground)");
+  });
+
+  it("paints geographies with the tier-derived fill in the combined Map view", () => {
     render(
       <TravelEuropeMap
         destinations={SAMPLES}
-        initialView="intensity"
         tripCounts={{
           Italy: 6, // tier 4 → darkest accent
           Czechia: 1, // tier 1 → accent-soft, also exercises NE-name alias
@@ -351,6 +402,21 @@ describe("<TravelEuropeMap />", () => {
     expect(fillByGeoName.get("Czech Republic")).toBe("var(--color-accent-soft)");
     // France has no trips → neutral surface fill.
     expect(fillByGeoName.get("France")).toBe("var(--color-surface-strong)");
+  });
+
+  it("paints geographies with the neutral surface fill in the Destinations view", () => {
+    render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        initialView="destinations"
+        tripCounts={{ Italy: 6 }}
+        labels={TEST_LABELS}
+      />,
+    );
+    const geos = screen.getAllByTestId("geo");
+    for (const node of geos) {
+      expect(node.getAttribute("data-fill")).toBe("var(--color-surface-strong)");
+    }
   });
 });
 
