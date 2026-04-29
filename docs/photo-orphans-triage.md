@@ -1,18 +1,20 @@
 # P-orphans triage — 2026-04-28
 
+> Path renamed from `G:\Photos` to `G:\Photos` on 2026-04-29; pre-rename log entries (incl. the underlying NDJSON paths) reference the old name and remain valid. Forward-looking sections of this doc use `G:\Photos`.
+
 > Statistical triage of `scripts/.photo-classify/P-orphans/scan.ndjson` (75,719 records). READ-ONLY catalogue work — no files moved, copied, or deleted. Resolves action item #3 in `docs/photo-classification-plan.md` ("Top action items"). Source allowlist enforced per `docs/photo-organization.md` §6.1.
 
 ## 1. Headline numbers
 
 - **Total orphans triaged**: 75,719 (records in NDJSON)
-- **Roots scanned**: `G:\Poze\` and `D:\Portfolio\poze\`
+- **Roots scanned**: `G:\Photos\` and `D:\Portfolio\poze\`
 - **Sensitive-folder paths excluded from rollup**: 614 (matched the privacy carve-out: `CV + CL photos\`, `Driving license photos\`, `ID Photos\`, `Passport photos\`, `Residence permit photos\`)
 
 ### Per-root breakdown
 
 | Root | Orphans flagged |
 | --- | ---: |
-| `G:\Poze` | 34,415 |
+| `G:\Photos` | 34,415 |
 | `D:\Portfolio\poze` | 41,304 |
 | **Total** | **75,719** |
 
@@ -45,26 +47,26 @@ Top folders by orphan count, rounded by 2nd-level path under each root. Sensitiv
 | Folder | Total | `no-date-signal`-class | Top extensions | Sample basenames |
 | --- | ---: | ---: | --- | --- |
 | `D:\Portfolio\poze\<root>` | 36,044 | 20,190 (56%) | jpg 34,220 / png 1,268 / jpeg 305 / heic 251 | `_a_t_m_e_g_a___free_r_t_o_s*.png`, `1000000134_2.jpg`, `IMG_0190.jpg` |
-| `G:\Poze\<root>` | 32,601 | 20,192 (62%) | jpg 30,844 / png 1,201 / jpeg 305 / heic 251 | (mirror of D:) |
+| `G:\Photos\<root>` | 32,601 | 20,192 (62%) | jpg 30,844 / png 1,201 / jpeg 305 / heic 251 | (mirror of D:) |
 | `D:\Portfolio\poze\Whatsapp\` | 1,626 | 0 | jpg 1,511 / jpeg 115 | `IMG_20180714_013054.jpg`, `IMG_20230313_211125.jpg` |
 | `D:\Portfolio\poze\Screenshots\` | 1,403 | 0 | jpg 1,384 / png 19 | `IMG_20200829_075634.jpg`, `Screenshot_2023-…` |
 | `D:\Portfolio\poze\camera\` | 1,066 | 0 | jpg 1,066 | `IMG_20160813_*.jpg` (Huawei era) |
-| `G:\Poze\Screenshots\` | 653 | 0 | jpg 653 | `IMG_20231008_161158.jpg`, `Screenshot_2023-…` |
-| `G:\Poze\Browser\` | 424 | 380 (90%) | jpg 391 / png 33 | `00b3ce2b…f3b869c468.jpg`, `04ffca…spartan-workout.jpg` |
+| `G:\Photos\Screenshots\` | 653 | 0 | jpg 653 | `IMG_20231008_161158.jpg`, `Screenshot_2023-…` |
+| `G:\Photos\Browser\` | 424 | 380 (90%) | jpg 391 / png 33 | `00b3ce2b…f3b869c468.jpg`, `04ffca…spartan-workout.jpg` |
 | `D:\Portfolio\poze\Browser\` | 424 | 380 (90%) | jpg 391 / png 33 | (mirror of G:) |
-| `G:\Poze\Ha_Photos\` | 205 | 119 | jpg 119 / heic 86 | `IMG_0112.heic`, `IMG_0113.heic` |
+| `G:\Photos\Ha_Photos\` | 205 | 119 | jpg 119 / heic 86 | `IMG_0112.heic`, `IMG_0113.heic` |
 | `D:\Portfolio\poze\Ha_Photos\` | 205 | 119 | jpg 119 / heic 86 | (mirror of G:) |
-| `G:\Poze\Poze Huawei\` | 119 | 0 | jpg 119 | `IMG_20180101_135509.jpg` |
+| `G:\Photos\Poze Huawei\` | 119 | 0 | jpg 119 | `IMG_20180101_135509.jpg` |
 | `D:\Portfolio\poze\Poze Huawei\` | 119 | 0 | jpg 119 | (mirror of G:) |
-| `G:\Poze\Instagram\` | 88 | 20 | jpg 88 | `curierul-30-07-2023-0001.jpg`, `IMG_20160910_*.jpg` |
+| `G:\Photos\Instagram\` | 88 | 20 | jpg 88 | `curierul-30-07-2023-0001.jpg`, `IMG_20160910_*.jpg` |
 | `D:\Portfolio\poze\Instagram\` | 88 | 20 | jpg 88 | (mirror of G:) |
-| `G:\Poze\X\` | 18 | 14 (78%) | jpg 14 / jpeg 4 | `10152814_698152723574994_…_n.jpg` (FB-CDN) |
+| `G:\Photos\X\` | 18 | 14 (78%) | jpg 14 / jpeg 4 | `10152814_698152723574994_…_n.jpg` (FB-CDN) |
 | `D:\Portfolio\poze\X\` | 18 | 14 (78%) | jpg 14 / jpeg 4 | (mirror of G:) |
 | `D:\Portfolio\poze\private\` | 4 | 0 | jpg 4 | `IMG20241013212218.jpg` (OnePlus naming) |
 
 Observations:
 
-- **Two flat root-level dumps dominate**: `D:\Portfolio\poze\<root>` (36,044) and `G:\Poze\<root>` (32,601) account for **90.7% of all orphans** between them. These are the primary targets.
+- **Two flat root-level dumps dominate**: `D:\Portfolio\poze\<root>` (36,044) and `G:\Photos\<root>` (32,601) account for **90.7% of all orphans** between them. These are the primary targets.
 - **Heavy D:\ × G:\ duplication** in every named subfolder: `Whatsapp`, `Screenshots`, `camera`, `Browser`, `Ha_Photos`, `Poze Huawei`, `Instagram`, `X` all have near-identical totals on both drives. Consistent with P-B/P8-redo's 17,529 demote candidates — see §7 caveats; **do not act on D:\ duplicates until Eduard signs off the dedup plan**.
 - **`Browser/` is a clear delete cluster**: 90% no-date-signal, hex-named or kebab-pinterest-style names.
 - **`Ha_Photos\` mixes Eduard's own work with imports**: 86 HEIC files are iPhone originals (re-EXIF candidates → keep + ingest into the Hamburg trip slot per `photo-classification-plan.md` action item #1).
@@ -76,22 +78,22 @@ Pattern matches over the `no-date-signal` and `no-exif-date-no-year-folder` orph
 
 | Pattern | Count | Sample paths | Recommended class |
 | --- | ---: | --- | --- |
-| `<10digit>_*` | 2,072 | `G:\Poze\1000000134_2.jpg`, `G:\Poze\1000000166_2.jpg`, `G:\Poze\1000001893_2.jpg` | **delete** (Facebook photo IDs) |
-| `IMG_NNNN` | 510 | `G:\Poze\IMG_0190.jpg`, `G:\Poze\IMG_0191.jpg`, `G:\Poze\IMG_0192.jpg` | **absorb** (DSLR / older device camera roll) |
-| `received_*` | 246 | `G:\Poze\received_1023756715515923.jpeg`, `G:\Poze\received_1039557307672673.jpeg` | **delete** (Messenger receive) |
-| `<hex hash>` | 232 | `G:\Poze\5529375ae58ef23231d1a1626572e592.jpg`, `G:\Poze\c179cbc0d3375c16e8ed208f2a143f51.jpg` | **delete** (browser cache hash) |
-| `image*` | 196 | `G:\Poze\image-0-02-04-02e8d7a1…-V.jpg`, `G:\Poze\image-0-02-04-5970…-V.jpg` | **delete** (web save / Telegram-style export) |
-| `FB_IMG_*` | 110 | `G:\Poze\FB_IMG_1468785900175.jpg`, `G:\Poze\FB_IMG_1481309948917.jpg` | **review** (FB save — could be Eduard's own up-/downloads) |
-| `images(N)` | 58 | `G:\Poze\images (1).jpeg`, `G:\Poze\images (10).jpeg` | **delete** (browser download) |
-| `logo*` | 26 | `G:\Poze\logo_10.png`, `G:\Poze\logo_2.png` | **delete** (UI asset) |
-| `download*` | 20 | `G:\Poze\download.png`, `G:\Poze\Browser\download (1).jpg` | **delete** (browser download) |
-| `_a_t_m_e_g_a*` | 12 | `G:\Poze\_a_t_m_e_g_a___free_r_t_o_s_8h__dep__incl*.png` | **delete** (Doxygen call-graph for AVR `freertos.h`) |
-| `<n>__<n>.png` | 8 | `G:\Poze\1__2.png`, `G:\Poze\1__3.PNG`, `G:\Poze\2__2.png` | **delete** (hash PNG) |
-| `Snapchat-*` | 4 | `G:\Poze\Snapchat-1896150730.jpg`, `D:\Portfolio\poze\Snapchat-1896150730.jpg` | **delete** (Snapchat export) |
-| `MSGR_PHOTO_*` | 2 | `G:\Poze\MSGR_PHOTO_FOR_UPLOAD_1534687932756.jpg_1534687935959.jpeg` | **delete** (Messenger upload artifact) |
-| `PHOTO_*` (`photo-<id>-…`) | 2 | `G:\Poze\Browser\photo-1615966650071-855b15f29ad1.jpg` | **delete** (Unsplash CDN slug) |
-| `unnamed*` | 2 | `G:\Poze\Browser\unnamed-31-1024x1024.jpg` | **delete** (mail attachment) |
-| `icon*` | 2 | `G:\Poze\icon.png`, `D:\Portfolio\poze\icon.png` | **delete** (UI asset) |
+| `<10digit>_*` | 2,072 | `G:\Photos\1000000134_2.jpg`, `G:\Photos\1000000166_2.jpg`, `G:\Photos\1000001893_2.jpg` | **delete** (Facebook photo IDs) |
+| `IMG_NNNN` | 510 | `G:\Photos\IMG_0190.jpg`, `G:\Photos\IMG_0191.jpg`, `G:\Photos\IMG_0192.jpg` | **absorb** (DSLR / older device camera roll) |
+| `received_*` | 246 | `G:\Photos\received_1023756715515923.jpeg`, `G:\Photos\received_1039557307672673.jpeg` | **delete** (Messenger receive) |
+| `<hex hash>` | 232 | `G:\Photos\5529375ae58ef23231d1a1626572e592.jpg`, `G:\Photos\c179cbc0d3375c16e8ed208f2a143f51.jpg` | **delete** (browser cache hash) |
+| `image*` | 196 | `G:\Photos\image-0-02-04-02e8d7a1…-V.jpg`, `G:\Photos\image-0-02-04-5970…-V.jpg` | **delete** (web save / Telegram-style export) |
+| `FB_IMG_*` | 110 | `G:\Photos\FB_IMG_1468785900175.jpg`, `G:\Photos\FB_IMG_1481309948917.jpg` | **review** (FB save — could be Eduard's own up-/downloads) |
+| `images(N)` | 58 | `G:\Photos\images (1).jpeg`, `G:\Photos\images (10).jpeg` | **delete** (browser download) |
+| `logo*` | 26 | `G:\Photos\logo_10.png`, `G:\Photos\logo_2.png` | **delete** (UI asset) |
+| `download*` | 20 | `G:\Photos\download.png`, `G:\Photos\Browser\download (1).jpg` | **delete** (browser download) |
+| `_a_t_m_e_g_a*` | 12 | `G:\Photos\_a_t_m_e_g_a___free_r_t_o_s_8h__dep__incl*.png` | **delete** (Doxygen call-graph for AVR `freertos.h`) |
+| `<n>__<n>.png` | 8 | `G:\Photos\1__2.png`, `G:\Photos\1__3.PNG`, `G:\Photos\2__2.png` | **delete** (hash PNG) |
+| `Snapchat-*` | 4 | `G:\Photos\Snapchat-1896150730.jpg`, `D:\Portfolio\poze\Snapchat-1896150730.jpg` | **delete** (Snapchat export) |
+| `MSGR_PHOTO_*` | 2 | `G:\Photos\MSGR_PHOTO_FOR_UPLOAD_1534687932756.jpg_1534687935959.jpeg` | **delete** (Messenger upload artifact) |
+| `PHOTO_*` (`photo-<id>-…`) | 2 | `G:\Photos\Browser\photo-1615966650071-855b15f29ad1.jpg` | **delete** (Unsplash CDN slug) |
+| `unnamed*` | 2 | `G:\Photos\Browser\unnamed-31-1024x1024.jpg` | **delete** (mail attachment) |
+| `icon*` | 2 | `G:\Photos\icon.png`, `D:\Portfolio\poze\icon.png` | **delete** (UI asset) |
 
 Pattern coverage of the 41,470-row supersets is ~3,500 — most no-date-signal orphans are **caught by the folder rollup (§2) rather than filename-only** (e.g. the 20,190 `<root>` no-date orphans on D:\ are mixed-name dumps, not fitting one prefix). The folder-level cuts in §6 are therefore where the bulk-delete bite comes from.
 
@@ -143,13 +145,13 @@ These need no taste call from Eduard. The right move is to re-run P1/P3/P4/P5 ag
 Tick-list for Eduard. Each row is a **whole folder** that is >70% no-date-signal class. Skip any you want kept.
 
 ```
-[ ] G:\Poze\Browser\                           424 files (380 no-date-signal, 90%)  — Pinterest/web saves
-[ ] D:\Portfolio\poze\Browser\                 424 files (380 no-date-signal, 90%)  — mirror of G:\Poze\Browser
-[ ] G:\Poze\X\                                  18 files ( 14 no-date-signal, 78%)  — old FB-CDN basenames
-[ ] D:\Portfolio\poze\X\                        18 files ( 14 no-date-signal, 78%)  — mirror of G:\Poze\X
+[ ] G:\Photos\Browser\                           424 files (380 no-date-signal, 90%)  — Pinterest/web saves
+[ ] D:\Portfolio\poze\Browser\                 424 files (380 no-date-signal, 90%)  — mirror of G:\Photos\Browser
+[ ] G:\Photos\X\                                  18 files ( 14 no-date-signal, 78%)  — old FB-CDN basenames
+[ ] D:\Portfolio\poze\X\                        18 files ( 14 no-date-signal, 78%)  — mirror of G:\Photos\X
 ```
 
-Tick-list for **filename-pattern groups inside `<root>`** (G:\Poze and D:\Portfolio\poze flat dumps; the 90% bulk lives here, but folder-level deletion is too broad — use patterns):
+Tick-list for **filename-pattern groups inside `<root>`** (G:\Photos and D:\Portfolio\poze flat dumps; the 90% bulk lives here, but folder-level deletion is too broad — use patterns):
 
 ```
 [ ] <10digit>_*.jpg          ~2,072 files (Facebook photo IDs)
@@ -184,26 +186,26 @@ Orphans with mtime ≥ 2018-01-01 AND EXIF DateTimeOriginal present AND size ≥
 
 | Path | mtime | EXIF taken | Size MB |
 | --- | --- | --- | ---: |
-| `G:\Poze\DSC_0889.JPG` | 2020-09-01 | 2020-09-01 | 13.1 |
-| `G:\Poze\CV + CL photos\All\DSC_0889.JPG` | 2020-09-01 | 2020-09-01 | 13.1 |
-| `G:\Poze\DSC_0888.JPG` | 2020-09-01 | 2020-09-01 | 12.6 |
-| `G:\Poze\CV + CL photos\All\DSC_0888.JPG` | 2020-09-01 | 2020-09-01 | 12.6 |
-| `G:\Poze\DSC_0887.JPG` | 2020-09-01 | 2020-09-01 | 12.3 |
-| `G:\Poze\CV + CL photos\All\DSC_0887.JPG` | 2020-09-01 | 2020-09-01 | 12.3 |
-| `G:\Poze\DSC_0895.JPG` | 2020-09-01 | 2020-09-01 | 11.8 |
-| `G:\Poze\CV + CL photos\All\DSC_0895.JPG` | 2020-09-01 | 2020-09-01 | 11.8 |
-| `G:\Poze\DSC_0893.JPG` | 2020-09-01 | 2020-09-01 | 11.8 |
-| `G:\Poze\CV + CL photos\All\DSC_0893.JPG` | 2020-09-01 | 2020-09-01 | 11.8 |
-| `G:\Poze\DSC_0875.JPG` | 2020-09-01 | 2020-09-01 | 10.9 |
-| `G:\Poze\CV + CL photos\All\DSC_0875.JPG` | 2020-09-01 | 2020-09-01 | 10.9 |
-| `G:\Poze\DSC_0886.JPG` | 2020-09-01 | 2020-09-01 | 10.8 |
-| `G:\Poze\CV + CL photos\All\DSC_0886.JPG` | 2020-09-01 | 2020-09-01 | 10.8 |
-| `G:\Poze\DSC_0903.JPG` | 2020-09-01 | 2020-09-01 | 10.7 |
-| `G:\Poze\CV + CL photos\All\DSC_0903.JPG` | 2020-09-01 | 2020-09-01 | 10.7 |
-| `G:\Poze\DSC_0902.JPG` | 2020-09-01 | 2020-09-01 | 10.7 |
-| `G:\Poze\CV + CL photos\All\DSC_0902.JPG` | 2020-09-01 | 2020-09-01 | 10.7 |
-| `G:\Poze\DSC_0894.JPG` | 2020-09-01 | 2020-09-01 | 10.7 |
-| `G:\Poze\CV + CL photos\All\DSC_0894.JPG` | 2020-09-01 | 2020-09-01 | 10.7 |
+| `G:\Photos\DSC_0889.JPG` | 2020-09-01 | 2020-09-01 | 13.1 |
+| `G:\Photos\CV + CL photos\All\DSC_0889.JPG` | 2020-09-01 | 2020-09-01 | 13.1 |
+| `G:\Photos\DSC_0888.JPG` | 2020-09-01 | 2020-09-01 | 12.6 |
+| `G:\Photos\CV + CL photos\All\DSC_0888.JPG` | 2020-09-01 | 2020-09-01 | 12.6 |
+| `G:\Photos\DSC_0887.JPG` | 2020-09-01 | 2020-09-01 | 12.3 |
+| `G:\Photos\CV + CL photos\All\DSC_0887.JPG` | 2020-09-01 | 2020-09-01 | 12.3 |
+| `G:\Photos\DSC_0895.JPG` | 2020-09-01 | 2020-09-01 | 11.8 |
+| `G:\Photos\CV + CL photos\All\DSC_0895.JPG` | 2020-09-01 | 2020-09-01 | 11.8 |
+| `G:\Photos\DSC_0893.JPG` | 2020-09-01 | 2020-09-01 | 11.8 |
+| `G:\Photos\CV + CL photos\All\DSC_0893.JPG` | 2020-09-01 | 2020-09-01 | 11.8 |
+| `G:\Photos\DSC_0875.JPG` | 2020-09-01 | 2020-09-01 | 10.9 |
+| `G:\Photos\CV + CL photos\All\DSC_0875.JPG` | 2020-09-01 | 2020-09-01 | 10.9 |
+| `G:\Photos\DSC_0886.JPG` | 2020-09-01 | 2020-09-01 | 10.8 |
+| `G:\Photos\CV + CL photos\All\DSC_0886.JPG` | 2020-09-01 | 2020-09-01 | 10.8 |
+| `G:\Photos\DSC_0903.JPG` | 2020-09-01 | 2020-09-01 | 10.7 |
+| `G:\Photos\CV + CL photos\All\DSC_0903.JPG` | 2020-09-01 | 2020-09-01 | 10.7 |
+| `G:\Photos\DSC_0902.JPG` | 2020-09-01 | 2020-09-01 | 10.7 |
+| `G:\Photos\CV + CL photos\All\DSC_0902.JPG` | 2020-09-01 | 2020-09-01 | 10.7 |
+| `G:\Photos\DSC_0894.JPG` | 2020-09-01 | 2020-09-01 | 10.7 |
+| `G:\Photos\CV + CL photos\All\DSC_0894.JPG` | 2020-09-01 | 2020-09-01 | 10.7 |
 
 **Important caveat**: the entire top-20 here is the same 2020-09-01 DSC_NNNN headshot batch (the 4,031-member CV/CL group from P-B). The mtime-after-2018 + EXIF-present heuristic isn't selective enough — it's dominated by one big cluster. Recommended fix before next round:
 
@@ -215,7 +217,7 @@ Orphans with mtime ≥ 2018-01-01 AND EXIF DateTimeOriginal present AND size ≥
 
 1. **Per-year slices skipped 33,231 root-level files.** Expected behaviour — those scans walked year-bucket folders, not flat root dumps. Not a data bug; just needs a re-run with the orphan-list as input rather than re-walking the disk. See §4 for the year-distribution evidence.
 2. **614 sensitive-folder paths excluded from §2 rollup.** Per `docs/photo-classification-plan.md` privacy note: `CV + CL photos\`, `Driving license photos\`, `ID Photos\`, `Passport photos\`, `Residence permit photos\` are blocklisted. They appear in §6.4's "keep + reclassify" extract because the heuristic (mtime + EXIF) doesn't discriminate by path; ignore those rows for any publish path.
-3. **D:\Portfolio\poze\ vs G:\Poze\ heavy duplication.** Per P-B / P8-redo: 17,529 demote candidates. The §2 rollup shows near-identical counts in every named subfolder on both drives. **Do not act on D:-side files alone — wait for Eduard's sign-off on the dedup demote list (action item #8 in `photo-classification-plan.md`).** The bulk-delete tick-list in §6.2 explicitly mirrors G:/D: pairs so they can move together once dedup is signed off.
+3. **D:\Portfolio\poze\ vs G:\Photos\ heavy duplication.** Per P-B / P8-redo: 17,529 demote candidates. The §2 rollup shows near-identical counts in every named subfolder on both drives. **Do not act on D:-side files alone — wait for Eduard's sign-off on the dedup demote list (action item #8 in `photo-classification-plan.md`).** The bulk-delete tick-list in §6.2 explicitly mirrors G:/D: pairs so they can move together once dedup is signed off.
 4. **§6.2 tick-list is partial.** ~3,754 files explicitly named; the larger flat-`<root>` no-date-signal pool (40,382 rows across G:\ + D:\) needs a second-pass classifier before bulk action. A wider regex pass (Telegram, Tumblr, generic CDN slugs) plus visual-fingerprint clustering against known Pinterest/Imgur output would likely raise that to ~25,000.
 5. **The keep-candidates heuristic in §6.4 is dominated by one cluster.** 90% of the top-200 are the 2020-09-01 CV/CL DSLR headshots. Better signals: EXIF GPS presence, `cameraModel` = phone/DSLR not "scanner", and date spread across ≥ 5 distinct days.
 6. **HEIC re-EXIF count (1,018) likely undercounts iPhone originals.** Some HEIC files in named folders (`Ha_Photos\`, `Poze Huawei\`, `camera\`) already had a year-hint and so didn't fall into the `exif-unreadable` bucket. Real iPhone-original count after exiftool re-pass is probably 1,200–1,500.

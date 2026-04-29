@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * Quarantine perceptual-dedup demote candidates on G:\Poze\.
+ * Quarantine perceptual-dedup demote candidates on G:\Photos\.
  *
  * Reads scripts/.photo-classify/P8-redo/dedup.ndjson (one JSON record per group)
  * and moves every "demote" file (members[1..]) into a parallel
- * G:\Poze\.duplicates\<original-relative-path> tree. The "keeper" (members[0])
+ * G:\Photos\.duplicates\<original-relative-path> tree. The "keeper" (members[0])
  * stays where it is.
  *
  * REVERSIBLE: every move is logged TSV-style to scripts/.g-dedup-quarantine.log
@@ -34,7 +34,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const SOURCE_ROOT = 'G:\\Poze';
+const SOURCE_ROOT = 'G:\\Photos';
 const QUARANTINE_ROOT = path.join(SOURCE_ROOT, '.duplicates');
 const INPUT = path.join(__dirname, '.photo-classify', 'P8-redo', 'dedup.ndjson');
 const LOG_PATH = path.join(__dirname, '.g-dedup-quarantine.log');
@@ -44,12 +44,12 @@ const LOG_PATH = path.join(__dirname, '.g-dedup-quarantine.log');
 // substring/prefix predicates.
 const SENSITIVE_PREFIXES = [
   // Exact prefixes (case-insensitive)
-  'g:\\poze\\cv + cl photos\\',
-  'g:\\poze\\driving license photos\\',
-  'g:\\poze\\id photos\\',
-  'g:\\poze\\passport photos\\',
-  'g:\\poze\\residence permit photos\\',
-  'g:\\poze\\camera roll iphone backup\\',
+  'g:\\photos\\cv + cl photos\\',
+  'g:\\photos\\driving license photos\\',
+  'g:\\photos\\id photos\\',
+  'g:\\photos\\passport photos\\',
+  'g:\\photos\\residence permit photos\\',
+  'g:\\photos\\camera roll iphone backup\\',
   'g:\\whatsapp\\',
   'g:\\important documents\\',
 ];
@@ -87,11 +87,11 @@ function classifySkip(p) {
   const n = normalize(p);
   if (n.startsWith(D_PORTFOLIO_PREFIX)) return 'd-portfolio';
   if (isSensitive(p)) return 'sensitive-blocklist';
-  // Out-of-scope: anything not under G:\Poze\ — defensive, dedup.ndjson is G:\Poze
+  // Out-of-scope: anything not under G:\Photos\ — defensive, dedup.ndjson is G:\Photos
   // only, but be safe.
-  if (!n.startsWith('g:\\poze\\')) return 'out-of-scope-root';
+  if (!n.startsWith('g:\\photos\\')) return 'out-of-scope-root';
   // Don't re-quarantine files already inside the quarantine tree.
-  if (n.startsWith('g:\\poze\\.duplicates\\')) return 'already-quarantined';
+  if (n.startsWith('g:\\photos\\.duplicates\\')) return 'already-quarantined';
   return null;
 }
 
@@ -195,8 +195,8 @@ async function main() {
 
     // SPEC: if the keeper itself is inside a P13 sensitive folder, skip the
     // entire group. This protects clusters like the 4,031-image CV/CL DSLR
-    // group whose keeper is in `G:\Poze\CV + CL photos\` but whose demotes
-    // leak into G:\Poze root.
+    // group whose keeper is in `G:\Photos\CV + CL photos\` but whose demotes
+    // leak into G:\Photos root.
     if (keeper && isSensitive(keeper)) {
       for (const src of demotes) {
         stats.demotesTotal++;
@@ -254,7 +254,7 @@ async function main() {
         continue;
       }
 
-      // Compute destination — preserve the path inside G:\Poze\ under the
+      // Compute destination — preserve the path inside G:\Photos\ under the
       // .duplicates root.
       const rel = path.relative(SOURCE_ROOT, src); // e.g. "Sub\file.jpg" or "file.jpg"
       let dest = path.join(QUARANTINE_ROOT, rel);

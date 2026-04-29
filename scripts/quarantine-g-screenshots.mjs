@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
- * Quarantine non-camera-photo content from G:\Poze\ root into G:\Poze\Screenshots\.
+ * Quarantine non-camera-photo content from G:\Photos\ root into G:\Photos\Screenshots\.
  *
- * Sweeps **only** the immediate `G:\Poze\` root listing (no recursion). Subfolders
+ * Sweeps **only** the immediate `G:\Photos\` root listing (no recursion). Subfolders
  * created by other agents (year buckets, `Screenshots\`, `WhatsApp-by-year\`,
  * `.duplicates\`, `.review-for-delete\`, P13 sensitive folders, etc.) are
  * **never** entered or touched.
@@ -14,7 +14,7 @@
  *   4. social-snapchat — `*com.snapchat*`, `Snapchat-*`, `OPLUSDRAG*com.snapchat*`
  *   5. browser-save    — `*.html.png`, `*pinterest*`, `*pinimg*`
  *
- * Move target: `G:\Poze\Screenshots\<basename>` (flat — Screenshots\ has no
+ * Move target: `G:\Photos\Screenshots\<basename>` (flat — Screenshots\ has no
  * year-buckets at this time). On destination collision, append `.<sha1-8>`
  * before the extension and log it.
  *
@@ -23,7 +23,7 @@
  *
  * STRICT CONSTRAINTS:
  *   - Move only, never delete.
- *   - Only files at the immediate `G:\Poze\` root level are candidates.
+ *   - Only files at the immediate `G:\Photos\` root level are candidates.
  *     Anything under a subfolder (year buckets, organized folders, P13
  *     sensitive folders) is skipped by construction (we only `readdir` once).
  *   - On destination collision, suffix with short content hash.
@@ -43,7 +43,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const G_ROOT = 'G:\\Poze';
+const G_ROOT = 'G:\\Photos';
 const QUARANTINE_DIR = path.join(G_ROOT, 'Screenshots');
 const LOG_PATH = path.join(__dirname, '.g-screenshots-quarantine.log');
 const SUMMARY_PATH = path.join(__dirname, '.g-screenshots-quarantine.summary.json');
@@ -132,7 +132,7 @@ function main() {
   openLog();
   writeLog(`# run start ${startedAt.toISOString()} dryRun=${dryRun} maxMoves=${maxMoves}`);
 
-  // Single non-recursive readdir of G:\Poze\ — only top-level entries are
+  // Single non-recursive readdir of G:\Photos\ — only top-level entries are
   // candidates. Subfolders are skipped by construction.
   const entries = fs.readdirSync(G_ROOT, { withFileTypes: true });
 

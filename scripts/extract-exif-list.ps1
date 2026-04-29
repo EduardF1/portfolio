@@ -2,7 +2,7 @@
 # but accepts -SourceFolder and -ListPath (newline-separated filenames) instead of
 # scanning a whole folder. Emits NDJSON to stdout.
 #
-# Usage: pwsh -NoProfile -File scripts/extract-exif-list.ps1 -SourceFolder 'G:\Poze' -ListPath /tmp/candidates.txt
+# Usage: pwsh -NoProfile -File scripts/extract-exif-list.ps1 -SourceFolder 'G:\Photos' -ListPath /tmp/candidates.txt
 param(
   [Parameter(Mandatory = $true)] [string] $SourceFolder,
   [Parameter(Mandatory = $true)] [string] $ListPath

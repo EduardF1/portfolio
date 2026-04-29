@@ -5,9 +5,9 @@
  * Source: D:\Portfolio\poze\<filename> (root only — no subfolder recursion).
  * Target: D:\Portfolio\poze\<YYYY>\<filename>.
  *
- * This is the D-side mirror of the G:\Poze\ year-bucket reorg approach. The
+ * This is the D-side mirror of the G:\Photos\ year-bucket reorg approach. The
  * G-side WhatsApp reorg (PR #57, scripts/reorg-g-whatsapp.mjs) bucketed the
- * `IMG-YYYYMMDD-WAxxxx.jpg` family into G:\Poze\WhatsApp-by-year\<year>\. This
+ * `IMG-YYYYMMDD-WAxxxx.jpg` family into G:\Photos\WhatsApp-by-year\<year>\. This
  * script targets the *camera-source* family (Android Camera, Huawei, Pixel,
  * 13-digit epoch-ms gallery exports) at the D root and lands them directly in
  * D:\Portfolio\poze\<year>\<filename>, per the D-side spec.

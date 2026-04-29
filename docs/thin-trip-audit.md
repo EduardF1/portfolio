@@ -1,11 +1,13 @@
 # Thin-trip audit — 2026-04-29
 
+> Path renamed from `G:\Photos` to `G:\Photos` on 2026-04-29; pre-rename log entries reference the old name and remain valid.
+
 ## 2026-04-28 — wider-window backfill (PR feat/thin-trip-wider-scan)
 
 After PR #73's narrow ±2-day / ±0.5° window left `2020-02-denmark` at 3 own-camera
 candidates plus 2 stocks, this pass widened the search to ±30 days / ±3° GPS
 (plus country bbox fallback for trips with sparse GPS) and re-scanned all of
-`G:\Poze\<year>\` recursively (47 cluster folders for 2018 alone). Result:
+`G:\Photos\<year>\` recursively (47 cluster folders for 2018 alone). Result:
 22 fresh GPS-bearing candidates inside the wider Denmark window, 10 passing
 the YOLO + MediaPipe + CLIP gate, **7 imported** via temporal even-spread.
 
@@ -60,15 +62,15 @@ Nine trips need backfill:
 
 | Trip | Need | Backfill plan |
 |---|---:|---|
-| `2018-03-israel` | 3 | Camera archive (`G:\Poze\2018\IMG_2018032*.jpg`) |
-| `2019-07-belgium` | 1 | Camera archive (`G:\Poze\2019\IMG_2019072[789]*.jpg`) |
-| `2019-07-luxembourg` | 1 | Camera archive (`G:\Poze\2019\IMG_20190730*.jpg` — Luxembourg-bbox) |
-| `2020-02-denmark` | 3 | Camera archive (`G:\Poze\2020\IMG_202002*.jpg`) |
-| `2022-08-denmark` | 1 | Camera archive (`G:\Poze\2022\IMG_2022081*.jpg`) |
-| `2022-12-romania` | 1 | Camera archive (`G:\Poze\2022\IMG_2022122[3-7]*.jpg`) |
-| `2023-04-italy` | 1 | Camera archive (`G:\Poze\2023\IMG_2023040[1-5]*.jpg`) |
-| `2023-07-turkey` | 1 | Camera archive (`G:\Poze\2023\IMG_2023071[0-7]*.jpg`) |
-| `2025-03-romania` | 1 | Camera archive (`G:\Poze\2025\IMG2025033*.jpg`) |
+| `2018-03-israel` | 3 | Camera archive (`G:\Photos\2018\IMG_2018032*.jpg`) |
+| `2019-07-belgium` | 1 | Camera archive (`G:\Photos\2019\IMG_2019072[789]*.jpg`) |
+| `2019-07-luxembourg` | 1 | Camera archive (`G:\Photos\2019\IMG_20190730*.jpg` — Luxembourg-bbox) |
+| `2020-02-denmark` | 3 | Camera archive (`G:\Photos\2020\IMG_202002*.jpg`) |
+| `2022-08-denmark` | 1 | Camera archive (`G:\Photos\2022\IMG_2022081*.jpg`) |
+| `2022-12-romania` | 1 | Camera archive (`G:\Photos\2022\IMG_2022122[3-7]*.jpg`) |
+| `2023-04-italy` | 1 | Camera archive (`G:\Photos\2023\IMG_2023040[1-5]*.jpg`) |
+| `2023-07-turkey` | 1 | Camera archive (`G:\Photos\2023\IMG_2023071[0-7]*.jpg`) |
+| `2025-03-romania` | 1 | Camera archive (`G:\Photos\2025\IMG2025033*.jpg`) |
 
 ## Result (after own-archive backfill, this PR)
 
@@ -96,7 +98,7 @@ For each thin trip:
 
 1. Compute date window from existing catalogue `takenAt` ± 2 days.
 2. Compute GPS bbox from existing catalogue GPS ± 0.5° (when available).
-3. Scan `G:\Poze\` (year subfolders + `Poze Huawei`) using EXIF dump
+3. Scan `G:\Photos\` (year subfolders + `Poze Huawei`) using EXIF dump
    `scripts/.gposze-full-exif.ndjson` (36k entries, all years 2016–2026).
 4. Drop files already in `scripts/.removed-non-artistic/<slug>/`.
 5. Drop files already in the catalogue.

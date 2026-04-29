@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Reorganize camera-source media in G:\Poze\ root into per-year subfolders.
+ * Reorganize camera-source media in G:\Photos\ root into per-year subfolders.
  *
  * Camera-source filename patterns (root-only, non-recursive):
  *   - IMG_YYYYMMDD_HHMMSS*.<ext>          (Huawei / Pixel)        → year from chars 5-8
@@ -13,7 +13,7 @@
  *
  * Accepted extensions: .jpg .jpeg .png .heic (case-insensitive).
  *
- * Target: G:\Poze\<YYYY>\<filename>.
+ * Target: G:\Photos\<YYYY>\<filename>.
  * Move-only via fs.renameSync (atomic on the same volume). NO deletes.
  *
  * Usage:
@@ -21,9 +21,9 @@
  *   node scripts/reorg-g-camera.mjs --dry-run  # plan only, no FS writes
  *
  * Constraints (P13 + spec):
- *   - Reads G:\Poze\ root only, never recurses.
+ *   - Reads G:\Photos\ root only, never recurses.
  *   - Skips P13 sensitive subfolders entirely (we don't enumerate them).
- *   - Also leaves alone: G:\Poze\WhatsApp-by-year\, .duplicates\, .review-for-delete\,
+ *   - Also leaves alone: G:\Photos\WhatsApp-by-year\, .duplicates\, .review-for-delete\,
  *     existing per-year buckets, and `Poze Huawei\`.
  *   - Files where year cannot be derived (no filename signal AND no EXIF) stay at root.
  *   - Same-name destination collision → append -2, -3, ... suffix and log.
@@ -37,7 +37,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const SOURCE_ROOT = 'G:\\Poze';
+const SOURCE_ROOT = 'G:\\Photos';
 const LOG_PATH = path.join(__dirname, '.g-camera-reorg.log');
 const EXIFTOOL = 'C:\\Users\\Eduard\\AppData\\Local\\Programs\\ExifTool\\exiftool.exe';
 
