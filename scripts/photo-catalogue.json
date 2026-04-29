@@ -2123,6 +2123,56 @@
     }
   },
   {
+    "src": "trips/2018-03-israel/pexels-galilee-tabgha-stone-church-18659571.jpg",
+    "takenAt": "2018-03-24T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.79,
+      "lon": 35.58
+    },
+    "place": {
+      "city": "Sea of Galilee",
+      "country": "Israel",
+      "display": "Sea of Galilee, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stone-church-on-the-lake-shore-in-tabgha-18659571/",
+      "photographer": "Sofiia Veselovska",
+      "photographerUrl": "https://www.pexels.com/@sofiia-veselovska-734728078/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-galilee-tiberias-aerial-7247331.jpg",
+    "takenAt": "2018-03-24T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.79,
+      "lon": 35.58
+    },
+    "place": {
+      "city": "Sea of Galilee",
+      "country": "Israel",
+      "display": "Sea of Galilee, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-shot-of-a-coastal-city-7247331/",
+      "photographer": "John Morgan",
+      "photographerUrl": "https://www.pexels.com/@john-morgan-39705932/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2018-03-israel/IMG_20180324_121517.jpg",
     "takenAt": "2018-03-24T12:15:20Z",
     "hasGps": true,
@@ -2195,6 +2245,531 @@
       "city": "Malmö kommun",
       "country": "Sweden",
       "display": "Malmö kommun, Sweden"
+    }
+  },
+  {
+    "src": "trips/2018-04-sweden/pexels-malmo-st-petri-church-18748016.jpg",
+    "takenAt": "2018-04-21T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.605,
+      "lon": 13.0038
+    },
+    "place": {
+      "city": "Malmö",
+      "country": "Sweden",
+      "display": "Malmö, Sweden"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/st-pethers-church-in-malmo-18748016/",
+      "photographer": "Omer Fuyar",
+      "photographerUrl": "https://www.pexels.com/@omerfuyar/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-boats-trees-29351196.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "place": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "display": "Amsterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-amsterdam-canal-with-boats-and-trees-29351196/",
+      "photographer": "naimish17",
+      "photographerUrl": "https://www.pexels.com/@naimish17",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-from-bridge-18936486.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "place": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "display": "Amsterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/canal-in-amsterdam-seen-from-bridge-18936486/",
+      "photographer": "cvele",
+      "photographerUrl": "https://www.pexels.com/@cvele",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-houseboats-morning-31773686.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "place": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "display": "Amsterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-canal-view-with-boats-in-amsterdam-31773686/",
+      "photographer": "Titouan Jullien",
+      "photographerUrl": "https://www.pexels.com/@titouan-jullien-504247666",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-spring-36670516.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "place": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "display": "Amsterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-amsterdam-canal-with-boats-and-trees-in-spring-36670516/",
+      "photographer": "Burak Akmanoglu",
+      "photographerUrl": "https://www.pexels.com/@burak-akmanoglu-745300984",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-bridge-church-29351195.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "place": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "display": "Amsterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-amsterdam-canal-with-boats-and-bridge-29351195/",
+      "photographer": "naimish17",
+      "photographerUrl": "https://www.pexels.com/@naimish17",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-rotterdam-erasmus-bridge-sunset-20655919.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.9244,
+      "lon": 4.4777
+    },
+    "place": {
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "display": "Rotterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/suspension-bridge-by-the-harbor-in-rotterdam-20655919/",
+      "photographer": "Igor Passchier",
+      "photographerUrl": "https://www.pexels.com/@igor-passchier-111147847",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-rotterdam-willemsbrug-white-house-35993737.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.9244,
+      "lon": 4.4777
+    },
+    "place": {
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "display": "Rotterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/sunset-over-willemsbrug-and-historic-white-house-rotterdam-35993737/",
+      "photographer": "braujardim",
+      "photographerUrl": "https://www.pexels.com/@braujardim",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-rotterdam-cube-houses-29819767.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.9244,
+      "lon": 4.4777
+    },
+    "place": {
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "display": "Rotterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/cube-houses-in-rotterdam-architectural-innovation-29819767/",
+      "photographer": "Valter Biscaia Filho",
+      "photographerUrl": "https://www.pexels.com/@valter-biscaia-filho-2147883999",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-the-hague-binnenhof-fountain-18684354.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0705,
+      "lon": 4.3007
+    },
+    "place": {
+      "city": "The Hague",
+      "country": "Netherlands",
+      "display": "The Hague, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/binnenhof-in-hague-in-netherlands-18684354/",
+      "photographer": "Patrick Jaksic",
+      "photographerUrl": "https://www.pexels.com/@patrick-jaksic-615183630",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-the-hague-skyline-historic-modern-33841317.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0705,
+      "lon": 4.3007
+    },
+    "place": {
+      "city": "The Hague",
+      "country": "Netherlands",
+      "display": "The Hague, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/skyline-of-the-hague-featuring-historic-and-modern-buildings-33841317/",
+      "photographer": "Jakub Zerdzicki",
+      "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-the-hague-scheveningen-beach-34126088.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0705,
+      "lon": 4.3007
+    },
+    "place": {
+      "city": "The Hague",
+      "country": "Netherlands",
+      "display": "The Hague, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scheveningen-beach-and-cityscape-the-hague-34126088/",
+      "photographer": "Jakub Zerdzicki",
+      "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-utrecht-dom-tower-blue-sky-32348115.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0907,
+      "lon": 5.1214
+    },
+    "place": {
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "display": "Utrecht, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/dom-tower-against-clear-blue-sky-in-utrecht-32348115/",
+      "photographer": "Martijn Stoof",
+      "photographerUrl": "https://www.pexels.com/@martijn-stoof",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-utrecht-canal-evening-33375300.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0907,
+      "lon": 5.1214
+    },
+    "place": {
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "display": "Utrecht, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-evening-canal-view-in-utrecht-netherlands-33375300/",
+      "photographer": "Barkalı",
+      "photographerUrl": "https://www.pexels.com/@barkali-340353352",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-utrecht-cyclists-dom-tower-33021970.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0907,
+      "lon": 5.1214
+    },
+    "place": {
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "display": "Utrecht, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/cyclists-near-dom-tower-utrecht-historic-street-33021970/",
+      "photographer": "Ernesto",
+      "photographerUrl": "https://www.pexels.com/@ernesto-2335487",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-rotterdam-blaak-tram-markthal-29246776.jpg",
+    "takenAt": "2019-05-25T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.9244,
+      "lon": 4.4777
+    },
+    "place": {
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "display": "Rotterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/rotterdam-blaak-modern-tram-station-with-markthal-29246776/",
+      "photographer": "Igor Passchier",
+      "photographerUrl": "https://www.pexels.com/@igor-passchier-111147847/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-rotterdam-markthal-food-stalls-15031756.jpg",
+    "takenAt": "2019-05-25T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.9244,
+      "lon": 4.4777
+    },
+    "place": {
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "display": "Rotterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/people-near-food-bar-in-shopping-mall-15031756/",
+      "photographer": "Maarten van den Heuvel",
+      "photographerUrl": "https://www.pexels.com/@mvdheuvel/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-the-hague-peace-palace-front-18275684.jpg",
+    "takenAt": "2019-05-25T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0705,
+      "lon": 4.3007
+    },
+    "place": {
+      "city": "The Hague",
+      "country": "Netherlands",
+      "display": "The Hague, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/traditional-palace-in-hague-18275684/",
+      "photographer": "jaralol",
+      "photographerUrl": "https://www.pexels.com/@jaralol/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-the-hague-binnenhof-fountain-13460833.jpg",
+    "takenAt": "2019-05-25T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0705,
+      "lon": 4.3007
+    },
+    "place": {
+      "city": "The Hague",
+      "country": "Netherlands",
+      "display": "The Hague, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/water-fountain-in-front-of-brown-concrete-building-13460833/",
+      "photographer": "Márton Novák",
+      "photographerUrl": "https://www.pexels.com/@marton-novak-81427533/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-utrecht-dom-tower-clear-sky-35014438.jpg",
+    "takenAt": "2019-05-25T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0907,
+      "lon": 5.1214
+    },
+    "place": {
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "display": "Utrecht, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/dom-tower-in-utrecht-against-blue-sky-35014438/",
+      "photographer": "Paul Oor",
+      "photographerUrl": "https://www.pexels.com/@paul-oor-281880/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-utrecht-dom-tower-evening-33021969.jpg",
+    "takenAt": "2019-05-25T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0907,
+      "lon": 5.1214
+    },
+    "place": {
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "display": "Utrecht, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/utrecht-dom-tower-in-evening-light-33021969/",
+      "photographer": "Petar Avramoski",
+      "photographerUrl": "https://www.pexels.com/@ernesto/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -2487,6 +3062,181 @@
     }
   },
   {
+    "src": "trips/2019-07-belgium/pexels-bruges-belfry-canal-sunny-34973794.jpg",
+    "takenAt": "2019-07-30T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.2093,
+      "lon": 3.2247
+    },
+    "place": {
+      "city": "Bruges",
+      "country": "Belgium",
+      "display": "Bruges, Belgium"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/sunny-day-view-of-bruges-belfry-and-canal-34973794/",
+      "photographer": "Jean-Paul Wettstein",
+      "photographerUrl": "https://www.pexels.com/@jean-paul-wettstein-677916508/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-belgium/pexels-bruges-canal-belfry-tower-37149632.jpg",
+    "takenAt": "2019-07-30T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.2093,
+      "lon": 3.2247
+    },
+    "place": {
+      "city": "Bruges",
+      "country": "Belgium",
+      "display": "Bruges, Belgium"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-view-of-bruges-canal-and-belfry-tower-37149632/",
+      "photographer": "funnyturkishdude",
+      "photographerUrl": "https://www.pexels.com/@funnyturkishdude/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-belgium/pexels-bruges-historic-archways-35855204.jpg",
+    "takenAt": "2019-07-30T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.2093,
+      "lon": 3.2247
+    },
+    "place": {
+      "city": "Bruges",
+      "country": "Belgium",
+      "display": "Bruges, Belgium"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-architecture-in-bruges-belgium-35855204/",
+      "photographer": "Alisa Skripina",
+      "photographerUrl": "https://www.pexels.com/@alisa-skripina-2147548092/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-belgium/pexels-bruges-canal-medieval-tower-31948132.jpg",
+    "takenAt": "2019-07-30T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.2093,
+      "lon": 3.2247
+    },
+    "place": {
+      "city": "Bruges",
+      "country": "Belgium",
+      "display": "Bruges, Belgium"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-bruges-canal-and-medieval-architecture-31948132/",
+      "photographer": "Luc AVE",
+      "photographerUrl": "https://www.pexels.com/@laphoto/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-belgium/pexels-ghent-gravensteen-castle-18926431.jpg",
+    "takenAt": "2019-07-30T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.05,
+      "lon": 3.73
+    },
+    "place": {
+      "city": "Ghent",
+      "country": "Belgium",
+      "display": "Ghent, Belgium"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/medieval-gravensteen-castle-in-ghent-18926431/",
+      "photographer": "Milan",
+      "photographerUrl": "https://www.pexels.com/@milan-743755762/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-belgium/pexels-ghent-st-bavo-cathedral-aerial-32578935.jpg",
+    "takenAt": "2019-07-30T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.05,
+      "lon": 3.73
+    },
+    "place": {
+      "city": "Ghent",
+      "country": "Belgium",
+      "display": "Ghent, Belgium"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-st-bavo-s-cathedral-in-ghent-belgium-32578935/",
+      "photographer": "Vladislav Anchuk",
+      "photographerUrl": "https://www.pexels.com/@anchukk/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-belgium/pexels-ghent-graslei-quay-canal-18358613.jpg",
+    "takenAt": "2019-07-30T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.05,
+      "lon": 3.73
+    },
+    "place": {
+      "city": "Ghent",
+      "country": "Belgium",
+      "display": "Ghent, Belgium"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/graslei-quay-in-ghent-18358613/",
+      "photographer": "Mayumi Maciel",
+      "photographerUrl": "https://www.pexels.com/@mayumi-maciel-686681543/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2019-07-luxembourg/IMG_20190730_140153.jpg",
     "takenAt": "2019-07-30T14:01:54Z",
     "hasGps": true,
@@ -2499,6 +3249,131 @@
       "city": "Bastogne",
       "country": "Belgium",
       "display": "Bastogne, Belgium"
+    }
+  },
+  {
+    "src": "trips/2019-07-france-sedan/pexels-charleville-french-town-32604665.jpg",
+    "takenAt": "2019-07-30T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.7016,
+      "lon": 4.9425
+    },
+    "place": {
+      "city": "Sedan",
+      "country": "France",
+      "display": "Sedan, France"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-french-town-with-historic-architecture-32604665/",
+      "photographer": "Filiamariss",
+      "photographerUrl": "https://www.pexels.com/@filiamariss",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-france-sedan/pexels-charleville-gothic-street-32604664.jpg",
+    "takenAt": "2019-07-30T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.7016,
+      "lon": 4.9425
+    },
+    "place": {
+      "city": "Sedan",
+      "country": "France",
+      "display": "Sedan, France"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-european-historic-street-scene-with-gothic-architecture-32604664/",
+      "photographer": "Filiamariss",
+      "photographerUrl": "https://www.pexels.com/@filiamariss",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-france-sedan/pexels-sedan-medieval-castle-proxy-14249425.jpg",
+    "takenAt": "2019-07-30T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.7016,
+      "lon": 4.9425
+    },
+    "place": {
+      "city": "Sedan",
+      "country": "France",
+      "display": "Sedan, France"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/medieval-castle-in-france-14249425/",
+      "photographer": "Michael Waddle",
+      "photographerUrl": "https://www.pexels.com/@michael-waddle-1019947",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-france-sedan/pexels-ardennes-river-valley-5800890.jpg",
+    "takenAt": "2019-07-30T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.7016,
+      "lon": 4.9425
+    },
+    "place": {
+      "city": "Sedan",
+      "country": "France",
+      "display": "Sedan, France"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/mountain-valley-with-green-forest-and-river-5800890/",
+      "photographer": "Nico Becker",
+      "photographerUrl": "https://www.pexels.com/@nicobecker",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-france-sedan/pexels-epernay-grand-est-architecture-27130648.jpg",
+    "takenAt": "2019-07-30T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.7016,
+      "lon": 4.9425
+    },
+    "place": {
+      "city": "Sedan",
+      "country": "France",
+      "display": "Sedan, France"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/champagne-de-castellane-in-epernay-in-france-27130648/",
+      "photographer": "Ilipily",
+      "photographerUrl": "https://www.pexels.com/@ilipily",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -2712,6 +3587,106 @@
       "url": "https://www.pexels.com/photo/35301741/",
       "photographer": "Ayco World",
       "photographerUrl": "https://www.pexels.com/@ayco-world-108848112/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-vejle-harbor-watercrafts-6030024.jpg",
+    "takenAt": "2020-02-19T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.709,
+      "lon": 9.536
+    },
+    "place": {
+      "city": "Vejle",
+      "country": "Denmark",
+      "display": "Vejle, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/various-watercrafts-on-docking-area-near-city-buildings-6030024/",
+      "photographer": "Lillian Katrine Kofod",
+      "photographerUrl": "https://www.pexels.com/@lillian/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-vejle-harbor-moored-boats-6030055.jpg",
+    "takenAt": "2020-02-19T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.709,
+      "lon": 9.536
+    },
+    "place": {
+      "city": "Vejle",
+      "country": "Denmark",
+      "display": "Vejle, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/white-and-blue-boats-on-body-of-water-near-city-buildings-6030055/",
+      "photographer": "Lillian Katrine Kofod",
+      "photographerUrl": "https://www.pexels.com/@lillian/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-vejle-modern-building-12558423.jpg",
+    "takenAt": "2020-02-19T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.709,
+      "lon": 9.536
+    },
+    "place": {
+      "city": "Vejle",
+      "country": "Denmark",
+      "display": "Vejle, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/view-of-a-building-in-a-city-12558423/",
+      "photographer": "Valentin Onu",
+      "photographerUrl": "https://www.pexels.com/@vali741/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-vejle-bridge-foggy-trees-11415320.jpg",
+    "takenAt": "2020-02-19T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.709,
+      "lon": 9.536
+    },
+    "place": {
+      "city": "Vejle",
+      "country": "Denmark",
+      "display": "Vejle, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/low-angle-shot-of-leafless-trees-in-the-forest-11415320/",
+      "photographer": "Lillian Katrine Kofod",
+      "photographerUrl": "https://www.pexels.com/@lillian/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
@@ -3073,6 +4048,206 @@
     }
   },
   {
+    "src": "trips/2022-08-denmark/pexels-billund-airport-airliner-landing-11554593.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.7308,
+      "lon": 9.1158
+    },
+    "place": {
+      "city": "Billund Municipality",
+      "country": "Denmark",
+      "display": "Billund Municipality, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/back-view-of-an-airplane-11554593/",
+      "photographer": "Fatih Turan",
+      "photographerUrl": "https://www.pexels.com/@fatih-turan-63325184/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hirtshals-lighthouse-grass-8297881.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 57.5905,
+      "lon": 9.9647
+    },
+    "place": {
+      "city": "Hirtshals",
+      "country": "Denmark",
+      "display": "Hirtshals, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/white-lighthouse-on-green-grass-field-near-the-sea-8297881/",
+      "photographer": "Nico Becker",
+      "photographerUrl": "https://www.pexels.com/@nicobecker/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hirtshals-lighthouse-dramatic-sky-29474953.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 57.5905,
+      "lon": 9.9647
+    },
+    "place": {
+      "city": "Hirtshals",
+      "country": "Denmark",
+      "display": "Hirtshals, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/iconic-hirtshals-lighthouse-under-dramatic-sky-29474953/",
+      "photographer": "Joerg Mangelsen",
+      "photographerUrl": "https://www.pexels.com/@joerg-mangelsen-337913024/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hirtshals-north-sea-dunes-29475120.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 57.5905,
+      "lon": 9.9647
+    },
+    "place": {
+      "city": "Hirtshals",
+      "country": "Denmark",
+      "display": "Hirtshals, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/dramatic-north-sea-coastline-in-hirtshals-denmark-29475120/",
+      "photographer": "Joerg Mangelsen",
+      "photographerUrl": "https://www.pexels.com/@joerg-mangelsen-337913024/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-skagen-lighthouse-spring-34458165.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 57.7253,
+      "lon": 10.5839
+    },
+    "place": {
+      "city": "Skagen",
+      "country": "Denmark",
+      "display": "Skagen, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/lighthouse-at-skagen-denmark-in-spring-34458165/",
+      "photographer": "Christian Himmel",
+      "photographerUrl": "https://www.pexels.com/@christian-himmel-2152826153/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-skagen-sand-dunes-33843477.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 57.7253,
+      "lon": 10.5839
+    },
+    "place": {
+      "city": "Skagen",
+      "country": "Denmark",
+      "display": "Skagen, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-sand-dunes-at-skagen-denmark-33843477/",
+      "photographer": "Tommes Frites",
+      "photographerUrl": "https://www.pexels.com/@tommes-frites-1141358642/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-skagen-coastline-lighthouse-34551617.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 57.7253,
+      "lon": 10.5839
+    },
+    "place": {
+      "city": "Skagen",
+      "country": "Denmark",
+      "display": "Skagen, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/majestic-lighthouse-on-danish-coastline-34551617/",
+      "photographer": "Christian Himmel",
+      "photographerUrl": "https://www.pexels.com/@christian-himmel-2152826153/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hirtshals-coastal-houses-5481581.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 57.5905,
+      "lon": 9.9647
+    },
+    "place": {
+      "city": "Hirtshals",
+      "country": "Denmark",
+      "display": "Hirtshals, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/houses-near-sea-under-white-clouds-5481581/",
+      "photographer": "Nico Becker",
+      "photographerUrl": "https://www.pexels.com/@nicobecker/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2022-08-denmark/IMG_20220827_122602.jpg",
     "takenAt": "2022-08-27T12:26:03Z",
     "hasGps": true,
@@ -3100,6 +4275,81 @@
       "city": "Billund Municipality",
       "country": "Denmark",
       "display": "Billund Municipality, Denmark"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-aarhus-seafront-night-16375882.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1629,
+      "lon": 10.2039
+    },
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/buildings-on-sea-shore-in-aarhus-at-night-16375882/",
+      "photographer": "Deyaar Rumi",
+      "photographerUrl": "https://www.pexels.com/@deyaar-rumi-427064673/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-aarhus-bicycles-street-4111129.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1629,
+      "lon": 10.2039
+    },
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/bicycles-parked-on-the-street-4111129/",
+      "photographer": "Maryann Kariuki",
+      "photographerUrl": "https://www.pexels.com/@maryannkariuki/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-aarhus-river-vintage-buildings-18531489.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1629,
+      "lon": 10.2039
+    },
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/river-and-trees-near-vintage-building-18531489/",
+      "photographer": "Mikkel Kvist",
+      "photographerUrl": "https://www.pexels.com/@mikkel-kvist-2722911/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -3933,6 +5183,106 @@
     }
   },
   {
+    "src": "trips/2023-04-italy/pexels-bergamo-torre-civica-36696262.jpg",
+    "takenAt": "2023-04-03T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.6983,
+      "lon": 9.6773
+    },
+    "place": {
+      "city": "Bergamo",
+      "country": "Italy",
+      "display": "Bergamo, Italy"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/medieval-tower-and-architecture-in-bergamo-italy-36696262/",
+      "photographer": "Domenico Adornato",
+      "photographerUrl": "https://www.pexels.com/@domenico-adornato-429128288/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-04-italy/pexels-bergamo-porta-san-giacomo-36371987.jpg",
+    "takenAt": "2023-04-03T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.6983,
+      "lon": 9.6773
+    },
+    "place": {
+      "city": "Bergamo",
+      "country": "Italy",
+      "display": "Bergamo, Italy"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-porta-san-giacomo-bergamo-36371987/",
+      "photographer": "Jasmin Kaemmerer",
+      "photographerUrl": "https://www.pexels.com/@jasmin-kaemmerer-704618493/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-04-italy/pexels-bergamo-cappella-colleoni-28480961.jpg",
+    "takenAt": "2023-04-03T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.6983,
+      "lon": 9.6773
+    },
+    "place": {
+      "city": "Bergamo",
+      "country": "Italy",
+      "display": "Bergamo, Italy"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-view-of-cappella-colleoni-in-bergamo-italy-28480961/",
+      "photographer": "Yannick",
+      "photographerUrl": "https://www.pexels.com/@yannick-739231218/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-04-italy/pexels-bergamo-basilica-santa-maria-20169939.jpg",
+    "takenAt": "2023-04-03T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.6983,
+      "lon": 9.6773
+    },
+    "place": {
+      "city": "Bergamo",
+      "country": "Italy",
+      "display": "Bergamo, Italy"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/basilica-di-santa-maria-maggiore-in-bergamo-italy-20169939/",
+      "photographer": "Ira",
+      "photographerUrl": "https://www.pexels.com/@ira-2300811/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2023-04-italy/IMG_20230403_164137.jpg",
     "takenAt": "2023-04-03T16:41:38Z",
     "hasGps": true,
@@ -4205,6 +5555,106 @@
       "city": "Istanbul",
       "country": "Turkey",
       "display": "Istanbul, Turkey"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-brasov-black-church-aerial-dusk-35410900.jpg",
+    "takenAt": "2023-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.658,
+      "lon": 25.6012
+    },
+    "place": {
+      "city": "Brașov",
+      "country": "Romania",
+      "display": "Brașov, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-black-church-in-bra-ov-at-dusk-35410900/",
+      "photographer": "Valeria Drozdova",
+      "photographerUrl": "https://www.pexels.com/@valeria-drozdova-2148646707/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-brasov-historic-square-clock-tower-34069343.jpg",
+    "takenAt": "2023-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.658,
+      "lon": 25.6012
+    },
+    "place": {
+      "city": "Brașov",
+      "country": "Romania",
+      "display": "Brașov, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-historic-brasov-square-and-clock-tower-34069343/",
+      "photographer": "Râmbeț Ioana",
+      "photographerUrl": "https://www.pexels.com/@rambe-ioana-211953981/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-blue-sky-34976551.jpg",
+    "takenAt": "2023-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.35,
+      "lon": 25.55
+    },
+    "place": {
+      "city": "Sinaia",
+      "country": "Romania",
+      "display": "Sinaia, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/majestic-peles-castle-against-blue-sky-34976551/",
+      "photographer": "Valeria Drozdova",
+      "photographerUrl": "https://www.pexels.com/@valeria-drozdova-2148646707/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-aerial-17853897.jpg",
+    "takenAt": "2023-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.35,
+      "lon": 25.55
+    },
+    "place": {
+      "city": "Sinaia",
+      "country": "Romania",
+      "display": "Sinaia, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/peles-castle-in-romania-17853897/",
+      "photographer": "Dan Voican",
+      "photographerUrl": "https://www.pexels.com/@dan-voican-2624103/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -4533,6 +5983,581 @@
       "url": "https://www.pexels.com/photo/13456593/",
       "photographer": "Barnabas Davoti",
       "photographerUrl": "https://www.pexels.com/@barnabas-davoti-31615494/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-szeged-votive-church-sunset-10796333.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.253,
+      "lon": 20.1414
+    },
+    "place": {
+      "city": "Szeged",
+      "country": "Hungary",
+      "display": "Szeged, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/the-fogadalmi-templom-in-szeged-10796333/",
+      "photographer": "Bálint Varga",
+      "photographerUrl": "https://www.pexels.com/@vargaphotography/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-szeged-mora-ferenc-museum-17010584.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.253,
+      "lon": 20.1414
+    },
+    "place": {
+      "city": "Szeged",
+      "country": "Hungary",
+      "display": "Szeged, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/mora-ferenc-museum-in-hungary-17010584/",
+      "photographer": "András Nyemczovszky",
+      "photographerUrl": "https://www.pexels.com/@andras-nyemczovszky-465932721/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-keszthely-balaton-pier-bench-13101100.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.7706,
+      "lon": 17.2432
+    },
+    "place": {
+      "city": "Keszthely",
+      "country": "Hungary",
+      "display": "Keszthely, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/brown-wooden-bench-on-dock-near-body-of-water-13101100/",
+      "photographer": "Nikolett Emmert",
+      "photographerUrl": "https://www.pexels.com/@nikiemmert/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-keszthely-balaton-speedboat-pier-12553574.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.7706,
+      "lon": 17.2432
+    },
+    "place": {
+      "city": "Keszthely",
+      "country": "Hungary",
+      "display": "Keszthely, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/docked-speedboat-on-lakeside-12553574/",
+      "photographer": "Gergő",
+      "photographerUrl": "https://www.pexels.com/@gergo-8331954/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-szarvas-spring-landscape-aerial-32578077.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.8678,
+      "lon": 20.5536
+    },
+    "place": {
+      "city": "Szarvas",
+      "country": "Hungary",
+      "display": "Szarvas, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-spring-landscape-in-nagygorbo-hungary-32578077/",
+      "photographer": "Barnabas Davoti",
+      "photographerUrl": "https://www.pexels.com/@barnabas-davoti-31615494/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-szarvas-lake-balaton-hills-29202987.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.8678,
+      "lon": 20.5536
+    },
+    "place": {
+      "city": "Szarvas",
+      "country": "Hungary",
+      "display": "Szarvas, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-lake-and-hills-in-hungary-29202987/",
+      "photographer": "Molnár Tamás Photography",
+      "photographerUrl": "https://www.pexels.com/@molnartamasphotography/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-tirana-namazgah-mosque-18399217.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 41.3275,
+      "lon": 19.8189
+    },
+    "place": {
+      "city": "Tirana",
+      "country": "Albania",
+      "display": "Tirana, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/surrounded-by-minarets-namazgah-mosque-in-tirana-albania-18399217/",
+      "photographer": "Yunustug",
+      "photographerUrl": "https://www.pexels.com/@yunustug/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-berat-ottoman-houses-32485634.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.7058,
+      "lon": 19.9522
+    },
+    "place": {
+      "city": "Berat",
+      "country": "Albania",
+      "display": "Berat, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-ottoman-architecture-in-berat-albania-32485634/",
+      "photographer": "Sabina Kallari",
+      "photographerUrl": "https://www.pexels.com/@sabinakallari/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-berat-citadel-aerial-5987058.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.7058,
+      "lon": 19.9522
+    },
+    "place": {
+      "city": "Berat",
+      "country": "Albania",
+      "display": "Berat, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/citadel-of-berat-in-albania-5987058/",
+      "photographer": "Klidjon Gozhina",
+      "photographerUrl": "https://www.pexels.com/@klidjon-gozhina-6927515/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-berat-ottoman-houses-unesco-34092317.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.7058,
+      "lon": 19.9522
+    },
+    "place": {
+      "city": "Berat",
+      "country": "Albania",
+      "display": "Berat, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-ottoman-architecture-in-berat-albania-34092317/",
+      "photographer": "Laura Meinhardt",
+      "photographerUrl": "https://www.pexels.com/@leefinvrede/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-berat-aerial-old-town-30459671.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.7058,
+      "lon": 19.9522
+    },
+    "place": {
+      "city": "Berat",
+      "country": "Albania",
+      "display": "Berat, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-aerial-view-of-historic-berat-albania-30459671/",
+      "photographer": "Sebastian Wright",
+      "photographerUrl": "https://www.pexels.com/@sebastian-wright-2148878306/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-gjirokaster-fortress-clock-tower-34092479.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.0758,
+      "lon": 20.1389
+    },
+    "place": {
+      "city": "Gjirokastra",
+      "country": "Albania",
+      "display": "Gjirokastra, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-clock-tower-in-gjirokaster-fortress-albania-34092479/",
+      "photographer": "Laura Meinhardt",
+      "photographerUrl": "https://www.pexels.com/@leefinvrede/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-gjirokaster-fortress-mountains-11344774.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.0758,
+      "lon": 20.1389
+    },
+    "place": {
+      "city": "Gjirokastra",
+      "country": "Albania",
+      "display": "Gjirokastra, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/gjirokaster-fortress-in-albania-11344774/",
+      "photographer": "Medina Rrokja",
+      "photographerUrl": "https://www.pexels.com/@inng/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-gjirokaster-fortress-cloudy-20761909.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.0758,
+      "lon": 20.1389
+    },
+    "place": {
+      "city": "Gjirokastra",
+      "country": "Albania",
+      "display": "Gjirokastra, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/view-of-the-gjirokaster-fortress-in-gjirokaster-albania-20761909/",
+      "photographer": "Laura Meinhardt",
+      "photographerUrl": "https://www.pexels.com/@leefinvrede/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-gjirokaster-castle-clock-tower-34092480.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.0758,
+      "lon": 20.1389
+    },
+    "place": {
+      "city": "Gjirokastra",
+      "country": "Albania",
+      "display": "Gjirokastra, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-clock-tower-in-gjirokaster-castle-albania-34092480/",
+      "photographer": "Laura Meinhardt",
+      "photographerUrl": "https://www.pexels.com/@leefinvrede/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-durres-beach-aerial-skyline-4712330.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 41.3231,
+      "lon": 19.4414
+    },
+    "place": {
+      "city": "Durrës",
+      "country": "Albania",
+      "display": "Durrës, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-a-beach-4712330/",
+      "photographer": "Julia Solodovnikova",
+      "photographerUrl": "https://www.pexels.com/@julia-solodovnikova-2581492/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-vlora-aerial-cityscape-33558513.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.4686,
+      "lon": 19.4914
+    },
+    "place": {
+      "city": "Vlora",
+      "country": "Albania",
+      "display": "Vlora, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-vlore-cityscape-and-coastline-33558513/",
+      "photographer": "Sabina Kallari",
+      "photographerUrl": "https://www.pexels.com/@sabinakallari/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-vlora-coastline-aerial-34092849.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.4686,
+      "lon": 19.4914
+    },
+    "place": {
+      "city": "Vlora",
+      "country": "Albania",
+      "display": "Vlora, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-vlore-coastline-in-albania-34092849/",
+      "photographer": "Laura Meinhardt",
+      "photographerUrl": "https://www.pexels.com/@leefinvrede/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-vlora-independence-monument-14615853.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.4686,
+      "lon": 19.4914
+    },
+    "place": {
+      "city": "Vlora",
+      "country": "Albania",
+      "display": "Vlora, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/monument-with-red-flag-and-red-star-in-albania-14615853/",
+      "photographer": "Valter Zhara",
+      "photographerUrl": "https://www.pexels.com/@valter-zhara-164968736/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-vlora-sunny-beach-28238159.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.4686,
+      "lon": 19.4914
+    },
+    "place": {
+      "city": "Vlora",
+      "country": "Albania",
+      "display": "Vlora, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/sea-sunny-beach-sand-28238159/",
+      "photographer": "Arlind D",
+      "photographerUrl": "https://www.pexels.com/@arlindphotography/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-saranda-harbour-sunset-aerial-34092450.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 39.8756,
+      "lon": 20.005
+    },
+    "place": {
+      "city": "Saranda",
+      "country": "Albania",
+      "display": "Saranda, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-sunset-over-sarande-harbour-albania-34092450/",
+      "photographer": "Laura Meinhardt",
+      "photographerUrl": "https://www.pexels.com/@leefinvrede/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-saranda-coastal-sunset-33067852.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 39.8756,
+      "lon": 20.005
+    },
+    "place": {
+      "city": "Saranda",
+      "country": "Albania",
+      "display": "Saranda, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-coastal-view-of-sarande-at-sunset-33067852/",
+      "photographer": "Arlind D",
+      "photographerUrl": "https://www.pexels.com/@arlindphotography/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-saranda-lekursi-castle-evening-33067851.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 39.8756,
+      "lon": 20.005
+    },
+    "place": {
+      "city": "Saranda",
+      "country": "Albania",
+      "display": "Saranda, Albania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/sarande-coastal-view-with-lekursi-castle-in-albania-33067851/",
+      "photographer": "Arlind D",
+      "photographerUrl": "https://www.pexels.com/@arlindphotography/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
@@ -5020,6 +7045,231 @@
       "city": "Bratislava",
       "country": "Slovakia",
       "display": "Bratislava, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-oswiecim-auschwitz-birkenau-entrance-17501715.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.0344,
+      "lon": 19.2098
+    },
+    "place": {
+      "city": "Oświęcim",
+      "country": "Poland",
+      "display": "Oświęcim, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/entrance-to-auschwitz-birkenau-museum-oswiecim-poland-17501715/",
+      "photographer": "Darya Sannikova",
+      "photographerUrl": "https://www.pexels.com/@myatezhny39/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-zakopane-tatra-hiking-trail-31123160.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2992,
+      "lon": 19.9496
+    },
+    "place": {
+      "city": "Zakopane",
+      "country": "Poland",
+      "display": "Zakopane, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-hiking-trail-in-the-tatra-mountains-31123160/",
+      "photographer": "Gintare K",
+      "photographerUrl": "https://www.pexels.com/@gintare-k-11923111/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-zakopane-tatra-pink-sunrise-32906966.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2992,
+      "lon": 19.9496
+    },
+    "place": {
+      "city": "Zakopane",
+      "country": "Poland",
+      "display": "Zakopane, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/pink-sunrise-over-the-tatra-mountains-poland-32906966/",
+      "photographer": "Dawid Zawiła",
+      "photographerUrl": "https://www.pexels.com/@dawid-zawila-2151273316/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-prague-castle-autumn-29542814.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.0755,
+      "lon": 14.4378
+    },
+    "place": {
+      "city": "Prague",
+      "country": "Czechia",
+      "display": "Prague, Czechia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-view-of-prague-castle-in-autumn-29542814/",
+      "photographer": "Jules Clark",
+      "photographerUrl": "https://www.pexels.com/@jules-clark-624979041/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-prague-castle-evening-18682115.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.0755,
+      "lon": 14.4378
+    },
+    "place": {
+      "city": "Prague",
+      "country": "Czechia",
+      "display": "Prague, Czechia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/prague-castle-in-evening-18682115/",
+      "photographer": "Oguz Karademir",
+      "photographerUrl": "https://www.pexels.com/@oguz-karademir-591747508/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-prague-castle-vltava-33768098.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.0755,
+      "lon": 14.4378
+    },
+    "place": {
+      "city": "Prague",
+      "country": "Czechia",
+      "display": "Prague, Czechia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-prague-castle-and-vltava-river-33768098/",
+      "photographer": "Tea with Jesus By Mirna",
+      "photographerUrl": "https://www.pexels.com/@izmir/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brno-spilberk-castle-twilight-29536421.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.1951,
+      "lon": 16.6068
+    },
+    "place": {
+      "city": "Brno",
+      "country": "Czechia",
+      "display": "Brno, Czechia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/cityscape-of-brno-with-spilberk-castle-tower-29536421/",
+      "photographer": "Helena Jankovičová Kováčová",
+      "photographerUrl": "https://www.pexels.com/@helen1/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brno-saint-peter-paul-cathedral-37294826.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.1951,
+      "lon": 16.6068
+    },
+    "place": {
+      "city": "Brno",
+      "country": "Czechia",
+      "display": "Brno, Czechia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/saint-peter-and-paul-cathedral-in-brno-czechia-37294826/",
+      "photographer": "Leonhard Niederwimmer",
+      "photographerUrl": "https://www.pexels.com/@leonhard-niederwimmer-2156971331/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brno-namesti-svobody-square-15411756.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.1951,
+      "lon": 16.6068
+    },
+    "place": {
+      "city": "Brno",
+      "country": "Czechia",
+      "display": "Brno, Czechia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/buildings-by-the-namesti-svobody-square-in-brno-czech-republic-15411756/",
+      "photographer": "Ivan Dražić",
+      "photographerUrl": "https://www.pexels.com/@ivan-drazic-20457695/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -5893,6 +8143,156 @@
     }
   },
   {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-granada-alhambra-palace-courtyard-34336990.jpg",
+    "takenAt": "2025-09-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 37.1773,
+      "lon": -3.5986
+    },
+    "place": {
+      "city": "Granada",
+      "country": "Spain",
+      "display": "Granada, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/intricate-architecture-of-alhambra-palace-courtyard-34336990/",
+      "photographer": "Micha Hofer",
+      "photographerUrl": "https://www.pexels.com/@micha-hofer-2154443164/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-marbella-la-encarnacion-clock-tower-18381020.jpg",
+    "takenAt": "2025-09-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.5099,
+      "lon": -4.8861
+    },
+    "place": {
+      "city": "Marbella",
+      "country": "Spain",
+      "display": "Marbella, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/clock-and-bell-tower-of-la-encarnacion-church-in-marbella-spain-18381020/",
+      "photographer": "Bernardo Mestre",
+      "photographerUrl": "https://www.pexels.com/@bernardo-mestre-728751113/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-malaga-cathedral-bell-tower-34551959.jpg",
+    "takenAt": "2025-09-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.7213,
+      "lon": -4.4214
+    },
+    "place": {
+      "city": "Málaga",
+      "country": "Spain",
+      "display": "Málaga, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-bell-tower-of-malaga-cathedral-34551959/",
+      "photographer": "Loredana",
+      "photographerUrl": "https://www.pexels.com/@loredana-167691276/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-torremolinos-ferris-wheel-palms-32909914.jpg",
+    "takenAt": "2025-09-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.6203,
+      "lon": -4.4995
+    },
+    "place": {
+      "city": "Torremolinos",
+      "country": "Spain",
+      "display": "Torremolinos, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-ferris-wheel-and-palm-trees-in-torremolinos-32909914/",
+      "photographer": "Sašo Vukadinović",
+      "photographerUrl": "https://www.pexels.com/@saso-vukadinovic-814183799/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-gibraltar-rock-from-sea-16207661.jpg",
+    "takenAt": "2025-09-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.1408,
+      "lon": -5.3536
+    },
+    "place": {
+      "city": "Gibraltar",
+      "country": "Gibraltar",
+      "display": "Gibraltar"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/rock-of-gibraltar-seen-from-the-sea-16207661/",
+      "photographer": "Pankaj Mishra",
+      "photographerUrl": "https://www.pexels.com/@pankaj-mishra-191856302/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-gibraltar-rock-dramatic-cliff-33597221.jpg",
+    "takenAt": "2025-09-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.1408,
+      "lon": -5.3536
+    },
+    "place": {
+      "city": "Gibraltar",
+      "country": "Gibraltar",
+      "display": "Gibraltar"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/dramatic-view-of-gibraltar-s-iconic-rock-33597221/",
+      "photographer": "Esteban Gilles",
+      "photographerUrl": "https://www.pexels.com/@esteban-gilles-499431850/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2025-09-andalusia-gibraltar/IMG20250917154701.jpg",
     "takenAt": "2025-09-17T15:47:01Z",
     "hasGps": true,
@@ -6175,6 +8575,131 @@
       "city": "Calimanesti",
       "country": "Romania",
       "display": "Calimanesti, Romania"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-ljubljana-triple-bridge-34346900.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.0569,
+      "lon": 14.5058
+    },
+    "place": {
+      "city": "Ljubljana",
+      "country": "Slovenia",
+      "display": "Ljubljana, Slovenia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/picturesque-view-of-triple-bridge-in-ljubljana-34346900/",
+      "photographer": "Jude Mitchell-Hedges",
+      "photographerUrl": "https://www.pexels.com/@jude-mitchell-hedges-3572697/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-pula-arena-roman-amphitheatre-13524886.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.8666,
+      "lon": 13.8496
+    },
+    "place": {
+      "city": "Grad Pula",
+      "country": "Croatia",
+      "display": "Grad Pula, Croatia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/pula-arena-roman-amphitheatre-13524886/",
+      "photographer": "Gutjahr Aleksandr",
+      "photographerUrl": "https://www.pexels.com/@gutjahr-aleksandr-3045334/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-pula-arena-aerial-colosseum-5078204.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.8666,
+      "lon": 13.8496
+    },
+    "place": {
+      "city": "Grad Pula",
+      "country": "Croatia",
+      "display": "Grad Pula, Croatia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-an-ancient-colosseum-in-pula-5078204/",
+      "photographer": "Val Apollonio",
+      "photographerUrl": "https://www.pexels.com/@val-apollonio-3394602/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-schwangau-neuschwanstein-autumn-29037656.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 47.5577,
+      "lon": 10.7498
+    },
+    "place": {
+      "city": "Schwangau",
+      "country": "Germany",
+      "display": "Schwangau, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/neuschwanstein-castle-in-autumn-bavaria-germany-29037656/",
+      "photographer": "Oliver Schröder",
+      "photographerUrl": "https://www.pexels.com/@olivers/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-schwangau-neuschwanstein-alps-19323960.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 47.5577,
+      "lon": 10.7498
+    },
+    "place": {
+      "city": "Schwangau",
+      "country": "Germany",
+      "display": "Schwangau, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/view-of-the-neuschwanstein-castle-schwangau-germany-19323960/",
+      "photographer": "Masood Aslami",
+      "photographerUrl": "https://www.pexels.com/@masoodaslami/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -6909,481 +9434,6 @@
       "city": "Kassel",
       "country": "Germany",
       "display": "Kassel, Germany"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-boats-trees-29351196.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.3676,
-      "lon": 4.9041
-    },
-    "place": {
-      "city": "Amsterdam",
-      "country": "Netherlands",
-      "display": "Amsterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-amsterdam-canal-with-boats-and-trees-29351196/",
-      "photographer": "naimish17",
-      "photographerUrl": "https://www.pexels.com/@naimish17",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-from-bridge-18936486.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.3676,
-      "lon": 4.9041
-    },
-    "place": {
-      "city": "Amsterdam",
-      "country": "Netherlands",
-      "display": "Amsterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/canal-in-amsterdam-seen-from-bridge-18936486/",
-      "photographer": "cvele",
-      "photographerUrl": "https://www.pexels.com/@cvele",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-houseboats-morning-31773686.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.3676,
-      "lon": 4.9041
-    },
-    "place": {
-      "city": "Amsterdam",
-      "country": "Netherlands",
-      "display": "Amsterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-canal-view-with-boats-in-amsterdam-31773686/",
-      "photographer": "Titouan Jullien",
-      "photographerUrl": "https://www.pexels.com/@titouan-jullien-504247666",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-spring-36670516.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.3676,
-      "lon": 4.9041
-    },
-    "place": {
-      "city": "Amsterdam",
-      "country": "Netherlands",
-      "display": "Amsterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-amsterdam-canal-with-boats-and-trees-in-spring-36670516/",
-      "photographer": "Burak Akmanoglu",
-      "photographerUrl": "https://www.pexels.com/@burak-akmanoglu-745300984",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-bridge-church-29351195.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.3676,
-      "lon": 4.9041
-    },
-    "place": {
-      "city": "Amsterdam",
-      "country": "Netherlands",
-      "display": "Amsterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/charming-amsterdam-canal-with-boats-and-bridge-29351195/",
-      "photographer": "naimish17",
-      "photographerUrl": "https://www.pexels.com/@naimish17",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-rotterdam-erasmus-bridge-sunset-20655919.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.9244,
-      "lon": 4.4777
-    },
-    "place": {
-      "city": "Rotterdam",
-      "country": "Netherlands",
-      "display": "Rotterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/suspension-bridge-by-the-harbor-in-rotterdam-20655919/",
-      "photographer": "Igor Passchier",
-      "photographerUrl": "https://www.pexels.com/@igor-passchier-111147847",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-rotterdam-willemsbrug-white-house-35993737.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.9244,
-      "lon": 4.4777
-    },
-    "place": {
-      "city": "Rotterdam",
-      "country": "Netherlands",
-      "display": "Rotterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/sunset-over-willemsbrug-and-historic-white-house-rotterdam-35993737/",
-      "photographer": "braujardim",
-      "photographerUrl": "https://www.pexels.com/@braujardim",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-rotterdam-cube-houses-29819767.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.9244,
-      "lon": 4.4777
-    },
-    "place": {
-      "city": "Rotterdam",
-      "country": "Netherlands",
-      "display": "Rotterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/cube-houses-in-rotterdam-architectural-innovation-29819767/",
-      "photographer": "Valter Biscaia Filho",
-      "photographerUrl": "https://www.pexels.com/@valter-biscaia-filho-2147883999",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-the-hague-binnenhof-fountain-18684354.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0705,
-      "lon": 4.3007
-    },
-    "place": {
-      "city": "The Hague",
-      "country": "Netherlands",
-      "display": "The Hague, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/binnenhof-in-hague-in-netherlands-18684354/",
-      "photographer": "Patrick Jaksic",
-      "photographerUrl": "https://www.pexels.com/@patrick-jaksic-615183630",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-the-hague-skyline-historic-modern-33841317.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0705,
-      "lon": 4.3007
-    },
-    "place": {
-      "city": "The Hague",
-      "country": "Netherlands",
-      "display": "The Hague, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/skyline-of-the-hague-featuring-historic-and-modern-buildings-33841317/",
-      "photographer": "Jakub Zerdzicki",
-      "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-the-hague-scheveningen-beach-34126088.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0705,
-      "lon": 4.3007
-    },
-    "place": {
-      "city": "The Hague",
-      "country": "Netherlands",
-      "display": "The Hague, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scheveningen-beach-and-cityscape-the-hague-34126088/",
-      "photographer": "Jakub Zerdzicki",
-      "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-utrecht-dom-tower-blue-sky-32348115.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0907,
-      "lon": 5.1214
-    },
-    "place": {
-      "city": "Utrecht",
-      "country": "Netherlands",
-      "display": "Utrecht, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/dom-tower-against-clear-blue-sky-in-utrecht-32348115/",
-      "photographer": "Martijn Stoof",
-      "photographerUrl": "https://www.pexels.com/@martijn-stoof",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-utrecht-canal-evening-33375300.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0907,
-      "lon": 5.1214
-    },
-    "place": {
-      "city": "Utrecht",
-      "country": "Netherlands",
-      "display": "Utrecht, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-evening-canal-view-in-utrecht-netherlands-33375300/",
-      "photographer": "Barkalı",
-      "photographerUrl": "https://www.pexels.com/@barkali-340353352",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-utrecht-cyclists-dom-tower-33021970.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0907,
-      "lon": 5.1214
-    },
-    "place": {
-      "city": "Utrecht",
-      "country": "Netherlands",
-      "display": "Utrecht, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/cyclists-near-dom-tower-utrecht-historic-street-33021970/",
-      "photographer": "Ernesto",
-      "photographerUrl": "https://www.pexels.com/@ernesto-2335487",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-france-sedan/pexels-charleville-french-town-32604665.jpg",
-    "takenAt": "2019-07-30T15:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.7016,
-      "lon": 4.9425
-    },
-    "place": {
-      "city": "Sedan",
-      "country": "France",
-      "display": "Sedan, France"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/charming-french-town-with-historic-architecture-32604665/",
-      "photographer": "Filiamariss",
-      "photographerUrl": "https://www.pexels.com/@filiamariss",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-france-sedan/pexels-charleville-gothic-street-32604664.jpg",
-    "takenAt": "2019-07-30T15:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.7016,
-      "lon": 4.9425
-    },
-    "place": {
-      "city": "Sedan",
-      "country": "France",
-      "display": "Sedan, France"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/charming-european-historic-street-scene-with-gothic-architecture-32604664/",
-      "photographer": "Filiamariss",
-      "photographerUrl": "https://www.pexels.com/@filiamariss",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-france-sedan/pexels-sedan-medieval-castle-proxy-14249425.jpg",
-    "takenAt": "2019-07-30T15:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.7016,
-      "lon": 4.9425
-    },
-    "place": {
-      "city": "Sedan",
-      "country": "France",
-      "display": "Sedan, France"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/medieval-castle-in-france-14249425/",
-      "photographer": "Michael Waddle",
-      "photographerUrl": "https://www.pexels.com/@michael-waddle-1019947",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-france-sedan/pexels-ardennes-river-valley-5800890.jpg",
-    "takenAt": "2019-07-30T15:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.7016,
-      "lon": 4.9425
-    },
-    "place": {
-      "city": "Sedan",
-      "country": "France",
-      "display": "Sedan, France"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/mountain-valley-with-green-forest-and-river-5800890/",
-      "photographer": "Nico Becker",
-      "photographerUrl": "https://www.pexels.com/@nicobecker",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-france-sedan/pexels-epernay-grand-est-architecture-27130648.jpg",
-    "takenAt": "2019-07-30T15:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.7016,
-      "lon": 4.9425
-    },
-    "place": {
-      "city": "Sedan",
-      "country": "France",
-      "display": "Sedan, France"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/champagne-de-castellane-in-epernay-in-france-27130648/",
-      "photographer": "Ilipily",
-      "photographerUrl": "https://www.pexels.com/@ilipily",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
     }
   }
 ]
