@@ -1013,5 +1013,10 @@
     "city": "Prague",
     "country": "Czechia",
     "display": "Prague, Czechia"
+  },
+  "45.70,9.66": {
+    "city": "Bergamo",
+    "country": "Italy",
+    "display": "Bergamo, Italy"
   }
 }

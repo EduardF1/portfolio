@@ -30,6 +30,51 @@
     }
   },
   {
+    "src": "trips/2018-03-israel/IMG_20180324_121518.jpg",
+    "takenAt": "2018-03-24T12:15:27Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 33.09289,
+      "lon": 35.104
+    },
+    "place": {
+      "city": "Mate Asher Regional Council",
+      "country": "Israel",
+      "display": "Mate Asher Regional Council, Israel"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/IMG_20180324_121624.jpg",
+    "takenAt": "2018-03-24T12:16:27Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 33.09302,
+      "lon": 35.10412
+    },
+    "place": {
+      "city": "Mate Asher Regional Council",
+      "country": "Israel",
+      "display": "Mate Asher Regional Council, Israel"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/IMG_20180324_125828.jpg",
+    "takenAt": "2018-03-24T12:58:30Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 33.09296,
+      "lon": 35.1049
+    },
+    "place": {
+      "city": "Mate Asher Regional Council",
+      "country": "Israel",
+      "display": "Mate Asher Regional Council, Israel"
+    }
+  },
+  {
     "src": "trips/2018-04-sweden/IMG_20180408_194257.jpg",
     "takenAt": "2018-04-08T19:42:58Z",
     "hasGps": true,
@@ -136,6 +181,21 @@
     }
   },
   {
+    "src": "trips/2019-07-belgium/IMG_20190729_143336.jpg",
+    "takenAt": "2019-07-29T14:33:37Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 50.84784,
+      "lon": 4.35918
+    },
+    "place": {
+      "city": "Brussels",
+      "country": "Belgium",
+      "display": "Brussels, Belgium"
+    }
+  },
+  {
     "src": "trips/2019-07-belgium/IMG_20190731_152721.jpg",
     "takenAt": "2019-07-31T15:27:21Z",
     "hasGps": true,
@@ -186,6 +246,21 @@
       "photographerUrl": "https://www.pexels.com/@dylan-chan-2880813/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-luxembourg/IMG_20190730_140153.jpg",
+    "takenAt": "2019-07-30T14:01:54Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 50.00975,
+      "lon": 5.72209
+    },
+    "place": {
+      "city": "Bastogne",
+      "country": "Belgium",
+      "display": "Bastogne, Belgium"
     }
   },
   {
@@ -259,6 +334,12 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
+  },
+  {
+    "src": "trips/2020-02-denmark/IMG_20200219_125539.jpg",
+    "takenAt": "2020-02-19T12:55:41Z",
+    "hasGps": false,
+    "cameraModel": "RNE-L21"
   },
   {
     "src": "trips/2020-02-denmark/pexels-horsens-aerial-cityscape-13274632.jpg",
@@ -570,6 +651,21 @@
     }
   },
   {
+    "src": "trips/2022-08-denmark/IMG_20220827_123421.jpg",
+    "takenAt": "2022-08-27T12:34:21Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 55.73508,
+      "lon": 9.12916
+    },
+    "place": {
+      "city": "Billund Municipality",
+      "country": "Denmark",
+      "display": "Billund Municipality, Denmark"
+    }
+  },
+  {
     "src": "trips/2022-08-denmark/pexels-billund-airport-airliner-11554593.jpg",
     "takenAt": null,
     "hasGps": false,
@@ -832,6 +928,12 @@
     "cameraModel": "SM-A525F"
   },
   {
+    "src": "trips/2022-10-germany/IMG_20221021_113054254_HDR.jpg",
+    "takenAt": "2022-10-21T09:30:56Z",
+    "hasGps": false,
+    "cameraModel": "moto g pro"
+  },
+  {
     "src": "trips/2022-10-germany/20221021_114151.jpg",
     "takenAt": "2022-10-21T09:41:51Z",
     "hasGps": true,
@@ -887,6 +989,59 @@
     "inferredFrom": [
       "trips/2022-10-germany/IMG_20221021_110324.jpg"
     ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221021_121447359_HDR.jpg",
+    "takenAt": "2022-10-21T10:14:49Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.59609,
+      "lon": 9.93488
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_20221021_110324.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221021_121644340_HDR.jpg",
+    "takenAt": "2022-10-21T10:16:46Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.59609,
+      "lon": 9.93488
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_20221021_110324.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221021_110324.jpg",
+    "takenAt": "2022-10-21T11:03:24Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.59609,
+      "lon": 9.93488
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
   },
   {
     "src": "trips/2022-10-germany/20221021_155218.jpg",
@@ -984,6 +1139,26 @@
     }
   },
   {
+    "src": "trips/2022-10-germany/IMG_20221021_183920675_HDR.jpg",
+    "takenAt": "2022-10-21T16:39:22Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.39221,
+      "lon": 10.01795
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0164.jpg",
+      "trips/2022-10-germany/IMG_0165.jpg"
+    ]
+  },
+  {
     "src": "trips/2022-10-germany/IMG_0190.jpg",
     "takenAt": "2022-10-22T09:24:03Z",
     "hasGps": true,
@@ -1064,6 +1239,26 @@
     ]
   },
   {
+    "src": "trips/2022-10-germany/IMG_20221022_120955484_HDR.jpg",
+    "takenAt": "2022-10-22T10:09:56Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.5432,
+      "lon": 9.99993
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0222.jpg",
+      "trips/2022-10-germany/IMG_0234.jpg"
+    ]
+  },
+  {
     "src": "trips/2022-10-germany/IMG_0231.jpg",
     "takenAt": "2022-10-22T10:16:25Z",
     "hasGps": true,
@@ -1082,6 +1277,61 @@
       "trips/2022-10-germany/IMG_0222.jpg",
       "trips/2022-10-germany/IMG_0234.jpg"
     ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_124225360_HDR.jpg",
+    "takenAt": "2022-10-22T10:42:26Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.54316,
+      "lon": 9.99985
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0234.jpg",
+      "trips/2022-10-germany/IMG_20221022_114756.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_131638320.jpg",
+    "takenAt": "2022-10-22T11:16:38Z",
+    "hasGps": true,
+    "cameraModel": "moto g pro",
+    "gps": {
+      "lat": 53.54316,
+      "lon": 9.99985
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    },
+    "inferredPlace": true,
+    "inferredFrom": [
+      "trips/2022-10-germany/IMG_0234.jpg",
+      "trips/2022-10-germany/IMG_20221022_114756.jpg"
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_114756.jpg",
+    "takenAt": "2022-10-22T11:47:56Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 53.54317,
+      "lon": 9.99975
+    },
+    "place": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "display": "Hamburg, Germany"
+    }
   },
   {
     "src": "trips/2022-10-germany/IMG_0247.jpg",
@@ -1141,160 +1391,6 @@
     ]
   },
   {
-    "src": "trips/2022-10-germany/IMG_20221021_110324.jpg",
-    "takenAt": "2022-10-21T11:03:24Z",
-    "hasGps": true,
-    "cameraModel": "CDY-NX9A",
-    "gps": {
-      "lat": 53.59609,
-      "lon": 9.93488
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    }
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221021_113054254_HDR.jpg",
-    "takenAt": "2022-10-21T09:30:56Z",
-    "hasGps": false,
-    "cameraModel": "moto g pro"
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221021_121447359_HDR.jpg",
-    "takenAt": "2022-10-21T10:14:49Z",
-    "hasGps": true,
-    "cameraModel": "moto g pro",
-    "gps": {
-      "lat": 53.59609,
-      "lon": 9.93488
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_20221021_110324.jpg"
-    ]
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221021_121644340_HDR.jpg",
-    "takenAt": "2022-10-21T10:16:46Z",
-    "hasGps": true,
-    "cameraModel": "moto g pro",
-    "gps": {
-      "lat": 53.59609,
-      "lon": 9.93488
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_20221021_110324.jpg"
-    ]
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221021_183920675_HDR.jpg",
-    "takenAt": "2022-10-21T16:39:22Z",
-    "hasGps": true,
-    "cameraModel": "moto g pro",
-    "gps": {
-      "lat": 53.39221,
-      "lon": 10.01795
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_0164.jpg",
-      "trips/2022-10-germany/IMG_0165.jpg"
-    ]
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221022_114756.jpg",
-    "takenAt": "2022-10-22T11:47:56Z",
-    "hasGps": true,
-    "cameraModel": "CDY-NX9A",
-    "gps": {
-      "lat": 53.54317,
-      "lon": 9.99975
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    }
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221022_120955484_HDR.jpg",
-    "takenAt": "2022-10-22T10:09:56Z",
-    "hasGps": true,
-    "cameraModel": "moto g pro",
-    "gps": {
-      "lat": 53.5432,
-      "lon": 9.99993
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_0222.jpg",
-      "trips/2022-10-germany/IMG_0234.jpg"
-    ]
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221022_124225360_HDR.jpg",
-    "takenAt": "2022-10-22T10:42:26Z",
-    "hasGps": true,
-    "cameraModel": "moto g pro",
-    "gps": {
-      "lat": 53.54316,
-      "lon": 9.99985
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_0234.jpg",
-      "trips/2022-10-germany/IMG_20221022_114756.jpg"
-    ]
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221022_131638320.jpg",
-    "takenAt": "2022-10-22T11:16:38Z",
-    "hasGps": true,
-    "cameraModel": "moto g pro",
-    "gps": {
-      "lat": 53.54316,
-      "lon": 9.99985
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_0234.jpg",
-      "trips/2022-10-germany/IMG_20221022_114756.jpg"
-    ]
-  },
-  {
     "src": "trips/2022-10-germany/pexels-hamburg-elbphilharmonie-brick-26443234.jpg",
     "takenAt": null,
     "hasGps": false,
@@ -1349,6 +1445,21 @@
       "photographerUrl": "https://www.pexels.com/@njeromin/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-12-romania/IMG_20221224_015628.jpg",
+    "takenAt": "2022-12-24T01:56:29Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 44.45599,
+      "lon": 26.08372
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
     }
   },
   {
@@ -1424,6 +1535,21 @@
     }
   },
   {
+    "src": "trips/2023-04-italy/IMG_20230402_095922.jpg",
+    "takenAt": "2023-04-02T09:59:22Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.70247,
+      "lon": 9.6603
+    },
+    "place": {
+      "city": "Bergamo",
+      "country": "Italy",
+      "display": "Bergamo, Italy"
+    }
+  },
+  {
     "src": "trips/2023-04-italy/IMG_20230402_181257.jpg",
     "takenAt": "2023-04-02T18:12:57Z",
     "hasGps": true,
@@ -1481,6 +1607,21 @@
       "city": "Milan",
       "country": "Italy",
       "display": "Milan, Italy"
+    }
+  },
+  {
+    "src": "trips/2023-07-turkey/IMG_20230712_161755.jpg",
+    "takenAt": "2023-07-12T16:17:55Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 37.77498,
+      "lon": 27.26833
+    },
+    "place": {
+      "city": "Kuşadası",
+      "country": "Turkey",
+      "display": "Kuşadası, Turkey"
     }
   },
   {
@@ -1806,6 +1947,21 @@
       "photographerUrl": "https://www.pexels.com/@bezzaponnaya/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-03-romania/IMG20250328203701.jpg",
+    "takenAt": "2025-03-28T20:37:01Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 44.43294,
+      "lon": 26.09841
+    },
+    "place": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "display": "Bucharest, Romania"
     }
   },
   {

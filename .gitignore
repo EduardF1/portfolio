@@ -98,6 +98,10 @@ scripts/.inpaint-edge-output/
 # docs/aggressive-person-rescan.md.
 scripts/.aggressive-rescan/
 
+# Thin-trip backfill scratch (NDJSON detections + filter/import/doc helpers).
+# scripts/thin-trip-detect.py IS committed.
+scripts/.thin-trip-*
+
 # Sub-agent worktrees
 .claude/worktrees/
 
