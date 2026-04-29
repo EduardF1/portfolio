@@ -61,6 +61,7 @@ vi.mock("react-simple-maps", () => ({
 import {
   TravelEuropeMap,
   TravelMapLegend,
+  type MapCity,
   type MapDestination,
   type TravelEuropeMapLabels,
 } from "./travel-europe-map";
@@ -96,9 +97,31 @@ const TEST_LABELS: TravelEuropeMapLabels = {
   toggleAriaLabel: "Switch map view",
   destinationsLabel: "Destinations",
   intensityLabel: "Intensity",
+  citiesLabel: "Cities",
   legendTitle: "Trips per country",
   legendUnit: "trips",
 };
+
+const SAMPLE_CITIES: MapCity[] = [
+  {
+    city: "Pisa",
+    country: "Italy",
+    slug: "italy-pisa",
+    lat: 43.72,
+    lon: 10.4,
+    photoCount: 8,
+    primaryTripSlug: "italy-2024-04",
+  },
+  {
+    city: "Krakow",
+    country: "Poland",
+    slug: "poland-krakow",
+    lat: 50.06,
+    lon: 19.94,
+    photoCount: 3,
+    primaryTripSlug: "poland-2025-04",
+  },
+];
 
 afterEach(() => {
   cleanup();
@@ -188,6 +211,120 @@ describe("<TravelEuropeMap />", () => {
     expect(container.querySelectorAll('[data-testid="marker"]').length).toBe(0);
     // Legend should appear.
     expect(screen.getByTestId("map-legend")).toBeInTheDocument();
+  });
+
+  it("does not show the Cities toggle when no cities are provided", () => {
+    render(<TravelEuropeMap destinations={SAMPLES} labels={TEST_LABELS} />);
+    expect(screen.queryByTestId("map-view-cities")).not.toBeInTheDocument();
+  });
+
+  it("shows the Cities toggle when cities are provided", () => {
+    render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        cities={SAMPLE_CITIES}
+        labels={TEST_LABELS}
+      />,
+    );
+    expect(screen.getByTestId("map-view-cities")).toHaveAttribute(
+      "aria-pressed",
+      "false",
+    );
+  });
+
+  it("renders one city dot per provided city when initialView='cities'", () => {
+    render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        cities={SAMPLE_CITIES}
+        initialView="cities"
+        labels={TEST_LABELS}
+      />,
+    );
+    const dots = screen.getAllByTestId("city-dot");
+    expect(dots).toHaveLength(2);
+    expect(dots[0]).toHaveAttribute("data-city-slug", "italy-pisa");
+    expect(dots[1]).toHaveAttribute("data-city-slug", "poland-krakow");
+  });
+
+  it("city dot's aria-label is the tooltip line including city, country and photo count", () => {
+    render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        cities={SAMPLE_CITIES}
+        initialView="cities"
+        labels={TEST_LABELS}
+      />,
+    );
+    const pisaDot = screen.getByLabelText(/^Pisa, Italy · 8 photos$/);
+    expect(pisaDot).toBeInTheDocument();
+    expect(pisaDot).toHaveAttribute("href", "/travel/photos/italy-2024-04");
+    const krakow = screen.getByLabelText(/^Krakow, Poland · 3 photos$/);
+    expect(krakow).toBeInTheDocument();
+  });
+
+  it("uses provided photoCountOne / photoCountOther templates for the tooltip", () => {
+    render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        cities={SAMPLE_CITIES}
+        initialView="cities"
+        labels={{
+          ...TEST_LABELS,
+          photoCountOne: "1 foto",
+          photoCountOther: "{count} fotos",
+        }}
+      />,
+    );
+    // Pisa has 8 photos → uses the 'other' template.
+    expect(screen.getByLabelText(/^Pisa, Italy · 8 fotos$/)).toBeInTheDocument();
+  });
+
+  it("falls back to English plural when photoCountOne / photoCountOther are absent", () => {
+    render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        cities={[
+          {
+            city: "Solo",
+            country: "Italy",
+            slug: "italy-solo",
+            lat: 43,
+            lon: 11,
+            photoCount: 1,
+          },
+        ]}
+        initialView="cities"
+        labels={{
+          toggleAriaLabel: "x",
+          destinationsLabel: "x",
+          intensityLabel: "x",
+          legendTitle: "x",
+          legendUnit: "x",
+        }}
+      />,
+    );
+    expect(screen.getByLabelText(/^Solo, Italy · 1 photo$/)).toBeInTheDocument();
+  });
+
+  it("city dots are not rendered in destinations or intensity mode", () => {
+    const { rerender, container } = render(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        cities={SAMPLE_CITIES}
+        labels={TEST_LABELS}
+      />,
+    );
+    expect(container.querySelectorAll('[data-testid="city-dot"]').length).toBe(0);
+    rerender(
+      <TravelEuropeMap
+        destinations={SAMPLES}
+        cities={SAMPLE_CITIES}
+        initialView="intensity"
+        labels={TEST_LABELS}
+      />,
+    );
+    expect(container.querySelectorAll('[data-testid="city-dot"]').length).toBe(0);
   });
 
   it("paints geographies with the tier-derived fill in intensity mode", () => {

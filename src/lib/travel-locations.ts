@@ -1,6 +1,7 @@
 import "server-only";
 import fs from "node:fs/promises";
 import path from "node:path";
+import { clusterTrips } from "@/lib/trips";
 import { tripCountByCountry } from "@/lib/trip-clusters";
 
 const CATALOGUE_PATH = path.join(
@@ -99,6 +100,145 @@ export async function getTravelDestinations(): Promise<CountryDestination[]> {
     });
   }
   out.sort((a, b) => a.country.localeCompare(b.country));
+  return out;
+}
+
+/**
+ * Per-city dot data for the city-overlay map view. Groups catalogue
+ * entries by `place.city`, averages the GPS coords (cheap centroid),
+ * counts photos, and picks the most-photographed trip slug as the
+ * click target so the dot links into a real trip page.
+ *
+ * Entries without GPS or without `place.city` are dropped silently;
+ * they will not appear on the map. The two heuristics combined
+ * dedupe to roughly the unique catalogued cities — the dataset is
+ * small (≈80 cities) so the linear scan is fine.
+ */
+export type CityDestination = {
+  /** City name as Nominatim returned it. */
+  city: string;
+  /** Country name as Nominatim returned it. */
+  country: string;
+  /** Stable slug derived from `${country}-${city}`, used as a key. */
+  slug: string;
+  /** Average lat/lon of the photos taken in this city. */
+  lat: number;
+  lon: number;
+  /** Number of catalogue photos taken in this city. */
+  photoCount: number;
+  /** Trip slug with the most photos from this city. Used as click
+   *  target so the dot scrolls to a relevant trip card / section. */
+  primaryTripSlug?: string;
+};
+
+function citySlug(country: string, city: string): string {
+  return `${slugify(country)}-${slugify(city)}`;
+}
+
+export async function getCityDestinations(): Promise<CityDestination[]> {
+  let raw: string;
+  try {
+    raw = await fs.readFile(CATALOGUE_PATH, "utf-8");
+  } catch {
+    return [];
+  }
+  const items = JSON.parse(raw) as RawCatalogueEntry[];
+  return deriveCityDestinations(items);
+}
+
+/**
+ * Pure helper, exported for unit tests. Buckets catalogue entries
+ * by `(country, city)` and produces one CityDestination per bucket.
+ */
+export function deriveCityDestinations(
+  items: RawCatalogueEntry[],
+): CityDestination[] {
+  // Cluster trips up-front so we can attribute each city to the trip
+  // that has the most photos from it. clusterTrips drops entries
+  // without takenAt + GPS + country, so it is a strict subset of what
+  // we render dots for — we fall back to undefined when no trip can
+  // be matched (e.g. all photos are stock without takenAt).
+  const trips = clusterTrips(items);
+
+  type Bucket = {
+    city: string;
+    country: string;
+    lats: number[];
+    lons: number[];
+    photoCount: number;
+    /** photo `src` values, used to find the matching trip slug. */
+    srcs: string[];
+  };
+  const buckets = new Map<string, Bucket>();
+
+  for (const item of items) {
+    if (!item.hasGps || !item.gps || !item.place?.city || !item.place?.country) {
+      continue;
+    }
+    const key = `${item.place.country}|${item.place.city}`;
+    let bucket = buckets.get(key);
+    if (!bucket) {
+      bucket = {
+        city: item.place.city,
+        country: item.place.country,
+        lats: [],
+        lons: [],
+        photoCount: 0,
+        srcs: [],
+      };
+      buckets.set(key, bucket);
+    }
+    bucket.lats.push(item.gps.lat);
+    bucket.lons.push(item.gps.lon);
+    bucket.photoCount += 1;
+    bucket.srcs.push(item.src);
+  }
+
+  // Attribute each city to its dominant trip slug. We score every
+  // trip by how many of its photos overlap with the bucket's `srcs`,
+  // and take the top-scoring trip (alphabetical tie-break for
+  // determinism).
+  function pickTripSlug(bucket: Bucket): string | undefined {
+    if (trips.length === 0) return undefined;
+    const cityFiles = new Set(bucket.srcs);
+    let bestSlug: string | undefined;
+    let bestScore = 0;
+    for (const trip of trips) {
+      let score = 0;
+      for (const photo of trip.photos) {
+        if (cityFiles.has(photo.filename)) score += 1;
+      }
+      if (
+        score > bestScore ||
+        (score > 0 && score === bestScore && bestSlug && trip.slug < bestSlug)
+      ) {
+        bestScore = score;
+        bestSlug = trip.slug;
+      }
+    }
+    return bestSlug;
+  }
+
+  const out: CityDestination[] = [];
+  for (const bucket of buckets.values()) {
+    const lat = bucket.lats.reduce((a, b) => a + b, 0) / bucket.lats.length;
+    const lon = bucket.lons.reduce((a, b) => a + b, 0) / bucket.lons.length;
+    out.push({
+      city: bucket.city,
+      country: bucket.country,
+      slug: citySlug(bucket.country, bucket.city),
+      lat,
+      lon,
+      photoCount: bucket.photoCount,
+      primaryTripSlug: pickTripSlug(bucket),
+    });
+  }
+  // Stable order: country, then city.
+  out.sort((a, b) =>
+    a.country === b.country
+      ? a.city.localeCompare(b.city)
+      : a.country.localeCompare(b.country),
+  );
   return out;
 }
 
