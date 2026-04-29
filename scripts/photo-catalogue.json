@@ -1426,18 +1426,23 @@
     }
   },
   {
-    "src": "trips/2020-02-denmark/IMG_20200126_062752.jpg",
-    "takenAt": "2020-01-26T06:27:53Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 55.6758,
-      "lon": 9.58014
-    },
+    "src": "trips/2020-02-denmark/pexels-vejle-bolgen-waterfront-35135228.jpg",
+    "takenAt": null,
+    "hasGps": false,
     "place": {
       "city": "Vejle",
       "country": "Denmark",
       "display": "Vejle, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/modern-architectural-waves-by-waterfront-35135228/",
+      "photographer": "Ayco World",
+      "photographerUrl": "https://www.pexels.com/@ayco-world-108848112/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
