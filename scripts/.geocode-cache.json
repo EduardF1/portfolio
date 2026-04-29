@@ -1018,5 +1018,175 @@
     "city": "Bergamo",
     "country": "Italy",
     "display": "Bergamo, Italy"
+  },
+  "57.68,11.94": {
+    "city": "Gothenburg",
+    "country": "Sweden",
+    "display": "Gothenburg, Sweden"
+  },
+  "55.61,12.98": {
+    "city": "Malmö",
+    "country": "Sweden",
+    "display": "Malmö, Sweden"
+  },
+  "50.85,4.35": {
+    "city": "Brussels",
+    "country": "Belgium",
+    "display": "Brussels, Belgium"
+  },
+  "51.06,3.72": {
+    "city": "Ghent",
+    "country": "Belgium",
+    "display": "Ghent, Belgium"
+  },
+  "49.61,6.13": {
+    "city": "Luxembourg",
+    "country": "Luxembourg",
+    "display": "Luxembourg, Luxembourg"
+  },
+  "49.41,8.71": {
+    "city": "Heidelberg",
+    "country": "Germany",
+    "display": "Heidelberg, Germany"
+  },
+  "-43.46,172.59": {
+    "city": "Fendalton-Waimari-Harewood Community",
+    "country": "New Zealand",
+    "display": "Fendalton-Waimari-Harewood Community, New Zealand"
+  },
+  "55.46,12.19": {
+    "city": "Køge Municipality",
+    "country": "Denmark",
+    "display": "Køge Municipality, Denmark"
+  },
+  "59.56,30.11": {
+    "city": "Gatchina",
+    "country": "Russia",
+    "display": "Gatchina, Russia"
+  },
+  "40.93,24.39": {
+    "city": "Kavala",
+    "country": "Greece",
+    "display": "Kavala, Greece"
+  },
+  "37.57,22.80": {
+    "city": "Municipal Unit of Nafplio",
+    "country": "Greece",
+    "display": "Municipal Unit of Nafplio, Greece"
+  },
+  "51.88,-0.38": {
+    "city": "Borough of Luton",
+    "country": "United Kingdom",
+    "display": "Borough of Luton, United Kingdom"
+  },
+  "50.63,3.78": {
+    "city": "Ath",
+    "country": "Belgium",
+    "display": "Ath, Belgium"
+  },
+  "48.76,15.95": {
+    "city": "Retz",
+    "country": "Austria",
+    "display": "Retz, Austria"
+  },
+  "54.32,10.14": {
+    "city": "Kiel",
+    "country": "Germany",
+    "display": "Kiel, Germany"
+  },
+  "55.40,10.39": {
+    "city": "Odense",
+    "country": "Denmark",
+    "display": "Odense, Denmark"
+  },
+  "53.36,6.41": {
+    "city": "Wehe-den Hoorn",
+    "country": "Netherlands",
+    "display": "Wehe-den Hoorn, Netherlands"
+  },
+  "24.29,120.52": {
+    "city": "Taichung",
+    "country": "Taiwan",
+    "display": "Taichung, Taiwan"
+  },
+  "47.08,15.45": {
+    "city": "Graz",
+    "country": "Austria",
+    "display": "Graz, Austria"
+  },
+  "51.44,6.80": {
+    "city": "Duisburg",
+    "country": "Germany",
+    "display": "Duisburg, Germany"
+  },
+  "40.85,-73.88": {
+    "city": "New York",
+    "country": "United States",
+    "display": "New York, United States"
+  },
+  "51.99,5.91": {
+    "city": "Arnhem",
+    "country": "Netherlands",
+    "display": "Arnhem, Netherlands"
+  },
+  "47.39,8.57": {
+    "city": "Zurich",
+    "country": "Switzerland",
+    "display": "Zurich, Switzerland"
+  },
+  "54.31,13.09": {
+    "city": "Stralsund",
+    "country": "Germany",
+    "display": "Stralsund, Germany"
+  },
+  "53.23,-2.88": {
+    "city": "Chester",
+    "country": "United Kingdom",
+    "display": "Chester, United Kingdom"
+  },
+  "53.54,9.99": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "display": "Hamburg, Germany"
+  },
+  "48.87,2.29": {
+    "city": "Paris",
+    "country": "France",
+    "display": "Paris, France"
+  },
+  "51.15,14.99": {
+    "city": "Görlitz",
+    "country": "Germany",
+    "display": "Görlitz, Germany"
+  },
+  "45.65,25.59": {
+    "city": "Brasov",
+    "country": "Romania",
+    "display": "Brasov, Romania"
+  },
+  "40.71,19.94": {
+    "city": "Berat",
+    "country": "Albania",
+    "display": "Berat, Albania"
+  },
+  "40.47,19.49": {
+    "city": "Vlora",
+    "country": "Albania",
+    "display": "Vlora, Albania"
+  },
+  "60.17,24.96": {
+    "city": "Helsinki",
+    "country": "Finland",
+    "display": "Helsinki, Finland"
+  },
+  "47.50,19.05": {
+    "city": "Budapest",
+    "country": "Hungary",
+    "display": "Budapest, Hungary"
+  },
+  "44.43,26.09": {
+    "city": "Bucharest",
+    "country": "Romania",
+    "display": "Bucharest, Romania"
   }
 }
