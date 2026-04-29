@@ -1,0 +1,283 @@
+[
+  {
+    "path": "G:\\Video",
+    "totalFiles": 15336,
+    "photoCount": 10496,
+    "duplicateOfPoze": 2309,
+    "newPhotos": 8187,
+    "duplicateRatio": 0.22,
+    "sample": [
+      "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20230822-WA0000.jpg",
+      "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20240812-WA0003.jpg",
+      "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20251015-WA0014.jpg",
+      "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\IMG-20250913-WA0160.jpg",
+      "G:\\Video\\WhatsApp_Images\\WhatsApp Images\\Sent\\IMG-20250422-WA0227.jpg"
+    ],
+    "sampleExif": [
+      {
+        "FileName": "IMG-20250422-WA0227.jpg"
+      }
+    ],
+    "dateRange": {
+      "min": "2023-11-28",
+      "max": "2026-02-05",
+      "withDate": 2,
+      "sampled": 50
+    },
+    "classification": "mixed (WhatsApp media archive)"
+  },
+  {
+    "path": "G:\\WD_EXT_HDD",
+    "totalFiles": 16286,
+    "photoCount": 4077,
+    "duplicateOfPoze": 4,
+    "newPhotos": 4073,
+    "duplicateRatio": 0.001,
+    "sample": [
+      "G:\\WD_EXT_HDD\\Main\\Asus_Laptop (De sortat)\\letter-of-recommendation-i15.jpg",
+      "G:\\WD_EXT_HDD\\C PARTITION EDY PC\\Program Files (x86)\\Adobe\\Acrobat Reader DC\\Reader\\WebResources\\Resource0\\static\\js\\plugins\\tracked-send\\images\\adc_logo.png",
+      "G:\\WD_EXT_HDD\\C PARTITION EDY PC\\upload\\292.jpg",
+      "G:\\WD_EXT_HDD\\cislau_tata\\20160902_164642.jpg",
+      "G:\\WD_EXT_HDD\\WD_EXT_HDD\\Main\\Asus_Laptop (De sortat)\\Downloads\\wetransfer-ae684f\\poze bal\\7MI_4467.jpg"
+    ],
+    "sampleExif": [
+      {
+        "FileName": "7MI_4467.jpg",
+        "DateTimeOriginal": "2016:06:03 22:46:20",
+        "CreateDate": "2016:06:03 22:46:20"
+      }
+    ],
+    "dateRange": {
+      "min": "2016-08-27",
+      "max": "2017-01-23",
+      "withDate": 2,
+      "sampled": 50
+    },
+    "classification": "primary photo source (legacy backup)"
+  },
+  {
+    "path": "G:\\backup media telefon",
+    "totalFiles": 5756,
+    "photoCount": 5754,
+    "duplicateOfPoze": 5754,
+    "newPhotos": 0,
+    "duplicateRatio": 1,
+    "sample": [
+      "G:\\backup media telefon\\FB_IMG_15503108319703370.jpg",
+      "G:\\backup media telefon\\thumbnails\\1000017888.jpg",
+      "G:\\backup media telefon\\poze\\Whatsapp\\IMG-20180203-WA0003.jpg",
+      "G:\\backup media telefon\\poze\\Whatsapp\\IMG-20230224-WA0010.jpg",
+      "G:\\backup media telefon\\poze\\camera\\IMG20260324144837.jpg"
+    ],
+    "sampleExif": [
+      {
+        "DateTimeOriginal": "2026:03:24 14:48:37",
+        "CreateDate": "2026:03:24 14:48:37",
+        "GPSPosition": "44 deg 49' 5.93\" N, 20 deg 27' 1.03\" E",
+        "FileName": "IMG20260324144837.jpg"
+      }
+    ],
+    "dateRange": {
+      "min": "2021-12-12",
+      "max": "2026-01-27",
+      "withDate": 2,
+      "sampled": 50
+    },
+    "classification": "duplicate of Poze"
+  },
+  {
+    "path": "G:\\Steam",
+    "totalFiles": 78532,
+    "photoCount": 6707,
+    "duplicateOfPoze": 2,
+    "newPhotos": 6705,
+    "duplicateRatio": 0,
+    "sample": [
+      "G:\\Steam\\appcache\\librarycache\\1005240_header.jpg",
+      "G:\\Steam\\controller_base\\images\\api\\dark\\shared_rstick_up_lg.png",
+      "G:\\Steam\\controller_base\\images\\api\\light\\sd_r5_lg.png",
+      "G:\\Steam\\steamapps\\common\\Hearts of Iron IV\\wiki\\images\\thumb\\8\\81\\China.png\\330px-China.png",
+      "G:\\Steam\\tenfoot\\resource\\images\\controller_icon_steamcontroller.png"
+    ],
+    "sampleExif": [
+      {
+        "FileName": "controller_icon_steamcontroller.png"
+      }
+    ],
+    "dateRange": {
+      "min": "2021-01-19",
+      "max": "2021-01-19",
+      "withDate": 1,
+      "sampled": 50
+    },
+    "classification": "app/game assets (not photos)"
+  },
+  {
+    "path": "G:\\Huawei themes",
+    "totalFiles": 1363,
+    "photoCount": 1363,
+    "duplicateOfPoze": 0,
+    "newPhotos": 1363,
+    "duplicateRatio": 0,
+    "sample": [
+      "G:\\Huawei themes\\Balance(magazine)-04-2.3.001-bigpicture_04_3.jpg",
+      "G:\\Huawei themes\\magazine-unlock-01-2.3.1299-_2B2D3C774BE29F525AF3D3A7759ED3A9.jpg",
+      "G:\\Huawei themes\\magazine-unlock-01-2.3.3352-_F234DE7E2C7EFEF23337FE0BE266B58C.jpg",
+      "G:\\Huawei themes\\magazine-unlock-01-2.3.6092-_ECC2DB0442C29DE00B91A5BDAF6630C6.jpg",
+      "G:\\Huawei themes\\magazine-unlock-05-2.3.1327-_DF9FB100CB853B08003B11EC8D6DCB8A.jpg"
+    ],
+    "sampleExif": [
+      {
+        "DateTimeOriginal": "2013:03:04 11:48:04",
+        "CreateDate": "2013:03:04 14:53:42+10:00",
+        "FileName": "magazine-unlock-05-2.3.1327-_DF9FB100CB853B08003B11EC8D6DCB8A.jpg"
+      }
+    ],
+    "dateRange": {
+      "min": "2013-03-04",
+      "max": "2019-10-25",
+      "withDate": 2,
+      "sampled": 50
+    },
+    "classification": "wallpaper assets (not photos)"
+  },
+  {
+    "path": "G:\\XAMPP",
+    "totalFiles": 30726,
+    "photoCount": 1306,
+    "duplicateOfPoze": 15,
+    "newPhotos": 1291,
+    "duplicateRatio": 0.011,
+    "sample": [
+      "G:\\XAMPP\\apache\\icons\\a.png",
+      "G:\\XAMPP\\htdocs\\dashboard\\images\\bitnami-xampp\\image1.png",
+      "G:\\XAMPP\\MercuryMail\\PNG\\5005.png",
+      "G:\\XAMPP\\phpMyAdmin\\themes\\metro\\img\\toggle-ltr.png",
+      "G:\\XAMPP\\phpMyAdmin\\themes\\pmahomme\\img\\bd_lastpage.png"
+    ],
+    "sampleExif": [
+      {
+        "FileName": "bd_lastpage.png"
+      }
+    ],
+    "dateRange": {
+      "min": null,
+      "max": null,
+      "withDate": 0,
+      "sampled": 50
+    },
+    "classification": "app/game assets (not photos)"
+  },
+  {
+    "path": "G:\\Archive",
+    "totalFiles": 320265,
+    "photoCount": 1469,
+    "duplicateOfPoze": 80,
+    "newPhotos": 1389,
+    "duplicateRatio": 0.054,
+    "sample": [
+      "G:\\Archive\\_uncategorized_2026-04-14_2257\\Capture.PNG",
+      "G:\\Archive\\VIA_UCL (Courses, assignments, etc.)\\First semester\\RWD\\rwd - something\\technotes\\guides\\security\\images\\jca\\mac-class.png",
+      "G:\\Archive\\Courses\\boozt-brand-portal-react\\node_modules\\serve-index\\public\\icons\\page_white_coldfusion.png",
+      "G:\\Archive\\Courses\\Symfony-api-and-react\\lesson_14_symfony_project\\public\\bundles\\easyadmin\\images\\flags\\IN.png",
+      "G:\\Archive\\Courses\\Vuexy-Admin-Dashboard\\src\\assets\\images\\pages\\eCommerce\\24.png"
+    ],
+    "sampleExif": [
+      {
+        "FileName": "24.png",
+        "CreateDate": "2020:09:12 19:29:43+05:30"
+      }
+    ],
+    "dateRange": {
+      "min": "2020-09-12",
+      "max": "2020-09-12",
+      "withDate": 1,
+      "sampled": 50
+    },
+    "classification": "primary photo source"
+  },
+  {
+    "path": "G:\\Windows Kits",
+    "totalFiles": 17879,
+    "photoCount": 140,
+    "duplicateOfPoze": 9,
+    "newPhotos": 131,
+    "duplicateRatio": 0.064,
+    "sample": [
+      "G:\\Windows Kits\\10\\App Certification Kit\\DefaultAppImages\\badgelogo-sdk.png",
+      "G:\\Windows Kits\\10\\App Certification Kit\\DefaultAppImages\\wide310x150logo-vs2015.png",
+      "G:\\Windows Kits\\10\\bin\\10.0.17763.0\\arm64\\AccChecker\\AccChecker_HelpFiles\\AccChecker_CustomVerification.PNG",
+      "G:\\Windows Kits\\10\\bin\\10.0.17763.0\\x86\\AccChecker\\AccChecker_HelpFiles\\AccChecker_TreeTab.PNG",
+      "G:\\Windows Kits\\10\\bin\\10.0.18362.0\\arm64\\AccChecker\\AccChecker_HelpFiles\\image003.jpg"
+    ],
+    "sampleExif": [
+      {
+        "FileName": "image003.jpg"
+      }
+    ],
+    "dateRange": {
+      "min": null,
+      "max": null,
+      "withDate": 0,
+      "sampled": 50
+    },
+    "classification": "app/game assets (not photos)"
+  },
+  {
+    "path": "G:\\University",
+    "totalFiles": 13957,
+    "photoCount": 76,
+    "duplicateOfPoze": 48,
+    "newPhotos": 28,
+    "duplicateRatio": 0.632,
+    "sample": [
+      "G:\\University\\Interview transcripts\\11.05\\Current Miro Board Overview (11.05)\\img_01.png",
+      "G:\\University\\MST\\User_Story_Structure.drawio (1).png",
+      "G:\\University\\Pres_09.08\\company-cooperation-organize-svgrepo-com.png",
+      "G:\\University\\AVR Dude\\Internship\\me_sys\\SWMX-9735\\defect.PNG",
+      "G:\\University\\IBA Studies\\Main thesis tools\\How-to-Start-Your-Own-Real-Estate-Company.jpg"
+    ],
+    "sampleExif": [
+      {
+        "FileName": "How-to-Start-Your-Own-Real-Estate-Company.jpg",
+        "CreateDate": "2014:10:21 12:47:48+08:00"
+      }
+    ],
+    "dateRange": {
+      "min": "2023-01-25",
+      "max": "2023-08-10",
+      "withDate": 2,
+      "sampled": 50
+    },
+    "classification": "mostly duplicate of Poze"
+  },
+  {
+    "path": "G:\\AU-MSC",
+    "totalFiles": 2409,
+    "photoCount": 239,
+    "duplicateOfPoze": 16,
+    "newPhotos": 223,
+    "duplicateRatio": 0.067,
+    "sample": [
+      "G:\\AU-MSC\\SEM_1\\AOM\\session_4 (19.09.22)\\resources\\Bottleneck_Exercise_1.png",
+      "G:\\AU-MSC\\SEM_1\\MOT\\sessions\\session 13 (11.10.22)\\resources\\Steps_In_Process_Management.png",
+      "G:\\AU-MSC\\SEM_1\\PTO\\exam_preparation\\topics\\governing_structures\\resources\\make_or_buy.png",
+      "G:\\AU-MSC\\SEM_1\\PTO\\exam_preparation\\topics\\views_on_organizations\\resources\\performance_evaluation_checklist.png",
+      "G:\\AU-MSC\\SEM_2\\OPT\\sessions\\session 2 (06.02.23)\\hand_notes\\IMG_20230208_094648.jpg"
+    ],
+    "sampleExif": [
+      {
+        "FileName": "IMG_20230208_094648.jpg",
+        "DateTimeOriginal": "2023:02:08 09:46:49",
+        "CreateDate": "2023:02:08 09:46:49"
+      }
+    ],
+    "dateRange": {
+      "min": "2023-02-08",
+      "max": "2023-02-08",
+      "withDate": 1,
+      "sampled": 50
+    },
+    "classification": "primary photo source"
+  }
+]

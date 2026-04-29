@@ -118,12 +118,13 @@ describe("TravelPage i18n", () => {
     expect(screen.queryByText(/^Latest:/)).not.toBeInTheDocument();
   });
 
-  it("renders an 'All trips' kicker (no longer 'Recent trips')", async () => {
+  it("does not render the legacy 'Latest from the road' heading copy", async () => {
     localeMock.current = "en";
     render(await TravelPage({ params: Promise.resolve({ locale: "en" }) }));
-    // The new section is keyed off allTripsKicker; the old recentTripsKicker
-    // ("Recent trips" / "Latest from the road") is gone.
-    expect(screen.queryByText(/Recent trips/)).not.toBeInTheDocument();
+    // The legacy heading "Latest from the road" was replaced; the current
+    // "Recent trips" section uses "Fresh prints from the road." instead.
+    // The Recent trips kicker may or may not render depending on cluster
+    // count in the test fixture, so we only assert the legacy copy is gone.
     expect(screen.queryByText(/Latest from the road/)).not.toBeInTheDocument();
   });
 
