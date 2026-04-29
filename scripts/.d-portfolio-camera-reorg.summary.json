@@ -1,0 +1,34 @@
+{
+  "dryRun": false,
+  "startedAt": "2026-04-29T06:30:34.082Z",
+  "finishedAt": "2026-04-29T06:30:34.155Z",
+  "durationMs": 73,
+  "sourceRoot": "D:\\Portfolio\\poze",
+  "rootFiles": 27084,
+  "rootSubdirsTotal": 31,
+  "rootSubdirsSensitive": [
+    "CV + CL photos",
+    "Driving license photos",
+    "ID Photos",
+    "Passport photos",
+    "Residence permit photos",
+    "Whatsapp"
+  ],
+  "rootSubdirsCarveOut": [
+    ".review-for-delete"
+  ],
+  "moved": 60,
+  "skippedWhatsApp": 2351,
+  "skippedNoMatch": 24673,
+  "unmoved": 0,
+  "perYear": {
+    "2022": 59,
+    "2023": 1
+  },
+  "perPattern": {
+    "android-camera": 59,
+    "huawei-imgYMDhms": 1
+  },
+  "unmovedDetail": [],
+  "unmovedTotal": 0
+}
