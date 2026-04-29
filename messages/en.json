@@ -241,6 +241,7 @@
     "mapToggleAriaLabel": "Switch map view",
     "mapDestinations": "Destinations",
     "mapIntensity": "Intensity",
+    "mapCities": "Cities",
     "mapLegendTitle": "Trips per country",
     "mapLegendUnit": "trips",
     "recentTripsKicker": "Recent trips",

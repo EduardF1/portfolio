@@ -7,7 +7,10 @@ import {
   Geography,
   Marker,
 } from "react-simple-maps";
-import type { CountryDestination } from "@/lib/travel-locations";
+import type {
+  CityDestination,
+  CountryDestination,
+} from "@/lib/travel-locations";
 import {
   TIER_RANGE_LABELS,
   tierForTripCount,
@@ -21,6 +24,10 @@ import {
 export type MapDestination = CountryDestination & {
   firstTripSlug?: string;
 };
+
+/** Per-city dot data for the Cities overlay. Re-exports the lib type
+ *  so callers only need to import from this module. */
+export type MapCity = CityDestination;
 
 // World TopoJSON (Natural Earth 1:50m) served from jsDelivr CDN. ~250KB
 // gzipped, edge-cached. We use a Mercator projection clipped to a
@@ -96,6 +103,28 @@ function markerRadius(photoCount: number): number {
 }
 
 /**
+ * Radius for a city-overlay dot. Kept smaller than country pins so a
+ * dense overlay does not swallow the chloropleth underneath. Scales
+ * with `sqrt(photoCount)` for the same compressed-spread feel.
+ */
+function cityDotRadius(photoCount: number): number {
+  return clamp(3 + Math.sqrt(photoCount) * 0.9, 3.5, 9);
+}
+
+/**
+ * Slugify a country name to match the anchor ids on /travel
+ * (`country-<slug>`). Mirrors the helper in `travel-locations.ts`.
+ */
+function slugifyCountry(s: string): string {
+  return s
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+/**
  * Tier-keyed CSS strings for the chloropleth fill.
  * Tier 0: neutral surface (no trips).
  * Tier 1: lightest accent (uses --color-accent-soft).
@@ -111,54 +140,122 @@ const TIER_FILLS: readonly string[] = [
   "var(--color-accent)",
 ];
 
-export type TravelMapView = "destinations" | "intensity";
+export type TravelMapView = "destinations" | "intensity" | "cities";
 
 export type TravelEuropeMapLabels = {
   toggleAriaLabel: string;
   destinationsLabel: string;
   intensityLabel: string;
+  /** Label for the "Cities" toggle button. Optional for back-compat
+   *  with existing call-sites; defaults to "Cities". */
+  citiesLabel?: string;
   legendTitle: string;
   legendUnit: string;
+  /** Singular photo-count phrase, e.g. "1 photo". Optional; the
+   *  parent passes the already-localised plural string (resolved on
+   *  the server). Functions cannot cross the RSC boundary, so we
+   *  trade the closure for a {one, other} pair. */
+  photoCountOne?: string;
+  /** Plural photo-count phrase template with a literal `{count}`
+   *  token, e.g. "{count} photos". */
+  photoCountOther?: string;
 };
 
 const DEFAULT_LABELS: TravelEuropeMapLabels = {
   toggleAriaLabel: "Switch map view",
   destinationsLabel: "Destinations",
   intensityLabel: "Intensity",
+  citiesLabel: "Cities",
   legendTitle: "Trips per country",
   legendUnit: "trips",
+  photoCountOne: "1 photo",
+  photoCountOther: "{count} photos",
 };
+
+function formatPhotoCount(
+  n: number,
+  one: string | undefined,
+  other: string | undefined,
+): string {
+  if (n === 1 && one) return one;
+  if (other) return other.replace("{count}", String(n));
+  return `${n} ${n === 1 ? "photo" : "photos"}`;
+}
+
+function buildCityTooltip(
+  city: string,
+  country: string,
+  photoCount: number,
+  labels: TravelEuropeMapLabels,
+): string {
+  return `${city}, ${country} · ${formatPhotoCount(
+    photoCount,
+    labels.photoCountOne,
+    labels.photoCountOther,
+  )}`;
+}
 
 export function TravelEuropeMap({
   destinations,
+  cities = [],
   tripCounts = {},
   initialView = "destinations",
   labels = DEFAULT_LABELS,
 }: {
   destinations: MapDestination[];
+  cities?: MapCity[];
   tripCounts?: Record<string, number>;
   initialView?: TravelMapView;
   labels?: TravelEuropeMapLabels;
 }) {
   const [hovered, setHovered] = useState<string | null>(null);
+  const [hoveredCity, setHoveredCity] = useState<string | null>(null);
   const [view, setView] = useState<TravelMapView>(initialView);
 
-  const handleToggle = useCallback(
-    (next: TravelMapView) => {
-      setView(next);
-      // Persist via the `?map=` URL search param so the view survives a
-      // refresh / share. We mutate the URL directly with replaceState
-      // (no localStorage, no router push) so we do not trigger a
-      // server round-trip — the chloropleth and pin views are both
-      // rendered from props already on the client.
-      if (typeof window === "undefined") return;
-      const url = new URL(window.location.href);
-      if (next === "intensity") {
-        url.searchParams.set("map", "intensity");
-      } else {
-        url.searchParams.delete("map");
+  const handleToggle = useCallback((next: TravelMapView) => {
+    setView(next);
+    // Clear any sticky hover state when switching modes so an
+    // overlay-specific hover does not leak across views.
+    setHovered(null);
+    setHoveredCity(null);
+    // Persist via the `?map=` URL search param so the view survives a
+    // refresh / share. We mutate the URL directly with replaceState
+    // (no localStorage, no router push) so we do not trigger a
+    // server round-trip.
+    if (typeof window === "undefined") return;
+    const url = new URL(window.location.href);
+    if (next === "destinations") {
+      url.searchParams.delete("map");
+    } else {
+      url.searchParams.set("map", next);
+    }
+    window.history.replaceState(null, "", url.toString());
+  }, []);
+
+  /**
+   * Click handler for a city dot: scroll to the trip card / country
+   * tile that contains photos from this city. We try, in order:
+   *   1. `#trip-<primaryTripSlug>` — set on each Recent Trips card.
+   *   2. `#country-<country-slug>` — fallback when the dominant trip
+   *      isn't rendered as a card on the page (e.g. older trip).
+   * If neither exists we noop and let the anchor's href drive a
+   * normal navigation to the trip's photo page.
+   */
+  const handleCityClick = useCallback(
+    (city: MapCity, e: React.MouseEvent<HTMLAnchorElement>) => {
+      if (typeof document === "undefined") return;
+      const candidates: string[] = [];
+      if (city.primaryTripSlug) candidates.push(`trip-${city.primaryTripSlug}`);
+      candidates.push(`country-${slugifyCountry(city.country)}`);
+      for (const id of candidates) {
+        const node = document.getElementById(id);
+        if (node) {
+          e.preventDefault();
+          node.scrollIntoView({ behavior: "smooth", block: "start" });
+          return;
+        }
       }
-      window.history.replaceState(null, "", url.toString());
+      // No matching anchor — fall through to the href-driven nav.
     },
     [],
   );
@@ -166,6 +263,10 @@ export function TravelEuropeMap({
   if (destinations.length === 0) return null;
 
   const isIntensity = view === "intensity";
+  const isCities = view === "cities";
+  const isDestinations = view === "destinations";
+
+  const citiesLabel = labels.citiesLabel ?? "Cities";
 
   return (
     <div className="@container relative">
@@ -178,10 +279,10 @@ export function TravelEuropeMap({
           <button
             type="button"
             data-testid="map-view-destinations"
-            aria-pressed={!isIntensity}
+            aria-pressed={isDestinations}
             onClick={() => handleToggle("destinations")}
             className={
-              !isIntensity
+              isDestinations
                 ? "px-3 py-1.5 bg-accent text-accent-foreground"
                 : "px-3 py-1.5 bg-background text-foreground-muted hover:text-foreground"
             }
@@ -201,12 +302,27 @@ export function TravelEuropeMap({
           >
             {labels.intensityLabel}
           </button>
+          {cities.length > 0 && (
+            <button
+              type="button"
+              data-testid="map-view-cities"
+              aria-pressed={isCities}
+              onClick={() => handleToggle("cities")}
+              className={
+                isCities
+                  ? "px-3 py-1.5 bg-accent text-accent-foreground"
+                  : "px-3 py-1.5 bg-background text-foreground-muted hover:text-foreground"
+              }
+            >
+              {citiesLabel}
+            </button>
+          )}
         </div>
       </div>
 
       <figure
         aria-label={`Travel destinations across ${destinations.length} countries`}
-        className="overflow-hidden rounded-lg border border-border bg-surface/40"
+        className="overflow-hidden rounded-lg border border-border bg-surface/40 relative"
       >
         <ComposableMap
           projection="geoMercator"
@@ -244,7 +360,7 @@ export function TravelEuropeMap({
             }
           </Geographies>
 
-          {!isIntensity &&
+          {isDestinations &&
             destinations.map((destination) => {
               const radius = markerRadius(destination.photoCount);
               const isHovered = hovered === destination.slug;
@@ -299,13 +415,98 @@ export function TravelEuropeMap({
                 </Marker>
               );
             })}
+
+          {isCities &&
+            cities.map((city) => {
+              const baseRadius = cityDotRadius(city.photoCount);
+              const isHovered = hoveredCity === city.slug;
+              const radius = isHovered ? baseRadius * 1.5 : baseRadius;
+              const tooltip = buildCityTooltip(
+                city.city,
+                city.country,
+                city.photoCount,
+                labels,
+              );
+              return (
+                <Marker
+                  key={city.slug}
+                  coordinates={[city.lon, city.lat]}
+                  onMouseEnter={() => setHoveredCity(city.slug)}
+                  onMouseLeave={() => setHoveredCity(null)}
+                  onFocus={() => setHoveredCity(city.slug)}
+                  onBlur={() => setHoveredCity(null)}
+                >
+                  <a
+                    data-testid="city-dot"
+                    data-city-slug={city.slug}
+                    href={
+                      city.primaryTripSlug
+                        ? `/travel/photos/${city.primaryTripSlug}`
+                        : `#country-${slugifyCountry(city.country)}`
+                    }
+                    aria-label={tooltip}
+                    onClick={(e) => handleCityClick(city, e)}
+                  >
+                    {/* Larger, transparent hit area for steady hover. */}
+                    <circle
+                      r={baseRadius + 6}
+                      fill="transparent"
+                      style={{ cursor: "pointer" }}
+                    />
+                    <circle
+                      r={radius}
+                      fill="var(--color-accent)"
+                      fillOpacity={isHovered ? 1 : 0.85}
+                      stroke="var(--color-background)"
+                      strokeWidth={1}
+                      style={{
+                        cursor: "pointer",
+                        transition: "r 150ms ease, fill-opacity 150ms",
+                      }}
+                    />
+                    {isHovered && (
+                      <g
+                        data-testid="city-tooltip"
+                        pointerEvents="none"
+                        // Anchor the tooltip just above the dot.
+                        transform={`translate(0, ${-baseRadius - 6})`}
+                      >
+                        <rect
+                          x={-tooltip.length * 3 - 6}
+                          y={-16}
+                          rx={3}
+                          ry={3}
+                          width={tooltip.length * 6 + 12}
+                          height={18}
+                          fill="var(--color-background)"
+                          stroke="var(--color-border)"
+                          strokeWidth={0.75}
+                          opacity={0.96}
+                        />
+                        <text
+                          textAnchor="middle"
+                          y={-3}
+                          fontFamily="var(--font-mono), monospace"
+                          fontSize={10}
+                          fill="var(--color-foreground)"
+                        >
+                          {tooltip}
+                        </text>
+                      </g>
+                    )}
+                  </a>
+                </Marker>
+              );
+            })}
         </ComposableMap>
       </figure>
 
       {isIntensity && <TravelMapLegend labels={labels} />}
 
       <p className="mt-3 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-foreground-subtle">
-        {destinations.length} countries · click a marker to open that country&apos;s photo set · base map © Natural Earth
+        {isCities
+          ? `${cities.length} cities · click a dot to jump to the trip · base map © Natural Earth`
+          : `${destinations.length} countries · click a marker to open that country's photo set · base map © Natural Earth`}
       </p>
     </div>
   );
