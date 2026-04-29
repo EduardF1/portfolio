@@ -644,6 +644,120 @@
     }
   },
   {
+    "src": "trips/2023-07-greece-athens-halkidiki/pexels-athens-acropolis-tourists-32675234.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Athens",
+      "country": "Greece",
+      "display": "Athens, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/acropolis-athens-tourists-32675234/",
+      "photographer": "Harris Rigorad",
+      "photographerUrl": "https://www.pexels.com/@harrisrigorad/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/pexels-athens-parthenon-day-28601862.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Athens",
+      "country": "Greece",
+      "display": "Athens, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/parthenon-acropolis-athens-28601862/",
+      "photographer": "Efrem Efre",
+      "photographerUrl": "https://www.pexels.com/@efrem-efre-2786187/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-greek-coastline-11898125.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Nea Fokea",
+      "country": "Greece",
+      "display": "Nea Fokea, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-greek-coastline-halkidiki-11898125/",
+      "photographer": "Thanos Skoufitsas",
+      "photographerUrl": "https://www.pexels.com/@thanos-skoufitsas-123876144/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-kalamitsi-beach-32185350.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Nea Fokea",
+      "country": "Greece",
+      "display": "Nea Fokea, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/kalamitsi-beach-halkidiki-32185350/",
+      "photographer": "Yassen Kounchev",
+      "photographerUrl": "https://www.pexels.com/@yassen-kounchev-889850329/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-mount-athos-view-18407697.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Nea Fokea",
+      "country": "Greece",
+      "display": "Nea Fokea, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/coastal-panorama-mount-athos-halkidiki-18407697/",
+      "photographer": "Mihai Todor",
+      "photographerUrl": "https://www.pexels.com/@mihai-todor-733235608/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-sithonia-coast-aerial-32996880.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Nea Fokea",
+      "country": "Greece",
+      "display": "Nea Fokea, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-sithonia-coastline-greece-32996880/",
+      "photographer": "Ivan Petrov",
+      "photographerUrl": "https://www.pexels.com/@ivan-petrov-1713097877/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2023-07-turkey/pexels-istanbul-galata-tower-street-29069777.jpg",
     "takenAt": null,
     "hasGps": false,
@@ -730,6 +844,82 @@
     }
   },
   {
+    "src": "trips/2024-09-albania-saranda/pexels-durres-beach-aerial-4712330.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Durrës",
+      "country": "Albania",
+      "display": "Durrës, Albania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-durres-beach-4712330/",
+      "photographer": "Julia Solodovnikova",
+      "photographerUrl": "https://www.pexels.com/@julia-solodovnikova-2581492/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-durres-cityscape-aerial-28459110.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Durrës",
+      "country": "Albania",
+      "display": "Durrës, Albania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/durres-urban-landscape-28459110/",
+      "photographer": "Hauke",
+      "photographerUrl": "https://www.pexels.com/@hauke-438617007/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-durres-pier-adriatic-17405492.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Durrës",
+      "country": "Albania",
+      "display": "Durrës, Albania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/woman-pier-durres-adriatic-17405492/",
+      "photographer": "Sabina Kallari",
+      "photographerUrl": "https://www.pexels.com/@sabinakallari/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-durres-pier-sunset-34666713.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Durrës",
+      "country": "Albania",
+      "display": "Durrës, Albania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/durres-beach-sunset-pier-34666713/",
+      "photographer": "Arjan Carja",
+      "photographerUrl": "https://www.pexels.com/@arjan-carja-184978827/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2024-09-albania-saranda/pexels-gjirokastra-fortress-flag-11932455.jpg",
     "takenAt": null,
     "hasGps": true,
@@ -792,6 +982,44 @@
       "url": "https://www.pexels.com/photo/saranda-city-in-albania-night-lights-view-6863718/",
       "photographer": "Andrew Schwark",
       "photographerUrl": "https://www.pexels.com/@andrew-schwark-540305/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-tirana-red-blue-tower-13706945.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Tirana",
+      "country": "Albania",
+      "display": "Tirana, Albania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/red-and-blue-tower-tirana-13706945/",
+      "photographer": "Valter Zhara",
+      "photographerUrl": "https://www.pexels.com/@valter-zhara-164968736/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-tirana-skanderbeg-square-aerial-9707969.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Tirana",
+      "country": "Albania",
+      "display": "Tirana, Albania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/drone-shot-of-skanderbeg-square-in-tirana-albania-9707969/",
+      "photographer": "Marsel Dajçi",
+      "photographerUrl": "https://www.pexels.com/@marsel-dajci-3669856/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
@@ -906,6 +1134,158 @@
       "url": "https://www.pexels.com/photo/triumphal-arch-bucharest-night-30210641/",
       "photographer": "Angelos Lamprakopoulos",
       "photographerUrl": "https://www.pexels.com/@angelos-lamprakopoulos-3670919/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-granada-aerial-alhambra-36046534.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Granada",
+      "country": "Spain",
+      "display": "Granada, Spain"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-granada-cityscape-with-alhambra-36046534/",
+      "photographer": "José Manuel",
+      "photographerUrl": "https://www.pexels.com/@jose-manuel-1808792/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-granada-albayzin-aerial-9035868.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Granada",
+      "country": "Spain",
+      "display": "Granada, Spain"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-granada-albayzin-9035868/",
+      "photographer": "Baina Lazareva",
+      "photographerUrl": "https://www.pexels.com/@anyway_lb-baina-lazareva-67883465/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-granada-alhambra-court-of-lions-36895192.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Granada",
+      "country": "Spain",
+      "display": "Granada, Spain"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/the-iconic-court-of-the-lions-at-the-alhambra-in-granada-36895192/",
+      "photographer": "Diego HG",
+      "photographerUrl": "https://www.pexels.com/@diego-hg-2157656524/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-granada-street-alhambra-view-30830807.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Granada",
+      "country": "Spain",
+      "display": "Granada, Spain"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/sunlit-street-granada-30830807/",
+      "photographer": "Phil Jolley",
+      "photographerUrl": "https://www.pexels.com/@phil-jolley-807852836/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-marbella-club-pier-26646558.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Marbella",
+      "country": "Spain",
+      "display": "Marbella, Spain"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/marbella-club-pier-sea-26646558/",
+      "photographer": "Tattoodonor",
+      "photographerUrl": "https://www.pexels.com/@tattoodonor-1160289080/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-marbella-coastline-aerial-15488149.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Marbella",
+      "country": "Spain",
+      "display": "Marbella, Spain"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-marbella-coastline-15488149/",
+      "photographer": "DronPedro",
+      "photographerUrl": "https://www.pexels.com/@dronpedro-15488149/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-marbella-old-town-alley-18485259.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Marbella",
+      "country": "Spain",
+      "display": "Marbella, Spain"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/picturesque-alleyway-marbella-18485259/",
+      "photographer": "Tony Zohari",
+      "photographerUrl": "https://www.pexels.com/@tony-zohari-3296024/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-marbella-puerto-banus-yachts-33305408.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Marbella",
+      "country": "Spain",
+      "display": "Marbella, Spain"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/luxury-yachts-puerto-banus-marbella-33305408/",
+      "photographer": "Miguel Rivera",
+      "photographerUrl": "https://www.pexels.com/@miguel-rivera-2150485053/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
@@ -2892,6 +3272,51 @@
     }
   },
   {
+    "src": "trips/2023-07-greece-athens-halkidiki/IMG_20230706_172303.jpg",
+    "takenAt": "2023-07-06T17:23:04Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 37.93476,
+      "lon": 23.94577
+    },
+    "place": {
+      "city": "Athens",
+      "country": "Greece",
+      "display": "Athens, Greece"
+    }
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/IMG_20230706_184740.jpg",
+    "takenAt": "2023-07-06T18:47:40Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 37.94159,
+      "lon": 23.953
+    },
+    "place": {
+      "city": "Athens",
+      "country": "Greece",
+      "display": "Athens, Greece"
+    }
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/IMG_20230706_190837.jpg",
+    "takenAt": "2023-07-06T19:08:38Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 37.97457,
+      "lon": 23.99225
+    },
+    "place": {
+      "city": "Athens",
+      "country": "Greece",
+      "display": "Athens, Greece"
+    }
+  },
+  {
     "src": "trips/2023-07-turkey/IMG_20230712_161755.jpg",
     "takenAt": "2023-07-12T16:17:55Z",
     "hasGps": true,
@@ -3434,6 +3859,36 @@
       "city": "Gjirokastra",
       "country": "Albania",
       "display": "Gjirokastra, Albania"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/IMG20240924185719.jpg",
+    "takenAt": "2024-09-24T18:57:19Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 41.32726,
+      "lon": 19.82261
+    },
+    "place": {
+      "city": "Tirana",
+      "country": "Albania",
+      "display": "Tirana, Albania"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/IMG20240924185804.jpg",
+    "takenAt": "2024-09-24T18:58:04Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 41.32689,
+      "lon": 19.81479
+    },
+    "place": {
+      "city": "Tirana",
+      "country": "Albania",
+      "display": "Tirana, Albania"
     }
   },
   {
@@ -4594,6 +5049,66 @@
       "city": "Jaroslavice",
       "country": "Czechia",
       "display": "Jaroslavice, Czechia"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/IMG20250912172108.jpg",
+    "takenAt": "2025-09-12T17:21:08Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.58961,
+      "lon": -4.52808
+    },
+    "place": {
+      "city": "Torremolinos",
+      "country": "Spain",
+      "display": "Torremolinos, Spain"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/IMG20250912180703.jpg",
+    "takenAt": "2025-09-12T18:07:03Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.58961,
+      "lon": -4.52797
+    },
+    "place": {
+      "city": "Torremolinos",
+      "country": "Spain",
+      "display": "Torremolinos, Spain"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/IMG20250912191811.jpg",
+    "takenAt": "2025-09-12T19:18:11Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.5894,
+      "lon": -4.52834
+    },
+    "place": {
+      "city": "Torremolinos",
+      "country": "Spain",
+      "display": "Torremolinos, Spain"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/IMG20250912203035.jpg",
+    "takenAt": "2025-09-12T20:30:35Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 36.5954,
+      "lon": -4.51401
+    },
+    "place": {
+      "city": "Torremolinos",
+      "country": "Spain",
+      "display": "Torremolinos, Spain"
     }
   },
   {
