@@ -6910,5 +6910,480 @@
       "country": "Germany",
       "display": "Kassel, Germany"
     }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-boats-trees-29351196.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "place": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "display": "Amsterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-amsterdam-canal-with-boats-and-trees-29351196/",
+      "photographer": "naimish17",
+      "photographerUrl": "https://www.pexels.com/@naimish17",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-from-bridge-18936486.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "place": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "display": "Amsterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/canal-in-amsterdam-seen-from-bridge-18936486/",
+      "photographer": "cvele",
+      "photographerUrl": "https://www.pexels.com/@cvele",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-houseboats-morning-31773686.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "place": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "display": "Amsterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-canal-view-with-boats-in-amsterdam-31773686/",
+      "photographer": "Titouan Jullien",
+      "photographerUrl": "https://www.pexels.com/@titouan-jullien-504247666",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-spring-36670516.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "place": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "display": "Amsterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-amsterdam-canal-with-boats-and-trees-in-spring-36670516/",
+      "photographer": "Burak Akmanoglu",
+      "photographerUrl": "https://www.pexels.com/@burak-akmanoglu-745300984",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-bridge-church-29351195.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "place": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "display": "Amsterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-amsterdam-canal-with-boats-and-bridge-29351195/",
+      "photographer": "naimish17",
+      "photographerUrl": "https://www.pexels.com/@naimish17",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-rotterdam-erasmus-bridge-sunset-20655919.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.9244,
+      "lon": 4.4777
+    },
+    "place": {
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "display": "Rotterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/suspension-bridge-by-the-harbor-in-rotterdam-20655919/",
+      "photographer": "Igor Passchier",
+      "photographerUrl": "https://www.pexels.com/@igor-passchier-111147847",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-rotterdam-willemsbrug-white-house-35993737.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.9244,
+      "lon": 4.4777
+    },
+    "place": {
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "display": "Rotterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/sunset-over-willemsbrug-and-historic-white-house-rotterdam-35993737/",
+      "photographer": "braujardim",
+      "photographerUrl": "https://www.pexels.com/@braujardim",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-rotterdam-cube-houses-29819767.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.9244,
+      "lon": 4.4777
+    },
+    "place": {
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "display": "Rotterdam, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/cube-houses-in-rotterdam-architectural-innovation-29819767/",
+      "photographer": "Valter Biscaia Filho",
+      "photographerUrl": "https://www.pexels.com/@valter-biscaia-filho-2147883999",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-the-hague-binnenhof-fountain-18684354.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0705,
+      "lon": 4.3007
+    },
+    "place": {
+      "city": "The Hague",
+      "country": "Netherlands",
+      "display": "The Hague, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/binnenhof-in-hague-in-netherlands-18684354/",
+      "photographer": "Patrick Jaksic",
+      "photographerUrl": "https://www.pexels.com/@patrick-jaksic-615183630",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-the-hague-skyline-historic-modern-33841317.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0705,
+      "lon": 4.3007
+    },
+    "place": {
+      "city": "The Hague",
+      "country": "Netherlands",
+      "display": "The Hague, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/skyline-of-the-hague-featuring-historic-and-modern-buildings-33841317/",
+      "photographer": "Jakub Zerdzicki",
+      "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-the-hague-scheveningen-beach-34126088.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0705,
+      "lon": 4.3007
+    },
+    "place": {
+      "city": "The Hague",
+      "country": "Netherlands",
+      "display": "The Hague, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scheveningen-beach-and-cityscape-the-hague-34126088/",
+      "photographer": "Jakub Zerdzicki",
+      "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-utrecht-dom-tower-blue-sky-32348115.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0907,
+      "lon": 5.1214
+    },
+    "place": {
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "display": "Utrecht, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/dom-tower-against-clear-blue-sky-in-utrecht-32348115/",
+      "photographer": "Martijn Stoof",
+      "photographerUrl": "https://www.pexels.com/@martijn-stoof",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-utrecht-canal-evening-33375300.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0907,
+      "lon": 5.1214
+    },
+    "place": {
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "display": "Utrecht, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-evening-canal-view-in-utrecht-netherlands-33375300/",
+      "photographer": "Barkalı",
+      "photographerUrl": "https://www.pexels.com/@barkali-340353352",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-05-netherlands/pexels-utrecht-cyclists-dom-tower-33021970.jpg",
+    "takenAt": "2019-05-04T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.0907,
+      "lon": 5.1214
+    },
+    "place": {
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "display": "Utrecht, Netherlands"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/cyclists-near-dom-tower-utrecht-historic-street-33021970/",
+      "photographer": "Ernesto",
+      "photographerUrl": "https://www.pexels.com/@ernesto-2335487",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-france-sedan/pexels-charleville-french-town-32604665.jpg",
+    "takenAt": "2019-07-30T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.7016,
+      "lon": 4.9425
+    },
+    "place": {
+      "city": "Sedan",
+      "country": "France",
+      "display": "Sedan, France"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-french-town-with-historic-architecture-32604665/",
+      "photographer": "Filiamariss",
+      "photographerUrl": "https://www.pexels.com/@filiamariss",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-france-sedan/pexels-charleville-gothic-street-32604664.jpg",
+    "takenAt": "2019-07-30T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.7016,
+      "lon": 4.9425
+    },
+    "place": {
+      "city": "Sedan",
+      "country": "France",
+      "display": "Sedan, France"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-european-historic-street-scene-with-gothic-architecture-32604664/",
+      "photographer": "Filiamariss",
+      "photographerUrl": "https://www.pexels.com/@filiamariss",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-france-sedan/pexels-sedan-medieval-castle-proxy-14249425.jpg",
+    "takenAt": "2019-07-30T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.7016,
+      "lon": 4.9425
+    },
+    "place": {
+      "city": "Sedan",
+      "country": "France",
+      "display": "Sedan, France"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/medieval-castle-in-france-14249425/",
+      "photographer": "Michael Waddle",
+      "photographerUrl": "https://www.pexels.com/@michael-waddle-1019947",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-france-sedan/pexels-ardennes-river-valley-5800890.jpg",
+    "takenAt": "2019-07-30T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.7016,
+      "lon": 4.9425
+    },
+    "place": {
+      "city": "Sedan",
+      "country": "France",
+      "display": "Sedan, France"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/mountain-valley-with-green-forest-and-river-5800890/",
+      "photographer": "Nico Becker",
+      "photographerUrl": "https://www.pexels.com/@nicobecker",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-07-france-sedan/pexels-epernay-grand-est-architecture-27130648.jpg",
+    "takenAt": "2019-07-30T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.7016,
+      "lon": 4.9425
+    },
+    "place": {
+      "city": "Sedan",
+      "country": "France",
+      "display": "Sedan, France"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/champagne-de-castellane-in-epernay-in-france-27130648/",
+      "photographer": "Ilipily",
+      "photographerUrl": "https://www.pexels.com/@ilipily",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
   }
 ]
