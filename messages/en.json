@@ -242,7 +242,9 @@
     "mapDestinations": "Destinations",
     "mapIntensity": "Intensity",
     "mapLegendTitle": "Trips per country",
-    "mapLegendUnit": "trips"
+    "mapLegendUnit": "trips",
+    "recentTripsKicker": "Recent trips",
+    "recentTripsHeading": "Latest places, freshly catalogued."
   },
   "culinary": {
     "kicker": "Culinary",
