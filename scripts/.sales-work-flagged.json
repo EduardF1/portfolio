@@ -1,0 +1,2642 @@
+[
+  {
+    "src": "trips/2024-09-albania-saranda/IMG20240924185804.jpg",
+    "topLabel": "vehicles in parking lots or driving",
+    "topScore": 0.9997,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "vehicles in parking lots or driving",
+        0.9997
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0003
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ],
+      [
+        "a landmark or monument photograph",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2020-02-denmark/IMG_20200209_165202.jpg",
+    "topLabel": "a laptop or computer or electronic device",
+    "topScore": 0.9989,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a laptop or computer or electronic device",
+        0.9989
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0006
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0002
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0001
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0001
+      ],
+      [
+        "a work environment or office or warehouse",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0
+      ],
+      [
+        "a landmark or monument photograph",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/IMG_20230706_184740.jpg",
+    "topLabel": "vehicles in parking lots or driving",
+    "topScore": 0.9984,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "vehicles in parking lots or driving",
+        0.9984
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0015
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0
+      ],
+      [
+        "a landmark or monument photograph",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/IMG20240924185719.jpg",
+    "topLabel": "vehicles in parking lots or driving",
+    "topScore": 0.9982,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "vehicles in parking lots or driving",
+        0.9982
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0018
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ],
+      [
+        "a landmark or monument photograph",
+        0
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2020-02-denmark/IMG_20200224_185200.jpg",
+    "topLabel": "a laptop or computer or electronic device",
+    "topScore": 0.9976,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a laptop or computer or electronic device",
+        0.9976
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0017
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0006
+      ],
+      [
+        "a work environment or office or warehouse",
+        0
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0
+      ],
+      [
+        "a landmark or monument photograph",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-12-romania/IMG_20221224_015628.jpg",
+    "topLabel": "vehicles in parking lots or driving",
+    "topScore": 0.9969,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "vehicles in parking lots or driving",
+        0.9969
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0021
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0007
+      ],
+      [
+        "a city street scene with historic buildings",
+        0.0001
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0001
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0
+      ],
+      [
+        "a work environment or office or warehouse",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260326162437.jpg",
+    "topLabel": "vehicles in parking lots or driving",
+    "topScore": 0.9951,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "vehicles in parking lots or driving",
+        0.9951
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.0034
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0007
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0004
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0001
+      ],
+      [
+        "a city street scene with historic buildings",
+        0.0001
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2020-02-denmark/IMG_20200217_161219.jpg",
+    "topLabel": "a computer mouse or keyboard or wires",
+    "topScore": 0.9925,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a computer mouse or keyboard or wires",
+        0.9925
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0073
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0001
+      ],
+      [
+        "a work environment or office or warehouse",
+        0
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "a landmark or monument photograph",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2020-02-denmark/IMG_20200228_215647.jpg",
+    "topLabel": "items being sold online or marketplace listings",
+    "topScore": 0.9903,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "items being sold online or marketplace listings",
+        0.9903
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0051
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0028
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.001
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0004
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0002
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0001
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.0001
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421173744.jpg",
+    "topLabel": "a computer mouse or keyboard or wires",
+    "topScore": 0.9898,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a computer mouse or keyboard or wires",
+        0.9898
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0041
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.003
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0019
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0004
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0004
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0002
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0001
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2020-02-denmark/IMG_20200209_170004.jpg",
+    "topLabel": "a computer mouse or keyboard or wires",
+    "topScore": 0.9873,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a computer mouse or keyboard or wires",
+        0.9873
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0112
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0009
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0005
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0001
+      ],
+      [
+        "a work environment or office or warehouse",
+        0
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "a landmark or monument photograph",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2020-02-denmark/IMG_20200217_093614.jpg",
+    "topLabel": "a computer mouse or keyboard or wires",
+    "topScore": 0.9846,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a computer mouse or keyboard or wires",
+        0.9846
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0143
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0005
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0005
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0001
+      ],
+      [
+        "a work environment or office or warehouse",
+        0
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0
+      ],
+      [
+        "a landmark or monument photograph",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_114756.jpg",
+    "topLabel": "vehicles in parking lots or driving",
+    "topScore": 0.9702,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "vehicles in parking lots or driving",
+        0.9702
+      ],
+      [
+        "a landmark or monument photograph",
+        0.011
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0107
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0046
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0029
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0003
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.0002
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0001
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260314013322.jpg",
+    "topLabel": "indoor mundane scene like a hotel room or hallway",
+    "topScore": 0.964,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.964
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0172
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0064
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0038
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0032
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0028
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0015
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0008
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0002
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0001
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0001
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2020-02-denmark/IMG_20200219_125539.jpg",
+    "topLabel": "a work environment or office or warehouse",
+    "topScore": 0.9636,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a work environment or office or warehouse",
+        0.9636
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0298
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0057
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0004
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0002
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0002
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0001
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ],
+      [
+        "a landmark or monument photograph",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_155218.jpg",
+    "topLabel": "a work environment or office or warehouse",
+    "topScore": 0.9585,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a work environment or office or warehouse",
+        0.9585
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0359
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0048
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0007
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "a landmark or monument photograph",
+        0
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250423160602.jpg",
+    "topLabel": "consumer goods packaging or product photography",
+    "topScore": 0.9405,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "consumer goods packaging or product photography",
+        0.9405
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0313
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0209
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0043
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0015
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0004
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0004
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0003
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0002
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0001
+      ],
+      [
+        "a city street scene with historic buildings",
+        0.0001
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/IMG_20230706_172303.jpg",
+    "topLabel": "consumer goods packaging or product photography",
+    "topScore": 0.923,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "consumer goods packaging or product photography",
+        0.923
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0266
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0258
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.0075
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0074
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0043
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0022
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0016
+      ],
+      [
+        "a city street scene with historic buildings",
+        0.0011
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0003
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0001
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0231.jpg",
+    "topLabel": "consumer goods packaging or product photography",
+    "topScore": 0.9089,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "consumer goods packaging or product photography",
+        0.9089
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0541
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0208
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0083
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0055
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0012
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.001
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0002
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0001
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260315003840.jpg",
+    "topLabel": "a laptop or computer or electronic device",
+    "topScore": 0.881,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a laptop or computer or electronic device",
+        0.881
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.026
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0219
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0181
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0162
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0112
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0098
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0085
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0038
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0036
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0001
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0196.jpg",
+    "topLabel": "items being sold online or marketplace listings",
+    "topScore": 0.7729,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "items being sold online or marketplace listings",
+        0.7729
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.147
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0604
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.007
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.005
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0027
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0015
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0015
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0015
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0003
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0001
+      ],
+      [
+        "a city street scene with historic buildings",
+        0.0001
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/IMG20250916233230.jpg",
+    "topLabel": "indoor mundane scene like a hotel room or hallway",
+    "topScore": 0.7675,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.7675
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0706
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.0354
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0277
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0234
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0217
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0143
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0136
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0108
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0096
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0038
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0016
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250416212124.jpg",
+    "topLabel": "items being sold online or marketplace listings",
+    "topScore": 0.7256,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "items being sold online or marketplace listings",
+        0.7256
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.1321
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0623
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0255
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0254
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0136
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0085
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.002
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0018
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0016
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0013
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.0003
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-08-denmark/IMG_20220827_123421.jpg",
+    "topLabel": "a work environment or office or warehouse",
+    "topScore": 0.7216,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a work environment or office or warehouse",
+        0.7216
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.1573
+      ],
+      [
+        "a city street scene with historic buildings",
+        0.0972
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0137
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0064
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0018
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.001
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0004
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.0004
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0002
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_105022.jpg",
+    "topLabel": "a work environment or office or warehouse",
+    "topScore": 0.7057,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a work environment or office or warehouse",
+        0.7057
+      ],
+      [
+        "a landmark or monument photograph",
+        0.1433
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0548
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0359
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0201
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0185
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.018
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0012
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0011
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0007
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.0006
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0002
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250417162312.jpg",
+    "topLabel": "a work environment or office or warehouse",
+    "topScore": 0.6994,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a work environment or office or warehouse",
+        0.6994
+      ],
+      [
+        "a landmark or monument photograph",
+        0.2237
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0285
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0277
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0131
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0046
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0022
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0002
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0002
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0001
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0001
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260314222230.jpg",
+    "topLabel": "indoor mundane scene like a hotel room or hallway",
+    "topScore": 0.6883,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.6883
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.2853
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0185
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0024
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0017
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0013
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.001
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0008
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0004
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0002
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0001
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0118.jpg",
+    "topLabel": "items being sold online or marketplace listings",
+    "topScore": 0.6623,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "items being sold online or marketplace listings",
+        0.6623
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.1051
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.1039
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.102
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0139
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0058
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0046
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0015
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0005
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0003
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0001
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250419132929.jpg",
+    "topLabel": "consumer goods packaging or product photography",
+    "topScore": 0.5927,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "consumer goods packaging or product photography",
+        0.5927
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.3302
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0411
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0152
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0146
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0023
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0023
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0014
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0001
+      ],
+      [
+        "a landmark or monument photograph",
+        0
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260328120403.jpg",
+    "topLabel": "consumer goods packaging or product photography",
+    "topScore": 0.5705,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "consumer goods packaging or product photography",
+        0.5705
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.2816
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.1056
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.022
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0114
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0066
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0009
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0005
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0004
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0004
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0001
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221021_121447359_HDR.jpg",
+    "topLabel": "a computer mouse or keyboard or wires",
+    "topScore": 0.5353,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a computer mouse or keyboard or wires",
+        0.5353
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.2046
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.1743
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0617
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0096
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0062
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0036
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0021
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0015
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.001
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.0001
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0190.jpg",
+    "topLabel": "a computer mouse or keyboard or wires",
+    "topScore": 0.5264,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a computer mouse or keyboard or wires",
+        0.5264
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.1727
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.1049
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0533
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0508
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0286
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.021
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.018
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0143
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.004
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0031
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0026
+      ],
+      [
+        "a city street scene with historic buildings",
+        0.0002
+      ]
+    ]
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260315003841.jpg",
+    "topLabel": "a laptop or computer or electronic device",
+    "topScore": 0.5251,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a laptop or computer or electronic device",
+        0.5251
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.1198
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.1098
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.061
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0548
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0548
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0335
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0172
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0163
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0076
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0001
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/20221021_110855.jpg",
+    "topLabel": "a work environment or office or warehouse",
+    "topScore": 0.5053,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a work environment or office or warehouse",
+        0.5053
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.1919
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0873
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0636
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0457
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0444
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0262
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0203
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0076
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0069
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0009
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-12-romania/IMG_20221225_211840.jpg",
+    "topLabel": "vehicles in parking lots or driving",
+    "topScore": 0.4823,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "vehicles in parking lots or driving",
+        0.4823
+      ],
+      [
+        "a landmark or monument photograph",
+        0.2915
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.1202
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0374
+      ],
+      [
+        "a city street scene with historic buildings",
+        0.0155
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0144
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0121
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0091
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.007
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0049
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0036
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.0011
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0008
+      ]
+    ]
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260328220133.jpg",
+    "topLabel": "consumer goods packaging or product photography",
+    "topScore": 0.4687,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "consumer goods packaging or product photography",
+        0.4687
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.4014
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.1012
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0116
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0055
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0048
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.0029
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0021
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0011
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0004
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0002
+      ],
+      [
+        "a city street scene with historic buildings",
+        0.0001
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0001
+      ]
+    ]
+  },
+  {
+    "src": "trips/2025-02-finland/IMG20250221150611.jpg",
+    "topLabel": "consumer goods packaging or product photography",
+    "topScore": 0.4294,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "consumer goods packaging or product photography",
+        0.4294
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.3108
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.2005
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0298
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.025
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0018
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0013
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0005
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0004
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0003
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0001
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/IMG20250915162242.jpg",
+    "topLabel": "a work environment or office or warehouse",
+    "topScore": 0.4244,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a work environment or office or warehouse",
+        0.4244
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.3071
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.1403
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0951
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0251
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0048
+      ],
+      [
+        "a city street scene with historic buildings",
+        0.002
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.001
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0001
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0001
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_0143.jpg",
+    "topLabel": "a work environment or office or warehouse",
+    "topScore": 0.4225,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a work environment or office or warehouse",
+        0.4225
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.3032
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.1749
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0398
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0364
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0112
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0073
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0028
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0009
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0008
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0002
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250414204538.jpg",
+    "topLabel": "a computer mouse or keyboard or wires",
+    "topScore": 0.3675,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a computer mouse or keyboard or wires",
+        0.3675
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.2852
+      ],
+      [
+        "a landmark or monument photograph",
+        0.1138
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.1005
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0501
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.035
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0308
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0078
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0061
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0018
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0014
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2023-07-turkey/IMG_20230715_165617.jpg",
+    "topLabel": "vehicles in parking lots or driving",
+    "topScore": 0.3672,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "vehicles in parking lots or driving",
+        0.3672
+      ],
+      [
+        "a landmark or monument photograph",
+        0.329
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.2803
+      ],
+      [
+        "a city street scene with historic buildings",
+        0.0215
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0011
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0003
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0003
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0001
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0001
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0
+      ],
+      [
+        "a scenic landscape or coastline",
+        0
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0
+      ]
+    ]
+  },
+  {
+    "src": "trips/2022-10-germany/IMG_20221022_124225360_HDR.jpg",
+    "topLabel": "items being sold online or marketplace listings",
+    "topScore": 0.3324,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "items being sold online or marketplace listings",
+        0.3324
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.2984
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.1542
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.1305
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0642
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.0058
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.0044
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0034
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0024
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.002
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.001
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0009
+      ],
+      [
+        "a city street scene with historic buildings",
+        0.0003
+      ]
+    ]
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/IMG20260327215145.jpg",
+    "topLabel": "a work environment or office or warehouse",
+    "topScore": 0.2928,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "a work environment or office or warehouse",
+        0.2928
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.1529
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.1377
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.1248
+      ],
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.1184
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.1031
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0365
+      ],
+      [
+        "a city street scene with historic buildings",
+        0.0121
+      ],
+      [
+        "a landmark or monument photograph",
+        0.008
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0058
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.0043
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0021
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.0016
+      ]
+    ]
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250419145559.jpg",
+    "topLabel": "indoor mundane scene like a hotel room or hallway",
+    "topScore": 0.2778,
+    "decision": "review-remove",
+    "scores": [
+      [
+        "indoor mundane scene like a hotel room or hallway",
+        0.2778
+      ],
+      [
+        "a scenic landscape or coastline",
+        0.2606
+      ],
+      [
+        "a computer mouse or keyboard or wires",
+        0.1713
+      ],
+      [
+        "a landmark or monument photograph",
+        0.0947
+      ],
+      [
+        "items being sold online or marketplace listings",
+        0.0509
+      ],
+      [
+        "a work environment or office or warehouse",
+        0.0459
+      ],
+      [
+        "an artistic interior of a museum or cultural site",
+        0.0411
+      ],
+      [
+        "a laptop or computer or electronic device",
+        0.0288
+      ],
+      [
+        "an architectural photograph of a historic building or castle or church",
+        0.0191
+      ],
+      [
+        "vehicles in parking lots or driving",
+        0.0054
+      ],
+      [
+        "a food photograph or dish on a plate",
+        0.0022
+      ],
+      [
+        "consumer goods packaging or product photography",
+        0.0022
+      ],
+      [
+        "a city street scene with historic buildings",
+        0
+      ]
+    ]
+  }
+]
