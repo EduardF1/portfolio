@@ -1,0 +1,44 @@
+{
+  "dryRun": false,
+  "startedAt": "2026-04-29T00:01:05.702Z",
+  "finishedAt": "2026-04-29T00:01:13.446Z",
+  "durationMs": 7744,
+  "recordsScanned": 75719,
+  "candidatesIdentified": 3282,
+  "moved": 3039,
+  "collisionsSuffixed": 0,
+  "movedByCategory": {
+    "pattern:doxygen-rtos": 8,
+    "pattern:hash-png": 6,
+    "pattern:fb-photo-id": 2002,
+    "pattern:hex-hash": 12,
+    "pattern:download": 2,
+    "pattern:image-tg": 10,
+    "pattern:images-N": 20,
+    "pattern:logo": 17,
+    "pattern:msgr-photo": 2,
+    "pattern:received": 206,
+    "pattern:snapchat": 4,
+    "folder:Browser": 731,
+    "pattern:icon": 1,
+    "folder:X": 18
+  },
+  "skip": {
+    "sensitive-blocklist": 0,
+    "carve-out": 0,
+    "out-of-scope-root": 0,
+    "source-missing": 243,
+    "move-failed": 0,
+    "max-moves-reached": 0
+  },
+  "skipByCategory": {
+    "pattern:doxygen-rtos": 4,
+    "pattern:fb-photo-id": 64,
+    "pattern:hash-png": 2,
+    "pattern:icon": 1,
+    "pattern:logo": 5,
+    "pattern:received": 32,
+    "folder:Browser": 117,
+    "folder:X": 18
+  }
+}
