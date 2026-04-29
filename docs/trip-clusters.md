@@ -97,7 +97,7 @@ These are not in the photo archive but are plausible omissions worth Eduard chec
 | **France** | Common European destination; absent. |
 | **Norway** | Eduard lists "Norwegian" as a limited-working language — usually correlates with at least one trip. |
 | **Hungary** | Adjacent to the 2025-04 Slovakia cluster; might have been a short side-trip without photos. |
-| **United Kingdom** | Common career-adjacent destination; absent. |
+| **United Kingdom** | ~~Absent~~ — added 2026-04-28 as `2023-07-uk-tour` (London + Edinburgh + York + Oxford + Bath, all Pexels stock; only own-camera material was 2 airport coffee shots from Edinburgh, omitted). |
 | **Bulgaria** | Adjacent to Romania; common road-trip extension. |
 | **Bosnia and Herzegovina, Montenegro, North Macedonia** | Adjacent to the 2026-03 Adriatic + Balkans loop; might have been quietly traversed without photos. |
 | **Norway / Iceland / Faroe Islands** | Nordic-region completeness. |
