@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/section-heading";
 import { TravelEuropeMap } from "@/components/travel-europe-map";
 import {
+  getCitiesByCountry,
   getCityDestinations,
   getCountryTripCounts,
   getTravelDestinations,
@@ -24,27 +25,29 @@ export default async function TravelPage({
   setRequestLocale(locale);
 
   const sp = (await searchParams) ?? {};
-  const initialView: "destinations" | "intensity" | "cities" =
-    sp.map === "intensity"
-      ? "intensity"
-      : sp.map === "cities"
-        ? "cities"
-        : "destinations";
+  // The default view is the combined chloropleth + city-dots `map`.
+  // `?map=destinations` opts back to the simpler country-pin view.
+  // Legacy values (`intensity`, `cities`) are folded into `map` so
+  // older shared links still land on the new combined view.
+  const initialView: "destinations" | "map" =
+    sp.map === "destinations" ? "destinations" : "map";
 
   const t = await getTranslations("travel");
   const tt = await getTranslations("tooltips");
-  const [destinations, photoTrips, tripCounts, cities] = await Promise.all([
-    getTravelDestinations(),
-    getTrips(),
-    getCountryTripCounts(),
-    getCityDestinations(),
-  ]);
+  const [destinations, photoTrips, tripCounts, cities, citiesByCountry] =
+    await Promise.all([
+      getTravelDestinations(),
+      getTrips(),
+      getCountryTripCounts(),
+      getCityDestinations(),
+      getCitiesByCountry(),
+    ]);
 
   const recentTrips = photoTrips.slice(0, 6);
 
-  // Map each country to the chronologically earliest trip slug, so the
-  // country card and map pin can both deep-link straight into a real
-  // photo set rather than just a fragment on this page.
+  // Map each country to the chronologically earliest trip slug, used
+  // by the map pin so visitors land on the oldest photoset for that
+  // country (kept for backwards compat with the existing map widget).
   const earliestByCountry = new Map<string, string>();
   for (const trip of photoTrips) {
     const key = trip.country.toLowerCase();
@@ -60,6 +63,22 @@ export default async function TravelPage({
   function firstTripSlug(country: string): string | undefined {
     return earliestByCountry.get(country.toLowerCase());
   }
+
+  // For each country, the most-recent trip slug — used by the country
+  // card click target so visitors land on the freshest photoset.
+  const primaryTripByCountry = new Map<string, string | undefined>();
+  for (const cc of citiesByCountry) {
+    primaryTripByCountry.set(cc.country.toLowerCase(), cc.primaryTripSlug);
+  }
+  function primaryTripSlug(country: string): string | undefined {
+    return primaryTripByCountry.get(country.toLowerCase());
+  }
+
+  // Lookup of cities (in country-card order) per country slug, used
+  // by the country card render below.
+  const citiesByCountrySlug = new Map<string, typeof citiesByCountry[number]>(
+    citiesByCountry.map((cc) => [cc.slug, cc]),
+  );
 
   return (
     <>
@@ -88,8 +107,7 @@ export default async function TravelPage({
             labels={{
               toggleAriaLabel: t("mapToggleAriaLabel"),
               destinationsLabel: t("mapDestinations"),
-              intensityLabel: t("mapIntensity"),
-              citiesLabel: t("mapCities"),
+              mapLabel: t("mapCombined"),
               legendTitle: t("mapLegendTitle"),
               legendUnit: t("mapLegendUnit"),
               // Pre-resolved {one, other} pair for the city tooltip
@@ -123,15 +141,25 @@ export default async function TravelPage({
             className="grid gap-px bg-border/60 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 rounded-lg overflow-hidden"
           >
             {destinations.map((d) => {
-              const slug = firstTripSlug(d.country);
+              // Country card click target: most-recent trip first, fall
+              // back to chronologically-earliest trip if for some reason
+              // the country has no clusterable trips left.
+              const slug = primaryTripSlug(d.country) ?? firstTripSlug(d.country);
+              // City list in display order (photoCount desc, alpha tie-break);
+              // fall back to alphabetical names from getTravelDestinations
+              // for countries with no city data in the catalogue.
+              const cc = citiesByCountrySlug.get(d.slug);
+              const orderedCityNames = cc
+                ? cc.cities.map((c) => c.name)
+                : d.cities;
               const inner = (
                 <>
                   <p className="font-serif text-2xl text-foreground group-hover:text-accent transition-colors">
                     {d.country}
                   </p>
                   <p className="mt-3 text-sm text-foreground-muted">
-                    {d.cities.slice(0, 6).join(", ")}
-                    {d.cities.length > 6 && ", …"}
+                    {orderedCityNames.slice(0, 6).join(", ")}
+                    {orderedCityNames.length > 6 && ", …"}
                   </p>
                 </>
               );

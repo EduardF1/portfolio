@@ -240,8 +240,7 @@
     "culinaryCrossLink": "See the culinary side of these trips",
     "mapToggleAriaLabel": "Switch map view",
     "mapDestinations": "Destinations",
-    "mapIntensity": "Intensity",
-    "mapCities": "Cities",
+    "mapCombined": "Map",
     "mapLegendTitle": "Trips per country",
     "mapLegendUnit": "trips",
     "recentTripsKicker": "Recent trips",
@@ -263,7 +262,9 @@
     "countLabel": "Photo {current} of {total}",
     "prev": "Previous photo",
     "next": "Next photo",
-    "close": "Close"
+    "close": "Close",
+    "otherCity": "Elsewhere",
+    "sparseCity": "more on the way"
   },
   "contact": {
     "kicker": "Contact",
