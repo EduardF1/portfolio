@@ -32,13 +32,6 @@ vi.mock("next-intl/server", () => ({
 const submitMock = vi.fn();
 vi.mock("@/app/actions/contact", () => ({
   submitContact: (...a: unknown[]) => submitMock(...a),
-  ATTACHMENT_MIME_TYPES: [
-    "application/pdf",
-    "image/jpeg",
-    "image/png",
-    "application/msword",
-    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-  ] as const,
 }));
 
 afterEach(() => {
