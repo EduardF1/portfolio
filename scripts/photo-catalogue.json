@@ -10702,9 +10702,9 @@
       "lon": 24.30673
     },
     "place": {
-      "city": "Calimanesti",
+      "city": "Călimănești",
       "country": "Romania",
-      "display": "Calimanesti, Romania"
+      "display": "Călimănești, Romania"
     }
   },
   {
@@ -10717,9 +10717,9 @@
       "lon": 24.30648
     },
     "place": {
-      "city": "Calimanesti",
+      "city": "Călimănești",
       "country": "Romania",
-      "display": "Calimanesti, Romania"
+      "display": "Călimănești, Romania"
     }
   },
   {
@@ -12332,6 +12332,56 @@
       "url": "https://www.pexels.com/photo/imperial-war-museum-front-view-with-cannons-34855089/",
       "photographer": "Patricio",
       "photographerUrl": "https://www.pexels.com/@patricio/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-bratislava-ufo-bridge-cityscape-sunset-31715853.jpg",
+    "takenAt": "2025-04-19T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.1486,
+      "lon": 17.1077
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/ufo-bridge-and-cityscape-at-sunset-in-bratislava-31715853/",
+      "photographer": "Marek Bajbar",
+      "photographerUrl": "https://www.pexels.com/@marek-bajbar-2151401168/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-bratislava-slovak-radio-building-inverted-pyramid-9404482.jpg",
+    "takenAt": "2025-04-19T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.1486,
+      "lon": 17.1077
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/low-angle-view-of-the-iconic-slovak-radio-building-in-bratislava-slovakia-under-a-clear-sky-9404482/",
+      "photographer": "Leopold Biget",
+      "photographerUrl": "https://www.pexels.com/@leopold-biget-19679119/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
