@@ -1,5 +1,31 @@
 # Thin-trip audit — 2026-04-29
 
+## 2026-04-28 — wider-window backfill (PR feat/thin-trip-wider-scan)
+
+After PR #73's narrow ±2-day / ±0.5° window left `2020-02-denmark` at 3 own-camera
+candidates plus 2 stocks, this pass widened the search to ±30 days / ±3° GPS
+(plus country bbox fallback for trips with sparse GPS) and re-scanned all of
+`G:\Poze\<year>\` recursively (47 cluster folders for 2018 alone). Result:
+22 fresh GPS-bearing candidates inside the wider Denmark window, 10 passing
+the YOLO + MediaPipe + CLIP gate, **7 imported** via temporal even-spread.
+
+| Trip | Own-camera before | Own-camera after | Pexels stocks (added by sibling PR #78) | Total after |
+|---|---:|---:|---:|---:|
+| `2020-02-denmark` | 1 | 8 | 7 | 15 |
+
+After the rebase against `origin/main`, the Pexels-apply sibling agent (PR #78)
+had already added 5 more `pexels-horsens-…` stocks to the trip, so the final
+`2020-02-denmark` total is 15 (8 own-camera + 7 stocks). Every trip is now
+comfortably ≥5.
+
+Other trips were already at ≥5 and per the PR brief constraint `If a trip is
+already at ≥5, leave it alone`, were not regrown — even though the wider window
+revealed many more candidates (e.g. 197 Denmark Oct candidates, 230 Italy Apr
+candidates) that future targeted regrowth could draw from.
+
+---
+
+
 After the Round-58 people-removal sweep + non-artistic CLIP filter, several
 trip galleries fell below the 5-photo target. This audit lists every trip slug
 under `public/photos/trips/`, its current `scripts/photo-catalogue.json` entry

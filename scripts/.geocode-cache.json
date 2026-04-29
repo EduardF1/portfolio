@@ -1188,5 +1188,15 @@
     "city": "Bucharest",
     "country": "Romania",
     "display": "Bucharest, Romania"
+  },
+  "55.68,9.58": {
+    "city": "Vejle",
+    "country": "Denmark",
+    "display": "Vejle, Denmark"
+  },
+  "55.88,9.84": {
+    "city": "Horsens",
+    "country": "Denmark",
+    "display": "Horsens, Denmark"
   }
 }
