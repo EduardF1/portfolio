@@ -1,8 +1,8 @@
 {
   "55.57,12.84": {
-    "city": "Malmö kommun",
+    "city": "Malmö",
     "country": "Sweden",
-    "display": "Malmö kommun, Sweden"
+    "display": "Malmö, Sweden"
   },
   "36.81,31.45": {
     "city": "Manavgat",
@@ -70,14 +70,14 @@
     "display": "Horsens, Denmark"
   },
   "55.74,9.13": {
-    "city": "Billund Municipality",
+    "city": "Billund",
     "country": "Denmark",
-    "display": "Billund Municipality, Denmark"
+    "display": "Billund, Denmark"
   },
   "55.73,9.13": {
-    "city": "Billund Municipality",
+    "city": "Billund",
     "country": "Denmark",
-    "display": "Billund Municipality, Denmark"
+    "display": "Billund, Denmark"
   },
   "56.46,9.16": {
     "city": "Viborg Municipality",
@@ -300,9 +300,9 @@
     "display": "Gjirokastra, Albania"
   },
   "45.64,25.59": {
-    "city": "Brasov",
+    "city": "Brașov",
     "country": "Romania",
-    "display": "Brasov, Romania"
+    "display": "Brașov, Romania"
   },
   "55.87,9.84": {
     "city": "Horsens",
@@ -485,29 +485,29 @@
     "display": "Neumünster, Germany"
   },
   "44.61,22.62": {
-    "city": "Kladovo Municipality",
+    "city": "Kladovo",
     "country": "Serbia",
-    "display": "Kladovo Municipality, Serbia"
+    "display": "Kladovo, Serbia"
   },
   "44.81,20.45": {
-    "city": "Savski Venac Urban Municipality",
+    "city": "Belgrade",
     "country": "Serbia",
-    "display": "Savski Venac Urban Municipality, Serbia"
+    "display": "Belgrade, Serbia"
   },
   "44.82,20.45": {
-    "city": "Stari Grad Urban Municipality",
+    "city": "Belgrade",
     "country": "Serbia",
-    "display": "Stari Grad Urban Municipality, Serbia"
+    "display": "Belgrade, Serbia"
   },
   "44.81,20.46": {
-    "city": "Savski Venac Urban Municipality",
+    "city": "Belgrade",
     "country": "Serbia",
-    "display": "Savski Venac Urban Municipality, Serbia"
+    "display": "Belgrade, Serbia"
   },
   "44.81,20.47": {
-    "city": "Palilula Urban Municipality",
+    "city": "Belgrade",
     "country": "Serbia",
-    "display": "Palilula Urban Municipality, Serbia"
+    "display": "Belgrade, Serbia"
   },
   "46.05,14.51": {
     "city": "Ljubljana",
@@ -515,14 +515,14 @@
     "display": "Ljubljana, Slovenia"
   },
   "44.88,13.85": {
-    "city": "Grad Pula",
+    "city": "Pula",
     "country": "Croatia",
-    "display": "Grad Pula, Croatia"
+    "display": "Pula, Croatia"
   },
   "44.87,13.85": {
-    "city": "Grad Pula",
+    "city": "Pula",
     "country": "Croatia",
-    "display": "Grad Pula, Croatia"
+    "display": "Pula, Croatia"
   },
   "44.84,13.83": {
     "city": "Istria County",
@@ -790,14 +790,14 @@
     "display": "Drobeta-Turnu Severin, Romania"
   },
   "44.67,22.53": {
-    "city": "Kladovo Municipality",
+    "city": "Kladovo",
     "country": "Serbia",
-    "display": "Kladovo Municipality, Serbia"
+    "display": "Kladovo, Serbia"
   },
   "44.61,22.61": {
-    "city": "Kladovo Municipality",
+    "city": "Kladovo",
     "country": "Serbia",
-    "display": "Kladovo Municipality, Serbia"
+    "display": "Kladovo, Serbia"
   },
   "46.05,14.50": {
     "city": "Ljubljana",
@@ -905,14 +905,14 @@
     "display": "Emek HaYarden Regional Council, Israel"
   },
   "33.09,35.11": {
-    "city": "Mate Asher Regional Council",
+    "city": "Rosh HaNikra",
     "country": "Israel",
-    "display": "Mate Asher Regional Council, Israel"
+    "display": "Rosh HaNikra, Israel"
   },
   "33.09,35.10": {
-    "city": "Mate Asher Regional Council",
+    "city": "Rosh HaNikra",
     "country": "Israel",
-    "display": "Mate Asher Regional Council, Israel"
+    "display": "Rosh HaNikra, Israel"
   },
   "32.71,35.30": {
     "city": "Nazareth",
@@ -940,19 +940,19 @@
     "display": "Keramoti, Greece"
   },
   "40.67,24.76": {
-    "city": "Thassos Municipality",
+    "city": "Thassos",
     "country": "Greece",
-    "display": "Thassos Municipality, Greece"
+    "display": "Thassos, Greece"
   },
   "40.68,24.76": {
-    "city": "Thassos Municipality",
+    "city": "Thassos",
     "country": "Greece",
-    "display": "Thassos Municipality, Greece"
+    "display": "Thassos, Greece"
   },
   "40.94,24.96": {
-    "city": "Abdera Municipality",
+    "city": "Abdera",
     "country": "Greece",
-    "display": "Abdera Municipality, Greece"
+    "display": "Abdera, Greece"
   },
   "53.23,10.08": {
     "city": "Garlstorf",
@@ -1070,9 +1070,9 @@
     "display": "Kavala, Greece"
   },
   "37.57,22.80": {
-    "city": "Municipal Unit of Nafplio",
+    "city": "Nafplio",
     "country": "Greece",
-    "display": "Municipal Unit of Nafplio, Greece"
+    "display": "Nafplio, Greece"
   },
   "51.88,-0.38": {
     "city": "Borough of Luton",
@@ -1160,9 +1160,9 @@
     "display": "Görlitz, Germany"
   },
   "45.65,25.59": {
-    "city": "Brasov",
+    "city": "Brașov",
     "country": "Romania",
-    "display": "Brasov, Romania"
+    "display": "Brașov, Romania"
   },
   "40.71,19.94": {
     "city": "Berat",
