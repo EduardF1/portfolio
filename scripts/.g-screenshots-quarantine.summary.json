@@ -1,0 +1,26 @@
+{
+  "dryRun": false,
+  "startedAt": "2026-04-29T06:27:52.273Z",
+  "finishedAt": "2026-04-29T06:28:15.406Z",
+  "durationMs": 23133,
+  "rootEntries": 22335,
+  "rootFiles": 22314,
+  "rootDirsSkipped": 21,
+  "candidatesIdentified": 4685,
+  "moved": 4685,
+  "collisionsSuffixed": 0,
+  "movedByCategory": {
+    "social-instagram": 42,
+    "screenshot": 4631,
+    "social-whatsapp": 11,
+    "social-snapchat": 1
+  },
+  "skip": {
+    "destination-is-self": 0,
+    "source-missing": 0,
+    "move-failed": 0,
+    "max-moves-reached": 0
+  },
+  "skipByCategory": {},
+  "_note": "Historical run summary preserved here. Per-file TSV log at scripts/.g-screenshots-quarantine.log was recreated post-run as a `0 candidates` idempotency check after a worktree state issue lost the original 4,685-line log; the moves themselves persisted on disk (verified via `(Get-ChildItem G:\\Poze\\Screenshots\\).Count == 6001` = 1316 pre-existing + 4685 from this run). Recovery one-liners in the applied doc are still valid against the file content currently in `G:\\Poze\\Screenshots\\` even without the original TSV log, because the destination-basename equals the original-basename (no collisions, no hash-suffixing on this run)."
+}
