@@ -126,3 +126,11 @@ scripts/.inpaint-staging-israel-only/
 scripts/.inpaint-test-output/
 scripts/.inpaint-sample-before/
 scripts/.inpaint-sample-after/
+
+# v1 polish audit transient artefacts
+.audit-v1-polish.json
+scripts/.audit-missing-files.json
+scripts/.unscanned-catalogue.json
+scripts/.visual-cleanup-v2-delta.ndjson
+scripts/.visual-cleanup-v2-delta.err
+scripts/.tmp/
