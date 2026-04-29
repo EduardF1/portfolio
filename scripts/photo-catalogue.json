@@ -314,9 +314,9 @@
       "lon": 22.8043
     },
     "place": {
-      "city": "Municipal Unit of Nafplio",
+      "city": "Nafplio",
       "country": "Greece",
-      "display": "Municipal Unit of Nafplio, Greece"
+      "display": "Nafplio, Greece"
     },
     "gpsSource": "geoclip",
     "source": {
@@ -334,9 +334,9 @@
     "takenAt": null,
     "hasGps": false,
     "place": {
-      "city": "Billund Municipality",
+      "city": "Billund",
       "country": "Denmark",
-      "display": "Billund Municipality, Denmark"
+      "display": "Billund, Denmark"
     },
     "source": {
       "type": "stock",
@@ -376,9 +376,9 @@
       "lon": 25.5923
     },
     "place": {
-      "city": "Brasov",
+      "city": "Brașov",
       "country": "Romania",
-      "display": "Brasov, Romania"
+      "display": "Brașov, Romania"
     },
     "gpsSource": "geoclip",
     "source": {
@@ -419,9 +419,9 @@
       "lon": 25.5923
     },
     "place": {
-      "city": "Brasov",
+      "city": "Brașov",
       "country": "Romania",
-      "display": "Brasov, Romania"
+      "display": "Brașov, Romania"
     },
     "gpsSource": "geoclip",
     "source": {
@@ -1992,9 +1992,9 @@
       "lon": 35.10587310777778
     },
     "place": {
-      "city": "Rosh HaNikra (Mate Asher)",
+      "city": "Rosh HaNikra",
       "country": "Israel",
-      "display": "Rosh HaNikra (Mate Asher), Israel"
+      "display": "Rosh HaNikra, Israel"
     }
   },
   {
@@ -2007,9 +2007,9 @@
       "lon": 35.105
     },
     "place": {
-      "city": "Rosh HaNikra (Mate Asher)",
+      "city": "Rosh HaNikra",
       "country": "Israel",
-      "display": "Rosh HaNikra (Mate Asher), Israel"
+      "display": "Rosh HaNikra, Israel"
     },
     "stock": true,
     "source": {
@@ -2032,9 +2032,9 @@
       "lon": 35.105
     },
     "place": {
-      "city": "Rosh HaNikra (Mate Asher)",
+      "city": "Rosh HaNikra",
       "country": "Israel",
-      "display": "Rosh HaNikra (Mate Asher), Israel"
+      "display": "Rosh HaNikra, Israel"
     },
     "stock": true,
     "source": {
@@ -2182,9 +2182,9 @@
       "lon": 35.10411
     },
     "place": {
-      "city": "Mate Asher Regional Council",
+      "city": "Rosh HaNikra",
       "country": "Israel",
-      "display": "Mate Asher Regional Council, Israel"
+      "display": "Rosh HaNikra, Israel"
     }
   },
   {
@@ -2197,9 +2197,9 @@
       "lon": 35.104
     },
     "place": {
-      "city": "Mate Asher Regional Council",
+      "city": "Rosh HaNikra",
       "country": "Israel",
-      "display": "Mate Asher Regional Council, Israel"
+      "display": "Rosh HaNikra, Israel"
     }
   },
   {
@@ -2212,9 +2212,9 @@
       "lon": 35.10412
     },
     "place": {
-      "city": "Mate Asher Regional Council",
+      "city": "Rosh HaNikra",
       "country": "Israel",
-      "display": "Mate Asher Regional Council, Israel"
+      "display": "Rosh HaNikra, Israel"
     }
   },
   {
@@ -2227,9 +2227,9 @@
       "lon": 35.1049
     },
     "place": {
-      "city": "Mate Asher Regional Council",
+      "city": "Rosh HaNikra",
       "country": "Israel",
-      "display": "Mate Asher Regional Council, Israel"
+      "display": "Rosh HaNikra, Israel"
     }
   },
   {
@@ -2242,9 +2242,9 @@
       "lon": 12.8383
     },
     "place": {
-      "city": "Malmö kommun",
+      "city": "Malmö",
       "country": "Sweden",
-      "display": "Malmö kommun, Sweden"
+      "display": "Malmö, Sweden"
     }
   },
   {
@@ -3731,9 +3731,9 @@
       "lon": 24.76
     },
     "place": {
-      "city": "Thassos Municipality",
+      "city": "Thassos",
       "country": "Greece",
-      "display": "Thassos Municipality, Greece"
+      "display": "Thassos, Greece"
     }
   },
   {
@@ -3746,9 +3746,9 @@
       "lon": 24.76231
     },
     "place": {
-      "city": "Thassos Municipality",
+      "city": "Thassos",
       "country": "Greece",
-      "display": "Thassos Municipality, Greece"
+      "display": "Thassos, Greece"
     }
   },
   {
@@ -3791,9 +3791,9 @@
       "lon": 24.95646
     },
     "place": {
-      "city": "Abdera Municipality",
+      "city": "Abdera",
       "country": "Greece",
-      "display": "Abdera Municipality, Greece"
+      "display": "Abdera, Greece"
     }
   },
   {
@@ -3961,9 +3961,9 @@
       "lon": 9.1158
     },
     "place": {
-      "city": "Billund Municipality",
+      "city": "Billund",
       "country": "Denmark",
-      "display": "Billund Municipality, Denmark"
+      "display": "Billund, Denmark"
     },
     "stock": true,
     "source": {
@@ -4161,9 +4161,9 @@
       "lon": 9.12916
     },
     "place": {
-      "city": "Billund Municipality",
+      "city": "Billund",
       "country": "Denmark",
-      "display": "Billund Municipality, Denmark"
+      "display": "Billund, Denmark"
     }
   },
   {
@@ -8345,9 +8345,9 @@
       "lon": 13.8496
     },
     "place": {
-      "city": "Grad Pula",
+      "city": "Pula",
       "country": "Croatia",
-      "display": "Grad Pula, Croatia"
+      "display": "Pula, Croatia"
     },
     "stock": true,
     "source": {
@@ -8370,9 +8370,9 @@
       "lon": 13.8496
     },
     "place": {
-      "city": "Grad Pula",
+      "city": "Pula",
       "country": "Croatia",
-      "display": "Grad Pula, Croatia"
+      "display": "Pula, Croatia"
     },
     "stock": true,
     "source": {
@@ -8445,9 +8445,9 @@
       "lon": 22.61661
     },
     "place": {
-      "city": "Kladovo Municipality",
+      "city": "Kladovo",
       "country": "Serbia",
-      "display": "Kladovo Municipality, Serbia"
+      "display": "Kladovo, Serbia"
     }
   },
   {
@@ -8460,9 +8460,9 @@
       "lon": 20.44635
     },
     "place": {
-      "city": "Savski Venac Urban Municipality",
+      "city": "Belgrade",
       "country": "Serbia",
-      "display": "Savski Venac Urban Municipality, Serbia"
+      "display": "Belgrade, Serbia"
     }
   },
   {
@@ -8475,9 +8475,9 @@
       "lon": 20.45046
     },
     "place": {
-      "city": "Stari Grad Urban Municipality",
+      "city": "Belgrade",
       "country": "Serbia",
-      "display": "Stari Grad Urban Municipality, Serbia"
+      "display": "Belgrade, Serbia"
     }
   },
   {
@@ -8490,9 +8490,9 @@
       "lon": 20.46505
     },
     "place": {
-      "city": "Palilula Urban Municipality",
+      "city": "Belgrade",
       "country": "Serbia",
-      "display": "Palilula Urban Municipality, Serbia"
+      "display": "Belgrade, Serbia"
     }
   },
   {
@@ -8565,9 +8565,9 @@
       "lon": 13.84741
     },
     "place": {
-      "city": "Grad Pula",
+      "city": "Pula",
       "country": "Croatia",
-      "display": "Grad Pula, Croatia"
+      "display": "Pula, Croatia"
     }
   },
   {
@@ -8580,9 +8580,9 @@
       "lon": 13.84817
     },
     "place": {
-      "city": "Grad Pula",
+      "city": "Pula",
       "country": "Croatia",
-      "display": "Grad Pula, Croatia"
+      "display": "Pula, Croatia"
     }
   },
   {
@@ -8595,9 +8595,9 @@
       "lon": 13.85049
     },
     "place": {
-      "city": "Grad Pula",
+      "city": "Pula",
       "country": "Croatia",
-      "display": "Grad Pula, Croatia"
+      "display": "Pula, Croatia"
     }
   },
   {
