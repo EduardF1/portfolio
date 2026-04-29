@@ -2254,6 +2254,161 @@
     }
   },
   {
+    "src": "trips/2019-01-romania/pexels-sfantu-gheorghe-clouds-fields-12627670.jpg",
+    "takenAt": "2019-01-12T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8636,
+      "lon": 25.7889
+    },
+    "place": {
+      "city": "Sfântu Gheorghe",
+      "country": "Romania",
+      "display": "Sfântu Gheorghe, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/12627670/",
+      "photographer": "20Hertz",
+      "photographerUrl": "https://www.pexels.com/@20hertz/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-01-romania/pexels-sfantu-gheorghe-orthodox-church-35410937.jpg",
+    "takenAt": "2019-01-12T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8636,
+      "lon": 25.7889
+    },
+    "place": {
+      "city": "Sfântu Gheorghe",
+      "country": "Romania",
+      "display": "Sfântu Gheorghe, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/35410937/",
+      "photographer": "Valeria Drozdova",
+      "photographerUrl": "https://www.pexels.com/@valeria-drozdova/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-01-romania/pexels-sfantu-gheorghe-traditional-church-35425591.jpg",
+    "takenAt": "2019-01-12T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8636,
+      "lon": 25.7889
+    },
+    "place": {
+      "city": "Sfântu Gheorghe",
+      "country": "Romania",
+      "display": "Sfântu Gheorghe, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/35425591/",
+      "photographer": "Valeria Drozdova",
+      "photographerUrl": "https://www.pexels.com/@valeria-drozdova/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-01-romania/pexels-covasna-ozsdola-catholic-church-35355257.jpg",
+    "takenAt": "2019-01-12T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8506,
+      "lon": 26.185
+    },
+    "place": {
+      "city": "Covasna",
+      "country": "Romania",
+      "display": "Covasna, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/35355257/",
+      "photographer": "Tibodif",
+      "photographerUrl": "https://www.pexels.com/@tibodif/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-01-romania/pexels-covasna-historic-ruins-aerial-36941452.jpg",
+    "takenAt": "2019-01-12T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8506,
+      "lon": 26.185
+    },
+    "place": {
+      "city": "Covasna",
+      "country": "Romania",
+      "display": "Covasna, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/36941452/",
+      "photographer": "Bahri Gun",
+      "photographerUrl": "https://www.pexels.com/@bahri-gun/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2019-01-romania/IMG_20190112_154250.jpg",
+    "takenAt": "2019-01-12T15:42:51Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 45.89682,
+      "lon": 25.70595
+    },
+    "place": {
+      "city": "Sfântu Gheorghe",
+      "country": "Romania",
+      "display": "Sfântu Gheorghe, Romania"
+    }
+  },
+  {
+    "src": "trips/2019-01-romania/IMG_20190112_154253.jpg",
+    "takenAt": "2019-01-12T15:42:53Z",
+    "hasGps": true,
+    "cameraModel": "RNE-L21",
+    "gps": {
+      "lat": 45.89682,
+      "lon": 25.70595
+    },
+    "place": {
+      "city": "Sfântu Gheorghe",
+      "country": "Romania",
+      "display": "Sfântu Gheorghe, Romania"
+    }
+  },
+  {
     "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-boats-trees-29351196.jpg",
     "takenAt": "2019-05-04T12:00:00Z",
     "hasGps": true,
@@ -3688,282 +3843,6 @@
     }
   },
   {
-    "src": "trips/2022-07-greece/pexels-keramoti-rippled-sea-19203217.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Keramoti",
-      "country": "Greece",
-      "display": "Keramoti, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/serene-rippled-ocean-texture-keramoti-greece-19203217/",
-      "photographer": "didsss",
-      "photographerUrl": "https://www.pexels.com/@didsss/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 40.85767,
-      "lon": 24.70224
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-thassos-golden-beach-aqua-28498153.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Thassos",
-      "country": "Greece",
-      "display": "Thassos, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/pristine-aqua-beach-golden-beach-thassos-28498153/",
-      "photographer": "Artiom Petrachi",
-      "photographerUrl": "https://www.pexels.com/@artiom-petrachi-1825232739/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 40.67472,
-      "lon": 24.76
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-thassos-chrisi-ammoudia-10505163.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Thassos",
-      "country": "Greece",
-      "display": "Thassos, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/chrisi-ammoudia-beach-greece-turquoise-waters-10505163/",
-      "photographer": "Igor Ermurachi",
-      "photographerUrl": "https://www.pexels.com/@igor-ermurachi-56590/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 40.67472,
-      "lon": 24.76
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-thassos-rocky-shore-blue-33023678.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Thassos",
-      "country": "Greece",
-      "display": "Thassos, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/idyllic-beach-scene-in-thassos-greece-33023678/",
-      "photographer": "Daciana Cristina Visan",
-      "photographerUrl": "https://www.pexels.com/@daciana-cristina-visan-2149801141/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 40.67472,
-      "lon": 24.76
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-nafplio-bourtzi-castle-harbor-32138690.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Nafplio",
-      "country": "Greece",
-      "display": "Nafplio, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/breathtaking-view-of-nafplio-harbor-with-bourtzi-castle-32138690/",
-      "photographer": "Adrien Olichon",
-      "photographerUrl": "https://www.pexels.com/@adrien-olichon-1257089/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 37.567,
-      "lon": 22.8043
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-nafplio-palamidi-arched-window-18835693.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Nafplio",
-      "country": "Greece",
-      "display": "Nafplio, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/nafplio-from-arched-window-of-palamidi-fortress-18835693/",
-      "photographer": "Tatiana Lapa",
-      "photographerUrl": "https://www.pexels.com/@tatiana-lapa-114875724/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 37.567,
-      "lon": 22.8043
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-nafplio-stone-archway-coast-17098083.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Nafplio",
-      "country": "Greece",
-      "display": "Nafplio, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/captivating-view-of-nafplio-town-and-coast-17098083/",
-      "photographer": "Alexandros Milidakis",
-      "photographerUrl": "https://www.pexels.com/@alexandros-milidakis-559640413/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 37.567,
-      "lon": 22.8043
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-nafplio-aerial-coastal-town-10400151.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Nafplio",
-      "country": "Greece",
-      "display": "Nafplio, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-aerial-view-of-nafplio-10400151/",
-      "photographer": "Alexandros Papadopoulos",
-      "photographerUrl": "https://www.pexels.com/@alexandros-papadopoulos-144473958/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 37.567,
-      "lon": 22.8043
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-kavala-aqueduct-sunset-10163045.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Abdera",
-      "country": "Greece",
-      "display": "Abdera, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-stone-aqueduct-and-town-buildings-at-sunset-10163045/",
-      "photographer": "Marina Gr",
-      "photographerUrl": "https://www.pexels.com/@marina-gr-109305987/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 40.93732,
-      "lon": 24.95646
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-kavala-aerial-coastline-11247205.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Abdera",
-      "country": "Greece",
-      "display": "Abdera, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-view-of-kavalas-urban-landscape-11247205/",
-      "photographer": "Marina Gr",
-      "photographerUrl": "https://www.pexels.com/@marina-gr-109305987/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 40.93732,
-      "lon": 24.95646
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-xanthi-mountaintop-view-33516844.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Abdera",
-      "country": "Greece",
-      "display": "Abdera, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/elevated-view-of-xanthi-city-from-a-mountaintop-33516844/",
-      "photographer": "kryonoglou",
-      "photographerUrl": "https://www.pexels.com/@kryonoglou/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 40.93732,
-      "lon": 24.95646
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-kavala-harbor-cityscape-dusk-29072782.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Abdera",
-      "country": "Greece",
-      "display": "Abdera, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-view-of-kavala-harbor-and-cityscape-at-dusk-29072782/",
-      "photographer": "sevgiilale",
-      "photographerUrl": "https://www.pexels.com/@sevgiilale/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 40.93732,
-      "lon": 24.95646
-    }
-  },
-  {
     "src": "trips/2022-07-greece/IMG_20220720_124416.jpg",
     "takenAt": "2022-07-20T12:44:16Z",
     "hasGps": true,
@@ -4036,6 +3915,36 @@
       "city": "Abdera",
       "country": "Greece",
       "display": "Abdera, Greece"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/IMG_20220805_205355.jpg",
+    "takenAt": "2022-08-05T20:53:55Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.38387,
+      "lon": 25.5428
+    },
+    "place": {
+      "city": "Bușteni",
+      "country": "Romania",
+      "display": "Bușteni, Romania"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/IMG_20220807_165208.jpg",
+    "takenAt": "2022-08-07T16:52:09Z",
+    "hasGps": true,
+    "cameraModel": "CDY-NX9A",
+    "gps": {
+      "lat": 45.51238,
+      "lon": 25.57258
+    },
+    "place": {
+      "city": "Azuga",
+      "country": "Romania",
+      "display": "Azuga, Romania"
     }
   },
   {
@@ -4554,29 +4463,6 @@
       "city": "Hamburg",
       "country": "Germany",
       "display": "Hamburg, Germany"
-    }
-  },
-  {
-    "src": "trips/2022-10-germany/pexels-lueneburg-heath-lavender-field-27978161.jpg",
-    "takenAt": "2022-10-21T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Munster",
-      "country": "Germany",
-      "display": "Munster, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/vibrant-lavender-field-in-lueneburg-heath-during-daytime-27978161/",
-      "photographer": "deuspix",
-      "photographerUrl": "https://www.pexels.com/@deuspix/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 52.98687,
-      "lon": 10.10924
     }
   },
   {
@@ -5209,71 +5095,6 @@
       "photographerUrl": "https://www.pexels.com/@leonhellegers/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-kalamitsi-sunrise-28435910.jpg",
-    "takenAt": "2023-07-06T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Nea Fokea",
-      "country": "Greece",
-      "display": "Nea Fokea, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/kalamitsi-beach-halkidiki-sunrise-28435910/",
-      "photographer": "Yassen Kounchev",
-      "photographerUrl": "https://www.pexels.com/@yassen-kounchev-889850329/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-greece-athens-halkidiki/pexels-athens-erechtheion-caryatids-6924329.jpg",
-    "takenAt": "2023-07-06T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Athens",
-      "country": "Greece",
-      "display": "Athens, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/erechtheion-temple-with-caryatids-in-acropolis-athens-6924329/",
-      "photographer": "Mohammed Zar",
-      "photographerUrl": "https://www.pexels.com/@mohammed-zar-3861716/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 37.97457,
-      "lon": 23.99225
-    }
-  },
-  {
-    "src": "trips/2023-07-greece-athens-halkidiki/pexels-athens-parthenon-unesco-28601862.jpg",
-    "takenAt": "2023-07-06T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Athens",
-      "country": "Greece",
-      "display": "Athens, Greece"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/stunning-view-of-the-parthenon-a-unesco-world-heritage-site-28601862/",
-      "photographer": "Efrem Efre",
-      "photographerUrl": "https://www.pexels.com/@efrem-efre-2786187/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 37.97457,
-      "lon": 23.99225
     }
   },
   {
@@ -6102,6 +5923,176 @@
     }
   },
   {
+    "src": "trips/2023-08-romania/IMG20230825100837.jpg",
+    "takenAt": "2023-08-25T10:08:37Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.3778,
+      "lon": 25.43594
+    },
+    "place": {
+      "city": "Bușteni",
+      "country": "Romania",
+      "display": "Bușteni, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230825101826.jpg",
+    "takenAt": "2023-08-25T10:18:26Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.3968,
+      "lon": 25.44564
+    },
+    "place": {
+      "city": "Bușteni",
+      "country": "Romania",
+      "display": "Bușteni, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230825102935.jpg",
+    "takenAt": "2023-08-25T10:29:35Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.3968,
+      "lon": 25.44564
+    },
+    "place": {
+      "city": "Bușteni",
+      "country": "Romania",
+      "display": "Bușteni, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-bran-castle-autumn-sunset-14060705.jpg",
+    "takenAt": "2023-08-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.5147,
+      "lon": 25.3661
+    },
+    "place": {
+      "city": "Bran",
+      "country": "Romania",
+      "display": "Bran, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/14060705/",
+      "photographer": "Princess Ara Versabal",
+      "photographerUrl": "https://www.pexels.com/@princess-ara-versabal/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-bran-castle-winter-sunlight-30736792.jpg",
+    "takenAt": "2023-08-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.5147,
+      "lon": 25.3661
+    },
+    "place": {
+      "city": "Bran",
+      "country": "Romania",
+      "display": "Bran, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/30736792/",
+      "photographer": "Sedamdeset2",
+      "photographerUrl": "https://www.pexels.com/@sedamdeset2/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-bran-castle-transylvania-landscape-5105467.jpg",
+    "takenAt": "2023-08-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.5147,
+      "lon": 25.3661
+    },
+    "place": {
+      "city": "Bran",
+      "country": "Romania",
+      "display": "Bran, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/5105467/",
+      "photographer": "Gip07",
+      "photographerUrl": "https://www.pexels.com/@gip07/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-bran-castle-gothic-architecture-29452619.jpg",
+    "takenAt": "2023-08-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.5147,
+      "lon": 25.3661
+    },
+    "place": {
+      "city": "Bran",
+      "country": "Romania",
+      "display": "Bran, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/29452619/",
+      "photographer": "Ene Marius",
+      "photographerUrl": "https://www.pexels.com/@ene-marius/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-bran-tower-silhouette-blue-sky-30736786.jpg",
+    "takenAt": "2023-08-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.5147,
+      "lon": 25.3661
+    },
+    "place": {
+      "city": "Bran",
+      "country": "Romania",
+      "display": "Bran, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/30736786/",
+      "photographer": "Sedamdeset2",
+      "photographerUrl": "https://www.pexels.com/@sedamdeset2/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2023-08-romania/IMG20230826122922.jpg",
     "takenAt": "2023-08-26T12:29:22Z",
     "hasGps": true,
@@ -6117,6 +6108,126 @@
     }
   },
   {
+    "src": "trips/2023-08-romania/IMG20230827134002.jpg",
+    "takenAt": "2023-08-27T13:40:02Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.56785,
+      "lon": 25.64385
+    },
+    "place": {
+      "city": "Azuga",
+      "country": "Romania",
+      "display": "Azuga, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230827134734.jpg",
+    "takenAt": "2023-08-27T13:47:34Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.4192,
+      "lon": 25.53289
+    },
+    "place": {
+      "city": "Bușteni",
+      "country": "Romania",
+      "display": "Bușteni, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230827135911.jpg",
+    "takenAt": "2023-08-27T13:59:11Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.56719,
+      "lon": 25.64467
+    },
+    "place": {
+      "city": "Azuga",
+      "country": "Romania",
+      "display": "Azuga, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-sacele-brasov-snow-mountains-firs-4624108.jpg",
+    "takenAt": "2023-08-27T14:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.566,
+      "lon": 25.6432
+    },
+    "place": {
+      "city": "Săcele",
+      "country": "Romania",
+      "display": "Săcele, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/4624108/",
+      "photographer": "vlasceanu",
+      "photographerUrl": "https://www.pexels.com/@vlasceanu/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-sacele-bunloc-carpathians-winter-30124302.jpg",
+    "takenAt": "2023-08-27T14:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.566,
+      "lon": 25.6432
+    },
+    "place": {
+      "city": "Săcele",
+      "country": "Romania",
+      "display": "Săcele, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/30124302/",
+      "photographer": "Gottapics",
+      "photographerUrl": "https://www.pexels.com/@gottapics/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-sacele-magura-village-hills-33231884.jpg",
+    "takenAt": "2023-08-27T14:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.566,
+      "lon": 25.6432
+    },
+    "place": {
+      "city": "Săcele",
+      "country": "Romania",
+      "display": "Săcele, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/33231884/",
+      "photographer": "Anastasia Haritonov",
+      "photographerUrl": "https://www.pexels.com/@anastasia-haritonov-898480/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2023-08-romania/IMG20230827142311.jpg",
     "takenAt": "2023-08-27T14:23:11Z",
     "hasGps": true,
@@ -6129,6 +6240,1336 @@
       "city": "Săcele",
       "country": "Romania",
       "display": "Săcele, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230827142353.jpg",
+    "takenAt": "2023-08-27T14:23:53Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.56568,
+      "lon": 25.64326
+    },
+    "place": {
+      "city": "Azuga",
+      "country": "Romania",
+      "display": "Azuga, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230827193647.jpg",
+    "takenAt": "2023-08-27T19:36:47Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.59254,
+      "lon": 25.54993
+    },
+    "place": {
+      "city": "Azuga",
+      "country": "Romania",
+      "display": "Azuga, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230828121116.jpg",
+    "takenAt": "2023-08-28T12:11:16Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.51661,
+      "lon": 25.36798
+    },
+    "place": {
+      "city": "Bran",
+      "country": "Romania",
+      "display": "Bran, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230828125425.jpg",
+    "takenAt": "2023-08-28T12:54:25Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.51508,
+      "lon": 25.36711
+    },
+    "place": {
+      "city": "Bran",
+      "country": "Romania",
+      "display": "Bran, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230828125937.jpg",
+    "takenAt": "2023-08-28T12:59:37Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.51497,
+      "lon": 25.36734
+    },
+    "place": {
+      "city": "Bran",
+      "country": "Romania",
+      "display": "Bran, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230828132957_01.jpg",
+    "takenAt": "2023-08-28T13:29:57Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.51512,
+      "lon": 25.36849
+    },
+    "place": {
+      "city": "Bran",
+      "country": "Romania",
+      "display": "Bran, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230828133405.jpg",
+    "takenAt": "2023-08-28T13:34:05Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.51582,
+      "lon": 25.36758
+    },
+    "place": {
+      "city": "Bran",
+      "country": "Romania",
+      "display": "Bran, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230828201359.jpg",
+    "takenAt": "2023-08-28T20:13:59Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.67459,
+      "lon": 24.46111
+    },
+    "place": {
+      "city": "Avrig",
+      "country": "Romania",
+      "display": "Avrig, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230828201402.jpg",
+    "takenAt": "2023-08-28T20:14:02Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.67459,
+      "lon": 24.46111
+    },
+    "place": {
+      "city": "Avrig",
+      "country": "Romania",
+      "display": "Avrig, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230828230757.jpg",
+    "takenAt": "2023-08-28T23:07:57Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.67459,
+      "lon": 24.46111
+    },
+    "place": {
+      "city": "Avrig",
+      "country": "Romania",
+      "display": "Avrig, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230828231350.jpg",
+    "takenAt": "2023-08-28T23:13:50Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.67602,
+      "lon": 24.44726
+    },
+    "place": {
+      "city": "Avrig",
+      "country": "Romania",
+      "display": "Avrig, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230828231354.jpg",
+    "takenAt": "2023-08-28T23:13:54Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.67602,
+      "lon": 24.44726
+    },
+    "place": {
+      "city": "Avrig",
+      "country": "Romania",
+      "display": "Avrig, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230829133759.jpg",
+    "takenAt": "2023-08-29T13:37:59Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.58761,
+      "lon": 23.78716
+    },
+    "place": {
+      "city": "Turda",
+      "country": "Romania",
+      "display": "Turda, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230829134925.jpg",
+    "takenAt": "2023-08-29T13:49:25Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.58666,
+      "lon": 23.78631
+    },
+    "place": {
+      "city": "Turda",
+      "country": "Romania",
+      "display": "Turda, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230829142702.jpg",
+    "takenAt": "2023-08-29T14:27:02Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.58644,
+      "lon": 23.78569
+    },
+    "place": {
+      "city": "Turda",
+      "country": "Romania",
+      "display": "Turda, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230829143212.jpg",
+    "takenAt": "2023-08-29T14:32:12Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.58645,
+      "lon": 23.78569
+    },
+    "place": {
+      "city": "Turda",
+      "country": "Romania",
+      "display": "Turda, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230829150424.jpg",
+    "takenAt": "2023-08-29T15:04:24Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 46.58633,
+      "lon": 23.78576
+    },
+    "place": {
+      "city": "Turda",
+      "country": "Romania",
+      "display": "Turda, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230829172834.jpg",
+    "takenAt": "2023-08-29T17:28:34Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.79662,
+      "lon": 24.15271
+    },
+    "place": {
+      "city": "Sibiu",
+      "country": "Romania",
+      "display": "Sibiu, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230829173225.jpg",
+    "takenAt": "2023-08-29T17:32:25Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.79747,
+      "lon": 24.15233
+    },
+    "place": {
+      "city": "Sibiu",
+      "country": "Romania",
+      "display": "Sibiu, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230829193510.jpg",
+    "takenAt": "2023-08-29T19:35:10Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.79796,
+      "lon": 24.1498
+    },
+    "place": {
+      "city": "Sibiu",
+      "country": "Romania",
+      "display": "Sibiu, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230829200026.jpg",
+    "takenAt": "2023-08-29T20:00:26Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.79456,
+      "lon": 24.15369
+    },
+    "place": {
+      "city": "Sibiu",
+      "country": "Romania",
+      "display": "Sibiu, Romania"
+    }
+  },
+  {
+    "src": "trips/2023-08-romania/IMG20230829200045.jpg",
+    "takenAt": "2023-08-29T20:00:45Z",
+    "hasGps": true,
+    "cameraModel": "OnePlus 11 5G",
+    "gps": {
+      "lat": 45.79453,
+      "lon": 24.15354
+    },
+    "place": {
+      "city": "Sibiu",
+      "country": "Romania",
+      "display": "Sibiu, Romania"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-transylvania/pexels-sighisoara-clock-tower-19349866.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.2186,
+      "lon": 24.7929
+    },
+    "place": {
+      "city": "Sighișoara",
+      "country": "Romania",
+      "display": "Sighișoara, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/19349866/",
+      "photographer": "Swiss Atlas",
+      "photographerUrl": "https://www.pexels.com/@swiss-atlas/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-transylvania/pexels-sighisoara-colorful-street-13215755.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.2186,
+      "lon": 24.7929
+    },
+    "place": {
+      "city": "Sighișoara",
+      "country": "Romania",
+      "display": "Sighișoara, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/13215755/",
+      "photographer": "David Ancateu",
+      "photographerUrl": "https://www.pexels.com/@david-ancateu/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-transylvania/pexels-sighisoara-medieval-street-27392075.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.2186,
+      "lon": 24.7929
+    },
+    "place": {
+      "city": "Sighișoara",
+      "country": "Romania",
+      "display": "Sighișoara, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/27392075/",
+      "photographer": "Arweltatty",
+      "photographerUrl": "https://www.pexels.com/@arweltatty/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-transylvania/pexels-sighisoara-cobblestone-archway-35967622.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.2186,
+      "lon": 24.7929
+    },
+    "place": {
+      "city": "Sighișoara",
+      "country": "Romania",
+      "display": "Sighișoara, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/35967622/",
+      "photographer": "Liza Sigareva",
+      "photographerUrl": "https://www.pexels.com/@liza-sigareva/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-transylvania/pexels-sighisoara-clock-tower-blue-sky-27413478.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.2186,
+      "lon": 24.7929
+    },
+    "place": {
+      "city": "Sighișoara",
+      "country": "Romania",
+      "display": "Sighișoara, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/27413478/",
+      "photographer": "Arweltatty",
+      "photographerUrl": "https://www.pexels.com/@arweltatty/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-transylvania/pexels-fagaras-mountains-panorama-18883514.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8419,
+      "lon": 24.9728
+    },
+    "place": {
+      "city": "Făgăraș",
+      "country": "Romania",
+      "display": "Făgăraș, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/18883514/",
+      "photographer": "Dan Badiu",
+      "photographerUrl": "https://www.pexels.com/@dan-badiu/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-transylvania/pexels-fagaras-dramatic-clouds-5910198.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8419,
+      "lon": 24.9728
+    },
+    "place": {
+      "city": "Făgăraș",
+      "country": "Romania",
+      "display": "Făgăraș, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/5910198/",
+      "photographer": "Artemioz",
+      "photographerUrl": "https://www.pexels.com/@artemioz/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-transylvania/pexels-fagaras-snowy-peak-37148691.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8419,
+      "lon": 24.9728
+    },
+    "place": {
+      "city": "Făgăraș",
+      "country": "Romania",
+      "display": "Făgăraș, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/37148691/",
+      "photographer": "Madalina Brandasiu",
+      "photographerUrl": "https://www.pexels.com/@madalina-brandasiu/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-transylvania/pexels-fagaras-winding-road-679072.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8419,
+      "lon": 24.9728
+    },
+    "place": {
+      "city": "Făgăraș",
+      "country": "Romania",
+      "display": "Făgăraș, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/679072/",
+      "photographer": "thek1d",
+      "photographerUrl": "https://www.pexels.com/@thek1d/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-transylvania/pexels-fagaras-balea-lake-9954520.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8419,
+      "lon": 24.9728
+    },
+    "place": {
+      "city": "Făgăraș",
+      "country": "Romania",
+      "display": "Făgăraș, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/9954520/",
+      "photographer": "Viorel Cazacu",
+      "photographerUrl": "https://www.pexels.com/@viorel-cazacu/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-constanta-historic-square-28748312.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.1733,
+      "lon": 28.6383
+    },
+    "place": {
+      "city": "Constanța",
+      "country": "Romania",
+      "display": "Constanța, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/28748312/",
+      "photographer": "Jakub Zerdzicki",
+      "photographerUrl": "https://www.pexels.com/@jakub-zerdzicki/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-constanta-historic-clock-tower-27745471.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.1733,
+      "lon": 28.6383
+    },
+    "place": {
+      "city": "Constanța",
+      "country": "Romania",
+      "display": "Constanța, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/27745471/",
+      "photographer": "Jakub Zerdzicki",
+      "photographerUrl": "https://www.pexels.com/@jakub-zerdzicki/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-constanta-summer-beach-aerial-11857198.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.1733,
+      "lon": 28.6383
+    },
+    "place": {
+      "city": "Constanța",
+      "country": "Romania",
+      "display": "Constanța, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/11857198/",
+      "photographer": "Czapp Arpad",
+      "photographerUrl": "https://www.pexels.com/@czapp-arpad/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-constanta-coastal-architecture-27390172.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.1733,
+      "lon": 28.6383
+    },
+    "place": {
+      "city": "Constanța",
+      "country": "Romania",
+      "display": "Constanța, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/27390172/",
+      "photographer": "Jakub Zerdzicki",
+      "photographerUrl": "https://www.pexels.com/@jakub-zerdzicki/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-constanta-pier-summer-36895694.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.1733,
+      "lon": 28.6383
+    },
+    "place": {
+      "city": "Constanța",
+      "country": "Romania",
+      "display": "Constanța, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/36895694/",
+      "photographer": "Photographisa Ro",
+      "photographerUrl": "https://www.pexels.com/@photographisa-ro/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-mangalia-beach-aerial-11802901.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.8131,
+      "lon": 28.5839
+    },
+    "place": {
+      "city": "Mangalia",
+      "country": "Romania",
+      "display": "Mangalia, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/11802901/",
+      "photographer": "Czapp Arpad",
+      "photographerUrl": "https://www.pexels.com/@czapp-arpad/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-mangalia-pier-sunset-18368853.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.8131,
+      "lon": 28.5839
+    },
+    "place": {
+      "city": "Mangalia",
+      "country": "Romania",
+      "display": "Mangalia, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/18368853/",
+      "photographer": "Orlin Ratchev",
+      "photographerUrl": "https://www.pexels.com/@orlin-ratchev/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-mangalia-seaside-horizon-10625733.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.8131,
+      "lon": 28.5839
+    },
+    "place": {
+      "city": "Mangalia",
+      "country": "Romania",
+      "display": "Mangalia, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/10625733/",
+      "photographer": "Elena Elizarova",
+      "photographerUrl": "https://www.pexels.com/@elena-elizarova/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-mangalia-coastal-resort-17695765.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.8131,
+      "lon": 28.5839
+    },
+    "place": {
+      "city": "Mangalia",
+      "country": "Romania",
+      "display": "Mangalia, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/17695765/",
+      "photographer": "Dan Voican",
+      "photographerUrl": "https://www.pexels.com/@dan-voican/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-black-sea/pexels-mangalia-water-park-32908659.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 43.8131,
+      "lon": 28.5839
+    },
+    "place": {
+      "city": "Mangalia",
+      "country": "Romania",
+      "display": "Mangalia, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/32908659/",
+      "photographer": "Daciana Cristina Visan",
+      "photographerUrl": "https://www.pexels.com/@daciana-cristina-visan/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-buzau-city-hall-night-7871527.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.1503,
+      "lon": 26.8252
+    },
+    "place": {
+      "city": "Buzău",
+      "country": "Romania",
+      "display": "Buzău, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/7871527/",
+      "photographer": "Vlad Ioan",
+      "photographerUrl": "https://www.pexels.com/@vlad-ioan/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-buzau-mud-volcanoes-aerial-28764774.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.1503,
+      "lon": 26.8252
+    },
+    "place": {
+      "city": "Buzău",
+      "country": "Romania",
+      "display": "Buzău, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/28764774/",
+      "photographer": "Daniel Lepadatu",
+      "photographerUrl": "https://www.pexels.com/@daniel-lepadatu/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-buzau-medieval-tower-14111389.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.1503,
+      "lon": 26.8252
+    },
+    "place": {
+      "city": "Buzău",
+      "country": "Romania",
+      "display": "Buzău, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/14111389/",
+      "photographer": "Reanimatedmanx",
+      "photographerUrl": "https://www.pexels.com/@reanimatedmanx/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-buzau-village-golden-hour-34770307.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.1503,
+      "lon": 26.8252
+    },
+    "place": {
+      "city": "Buzău",
+      "country": "Romania",
+      "display": "Buzău, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/34770307/",
+      "photographer": "Filip Marcus Adam",
+      "photographerUrl": "https://www.pexels.com/@filip-marcus-adam/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-buzau-monastery-fall-foliage-28217488.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.1503,
+      "lon": 26.8252
+    },
+    "place": {
+      "city": "Buzău",
+      "country": "Romania",
+      "display": "Buzău, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/28217488/",
+      "photographer": "Ditmar Tabacaru",
+      "photographerUrl": "https://www.pexels.com/@ditmar-tabacaru/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-targoviste-fortress-walls-12528843.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.9258,
+      "lon": 25.4569
+    },
+    "place": {
+      "city": "Târgoviște",
+      "country": "Romania",
+      "display": "Târgoviște, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/12528843/",
+      "photographer": "N. Adina",
+      "photographerUrl": "https://www.pexels.com/@n-adina/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-targoviste-historic-brick-church-28971551.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.9258,
+      "lon": 25.4569
+    },
+    "place": {
+      "city": "Târgoviște",
+      "country": "Romania",
+      "display": "Târgoviște, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/28971551/",
+      "photographer": "SN Che",
+      "photographerUrl": "https://www.pexels.com/@sn-che/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-targoviste-tower-cannons-rooftops-33318766.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.9258,
+      "lon": 25.4569
+    },
+    "place": {
+      "city": "Târgoviște",
+      "country": "Romania",
+      "display": "Târgoviște, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/33318766/",
+      "photographer": "Kadir Alkn",
+      "photographerUrl": "https://www.pexels.com/@kadir-alkn/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-targoviste-stephens-tower-9850729.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.9258,
+      "lon": 25.4569
+    },
+    "place": {
+      "city": "Târgoviște",
+      "country": "Romania",
+      "display": "Târgoviște, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/9850729/",
+      "photographer": "Didsss",
+      "photographerUrl": "https://www.pexels.com/@didsss/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-wallachia/pexels-targoviste-medieval-ruins-5783749.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.9258,
+      "lon": 25.4569
+    },
+    "place": {
+      "city": "Târgoviște",
+      "country": "Romania",
+      "display": "Târgoviște, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/5783749/",
+      "photographer": "Djordje Ristic",
+      "photographerUrl": "https://www.pexels.com/@djordje-ristic/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-north-west/pexels-oradea-domed-architecture-night-35147610.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 47.0722,
+      "lon": 21.9211
+    },
+    "place": {
+      "city": "Oradea",
+      "country": "Romania",
+      "display": "Oradea, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/35147610/",
+      "photographer": "Septimiu Lupea",
+      "photographerUrl": "https://www.pexels.com/@septimiu-lupea/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-north-west/pexels-oradea-palace-stained-glass-11284416.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 47.0722,
+      "lon": 21.9211
+    },
+    "place": {
+      "city": "Oradea",
+      "country": "Romania",
+      "display": "Oradea, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/11284416/",
+      "photographer": "David Ancateu",
+      "photographerUrl": "https://www.pexels.com/@david-ancateu/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-north-west/pexels-oradea-fortress-bridge-autumn-3065358.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 47.0722,
+      "lon": 21.9211
+    },
+    "place": {
+      "city": "Oradea",
+      "country": "Romania",
+      "display": "Oradea, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/3065358/",
+      "photographer": "Cristina Pop",
+      "photographerUrl": "https://www.pexels.com/@cristina-pop/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-north-west/pexels-oradea-moskovits-palace-art-nouveau-11284468.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 47.0722,
+      "lon": 21.9211
+    },
+    "place": {
+      "city": "Oradea",
+      "country": "Romania",
+      "display": "Oradea, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/11284468/",
+      "photographer": "David Ancateu",
+      "photographerUrl": "https://www.pexels.com/@david-ancateu/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-north-west/pexels-oradea-illuminated-waterfront-night-18397476.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 47.0722,
+      "lon": 21.9211
+    },
+    "place": {
+      "city": "Oradea",
+      "country": "Romania",
+      "display": "Oradea, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/18397476/",
+      "photographer": "Timothy Sebastian",
+      "photographerUrl": "https://www.pexels.com/@timothy-sebastian/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-north-west/pexels-arad-city-hall-snowy-night-10811596.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.1866,
+      "lon": 21.3122
+    },
+    "place": {
+      "city": "Arad",
+      "country": "Romania",
+      "display": "Arad, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/10811596/",
+      "photographer": "Fii Pefaza",
+      "photographerUrl": "https://www.pexels.com/@fii-pefaza/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-north-west/pexels-arad-city-hall-festive-decorations-10811597.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.1866,
+      "lon": 21.3122
+    },
+    "place": {
+      "city": "Arad",
+      "country": "Romania",
+      "display": "Arad, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/10811597/",
+      "photographer": "Fii Pefaza",
+      "photographerUrl": "https://www.pexels.com/@fii-pefaza/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-north-west/pexels-arad-cultural-palace-snow-10811589.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.1866,
+      "lon": 21.3122
+    },
+    "place": {
+      "city": "Arad",
+      "country": "Romania",
+      "display": "Arad, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/10811589/",
+      "photographer": "Fii Pefaza",
+      "photographerUrl": "https://www.pexels.com/@fii-pefaza/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-north-west/pexels-arad-old-town-twilight-11095105.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.1866,
+      "lon": 21.3122
+    },
+    "place": {
+      "city": "Arad",
+      "country": "Romania",
+      "display": "Arad, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/11095105/",
+      "photographer": "David Ancateu",
+      "photographerUrl": "https://www.pexels.com/@david-ancateu/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-06-romania-north-west/pexels-arad-administrative-palace-christmas-10811603.jpg",
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.1866,
+      "lon": 21.3122
+    },
+    "place": {
+      "city": "Arad",
+      "country": "Romania",
+      "display": "Arad, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/10811603/",
+      "photographer": "Fii Pefaza",
+      "photographerUrl": "https://www.pexels.com/@fii-pefaza/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -6554,52 +7995,6 @@
       "photographerUrl": "https://www.pexels.com/@molnartamasphotography/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-puszta-csikos-horsemen-27037558.jpg",
-    "takenAt": "2024-08-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Gyula",
-      "country": "Hungary",
-      "display": "Gyula, Hungary"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/hungarian-horsemen-traditional-blue-clothing-rural-27037558/",
-      "photographer": "Stokeron",
-      "photographerUrl": "https://www.pexels.com/@stokeron/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 46.6486,
-      "lon": 21.2828
-    }
-  },
-  {
-    "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-hortobagy-haystacks-summer-19567427.jpg",
-    "takenAt": "2024-08-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Gyula",
-      "country": "Hungary",
-      "display": "Gyula, Hungary"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/haystacks-hortobagy-hungary-countryside-19567427/",
-      "photographer": "Zsolt Erdelyi",
-      "photographerUrl": "https://www.pexels.com/@zsolt-erdelyi-852628585/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 46.6486,
-      "lon": 21.2828
     }
   },
   {
@@ -7603,282 +8998,6 @@
     }
   },
   {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-oswiecim-auschwitz-entrance-warning-13081553.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Oświęcim",
-      "country": "Poland",
-      "display": "Oświęcim, Poland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/entrance-to-auschwitz-concentration-camp-13081553/",
-      "photographer": "Rene Terp",
-      "photographerUrl": "https://www.pexels.com/@reneterp/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 50.0344,
-      "lon": 19.2098
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-zakopane-tatra-wildflowers-9181193.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Zakopane",
-      "country": "Poland",
-      "display": "Zakopane, Poland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/tatra-mountains-with-wildflowers-9181193/",
-      "photographer": "Karol Zielinski",
-      "photographerUrl": "https://www.pexels.com/@karol-zielinski-92378908/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 49.2992,
-      "lon": 19.9496
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-murzasichle-morskie-oko-tatra-reflection-11029916.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Murzasichle",
-      "country": "Poland",
-      "display": "Murzasichle, Poland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/dramatic-tatra-mountains-morskie-oko-11029916/",
-      "photographer": "Maryia Plashchynskaya",
-      "photographerUrl": "https://www.pexels.com/@maryiaplashchynskaya/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 49.30832,
-      "lon": 20.0444
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-murzasichle-tatra-forest-snow-peaks-11029904.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Murzasichle",
-      "country": "Poland",
-      "display": "Murzasichle, Poland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/tatra-mountains-lush-forests-snowy-peaks-11029904/",
-      "photographer": "Maryia Plashchynskaya",
-      "photographerUrl": "https://www.pexels.com/@maryiaplashchynskaya/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 49.30832,
-      "lon": 20.0444
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzegi-tatra-village-fields-21837391.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Brzegi",
-      "country": "Poland",
-      "display": "Brzegi, Poland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/picturesque-village-houses-amidst-fields-mountains-poland-21837391/",
-      "photographer": "Valeriy Pelts",
-      "photographerUrl": "https://www.pexels.com/@valeriy-pelts-939887181/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 49.25113,
-      "lon": 20.09979
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzegi-bukowina-autumn-mountains-19550182.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Brzegi",
-      "country": "Poland",
-      "display": "Brzegi, Poland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/vibrant-autumn-foliage-bukowina-tatrzanska-19550182/",
-      "photographer": "Dariusz Staniszewski",
-      "photographerUrl": "https://www.pexels.com/@dariusz-staniszewski-1425290/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 49.25113,
-      "lon": 20.09979
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzezinka-auschwitz-birkenau-tracks-35743059.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Brzezinka",
-      "country": "Poland",
-      "display": "Brzezinka, Poland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/railroad-tracks-leading-to-auschwitz-birkenau-35743059/",
-      "photographer": "Lumina Voyager",
-      "photographerUrl": "https://www.pexels.com/@lumina-voyager-147015704/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 50.03452,
-      "lon": 19.18303
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzezinka-birkenau-wagon-watchtower-22816214.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Brzezinka",
-      "country": "Poland",
-      "display": "Brzezinka, Poland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/wooden-train-wagon-watchtowers-auschwitz-birkenau-22816214/",
-      "photographer": "Algrey",
-      "photographerUrl": "https://www.pexels.com/@algrey/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 50.03452,
-      "lon": 19.18303
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-spodek-arena-event-30696550.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Katowice",
-      "country": "Poland",
-      "display": "Katowice, Poland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/spodek-arena-katowice-esports-event-30696550/",
-      "photographer": "Filip Hajdoci",
-      "photographerUrl": "https://www.pexels.com/@filip-hajdoci-355268404/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 50.2601,
-      "lon": 19.02161
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-spodek-puddle-reflection-37144894.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Katowice",
-      "country": "Poland",
-      "display": "Katowice, Poland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/spodek-arena-katowice-puddle-reflection-37144894/",
-      "photographer": "Dawid Zawila",
-      "photographerUrl": "https://www.pexels.com/@dawid-zawila-2151273316/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 50.2601,
-      "lon": 19.02161
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-silesian-museum-mine-shaft-20685089.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Katowice",
-      "country": "Poland",
-      "display": "Katowice, Poland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/silesian-museum-historic-mine-shaft-tower-20685089/",
-      "photographer": "Bruno Krajski",
-      "photographerUrl": "https://www.pexels.com/@bruno-krajski-518872760/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 50.2601,
-      "lon": 19.02161
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-train-station-night-35358052.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Katowice",
-      "country": "Poland",
-      "display": "Katowice, Poland"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/moody-night-view-platform-katowice-train-station-35358052/",
-      "photographer": "Algrey",
-      "photographerUrl": "https://www.pexels.com/@algrey/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 50.2601,
-      "lon": 19.02161
-    }
-  },
-  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250415152539.jpg",
     "takenAt": "2025-04-15T15:25:39Z",
     "hasGps": true,
@@ -7939,6 +9058,31 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-banska-bystrica-tatra-autumn-backdrop-34422122.jpg",
+    "takenAt": "2025-04-16T14:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.7359,
+      "lon": 19.1511
+    },
+    "place": {
+      "city": "Banská Bystrica",
+      "country": "Slovakia",
+      "display": "Banská Bystrica, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/34422122/",
+      "photographer": "Akos Szucs",
+      "photographerUrl": "https://www.pexels.com/@akos-szucs-1033979483/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250416145732.jpg",
     "takenAt": "2025-04-16T14:57:32Z",
     "hasGps": true,
@@ -7966,6 +9110,81 @@
       "city": "Banská Bystrica",
       "country": "Slovakia",
       "display": "Banská Bystrica, Slovakia"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-harmanec-tatra-forest-valley-33488971.jpg",
+    "takenAt": "2025-04-16T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.7944,
+      "lon": 19.0997
+    },
+    "place": {
+      "city": "Harmanec",
+      "country": "Slovakia",
+      "display": "Harmanec, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/33488971/",
+      "photographer": "4ratsinatrenchcoat",
+      "photographerUrl": "https://www.pexels.com/@4ratsinatrenchcoat-329895353/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-harmanec-tatra-stone-forest-path-30829435.jpg",
+    "takenAt": "2025-04-16T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.7944,
+      "lon": 19.0997
+    },
+    "place": {
+      "city": "Harmanec",
+      "country": "Slovakia",
+      "display": "Harmanec, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/30829435/",
+      "photographer": "Gyorgy Lakatos",
+      "photographerUrl": "https://www.pexels.com/@gyorgy-lakatos-113005281/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-harmanec-tatra-green-mountains-7255796.jpg",
+    "takenAt": "2025-04-16T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.7944,
+      "lon": 19.0997
+    },
+    "place": {
+      "city": "Harmanec",
+      "country": "Slovakia",
+      "display": "Harmanec, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/7255796/",
+      "photographer": "Klara",
+      "photographerUrl": "https://www.pexels.com/@klara-40037156/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -8029,6 +9248,31 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-mala-frankova-zdiar-wooden-house-tatra-34804824.jpg",
+    "takenAt": "2025-04-17T13:30:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2858,
+      "lon": 20.314
+    },
+    "place": {
+      "city": "Malá Franková",
+      "country": "Slovakia",
+      "display": "Malá Franková, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/34804824/",
+      "photographer": "Raymond Petrik",
+      "photographerUrl": "https://www.pexels.com/@raymond-petrik-1448389535/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250417133651.jpg",
     "takenAt": "2025-04-17T13:36:51Z",
     "hasGps": true,
@@ -8074,6 +9318,106 @@
     }
   },
   {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-zdiar-traditional-village-34804822.jpg",
+    "takenAt": "2025-04-17T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2911,
+      "lon": 20.2322
+    },
+    "place": {
+      "city": "Osturňa",
+      "country": "Slovakia",
+      "display": "Osturňa, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/34804822/",
+      "photographer": "Raymond Petrik",
+      "photographerUrl": "https://www.pexels.com/@raymond-petrik-1448389535/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-spisska-magura-aerial-32275767.jpg",
+    "takenAt": "2025-04-17T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2911,
+      "lon": 20.2322
+    },
+    "place": {
+      "city": "Osturňa",
+      "country": "Slovakia",
+      "display": "Osturňa, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/32275767/",
+      "photographer": "wacho",
+      "photographerUrl": "https://www.pexels.com/@wacho/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-tatra-wooden-houses-1311445.jpg",
+    "takenAt": "2025-04-17T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2911,
+      "lon": 20.2322
+    },
+    "place": {
+      "city": "Osturňa",
+      "country": "Slovakia",
+      "display": "Osturňa, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/1311445/",
+      "photographer": "Alex Blokstra",
+      "photographerUrl": "https://www.pexels.com/@alex-blokstra-300443/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-tatra-traditional-houses-fields-2888958.jpg",
+    "takenAt": "2025-04-17T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2911,
+      "lon": 20.2322
+    },
+    "place": {
+      "city": "Osturňa",
+      "country": "Slovakia",
+      "display": "Osturňa, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/2888958/",
+      "photographer": "Dariusz Staniszewski",
+      "photographerUrl": "https://www.pexels.com/@dariusz-staniszewski-1425290/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250417152918.jpg",
     "takenAt": "2025-04-17T15:29:18Z",
     "hasGps": true,
@@ -8116,6 +9460,106 @@
       "city": "Zakopane",
       "country": "Poland",
       "display": "Zakopane, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-strbske-pleso-clear-day-7512295.jpg",
+    "takenAt": "2025-04-19T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2333,
+      "lon": 19.9833
+    },
+    "place": {
+      "city": "Vysoké Tatry",
+      "country": "Slovakia",
+      "display": "Vysoké Tatry, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/7512295/",
+      "photographer": "Karol Czinege",
+      "photographerUrl": "https://www.pexels.com/@karol-czinege-44058757/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-lomnicky-stit-winter-view-31007188.jpg",
+    "takenAt": "2025-04-19T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2333,
+      "lon": 19.9833
+    },
+    "place": {
+      "city": "Vysoké Tatry",
+      "country": "Slovakia",
+      "display": "Vysoké Tatry, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/31007188/",
+      "photographer": "Vladyslav Dukhin",
+      "photographerUrl": "https://www.pexels.com/@vladyslav-dukhin/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-strbske-pleso-autumn-reflection-28926069.jpg",
+    "takenAt": "2025-04-19T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2333,
+      "lon": 19.9833
+    },
+    "place": {
+      "city": "Vysoké Tatry",
+      "country": "Slovakia",
+      "display": "Vysoké Tatry, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/28926069/",
+      "photographer": "Jan Brndiar",
+      "photographerUrl": "https://www.pexels.com/@jan-brndiar-809427026/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-snow-peaks-moon-34631503.jpg",
+    "takenAt": "2025-04-19T16:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2333,
+      "lon": 19.9833
+    },
+    "place": {
+      "city": "Vysoké Tatry",
+      "country": "Slovakia",
+      "display": "Vysoké Tatry, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/34631503/",
+      "photographer": "Michal Petras",
+      "photographerUrl": "https://www.pexels.com/@michal-petras-2152077115/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -8191,6 +9635,106 @@
       "city": "Brzegi",
       "country": "Poland",
       "display": "Brzegi, Poland"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-mist-peaks-34833541.jpg",
+    "takenAt": "2025-04-20T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.28,
+      "lon": 20.1781
+    },
+    "place": {
+      "city": "Tatranská Javorina",
+      "country": "Slovakia",
+      "display": "Tatranská Javorina, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/34833541/",
+      "photographer": "exactissime",
+      "photographerUrl": "https://www.pexels.com/@exactissime/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-rocky-ridge-31060827.jpg",
+    "takenAt": "2025-04-20T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.28,
+      "lon": 20.1781
+    },
+    "place": {
+      "city": "Tatranská Javorina",
+      "country": "Slovakia",
+      "display": "Tatranská Javorina, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/31060827/",
+      "photographer": "Viliamphotography",
+      "photographerUrl": "https://www.pexels.com/@viliamphotography/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-rocky-blue-sky-31551346.jpg",
+    "takenAt": "2025-04-20T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.28,
+      "lon": 20.1781
+    },
+    "place": {
+      "city": "Tatranská Javorina",
+      "country": "Slovakia",
+      "display": "Tatranská Javorina, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/31551346/",
+      "photographer": "Viliamphotography",
+      "photographerUrl": "https://www.pexels.com/@viliamphotography/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-trail-autumn-28966350.jpg",
+    "takenAt": "2025-04-20T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.28,
+      "lon": 20.1781
+    },
+    "place": {
+      "city": "Tatranská Javorina",
+      "country": "Slovakia",
+      "display": "Tatranská Javorina, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/28966350/",
+      "photographer": "Viliamphotography",
+      "photographerUrl": "https://www.pexels.com/@viliamphotography/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -8569,6 +10113,106 @@
     }
   },
   {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-salobrena-white-houses-dusk-16558109.jpg",
+    "takenAt": "2025-09-14T20:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.7374,
+      "lon": -3.5933
+    },
+    "place": {
+      "city": "Salobreña",
+      "country": "Spain",
+      "display": "Salobreña, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/16558109/",
+      "photographer": "Manuel Munoz",
+      "photographerUrl": "https://www.pexels.com/@manuel-munoz-540217738/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-salobrena-hilltop-village-evening-33844731.jpg",
+    "takenAt": "2025-09-14T20:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.7374,
+      "lon": -3.5933
+    },
+    "place": {
+      "city": "Salobreña",
+      "country": "Spain",
+      "display": "Salobreña, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/33844731/",
+      "photographer": "Ray Raimundo",
+      "photographerUrl": "https://www.pexels.com/@rayraimundo/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-salobrena-hilltop-village-aerial-33844732.jpg",
+    "takenAt": "2025-09-14T20:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.7374,
+      "lon": -3.5933
+    },
+    "place": {
+      "city": "Salobreña",
+      "country": "Spain",
+      "display": "Salobreña, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/33844732/",
+      "photographer": "Ray Raimundo",
+      "photographerUrl": "https://www.pexels.com/@rayraimundo/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-salobrena-coast-night-18515569.jpg",
+    "takenAt": "2025-09-14T20:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.7374,
+      "lon": -3.5933
+    },
+    "place": {
+      "city": "Salobreña",
+      "country": "Spain",
+      "display": "Salobreña, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/18515569/",
+      "photographer": "Manuel Munoz",
+      "photographerUrl": "https://www.pexels.com/@manuel-munoz-540217738/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2025-09-andalusia-gibraltar/IMG20250914201512.jpg",
     "takenAt": "2025-09-14T20:15:12Z",
     "hasGps": true,
@@ -8839,6 +10483,106 @@
     }
   },
   {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-almunecar-cotobro-beach-houses-25300342.jpg",
+    "takenAt": "2025-09-17T21:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.7378,
+      "lon": -3.7491
+    },
+    "place": {
+      "city": "Almuñécar",
+      "country": "Spain",
+      "display": "Almuñécar, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/25300342/",
+      "photographer": "bloople",
+      "photographerUrl": "https://www.pexels.com/@bloople/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-almunecar-fishing-boats-beach-33258894.jpg",
+    "takenAt": "2025-09-17T21:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.7378,
+      "lon": -3.7491
+    },
+    "place": {
+      "city": "Almuñécar",
+      "country": "Spain",
+      "display": "Almuñécar, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/33258894/",
+      "photographer": "Darris Brooks",
+      "photographerUrl": "https://www.pexels.com/@darris-brooks-2154340184/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-almunecar-costa-tropical-palms-33797220.jpg",
+    "takenAt": "2025-09-17T21:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.7378,
+      "lon": -3.7491
+    },
+    "place": {
+      "city": "Almuñécar",
+      "country": "Spain",
+      "display": "Almuñécar, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/33797220/",
+      "photographer": "letmardi",
+      "photographerUrl": "https://www.pexels.com/@letmardi/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-almunecar-palm-beach-summer-32348520.jpg",
+    "takenAt": "2025-09-17T21:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.7378,
+      "lon": -3.7491
+    },
+    "place": {
+      "city": "Almuñécar",
+      "country": "Spain",
+      "display": "Almuñécar, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/32348520/",
+      "photographer": "G Cicconeto",
+      "photographerUrl": "https://www.pexels.com/@g-cicconeto-2152098123/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2025-09-andalusia-gibraltar/IMG20250917215905.jpg",
     "takenAt": "2025-09-17T21:59:05Z",
     "hasGps": true,
@@ -8959,351 +10703,6 @@
     }
   },
   {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-dachau-historic-brick-building-bw-32808850.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Dachau",
-      "country": "Germany",
-      "display": "Dachau, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/black-and-white-photo-of-a-historic-brick-building-in-dachau-bavaria-32808850/",
-      "photographer": "Nicola Ravi",
-      "photographerUrl": "https://www.pexels.com/@nicolaravi/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 48.25557,
-      "lon": 11.43862
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-landsberg-am-lech-winter-river-29673694.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Landsberg am Lech",
-      "country": "Germany",
-      "display": "Landsberg am Lech, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-view-of-landsberg-am-lech-in-winter-29673694/",
-      "photographer": "Sabine Freiberger",
-      "photographerUrl": "https://www.pexels.com/@sabine-freiberger-2147687567/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 48.05159,
-      "lon": 10.87511
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-landsberg-am-lech-colorful-houses-river-32834506.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Landsberg am Lech",
-      "country": "Germany",
-      "display": "Landsberg am Lech, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/colorful-bavarian-architecture-in-landsberg-am-lech-32834506/",
-      "photographer": "inkinterrupted",
-      "photographerUrl": "https://www.pexels.com/@inkinterrupted/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 48.05159,
-      "lon": 10.87511
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-fuessen-lech-river-alpine-20741181.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Landsberg am Lech",
-      "country": "Germany",
-      "display": "Landsberg am Lech, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/landscape-fuessen-germany-river-bridge-alpine-20741181/",
-      "photographer": "Wolfgang Weiser",
-      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 48.05159,
-      "lon": 10.87511
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-fuessen-lech-river-church-22618185.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Landsberg am Lech",
-      "country": "Germany",
-      "display": "Landsberg am Lech, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/town-view-fuessen-germany-historic-church-river-22618185/",
-      "photographer": "Wolfgang Weiser",
-      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 48.05159,
-      "lon": 10.87511
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-munich-karlstor-bavarian-gate-36277562.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Landsberg am Lech",
-      "country": "Germany",
-      "display": "Landsberg am Lech, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-karlstor-gate-munich-architectural-charm-36277562/",
-      "photographer": "Memory Lane",
-      "photographerUrl": "https://www.pexels.com/@memory-lane-2157293172/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 48.05159,
-      "lon": 10.87511
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-hercules-monument-27579628.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Kassel",
-      "country": "Germany",
-      "display": "Kassel, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/iconic-hercules-monument-bergpark-wilhelmshohe-kassel-27579628/",
-      "photographer": "Kemal Berkay Doğan",
-      "photographerUrl": "https://www.pexels.com/@kemal-berkay-dogan/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 51.31407,
-      "lon": 9.4883
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-bergpark-wilhelmshoehe-27579632.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Kassel",
-      "country": "Germany",
-      "display": "Kassel, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/beautiful-bergpark-wilhelmshohe-in-kassel-a-unesco-world-heritage-site-27579632/",
-      "photographer": "Kemal Berkay Doğan",
-      "photographerUrl": "https://www.pexels.com/@kemal-berkay-dogan/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 51.31407,
-      "lon": 9.4883
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-wilhelmshoehe-palace-cityscape-27579634.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Kassel",
-      "country": "Germany",
-      "display": "Kassel, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/captivating-view-of-wilhelmshohe-palace-with-kassel-cityscape-27579634/",
-      "photographer": "Kemal Berkay Doğan",
-      "photographerUrl": "https://www.pexels.com/@kemal-berkay-dogan/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 51.31407,
-      "lon": 9.4883
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-bergpark-panorama-33593210.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Kassel",
-      "country": "Germany",
-      "display": "Kassel, Germany"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/panoramic-view-from-bergpark-wilhelmshohe-overlooking-kassel-33593210/",
-      "photographer": "arlindphotography",
-      "photographerUrl": "https://www.pexels.com/@arlindphotography/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 51.31407,
-      "lon": 9.4883
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-budapest-parliament-illuminated-36556205.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Budapest",
-      "country": "Hungary",
-      "display": "Budapest, Hungary"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/illuminated-hungarian-parliament-building-at-night-36556205/",
-      "photographer": "Balazs Nemes",
-      "photographerUrl": "https://www.pexels.com/@balazs-nemes-36556205/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 47.4979,
-      "lon": 19.0402
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-puszta-cattle-grazing-27024356.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Kecskemét",
-      "country": "Hungary",
-      "display": "Kecskemét, Hungary"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/cattle-with-horns-grazing-sunlit-rural-pasture-27024356/",
-      "photographer": "Stokeron",
-      "photographerUrl": "https://www.pexels.com/@stokeron/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 46.90705,
-      "lon": 19.68729
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-puszta-donkeys-pond-27024359.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Kecskemét",
-      "country": "Hungary",
-      "display": "Kecskemét, Hungary"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/donkeys-grazing-rural-farm-landscape-27024359/",
-      "photographer": "Stokeron",
-      "photographerUrl": "https://www.pexels.com/@stokeron/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 46.90705,
-      "lon": 19.68729
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-great-plain-aerial-fields-13456593.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Kecskemét",
-      "country": "Hungary",
-      "display": "Kecskemét, Hungary"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-view-green-fields-farmland-13456593/",
-      "photographer": "Barnabas Davoti",
-      "photographerUrl": "https://www.pexels.com/@barnabas-davoti-31615494/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 46.90705,
-      "lon": 19.68729
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-hungarian-grey-pair-5840898.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": false,
-    "place": {
-      "city": "Kecskemét",
-      "country": "Hungary",
-      "display": "Kecskemét, Hungary"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/two-hungarian-grey-cattle-green-pasture-5840898/",
-      "photographer": "Karola G",
-      "photographerUrl": "https://www.pexels.com/@karola-g/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "gps": {
-      "lat": 46.90705,
-      "lon": 19.68729
-    }
-  },
-  {
     "src": "trips/2026-03-balkans-roadtrip/IMG20260315125427.jpg",
     "takenAt": "2026-03-15T12:54:27Z",
     "hasGps": true,
@@ -9316,6 +10715,81 @@
       "city": "Kecskemét",
       "country": "Hungary",
       "display": "Kecskemét, Hungary"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-sambata-monastery-garden-17953083.jpg",
+    "takenAt": "2026-03-16T13:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2782,
+      "lon": 24.3068
+    },
+    "place": {
+      "city": "Călimănești",
+      "country": "Romania",
+      "display": "Călimănești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/17953083/",
+      "photographer": "Sirbu-126",
+      "photographerUrl": "https://www.pexels.com/@sirbu-126/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-ramet-monastery-fall-28217488.jpg",
+    "takenAt": "2026-03-16T13:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2782,
+      "lon": 24.3068
+    },
+    "place": {
+      "city": "Călimănești",
+      "country": "Romania",
+      "display": "Călimănești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/28217488/",
+      "photographer": "Ditmar Tabacaru",
+      "photographerUrl": "https://www.pexels.com/@ditmar-tabacaru-1772573629/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-olt-river-mountains-aerial-13304359.jpg",
+    "takenAt": "2026-03-16T13:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2782,
+      "lon": 24.3068
+    },
+    "place": {
+      "city": "Călimănești",
+      "country": "Romania",
+      "display": "Călimănești, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/13304359/",
+      "photographer": "Cristian E",
+      "photographerUrl": "https://www.pexels.com/@cristian-e-279239016/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -9474,6 +10948,106 @@
     }
   },
   {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kladovo-iron-gates-danube-panoramic-30975080.jpg",
+    "takenAt": "2026-03-23T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.6125,
+      "lon": 22.6168
+    },
+    "place": {
+      "city": "Kladovo",
+      "country": "Serbia",
+      "display": "Kladovo, Serbia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/30975080/",
+      "photographer": "brluti",
+      "photographerUrl": "https://www.pexels.com/@brluti/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kladovo-iron-gates-cliffs-9220649.jpg",
+    "takenAt": "2026-03-23T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.6125,
+      "lon": 22.6168
+    },
+    "place": {
+      "city": "Kladovo",
+      "country": "Serbia",
+      "display": "Kladovo, Serbia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/9220649/",
+      "photographer": "gip07",
+      "photographerUrl": "https://www.pexels.com/@gip07/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kladovo-golubac-fortress-danube-30926012.jpg",
+    "takenAt": "2026-03-23T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.6125,
+      "lon": 22.6168
+    },
+    "place": {
+      "city": "Kladovo",
+      "country": "Serbia",
+      "display": "Kladovo, Serbia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/30926012/",
+      "photographer": "Nikola Kojevic",
+      "photographerUrl": "https://www.pexels.com/@nikola-kojevic-1608684723/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kladovo-djerdap-riverside-monastery-30975089.jpg",
+    "takenAt": "2026-03-23T15:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.6125,
+      "lon": 22.6168
+    },
+    "place": {
+      "city": "Kladovo",
+      "country": "Serbia",
+      "display": "Kladovo, Serbia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/30975089/",
+      "photographer": "brluti",
+      "photographerUrl": "https://www.pexels.com/@brluti/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2026-03-balkans-roadtrip/IMG20260323153556.jpg",
     "takenAt": "2026-03-23T15:35:56Z",
     "hasGps": true,
@@ -9501,6 +11075,81 @@
       "city": "Belgrade",
       "country": "Serbia",
       "display": "Belgrade, Serbia"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-belgrade-kalemegdan-aerial-danube-34432819.jpg",
+    "takenAt": "2026-03-24T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.8125,
+      "lon": 20.4612
+    },
+    "place": {
+      "city": "Belgrade",
+      "country": "Serbia",
+      "display": "Belgrade, Serbia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/34432819/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-belgrade-saint-sava-aerial-29202319.jpg",
+    "takenAt": "2026-03-24T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.8125,
+      "lon": 20.4612
+    },
+    "place": {
+      "city": "Belgrade",
+      "country": "Serbia",
+      "display": "Belgrade, Serbia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/29202319/",
+      "photographer": "thetubaguy",
+      "photographerUrl": "https://www.pexels.com/@thetubaguy/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-belgrade-skadarlija-baroque-townhouses-18419135.jpg",
+    "takenAt": "2026-03-24T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.8125,
+      "lon": 20.4612
+    },
+    "place": {
+      "city": "Belgrade",
+      "country": "Serbia",
+      "display": "Belgrade, Serbia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/18419135/",
+      "photographer": "Neon Joi",
+      "photographerUrl": "https://www.pexels.com/@685205478/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
