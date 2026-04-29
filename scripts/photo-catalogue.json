@@ -5238,81 +5238,6 @@
     }
   },
   {
-    "src": "trips/2023-07-uk-tour/pexels-london-tower-bridge-bascules-raised-575410.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/575410/",
-      "photographer": "SevenStorm JUHASZIMRUS",
-      "photographerUrl": "https://www.pexels.com/@sevenstormphotography/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-london-big-ben-clear-sky-14711297.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/14711297/",
-      "photographer": "Szymon Shields",
-      "photographerUrl": "https://www.pexels.com/@szymon-shields-1503561/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-london-westminster-bridge-parliament-16233863.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/16233863/",
-      "photographer": "Wender Junior Souza Vieira",
-      "photographerUrl": "https://www.pexels.com/@wender-junior-souza-vieira-9757411/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
     "src": "trips/2023-07-uk-tour/pexels-london-buckingham-palace-facade-16333184.jpg",
     "takenAt": "2023-07-08T12:00:00Z",
     "hasGps": true,
@@ -5358,31 +5283,6 @@
       "url": "https://www.pexels.com/photo/29276670/",
       "photographer": "Vivek Tedla",
       "photographerUrl": "https://www.pexels.com/@vivek-tedla-2076460171/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-london-shard-tower-bridge-sunset-30754172.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/30754172/",
-      "photographer": "Jabez Cutamora",
-      "photographerUrl": "https://www.pexels.com/@jabzee/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
@@ -11809,6 +11709,631 @@
       "city": "Kassel",
       "country": "Germany",
       "display": "Kassel, Germany"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-aerial-cityscape-17291320.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/cityscape-of-tel-aviv-17291320/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-beach-skyscrapers-18837990.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aviv-beach-with-the-view-of-skyscrapers-tel-aviv-israel-18837990/",
+      "photographer": "Solomonik Vik",
+      "photographerUrl": "https://www.pexels.com/@solomonikvik/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-skyline-mediterranean-5028008.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/city-skyline-across-the-ocean-5028008/",
+      "photographer": "Yeshaya Dinerstein",
+      "photographerUrl": "https://www.pexels.com/@yeshaya-dinerstein-683189/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-beachfront-sunny-35916174.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-tel-aviv-beachfront-on-a-sunny-day-35916174/",
+      "photographer": "Samar L",
+      "photographerUrl": "https://www.pexels.com/@samar-l-525068134/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-promenade-mediterranean-35916202.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/bicycle-on-tel-aviv-promenade-overlooking-mediterranean-35916202/",
+      "photographer": "Samar L",
+      "photographerUrl": "https://www.pexels.com/@samar-l-525068134/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-old-city-aerial-25947277.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/view-of-jerusalem-25947277/",
+      "photographer": "Zeev Hazenfratz",
+      "photographerUrl": "https://www.pexels.com/@zeev-hazenfratz-1636750/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-dome-of-the-rock-sunset-18013977.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/dome-of-the-rock-18013977/",
+      "photographer": "Ayse",
+      "photographerUrl": "https://www.pexels.com/@ayse-58498816/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-dome-of-the-rock-arches-11696743.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historical-places-in-jerusalem-11696743/",
+      "photographer": "Yasir Gurbuz",
+      "photographerUrl": "https://www.pexels.com/@yasirgurbuz/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-walled-old-city-27358635.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/the-city-of-jerusalem-is-seen-from-above-27358635/",
+      "photographer": "Solomonik Vik",
+      "photographerUrl": "https://www.pexels.com/@solomonikvik/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-mary-magdalene-domes-17814829.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/church-of-mary-magdalene-in-jerusalem-17814829/",
+      "photographer": "Andromeda99",
+      "photographerUrl": "https://www.pexels.com/@andromeda99/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-bahai-gardens-panorama-18223881.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/bahai-garden-haifa-in-israel-18223881/",
+      "photographer": "Sunbeam",
+      "photographerUrl": "https://www.pexels.com/@sunbeam-114409506/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-bahai-gardens-cityscape-17291338.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/green-gardens-in-cityscape-17291338/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-bahai-port-aerial-17291340.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/drone-shot-of-haifa-in-israel-17291340/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-hilltop-cityview-27638436.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/the-view-of-the-city-from-a-hilltop-27638436/",
+      "photographer": "Haim Charbit",
+      "photographerUrl": "https://www.pexels.com/@haim-charbit-46102840/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-harbor-twilight-34793422.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-haifa-harbor-at-twilight-34793422/",
+      "photographer": "Regan D'Souza",
+      "photographerUrl": "https://www.pexels.com/@regan-dsouza-1315522347/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-train-station-aerial-30499936.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-train-station-and-parking-lot-in-petah-tikva-30499936/",
+      "photographer": "Samir Smier",
+      "photographerUrl": "https://www.pexels.com/@samir-smier-314916757/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-rail-system-aerial-30108617.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-rail-system-in-petah-tikva-israel-30108617/",
+      "photographer": "Samir Smier",
+      "photographerUrl": "https://www.pexels.com/@samir-smier-314916757/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-suburb-skyline-17291329.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/buildings-near-park-in-haifa-in-israel-17291329/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-tramway-modern-building-12286815.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/tramway-and-buildings-in-city-12286815/",
+      "photographer": "Aysegul Aytoren",
+      "photographerUrl": "https://www.pexels.com/@aysegul-aytoren-46790226/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-coastal-suburbs-17291324.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/sea-coast-in-tel-aviv-17291324/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-eye-dusk-thames-33419289.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-the-london-eye-at-dusk-33419289/",
+      "photographer": "Shambadatta",
+      "photographerUrl": "https://www.pexels.com/@shambadatta/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-tower-of-london-fortress-30483647.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/tower-of-london-with-historic-architecture-30483647/",
+      "photographer": "Tom Hermans",
+      "photographerUrl": "https://www.pexels.com/@tom-hermans-2148380566/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-dungeon-themed-historic-crypt-33939371.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-brick-crypt-architecture-with-vaulted-ceilings-33939371/",
+      "photographer": "Anna Rynkowska",
+      "photographerUrl": "https://www.pexels.com/@anna-rynkowska/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-tussauds-themed-wax-sculpture-16035584.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/wax-sculpture-in-a-museum-16035584/",
+      "photographer": "Aysenaz Bilgin",
+      "photographerUrl": "https://www.pexels.com/@aysenaz-bilgin-421884106/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-imperial-war-museum-cannons-34855089.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/imperial-war-museum-front-view-with-cannons-34855089/",
+      "photographer": "Patricio",
+      "photographerUrl": "https://www.pexels.com/@patricio/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   }
 ]
