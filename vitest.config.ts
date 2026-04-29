@@ -34,6 +34,29 @@ export default defineConfig({
         // unit tests by design. Lives in scripts/ but is not part of
         // the runtime surface we want to gate coverage against.
         "scripts/lighthouse-*.mjs",
+        // Photo-pipeline one-shot scripts (G:\ dedup / quarantine /
+        // reorg / cluster / catalogue extension / thin-trip backfill
+        // / GeoCLIP predictions / non-artistic review). Each is run
+        // once against an external photo library and never imported
+        // from app code; unit tests by design are not provided. Per
+        // existing exclude policy ("audit / one-shot tooling").
+        "scripts/apply-geoclip-predictions.mjs",
+        "scripts/build-trip-cluster-doc.mjs",
+        "scripts/cluster-g-trips.mjs",
+        "scripts/extend-catalogue.mjs",
+        "scripts/generate-non-artistic-review.mjs",
+        "scripts/master-dedup-g.mjs",
+        "scripts/quarantine-g-*.mjs",
+        "scripts/reorg-*.mjs",
+        "scripts/scout-g-*.mjs",
+        "scripts/thin-trip-wider-*.mjs",
+        "scripts/write-master-dedup-doc.mjs",
+        // Subfolders under scripts/ are all one-shot rounds / photo
+        // classification / backfill experiments — not runtime code.
+        "scripts/.round4/**",
+        "scripts/.round5/**",
+        "scripts/.balkan-backfill/**",
+        "scripts/photo-classify/**",
         "src/i18n/**",
         "src/app/**/layout.tsx",
         "src/app/**/proxy.ts",
