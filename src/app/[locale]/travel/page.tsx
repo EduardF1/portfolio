@@ -24,12 +24,12 @@ export default async function TravelPage({
   setRequestLocale(locale);
 
   const sp = (await searchParams) ?? {};
-  const initialView: "destinations" | "intensity" | "cities" =
-    sp.map === "intensity"
-      ? "intensity"
-      : sp.map === "cities"
-        ? "cities"
-        : "destinations";
+  // The default view is the combined chloropleth + city-dots `map`.
+  // `?map=destinations` opts back to the simpler country-pin view.
+  // Legacy values (`intensity`, `cities`) are folded into `map` so
+  // older shared links still land on the new combined view.
+  const initialView: "destinations" | "map" =
+    sp.map === "destinations" ? "destinations" : "map";
 
   const t = await getTranslations("travel");
   const tt = await getTranslations("tooltips");
@@ -88,8 +88,7 @@ export default async function TravelPage({
             labels={{
               toggleAriaLabel: t("mapToggleAriaLabel"),
               destinationsLabel: t("mapDestinations"),
-              intensityLabel: t("mapIntensity"),
-              citiesLabel: t("mapCities"),
+              mapLabel: t("mapCombined"),
               legendTitle: t("mapLegendTitle"),
               legendUnit: t("mapLegendUnit"),
               // Pre-resolved {one, other} pair for the city tooltip
