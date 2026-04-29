@@ -1,31 +1,27 @@
 import { test, expect } from "@playwright/test";
 
 /**
- * /travel city dots: gated behind the Cities toggle, hover surfaces a
- * tooltip with `{city}, {country} · {n} photo(s)`, click scrolls to the
- * matching trip card or country tile.
+ * /travel combined Map view: the chloropleth and per-city dots render
+ * together by default. Hover on a dot surfaces a tooltip with
+ * `{city}, {country} · {n} photo(s)`, click scrolls to the matching
+ * trip card or country tile.
  */
 
-test.describe("/travel city overlay", () => {
-  test("Cities toggle reveals dots and hover surfaces a tooltip", async ({
+test.describe("/travel combined map view", () => {
+  test("Map is the default view and renders dots overlaid on the chloropleth", async ({
     page,
   }) => {
     const response = await page.goto("/en/travel");
     expect(response?.status()).toBe(200);
 
-    // The Cities toggle is gated behind a non-empty city list. The
-    // catalogue ships ~74 cities, so the button is always rendered.
-    const citiesToggle = page.getByTestId("map-view-cities");
-    await expect(citiesToggle).toBeVisible();
-    await expect(citiesToggle).toHaveAttribute("aria-pressed", "false");
+    // The combined Map view is the new default — no toggle click
+    // required. Dots render immediately alongside the chloropleth.
+    const mapToggle = page.getByTestId("map-view-map");
+    await expect(mapToggle).toBeVisible();
+    await expect(mapToggle).toHaveAttribute("aria-pressed", "true");
 
-    // No city dots in the default view.
-    await expect(page.locator('[data-testid="city-dot"]').first()).toHaveCount(
-      0,
-    );
-
-    await citiesToggle.click();
-    await expect(citiesToggle).toHaveAttribute("aria-pressed", "true");
+    // Legend appears in the combined view.
+    await expect(page.getByTestId("map-legend")).toBeVisible();
 
     const dots = page.locator('[data-testid="city-dot"]');
     const count = await dots.count();
@@ -57,14 +53,44 @@ test.describe("/travel city overlay", () => {
     expect(tooltipText).toMatch(/^.+,\s.+\s·\s\d+\sphotos?$/);
   });
 
-  test("URL ?map=cities deep-links into the Cities view", async ({ page }) => {
+  test("Destinations toggle hides city dots and shows country pins", async ({
+    page,
+  }) => {
+    await page.goto("/en/travel");
+    const destToggle = page.getByTestId("map-view-destinations");
+    await expect(destToggle).toBeVisible();
+    await destToggle.click();
+    await expect(destToggle).toHaveAttribute("aria-pressed", "true");
+    await expect(page.locator('[data-testid="city-dot"]').first()).toHaveCount(
+      0,
+    );
+  });
+
+  test("legacy ?map=cities deep-link is folded into the combined Map view", async ({
+    page,
+  }) => {
     await page.goto("/en/travel?map=cities");
-    await expect(page.getByTestId("map-view-cities")).toHaveAttribute(
+    // Older shared link still lands on something useful: the combined
+    // Map view, with both chloropleth and city dots visible.
+    await expect(page.getByTestId("map-view-map")).toHaveAttribute(
       "aria-pressed",
       "true",
     );
     await expect(
       page.locator('[data-testid="city-dot"]').first(),
     ).toBeVisible();
+  });
+
+  test("?map=destinations deep-links into the simpler Destinations view", async ({
+    page,
+  }) => {
+    await page.goto("/en/travel?map=destinations");
+    await expect(page.getByTestId("map-view-destinations")).toHaveAttribute(
+      "aria-pressed",
+      "true",
+    );
+    await expect(page.locator('[data-testid="city-dot"]').first()).toHaveCount(
+      0,
+    );
   });
 });
