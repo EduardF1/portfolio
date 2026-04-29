@@ -38,7 +38,7 @@ const ITALY_TRIP = {
   year: 2024,
   monthLabel: "April 2024",
   dateRange: "12–18 April 2024",
-  photoCount: 2,
+  photoCount: 5,
   primaryCity: "Rome",
   startsAt: "2024-04-12T10:00:00Z",
   endsAt: "2024-04-18T10:00:00Z",
@@ -58,11 +58,41 @@ const ITALY_TRIP = {
       filename: "rome-2.jpg",
       src: "/photos/rome-2.jpg",
       alt: "Rome, Italy",
-      takenAt: "2024-04-18T10:00:00Z",
+      takenAt: "2024-04-13T10:00:00Z",
       city: "Rome",
       country: "Italy",
       lat: 41.9,
       lon: 12.5,
+    },
+    {
+      filename: "rome-3.jpg",
+      src: "/photos/rome-3.jpg",
+      alt: "Rome, Italy",
+      takenAt: "2024-04-14T10:00:00Z",
+      city: "Rome",
+      country: "Italy",
+      lat: 41.9,
+      lon: 12.5,
+    },
+    {
+      filename: "florence-1.jpg",
+      src: "/photos/florence-1.jpg",
+      alt: "Florence, Italy",
+      takenAt: "2024-04-17T10:00:00Z",
+      city: "Florence",
+      country: "Italy",
+      lat: 43.77,
+      lon: 11.25,
+    },
+    {
+      filename: "florence-2.jpg",
+      src: "/photos/florence-2.jpg",
+      alt: "Florence, Italy",
+      takenAt: "2024-04-18T10:00:00Z",
+      city: "Florence",
+      country: "Italy",
+      lat: 43.77,
+      lon: 11.25,
     },
   ],
 };
@@ -70,6 +100,22 @@ const ITALY_TRIP = {
 vi.mock("@/lib/trips", () => ({
   getTrips: async () => [ITALY_TRIP],
   getTrip: async (slug: string) => (slug === ITALY_TRIP.slug ? ITALY_TRIP : null),
+}));
+
+// Country-card city order: Rome (3 photos) before Florence (2 photos).
+vi.mock("@/lib/travel-locations", () => ({
+  getCitiesByCountry: async () => [
+    {
+      country: "Italy",
+      slug: "italy",
+      cities: [
+        { name: "Rome", photoCount: 3, primaryTripSlug: "italy-2024-04" },
+        { name: "Florence", photoCount: 2, primaryTripSlug: "italy-2024-04" },
+      ],
+      photoCount: 5,
+      primaryTripSlug: "italy-2024-04",
+    },
+  ],
 }));
 
 const localeMock = { current: "en" as "en" | "da" };
@@ -114,10 +160,10 @@ afterEach(() => {
   cleanup();
 });
 
-import TripPhotosPage from "./page";
+import TripPhotosPage, { groupTripPhotosByCity } from "./page";
 
 describe("TripPhotosPage smoke", () => {
-  it("renders the heading, date range, intro line, and a thumbnail in English", async () => {
+  it("renders the heading, date range, intro line, and a thumbnail per photo in English", async () => {
     localeMock.current = "en";
     render(
       await TripPhotosPage({
@@ -132,9 +178,35 @@ describe("TripPhotosPage smoke", () => {
     expect(
       screen.getByText(/stretch through Italy in April 2024/),
     ).toBeInTheDocument();
-    // Lightbox renders a thumbnail per photo (one button each).
+    // Each city section now hosts its own lightbox grid; total
+    // thumbnails across all sections still equals trip.photoCount.
     const thumbs = screen.getAllByTestId("lightbox-thumb");
     expect(thumbs.length).toBe(ITALY_TRIP.photoCount);
+  });
+
+  it("renders city sections in the same order as the country card", async () => {
+    localeMock.current = "en";
+    render(
+      await TripPhotosPage({
+        params: Promise.resolve({ locale: "en", slug: ITALY_TRIP.slug }),
+      }),
+    );
+    const sections = screen.getAllByTestId("city-section");
+    // Rome (3 photos, photoCount-desc winner) appears before Florence.
+    expect(sections.map((s) => s.getAttribute("data-city"))).toEqual([
+      "Rome",
+      "Florence",
+    ]);
+    // Each section has an `id="city-<slug>"` anchor.
+    expect(sections[0].id).toBe("city-rome");
+    expect(sections[1].id).toBe("city-florence");
+    // Each section has a heading with the city name.
+    expect(
+      screen.getByRole("heading", { level: 2, name: "Rome" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { level: 2, name: "Florence" }),
+    ).toBeInTheDocument();
   });
 
   it("renders the Danish intro line for the same trip", async () => {
@@ -147,5 +219,55 @@ describe("TripPhotosPage smoke", () => {
     expect(
       screen.getByText(/Billeder fra en tur gennem Italy i April 2024/),
     ).toBeInTheDocument();
+  });
+});
+
+describe("groupTripPhotosByCity", () => {
+  type T = Parameters<typeof groupTripPhotosByCity>[0][number];
+  const photo = (filename: string, city?: string): T => ({
+    filename,
+    src: `/photos/${filename}`,
+    alt: city ?? "",
+    takenAt: "2024-04-12T10:00:00Z",
+    city,
+    country: "Italy",
+    lat: 0,
+    lon: 0,
+  });
+
+  it("emits sections in the requested city order", () => {
+    const sections = groupTripPhotosByCity(
+      [photo("a.jpg", "Florence"), photo("b.jpg", "Rome")],
+      ["Rome", "Florence"],
+    );
+    expect(sections.map((s) => s.city)).toEqual(["Rome", "Florence"]);
+  });
+
+  it("appends cities not in the order list alphabetically", () => {
+    const sections = groupTripPhotosByCity(
+      [
+        photo("a.jpg", "Rome"),
+        photo("b.jpg", "Verona"),
+        photo("c.jpg", "Naples"),
+      ],
+      ["Rome"],
+    );
+    expect(sections.map((s) => s.city)).toEqual(["Rome", "Naples", "Verona"]);
+  });
+
+  it("collects city-less photos under a null bucket at the end", () => {
+    const sections = groupTripPhotosByCity(
+      [photo("a.jpg", "Rome"), photo("b.jpg", undefined)],
+      ["Rome"],
+    );
+    expect(sections.map((s) => s.city)).toEqual(["Rome", null]);
+  });
+
+  it("skips cities with no photos in the trip", () => {
+    const sections = groupTripPhotosByCity(
+      [photo("a.jpg", "Rome")],
+      ["Rome", "Florence", "Milan"],
+    );
+    expect(sections.map((s) => s.city)).toEqual(["Rome"]);
   });
 });

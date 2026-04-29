@@ -243,6 +243,148 @@ export function deriveCityDestinations(
 }
 
 /**
+ * Per-country city listing, used by the /travel country cards to
+ * surface the actual cities inside each country (e.g. Romania card →
+ * Bucharest, Brașov, Sibiu, …). Cities are ordered most-photographed
+ * first, with alphabetical tie-break, so the country card and the
+ * per-trip city sections share a stable, intuitive order.
+ *
+ * Each city carries a `primaryTripSlug` so we can deep-link from the
+ * country card or city section into a real photo set.
+ */
+export type CityInCountry = {
+  /** City name as Nominatim returned it. */
+  name: string;
+  /** Number of catalogue photos taken in this city (regardless of GPS). */
+  photoCount: number;
+  /** Trip slug with the most photos from this city, if any. */
+  primaryTripSlug?: string;
+};
+
+export type CountryCities = {
+  /** Country name as Nominatim returned it. */
+  country: string;
+  /** Lower-kebab slug derived from the country name. */
+  slug: string;
+  /** Cities in display order: photoCount desc, alphabetical tie-break. */
+  cities: CityInCountry[];
+  /** Country-wide photo count (sum of cities + city-less entries). */
+  photoCount: number;
+  /** Primary trip slug for the country card click target. We pick the
+   *  most-recent trip so visitors land on the freshest content. */
+  primaryTripSlug?: string;
+};
+
+export async function getCitiesByCountry(): Promise<CountryCities[]> {
+  let raw: string;
+  try {
+    raw = await fs.readFile(CATALOGUE_PATH, "utf-8");
+  } catch {
+    return [];
+  }
+  const items = JSON.parse(raw) as RawCatalogueEntry[];
+  return deriveCitiesByCountry(items);
+}
+
+/**
+ * Pure helper, exported for unit tests. Buckets catalogue entries
+ * by country, then by city, and orders the cities by photo count
+ * (descending) with alphabetical tie-break. Uses `clusterTrips`
+ * to attach a `primaryTripSlug` to each city and to pick the
+ * most-recent trip slug as the country's click target.
+ */
+export function deriveCitiesByCountry(
+  items: RawCatalogueEntry[],
+): CountryCities[] {
+  const trips = clusterTrips(items);
+
+  // Per-country aggregate.
+  type CountryAgg = {
+    country: string;
+    cities: Map<string, { name: string; photoCount: number; srcs: string[] }>;
+    photoCount: number;
+  };
+  const byCountry = new Map<string, CountryAgg>();
+
+  for (const item of items) {
+    const country = item.place?.country;
+    if (!country) continue;
+    let agg = byCountry.get(country);
+    if (!agg) {
+      agg = { country, cities: new Map(), photoCount: 0 };
+      byCountry.set(country, agg);
+    }
+    agg.photoCount += 1;
+    const city = item.place?.city;
+    if (!city) continue;
+    let cb = agg.cities.get(city);
+    if (!cb) {
+      cb = { name: city, photoCount: 0, srcs: [] };
+      agg.cities.set(city, cb);
+    }
+    cb.photoCount += 1;
+    cb.srcs.push(item.src);
+  }
+
+  // Pre-index trip photos by filename so we can score cities cheaply.
+  // For each city we count overlap with every trip's photo filenames
+  // and pick the dominant trip; ties break alphabetically by slug for
+  // determinism.
+  function pickTripSlugForCity(srcs: string[]): string | undefined {
+    if (trips.length === 0 || srcs.length === 0) return undefined;
+    const cityFiles = new Set(srcs);
+    let bestSlug: string | undefined;
+    let bestScore = 0;
+    for (const trip of trips) {
+      let score = 0;
+      for (const photo of trip.photos) {
+        if (cityFiles.has(photo.filename)) score += 1;
+      }
+      if (
+        score > bestScore ||
+        (score > 0 && score === bestScore && bestSlug && trip.slug < bestSlug)
+      ) {
+        bestScore = score;
+        bestSlug = trip.slug;
+      }
+    }
+    return bestSlug;
+  }
+
+  // Pick the most-recent trip slug for the country click target.
+  // `trips` is already sorted most-recent first, so we just take the
+  // first one matching the country (case-insensitive).
+  function pickPrimaryTripForCountry(country: string): string | undefined {
+    const target = country.toLowerCase();
+    return trips.find((t) => t.country.toLowerCase() === target)?.slug;
+  }
+
+  const out: CountryCities[] = [];
+  for (const agg of byCountry.values()) {
+    const cities: CityInCountry[] = [...agg.cities.values()]
+      .map((cb) => ({
+        name: cb.name,
+        photoCount: cb.photoCount,
+        primaryTripSlug: pickTripSlugForCity(cb.srcs),
+      }))
+      .sort((a, b) => {
+        if (b.photoCount !== a.photoCount) return b.photoCount - a.photoCount;
+        return a.name.localeCompare(b.name);
+      });
+    out.push({
+      country: agg.country,
+      slug: slugify(agg.country),
+      cities,
+      photoCount: agg.photoCount,
+      primaryTripSlug: pickPrimaryTripForCountry(agg.country),
+    });
+  }
+  // Country order matches getTravelDestinations(): alphabetical by name.
+  out.sort((a, b) => a.country.localeCompare(b.country));
+  return out;
+}
+
+/**
  * Per-country distinct trip count, derived from the same catalogue
  * using the date+country, ≤3-day-gap clustering rule (see
  * `src/lib/trip-clusters.ts`). Used by the /travel chloropleth toggle

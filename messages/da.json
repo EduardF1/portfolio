@@ -263,7 +263,9 @@
     "countLabel": "Foto {current} af {total}",
     "prev": "Forrige foto",
     "next": "Næste foto",
-    "close": "Luk"
+    "close": "Luk",
+    "otherCity": "Andre steder",
+    "sparseCity": "flere på vej"
   },
   "contact": {
     "kicker": "Kontakt",
