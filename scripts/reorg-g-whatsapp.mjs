@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
- * Reorganize WhatsApp media in G:\Poze\ root into per-year subfolders.
+ * Reorganize WhatsApp media in G:\Photos\ root into per-year subfolders.
  *
- * Source: G:\Poze\IMG-YYYYMMDD-WAxxxx.jpg (root only — no subfolder recursion)
- * Target: G:\Poze\WhatsApp-by-year\<YYYY>\IMG-YYYYMMDD-WAxxxx.jpg
+ * Source: G:\Photos\IMG-YYYYMMDD-WAxxxx.jpg (root only — no subfolder recursion)
+ * Target: G:\Photos\WhatsApp-by-year\<YYYY>\IMG-YYYYMMDD-WAxxxx.jpg
  *
  * Move-only (fs.renameSync — atomic on the same volume). No deletes. Reversible
  * via the log file at scripts/.g-whatsapp-reorg.log.
@@ -13,7 +13,7 @@
  *   node scripts/reorg-g-whatsapp.mjs --dry-run  # plan only, no FS writes
  *
  * Constraints (P13 blocklist + spec):
- *   - Only files in G:\Poze\ root, matching IMG-YYYYMMDD-WAxxxx.jpg.
+ *   - Only files in G:\Photos\ root, matching IMG-YYYYMMDD-WAxxxx.jpg.
  *   - Subfolders left untouched (CV+CL, Driving license, ID, Passport, Residence
  *     permit photos, etc.).
  *   - No camera-source files (IMG_YYYYMMDD_HHMMSS.jpg, IMG2026MMDDHHMMSS.jpg, etc.).
@@ -27,7 +27,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const SOURCE_ROOT = 'G:\\Poze';
+const SOURCE_ROOT = 'G:\\Photos';
 const TARGET_PARENT = path.join(SOURCE_ROOT, 'WhatsApp-by-year');
 const LOG_PATH = path.join(__dirname, '.g-whatsapp-reorg.log');
 

@@ -2,7 +2,7 @@
 
 ## Problem
 
-The portfolio's photo catalogue (`scripts/photo-catalogue.json`, 73 entries) is built by `scripts/build-photo-catalogue.mjs`, which reads EXIF GPS via PowerShell and reverse-geocodes through Nominatim. Eduard wants to expand to >=5 photos per trip drawn from `G:\Poze` (~38k images), but a meaningful fraction of those have no EXIF GPS because phone GPS was off during shooting. He still knows where every trip happened. The question: which tool/workflow lets us label the missing photos cheaply, on Windows, and feed the result back into the existing JSON pipeline without locking data into a proprietary format.
+The portfolio's photo catalogue (`scripts/photo-catalogue.json`, 73 entries) is built by `scripts/build-photo-catalogue.mjs`, which reads EXIF GPS via PowerShell and reverse-geocodes through Nominatim. Eduard wants to expand to >=5 photos per trip drawn from `G:\Photos` (~38k images), but a meaningful fraction of those have no EXIF GPS because phone GPS was off during shooting. He still knows where every trip happened. The question: which tool/workflow lets us label the missing photos cheaply, on Windows, and feed the result back into the existing JSON pipeline without locking data into a proprietary format.
 
 ## Candidates
 
@@ -27,7 +27,7 @@ Trade-offs: GeoSetter is unmaintained (last release 2017) but stable for this re
 
 ## Quickstart
 
-1. Implement the temporal inference pass in `build-photo-catalogue.mjs` (sketch below). Re-run `node scripts/build-photo-catalogue.mjs --folder 'G:\Poze' --write` and inspect `photo-catalogue.json` for `inferredPlace: true` entries.
+1. Implement the temporal inference pass in `build-photo-catalogue.mjs` (sketch below). Re-run `node scripts/build-photo-catalogue.mjs --folder 'G:\Photos' --write` and inspect `photo-catalogue.json` for `inferredPlace: true` entries.
 2. For photos still without a place, install GeoSetter (`https://geosetter.de/en/download-en/`) and point it at the parent folder.
 3. In GeoSetter: select the unlocated photos, drag them onto the map (or right-click -> Set Position), then **Images -> Save Changes** to write `.xmp` sidecars. Leave **Edit -> Preferences -> File Options -> Write to original file** *off* if you want to avoid touching the JPEG bytes.
 4. Re-run the catalogue builder. `extract-exif.ps1` already parses GPS from sidecars when present; if not, add `Get-Item ${file}.xmp` fallback there.

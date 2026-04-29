@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 /**
- * Cluster photos within each G:\Poze\<YYYY>\ year-bucket into semantically-named
+ * Cluster photos within each G:\Photos\<YYYY>\ year-bucket into semantically-named
  * trip subfolders.
  *
- * Source: G:\Poze\<YYYY>\*.jpg (year root only — no recursion into nested
+ * Source: G:\Photos\<YYYY>\*.jpg (year root only — no recursion into nested
  *         trip subfolders that may already exist).
- * Target: G:\Poze\<YYYY>\<City> <YY>\*.jpg (trip-named subfolder, e.g.
+ * Target: G:\Photos\<YYYY>\<City> <YY>\*.jpg (trip-named subfolder, e.g.
  *         "Hamburg 22", "Milan 24"). Multi-city/region trips: "<Primary>
  *         + <Region> trip" (kept rare; default is short single-city form).
  *
@@ -47,7 +47,7 @@ import { spawnSync } from 'node:child_process';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const SOURCE_ROOT = 'G:\\Poze';
+const SOURCE_ROOT = 'G:\\Photos';
 const LOG_PATH = path.join(__dirname, '.g-trip-cluster.log');
 const NOMINATIM_CACHE_DIR = path.join(
   __dirname,

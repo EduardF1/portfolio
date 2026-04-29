@@ -1,5 +1,7 @@
 # Session handoff
 
+> Path renamed from `G:\Photos` to `G:\Photos` on 2026-04-29; pre-rename log entries reference the old name and remain valid.
+
 > Updated as the session progresses. Next session: read this first.
 
 ## Round 6 — autonomous night run (2026-04-28 → 2026-04-29)
@@ -63,14 +65,14 @@ Outputs in `scripts/.photo-classify/P*/`. Still NOT committed (waiting for conso
 | P8 | G:\ perceptual dedup | partial — agent stalled | NDJSON may be incomplete |
 | P11 | GPS cluster validation | done | 87.8% match, 23 mismatches all in `2026-03-balkans-roadtrip/` (Italy/Germany/Austria transit legs) |
 | P12 | burst detection | done | 94 bursts, 379 demote candidates; **caveat**: pexels stocks cluster as "bursts" by mtime artifact |
-| P13 | sensitive content sweep | done | **CRITICAL**: 15 sensitive folders on G:\ (Netcompany NDA backup, Important Documents, Whatsapp, Citizenship); 6+2 on D:\\Portfolio; only safe source roots are `G:\Poze` + `D:\Portfolio\poze`. Recommended new §6.1 source-folder allowlist for `docs/photo-organization.md`. |
+| P13 | sensitive content sweep | done | **CRITICAL**: 15 sensitive folders on G:\ (Netcompany NDA backup, Important Documents, Whatsapp, Citizenship); 6+2 on D:\\Portfolio; only safe source roots are `G:\Photos` + `D:\Portfolio\poze`. Recommended new §6.1 source-folder allowlist for `docs/photo-organization.md`. |
 | P14 | EXIF camera fingerprinting | report written | |
 
 **Photo agents updated (P3, P7, P9 also done):**
 
 - **P3** (2021-2022): 6,272 photos / 1,949 GPS-tagged. Found 2 trips not yet on /travel: Hamburg/Lüneburg Oct 2022 (worth `public/photos/trips/2022-10-de-hamburg`) and Greece 2022. exiftool NOT installed on the system — recommend installing before next pass (78% pure-PowerShell EXIF coverage today).
 - **P7** (D:\Portfolio): 70k files / 91.5GB. Big extraction candidates: Ernesto wedding zip 16.97GB, 1749442124878.jpg.zip 1.35GB, Photos Hamburg.zip 1.32GB. 92 smaller archives in father's TATA construction archive. 95 video files / 1.2GB; TS2 interview .mp4s duplicated 4× (cleanup candidate). Recommended target tree: `D:\Portfolio\classified\{trips,personal,subjects,by-year}\` + `archive-legacy\poze\` non-destructively.
-- **P9** (best-of shortlist): strongest heroes Schwangau/Neuschwanstein (Mar 2026) + Málaga Roman Theatre. ~150 unimported Hamburg 2022 photos in `G:\Poze\Ha_Photos\` + `D:\Portfolio\poze\Ha_Photos\` = biggest single import opportunity, would flip Hamburg trip slot from "thin (2 own + 3 stock)" to "well-covered". Thin categories confirmed: BVB (1 photo only), cars (4 prior, 1 valid after R5 audit), food/culinary (zero), self-portraits (P3 classifier excludes — needs new heuristic + hand-pass on `G:\Poze\Instagram\`'s 143 curated frames).
+- **P9** (best-of shortlist): strongest heroes Schwangau/Neuschwanstein (Mar 2026) + Málaga Roman Theatre. ~150 unimported Hamburg 2022 photos in `G:\Photos\Ha_Photos\` + `D:\Portfolio\poze\Ha_Photos\` = biggest single import opportunity, would flip Hamburg trip slot from "thin (2 own + 3 stock)" to "well-covered". Thin categories confirmed: BVB (1 photo only), cars (4 prior, 1 valid after R5 audit), food/culinary (zero), self-portraits (P3 classifier excludes — needs new heuristic + hand-pass on `G:\Photos\Instagram\`'s 143 curated frames).
 
 **Still running photo agents**: P10 (per-slot recommendations) only.
 
@@ -88,7 +90,7 @@ Will reclaim ~20GB.
 ### Next-session priorities (in order)
 1. **Disk hygiene first**: purge agent worktrees (~20GB reclaimable). Disk at 18GB free / 95% full.
 2. **Fix CI** on PR #18 — identify and fix the new Round 5 test files that call `useTranslations` without `NextIntlClientProvider`. Likely candidates: collection-pages.test.tsx, my-story tests, /now tests added in Round 5 WIP. Once green, merge PR #18 to land Round 5 WIP (audit docs, photo reorg, scaffolds, per-route OG).
-3. **Apply P13 privacy recommendations to docs/photo-organization.md** — add §6.1 source-folder allowlist before any G:\ / D:\Portfolio import. Only safe roots are `G:\Poze` + `D:\Portfolio\poze`.
+3. **Apply P13 privacy recommendations to docs/photo-organization.md** — add §6.1 source-folder allowlist before any G:\ / D:\Portfolio import. Only safe roots are `G:\Photos` + `D:\Portfolio\poze`.
 4. **Triage 15 Round 6 PRs** (#19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33). Suggested merge order:
    - **First batch**: #29 (A1 per-trip), #19 (A2 heatmap), #22 (A9 contrast), #28 (A12 tablet), #30 (A11 safari) — pure-code, low risk, no env requirements.
    - **Second batch**: #25 (A8 chip demos), #26 (A6 shiki), #24 (A14 proto-motion), #32 (A13 pdf-cv), #31 (A15 hardening) — additive features.
@@ -97,11 +99,11 @@ Will reclaim ~20GB.
 5. **A4 visit-notify cron** — set Vercel env vars (NEXT_PUBLIC_PROTO_VISIT_DIGEST=1, CRON_SECRET, DAILY_SALT, RESEND_API_KEY) before merge OR merge dark.
 6. **A10 contact-form** — decide 4MB vs separate upload route for PDF ceiling.
 7. **Photo classification consolidation** — merge per-slice NDJSON (P1, P3, P4, P5; P2 + P8 partial), write `docs/photo-classification-plan.md`, propose moves with Eduard approval. Then act on:
-   - Hamburg 2022 import (~150 photos in `G:\Poze\Ha_Photos\` + `D:\Portfolio\poze\Ha_Photos\`) — biggest single content win
+   - Hamburg 2022 import (~150 photos in `G:\Photos\Ha_Photos\` + `D:\Portfolio\poze\Ha_Photos\`) — biggest single content win
    - New trip pages: `2022-10-de-hamburg`, `2022-XX-greece` (P3 found these GPS-clustered but not on /travel yet)
    - 9 stock photo replacements per P6/stock-audit.md (tonal mismatches)
    - 23 photo re-clusterings in `2026-03-balkans-roadtrip/` per P11 (transit legs Italy/Germany/Austria)
-   - Self-portrait hand-pass on `G:\Poze\Instagram\` (143 frames)
+   - Self-portrait hand-pass on `G:\Photos\Instagram\` (143 frames)
 8. **Re-run P2 + P8** if their NDJSONs are incomplete (they stalled in monitor-wait).
 9. **Lock files**: if more `npm install` happens, recommit lock alongside package.json.
 10. **Install exiftool** on the Windows host before next photo pass — current pure-PowerShell EXIF reader covers ~78% of files (HEIC/PNG/RAW miss).

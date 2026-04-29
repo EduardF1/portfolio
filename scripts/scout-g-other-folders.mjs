@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Scout G:\ for photo locations OUTSIDE G:\Poze\ and G:\Whatsapp\.
+// Scout G:\ for photo locations OUTSIDE G:\Photos\ and G:\Whatsapp\.
 // READ-ONLY. Outputs JSON summary at scripts/.g-other-folders-scout.json.
 // Cap recursion depth at 4. If folder has >10k files, sample every 100th when reading EXIF.
 
@@ -19,7 +19,7 @@ const SKIP = new Set([
   'Important Documents',
   'backup NC (24.02.2026)',
   'Whatsapp',
-  'Poze',
+  'Photos',
   'Dev',
   'Documents',
   'Calendars',
@@ -59,7 +59,7 @@ function walkPhotos(dir, depth, out) {
   }
 }
 
-// Build set of filenames already in G:\Poze\ for duplicate cross-check.
+// Build set of filenames already in G:\Photos\ for duplicate cross-check.
 function indexPozeFilenames() {
   const set = new Set();
   function walk(dir, depth) {
@@ -79,7 +79,7 @@ function indexPozeFilenames() {
       }
     }
   }
-  walk('G:\\Poze', 0);
+  walk('G:\\Photos', 0);
   return set;
 }
 
@@ -120,7 +120,7 @@ function pickRandom(arr, n) {
 }
 
 function main() {
-  console.log('Indexing G:\\Poze\\ filenames...');
+  console.log('Indexing G:\\Photos\\ filenames...');
   const pozeIndex = indexPozeFilenames();
   console.log(`  ${pozeIndex.size} photo filenames in Poze.`);
 

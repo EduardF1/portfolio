@@ -1,5 +1,5 @@
 // One-shot helper for the photo-catalogue-extension task.
-// Reads .gposze-exif.ndjson (output of extract-exif-list.ps1 on G:\Poze candidates),
+// Reads .gposze-exif.ndjson (output of extract-exif-list.ps1 on G:\Photos candidates),
 // filters to photos in trip date windows + with GPS + not already in catalogue,
 // reverse-geocodes them via the existing geocode cache (and Nominatim if missed),
 // and appends matches into scripts/photo-catalogue.json.
@@ -73,7 +73,7 @@ for (const line of readFileSync(ndjsonPath, "utf8").split(/\r?\n/)) {
   }
 }
 
-console.log(`Loaded ${rows.length} EXIF rows from G:\\Poze candidates.`);
+console.log(`Loaded ${rows.length} EXIF rows from G:\\Photos candidates.`);
 
 // Filter to GPS-bearing rows with parseable dates that fall in any trip window
 // AND aren't already catalogued.

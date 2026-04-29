@@ -40,7 +40,7 @@ function indexPozeFilenames() {
       }
     }
   }
-  walk('G:\\Poze');
+  walk('G:\\Photos');
   return set;
 }
 
@@ -134,7 +134,7 @@ function classify({ folder, photoCount, totalFiles, dupCount, sample, dateRange 
 }
 
 function main() {
-  console.log('Indexing G:\\Poze\\ filenames...');
+  console.log('Indexing G:\\Photos\\ filenames...');
   const pozeIndex = indexPozeFilenames();
   console.log(`  ${pozeIndex.size} photo filenames in Poze.`);
 

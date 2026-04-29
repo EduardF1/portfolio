@@ -4,8 +4,8 @@
 //   - date window = trip date min/max ± 30 days
 //   - GPS bbox    = trip GPS centroid ± 3° (or country bbox fallback)
 //
-// Source pool: every JPG under G:\Poze\<year>\ (recursively, including the
-// trip cluster folders like `2019\Belgium 19 (07)\`) plus G:\Poze\Poze Huawei\.
+// Source pool: every JPG under G:\Photos\<year>\ (recursively, including the
+// trip cluster folders like `2019\Belgium 19 (07)\`) plus G:\Photos\Poze Huawei\.
 // Skips: .duplicates, .review-for-delete, Screenshots, WhatsApp-by-year and
 // any P13/sensitive folder names.
 //
@@ -33,18 +33,18 @@ const CATALOGUE_PATH = join(__dirname, "photo-catalogue.json");
 const SHORTLIST_PATH = join(__dirname, ".thin-trip-wider-shortlist.json");
 const EXIF_NDJSON = join(__dirname, ".thin-trip-wider-exif.ndjson");
 const SCAN_TARGETS = [
-  "G:\\Poze\\2016",
-  "G:\\Poze\\2017",
-  "G:\\Poze\\2018",
-  "G:\\Poze\\2019",
-  "G:\\Poze\\2020",
-  "G:\\Poze\\2021",
-  "G:\\Poze\\2022",
-  "G:\\Poze\\2023",
-  "G:\\Poze\\2024",
-  "G:\\Poze\\2025",
-  "G:\\Poze\\2026",
-  "G:\\Poze\\Poze Huawei",
+  "G:\\Photos\\2016",
+  "G:\\Photos\\2017",
+  "G:\\Photos\\2018",
+  "G:\\Photos\\2019",
+  "G:\\Photos\\2020",
+  "G:\\Photos\\2021",
+  "G:\\Photos\\2022",
+  "G:\\Photos\\2023",
+  "G:\\Photos\\2024",
+  "G:\\Photos\\2025",
+  "G:\\Photos\\2026",
+  "G:\\Photos\\Poze Huawei",
 ];
 const EXCLUDE_DIR_NAMES = [
   "Screenshots",
@@ -208,7 +208,7 @@ function ensureExifDump() {
     console.log(`Reusing existing EXIF dump: ${EXIF_NDJSON}`);
     return;
   }
-  console.log("Running exiftool over G:\\Poze\\... (this can take several minutes)");
+  console.log("Running exiftool over G:\\Photos\\... (this can take several minutes)");
   const out = [];
   for (const target of SCAN_TARGETS) {
     if (!existsSync(target)) {

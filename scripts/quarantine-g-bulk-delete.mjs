@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Quarantine PR #36 bulk-delete candidates on G:\Poze\ + D:\Portfolio\poze\.
+ * Quarantine PR #36 bulk-delete candidates on G:\Photos\ + D:\Portfolio\poze\.
  *
  * Reads scripts/.photo-classify/P-orphans/scan.ndjson (one JSON record per file,
  * 75,719 records) and re-derives the 3,754 "high-confidence non-content"
@@ -28,7 +28,7 @@
  *     15. ^icon\.                   UI asset                   (~2)
  *
  * Per file: move to <root>\.review-for-delete\<original-relative-path> preserving
- * directory structure. <root> = G:\Poze (for G-side) or D:\Portfolio\poze (for
+ * directory structure. <root> = G:\Photos (for G-side) or D:\Portfolio\poze (for
  * D-side).
  *
  * REVERSIBLE: every move is logged TSV-style to scripts/.g-bulk-delete-quarantine.log.
@@ -37,7 +37,7 @@
  * STRICT CONSTRAINTS:
  *   - Move only, never delete.
  *   - Skip every file under any P13 sensitive folder (G + D).
- *   - Skip G:\Poze\WhatsApp-by-year\ (PR #57 reorg target).
+ *   - Skip G:\Photos\WhatsApp-by-year\ (PR #57 reorg target).
  *   - Skip <root>\.duplicates\ (PR #61 quarantine tree).
  *   - Skip <root>\.review-for-delete\ (this script's own quarantine tree).
  *   - On destination collision, append a short content hash suffix and log it.
@@ -58,7 +58,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const G_ROOT = 'G:\\Poze';
+const G_ROOT = 'G:\\Photos';
 const D_ROOT = 'D:\\Portfolio\\poze';
 const QUARANTINE_DIRNAME = '.review-for-delete';
 const INPUT = path.join(__dirname, '.photo-classify', 'P-orphans', 'scan.ndjson');
@@ -69,12 +69,12 @@ const SUMMARY_PATH = path.join(__dirname, '.g-bulk-delete-quarantine.summary.jso
 // G + D side equivalents.
 const SENSITIVE_PREFIXES = [
   // G side
-  'g:\\poze\\cv + cl photos\\',
-  'g:\\poze\\driving license photos\\',
-  'g:\\poze\\id photos\\',
-  'g:\\poze\\passport photos\\',
-  'g:\\poze\\residence permit photos\\',
-  'g:\\poze\\camera roll iphone backup\\',
+  'g:\\photos\\cv + cl photos\\',
+  'g:\\photos\\driving license photos\\',
+  'g:\\photos\\id photos\\',
+  'g:\\photos\\passport photos\\',
+  'g:\\photos\\residence permit photos\\',
+  'g:\\photos\\camera roll iphone backup\\',
   'g:\\whatsapp\\',
   'g:\\important documents\\',
   // D side equivalents
@@ -93,9 +93,9 @@ const SENSITIVE_WILDCARD_PREFIXES = [
 
 // Carve-out: PR #57 WhatsApp-by-year reorg + PR #61 .duplicates + this script's own tree.
 const CARVE_OUT_PREFIXES = [
-  'g:\\poze\\whatsapp-by-year\\',
-  'g:\\poze\\.duplicates\\',
-  'g:\\poze\\.review-for-delete\\',
+  'g:\\photos\\whatsapp-by-year\\',
+  'g:\\photos\\.duplicates\\',
+  'g:\\photos\\.review-for-delete\\',
   'd:\\portfolio\\poze\\.duplicates\\',
   'd:\\portfolio\\poze\\.review-for-delete\\',
 ];
@@ -134,7 +134,7 @@ function isCarveOut(p) {
 // Returns G_ROOT or D_ROOT given a path, or null if neither.
 function rootFor(p) {
   const n = normalize(p);
-  if (n.startsWith('g:\\poze\\')) return G_ROOT;
+  if (n.startsWith('g:\\photos\\')) return G_ROOT;
   if (n.startsWith('d:\\portfolio\\poze\\')) return D_ROOT;
   return null;
 }
@@ -143,10 +143,10 @@ function rootFor(p) {
 function folderCategory(p) {
   const n = normalize(p);
   // Match \Browser\ as a path segment under root.
-  // For G:\Poze\Browser\foo.jpg → contains '\poze\browser\'
+  // For G:\Photos\Browser\foo.jpg → contains '\photos\browser\'
   // For D:\Portfolio\poze\Browser\foo.jpg → contains '\poze\browser\'
-  if (n.includes('\\poze\\browser\\')) return 'folder:Browser';
-  if (n.includes('\\poze\\x\\')) return 'folder:X';
+  if (n.includes('\\photos\\browser\\') || n.includes('\\poze\\browser\\')) return 'folder:Browser';
+  if (n.includes('\\photos\\x\\') || n.includes('\\poze\\x\\')) return 'folder:X';
   return null;
 }
 

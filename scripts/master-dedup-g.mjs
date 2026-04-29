@@ -2,14 +2,14 @@
 /**
  * Master G:\ deduplication — broader-scope sweep across all photo-bearing
  * roots on G:\ (per docs/g-other-folders-scout.md), unified with the
- * already-indexed G:\Poze\ tree.
+ * already-indexed G:\Photos\ tree.
  *
  * Phase 1 (hashing) runs in PowerShell — see scripts/hash-g-roots.ps1.
  * That script emits per-file dHash records to
  *   scripts/.photo-classify/g-master-dedup/hashes-new.ndjson
  * and reuses
  *   scripts/.photo-classify/P8-redo/hashes.ndjson
- * for the already-hashed G:\Poze\ tree.
+ * for the already-hashed G:\Photos\ tree.
  *
  * Phase 2 (this script):
  *   1. Load all hash records from both NDJSONs.
@@ -21,10 +21,10 @@
  *      Optionally confirm cross-folder near-matches with SHA-256 on the
  *      top-1 representative + the candidate (lightweight).
  *   4. For each group with ≥2 members, pick a keeper:
- *        a) inside G:\Poze\<year>\<cluster>\ (already-organized cluster)
- *        b) inside G:\Poze\<year>\ (year bucket)
- *        c) inside G:\Poze\WhatsApp-by-year\<year>\
- *        d) inside G:\Poze\ root
+ *        a) inside G:\Photos\<year>\<cluster>\ (already-organized cluster)
+ *        b) inside G:\Photos\<year>\ (year bucket)
+ *        c) inside G:\Photos\WhatsApp-by-year\<year>\
+ *        d) inside G:\Photos\ root
  *        e) inside G:\Video\WhatsApp_Images\
  *        f) anywhere else by file-mtime descending
  *      Tie-break by larger pixel area, then larger size, then earliest
@@ -65,12 +65,12 @@ const LOG_PATH = path.join(__dirname, '.g-master-dedup.log');
 const SUMMARY_PATH = path.join(__dirname, '.g-master-dedup.summary.json');
 
 const SENSITIVE_PREFIXES = [
-  'g:\\poze\\cv + cl photos\\',
-  'g:\\poze\\driving license photos\\',
-  'g:\\poze\\id photos\\',
-  'g:\\poze\\passport photos\\',
-  'g:\\poze\\residence permit photos\\',
-  'g:\\poze\\camera roll iphone backup\\',
+  'g:\\photos\\cv + cl photos\\',
+  'g:\\photos\\driving license photos\\',
+  'g:\\photos\\id photos\\',
+  'g:\\photos\\passport photos\\',
+  'g:\\photos\\residence permit photos\\',
+  'g:\\photos\\camera roll iphone backup\\',
   'g:\\whatsapp\\',
   'g:\\important documents\\',
 ];
@@ -99,11 +99,11 @@ const thresholdArg = argv.indexOf('--threshold');
 // Default Hamming threshold: 0 (exact-dHash match only).
 //
 // Rationale: at the 60k+ photo scale of this G:\ master sweep — across
-// G:\Poze\, G:\Video\WhatsApp_Images\, G:\WD_EXT_HDD\, and
+// G:\Photos\, G:\Video\WhatsApp_Images\, G:\WD_EXT_HDD\, and
 // G:\backup media telefon\ — Hamming threshold ≥ 2 produces transitive
 // cascades that merge unrelated photos via chains of similar-but-different
 // 8x8 dHashes (verified empirically at 8/4/2). PR #61 used threshold=8 on
-// G:\Poze\-only and caught lighting/recompression variants safely. Re-running
+// G:\Photos\-only and caught lighting/recompression variants safely. Re-running
 // at threshold=8 here produced 3,500-member groups containing genuinely
 // different photos.
 //
@@ -152,27 +152,27 @@ function shortHash(s) {
 
 // ---- Keeper priority -------------------------------------------------------
 
-const POZE_YEAR_RE = /^g:\\poze\\(\d{4})\\/i;
-// G:\Poze\<year>\<cluster>\... — cluster present if ≥3 segments after Poze\<year>\
+const POZE_YEAR_RE = /^g:\\photos\\(\d{4})\\/i;
+// G:\Photos\<year>\<cluster>\... — cluster present if ≥3 segments after Photos\<year>\
 function keeperRank(p) {
   const n = normalize(p);
-  const yearMatch = n.match(/^g:\\poze\\(\d{4})\\(.+)$/);
+  const yearMatch = n.match(/^g:\\photos\\(\d{4})\\(.+)$/);
   if (yearMatch) {
     const after = yearMatch[2];
     // Count remaining segments. If after has at least one '\', we're inside a cluster.
     if (after.includes('\\')) {
-      // (a) inside G:\Poze\<year>\<cluster>\
+      // (a) inside G:\Photos\<year>\<cluster>\
       return 0;
     }
-    // (b) inside G:\Poze\<year>\ at the leaf
+    // (b) inside G:\Photos\<year>\ at the leaf
     return 1;
   }
-  if (n.startsWith('g:\\poze\\whatsapp-by-year\\')) {
+  if (n.startsWith('g:\\photos\\whatsapp-by-year\\')) {
     // (c) WhatsApp-by-year (still organized)
     return 2;
   }
-  if (n.startsWith('g:\\poze\\') && !n.includes('\\.')) {
-    // (d) G:\Poze\ root or other Poze subfolder (not .duplicates / .review-for-delete)
+  if (n.startsWith('g:\\photos\\') && !n.includes('\\.')) {
+    // (d) G:\Photos\ root or other Photos subfolder (not .duplicates / .review-for-delete)
     return 3;
   }
   if (n.startsWith('g:\\video\\whatsapp_images\\')) {
@@ -530,8 +530,8 @@ function buildGroups(records, threshold) {
 function moveOne(src, groupId, stats) {
   // Compute destination path inside QUARANTINE_ROOT, preserving the drive
   // layout from the colon onward. Example:
-  //   src = "G:\Poze\2024\IMG.jpg"
-  //   dst = "G:\duplicates-to_be_deleted\Poze\2024\IMG.jpg"
+  //   src = "G:\Photos\2024\IMG.jpg"
+  //   dst = "G:\duplicates-to_be_deleted\Photos\2024\IMG.jpg"
   // (Drive letter is stripped; the remainder of the absolute path is mirrored.)
   const driveSplit = src.match(/^([a-zA-Z]):[\\/]?(.*)$/);
   if (!driveSplit) {
@@ -589,9 +589,9 @@ function moveOne(src, groupId, stats) {
 
 function classifyRoot(p) {
   const n = normalize(p);
-  if (n.startsWith('g:\\poze\\whatsapp-by-year\\')) return 'G:\\Poze\\WhatsApp-by-year';
-  if (n.match(/^g:\\poze\\\d{4}\\/)) return 'G:\\Poze\\<year>';
-  if (n.startsWith('g:\\poze\\')) return 'G:\\Poze (other)';
+  if (n.startsWith('g:\\photos\\whatsapp-by-year\\')) return 'G:\\Photos\\WhatsApp-by-year';
+  if (n.match(/^g:\\photos\\\d{4}\\/)) return 'G:\\Photos\\<year>';
+  if (n.startsWith('g:\\photos\\')) return 'G:\\Photos (other)';
   if (n.startsWith('g:\\video\\whatsapp_images\\')) return 'G:\\Video\\WhatsApp_Images';
   if (n.startsWith('g:\\wd_ext_hdd\\')) return 'G:\\WD_EXT_HDD';
   if (n.startsWith('g:\\backup media telefon\\')) return 'G:\\backup media telefon';

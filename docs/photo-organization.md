@@ -1,5 +1,7 @@
 # Photo organization
 
+> Path renamed from `G:\Poze` to `G:\Photos` on 2026-04-29; pre-rename log entries reference the old name and remain valid.
+
 How travel photography is laid out, named, and catalogued for `EduardFischer.dev`.
 This doc reflects the convention established in v1-polish round 4–5 by Agents A1
 (reorganization), A10 (archive discovery), and A14 (stock fill). Read it before
@@ -148,12 +150,12 @@ pipeline.
 1. **Decide the folder slug**: `YYYY-MM-<country-slug>` or
    `YYYY-MM-<region-slug>` per section 1.
 2. **Create the folder**: `public/photos/trips/<slug>/`
-3. **Drop photos in**. For Eduard's own shots from `G:\Poze` or `D:\Portfolio`,
+3. **Drop photos in**. For Eduard's own shots from `G:\Photos` or `D:\Portfolio`,
    resize first via `scripts/copy-and-resize-photos.ps1` (long-edge 2000 px,
    JPEG q85, EXIF preserved — the catalogue builder needs EXIF to read GPS and
    `takenAt`).
 4. **Rebuild the catalogue.**
-   - Full rebuild: `node scripts/build-photo-catalogue.mjs --folder 'G:\Poze' --write`
+   - Full rebuild: `node scripts/build-photo-catalogue.mjs --folder 'G:\Photos' --write`
      (reads EXIF, reverse-geocodes via Nominatim, writes
      `scripts/photo-catalogue.json` and updates `.geocode-cache.json`).
    - Incremental for a single trip: copy and adapt `scripts/extend-catalogue.mjs`,
@@ -230,7 +232,7 @@ imports from sensitive directories.
 
 **Approved import sources** (safe to pass to `--folder`):
 
-- `G:\Poze\`
+- `G:\Photos\`
 - `D:\Portfolio\poze\`
 - Loose `D:\Portfolio\IMG*.jpg` at drive root (after manual sort)
 

@@ -1,11 +1,13 @@
 # Photo classification plan — 2026-04-28
 
+> Path renamed from `G:\Photos` to `G:\Photos` on 2026-04-29; pre-rename log entries reference the old name and remain valid. The forward-looking sections of this doc use `G:\Photos`; numbers and historical descriptions are preserved verbatim.
+
 > Consolidates the 5-agent sweep dispatched 2026-04-28 PM (P-A2 / P-B / P-C / P-D / P-E) on top of the earlier P1-P14 round. Read-only catalogue results — no files moved.
 
 ## Headline
 
-- `G:\Poze\` is large (~41,000 photos) and was previously **only ~28% covered** by the per-year P1-P5 slices. P-E flagged 75,719 orphans (88.5% of the combined `G:\` + `D:\Portfolio\poze\` tree of 85,601 photos) as not-in-any-prior-scan.
-- `G:\Poze\` × `D:\Portfolio\poze\` is **massively duplicated**: P-B found 8,631 perceptual-dup groups (Hamming ≤ 8) with **17,529 demote candidates**. The largest single group is 4,031 byte-identical CV/CL DSLR headshots mirrored across both roots.
+- `G:\Photos\` is large (~41,000 photos) and was previously **only ~28% covered** by the per-year P1-P5 slices. P-E flagged 75,719 orphans (88.5% of the combined `G:\` + `D:\Portfolio\poze\` tree of 85,601 photos) as not-in-any-prior-scan.
+- `G:\Photos\` × `D:\Portfolio\poze\` is **massively duplicated**: P-B found 8,631 perceptual-dup groups (Hamming ≤ 8) with **17,529 demote candidates**. The largest single group is 4,031 byte-identical CV/CL DSLR headshots mirrored across both roots.
 - **Local PC has zero vacation media.** P-C scanned `C:\Users\Eduard\Pictures` (the only existing allowlisted root — OneDrive Pictures / Pozele mele / Camera Roll are not synced on this machine) and found 7,325 files, **all Windows screenshots**. P-D scanned `C:\Users\Eduard\Videos` and found 7 files, **all screen recordings or webcam clips**. The "move from local PC to G:\" task is therefore a **no-op**.
 - The 2018-2020 slice is now properly catalogued: P-A2 produced 3,937 entries (vs the partial 74 from the original P-A run) — 2018 = 1,297 / 2019 = 1,025 / 2020 = 1,615; 51.6% have EXIF date-taken, 35% have GPS.
 
@@ -27,7 +29,7 @@
 | P12 (burst detection) | done | 94 bursts; 379 demote candidates (caveat: stock photos cluster as bursts by mtime) |
 | P13 (sensitive sweep) | done | folder blocklist (`G:\Citizenship*`, `G:\Whatsapp\`, `G:\Important Documents\`, `G:\backup NC*`, etc.) |
 | P14 (camera fingerprinting) | done | — |
-| P-orphans (master sweep) | **done 2026-04-28** | 75,719 orphans across G:\Poze\ (41,021) + D:\Portfolio\poze\ (44,580) — 88.5% of total |
+| P-orphans (master sweep) | **done 2026-04-28** | 75,719 orphans across G:\Photos\ (41,021) + D:\Portfolio\poze\ (44,580) — 88.5% of total |
 
 ## C:\ → G:\ move proposal
 
@@ -49,15 +51,15 @@ If vacation photos exist on this PC, they live in OneDrive folders that aren't c
 
 ## Privacy notes
 
-- **G:\Poze\ subfolder caveat**: P-B's perceptual-dedup pass hashed (read-only, no decode beyond dHash) the document-style subfolders inside `G:\Poze\` — `CV + CL photos\`, `Driving license photos\`, `ID Photos\`, `Passport photos\`, `Residence permit photos\`. Their paths now appear inside `scripts/.photo-classify/P8-redo/dedup.ndjson` `members[]` arrays. P-A2 did NOT enter these — its blocklist matched P13's intent. **Recommendation**: extend the §6.1 source-folder allowlist in `docs/photo-organization.md` to also list these G:\Poze\ subfolders as blocklisted (in addition to the top-level G:\ blocklist already there).
+- **G:\Photos\ subfolder caveat**: P-B's perceptual-dedup pass hashed (read-only, no decode beyond dHash) the document-style subfolders inside `G:\Photos\` — `CV + CL photos\`, `Driving license photos\`, `ID Photos\`, `Passport photos\`, `Residence permit photos\`. Their paths now appear inside `scripts/.photo-classify/P8-redo/dedup.ndjson` `members[]` arrays. P-A2 did NOT enter these — its blocklist matched P13's intent. **Recommendation**: extend the §6.1 source-folder allowlist in `docs/photo-organization.md` to also list these G:\Photos\ subfolders as blocklisted (in addition to the top-level G:\ blocklist already there).
 - **Loss of P-C / P-D outputs on disk**: the `scripts/.local-pc-move/` directory was untracked when one of the dev rebase agents ran a clean. The agents' summary numbers above are preserved; the underlying NDJSON is not. Since both came back empty, this is harmless — but a note for next round: agents writing to `scripts/.*` should land their outputs in committed locations or stage them immediately.
 
 ## Top action items (priority order)
 
-1. **Hamburg 2022 import** — biggest single content win. ~150 photos in `G:\Poze\Ha_Photos\` + `D:\Portfolio\poze\Ha_Photos\`. P9 confirmed this flips the Hamburg trip slot from "thin (2 own + 3 stock)" to "well-covered". P-A2's pass found 119 of the Huawei-era photos in `Poze Huawei\` carrying full EXIF + GPS — they're hero candidates.
+1. **Hamburg 2022 import** — biggest single content win. ~150 photos in `G:\Photos\Ha_Photos\` + `D:\Portfolio\poze\Ha_Photos\`. P9 confirmed this flips the Hamburg trip slot from "thin (2 own + 3 stock)" to "well-covered". P-A2's pass found 119 of the Huawei-era photos in `Poze Huawei\` carrying full EXIF + GPS — they're hero candidates.
 2. **New trip pages**: `2022-10-de-hamburg`, `2022-XX-greece` (P3 found these GPS-clustered but not on `/travel` yet).
 3. **P-orphans triage** — 33,231 of the 75,719 orphans are simply `not-in-sibling-scan` because the per-year P1/P3/P4/P5 slices skipped root-level files outside year-bucket folders. A single P1-style pass over the orphan-list would absorb most of them. The 12,418 `no-date-signal` orphans (mostly Pinterest/Browser web saves, social-CDN exports, Doxygen call-graphs) are strong delete candidates per `docs/photo-organization.md` §6.
-4. **Self-portrait hand-pass** on `G:\Poze\Instagram\` (143 curated frames). P3 classifier excludes — needs new heuristic.
+4. **Self-portrait hand-pass** on `G:\Photos\Instagram\` (143 curated frames). P3 classifier excludes — needs new heuristic.
 5. **9 stock photo replacements** per P6/`stock-audit.md` (tonal mismatches).
 6. **23 photo re-clusterings** in `2026-03-balkans-roadtrip/` per P11 (transit legs Italy/Germany/Austria).
 7. **Big-archive extractions on D:\Portfolio**: Ernesto wedding zip 16.97GB, `1749442124878.jpg.zip` 1.35GB, `Photos Hamburg.zip` 1.32GB. 92 smaller archives in father's TATA construction archive. 95 video files / 1.2GB; TS2 interview .mp4s duplicated 4× (cleanup candidate).

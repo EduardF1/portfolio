@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 /**
- * Reorganize Huawei-era photos from G:\Poze\Poze Huawei\ into per-year buckets
- * at the parent G:\Poze\ level.
+ * Reorganize Huawei-era photos from G:\Photos\Poze Huawei\ into per-year buckets
+ * at the parent G:\Photos\ level.
  *
- * Source: G:\Poze\Poze Huawei\**\<file>      (recursive — subfolders allowed)
- * Target: G:\Poze\<YYYY>\<filename>          (flat per-year buckets, NOT
- *                                             G:\Poze\Poze Huawei\<year>\)
+ * Source: G:\Photos\Poze Huawei\**\<file>      (recursive — subfolders allowed)
+ * Target: G:\Photos\<YYYY>\<filename>          (flat per-year buckets, NOT
+ *                                             G:\Photos\Poze Huawei\<year>\)
  *
  * Year detection priority:
  *   1) Filename pattern  IMG_YYYYMMDD_HHMMSS*.jpg / .jpeg / .png
@@ -22,13 +22,13 @@
  *
  * Constraints:
  *   - Move-only, no deletes anywhere.
- *   - Only operate inside G:\Poze\Poze Huawei\ tree; the only writes outside it
- *     are into G:\Poze\<year>\ siblings.
+ *   - Only operate inside G:\Photos\Poze Huawei\ tree; the only writes outside it
+ *     are into G:\Photos\<year>\ siblings.
  *   - Skip files where year cannot be determined; they stay in the source
  *     directory and are recorded in the unresolved list.
  *   - On filename collision with an existing target file, append "-huawei-NNN"
  *     suffix before the extension.
- *   - The empty G:\Poze\Poze Huawei\ folder is left in place after the run.
+ *   - The empty G:\Photos\Poze Huawei\ folder is left in place after the run.
  */
 
 import fs from 'node:fs';
@@ -39,7 +39,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const POZE_ROOT = 'G:\\Poze';
+const POZE_ROOT = 'G:\\Photos';
 const SOURCE_ROOT = path.join(POZE_ROOT, 'Poze Huawei');
 const LOG_PATH = path.join(__dirname, '.g-poze-huawei-reorg.log');
 
