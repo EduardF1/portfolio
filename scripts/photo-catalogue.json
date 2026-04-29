@@ -3532,6 +3532,106 @@
     }
   },
   {
+    "src": "trips/2020-02-denmark/pexels-vejle-harbor-watercrafts-6030024.jpg",
+    "takenAt": "2020-02-19T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.709,
+      "lon": 9.536
+    },
+    "place": {
+      "city": "Vejle",
+      "country": "Denmark",
+      "display": "Vejle, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/various-watercrafts-on-docking-area-near-city-buildings-6030024/",
+      "photographer": "Lillian Katrine Kofod",
+      "photographerUrl": "https://www.pexels.com/@lillian/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-vejle-harbor-moored-boats-6030055.jpg",
+    "takenAt": "2020-02-19T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.709,
+      "lon": 9.536
+    },
+    "place": {
+      "city": "Vejle",
+      "country": "Denmark",
+      "display": "Vejle, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/white-and-blue-boats-on-body-of-water-near-city-buildings-6030055/",
+      "photographer": "Lillian Katrine Kofod",
+      "photographerUrl": "https://www.pexels.com/@lillian/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-vejle-modern-building-12558423.jpg",
+    "takenAt": "2020-02-19T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.709,
+      "lon": 9.536
+    },
+    "place": {
+      "city": "Vejle",
+      "country": "Denmark",
+      "display": "Vejle, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/view-of-a-building-in-a-city-12558423/",
+      "photographer": "Valentin Onu",
+      "photographerUrl": "https://www.pexels.com/@vali741/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-vejle-bridge-foggy-trees-11415320.jpg",
+    "takenAt": "2020-02-19T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.709,
+      "lon": 9.536
+    },
+    "place": {
+      "city": "Vejle",
+      "country": "Denmark",
+      "display": "Vejle, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/low-angle-shot-of-leafless-trees-in-the-forest-11415320/",
+      "photographer": "Lillian Katrine Kofod",
+      "photographerUrl": "https://www.pexels.com/@lillian/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2022-07-greece/IMG_20220717_125419.jpg",
     "takenAt": "2022-07-17T12:54:20Z",
     "hasGps": true,
@@ -4064,6 +4164,81 @@
       "city": "Billund Municipality",
       "country": "Denmark",
       "display": "Billund Municipality, Denmark"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-aarhus-seafront-night-16375882.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1629,
+      "lon": 10.2039
+    },
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/buildings-on-sea-shore-in-aarhus-at-night-16375882/",
+      "photographer": "Deyaar Rumi",
+      "photographerUrl": "https://www.pexels.com/@deyaar-rumi-427064673/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-aarhus-bicycles-street-4111129.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1629,
+      "lon": 10.2039
+    },
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/bicycles-parked-on-the-street-4111129/",
+      "photographer": "Maryann Kariuki",
+      "photographerUrl": "https://www.pexels.com/@maryannkariuki/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-aarhus-river-vintage-buildings-18531489.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1629,
+      "lon": 10.2039
+    },
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/river-and-trees-near-vintage-building-18531489/",
+      "photographer": "Mikkel Kvist",
+      "photographerUrl": "https://www.pexels.com/@mikkel-kvist-2722911/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -4943,6 +5118,156 @@
       "city": "Athens",
       "country": "Greece",
       "display": "Athens, Greece"
+    }
+  },
+  {
+    "src": "trips/2023-07-london/pexels-london-tower-bridge-bascules-raised-575410.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/575410/",
+      "photographer": "SevenStorm JUHASZIMRUS",
+      "photographerUrl": "https://www.pexels.com/@sevenstormphotography/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-london/pexels-london-big-ben-clear-sky-14711297.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/14711297/",
+      "photographer": "Szymon Shields",
+      "photographerUrl": "https://www.pexels.com/@szymon-shields-1503561/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-london/pexels-london-westminster-bridge-parliament-16233863.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/16233863/",
+      "photographer": "Wender Junior Souza Vieira",
+      "photographerUrl": "https://www.pexels.com/@wender-junior-souza-vieira-9757411/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-london/pexels-london-buckingham-palace-facade-16333184.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/16333184/",
+      "photographer": "Jatman 0007",
+      "photographerUrl": "https://www.pexels.com/@jatman-0007-375490484/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-london/pexels-london-skyline-from-greenwich-29276670.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/29276670/",
+      "photographer": "Vivek Tedla",
+      "photographerUrl": "https://www.pexels.com/@vivek-tedla-2076460171/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-london/pexels-london-shard-tower-bridge-sunset-30754172.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/30754172/",
+      "photographer": "Jabez Cutamora",
+      "photographerUrl": "https://www.pexels.com/@jabzee/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -7596,6 +7921,156 @@
     }
   },
   {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-granada-alhambra-palace-courtyard-34336990.jpg",
+    "takenAt": "2025-09-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 37.1773,
+      "lon": -3.5986
+    },
+    "place": {
+      "city": "Granada",
+      "country": "Spain",
+      "display": "Granada, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/intricate-architecture-of-alhambra-palace-courtyard-34336990/",
+      "photographer": "Micha Hofer",
+      "photographerUrl": "https://www.pexels.com/@micha-hofer-2154443164/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-marbella-la-encarnacion-clock-tower-18381020.jpg",
+    "takenAt": "2025-09-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.5099,
+      "lon": -4.8861
+    },
+    "place": {
+      "city": "Marbella",
+      "country": "Spain",
+      "display": "Marbella, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/clock-and-bell-tower-of-la-encarnacion-church-in-marbella-spain-18381020/",
+      "photographer": "Bernardo Mestre",
+      "photographerUrl": "https://www.pexels.com/@bernardo-mestre-728751113/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-malaga-cathedral-bell-tower-34551959.jpg",
+    "takenAt": "2025-09-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.7213,
+      "lon": -4.4214
+    },
+    "place": {
+      "city": "Málaga",
+      "country": "Spain",
+      "display": "Málaga, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-bell-tower-of-malaga-cathedral-34551959/",
+      "photographer": "Loredana",
+      "photographerUrl": "https://www.pexels.com/@loredana-167691276/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-torremolinos-ferris-wheel-palms-32909914.jpg",
+    "takenAt": "2025-09-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.6203,
+      "lon": -4.4995
+    },
+    "place": {
+      "city": "Torremolinos",
+      "country": "Spain",
+      "display": "Torremolinos, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-ferris-wheel-and-palm-trees-in-torremolinos-32909914/",
+      "photographer": "Sašo Vukadinović",
+      "photographerUrl": "https://www.pexels.com/@saso-vukadinovic-814183799/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-gibraltar-rock-from-sea-16207661.jpg",
+    "takenAt": "2025-09-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.1408,
+      "lon": -5.3536
+    },
+    "place": {
+      "city": "Gibraltar",
+      "country": "Gibraltar",
+      "display": "Gibraltar"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/rock-of-gibraltar-seen-from-the-sea-16207661/",
+      "photographer": "Pankaj Mishra",
+      "photographerUrl": "https://www.pexels.com/@pankaj-mishra-191856302/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-gibraltar-rock-dramatic-cliff-33597221.jpg",
+    "takenAt": "2025-09-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.1408,
+      "lon": -5.3536
+    },
+    "place": {
+      "city": "Gibraltar",
+      "country": "Gibraltar",
+      "display": "Gibraltar"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/dramatic-view-of-gibraltar-s-iconic-rock-33597221/",
+      "photographer": "Esteban Gilles",
+      "photographerUrl": "https://www.pexels.com/@esteban-gilles-499431850/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2025-09-andalusia-gibraltar/IMG20250917154701.jpg",
     "takenAt": "2025-09-17T15:47:01Z",
     "hasGps": true,
@@ -8662,631 +9137,6 @@
       "city": "Kassel",
       "country": "Germany",
       "display": "Kassel, Germany"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-boats-trees-29351196.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.3676,
-      "lon": 4.9041
-    },
-    "place": {
-      "city": "Amsterdam",
-      "country": "Netherlands",
-      "display": "Amsterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-amsterdam-canal-with-boats-and-trees-29351196/",
-      "photographer": "naimish17",
-      "photographerUrl": "https://www.pexels.com/@naimish17",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-from-bridge-18936486.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.3676,
-      "lon": 4.9041
-    },
-    "place": {
-      "city": "Amsterdam",
-      "country": "Netherlands",
-      "display": "Amsterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/canal-in-amsterdam-seen-from-bridge-18936486/",
-      "photographer": "cvele",
-      "photographerUrl": "https://www.pexels.com/@cvele",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-houseboats-morning-31773686.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.3676,
-      "lon": 4.9041
-    },
-    "place": {
-      "city": "Amsterdam",
-      "country": "Netherlands",
-      "display": "Amsterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-canal-view-with-boats-in-amsterdam-31773686/",
-      "photographer": "Titouan Jullien",
-      "photographerUrl": "https://www.pexels.com/@titouan-jullien-504247666",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-spring-36670516.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.3676,
-      "lon": 4.9041
-    },
-    "place": {
-      "city": "Amsterdam",
-      "country": "Netherlands",
-      "display": "Amsterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-amsterdam-canal-with-boats-and-trees-in-spring-36670516/",
-      "photographer": "Burak Akmanoglu",
-      "photographerUrl": "https://www.pexels.com/@burak-akmanoglu-745300984",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-bridge-church-29351195.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.3676,
-      "lon": 4.9041
-    },
-    "place": {
-      "city": "Amsterdam",
-      "country": "Netherlands",
-      "display": "Amsterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/charming-amsterdam-canal-with-boats-and-bridge-29351195/",
-      "photographer": "naimish17",
-      "photographerUrl": "https://www.pexels.com/@naimish17",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-rotterdam-erasmus-bridge-sunset-20655919.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.9244,
-      "lon": 4.4777
-    },
-    "place": {
-      "city": "Rotterdam",
-      "country": "Netherlands",
-      "display": "Rotterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/suspension-bridge-by-the-harbor-in-rotterdam-20655919/",
-      "photographer": "Igor Passchier",
-      "photographerUrl": "https://www.pexels.com/@igor-passchier-111147847",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-rotterdam-willemsbrug-white-house-35993737.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.9244,
-      "lon": 4.4777
-    },
-    "place": {
-      "city": "Rotterdam",
-      "country": "Netherlands",
-      "display": "Rotterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/sunset-over-willemsbrug-and-historic-white-house-rotterdam-35993737/",
-      "photographer": "braujardim",
-      "photographerUrl": "https://www.pexels.com/@braujardim",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-rotterdam-cube-houses-29819767.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.9244,
-      "lon": 4.4777
-    },
-    "place": {
-      "city": "Rotterdam",
-      "country": "Netherlands",
-      "display": "Rotterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/cube-houses-in-rotterdam-architectural-innovation-29819767/",
-      "photographer": "Valter Biscaia Filho",
-      "photographerUrl": "https://www.pexels.com/@valter-biscaia-filho-2147883999",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-the-hague-binnenhof-fountain-18684354.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0705,
-      "lon": 4.3007
-    },
-    "place": {
-      "city": "The Hague",
-      "country": "Netherlands",
-      "display": "The Hague, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/binnenhof-in-hague-in-netherlands-18684354/",
-      "photographer": "Patrick Jaksic",
-      "photographerUrl": "https://www.pexels.com/@patrick-jaksic-615183630",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-the-hague-skyline-historic-modern-33841317.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0705,
-      "lon": 4.3007
-    },
-    "place": {
-      "city": "The Hague",
-      "country": "Netherlands",
-      "display": "The Hague, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/skyline-of-the-hague-featuring-historic-and-modern-buildings-33841317/",
-      "photographer": "Jakub Zerdzicki",
-      "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-the-hague-scheveningen-beach-34126088.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0705,
-      "lon": 4.3007
-    },
-    "place": {
-      "city": "The Hague",
-      "country": "Netherlands",
-      "display": "The Hague, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scheveningen-beach-and-cityscape-the-hague-34126088/",
-      "photographer": "Jakub Zerdzicki",
-      "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-utrecht-dom-tower-blue-sky-32348115.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0907,
-      "lon": 5.1214
-    },
-    "place": {
-      "city": "Utrecht",
-      "country": "Netherlands",
-      "display": "Utrecht, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/dom-tower-against-clear-blue-sky-in-utrecht-32348115/",
-      "photographer": "Martijn Stoof",
-      "photographerUrl": "https://www.pexels.com/@martijn-stoof",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-utrecht-canal-evening-33375300.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0907,
-      "lon": 5.1214
-    },
-    "place": {
-      "city": "Utrecht",
-      "country": "Netherlands",
-      "display": "Utrecht, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-evening-canal-view-in-utrecht-netherlands-33375300/",
-      "photographer": "Barkalı",
-      "photographerUrl": "https://www.pexels.com/@barkali-340353352",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-utrecht-cyclists-dom-tower-33021970.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0907,
-      "lon": 5.1214
-    },
-    "place": {
-      "city": "Utrecht",
-      "country": "Netherlands",
-      "display": "Utrecht, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/cyclists-near-dom-tower-utrecht-historic-street-33021970/",
-      "photographer": "Ernesto",
-      "photographerUrl": "https://www.pexels.com/@ernesto-2335487",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-france-sedan/pexels-charleville-french-town-32604665.jpg",
-    "takenAt": "2019-07-30T15:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.7016,
-      "lon": 4.9425
-    },
-    "place": {
-      "city": "Sedan",
-      "country": "France",
-      "display": "Sedan, France"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/charming-french-town-with-historic-architecture-32604665/",
-      "photographer": "Filiamariss",
-      "photographerUrl": "https://www.pexels.com/@filiamariss",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-france-sedan/pexels-charleville-gothic-street-32604664.jpg",
-    "takenAt": "2019-07-30T15:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.7016,
-      "lon": 4.9425
-    },
-    "place": {
-      "city": "Sedan",
-      "country": "France",
-      "display": "Sedan, France"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/charming-european-historic-street-scene-with-gothic-architecture-32604664/",
-      "photographer": "Filiamariss",
-      "photographerUrl": "https://www.pexels.com/@filiamariss",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-france-sedan/pexels-sedan-medieval-castle-proxy-14249425.jpg",
-    "takenAt": "2019-07-30T15:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.7016,
-      "lon": 4.9425
-    },
-    "place": {
-      "city": "Sedan",
-      "country": "France",
-      "display": "Sedan, France"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/medieval-castle-in-france-14249425/",
-      "photographer": "Michael Waddle",
-      "photographerUrl": "https://www.pexels.com/@michael-waddle-1019947",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-france-sedan/pexels-ardennes-river-valley-5800890.jpg",
-    "takenAt": "2019-07-30T15:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.7016,
-      "lon": 4.9425
-    },
-    "place": {
-      "city": "Sedan",
-      "country": "France",
-      "display": "Sedan, France"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/mountain-valley-with-green-forest-and-river-5800890/",
-      "photographer": "Nico Becker",
-      "photographerUrl": "https://www.pexels.com/@nicobecker",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2019-07-france-sedan/pexels-epernay-grand-est-architecture-27130648.jpg",
-    "takenAt": "2019-07-30T15:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.7016,
-      "lon": 4.9425
-    },
-    "place": {
-      "city": "Sedan",
-      "country": "France",
-      "display": "Sedan, France"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/champagne-de-castellane-in-epernay-in-france-27130648/",
-      "photographer": "Ilipily",
-      "photographerUrl": "https://www.pexels.com/@ilipily",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-london/pexels-london-tower-bridge-bascules-raised-575410.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/575410/",
-      "photographer": "SevenStorm JUHASZIMRUS",
-      "photographerUrl": "https://www.pexels.com/@sevenstormphotography/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-london/pexels-london-big-ben-clear-sky-14711297.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/14711297/",
-      "photographer": "Szymon Shields",
-      "photographerUrl": "https://www.pexels.com/@szymon-shields-1503561/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-london/pexels-london-westminster-bridge-parliament-16233863.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/16233863/",
-      "photographer": "Wender Junior Souza Vieira",
-      "photographerUrl": "https://www.pexels.com/@wender-junior-souza-vieira-9757411/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-london/pexels-london-buckingham-palace-facade-16333184.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/16333184/",
-      "photographer": "Jatman 0007",
-      "photographerUrl": "https://www.pexels.com/@jatman-0007-375490484/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-london/pexels-london-skyline-from-greenwich-29276670.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/29276670/",
-      "photographer": "Vivek Tedla",
-      "photographerUrl": "https://www.pexels.com/@vivek-tedla-2076460171/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-london/pexels-london-shard-tower-bridge-sunset-30754172.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/30754172/",
-      "photographer": "Jabez Cutamora",
-      "photographerUrl": "https://www.pexels.com/@jabzee/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
     }
   }
 ]
