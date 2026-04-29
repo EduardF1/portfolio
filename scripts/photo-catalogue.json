@@ -330,25 +330,6 @@
     }
   },
   {
-    "src": "trips/2022-08-denmark/pexels-billund-airport-airliner-11554593.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Billund",
-      "country": "Denmark",
-      "display": "Billund, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/airplane-billund-airport-11554593/",
-      "photographer": "Fatih Turan",
-      "photographerUrl": "https://www.pexels.com/@fatih-turan-63325184/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
     "src": "trips/2022-08-denmark/pexels-horsens-aerial-summer-13519728.jpg",
     "takenAt": null,
     "hasGps": false,
@@ -3237,21 +3218,6 @@
     }
   },
   {
-    "src": "trips/2019-07-luxembourg/IMG_20190730_140153.jpg",
-    "takenAt": "2019-07-30T14:01:54Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 50.00975,
-      "lon": 5.72209
-    },
-    "place": {
-      "city": "Bastogne",
-      "country": "Belgium",
-      "display": "Bastogne, Belgium"
-    }
-  },
-  {
     "src": "trips/2019-07-france-sedan/pexels-charleville-french-town-32604665.jpg",
     "takenAt": "2019-07-30T15:00:00Z",
     "hasGps": true,
@@ -3952,31 +3918,6 @@
     }
   },
   {
-    "src": "trips/2022-08-denmark/pexels-billund-airport-airliner-landing-11554593.jpg",
-    "takenAt": "2022-08-18T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.7308,
-      "lon": 9.1158
-    },
-    "place": {
-      "city": "Billund",
-      "country": "Denmark",
-      "display": "Billund, Denmark"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/back-view-of-an-airplane-11554593/",
-      "photographer": "Fatih Turan",
-      "photographerUrl": "https://www.pexels.com/@fatih-turan-63325184/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
     "src": "trips/2022-08-denmark/pexels-hirtshals-lighthouse-grass-8297881.jpg",
     "takenAt": "2022-08-18T12:00:00Z",
     "hasGps": true,
@@ -4269,12 +4210,6 @@
     "cameraModel": "SM-A525F"
   },
   {
-    "src": "trips/2022-10-germany/20221021_100237.jpg",
-    "takenAt": "2022-10-21T08:02:37Z",
-    "hasGps": false,
-    "cameraModel": "SM-A525F"
-  },
-  {
     "src": "trips/2022-10-germany/20221021_100620.jpg",
     "takenAt": "2022-10-21T08:06:20Z",
     "hasGps": false,
@@ -4283,12 +4218,6 @@
   {
     "src": "trips/2022-10-germany/20221021_103215.jpg",
     "takenAt": "2022-10-21T08:32:15Z",
-    "hasGps": false,
-    "cameraModel": "SM-A525F"
-  },
-  {
-    "src": "trips/2022-10-germany/20221021_110855.jpg",
-    "takenAt": "2022-10-21T09:08:55Z",
     "hasGps": false,
     "cameraModel": "SM-A525F"
   },
@@ -4337,63 +4266,6 @@
     ]
   },
   {
-    "src": "trips/2022-10-germany/20221021_120647.jpg",
-    "takenAt": "2022-10-21T10:06:47Z",
-    "hasGps": true,
-    "cameraModel": "SM-A525F",
-    "gps": {
-      "lat": 53.59609,
-      "lon": 9.93488
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_20221021_110324.jpg"
-    ]
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221021_121447359_HDR.jpg",
-    "takenAt": "2022-10-21T10:14:49Z",
-    "hasGps": true,
-    "cameraModel": "moto g pro",
-    "gps": {
-      "lat": 53.59609,
-      "lon": 9.93488
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_20221021_110324.jpg"
-    ]
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221021_121644340_HDR.jpg",
-    "takenAt": "2022-10-21T10:16:46Z",
-    "hasGps": true,
-    "cameraModel": "moto g pro",
-    "gps": {
-      "lat": 53.59609,
-      "lon": 9.93488
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_20221021_110324.jpg"
-    ]
-  },
-  {
     "src": "trips/2022-10-germany/IMG_20221021_110324.jpg",
     "takenAt": "2022-10-21T11:03:24Z",
     "hasGps": true,
@@ -4406,21 +4278,6 @@
       "city": "Hamburg",
       "country": "Germany",
       "display": "Hamburg, Germany"
-    }
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_0124.jpg",
-    "takenAt": "2022-10-21T13:58:12Z",
-    "hasGps": true,
-    "cameraModel": "iPhone SE (3rd generation)",
-    "gps": {
-      "lat": 52.98687,
-      "lon": 10.10924
-    },
-    "place": {
-      "city": "Munster",
-      "country": "Germany",
-      "display": "Munster, Germany"
     }
   },
   {
@@ -4437,76 +4294,6 @@
       "country": "Germany",
       "display": "Munster, Germany"
     }
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_0141.jpg",
-    "takenAt": "2022-10-21T14:20:14Z",
-    "hasGps": true,
-    "cameraModel": "iPhone SE (3rd generation)",
-    "gps": {
-      "lat": 52.98659,
-      "lon": 10.11026
-    },
-    "place": {
-      "city": "Munster",
-      "country": "Germany",
-      "display": "Munster, Germany"
-    }
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_0143.jpg",
-    "takenAt": "2022-10-21T14:26:35Z",
-    "hasGps": true,
-    "cameraModel": "iPhone SE (3rd generation)",
-    "gps": {
-      "lat": 52.98644,
-      "lon": 10.11013
-    },
-    "place": {
-      "city": "Munster",
-      "country": "Germany",
-      "display": "Munster, Germany"
-    }
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221021_183920675_HDR.jpg",
-    "takenAt": "2022-10-21T16:39:22Z",
-    "hasGps": true,
-    "cameraModel": "moto g pro",
-    "gps": {
-      "lat": 53.39221,
-      "lon": 10.01795
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_0164.jpg",
-      "trips/2022-10-germany/IMG_0165.jpg"
-    ]
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_0190.jpg",
-    "takenAt": "2022-10-22T09:24:03Z",
-    "hasGps": true,
-    "cameraModel": "iPhone SE (3rd generation)",
-    "gps": {
-      "lat": 53.54336,
-      "lon": 9.99987
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_0177.jpg",
-      "trips/2022-10-germany/IMG_0222.jpg"
-    ]
   },
   {
     "src": "trips/2022-10-germany/IMG_0210.jpg",
@@ -4526,86 +4313,6 @@
     "inferredFrom": [
       "trips/2022-10-germany/IMG_0177.jpg",
       "trips/2022-10-germany/IMG_0222.jpg"
-    ]
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_0227.jpg",
-    "takenAt": "2022-10-22T10:05:04Z",
-    "hasGps": true,
-    "cameraModel": "iPhone SE (3rd generation)",
-    "gps": {
-      "lat": 53.5432,
-      "lon": 9.99993
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_0222.jpg",
-      "trips/2022-10-germany/IMG_0234.jpg"
-    ]
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221022_120955484_HDR.jpg",
-    "takenAt": "2022-10-22T10:09:56Z",
-    "hasGps": true,
-    "cameraModel": "moto g pro",
-    "gps": {
-      "lat": 53.5432,
-      "lon": 9.99993
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_0222.jpg",
-      "trips/2022-10-germany/IMG_0234.jpg"
-    ]
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221022_124225360_HDR.jpg",
-    "takenAt": "2022-10-22T10:42:26Z",
-    "hasGps": true,
-    "cameraModel": "moto g pro",
-    "gps": {
-      "lat": 53.54316,
-      "lon": 9.99985
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_0234.jpg",
-      "trips/2022-10-germany/IMG_20221022_114756.jpg"
-    ]
-  },
-  {
-    "src": "trips/2022-10-germany/IMG_20221022_131638320.jpg",
-    "takenAt": "2022-10-22T11:16:38Z",
-    "hasGps": true,
-    "cameraModel": "moto g pro",
-    "gps": {
-      "lat": 53.54316,
-      "lon": 9.99985
-    },
-    "place": {
-      "city": "Hamburg",
-      "country": "Germany",
-      "display": "Hamburg, Germany"
-    },
-    "inferredPlace": true,
-    "inferredFrom": [
-      "trips/2022-10-germany/IMG_0234.jpg",
-      "trips/2022-10-germany/IMG_20221022_114756.jpg"
     ]
   },
   {
@@ -4664,31 +4371,6 @@
     "inferredFrom": [
       "trips/2022-10-germany/IMG_0303.jpg"
     ]
-  },
-  {
-    "src": "trips/2022-12-romania/pexels-bucharest-snow-street-bicycle-953626.jpg",
-    "takenAt": "2022-12-24T18:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 44.4268,
-      "lon": 26.1025
-    },
-    "place": {
-      "city": "Bucharest",
-      "country": "Romania",
-      "display": "Bucharest, Romania"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/953626/",
-      "photographer": "Dave Haas",
-      "photographerUrl": "https://www.pexels.com/@dave-haas-347675/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
   },
   {
     "src": "trips/2022-12-romania/pexels-bucharest-snow-palace-trees-36210381.jpg",
@@ -5961,31 +5643,6 @@
     }
   },
   {
-    "src": "trips/2024-08-hungary-roadtrip/pexels-keszthely-balaton-speedboat-pier-12553574.jpg",
-    "takenAt": "2024-08-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 46.7706,
-      "lon": 17.2432
-    },
-    "place": {
-      "city": "Keszthely",
-      "country": "Hungary",
-      "display": "Keszthely, Hungary"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/docked-speedboat-on-lakeside-12553574/",
-      "photographer": "Gergő",
-      "photographerUrl": "https://www.pexels.com/@gergo-8331954/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
     "src": "trips/2024-08-hungary-roadtrip/pexels-szarvas-spring-landscape-aerial-32578077.jpg",
     "takenAt": "2024-08-15T12:00:00Z",
     "hasGps": true,
@@ -6476,21 +6133,6 @@
     }
   },
   {
-    "src": "trips/2024-09-albania-saranda/IMG20240924140038.jpg",
-    "takenAt": "2024-09-24T14:00:38Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 40.07851,
-      "lon": 20.14379
-    },
-    "place": {
-      "city": "Gjirokastra",
-      "country": "Albania",
-      "display": "Gjirokastra, Albania"
-    }
-  },
-  {
     "src": "trips/2025-02-finland/IMG20250221150611.jpg",
     "takenAt": "2025-02-21T15:06:11Z",
     "hasGps": true,
@@ -6518,21 +6160,6 @@
       "city": "Helsinki",
       "country": "Finland",
       "display": "Helsinki, Finland"
-    }
-  },
-  {
-    "src": "trips/2025-03-romania/IMG20250328203701.jpg",
-    "takenAt": "2025-03-28T20:37:01Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 44.43294,
-      "lon": 26.09841
-    },
-    "place": {
-      "city": "Bucharest",
-      "country": "Romania",
-      "display": "Bucharest, Romania"
     }
   },
   {
@@ -6721,66 +6348,6 @@
     }
   },
   {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413154619.jpg",
-    "takenAt": "2025-04-13T15:46:19Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 48.18429,
-      "lon": 16.38913
-    },
-    "place": {
-      "city": "Vienna",
-      "country": "Austria",
-      "display": "Vienna, Austria"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413161509.jpg",
-    "takenAt": "2025-04-13T16:15:09Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 48.18388,
-      "lon": 16.38825
-    },
-    "place": {
-      "city": "Vienna",
-      "country": "Austria",
-      "display": "Vienna, Austria"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413162256.jpg",
-    "takenAt": "2025-04-13T16:22:56Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 48.18358,
-      "lon": 16.38795
-    },
-    "place": {
-      "city": "Vienna",
-      "country": "Austria",
-      "display": "Vienna, Austria"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413162629.jpg",
-    "takenAt": "2025-04-13T16:26:29Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 48.18359,
-      "lon": 16.38795
-    },
-    "place": {
-      "city": "Vienna",
-      "country": "Austria",
-      "display": "Vienna, Austria"
-    }
-  },
-  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250413175602.jpg",
     "takenAt": "2025-04-13T17:56:02Z",
     "hasGps": true,
@@ -6878,21 +6445,6 @@
     "gps": {
       "lat": 48.14079,
       "lon": 17.1058
-    },
-    "place": {
-      "city": "Bratislava",
-      "country": "Slovakia",
-      "display": "Bratislava, Slovakia"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250414204538.jpg",
-    "takenAt": "2025-04-14T20:45:38Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 48.14533,
-      "lon": 17.10696
     },
     "place": {
       "city": "Bratislava",
@@ -7538,36 +7090,6 @@
     "gps": {
       "lat": 50.0264,
       "lon": 19.204
-    },
-    "place": {
-      "city": "Oświęcim",
-      "country": "Poland",
-      "display": "Oświęcim, Poland"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421174759.jpg",
-    "takenAt": "2025-04-21T17:47:59Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 50.02619,
-      "lon": 19.20376
-    },
-    "place": {
-      "city": "Oświęcim",
-      "country": "Poland",
-      "display": "Oświęcim, Poland"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250421190301.jpg",
-    "takenAt": "2025-04-21T19:03:01Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 50.02522,
-      "lon": 19.20359
     },
     "place": {
       "city": "Oświęcim",
@@ -8251,21 +7773,6 @@
     }
   },
   {
-    "src": "trips/2026-03-balkans-roadtrip/IMG20260315003841.jpg",
-    "takenAt": "2026-03-15T00:38:41Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 47.41255,
-      "lon": 19.24752
-    },
-    "place": {
-      "city": "Budapest",
-      "country": "Hungary",
-      "display": "Budapest, Hungary"
-    }
-  },
-  {
     "src": "trips/2026-03-balkans-roadtrip/IMG20260315125427.jpg",
     "takenAt": "2026-03-15T12:54:27Z",
     "hasGps": true,
@@ -8458,21 +7965,6 @@
     "gps": {
       "lat": 44.80582,
       "lon": 20.44635
-    },
-    "place": {
-      "city": "Belgrade",
-      "country": "Serbia",
-      "display": "Belgrade, Serbia"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/IMG20260324135856.jpg",
-    "takenAt": "2026-03-24T13:58:56Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 44.81843,
-      "lon": 20.45046
     },
     "place": {
       "city": "Belgrade",
