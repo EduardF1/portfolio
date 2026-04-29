@@ -111,12 +111,17 @@
   {
     "src": "trips/2018-04-sweden/pexels-malmo-turning-torso-7019069.jpg",
     "takenAt": null,
-    "hasGps": false,
+    "hasGps": true,
+    "gps": {
+      "lat": 55.6133,
+      "lon": 12.9768
+    },
     "place": {
       "city": "Malmö",
       "country": "Sweden",
       "display": "Malmö, Sweden"
     },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -130,12 +135,17 @@
   {
     "src": "trips/2018-04-sweden/pexels-malmo-turning-torso-fog-17225672.jpg",
     "takenAt": null,
-    "hasGps": false,
+    "hasGps": true,
+    "gps": {
+      "lat": 55.6117,
+      "lon": 12.9816
+    },
     "place": {
       "city": "Malmö",
       "country": "Sweden",
       "display": "Malmö, Sweden"
     },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -149,12 +159,17 @@
   {
     "src": "trips/2018-04-sweden/pexels-malmo-turning-torso-sunset-13071531.jpg",
     "takenAt": null,
-    "hasGps": false,
+    "hasGps": true,
+    "gps": {
+      "lat": 55.6133,
+      "lon": 12.9768
+    },
     "place": {
       "city": "Malmö",
       "country": "Sweden",
       "display": "Malmö, Sweden"
     },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -281,12 +296,17 @@
   {
     "src": "trips/2019-07-luxembourg/pexels-luxembourg-adolphe-bridge-autumn-19909061.jpg",
     "takenAt": null,
-    "hasGps": false,
+    "hasGps": true,
+    "gps": {
+      "lat": 49.6107,
+      "lon": 6.1315
+    },
     "place": {
       "city": "Luxembourg",
       "country": "Luxembourg",
       "display": "Luxembourg, Luxembourg"
     },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -319,12 +339,17 @@
   {
     "src": "trips/2019-07-luxembourg/pexels-luxembourg-gothic-revival-30217826.jpg",
     "takenAt": null,
-    "hasGps": false,
+    "hasGps": true,
+    "gps": {
+      "lat": 49.6113,
+      "lon": 6.1293
+    },
     "place": {
       "city": "Luxembourg",
       "country": "Luxembourg",
       "display": "Luxembourg, Luxembourg"
     },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -547,12 +572,17 @@
   {
     "src": "trips/2022-07-greece/pexels-kavala-castle-waterfront-34030677.jpg",
     "takenAt": null,
-    "hasGps": false,
+    "hasGps": true,
+    "gps": {
+      "lat": 40.9346,
+      "lon": 24.3939
+    },
     "place": {
       "city": "Kavala",
       "country": "Greece",
       "display": "Kavala, Greece"
     },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -566,12 +596,17 @@
   {
     "src": "trips/2022-07-greece/pexels-kavala-harbor-twilight-29072782.jpg",
     "takenAt": null,
-    "hasGps": false,
+    "hasGps": true,
+    "gps": {
+      "lat": 40.9346,
+      "lon": 24.3939
+    },
     "place": {
       "city": "Kavala",
       "country": "Greece",
       "display": "Kavala, Greece"
     },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -585,12 +620,17 @@
   {
     "src": "trips/2022-07-greece/pexels-kavala-rooftops-sunset-35837532.jpg",
     "takenAt": null,
-    "hasGps": false,
+    "hasGps": true,
+    "gps": {
+      "lat": 40.9346,
+      "lon": 24.3939
+    },
     "place": {
       "city": "Kavala",
       "country": "Greece",
       "display": "Kavala, Greece"
     },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -604,12 +644,17 @@
   {
     "src": "trips/2022-07-greece/pexels-kavala-stone-arch-36114859.jpg",
     "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Kavala",
-      "country": "Greece",
-      "display": "Kavala, Greece"
+    "hasGps": true,
+    "gps": {
+      "lat": 37.567,
+      "lon": 22.8043
     },
+    "place": {
+      "city": "Municipal Unit of Nafplio",
+      "country": "Greece",
+      "display": "Municipal Unit of Nafplio, Greece"
+    },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -721,12 +766,17 @@
   {
     "src": "trips/2022-08-romania/pexels-brasov-black-church-aerial-35410900.jpg",
     "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Brașov",
-      "country": "Romania",
-      "display": "Brașov, Romania"
+    "hasGps": true,
+    "gps": {
+      "lat": 45.6433,
+      "lon": 25.5923
     },
+    "place": {
+      "city": "Brasov",
+      "country": "Romania",
+      "display": "Brasov, Romania"
+    },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -759,12 +809,17 @@
   {
     "src": "trips/2022-08-romania/pexels-brasov-council-square-tower-34069343.jpg",
     "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Brașov",
-      "country": "Romania",
-      "display": "Brașov, Romania"
+    "hasGps": true,
+    "gps": {
+      "lat": 45.6433,
+      "lon": 25.5923
     },
+    "place": {
+      "city": "Brasov",
+      "country": "Romania",
+      "display": "Brasov, Romania"
+    },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -1740,12 +1795,17 @@
   {
     "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-autumn-18703684.jpg",
     "takenAt": null,
-    "hasGps": false,
+    "hasGps": true,
+    "gps": {
+      "lat": 45.3552,
+      "lon": 25.5439
+    },
     "place": {
       "city": "Sinaia",
       "country": "Romania",
       "display": "Sinaia, Romania"
     },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -1759,12 +1819,17 @@
   {
     "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-summer-5651718.jpg",
     "takenAt": null,
-    "hasGps": false,
+    "hasGps": true,
+    "gps": {
+      "lat": 45.3552,
+      "lon": 25.5439
+    },
     "place": {
       "city": "Sinaia",
       "country": "Romania",
       "display": "Sinaia, Romania"
     },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -1808,12 +1873,17 @@
   {
     "src": "trips/2024-09-albania-saranda/pexels-gjirokastra-fortress-flag-11932455.jpg",
     "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Gjirokastra",
-      "country": "Albania",
-      "display": "Gjirokastra, Albania"
+    "hasGps": true,
+    "gps": {
+      "lat": 40.711,
+      "lon": 19.9389
     },
+    "place": {
+      "city": "Berat",
+      "country": "Albania",
+      "display": "Berat, Albania"
+    },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
@@ -1827,12 +1897,17 @@
   {
     "src": "trips/2024-09-albania-saranda/pexels-saranda-lekursi-castle-33067851.jpg",
     "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Saranda",
-      "country": "Albania",
-      "display": "Saranda, Albania"
+    "hasGps": true,
+    "gps": {
+      "lat": 40.4667,
+      "lon": 19.4897
     },
+    "place": {
+      "city": "Vlora",
+      "country": "Albania",
+      "display": "Vlora, Albania"
+    },
+    "gpsSource": "geoclip",
     "source": {
       "type": "stock",
       "provider": "Pexels",
