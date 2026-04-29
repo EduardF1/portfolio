@@ -2,16 +2,15 @@
 
 import { useActionState, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
+import { submitContact, type ContactState } from "@/app/actions/contact";
 import {
-  submitContact,
   ATTACHMENT_MIME_TYPES,
-  type ContactState,
-} from "@/app/actions/contact";
+  MAX_ATTACHMENT_BYTES,
+} from "@/app/actions/contact-constants";
 import { cn } from "@/lib/utils";
 
 const initialState: ContactState = { status: "idle" };
 
-const MAX_ATTACHMENT_BYTES = 5 * 1024 * 1024; // 5 MB
 const ATTACHMENT_ACCEPT = ATTACHMENT_MIME_TYPES.join(",");
 const ATTACHMENT_MIME_SET: ReadonlySet<string> = new Set<string>(
   ATTACHMENT_MIME_TYPES,

@@ -1,17 +1,13 @@
 "use server";
 
 import { z } from "zod";
+import {
+  ATTACHMENT_MIME_TYPES,
+  MAX_ATTACHMENT_BYTES,
+} from "./contact-constants";
 
-const MAX_ATTACHMENT_BYTES = 5 * 1024 * 1024; // 5 MB
 // Vercel body cap is 4.5 MB; the form-level ceiling is 4 MB. The 5 MB
 // validator size remains as a defence-in-depth backstop.
-export const ATTACHMENT_MIME_TYPES = [
-  "application/pdf",
-  "image/jpeg",
-  "image/png",
-  "application/msword",
-  "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-] as const;
 
 const ATTACHMENT_MIME_SET = new Set<string>(ATTACHMENT_MIME_TYPES);
 
