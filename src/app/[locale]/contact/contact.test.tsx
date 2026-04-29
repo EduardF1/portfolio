@@ -32,6 +32,13 @@ vi.mock("next-intl/server", () => ({
 const submitMock = vi.fn();
 vi.mock("@/app/actions/contact", () => ({
   submitContact: (...a: unknown[]) => submitMock(...a),
+  ATTACHMENT_MIME_TYPES: [
+    "application/pdf",
+    "image/jpeg",
+    "image/png",
+    "application/msword",
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  ] as const,
 }));
 
 afterEach(() => {
@@ -138,8 +145,8 @@ describe("ContactForm attachment validation", () => {
         subjectHint: "(optional)",
         message: "Message",
         attachment: "Attachment",
-        attachmentHint: "Optional · PDF only · max 5 MB",
-        attachmentErrorType: "PDF only",
+        attachmentHint: "Optional · PDF, JPEG, PNG, or Word document · max 5 MB",
+        attachmentErrorType: "PDF, JPEG, PNG, or Word document only",
         attachmentErrorSize: "File is larger than 5 MB",
         sending: "Sending…",
         submit: "Send",
@@ -149,23 +156,54 @@ describe("ContactForm attachment validation", () => {
     return screen.getByLabelText(/Attachment/) as HTMLInputElement;
   }
 
-  it("renders the attachment file input with the PDF accept hint", () => {
+  it("renders the attachment file input with the expanded accept hint", () => {
     const input = setup();
     expect(input).toBeInTheDocument();
     expect(input.type).toBe("file");
-    expect(input.accept).toBe("application/pdf");
+    // Whitelist: PDF + JPEG + PNG + Word (.doc + .docx)
+    expect(input.accept).toContain("application/pdf");
+    expect(input.accept).toContain("image/jpeg");
+    expect(input.accept).toContain("image/png");
+    expect(input.accept).toContain("application/msword");
+    expect(input.accept).toContain(
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    );
     expect(
-      screen.getByText(/Optional · PDF only · max 5 MB/),
+      screen.getByText(/Optional · PDF, JPEG, PNG, or Word document · max 5 MB/),
     ).toBeInTheDocument();
   });
 
-  it("rejects a non-PDF file with an inline error", () => {
+  it("rejects an unsupported file type with an inline error", () => {
     const input = setup();
-    const file = new File(["png-bytes"], "image.png", { type: "image/png" });
+    const file = new File(["zip-bytes"], "archive.zip", {
+      type: "application/zip",
+    });
     fireEvent.change(input, { target: { files: [file] } });
     const errorEl = document.getElementById("attachment-error");
-    expect(errorEl?.textContent).toMatch(/PDF only/);
+    expect(errorEl?.textContent).toMatch(/PDF, JPEG, PNG, or Word document/);
     expect(screen.getByRole("button", { name: /Send/ })).toBeDisabled();
+  });
+
+  it("accepts a PNG image without showing an error", () => {
+    const input = setup();
+    const png = new File([new Uint8Array(1024)], "shot.png", {
+      type: "image/png",
+    });
+    fireEvent.change(input, { target: { files: [png] } });
+    expect(document.getElementById("attachment-error")).toBeNull();
+    expect(screen.getByText("shot.png")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Send/ })).not.toBeDisabled();
+  });
+
+  it("accepts a .docx Word document without showing an error", () => {
+    const input = setup();
+    const docx = new File([new Uint8Array(1024)], "letter.docx", {
+      type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    });
+    fireEvent.change(input, { target: { files: [docx] } });
+    expect(document.getElementById("attachment-error")).toBeNull();
+    expect(screen.getByText("letter.docx")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Send/ })).not.toBeDisabled();
   });
 
   it("rejects a too-large PDF with an inline error", () => {

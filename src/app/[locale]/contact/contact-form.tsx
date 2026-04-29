@@ -2,13 +2,20 @@
 
 import { useActionState, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
-import { submitContact, type ContactState } from "@/app/actions/contact";
+import {
+  submitContact,
+  ATTACHMENT_MIME_TYPES,
+  type ContactState,
+} from "@/app/actions/contact";
 import { cn } from "@/lib/utils";
 
 const initialState: ContactState = { status: "idle" };
 
 const MAX_ATTACHMENT_BYTES = 5 * 1024 * 1024; // 5 MB
-const ATTACHMENT_MIME = "application/pdf";
+const ATTACHMENT_ACCEPT = ATTACHMENT_MIME_TYPES.join(",");
+const ATTACHMENT_MIME_SET: ReadonlySet<string> = new Set<string>(
+  ATTACHMENT_MIME_TYPES,
+);
 
 export function ContactForm() {
   const t = useTranslations("contact.form");
@@ -50,7 +57,7 @@ export function ContactForm() {
       setAttachmentName(null);
       return;
     }
-    if (file.type !== ATTACHMENT_MIME) {
+    if (!ATTACHMENT_MIME_SET.has(file.type)) {
       setAttachmentError(t("attachmentErrorType"));
       setAttachmentName(file.name);
       return;
@@ -134,7 +141,7 @@ export function ContactForm() {
         error={errors.message?.[0]}
       />
 
-      {/* Optional PDF attachment — max 5 MB, PDF only. */}
+      {/* Optional attachment — max 5 MB. PDF, JPEG, PNG, or Word document. */}
       <div>
         <div className="flex items-baseline justify-between gap-4 mb-1.5">
           <label htmlFor="attachment" className="text-sm font-medium">
@@ -157,7 +164,7 @@ export function ContactForm() {
           ref={fileInputRef}
           name="attachment"
           type="file"
-          accept="application/pdf"
+          accept={ATTACHMENT_ACCEPT}
           onChange={handleAttachmentChange}
           aria-invalid={attachmentErrorText ? true : undefined}
           aria-errormessage={

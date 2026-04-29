@@ -3,13 +3,26 @@
 import { z } from "zod";
 
 const MAX_ATTACHMENT_BYTES = 5 * 1024 * 1024; // 5 MB
-const ATTACHMENT_MIME = "application/pdf";
+// Vercel body cap is 4.5 MB; the form-level ceiling is 4 MB. The 5 MB
+// validator size remains as a defence-in-depth backstop.
+export const ATTACHMENT_MIME_TYPES = [
+  "application/pdf",
+  "image/jpeg",
+  "image/png",
+  "application/msword",
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+] as const;
+
+const ATTACHMENT_MIME_SET = new Set<string>(ATTACHMENT_MIME_TYPES);
 
 const attachmentSchema = z
   .instanceof(File)
   .optional()
   .refine((f) => !f || f.size <= MAX_ATTACHMENT_BYTES, "Too big")
-  .refine((f) => !f || f.type === ATTACHMENT_MIME, "PDF only");
+  .refine(
+    (f) => !f || ATTACHMENT_MIME_SET.has(f.type),
+    "Unsupported file type",
+  );
 
 const contactSchema = z.object({
   name: z.string().min(1, "Name is required").max(100),
@@ -46,7 +59,11 @@ async function verifyTurnstile(token: string | undefined): Promise<boolean> {
   return data.success === true;
 }
 
-type EmailAttachment = { filename: string; content: string };
+type EmailAttachment = {
+  filename: string;
+  content: string;
+  content_type?: string;
+};
 
 async function sendEmail(payload: {
   name: string;
@@ -84,6 +101,9 @@ async function sendEmail(payload: {
       {
         filename: payload.attachment.filename,
         content: payload.attachment.content,
+        ...(payload.attachment.content_type
+          ? { content_type: payload.attachment.content_type }
+          : {}),
       },
     ];
   }
@@ -102,13 +122,31 @@ async function sendEmail(payload: {
   return true;
 }
 
+function defaultFilenameFor(mime: string): string {
+  switch (mime) {
+    case "application/pdf":
+      return "attachment.pdf";
+    case "image/jpeg":
+      return "attachment.jpg";
+    case "image/png":
+      return "attachment.png";
+    case "application/msword":
+      return "attachment.doc";
+    case "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
+      return "attachment.docx";
+    default:
+      return "attachment";
+  }
+}
+
 async function fileToBase64Attachment(
   file: File,
 ): Promise<EmailAttachment> {
   const buf = Buffer.from(await file.arrayBuffer());
   return {
-    filename: file.name || "attachment.pdf",
+    filename: file.name || defaultFilenameFor(file.type),
     content: buf.toString("base64"),
+    content_type: file.type || undefined,
   };
 }
 
