@@ -17,7 +17,7 @@ test("per-trip photo page opens, lightbox traps focus, ESC restores it", async (
     .first();
   await expect(recentTripLink).toBeVisible();
   const href = await recentTripLink.getAttribute("href");
-  expect(href).toMatch(/\/travel\/photos\/[a-z0-9-]+-\d{4}-\d{2}$/);
+  expect(href).toMatch(/^\/travel\/photos\/[a-z0-9-]+-\d{4}-\d{2}(?:-\d+)?$/);
 
   await recentTripLink.click();
   await page.waitForURL(/\/travel\/photos\//);
