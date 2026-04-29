@@ -24,6 +24,7 @@ export async function generateMetadata({
   return {
     title: item.frontmatter.title,
     description: item.frontmatter.description,
+    alternates: { canonical: `/recommends/${slug}` },
   };
 }
 

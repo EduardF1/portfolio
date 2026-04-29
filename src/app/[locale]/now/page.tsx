@@ -7,6 +7,7 @@ export const metadata = {
   title: "Now",
   description:
     "What Eduard is focused on right now. Short, dated, honest. Updated every 1-2 months.",
+  alternates: { canonical: "/now" },
 };
 
 const LAST_UPDATED = "2026-04-26";

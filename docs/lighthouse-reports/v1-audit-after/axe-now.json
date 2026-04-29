@@ -1,0 +1,6 @@
+{
+  "route": "/now",
+  "slug": "now",
+  "url": "http://localhost:3100/now",
+  "violations": []
+}

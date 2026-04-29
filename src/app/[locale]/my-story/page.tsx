@@ -7,6 +7,7 @@ export const metadata = {
   title: "How I got here",
   description:
     "The longer arc, from AP Marketing in Kolding to engineering in Aarhus. Chronological, dated, calm.",
+  alternates: { canonical: "/my-story" },
 };
 
 type Chapter = {
