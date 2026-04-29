@@ -143,7 +143,13 @@ export default async function TravelPage({
           <ul
             className="grid gap-px bg-border/60 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 rounded-lg overflow-hidden"
           >
-            {destinations.map((d) => {
+            {(() => {
+              const lastRowLg = destinations.length % 4;
+              const lastRowSm = destinations.length % 2;
+              const SPAN_LG: Record<number, string> = { 0: "", 1: "lg:col-span-4", 2: "lg:col-span-3", 3: "lg:col-span-2" };
+              const SPAN_SM: Record<number, string> = { 0: "", 1: "sm:col-span-2" };
+              return destinations.map((d, idx) => {
+                const isLast = idx === destinations.length - 1;
               // Country card click target: most-recent trip first, fall
               // back to chronologically-earliest trip if for some reason
               // the country has no clusterable trips left.
@@ -170,7 +176,7 @@ export default async function TravelPage({
                 <li
                   key={d.slug}
                   id={`country-${d.slug}`}
-                  className="bg-background scroll-mt-24"
+                  className={`bg-background scroll-mt-24 ${isLast ? `${SPAN_SM[lastRowSm]} ${SPAN_LG[lastRowLg]}` : ""}`}
                 >
                   {slug ? (
                     <Link
@@ -184,7 +190,9 @@ export default async function TravelPage({
                   )}
                 </li>
               );
-            })}
+            });
+            })()}
+            
           </ul>
         </section>
       )}

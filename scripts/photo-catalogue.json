@@ -2181,6 +2181,136 @@
     }
   },
   {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-aerial-cityscape-17291320.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/cityscape-of-tel-aviv-17291320/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Aerial Cityscape · Tel Aviv, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-beach-skyscrapers-18837990.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aviv-beach-with-the-view-of-skyscrapers-tel-aviv-israel-18837990/",
+      "photographer": "Solomonik Vik",
+      "photographerUrl": "https://www.pexels.com/@solomonikvik/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Beach Skyscrapers · Tel Aviv, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-skyline-mediterranean-5028008.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/city-skyline-across-the-ocean-5028008/",
+      "photographer": "Yeshaya Dinerstein",
+      "photographerUrl": "https://www.pexels.com/@yeshaya-dinerstein-683189/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Skyline Mediterranean · Tel Aviv, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-beachfront-sunny-35916174.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-tel-aviv-beachfront-on-a-sunny-day-35916174/",
+      "photographer": "Samar L",
+      "photographerUrl": "https://www.pexels.com/@samar-l-525068134/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Beachfront Sunny · Tel Aviv, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-tel-aviv-promenade-mediterranean-35916202.jpg",
+    "takenAt": "2018-03-22T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "place": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "display": "Tel Aviv, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/bicycle-on-tel-aviv-promenade-overlooking-mediterranean-35916202/",
+      "photographer": "Samar L",
+      "photographerUrl": "https://www.pexels.com/@samar-l-525068134/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Promenade Mediterranean · Tel Aviv, Israel · March 2018"
+  },
+  {
     "src": "trips/2018-03-israel/pexels-petah-tikva-train-station-aerial-30499936.jpg",
     "takenAt": "2018-03-22T18:00:00Z",
     "hasGps": true,
@@ -2304,6 +2434,136 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-train-station-aerial-30499936.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-train-station-and-parking-lot-in-petah-tikva-30499936/",
+      "photographer": "Samir Smier",
+      "photographerUrl": "https://www.pexels.com/@samir-smier-314916757/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Train Station Aerial · Petah Tikva, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-rail-system-aerial-30108617.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-rail-system-in-petah-tikva-israel-30108617/",
+      "photographer": "Samir Smier",
+      "photographerUrl": "https://www.pexels.com/@samir-smier-314916757/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Rail System Aerial · Petah Tikva, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-suburb-skyline-17291329.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/buildings-near-park-in-haifa-in-israel-17291329/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Suburb Skyline · Petah Tikva, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-tramway-modern-building-12286815.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/tramway-and-buildings-in-city-12286815/",
+      "photographer": "Aysegul Aytoren",
+      "photographerUrl": "https://www.pexels.com/@aysegul-aytoren-46790226/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Tramway Modern Building · Petah Tikva, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-petah-tikva-coastal-suburbs-17291324.jpg",
+    "takenAt": "2018-03-22T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.0871,
+      "lon": 34.8878
+    },
+    "place": {
+      "city": "Petah Tikva",
+      "country": "Israel",
+      "display": "Petah Tikva, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/sea-coast-in-tel-aviv-17291324/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Coastal Suburbs · Petah Tikva, Israel · March 2018"
   },
   {
     "src": "trips/2018-03-israel/IMG_20180324_114159.jpg",
@@ -2693,6 +2953,136 @@
     }
   },
   {
+    "src": "trips/2018-03-israel/pexels-haifa-bahai-gardens-panorama-18223881.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/bahai-garden-haifa-in-israel-18223881/",
+      "photographer": "Sunbeam",
+      "photographerUrl": "https://www.pexels.com/@sunbeam-114409506/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Bahai Gardens Panorama · Haifa, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-bahai-gardens-cityscape-17291338.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/green-gardens-in-cityscape-17291338/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Bahai Gardens Cityscape · Haifa, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-bahai-port-aerial-17291340.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/drone-shot-of-haifa-in-israel-17291340/",
+      "photographer": "Kelly",
+      "photographerUrl": "https://www.pexels.com/@kelly/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Bahai Port Aerial · Haifa, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-hilltop-cityview-27638436.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/the-view-of-the-city-from-a-hilltop-27638436/",
+      "photographer": "Haim Charbit",
+      "photographerUrl": "https://www.pexels.com/@haim-charbit-46102840/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Hilltop Cityview · Haifa, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-harbor-twilight-34793422.jpg",
+    "takenAt": "2018-03-25T18:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-haifa-harbor-at-twilight-34793422/",
+      "photographer": "Regan D'Souza",
+      "photographerUrl": "https://www.pexels.com/@regan-dsouza-1315522347/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Harbor Twilight · Haifa, Israel · March 2018"
+  },
+  {
     "src": "trips/2018-03-israel/pexels-jerusalem-old-city-aerial-25947277.jpg",
     "takenAt": "2018-03-26T12:00:00Z",
     "hasGps": true,
@@ -2816,6 +3206,136 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-old-city-aerial-25947277.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/view-of-jerusalem-25947277/",
+      "photographer": "Zeev Hazenfratz",
+      "photographerUrl": "https://www.pexels.com/@zeev-hazenfratz-1636750/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Old City Aerial · Jerusalem, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-dome-of-the-rock-sunset-18013977.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/dome-of-the-rock-18013977/",
+      "photographer": "Ayse",
+      "photographerUrl": "https://www.pexels.com/@ayse-58498816/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Dome of the Rock Sunset · Jerusalem, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-dome-of-the-rock-arches-11696743.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historical-places-in-jerusalem-11696743/",
+      "photographer": "Yasir Gurbuz",
+      "photographerUrl": "https://www.pexels.com/@yasirgurbuz/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Dome of the Rock Arches · Jerusalem, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-walled-old-city-27358635.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/the-city-of-jerusalem-is-seen-from-above-27358635/",
+      "photographer": "Solomonik Vik",
+      "photographerUrl": "https://www.pexels.com/@solomonikvik/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Walled Old City · Jerusalem, Israel · March 2018"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-jerusalem-mary-magdalene-domes-17814829.jpg",
+    "takenAt": "2018-03-26T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    "place": {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "display": "Jerusalem, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/church-of-mary-magdalene-in-jerusalem-17814829/",
+      "photographer": "Andromeda99",
+      "photographerUrl": "https://www.pexels.com/@andromeda99/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Mary Magdalene Domes · Jerusalem, Israel · March 2018"
   },
   {
     "src": "trips/2018-04-sweden/IMG_20180408_194257.jpg",
@@ -3225,396 +3745,6 @@
       "licenseUrl": "https://www.pexels.com/license/"
     },
     "caption": "Canal Bridge Church · Amsterdam, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-rotterdam-erasmus-bridge-sunset-20655919.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.9244,
-      "lon": 4.4777
-    },
-    "place": {
-      "city": "Rotterdam",
-      "country": "Netherlands",
-      "display": "Rotterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/suspension-bridge-by-the-harbor-in-rotterdam-20655919/",
-      "photographer": "Igor Passchier",
-      "photographerUrl": "https://www.pexels.com/@igor-passchier-111147847",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Erasmus Bridge Sunset · Rotterdam, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-rotterdam-willemsbrug-white-house-35993737.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.9244,
-      "lon": 4.4777
-    },
-    "place": {
-      "city": "Rotterdam",
-      "country": "Netherlands",
-      "display": "Rotterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/sunset-over-willemsbrug-and-historic-white-house-rotterdam-35993737/",
-      "photographer": "braujardim",
-      "photographerUrl": "https://www.pexels.com/@braujardim",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Willemsbrug White House · Rotterdam, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-rotterdam-cube-houses-29819767.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.9244,
-      "lon": 4.4777
-    },
-    "place": {
-      "city": "Rotterdam",
-      "country": "Netherlands",
-      "display": "Rotterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/cube-houses-in-rotterdam-architectural-innovation-29819767/",
-      "photographer": "Valter Biscaia Filho",
-      "photographerUrl": "https://www.pexels.com/@valter-biscaia-filho-2147883999",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Cube Houses · Rotterdam, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-the-hague-binnenhof-fountain-18684354.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0705,
-      "lon": 4.3007
-    },
-    "place": {
-      "city": "The Hague",
-      "country": "Netherlands",
-      "display": "The Hague, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/binnenhof-in-hague-in-netherlands-18684354/",
-      "photographer": "Patrick Jaksic",
-      "photographerUrl": "https://www.pexels.com/@patrick-jaksic-615183630",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Binnenhof Fountain · The Hague, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-the-hague-skyline-historic-modern-33841317.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0705,
-      "lon": 4.3007
-    },
-    "place": {
-      "city": "The Hague",
-      "country": "Netherlands",
-      "display": "The Hague, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/skyline-of-the-hague-featuring-historic-and-modern-buildings-33841317/",
-      "photographer": "Jakub Zerdzicki",
-      "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Skyline Historic Modern · The Hague, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-the-hague-scheveningen-beach-34126088.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0705,
-      "lon": 4.3007
-    },
-    "place": {
-      "city": "The Hague",
-      "country": "Netherlands",
-      "display": "The Hague, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scheveningen-beach-and-cityscape-the-hague-34126088/",
-      "photographer": "Jakub Zerdzicki",
-      "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Scheveningen Beach · The Hague, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-utrecht-dom-tower-blue-sky-32348115.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0907,
-      "lon": 5.1214
-    },
-    "place": {
-      "city": "Utrecht",
-      "country": "Netherlands",
-      "display": "Utrecht, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/dom-tower-against-clear-blue-sky-in-utrecht-32348115/",
-      "photographer": "Martijn Stoof",
-      "photographerUrl": "https://www.pexels.com/@martijn-stoof",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Dom Tower Blue Sky · Utrecht, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-utrecht-canal-evening-33375300.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0907,
-      "lon": 5.1214
-    },
-    "place": {
-      "city": "Utrecht",
-      "country": "Netherlands",
-      "display": "Utrecht, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-evening-canal-view-in-utrecht-netherlands-33375300/",
-      "photographer": "Barkalı",
-      "photographerUrl": "https://www.pexels.com/@barkali-340353352",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Canal Evening · Utrecht, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-utrecht-cyclists-dom-tower-33021970.jpg",
-    "takenAt": "2019-05-04T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0907,
-      "lon": 5.1214
-    },
-    "place": {
-      "city": "Utrecht",
-      "country": "Netherlands",
-      "display": "Utrecht, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/cyclists-near-dom-tower-utrecht-historic-street-33021970/",
-      "photographer": "Ernesto",
-      "photographerUrl": "https://www.pexels.com/@ernesto-2335487",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Cyclists Dom Tower · Utrecht, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-rotterdam-blaak-tram-markthal-29246776.jpg",
-    "takenAt": "2019-05-25T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.9244,
-      "lon": 4.4777
-    },
-    "place": {
-      "city": "Rotterdam",
-      "country": "Netherlands",
-      "display": "Rotterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/rotterdam-blaak-modern-tram-station-with-markthal-29246776/",
-      "photographer": "Igor Passchier",
-      "photographerUrl": "https://www.pexels.com/@igor-passchier-111147847/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Blaak Tram Markthal · Rotterdam, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-rotterdam-markthal-food-stalls-15031756.jpg",
-    "takenAt": "2019-05-25T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.9244,
-      "lon": 4.4777
-    },
-    "place": {
-      "city": "Rotterdam",
-      "country": "Netherlands",
-      "display": "Rotterdam, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/people-near-food-bar-in-shopping-mall-15031756/",
-      "photographer": "Maarten van den Heuvel",
-      "photographerUrl": "https://www.pexels.com/@mvdheuvel/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Markthal Food Stalls · Rotterdam, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-the-hague-peace-palace-front-18275684.jpg",
-    "takenAt": "2019-05-25T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0705,
-      "lon": 4.3007
-    },
-    "place": {
-      "city": "The Hague",
-      "country": "Netherlands",
-      "display": "The Hague, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/traditional-palace-in-hague-18275684/",
-      "photographer": "jaralol",
-      "photographerUrl": "https://www.pexels.com/@jaralol/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Peace Palace Front · The Hague, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-the-hague-binnenhof-fountain-13460833.jpg",
-    "takenAt": "2019-05-25T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0705,
-      "lon": 4.3007
-    },
-    "place": {
-      "city": "The Hague",
-      "country": "Netherlands",
-      "display": "The Hague, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/water-fountain-in-front-of-brown-concrete-building-13460833/",
-      "photographer": "Márton Novák",
-      "photographerUrl": "https://www.pexels.com/@marton-novak-81427533/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Binnenhof Fountain · The Hague, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-utrecht-dom-tower-clear-sky-35014438.jpg",
-    "takenAt": "2019-05-25T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0907,
-      "lon": 5.1214
-    },
-    "place": {
-      "city": "Utrecht",
-      "country": "Netherlands",
-      "display": "Utrecht, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/dom-tower-in-utrecht-against-blue-sky-35014438/",
-      "photographer": "Paul Oor",
-      "photographerUrl": "https://www.pexels.com/@paul-oor-281880/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Dom Tower Clear Sky · Utrecht, Netherlands · May 2019"
-  },
-  {
-    "src": "trips/2019-05-netherlands/pexels-utrecht-dom-tower-evening-33021969.jpg",
-    "takenAt": "2019-05-25T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.0907,
-      "lon": 5.1214
-    },
-    "place": {
-      "city": "Utrecht",
-      "country": "Netherlands",
-      "display": "Utrecht, Netherlands"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/utrecht-dom-tower-in-evening-light-33021969/",
-      "photographer": "Petar Avramoski",
-      "photographerUrl": "https://www.pexels.com/@ernesto/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Dom Tower Evening · Utrecht, Netherlands · May 2019"
   },
   {
     "src": "trips/2019-07-turkey/IMG_20190709_214550.jpg",
@@ -4593,6 +4723,306 @@
     "caption": "Keramoti, Greece · July 2022"
   },
   {
+    "src": "trips/2022-07-greece/pexels-kavala-aerial-coastline-11247205.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.93732,
+      "lon": 24.95646
+    },
+    "place": {
+      "city": "Abdera",
+      "country": "Greece",
+      "display": "Abdera, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-kavalas-urban-landscape-11247205/",
+      "photographer": "Marina Gr",
+      "photographerUrl": "https://www.pexels.com/@marina-gr-109305987/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-kavala-aqueduct-sunset-10163045.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.93732,
+      "lon": 24.95646
+    },
+    "place": {
+      "city": "Abdera",
+      "country": "Greece",
+      "display": "Abdera, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-stone-aqueduct-and-town-buildings-at-sunset-10163045/",
+      "photographer": "Marina Gr",
+      "photographerUrl": "https://www.pexels.com/@marina-gr-109305987/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-kavala-harbor-cityscape-dusk-29072782.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.93732,
+      "lon": 24.95646
+    },
+    "place": {
+      "city": "Abdera",
+      "country": "Greece",
+      "display": "Abdera, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-kavala-harbor-and-cityscape-at-dusk-29072782/",
+      "photographer": "sevgiilale",
+      "photographerUrl": "https://www.pexels.com/@sevgiilale/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-keramoti-rippled-sea-19203217.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.85767,
+      "lon": 24.70224
+    },
+    "place": {
+      "city": "Keramoti",
+      "country": "Greece",
+      "display": "Keramoti, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/serene-rippled-ocean-texture-keramoti-greece-19203217/",
+      "photographer": "didsss",
+      "photographerUrl": "https://www.pexels.com/@didsss/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-nafplio-aerial-coastal-town-10400151.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 37.567,
+      "lon": 22.8043
+    },
+    "place": {
+      "city": "Nafplio",
+      "country": "Greece",
+      "display": "Nafplio, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-aerial-view-of-nafplio-10400151/",
+      "photographer": "Alexandros Papadopoulos",
+      "photographerUrl": "https://www.pexels.com/@alexandros-papadopoulos-144473958/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-nafplio-bourtzi-castle-harbor-32138690.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 37.567,
+      "lon": 22.8043
+    },
+    "place": {
+      "city": "Nafplio",
+      "country": "Greece",
+      "display": "Nafplio, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/breathtaking-view-of-nafplio-harbor-with-bourtzi-castle-32138690/",
+      "photographer": "Adrien Olichon",
+      "photographerUrl": "https://www.pexels.com/@adrien-olichon-1257089/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-nafplio-palamidi-arched-window-18835693.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 37.567,
+      "lon": 22.8043
+    },
+    "place": {
+      "city": "Nafplio",
+      "country": "Greece",
+      "display": "Nafplio, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/nafplio-from-arched-window-of-palamidi-fortress-18835693/",
+      "photographer": "Tatiana Lapa",
+      "photographerUrl": "https://www.pexels.com/@tatiana-lapa-114875724/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-nafplio-stone-archway-coast-17098083.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 37.567,
+      "lon": 22.8043
+    },
+    "place": {
+      "city": "Nafplio",
+      "country": "Greece",
+      "display": "Nafplio, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/captivating-view-of-nafplio-town-and-coast-17098083/",
+      "photographer": "Alexandros Milidakis",
+      "photographerUrl": "https://www.pexels.com/@alexandros-milidakis-559640413/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-thassos-chrisi-ammoudia-10505163.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.67472,
+      "lon": 24.76
+    },
+    "place": {
+      "city": "Thassos",
+      "country": "Greece",
+      "display": "Thassos, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/chrisi-ammoudia-beach-greece-turquoise-waters-10505163/",
+      "photographer": "Igor Ermurachi",
+      "photographerUrl": "https://www.pexels.com/@igor-ermurachi-56590/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-thassos-golden-beach-aqua-28498153.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.67472,
+      "lon": 24.76
+    },
+    "place": {
+      "city": "Thassos",
+      "country": "Greece",
+      "display": "Thassos, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/pristine-aqua-beach-golden-beach-thassos-28498153/",
+      "photographer": "Artiom Petrachi",
+      "photographerUrl": "https://www.pexels.com/@artiom-petrachi-1825232739/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-thassos-rocky-shore-blue-33023678.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.67472,
+      "lon": 24.76
+    },
+    "place": {
+      "city": "Thassos",
+      "country": "Greece",
+      "display": "Thassos, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/idyllic-beach-scene-in-thassos-greece-33023678/",
+      "photographer": "Daciana Cristina Visan",
+      "photographerUrl": "https://www.pexels.com/@daciana-cristina-visan-2149801141/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-xanthi-mountaintop-view-33516844.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.93732,
+      "lon": 24.95646
+    },
+    "place": {
+      "city": "Abdera",
+      "country": "Greece",
+      "display": "Abdera, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/elevated-view-of-xanthi-city-from-a-mountaintop-33516844/",
+      "photographer": "kryonoglou",
+      "photographerUrl": "https://www.pexels.com/@kryonoglou/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2022-07-greece/IMG_20220720_124416.jpg",
     "takenAt": "2022-07-20T12:44:16Z",
     "hasGps": true,
@@ -4689,6 +5119,56 @@
     "caption": "Bușteni, Romania · August 2022"
   },
   {
+    "src": "trips/2022-08-romania/pexels-sacele-brasov-tampa-mountain-street-30271191.jpg",
+    "takenAt": "2022-08-07T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.6118,
+      "lon": 25.6973
+    },
+    "place": {
+      "city": "Săcele",
+      "country": "Romania",
+      "display": "Săcele, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-street-view-of-brasov-with-tampa-mountain-30271191/",
+      "photographer": "Carsten Jørgensen",
+      "photographerUrl": "https://www.pexels.com/@carsten-jorgensen-2147830195/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-sacele-brasov-weaver-bastion-winter-11534893.jpg",
+    "takenAt": "2022-08-07T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.6118,
+      "lon": 25.6973
+    },
+    "place": {
+      "city": "Săcele",
+      "country": "Romania",
+      "display": "Săcele, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/snowy-winter-scene-at-weaver-bastion-in-brasov-with-benches-and-fortress-walls-11534893/",
+      "photographer": "Παναγιώτης Αρκουμάνης",
+      "photographerUrl": "https://www.pexels.com/@179554791/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2022-08-romania/IMG_20220807_165208.jpg",
     "takenAt": "2022-08-07T16:52:09Z",
     "hasGps": true,
@@ -4763,32 +5243,6 @@
     "caption": "Dunes Church · Skagen, Denmark · August 2022"
   },
   {
-    "src": "trips/2022-08-denmark/pexels-romo-beach-dunes-26771998.jpg",
-    "takenAt": "2022-08-18T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.1494,
-      "lon": 8.5436
-    },
-    "place": {
-      "city": "Rømø",
-      "country": "Denmark",
-      "display": "Rømø, Denmark"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/26771998/",
-      "photographer": "Wolfgang Weiser",
-      "photographerUrl": "https://www.pexels.com/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Romo Beach Dunes · Rømø, Denmark · August 2022"
-  },
-  {
     "src": "trips/2022-08-denmark/pexels-skagen-lighthouse-sunset-26600775.jpg",
     "takenAt": "2022-08-18T12:00:00Z",
     "hasGps": true,
@@ -4839,32 +5293,6 @@
       "licenseUrl": "https://www.pexels.com/license/"
     },
     "caption": "Lighthouse Flag · Hirtshals, Denmark · August 2022"
-  },
-  {
-    "src": "trips/2022-08-denmark/pexels-samso-coastline-18134307.jpg",
-    "takenAt": "2022-08-18T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.8728,
-      "lon": 10.6105
-    },
-    "place": {
-      "city": "Samsø",
-      "country": "Denmark",
-      "display": "Samsø, Denmark"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/18134307/",
-      "photographer": "Tha Dah Baw",
-      "photographerUrl": "https://www.pexels.com/@tha-dah-baw/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Samso Coastline · Samsø, Denmark · August 2022"
   },
   {
     "src": "trips/2022-08-denmark/pexels-hirtshals-lighthouse-grass-8297881.jpg",
@@ -5049,6 +5477,102 @@
     "caption": "Coastal Houses · Hirtshals, Denmark · August 2022"
   },
   {
+    "src": "trips/2022-08-denmark/pexels-billund-colorful-architecture-34175387.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.7308,
+      "lon": 9.1158
+    },
+    "place": {
+      "city": "Billund",
+      "country": "Denmark",
+      "display": "Billund, Denmark"
+    },
+    "caption": "Colorful Architecture · Billund, Denmark · August 2022",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/34175387/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-billund-historical-building-18947583.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.7308,
+      "lon": 9.1158
+    },
+    "place": {
+      "city": "Billund",
+      "country": "Denmark",
+      "display": "Billund, Denmark"
+    },
+    "caption": "Historical Building · Billund, Denmark · August 2022",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/18947583/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-billund-windmill-12678203.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.7308,
+      "lon": 9.1158
+    },
+    "place": {
+      "city": "Billund",
+      "country": "Denmark",
+      "display": "Billund, Denmark"
+    },
+    "caption": "Windmill · Billund, Denmark · August 2022",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/12678203/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-billund-windmill-greenery-37313591.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.7308,
+      "lon": 9.1158
+    },
+    "place": {
+      "city": "Billund",
+      "country": "Denmark",
+      "display": "Billund, Denmark"
+    },
+    "caption": "Windmill Greenery · Billund, Denmark · August 2022",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/37313591/"
+    }
+  },
+  {
     "src": "trips/2022-08-denmark/IMG_20220827_122602.jpg",
     "takenAt": "2022-08-27T12:26:03Z",
     "hasGps": true,
@@ -5141,6 +5665,174 @@
       "licenseUrl": "https://www.pexels.com/license/"
     },
     "caption": "River Vintage Buildings · Aarhus, Denmark · October 2022"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-randers-aerial-cityscape-13274317.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4608,
+      "lon": 10.0371
+    },
+    "place": {
+      "city": "Randers",
+      "country": "Denmark",
+      "display": "Randers, Denmark"
+    },
+    "caption": "Aerial Cityscape · Randers, Denmark · October 2022",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13274317/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-randers-city-view-13762300.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4608,
+      "lon": 10.0371
+    },
+    "place": {
+      "city": "Randers",
+      "country": "Denmark",
+      "display": "Randers, Denmark"
+    },
+    "caption": "City View · Randers, Denmark · October 2022",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13762300/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-randers-aerial-city-houses-13519732.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4608,
+      "lon": 10.0371
+    },
+    "place": {
+      "city": "Randers",
+      "country": "Denmark",
+      "display": "Randers, Denmark"
+    },
+    "caption": "Aerial City Houses · Randers, Denmark · October 2022",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13519732/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-randers-park-sea-shore-25473965.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4608,
+      "lon": 10.0371
+    },
+    "place": {
+      "city": "Randers",
+      "country": "Denmark",
+      "display": "Randers, Denmark"
+    },
+    "caption": "Park Sea Shore · Randers, Denmark · October 2022",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/25473965/"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/pexels-munster-cathedral-corridors-19221895.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.9607,
+      "lon": 7.6261
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    },
+    "caption": "Cathedral Corridors · Munster, Germany · October 2022",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/19221895/"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/pexels-munster-gothic-church-18041786.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.9607,
+      "lon": 7.6261
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    },
+    "caption": "Gothic Church · Munster, Germany · October 2022",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/18041786/"
+    }
+  },
+  {
+    "src": "trips/2022-10-germany/pexels-munster-university-building-31192300.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.9607,
+      "lon": 7.6261
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    },
+    "caption": "University Building · Munster, Germany · October 2022",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/31192300/"
+    }
   },
   {
     "src": "trips/2022-10-denmark/IMG_20221015_165451.jpg",
@@ -5248,6 +5940,31 @@
       "display": "Hamburg, Germany"
     },
     "caption": "Hamburg, Germany · October 2022"
+  },
+  {
+    "src": "trips/2022-10-germany/pexels-lueneburg-heath-lavender-field-27978161.jpg",
+    "takenAt": "2022-10-21T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 52.98687,
+      "lon": 10.10924
+    },
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/vibrant-lavender-field-in-lueneburg-heath-during-daytime-27978161/",
+      "photographer": "deuspix",
+      "photographerUrl": "https://www.pexels.com/@deuspix/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
   },
   {
     "src": "trips/2022-10-germany/IMG_0132.jpg",
@@ -5911,6 +6628,77 @@
     "caption": "Holyrood Palace Architecture · Edinburgh, United Kingdom · July 2023"
   },
   {
+    "src": "trips/2023-07-greece-athens-halkidiki/pexels-athens-erechtheion-caryatids-6924329.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 37.97457,
+      "lon": 23.99225
+    },
+    "place": {
+      "city": "Athens",
+      "country": "Greece",
+      "display": "Athens, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/erechtheion-temple-with-caryatids-in-acropolis-athens-6924329/",
+      "photographer": "Mohammed Zar",
+      "photographerUrl": "https://www.pexels.com/@mohammed-zar-3861716/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/pexels-athens-parthenon-unesco-28601862.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 37.97457,
+      "lon": 23.99225
+    },
+    "place": {
+      "city": "Athens",
+      "country": "Greece",
+      "display": "Athens, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-view-of-the-parthenon-a-unesco-world-heritage-site-28601862/",
+      "photographer": "Efrem Efre",
+      "photographerUrl": "https://www.pexels.com/@efrem-efre-2786187/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-kalamitsi-sunrise-28435910.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": false,
+    "cameraModel": "Pexels stock",
+    "place": {
+      "city": "Nea Fokea",
+      "country": "Greece",
+      "display": "Nea Fokea, Greece"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/kalamitsi-beach-halkidiki-sunrise-28435910/",
+      "photographer": "Yassen Kounchev",
+      "photographerUrl": "https://www.pexels.com/@yassen-kounchev-889850329/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2023-07-greece-athens-halkidiki/IMG_20230706_190837.jpg",
     "takenAt": "2023-07-06T19:08:38Z",
     "hasGps": true,
@@ -6232,6 +7020,136 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-eye-dusk-thames-33419289.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-the-london-eye-at-dusk-33419289/",
+      "photographer": "Shambadatta",
+      "photographerUrl": "https://www.pexels.com/@shambadatta/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Eye Dusk Thames · London, United Kingdom · July 2023"
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-tower-of-london-fortress-30483647.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/tower-of-london-with-historic-architecture-30483647/",
+      "photographer": "Tom Hermans",
+      "photographerUrl": "https://www.pexels.com/@tom-hermans-2148380566/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Tower of London Fortress · London, United Kingdom · July 2023"
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-dungeon-themed-historic-crypt-33939371.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-brick-crypt-architecture-with-vaulted-ceilings-33939371/",
+      "photographer": "Anna Rynkowska",
+      "photographerUrl": "https://www.pexels.com/@anna-rynkowska/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Dungeon Themed Historic Crypt · London, United Kingdom · July 2023"
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-tussauds-themed-wax-sculpture-16035584.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/wax-sculpture-in-a-museum-16035584/",
+      "photographer": "Aysenaz Bilgin",
+      "photographerUrl": "https://www.pexels.com/@aysenaz-bilgin-421884106/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Tussauds Themed Wax Sculpture · London, United Kingdom · July 2023"
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-london-imperial-war-museum-cannons-34855089.jpg",
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "place": {
+      "city": "London",
+      "country": "United Kingdom",
+      "display": "London, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/imperial-war-museum-front-view-with-cannons-34855089/",
+      "photographer": "Patricio",
+      "photographerUrl": "https://www.pexels.com/@patricio/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Imperial War Museum Cannons · London, United Kingdom · July 2023"
   },
   {
     "src": "trips/2023-07-uk-tour/pexels-oxford-radcliffe-camera-aerial-1796720.jpg",
@@ -6656,6 +7574,78 @@
     "caption": "Maidens Tower Sunset · Istanbul, Turkey · July 2023"
   },
   {
+    "src": "trips/2023-07-turkey/pexels-kusadasi-castle-island-10727537.jpg",
+    "takenAt": "2023-07-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 37.856,
+      "lon": 27.2607
+    },
+    "place": {
+      "city": "Kuşadası",
+      "country": "Turkey",
+      "display": "Kuşadası, Turkey"
+    },
+    "caption": "Castle Island · Kuşadası, Turkey · July 2023",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/10727537/"
+    }
+  },
+  {
+    "src": "trips/2023-07-turkey/pexels-kusadasi-ferries-castle-13574651.jpg",
+    "takenAt": "2023-07-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 37.856,
+      "lon": 27.2607
+    },
+    "place": {
+      "city": "Kuşadası",
+      "country": "Turkey",
+      "display": "Kuşadası, Turkey"
+    },
+    "caption": "Ferries Castle · Kuşadası, Turkey · July 2023",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13574651/"
+    }
+  },
+  {
+    "src": "trips/2023-07-turkey/pexels-kusadasi-sea-shore-17277662.jpg",
+    "takenAt": "2023-07-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 37.856,
+      "lon": 27.2607
+    },
+    "place": {
+      "city": "Kuşadası",
+      "country": "Turkey",
+      "display": "Kuşadası, Turkey"
+    },
+    "caption": "Sea Shore · Kuşadası, Turkey · July 2023",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/17277662/"
+    }
+  },
+  {
     "src": "trips/2023-07-turkey/IMG_20230715_165617.jpg",
     "takenAt": "2023-07-15T16:56:18Z",
     "hasGps": true,
@@ -6984,6 +7974,31 @@
       "display": "Sinaia, Romania"
     },
     "caption": "Sinaia, Romania · August 2023"
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-sacele-brasov-square-clock-tower-aerial-34069343.jpg",
+    "takenAt": "2023-08-27T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.6118,
+      "lon": 25.6973
+    },
+    "place": {
+      "city": "Săcele",
+      "country": "Romania",
+      "display": "Săcele, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-historic-brasov-square-and-clock-tower-34069343/",
+      "photographer": "Râmbeț Ioana",
+      "photographerUrl": "https://www.pexels.com/@rambe-ioana-211953981/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
   },
   {
     "src": "trips/2023-08-romania/IMG20230827134002.jpg",
@@ -9837,6 +10852,80 @@
     "caption": "Lake Balaton Hills · Szarvas, Hungary · August 2024"
   },
   {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-hortobagy-haystacks-summer-19567427.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.6486,
+      "lon": 21.2828
+    },
+    "place": {
+      "city": "Gyula",
+      "country": "Hungary",
+      "display": "Gyula, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/haystacks-hortobagy-hungary-countryside-19567427/",
+      "photographer": "Zsolt Erdelyi",
+      "photographerUrl": "https://www.pexels.com/@zsolt-erdelyi-852628585/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-puszta-csikos-horsemen-27037558.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.6486,
+      "lon": 21.2828
+    },
+    "place": {
+      "city": "Gyula",
+      "country": "Hungary",
+      "display": "Gyula, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/hungarian-horsemen-traditional-blue-clothing-rural-27037558/",
+      "photographer": "Stokeron",
+      "photographerUrl": "https://www.pexels.com/@stokeron/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-keszthely-pier-beach-13101101.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.7706,
+      "lon": 17.2432
+    },
+    "place": {
+      "city": "Keszthely",
+      "country": "Hungary",
+      "display": "Keszthely, Hungary"
+    },
+    "caption": "Pier Beach · Keszthely, Hungary · August 2024",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13101101/"
+    }
+  },
+  {
     "src": "trips/2024-09-albania-saranda/pexels-tirana-namazgah-mosque-18399217.jpg",
     "takenAt": "2024-09-15T12:00:00Z",
     "hasGps": true,
@@ -10277,6 +11366,78 @@
       "licenseUrl": "https://www.pexels.com/license/"
     },
     "caption": "Lekursi Castle Evening · Saranda, Albania · September 2024"
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-gjirokastra-aerial-townscape-34092482.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 40.0758,
+      "lon": 20.1389
+    },
+    "place": {
+      "city": "Gjirokastra",
+      "country": "Albania",
+      "display": "Gjirokastra, Albania"
+    },
+    "caption": "Aerial Townscape · Gjirokastra, Albania · September 2024",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/34092482/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-tirana-cityscape-17866485.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 41.3275,
+      "lon": 19.8189
+    },
+    "place": {
+      "city": "Tirana",
+      "country": "Albania",
+      "display": "Tirana, Albania"
+    },
+    "caption": "Cityscape · Tirana, Albania · September 2024",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/17866485/"
+    }
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-tirana-modern-architecture-31961223.jpg",
+    "takenAt": "2024-09-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 41.3275,
+      "lon": 19.8189
+    },
+    "place": {
+      "city": "Tirana",
+      "country": "Albania",
+      "display": "Tirana, Albania"
+    },
+    "caption": "Modern Architecture · Tirana, Albania · September 2024",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/31961223/"
+    }
   },
   {
     "src": "trips/2024-09-albania-saranda/IMG20240918191245.jpg",
@@ -10881,6 +12042,753 @@
       "licenseUrl": "https://www.pexels.com/license/"
     },
     "caption": "Namesti Svobody Square · Brno, Czechia · April 2025"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-banska-bystrica-grassy-field-33798106.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.7357,
+      "lon": 19.1511
+    },
+    "place": {
+      "city": "Banská Bystrica",
+      "country": "Slovakia",
+      "display": "Banská Bystrica, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/ginger-cat-lying-in-the-grassy-field-of-banska-bystrica-relaxing-outdoors-33798106/",
+      "photographer": "Enis Uzeiri",
+      "photographerUrl": "https://www.pexels.com/@enis-uzeiri-2155503894/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-bratislava-slovak-radio-building-inverted-pyramid-9404482.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.1486,
+      "lon": 17.1077
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/low-angle-view-of-the-iconic-slovak-radio-building-in-bratislava-slovakia-under-a-clear-sky-9404482/",
+      "photographer": "Leopold Biget",
+      "photographerUrl": "https://www.pexels.com/@leopold-biget-19679119/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-bratislava-ufo-bridge-cityscape-sunset-31715853.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.1486,
+      "lon": 17.1077
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/ufo-bridge-and-cityscape-at-sunset-in-bratislava-31715853/",
+      "photographer": "Marek Bajbar",
+      "photographerUrl": "https://www.pexels.com/@marek-bajbar-2151401168/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzegi-bukowina-autumn-mountains-19550182.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.25113,
+      "lon": 20.09979
+    },
+    "place": {
+      "city": "Brzegi",
+      "country": "Poland",
+      "display": "Brzegi, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/vibrant-autumn-foliage-bukowina-tatrzanska-19550182/",
+      "photographer": "Dariusz Staniszewski",
+      "photographerUrl": "https://www.pexels.com/@dariusz-staniszewski-1425290/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzegi-tatra-village-fields-21837391.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.25113,
+      "lon": 20.09979
+    },
+    "place": {
+      "city": "Brzegi",
+      "country": "Poland",
+      "display": "Brzegi, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/picturesque-village-houses-amidst-fields-mountains-poland-21837391/",
+      "photographer": "Valeriy Pelts",
+      "photographerUrl": "https://www.pexels.com/@valeriy-pelts-939887181/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzezinka-auschwitz-birkenau-tracks-35743059.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.03452,
+      "lon": 19.18303
+    },
+    "place": {
+      "city": "Brzezinka",
+      "country": "Poland",
+      "display": "Brzezinka, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/railroad-tracks-leading-to-auschwitz-birkenau-35743059/",
+      "photographer": "Lumina Voyager",
+      "photographerUrl": "https://www.pexels.com/@lumina-voyager-147015704/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzezinka-birkenau-wagon-watchtower-22816214.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.03452,
+      "lon": 19.18303
+    },
+    "place": {
+      "city": "Brzezinka",
+      "country": "Poland",
+      "display": "Brzezinka, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/wooden-train-wagon-watchtowers-auschwitz-birkenau-22816214/",
+      "photographer": "Algrey",
+      "photographerUrl": "https://www.pexels.com/@algrey/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-harmanec-cicmany-foggy-village-5877697.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.7942,
+      "lon": 19.1
+    },
+    "place": {
+      "city": "Harmanec",
+      "country": "Slovakia",
+      "display": "Harmanec, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/foggy-countryside-village-in-cicmany-slovakia-with-traditional-rural-landscape-5877697/",
+      "photographer": "Robo Michalec",
+      "photographerUrl": "https://www.pexels.com/@robo-michalec-728554/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-silesian-museum-mine-shaft-20685089.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.2601,
+      "lon": 19.02161
+    },
+    "place": {
+      "city": "Katowice",
+      "country": "Poland",
+      "display": "Katowice, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/silesian-museum-historic-mine-shaft-tower-20685089/",
+      "photographer": "Bruno Krajski",
+      "photographerUrl": "https://www.pexels.com/@bruno-krajski-518872760/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-spodek-arena-event-30696550.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.2601,
+      "lon": 19.02161
+    },
+    "place": {
+      "city": "Katowice",
+      "country": "Poland",
+      "display": "Katowice, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/spodek-arena-katowice-esports-event-30696550/",
+      "photographer": "Filip Hajdoci",
+      "photographerUrl": "https://www.pexels.com/@filip-hajdoci-355268404/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-spodek-puddle-reflection-37144894.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.2601,
+      "lon": 19.02161
+    },
+    "place": {
+      "city": "Katowice",
+      "country": "Poland",
+      "display": "Katowice, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/spodek-arena-katowice-puddle-reflection-37144894/",
+      "photographer": "Dawid Zawila",
+      "photographerUrl": "https://www.pexels.com/@dawid-zawila-2151273316/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-train-station-night-35358052.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.2601,
+      "lon": 19.02161
+    },
+    "place": {
+      "city": "Katowice",
+      "country": "Poland",
+      "display": "Katowice, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/moody-night-view-platform-katowice-train-station-35358052/",
+      "photographer": "Algrey",
+      "photographerUrl": "https://www.pexels.com/@algrey/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-mala-frankova-podbiel-wooden-cottages-15267850.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2855,
+      "lon": 20.3145
+    },
+    "place": {
+      "city": "Malá Franková",
+      "country": "Slovakia",
+      "display": "Malá Franková, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-wooden-cottages-in-podbiel-slovakia-showcasing-traditional-architecture-15267850/",
+      "photographer": "Valentin Onu",
+      "photographerUrl": "https://www.pexels.com/@vali741/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-murzasichle-morskie-oko-tatra-reflection-11029916.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.30832,
+      "lon": 20.0444
+    },
+    "place": {
+      "city": "Murzasichle",
+      "country": "Poland",
+      "display": "Murzasichle, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/dramatic-tatra-mountains-morskie-oko-11029916/",
+      "photographer": "Maryia Plashchynskaya",
+      "photographerUrl": "https://www.pexels.com/@maryiaplashchynskaya/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-murzasichle-tatra-forest-snow-peaks-11029904.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.30832,
+      "lon": 20.0444
+    },
+    "place": {
+      "city": "Murzasichle",
+      "country": "Poland",
+      "display": "Murzasichle, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/tatra-mountains-lush-forests-snowy-peaks-11029904/",
+      "photographer": "Maryia Plashchynskaya",
+      "photographerUrl": "https://www.pexels.com/@maryiaplashchynskaya/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-podbiel-historic-wooden-15267870.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2912,
+      "lon": 20.2316
+    },
+    "place": {
+      "city": "Osturňa",
+      "country": "Slovakia",
+      "display": "Osturňa, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-wooden-houses-of-podbiel-slovakia-showcasing-unique-architectural-design-15267870/",
+      "photographer": "Valentin Onu",
+      "photographerUrl": "https://www.pexels.com/@vali741/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-ruzomberok-rustic-wooden-11019952.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2912,
+      "lon": 20.2316
+    },
+    "place": {
+      "city": "Osturňa",
+      "country": "Slovakia",
+      "display": "Osturňa, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-rustic-wooden-houses-nestled-in-the-scenic-mountains-of-ruzomberok-slovakia-11019952/",
+      "photographer": "Walkers",
+      "photographerUrl": "https://www.pexels.com/@walkers-113027/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-velky-lipnik-aerial-village-28121309.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2912,
+      "lon": 20.2316
+    },
+    "place": {
+      "city": "Osturňa",
+      "country": "Slovakia",
+      "display": "Osturňa, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-aerial-view-of-velky-lipnik-village-surrounded-by-rolling-hills-28121309/",
+      "photographer": "Karolina",
+      "photographerUrl": "https://www.pexels.com/@karolina-2031292/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-velky-lipnik-hills-village-28121371.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2912,
+      "lon": 20.2316
+    },
+    "place": {
+      "city": "Osturňa",
+      "country": "Slovakia",
+      "display": "Osturňa, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-aerial-view-of-velky-lipnik-village-surrounded-by-lush-hills-and-mountains-28121371/",
+      "photographer": "Karolina",
+      "photographerUrl": "https://www.pexels.com/@karolina-2031292/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-oswiecim-auschwitz-entrance-warning-13081553.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.0344,
+      "lon": 19.2098
+    },
+    "place": {
+      "city": "Oświęcim",
+      "country": "Poland",
+      "display": "Oświęcim, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/entrance-to-auschwitz-concentration-camp-13081553/",
+      "photographer": "Rene Terp",
+      "photographerUrl": "https://www.pexels.com/@reneterp/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-autumn-37100593.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2796,
+      "lon": 20.178
+    },
+    "place": {
+      "city": "Tatranská Javorina",
+      "country": "Slovakia",
+      "display": "Tatranská Javorina, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-autumn-view-of-tatra-mountains-37100593/",
+      "photographer": "Dawid Zawiła",
+      "photographerUrl": "https://www.pexels.com/@dawid-zawila-2151273316/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-rocky-peaks-36781462.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2796,
+      "lon": 20.178
+    },
+    "place": {
+      "city": "Tatranská Javorina",
+      "country": "Slovakia",
+      "display": "Tatranská Javorina, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-mountain-view-in-the-tatra-mountains-poland-36781462/",
+      "photographer": "Anastasia Saiko",
+      "photographerUrl": "https://www.pexels.com/@likhtarik/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-valley-view-33239879.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2796,
+      "lon": 20.178
+    },
+    "place": {
+      "city": "Tatranská Javorina",
+      "country": "Slovakia",
+      "display": "Tatranská Javorina, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/breathtaking-view-of-tatra-mountains-and-valley-33239879/",
+      "photographer": "Paweł Kosmala",
+      "photographerUrl": "https://www.pexels.com/@pawel-kosmala-18647583/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-mountain-valley-summer-30829433.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.1664,
+      "lon": 20.1317
+    },
+    "place": {
+      "city": "Vysoké Tatry",
+      "country": "Slovakia",
+      "display": "Vysoké Tatry, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-high-tatras-mountain-valley-view-30829433/",
+      "photographer": "György Lakatos",
+      "photographerUrl": "https://www.pexels.com/@gyorgy-lakatos-113005281/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-mountains-with-lakes-30829431.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.1664,
+      "lon": 20.1317
+    },
+    "place": {
+      "city": "Vysoké Tatry",
+      "country": "Slovakia",
+      "display": "Vysoké Tatry, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-tatra-mountains-with-lakes-30829431/",
+      "photographer": "György Lakatos",
+      "photographerUrl": "https://www.pexels.com/@gyorgy-lakatos-113005281/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-snow-capped-peaks-35012695.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.1664,
+      "lon": 20.1317
+    },
+    "place": {
+      "city": "Vysoké Tatry",
+      "country": "Slovakia",
+      "display": "Vysoké Tatry, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/majestic-snow-capped-peaks-of-high-tatras-slovakia-35012695/",
+      "photographer": "Michal Petráš",
+      "photographerUrl": "https://www.pexels.com/@michal-petras-2152077115/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-zakopane-tatra-wildflowers-9181193.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 49.2992,
+      "lon": 19.9496
+    },
+    "place": {
+      "city": "Zakopane",
+      "country": "Poland",
+      "display": "Zakopane, Poland"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/tatra-mountains-with-wildflowers-9181193/",
+      "photographer": "Karol Zielinski",
+      "photographerUrl": "https://www.pexels.com/@karol-zielinski-92378908/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-oswiecim-auschwitz-concentration-camp-14657528.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.0344,
+      "lon": 19.2098
+    },
+    "place": {
+      "city": "Oświęcim",
+      "country": "Poland",
+      "display": "Oświęcim, Poland"
+    },
+    "caption": "Auschwitz Concentration Camp · Oświęcim, Poland · April 2025",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/14657528/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-oswiecim-auschwitz-prison-buildings-3743974.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.0344,
+      "lon": 19.2098
+    },
+    "place": {
+      "city": "Oświęcim",
+      "country": "Poland",
+      "display": "Oświęcim, Poland"
+    },
+    "caption": "Auschwitz Prison Buildings · Oświęcim, Poland · April 2025",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/3743974/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-prague-charles-bridge-18255192.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.0755,
+      "lon": 14.4378
+    },
+    "place": {
+      "city": "Prague",
+      "country": "Czechia",
+      "display": "Prague, Czechia"
+    },
+    "caption": "Charles Bridge · Prague, Czechia · April 2025",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/18255192/"
+    }
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250415152539.jpg",
@@ -12061,6 +13969,81 @@
     "caption": "Torremolinos, Spain · September 2025"
   },
   {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-almunecar-nerja-coastal-mountains-17740863.jpg",
+    "takenAt": "2025-09-14T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.7375,
+      "lon": -3.6906
+    },
+    "place": {
+      "city": "Almuñécar",
+      "country": "Spain",
+      "display": "Almuñécar, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/picturesque-coastal-town-of-nerja-with-stunning-mountains-and-clear-blue-sea-17740863/",
+      "photographer": "Flow TV",
+      "photographerUrl": "https://www.pexels.com/@flowtv/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-almunecar-nerja-hillside-houses-sunset-34499934.jpg",
+    "takenAt": "2025-09-14T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.7375,
+      "lon": -3.6906
+    },
+    "place": {
+      "city": "Almuñécar",
+      "country": "Spain",
+      "display": "Almuñécar, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-hillside-houses-in-nerja-spain-with-a-mountain-backdrop-during-sunset-34499934/",
+      "photographer": "Oliver Schröder",
+      "photographerUrl": "https://www.pexels.com/@olivers/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-09-andalusia-gibraltar/pexels-salobrena-aerial-coastline-city-14508595.jpg",
+    "takenAt": "2025-09-14T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 36.7437,
+      "lon": -3.5874
+    },
+    "place": {
+      "city": "Salobreña",
+      "country": "Spain",
+      "display": "Salobreña, Spain"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-shot-of-city-on-coastline-14508595/",
+      "photographer": "Ray Raimundo",
+      "photographerUrl": "https://www.pexels.com/@rayraimundo/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2025-09-andalusia-gibraltar/pexels-salobrena-white-houses-dusk-16558109.jpg",
     "takenAt": "2025-09-14T20:00:00Z",
     "hasGps": true,
@@ -12679,6 +14662,556 @@
     "caption": "Fishermans Bastion Sunset · Budapest, Hungary · March 2026"
   },
   {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-belgrade-kalemegdan-fortress-arch-31476895.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.8125,
+      "lon": 20.4612
+    },
+    "place": {
+      "city": "Belgrade",
+      "country": "Serbia",
+      "display": "Belgrade, Serbia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/winter-view-through-kalemegdan-fortress-arch-31476895/",
+      "photographer": "Sofiia Asmi",
+      "photographerUrl": "https://www.pexels.com/@sofiia-asmi-3378970/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-belgrade-old-town-skadarlija-pavement-18419080.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.8125,
+      "lon": 20.4612
+    },
+    "place": {
+      "city": "Belgrade",
+      "country": "Serbia",
+      "display": "Belgrade, Serbia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/people-on-pavement-in-old-town-of-belgrade-serbia-18419080/",
+      "photographer": "Neon Joi",
+      "photographerUrl": "https://www.pexels.com/@neon-joi-685205478/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-belgrade-saint-sava-temple-night-14487939.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.8125,
+      "lon": 20.4612
+    },
+    "place": {
+      "city": "Belgrade",
+      "country": "Serbia",
+      "display": "Belgrade, Serbia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/saint-sava-temple-in-belgrade-serbia-14487939/",
+      "photographer": "Boris Hamer",
+      "photographerUrl": "https://www.pexels.com/@borishamer/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-budapest-parliament-illuminated-36556205.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 47.4979,
+      "lon": 19.0402
+    },
+    "place": {
+      "city": "Budapest",
+      "country": "Hungary",
+      "display": "Budapest, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/illuminated-hungarian-parliament-building-at-night-36556205/",
+      "photographer": "Balazs Nemes",
+      "photographerUrl": "https://www.pexels.com/@balazs-nemes-36556205/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-bucegi-mountains-autumn-34457978.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2426,
+      "lon": 24.342
+    },
+    "place": {
+      "city": "Calimanesti",
+      "country": "Romania",
+      "display": "Calimanesti, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-bucegi-mountains-in-autumn-34457978/",
+      "photographer": "Catalin M",
+      "photographerUrl": "https://www.pexels.com/@catalin-m-1839309/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-romanian-church-flowers-10882222.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2426,
+      "lon": 24.342
+    },
+    "place": {
+      "city": "Calimanesti",
+      "country": "Romania",
+      "display": "Calimanesti, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charming-romanian-church-with-blooming-flowers-10882222/",
+      "photographer": "Eliza Aldea",
+      "photographerUrl": "https://www.pexels.com/@eliza-aldea-164966937/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-dachau-historic-brick-building-bw-32808850.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.25557,
+      "lon": 11.43862
+    },
+    "place": {
+      "city": "Dachau",
+      "country": "Germany",
+      "display": "Dachau, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/black-and-white-photo-of-a-historic-brick-building-in-dachau-bavaria-32808850/",
+      "photographer": "Nicola Ravi",
+      "photographerUrl": "https://www.pexels.com/@nicolaravi/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-fuessen-lech-river-alpine-20741181.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.05159,
+      "lon": 10.87511
+    },
+    "place": {
+      "city": "Landsberg am Lech",
+      "country": "Germany",
+      "display": "Landsberg am Lech, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/landscape-fuessen-germany-river-bridge-alpine-20741181/",
+      "photographer": "Wolfgang Weiser",
+      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-fuessen-lech-river-church-22618185.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.05159,
+      "lon": 10.87511
+    },
+    "place": {
+      "city": "Landsberg am Lech",
+      "country": "Germany",
+      "display": "Landsberg am Lech, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/town-view-fuessen-germany-historic-church-river-22618185/",
+      "photographer": "Wolfgang Weiser",
+      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-bergpark-panorama-33593210.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.31407,
+      "lon": 9.4883
+    },
+    "place": {
+      "city": "Kassel",
+      "country": "Germany",
+      "display": "Kassel, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/panoramic-view-from-bergpark-wilhelmshohe-overlooking-kassel-33593210/",
+      "photographer": "arlindphotography",
+      "photographerUrl": "https://www.pexels.com/@arlindphotography/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-bergpark-wilhelmshoehe-27579632.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.31407,
+      "lon": 9.4883
+    },
+    "place": {
+      "city": "Kassel",
+      "country": "Germany",
+      "display": "Kassel, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/beautiful-bergpark-wilhelmshohe-in-kassel-a-unesco-world-heritage-site-27579632/",
+      "photographer": "Kemal Berkay Doğan",
+      "photographerUrl": "https://www.pexels.com/@kemal-berkay-dogan/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-hercules-monument-27579628.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.31407,
+      "lon": 9.4883
+    },
+    "place": {
+      "city": "Kassel",
+      "country": "Germany",
+      "display": "Kassel, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/iconic-hercules-monument-bergpark-wilhelmshohe-kassel-27579628/",
+      "photographer": "Kemal Berkay Doğan",
+      "photographerUrl": "https://www.pexels.com/@kemal-berkay-dogan/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-wilhelmshoehe-palace-cityscape-27579634.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.31407,
+      "lon": 9.4883
+    },
+    "place": {
+      "city": "Kassel",
+      "country": "Germany",
+      "display": "Kassel, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/captivating-view-of-wilhelmshohe-palace-with-kassel-cityscape-27579634/",
+      "photographer": "Kemal Berkay Doğan",
+      "photographerUrl": "https://www.pexels.com/@kemal-berkay-dogan/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-great-plain-aerial-fields-13456593.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.90705,
+      "lon": 19.68729
+    },
+    "place": {
+      "city": "Kecskemét",
+      "country": "Hungary",
+      "display": "Kecskemét, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-green-fields-farmland-13456593/",
+      "photographer": "Barnabas Davoti",
+      "photographerUrl": "https://www.pexels.com/@barnabas-davoti-31615494/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-hungarian-grey-pair-5840898.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.90705,
+      "lon": 19.68729
+    },
+    "place": {
+      "city": "Kecskemét",
+      "country": "Hungary",
+      "display": "Kecskemét, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/two-hungarian-grey-cattle-green-pasture-5840898/",
+      "photographer": "Karola G",
+      "photographerUrl": "https://www.pexels.com/@karola-g/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-puszta-cattle-grazing-27024356.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.90705,
+      "lon": 19.68729
+    },
+    "place": {
+      "city": "Kecskemét",
+      "country": "Hungary",
+      "display": "Kecskemét, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/cattle-with-horns-grazing-sunlit-rural-pasture-27024356/",
+      "photographer": "Stokeron",
+      "photographerUrl": "https://www.pexels.com/@stokeron/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-puszta-donkeys-pond-27024359.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.90705,
+      "lon": 19.68729
+    },
+    "place": {
+      "city": "Kecskemét",
+      "country": "Hungary",
+      "display": "Kecskemét, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/donkeys-grazing-rural-farm-landscape-27024359/",
+      "photographer": "Stokeron",
+      "photographerUrl": "https://www.pexels.com/@stokeron/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kladovo-decebalus-rock-iron-gates-13680514.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.6125,
+      "lon": 22.6166
+    },
+    "place": {
+      "city": "Kladovo",
+      "country": "Serbia",
+      "display": "Kladovo, Serbia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/13680514/",
+      "photographer": "Andrei Danut",
+      "photographerUrl": "https://www.pexels.com/@andrei-danut/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kladovo-golubac-fortress-aerial-30926014.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 44.6125,
+      "lon": 22.6166
+    },
+    "place": {
+      "city": "Kladovo",
+      "country": "Serbia",
+      "display": "Kladovo, Serbia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-golubac-fortress-on-danube-river-30926014/",
+      "photographer": "Nikola Kojević",
+      "photographerUrl": "https://www.pexels.com/@nikola-kojevic-1608684723/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-landsberg-am-lech-colorful-houses-river-32834506.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.05159,
+      "lon": 10.87511
+    },
+    "place": {
+      "city": "Landsberg am Lech",
+      "country": "Germany",
+      "display": "Landsberg am Lech, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/colorful-bavarian-architecture-in-landsberg-am-lech-32834506/",
+      "photographer": "inkinterrupted",
+      "photographerUrl": "https://www.pexels.com/@inkinterrupted/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-landsberg-am-lech-winter-river-29673694.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.05159,
+      "lon": 10.87511
+    },
+    "place": {
+      "city": "Landsberg am Lech",
+      "country": "Germany",
+      "display": "Landsberg am Lech, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-landsberg-am-lech-in-winter-29673694/",
+      "photographer": "Sabine Freiberger",
+      "photographerUrl": "https://www.pexels.com/@sabine-freiberger-2147687567/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-munich-karlstor-bavarian-gate-36277562.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.05159,
+      "lon": 10.87511
+    },
+    "place": {
+      "city": "Landsberg am Lech",
+      "country": "Germany",
+      "display": "Landsberg am Lech, Germany"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-karlstor-gate-munich-architectural-charm-36277562/",
+      "photographer": "Memory Lane",
+      "photographerUrl": "https://www.pexels.com/@memory-lane-2157293172/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
     "src": "trips/2026-03-balkans-roadtrip/IMG20260315125427.jpg",
     "takenAt": "2026-03-15T12:54:27Z",
     "hasGps": true,
@@ -12933,6 +15466,150 @@
       "licenseUrl": "https://www.pexels.com/license/"
     },
     "caption": "Neuschwanstein Alps · Schwangau, Germany · March 2026"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-budapest-parliament-35068815.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 47.4979,
+      "lon": 19.0402
+    },
+    "place": {
+      "city": "Budapest",
+      "country": "Hungary",
+      "display": "Budapest, Hungary"
+    },
+    "caption": "Parliament · Budapest, Hungary · March 2026",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/35068815/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-church-lake-13859713.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2333,
+      "lon": 24.3333
+    },
+    "place": {
+      "city": "Calimanesti",
+      "country": "Romania",
+      "display": "Calimanesti, Romania"
+    },
+    "caption": "Church Lake · Calimanesti, Romania · March 2026",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13859713/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-fall-landscape-34492170.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2333,
+      "lon": 24.3333
+    },
+    "place": {
+      "city": "Calimanesti",
+      "country": "Romania",
+      "display": "Calimanesti, Romania"
+    },
+    "caption": "Fall Landscape · Calimanesti, Romania · March 2026",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/34492170/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-romania-mountain-13427384.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2333,
+      "lon": 24.3333
+    },
+    "place": {
+      "city": "Calimanesti",
+      "country": "Romania",
+      "display": "Calimanesti, Romania"
+    },
+    "caption": "Mountain · Calimanesti, Romania · March 2026",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13427384/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-istria-rovinj-coastline-33676820.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2186,
+      "lon": 13.9094
+    },
+    "place": {
+      "city": "Istria County",
+      "country": "Croatia",
+      "display": "Istria County, Croatia"
+    },
+    "caption": "Rovinj Coastline · Istria County, Croatia · March 2026",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/33676820/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-istria-rovinj-harbor-28929488.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.2186,
+      "lon": 13.9094
+    },
+    "place": {
+      "city": "Istria County",
+      "country": "Croatia",
+      "display": "Istria County, Croatia"
+    },
+    "caption": "Rovinj Harbor · Istria County, Croatia · March 2026",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/28929488/"
+    }
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-kladovo-iron-gates-danube-panoramic-30975080.jpg",
@@ -13844,2476 +16521,5 @@
       "display": "Kassel, Germany"
     },
     "caption": "Kassel, Germany · March 2026"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-tel-aviv-aerial-cityscape-17291320.jpg",
-    "takenAt": "2018-03-22T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.0853,
-      "lon": 34.7818
-    },
-    "place": {
-      "city": "Tel Aviv",
-      "country": "Israel",
-      "display": "Tel Aviv, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/cityscape-of-tel-aviv-17291320/",
-      "photographer": "Kelly",
-      "photographerUrl": "https://www.pexels.com/@kelly/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Aerial Cityscape · Tel Aviv, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-tel-aviv-beach-skyscrapers-18837990.jpg",
-    "takenAt": "2018-03-22T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.0853,
-      "lon": 34.7818
-    },
-    "place": {
-      "city": "Tel Aviv",
-      "country": "Israel",
-      "display": "Tel Aviv, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aviv-beach-with-the-view-of-skyscrapers-tel-aviv-israel-18837990/",
-      "photographer": "Solomonik Vik",
-      "photographerUrl": "https://www.pexels.com/@solomonikvik/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Beach Skyscrapers · Tel Aviv, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-tel-aviv-skyline-mediterranean-5028008.jpg",
-    "takenAt": "2018-03-22T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.0853,
-      "lon": 34.7818
-    },
-    "place": {
-      "city": "Tel Aviv",
-      "country": "Israel",
-      "display": "Tel Aviv, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/city-skyline-across-the-ocean-5028008/",
-      "photographer": "Yeshaya Dinerstein",
-      "photographerUrl": "https://www.pexels.com/@yeshaya-dinerstein-683189/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Skyline Mediterranean · Tel Aviv, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-tel-aviv-beachfront-sunny-35916174.jpg",
-    "takenAt": "2018-03-22T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.0853,
-      "lon": 34.7818
-    },
-    "place": {
-      "city": "Tel Aviv",
-      "country": "Israel",
-      "display": "Tel Aviv, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-tel-aviv-beachfront-on-a-sunny-day-35916174/",
-      "photographer": "Samar L",
-      "photographerUrl": "https://www.pexels.com/@samar-l-525068134/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Beachfront Sunny · Tel Aviv, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-tel-aviv-promenade-mediterranean-35916202.jpg",
-    "takenAt": "2018-03-22T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.0853,
-      "lon": 34.7818
-    },
-    "place": {
-      "city": "Tel Aviv",
-      "country": "Israel",
-      "display": "Tel Aviv, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/bicycle-on-tel-aviv-promenade-overlooking-mediterranean-35916202/",
-      "photographer": "Samar L",
-      "photographerUrl": "https://www.pexels.com/@samar-l-525068134/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Promenade Mediterranean · Tel Aviv, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-jerusalem-old-city-aerial-25947277.jpg",
-    "takenAt": "2018-03-26T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 31.7683,
-      "lon": 35.2137
-    },
-    "place": {
-      "city": "Jerusalem",
-      "country": "Israel",
-      "display": "Jerusalem, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/view-of-jerusalem-25947277/",
-      "photographer": "Zeev Hazenfratz",
-      "photographerUrl": "https://www.pexels.com/@zeev-hazenfratz-1636750/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Old City Aerial · Jerusalem, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-jerusalem-dome-of-the-rock-sunset-18013977.jpg",
-    "takenAt": "2018-03-26T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 31.7683,
-      "lon": 35.2137
-    },
-    "place": {
-      "city": "Jerusalem",
-      "country": "Israel",
-      "display": "Jerusalem, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/dome-of-the-rock-18013977/",
-      "photographer": "Ayse",
-      "photographerUrl": "https://www.pexels.com/@ayse-58498816/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Dome of the Rock Sunset · Jerusalem, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-jerusalem-dome-of-the-rock-arches-11696743.jpg",
-    "takenAt": "2018-03-26T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 31.7683,
-      "lon": 35.2137
-    },
-    "place": {
-      "city": "Jerusalem",
-      "country": "Israel",
-      "display": "Jerusalem, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historical-places-in-jerusalem-11696743/",
-      "photographer": "Yasir Gurbuz",
-      "photographerUrl": "https://www.pexels.com/@yasirgurbuz/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Dome of the Rock Arches · Jerusalem, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-jerusalem-walled-old-city-27358635.jpg",
-    "takenAt": "2018-03-26T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 31.7683,
-      "lon": 35.2137
-    },
-    "place": {
-      "city": "Jerusalem",
-      "country": "Israel",
-      "display": "Jerusalem, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/the-city-of-jerusalem-is-seen-from-above-27358635/",
-      "photographer": "Solomonik Vik",
-      "photographerUrl": "https://www.pexels.com/@solomonikvik/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Walled Old City · Jerusalem, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-jerusalem-mary-magdalene-domes-17814829.jpg",
-    "takenAt": "2018-03-26T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 31.7683,
-      "lon": 35.2137
-    },
-    "place": {
-      "city": "Jerusalem",
-      "country": "Israel",
-      "display": "Jerusalem, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/church-of-mary-magdalene-in-jerusalem-17814829/",
-      "photographer": "Andromeda99",
-      "photographerUrl": "https://www.pexels.com/@andromeda99/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Mary Magdalene Domes · Jerusalem, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-haifa-bahai-gardens-panorama-18223881.jpg",
-    "takenAt": "2018-03-25T18:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.794,
-      "lon": 34.9896
-    },
-    "place": {
-      "city": "Haifa",
-      "country": "Israel",
-      "display": "Haifa, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/bahai-garden-haifa-in-israel-18223881/",
-      "photographer": "Sunbeam",
-      "photographerUrl": "https://www.pexels.com/@sunbeam-114409506/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Bahai Gardens Panorama · Haifa, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-haifa-bahai-gardens-cityscape-17291338.jpg",
-    "takenAt": "2018-03-25T18:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.794,
-      "lon": 34.9896
-    },
-    "place": {
-      "city": "Haifa",
-      "country": "Israel",
-      "display": "Haifa, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/green-gardens-in-cityscape-17291338/",
-      "photographer": "Kelly",
-      "photographerUrl": "https://www.pexels.com/@kelly/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Bahai Gardens Cityscape · Haifa, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-haifa-bahai-port-aerial-17291340.jpg",
-    "takenAt": "2018-03-25T18:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.794,
-      "lon": 34.9896
-    },
-    "place": {
-      "city": "Haifa",
-      "country": "Israel",
-      "display": "Haifa, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/drone-shot-of-haifa-in-israel-17291340/",
-      "photographer": "Kelly",
-      "photographerUrl": "https://www.pexels.com/@kelly/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Bahai Port Aerial · Haifa, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-haifa-hilltop-cityview-27638436.jpg",
-    "takenAt": "2018-03-25T18:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.794,
-      "lon": 34.9896
-    },
-    "place": {
-      "city": "Haifa",
-      "country": "Israel",
-      "display": "Haifa, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/the-view-of-the-city-from-a-hilltop-27638436/",
-      "photographer": "Haim Charbit",
-      "photographerUrl": "https://www.pexels.com/@haim-charbit-46102840/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Hilltop Cityview · Haifa, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-haifa-harbor-twilight-34793422.jpg",
-    "takenAt": "2018-03-25T18:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.794,
-      "lon": 34.9896
-    },
-    "place": {
-      "city": "Haifa",
-      "country": "Israel",
-      "display": "Haifa, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-view-of-haifa-harbor-at-twilight-34793422/",
-      "photographer": "Regan D'Souza",
-      "photographerUrl": "https://www.pexels.com/@regan-dsouza-1315522347/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Harbor Twilight · Haifa, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-petah-tikva-train-station-aerial-30499936.jpg",
-    "takenAt": "2018-03-22T18:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.0871,
-      "lon": 34.8878
-    },
-    "place": {
-      "city": "Petah Tikva",
-      "country": "Israel",
-      "display": "Petah Tikva, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-view-of-train-station-and-parking-lot-in-petah-tikva-30499936/",
-      "photographer": "Samir Smier",
-      "photographerUrl": "https://www.pexels.com/@samir-smier-314916757/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Train Station Aerial · Petah Tikva, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-petah-tikva-rail-system-aerial-30108617.jpg",
-    "takenAt": "2018-03-22T18:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.0871,
-      "lon": 34.8878
-    },
-    "place": {
-      "city": "Petah Tikva",
-      "country": "Israel",
-      "display": "Petah Tikva, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-view-of-rail-system-in-petah-tikva-israel-30108617/",
-      "photographer": "Samir Smier",
-      "photographerUrl": "https://www.pexels.com/@samir-smier-314916757/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Rail System Aerial · Petah Tikva, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-petah-tikva-suburb-skyline-17291329.jpg",
-    "takenAt": "2018-03-22T18:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.0871,
-      "lon": 34.8878
-    },
-    "place": {
-      "city": "Petah Tikva",
-      "country": "Israel",
-      "display": "Petah Tikva, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/buildings-near-park-in-haifa-in-israel-17291329/",
-      "photographer": "Kelly",
-      "photographerUrl": "https://www.pexels.com/@kelly/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Suburb Skyline · Petah Tikva, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-petah-tikva-tramway-modern-building-12286815.jpg",
-    "takenAt": "2018-03-22T18:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.0871,
-      "lon": 34.8878
-    },
-    "place": {
-      "city": "Petah Tikva",
-      "country": "Israel",
-      "display": "Petah Tikva, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/tramway-and-buildings-in-city-12286815/",
-      "photographer": "Aysegul Aytoren",
-      "photographerUrl": "https://www.pexels.com/@aysegul-aytoren-46790226/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Tramway Modern Building · Petah Tikva, Israel · March 2018"
-  },
-  {
-    "src": "trips/2018-03-israel/pexels-petah-tikva-coastal-suburbs-17291324.jpg",
-    "takenAt": "2018-03-22T18:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.0871,
-      "lon": 34.8878
-    },
-    "place": {
-      "city": "Petah Tikva",
-      "country": "Israel",
-      "display": "Petah Tikva, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/sea-coast-in-tel-aviv-17291324/",
-      "photographer": "Kelly",
-      "photographerUrl": "https://www.pexels.com/@kelly/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Coastal Suburbs · Petah Tikva, Israel · March 2018"
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-london-eye-dusk-thames-33419289.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-view-of-the-london-eye-at-dusk-33419289/",
-      "photographer": "Shambadatta",
-      "photographerUrl": "https://www.pexels.com/@shambadatta/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Eye Dusk Thames · London, United Kingdom · July 2023"
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-london-tower-of-london-fortress-30483647.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/tower-of-london-with-historic-architecture-30483647/",
-      "photographer": "Tom Hermans",
-      "photographerUrl": "https://www.pexels.com/@tom-hermans-2148380566/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Tower of London Fortress · London, United Kingdom · July 2023"
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-london-dungeon-themed-historic-crypt-33939371.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-brick-crypt-architecture-with-vaulted-ceilings-33939371/",
-      "photographer": "Anna Rynkowska",
-      "photographerUrl": "https://www.pexels.com/@anna-rynkowska/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Dungeon Themed Historic Crypt · London, United Kingdom · July 2023"
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-london-tussauds-themed-wax-sculpture-16035584.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/wax-sculpture-in-a-museum-16035584/",
-      "photographer": "Aysenaz Bilgin",
-      "photographerUrl": "https://www.pexels.com/@aysenaz-bilgin-421884106/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Tussauds Themed Wax Sculpture · London, United Kingdom · July 2023"
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-london-imperial-war-museum-cannons-34855089.jpg",
-    "takenAt": "2023-07-08T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.5074,
-      "lon": -0.1278
-    },
-    "place": {
-      "city": "London",
-      "country": "United Kingdom",
-      "display": "London, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/imperial-war-museum-front-view-with-cannons-34855089/",
-      "photographer": "Patricio",
-      "photographerUrl": "https://www.pexels.com/@patricio/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Imperial War Museum Cannons · London, United Kingdom · July 2023"
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-kavala-aerial-coastline-11247205.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 40.93732,
-      "lon": 24.95646
-    },
-    "place": {
-      "city": "Abdera",
-      "country": "Greece",
-      "display": "Abdera, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-view-of-kavalas-urban-landscape-11247205/",
-      "photographer": "Marina Gr",
-      "photographerUrl": "https://www.pexels.com/@marina-gr-109305987/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-kavala-aqueduct-sunset-10163045.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 40.93732,
-      "lon": 24.95646
-    },
-    "place": {
-      "city": "Abdera",
-      "country": "Greece",
-      "display": "Abdera, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-stone-aqueduct-and-town-buildings-at-sunset-10163045/",
-      "photographer": "Marina Gr",
-      "photographerUrl": "https://www.pexels.com/@marina-gr-109305987/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-kavala-harbor-cityscape-dusk-29072782.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 40.93732,
-      "lon": 24.95646
-    },
-    "place": {
-      "city": "Abdera",
-      "country": "Greece",
-      "display": "Abdera, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-view-of-kavala-harbor-and-cityscape-at-dusk-29072782/",
-      "photographer": "sevgiilale",
-      "photographerUrl": "https://www.pexels.com/@sevgiilale/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-keramoti-rippled-sea-19203217.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 40.85767,
-      "lon": 24.70224
-    },
-    "place": {
-      "city": "Keramoti",
-      "country": "Greece",
-      "display": "Keramoti, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/serene-rippled-ocean-texture-keramoti-greece-19203217/",
-      "photographer": "didsss",
-      "photographerUrl": "https://www.pexels.com/@didsss/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-nafplio-aerial-coastal-town-10400151.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 37.567,
-      "lon": 22.8043
-    },
-    "place": {
-      "city": "Nafplio",
-      "country": "Greece",
-      "display": "Nafplio, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-aerial-view-of-nafplio-10400151/",
-      "photographer": "Alexandros Papadopoulos",
-      "photographerUrl": "https://www.pexels.com/@alexandros-papadopoulos-144473958/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-nafplio-bourtzi-castle-harbor-32138690.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 37.567,
-      "lon": 22.8043
-    },
-    "place": {
-      "city": "Nafplio",
-      "country": "Greece",
-      "display": "Nafplio, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/breathtaking-view-of-nafplio-harbor-with-bourtzi-castle-32138690/",
-      "photographer": "Adrien Olichon",
-      "photographerUrl": "https://www.pexels.com/@adrien-olichon-1257089/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-nafplio-palamidi-arched-window-18835693.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 37.567,
-      "lon": 22.8043
-    },
-    "place": {
-      "city": "Nafplio",
-      "country": "Greece",
-      "display": "Nafplio, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/nafplio-from-arched-window-of-palamidi-fortress-18835693/",
-      "photographer": "Tatiana Lapa",
-      "photographerUrl": "https://www.pexels.com/@tatiana-lapa-114875724/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-nafplio-stone-archway-coast-17098083.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 37.567,
-      "lon": 22.8043
-    },
-    "place": {
-      "city": "Nafplio",
-      "country": "Greece",
-      "display": "Nafplio, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/captivating-view-of-nafplio-town-and-coast-17098083/",
-      "photographer": "Alexandros Milidakis",
-      "photographerUrl": "https://www.pexels.com/@alexandros-milidakis-559640413/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-thassos-chrisi-ammoudia-10505163.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 40.67472,
-      "lon": 24.76
-    },
-    "place": {
-      "city": "Thassos",
-      "country": "Greece",
-      "display": "Thassos, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/chrisi-ammoudia-beach-greece-turquoise-waters-10505163/",
-      "photographer": "Igor Ermurachi",
-      "photographerUrl": "https://www.pexels.com/@igor-ermurachi-56590/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-thassos-golden-beach-aqua-28498153.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 40.67472,
-      "lon": 24.76
-    },
-    "place": {
-      "city": "Thassos",
-      "country": "Greece",
-      "display": "Thassos, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/pristine-aqua-beach-golden-beach-thassos-28498153/",
-      "photographer": "Artiom Petrachi",
-      "photographerUrl": "https://www.pexels.com/@artiom-petrachi-1825232739/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-thassos-rocky-shore-blue-33023678.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 40.67472,
-      "lon": 24.76
-    },
-    "place": {
-      "city": "Thassos",
-      "country": "Greece",
-      "display": "Thassos, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/idyllic-beach-scene-in-thassos-greece-33023678/",
-      "photographer": "Daciana Cristina Visan",
-      "photographerUrl": "https://www.pexels.com/@daciana-cristina-visan-2149801141/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-07-greece/pexels-xanthi-mountaintop-view-33516844.jpg",
-    "takenAt": "2022-07-20T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 40.93732,
-      "lon": 24.95646
-    },
-    "place": {
-      "city": "Abdera",
-      "country": "Greece",
-      "display": "Abdera, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/elevated-view-of-xanthi-city-from-a-mountaintop-33516844/",
-      "photographer": "kryonoglou",
-      "photographerUrl": "https://www.pexels.com/@kryonoglou/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-08-romania/pexels-sacele-brasov-tampa-mountain-street-30271191.jpg",
-    "takenAt": "2022-08-07T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 45.6118,
-      "lon": 25.6973
-    },
-    "place": {
-      "city": "Săcele",
-      "country": "Romania",
-      "display": "Săcele, Romania"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/charming-street-view-of-brasov-with-tampa-mountain-30271191/",
-      "photographer": "Carsten Jørgensen",
-      "photographerUrl": "https://www.pexels.com/@carsten-jorgensen-2147830195/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-08-romania/pexels-sacele-brasov-weaver-bastion-winter-11534893.jpg",
-    "takenAt": "2022-08-07T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 45.6118,
-      "lon": 25.6973
-    },
-    "place": {
-      "city": "Săcele",
-      "country": "Romania",
-      "display": "Săcele, Romania"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/snowy-winter-scene-at-weaver-bastion-in-brasov-with-benches-and-fortress-walls-11534893/",
-      "photographer": "Παναγιώτης Αρκουμάνης",
-      "photographerUrl": "https://www.pexels.com/@179554791/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-10-germany/pexels-lueneburg-heath-lavender-field-27978161.jpg",
-    "takenAt": "2022-10-21T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 52.98687,
-      "lon": 10.10924
-    },
-    "place": {
-      "city": "Munster",
-      "country": "Germany",
-      "display": "Munster, Germany"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/vibrant-lavender-field-in-lueneburg-heath-during-daytime-27978161/",
-      "photographer": "deuspix",
-      "photographerUrl": "https://www.pexels.com/@deuspix/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-greece-athens-halkidiki/pexels-athens-erechtheion-caryatids-6924329.jpg",
-    "takenAt": "2023-07-06T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 37.97457,
-      "lon": 23.99225
-    },
-    "place": {
-      "city": "Athens",
-      "country": "Greece",
-      "display": "Athens, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/erechtheion-temple-with-caryatids-in-acropolis-athens-6924329/",
-      "photographer": "Mohammed Zar",
-      "photographerUrl": "https://www.pexels.com/@mohammed-zar-3861716/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-greece-athens-halkidiki/pexels-athens-parthenon-unesco-28601862.jpg",
-    "takenAt": "2023-07-06T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 37.97457,
-      "lon": 23.99225
-    },
-    "place": {
-      "city": "Athens",
-      "country": "Greece",
-      "display": "Athens, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/stunning-view-of-the-parthenon-a-unesco-world-heritage-site-28601862/",
-      "photographer": "Efrem Efre",
-      "photographerUrl": "https://www.pexels.com/@efrem-efre-2786187/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-kalamitsi-sunrise-28435910.jpg",
-    "takenAt": "2023-07-06T12:00:00Z",
-    "hasGps": false,
-    "cameraModel": "Pexels stock",
-    "place": {
-      "city": "Nea Fokea",
-      "country": "Greece",
-      "display": "Nea Fokea, Greece"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/kalamitsi-beach-halkidiki-sunrise-28435910/",
-      "photographer": "Yassen Kounchev",
-      "photographerUrl": "https://www.pexels.com/@yassen-kounchev-889850329/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-08-romania/pexels-sacele-brasov-square-clock-tower-aerial-34069343.jpg",
-    "takenAt": "2023-08-27T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 45.6118,
-      "lon": 25.6973
-    },
-    "place": {
-      "city": "Săcele",
-      "country": "Romania",
-      "display": "Săcele, Romania"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-view-of-historic-brasov-square-and-clock-tower-34069343/",
-      "photographer": "Râmbeț Ioana",
-      "photographerUrl": "https://www.pexels.com/@rambe-ioana-211953981/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-hortobagy-haystacks-summer-19567427.jpg",
-    "takenAt": "2024-08-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 46.6486,
-      "lon": 21.2828
-    },
-    "place": {
-      "city": "Gyula",
-      "country": "Hungary",
-      "display": "Gyula, Hungary"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/haystacks-hortobagy-hungary-countryside-19567427/",
-      "photographer": "Zsolt Erdelyi",
-      "photographerUrl": "https://www.pexels.com/@zsolt-erdelyi-852628585/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-puszta-csikos-horsemen-27037558.jpg",
-    "takenAt": "2024-08-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 46.6486,
-      "lon": 21.2828
-    },
-    "place": {
-      "city": "Gyula",
-      "country": "Hungary",
-      "display": "Gyula, Hungary"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/hungarian-horsemen-traditional-blue-clothing-rural-27037558/",
-      "photographer": "Stokeron",
-      "photographerUrl": "https://www.pexels.com/@stokeron/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-banska-bystrica-grassy-field-33798106.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 48.7357,
-      "lon": 19.1511
-    },
-    "place": {
-      "city": "Banská Bystrica",
-      "country": "Slovakia",
-      "display": "Banská Bystrica, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/ginger-cat-lying-in-the-grassy-field-of-banska-bystrica-relaxing-outdoors-33798106/",
-      "photographer": "Enis Uzeiri",
-      "photographerUrl": "https://www.pexels.com/@enis-uzeiri-2155503894/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-bratislava-slovak-radio-building-inverted-pyramid-9404482.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 48.1486,
-      "lon": 17.1077
-    },
-    "place": {
-      "city": "Bratislava",
-      "country": "Slovakia",
-      "display": "Bratislava, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/low-angle-view-of-the-iconic-slovak-radio-building-in-bratislava-slovakia-under-a-clear-sky-9404482/",
-      "photographer": "Leopold Biget",
-      "photographerUrl": "https://www.pexels.com/@leopold-biget-19679119/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-bratislava-ufo-bridge-cityscape-sunset-31715853.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 48.1486,
-      "lon": 17.1077
-    },
-    "place": {
-      "city": "Bratislava",
-      "country": "Slovakia",
-      "display": "Bratislava, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/ufo-bridge-and-cityscape-at-sunset-in-bratislava-31715853/",
-      "photographer": "Marek Bajbar",
-      "photographerUrl": "https://www.pexels.com/@marek-bajbar-2151401168/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzegi-bukowina-autumn-mountains-19550182.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.25113,
-      "lon": 20.09979
-    },
-    "place": {
-      "city": "Brzegi",
-      "country": "Poland",
-      "display": "Brzegi, Poland"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/vibrant-autumn-foliage-bukowina-tatrzanska-19550182/",
-      "photographer": "Dariusz Staniszewski",
-      "photographerUrl": "https://www.pexels.com/@dariusz-staniszewski-1425290/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzegi-tatra-village-fields-21837391.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.25113,
-      "lon": 20.09979
-    },
-    "place": {
-      "city": "Brzegi",
-      "country": "Poland",
-      "display": "Brzegi, Poland"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/picturesque-village-houses-amidst-fields-mountains-poland-21837391/",
-      "photographer": "Valeriy Pelts",
-      "photographerUrl": "https://www.pexels.com/@valeriy-pelts-939887181/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzezinka-auschwitz-birkenau-tracks-35743059.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 50.03452,
-      "lon": 19.18303
-    },
-    "place": {
-      "city": "Brzezinka",
-      "country": "Poland",
-      "display": "Brzezinka, Poland"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/railroad-tracks-leading-to-auschwitz-birkenau-35743059/",
-      "photographer": "Lumina Voyager",
-      "photographerUrl": "https://www.pexels.com/@lumina-voyager-147015704/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzezinka-birkenau-wagon-watchtower-22816214.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 50.03452,
-      "lon": 19.18303
-    },
-    "place": {
-      "city": "Brzezinka",
-      "country": "Poland",
-      "display": "Brzezinka, Poland"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/wooden-train-wagon-watchtowers-auschwitz-birkenau-22816214/",
-      "photographer": "Algrey",
-      "photographerUrl": "https://www.pexels.com/@algrey/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-harmanec-cicmany-foggy-village-5877697.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 48.7942,
-      "lon": 19.1
-    },
-    "place": {
-      "city": "Harmanec",
-      "country": "Slovakia",
-      "display": "Harmanec, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/foggy-countryside-village-in-cicmany-slovakia-with-traditional-rural-landscape-5877697/",
-      "photographer": "Robo Michalec",
-      "photographerUrl": "https://www.pexels.com/@robo-michalec-728554/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-silesian-museum-mine-shaft-20685089.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 50.2601,
-      "lon": 19.02161
-    },
-    "place": {
-      "city": "Katowice",
-      "country": "Poland",
-      "display": "Katowice, Poland"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/silesian-museum-historic-mine-shaft-tower-20685089/",
-      "photographer": "Bruno Krajski",
-      "photographerUrl": "https://www.pexels.com/@bruno-krajski-518872760/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-spodek-arena-event-30696550.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 50.2601,
-      "lon": 19.02161
-    },
-    "place": {
-      "city": "Katowice",
-      "country": "Poland",
-      "display": "Katowice, Poland"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/spodek-arena-katowice-esports-event-30696550/",
-      "photographer": "Filip Hajdoci",
-      "photographerUrl": "https://www.pexels.com/@filip-hajdoci-355268404/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-spodek-puddle-reflection-37144894.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 50.2601,
-      "lon": 19.02161
-    },
-    "place": {
-      "city": "Katowice",
-      "country": "Poland",
-      "display": "Katowice, Poland"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/spodek-arena-katowice-puddle-reflection-37144894/",
-      "photographer": "Dawid Zawila",
-      "photographerUrl": "https://www.pexels.com/@dawid-zawila-2151273316/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-train-station-night-35358052.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 50.2601,
-      "lon": 19.02161
-    },
-    "place": {
-      "city": "Katowice",
-      "country": "Poland",
-      "display": "Katowice, Poland"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/moody-night-view-platform-katowice-train-station-35358052/",
-      "photographer": "Algrey",
-      "photographerUrl": "https://www.pexels.com/@algrey/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-mala-frankova-podbiel-wooden-cottages-15267850.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.2855,
-      "lon": 20.3145
-    },
-    "place": {
-      "city": "Malá Franková",
-      "country": "Slovakia",
-      "display": "Malá Franková, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/charming-wooden-cottages-in-podbiel-slovakia-showcasing-traditional-architecture-15267850/",
-      "photographer": "Valentin Onu",
-      "photographerUrl": "https://www.pexels.com/@vali741/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-murzasichle-morskie-oko-tatra-reflection-11029916.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.30832,
-      "lon": 20.0444
-    },
-    "place": {
-      "city": "Murzasichle",
-      "country": "Poland",
-      "display": "Murzasichle, Poland"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/dramatic-tatra-mountains-morskie-oko-11029916/",
-      "photographer": "Maryia Plashchynskaya",
-      "photographerUrl": "https://www.pexels.com/@maryiaplashchynskaya/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-murzasichle-tatra-forest-snow-peaks-11029904.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.30832,
-      "lon": 20.0444
-    },
-    "place": {
-      "city": "Murzasichle",
-      "country": "Poland",
-      "display": "Murzasichle, Poland"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/tatra-mountains-lush-forests-snowy-peaks-11029904/",
-      "photographer": "Maryia Plashchynskaya",
-      "photographerUrl": "https://www.pexels.com/@maryiaplashchynskaya/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-podbiel-historic-wooden-15267870.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.2912,
-      "lon": 20.2316
-    },
-    "place": {
-      "city": "Osturňa",
-      "country": "Slovakia",
-      "display": "Osturňa, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-wooden-houses-of-podbiel-slovakia-showcasing-unique-architectural-design-15267870/",
-      "photographer": "Valentin Onu",
-      "photographerUrl": "https://www.pexels.com/@vali741/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-ruzomberok-rustic-wooden-11019952.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.2912,
-      "lon": 20.2316
-    },
-    "place": {
-      "city": "Osturňa",
-      "country": "Slovakia",
-      "display": "Osturňa, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/charming-rustic-wooden-houses-nestled-in-the-scenic-mountains-of-ruzomberok-slovakia-11019952/",
-      "photographer": "Walkers",
-      "photographerUrl": "https://www.pexels.com/@walkers-113027/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-velky-lipnik-aerial-village-28121309.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.2912,
-      "lon": 20.2316
-    },
-    "place": {
-      "city": "Osturňa",
-      "country": "Slovakia",
-      "display": "Osturňa, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-aerial-view-of-velky-lipnik-village-surrounded-by-rolling-hills-28121309/",
-      "photographer": "Karolina",
-      "photographerUrl": "https://www.pexels.com/@karolina-2031292/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-velky-lipnik-hills-village-28121371.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.2912,
-      "lon": 20.2316
-    },
-    "place": {
-      "city": "Osturňa",
-      "country": "Slovakia",
-      "display": "Osturňa, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-aerial-view-of-velky-lipnik-village-surrounded-by-lush-hills-and-mountains-28121371/",
-      "photographer": "Karolina",
-      "photographerUrl": "https://www.pexels.com/@karolina-2031292/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-oswiecim-auschwitz-entrance-warning-13081553.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 50.0344,
-      "lon": 19.2098
-    },
-    "place": {
-      "city": "Oświęcim",
-      "country": "Poland",
-      "display": "Oświęcim, Poland"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/entrance-to-auschwitz-concentration-camp-13081553/",
-      "photographer": "Rene Terp",
-      "photographerUrl": "https://www.pexels.com/@reneterp/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-autumn-37100593.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.2796,
-      "lon": 20.178
-    },
-    "place": {
-      "city": "Tatranská Javorina",
-      "country": "Slovakia",
-      "display": "Tatranská Javorina, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/stunning-autumn-view-of-tatra-mountains-37100593/",
-      "photographer": "Dawid Zawiła",
-      "photographerUrl": "https://www.pexels.com/@dawid-zawila-2151273316/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-rocky-peaks-36781462.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.2796,
-      "lon": 20.178
-    },
-    "place": {
-      "city": "Tatranská Javorina",
-      "country": "Slovakia",
-      "display": "Tatranská Javorina, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-mountain-view-in-the-tatra-mountains-poland-36781462/",
-      "photographer": "Anastasia Saiko",
-      "photographerUrl": "https://www.pexels.com/@likhtarik/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-valley-view-33239879.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.2796,
-      "lon": 20.178
-    },
-    "place": {
-      "city": "Tatranská Javorina",
-      "country": "Slovakia",
-      "display": "Tatranská Javorina, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/breathtaking-view-of-tatra-mountains-and-valley-33239879/",
-      "photographer": "Paweł Kosmala",
-      "photographerUrl": "https://www.pexels.com/@pawel-kosmala-18647583/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-mountain-valley-summer-30829433.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.1664,
-      "lon": 20.1317
-    },
-    "place": {
-      "city": "Vysoké Tatry",
-      "country": "Slovakia",
-      "display": "Vysoké Tatry, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/stunning-high-tatras-mountain-valley-view-30829433/",
-      "photographer": "György Lakatos",
-      "photographerUrl": "https://www.pexels.com/@gyorgy-lakatos-113005281/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-mountains-with-lakes-30829431.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.1664,
-      "lon": 20.1317
-    },
-    "place": {
-      "city": "Vysoké Tatry",
-      "country": "Slovakia",
-      "display": "Vysoké Tatry, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-view-of-tatra-mountains-with-lakes-30829431/",
-      "photographer": "György Lakatos",
-      "photographerUrl": "https://www.pexels.com/@gyorgy-lakatos-113005281/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-snow-capped-peaks-35012695.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.1664,
-      "lon": 20.1317
-    },
-    "place": {
-      "city": "Vysoké Tatry",
-      "country": "Slovakia",
-      "display": "Vysoké Tatry, Slovakia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/majestic-snow-capped-peaks-of-high-tatras-slovakia-35012695/",
-      "photographer": "Michal Petráš",
-      "photographerUrl": "https://www.pexels.com/@michal-petras-2152077115/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-zakopane-tatra-wildflowers-9181193.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 49.2992,
-      "lon": 19.9496
-    },
-    "place": {
-      "city": "Zakopane",
-      "country": "Poland",
-      "display": "Zakopane, Poland"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/tatra-mountains-with-wildflowers-9181193/",
-      "photographer": "Karol Zielinski",
-      "photographerUrl": "https://www.pexels.com/@karol-zielinski-92378908/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-09-andalusia-gibraltar/pexels-almunecar-nerja-coastal-mountains-17740863.jpg",
-    "takenAt": "2025-09-14T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 36.7375,
-      "lon": -3.6906
-    },
-    "place": {
-      "city": "Almuñécar",
-      "country": "Spain",
-      "display": "Almuñécar, Spain"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/picturesque-coastal-town-of-nerja-with-stunning-mountains-and-clear-blue-sea-17740863/",
-      "photographer": "Flow TV",
-      "photographerUrl": "https://www.pexels.com/@flowtv/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-09-andalusia-gibraltar/pexels-almunecar-nerja-hillside-houses-sunset-34499934.jpg",
-    "takenAt": "2025-09-14T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 36.7375,
-      "lon": -3.6906
-    },
-    "place": {
-      "city": "Almuñécar",
-      "country": "Spain",
-      "display": "Almuñécar, Spain"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/charming-hillside-houses-in-nerja-spain-with-a-mountain-backdrop-during-sunset-34499934/",
-      "photographer": "Oliver Schröder",
-      "photographerUrl": "https://www.pexels.com/@olivers/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2025-09-andalusia-gibraltar/pexels-salobrena-aerial-coastline-city-14508595.jpg",
-    "takenAt": "2025-09-14T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 36.7437,
-      "lon": -3.5874
-    },
-    "place": {
-      "city": "Salobreña",
-      "country": "Spain",
-      "display": "Salobreña, Spain"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-shot-of-city-on-coastline-14508595/",
-      "photographer": "Ray Raimundo",
-      "photographerUrl": "https://www.pexels.com/@rayraimundo/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-belgrade-kalemegdan-fortress-arch-31476895.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 44.8125,
-      "lon": 20.4612
-    },
-    "place": {
-      "city": "Belgrade",
-      "country": "Serbia",
-      "display": "Belgrade, Serbia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/winter-view-through-kalemegdan-fortress-arch-31476895/",
-      "photographer": "Sofiia Asmi",
-      "photographerUrl": "https://www.pexels.com/@sofiia-asmi-3378970/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-belgrade-old-town-skadarlija-pavement-18419080.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 44.8125,
-      "lon": 20.4612
-    },
-    "place": {
-      "city": "Belgrade",
-      "country": "Serbia",
-      "display": "Belgrade, Serbia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/people-on-pavement-in-old-town-of-belgrade-serbia-18419080/",
-      "photographer": "Neon Joi",
-      "photographerUrl": "https://www.pexels.com/@neon-joi-685205478/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-belgrade-saint-sava-temple-night-14487939.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 44.8125,
-      "lon": 20.4612
-    },
-    "place": {
-      "city": "Belgrade",
-      "country": "Serbia",
-      "display": "Belgrade, Serbia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/saint-sava-temple-in-belgrade-serbia-14487939/",
-      "photographer": "Boris Hamer",
-      "photographerUrl": "https://www.pexels.com/@borishamer/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-budapest-parliament-illuminated-36556205.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 47.4979,
-      "lon": 19.0402
-    },
-    "place": {
-      "city": "Budapest",
-      "country": "Hungary",
-      "display": "Budapest, Hungary"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/illuminated-hungarian-parliament-building-at-night-36556205/",
-      "photographer": "Balazs Nemes",
-      "photographerUrl": "https://www.pexels.com/@balazs-nemes-36556205/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-bucegi-mountains-autumn-34457978.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 45.2426,
-      "lon": 24.342
-    },
-    "place": {
-      "city": "Calimanesti",
-      "country": "Romania",
-      "display": "Calimanesti, Romania"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-view-of-bucegi-mountains-in-autumn-34457978/",
-      "photographer": "Catalin M",
-      "photographerUrl": "https://www.pexels.com/@catalin-m-1839309/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-romanian-church-flowers-10882222.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 45.2426,
-      "lon": 24.342
-    },
-    "place": {
-      "city": "Calimanesti",
-      "country": "Romania",
-      "display": "Calimanesti, Romania"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/charming-romanian-church-with-blooming-flowers-10882222/",
-      "photographer": "Eliza Aldea",
-      "photographerUrl": "https://www.pexels.com/@eliza-aldea-164966937/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-dachau-historic-brick-building-bw-32808850.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 48.25557,
-      "lon": 11.43862
-    },
-    "place": {
-      "city": "Dachau",
-      "country": "Germany",
-      "display": "Dachau, Germany"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/black-and-white-photo-of-a-historic-brick-building-in-dachau-bavaria-32808850/",
-      "photographer": "Nicola Ravi",
-      "photographerUrl": "https://www.pexels.com/@nicolaravi/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-fuessen-lech-river-alpine-20741181.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 48.05159,
-      "lon": 10.87511
-    },
-    "place": {
-      "city": "Landsberg am Lech",
-      "country": "Germany",
-      "display": "Landsberg am Lech, Germany"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/landscape-fuessen-germany-river-bridge-alpine-20741181/",
-      "photographer": "Wolfgang Weiser",
-      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-fuessen-lech-river-church-22618185.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 48.05159,
-      "lon": 10.87511
-    },
-    "place": {
-      "city": "Landsberg am Lech",
-      "country": "Germany",
-      "display": "Landsberg am Lech, Germany"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/town-view-fuessen-germany-historic-church-river-22618185/",
-      "photographer": "Wolfgang Weiser",
-      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-bergpark-panorama-33593210.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.31407,
-      "lon": 9.4883
-    },
-    "place": {
-      "city": "Kassel",
-      "country": "Germany",
-      "display": "Kassel, Germany"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/panoramic-view-from-bergpark-wilhelmshohe-overlooking-kassel-33593210/",
-      "photographer": "arlindphotography",
-      "photographerUrl": "https://www.pexels.com/@arlindphotography/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-bergpark-wilhelmshoehe-27579632.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.31407,
-      "lon": 9.4883
-    },
-    "place": {
-      "city": "Kassel",
-      "country": "Germany",
-      "display": "Kassel, Germany"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/beautiful-bergpark-wilhelmshohe-in-kassel-a-unesco-world-heritage-site-27579632/",
-      "photographer": "Kemal Berkay Doğan",
-      "photographerUrl": "https://www.pexels.com/@kemal-berkay-dogan/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-hercules-monument-27579628.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.31407,
-      "lon": 9.4883
-    },
-    "place": {
-      "city": "Kassel",
-      "country": "Germany",
-      "display": "Kassel, Germany"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/iconic-hercules-monument-bergpark-wilhelmshohe-kassel-27579628/",
-      "photographer": "Kemal Berkay Doğan",
-      "photographerUrl": "https://www.pexels.com/@kemal-berkay-dogan/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-wilhelmshoehe-palace-cityscape-27579634.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.31407,
-      "lon": 9.4883
-    },
-    "place": {
-      "city": "Kassel",
-      "country": "Germany",
-      "display": "Kassel, Germany"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/captivating-view-of-wilhelmshohe-palace-with-kassel-cityscape-27579634/",
-      "photographer": "Kemal Berkay Doğan",
-      "photographerUrl": "https://www.pexels.com/@kemal-berkay-dogan/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-great-plain-aerial-fields-13456593.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 46.90705,
-      "lon": 19.68729
-    },
-    "place": {
-      "city": "Kecskemét",
-      "country": "Hungary",
-      "display": "Kecskemét, Hungary"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-view-green-fields-farmland-13456593/",
-      "photographer": "Barnabas Davoti",
-      "photographerUrl": "https://www.pexels.com/@barnabas-davoti-31615494/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-hungarian-grey-pair-5840898.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 46.90705,
-      "lon": 19.68729
-    },
-    "place": {
-      "city": "Kecskemét",
-      "country": "Hungary",
-      "display": "Kecskemét, Hungary"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/two-hungarian-grey-cattle-green-pasture-5840898/",
-      "photographer": "Karola G",
-      "photographerUrl": "https://www.pexels.com/@karola-g/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-puszta-cattle-grazing-27024356.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 46.90705,
-      "lon": 19.68729
-    },
-    "place": {
-      "city": "Kecskemét",
-      "country": "Hungary",
-      "display": "Kecskemét, Hungary"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/cattle-with-horns-grazing-sunlit-rural-pasture-27024356/",
-      "photographer": "Stokeron",
-      "photographerUrl": "https://www.pexels.com/@stokeron/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-puszta-donkeys-pond-27024359.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 46.90705,
-      "lon": 19.68729
-    },
-    "place": {
-      "city": "Kecskemét",
-      "country": "Hungary",
-      "display": "Kecskemét, Hungary"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/donkeys-grazing-rural-farm-landscape-27024359/",
-      "photographer": "Stokeron",
-      "photographerUrl": "https://www.pexels.com/@stokeron/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kladovo-decebalus-rock-iron-gates-13680514.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 44.6125,
-      "lon": 22.6166
-    },
-    "place": {
-      "city": "Kladovo",
-      "country": "Serbia",
-      "display": "Kladovo, Serbia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/13680514/",
-      "photographer": "Andrei Danut",
-      "photographerUrl": "https://www.pexels.com/@andrei-danut/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-kladovo-golubac-fortress-aerial-30926014.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 44.6125,
-      "lon": 22.6166
-    },
-    "place": {
-      "city": "Kladovo",
-      "country": "Serbia",
-      "display": "Kladovo, Serbia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/aerial-view-of-golubac-fortress-on-danube-river-30926014/",
-      "photographer": "Nikola Kojević",
-      "photographerUrl": "https://www.pexels.com/@nikola-kojevic-1608684723/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-landsberg-am-lech-colorful-houses-river-32834506.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 48.05159,
-      "lon": 10.87511
-    },
-    "place": {
-      "city": "Landsberg am Lech",
-      "country": "Germany",
-      "display": "Landsberg am Lech, Germany"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/colorful-bavarian-architecture-in-landsberg-am-lech-32834506/",
-      "photographer": "inkinterrupted",
-      "photographerUrl": "https://www.pexels.com/@inkinterrupted/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-landsberg-am-lech-winter-river-29673694.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 48.05159,
-      "lon": 10.87511
-    },
-    "place": {
-      "city": "Landsberg am Lech",
-      "country": "Germany",
-      "display": "Landsberg am Lech, Germany"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/scenic-view-of-landsberg-am-lech-in-winter-29673694/",
-      "photographer": "Sabine Freiberger",
-      "photographerUrl": "https://www.pexels.com/@sabine-freiberger-2147687567/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-munich-karlstor-bavarian-gate-36277562.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 48.05159,
-      "lon": 10.87511
-    },
-    "place": {
-      "city": "Landsberg am Lech",
-      "country": "Germany",
-      "display": "Landsberg am Lech, Germany"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-karlstor-gate-munich-architectural-charm-36277562/",
-      "photographer": "Memory Lane",
-      "photographerUrl": "https://www.pexels.com/@memory-lane-2157293172/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
   }
 ]

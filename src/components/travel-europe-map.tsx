@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { useState } from "react";
 import {
   ComposableMap,
   Geographies,
@@ -120,6 +120,17 @@ function slugifyCountry(s: string): string {
     .toLowerCase()
     .normalize("NFKD")
     .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+/** Slugify a city name to match the anchor ids on the trip photos page
+ *  (`city-<slug>`). Mirrors the helper in `travel/photos/[slug]/page.tsx`. */
+function citySlug(name: string): string {
+  return name
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/\p{M}/gu, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 }
@@ -261,25 +272,6 @@ export function TravelEuropeMap({
    * If neither exists we noop and let the anchor's href drive a
    * normal navigation to the trip's photo page.
    */
-  const handleCityClick = useCallback(
-    (city: MapCity, e: React.MouseEvent<HTMLAnchorElement>) => {
-      if (typeof document === "undefined") return;
-      const candidates: string[] = [];
-      if (city.primaryTripSlug) candidates.push(`trip-${city.primaryTripSlug}`);
-      candidates.push(`country-${slugifyCountry(city.country)}`);
-      for (const id of candidates) {
-        const node = document.getElementById(id);
-        if (node) {
-          e.preventDefault();
-          node.scrollIntoView({ behavior: "smooth", block: "start" });
-          return;
-        }
-      }
-      // No matching anchor — fall through to the href-driven nav.
-    },
-    [],
-  );
-
   if (destinations.length === 0) return null;
 
   const isMap = view === "map";
@@ -452,11 +444,10 @@ export function TravelEuropeMap({
                     data-city-slug={city.slug}
                     href={
                       city.primaryTripSlug
-                        ? `/travel/photos/${city.primaryTripSlug}`
+                        ? `/travel/photos/${city.primaryTripSlug}#city-${citySlug(city.city)}`
                         : `#country-${slugifyCountry(city.country)}`
                     }
                     aria-label={tooltip}
-                    onClick={(e) => handleCityClick(city, e)}
                   >
                     {/* Larger, transparent hit area for steady hover. */}
                     <circle

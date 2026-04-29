@@ -41,7 +41,7 @@ function TechTile({ tech, tooltipTemplate }: { tech: Tech; tooltipTemplate: stri
           width={32}
           height={32}
           loading="lazy"
-          className="h-8 w-8 rounded bg-white p-0.5 object-contain"
+          className="h-8 w-8 object-contain"
         />
       ) : (
         // Monogram fallback for techs without a logo (e.g. Lexik JWT,

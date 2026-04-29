@@ -133,35 +133,39 @@ export default async function WorkPage({
         <ul
           className={`grid gap-px bg-border/60 ${responsiveGridColsClass(visibleSelected.length, 2)} rounded-lg overflow-hidden`}
         >
-          {visibleSelected.map((p) => (
-            <li key={p.slug} className="bg-background">
-              <Link
-                href={`/work/${p.slug}`}
-                className="group flex h-full flex-col p-8 transition-colors hover:bg-surface"
-              >
-                <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
-                  {p.kicker}
-                </p>
-                <h3 className="mt-3 group-hover:text-accent transition-colors">
-                  {p.title}
-                </h3>
-                <p className="mt-3 flex-1">{t(`blurbs.${p.slug}`)}</p>
-                <div className="mt-5 flex flex-wrap gap-2">
-                  {p.stack.map((s) => (
-                    <span
-                      key={s}
-                      className="rounded-full border border-border px-2.5 py-0.5 text-xs text-foreground-subtle"
-                    >
-                      {s}
-                    </span>
-                  ))}
-                </div>
-                <span className="mt-5 inline-flex items-center gap-1 text-sm text-foreground-muted group-hover:text-accent">
-                  {t("readCaseStudy")} <ArrowUpRight className="h-4 w-4" />
-                </span>
-              </Link>
-            </li>
-          ))}
+          {visibleSelected.map((p, idx) => {
+            const isLast = idx === visibleSelected.length - 1;
+            const lastRowSm = visibleSelected.length % 2;
+            return (
+              <li key={p.slug} className={`bg-background${isLast && lastRowSm === 1 ? " sm:col-span-2" : ""}`}>
+                <Link
+                  href={`/work/${p.slug}`}
+                  className="group flex h-full flex-col p-8 transition-colors hover:bg-surface"
+                >
+                  <p className="font-mono text-xs uppercase tracking-[0.2em] text-foreground-subtle">
+                    {p.kicker}
+                  </p>
+                  <h3 className="mt-3 group-hover:text-accent transition-colors">
+                    {p.title}
+                  </h3>
+                  <p className="mt-3 flex-1">{t(`blurbs.${p.slug}`)}</p>
+                  <div className="mt-5 flex flex-wrap gap-2">
+                    {p.stack.map((s) => (
+                      <span
+                        key={s}
+                        className="rounded-full border border-border px-2.5 py-0.5 text-xs text-foreground-subtle"
+                      >
+                        {s}
+                      </span>
+                    ))}
+                  </div>
+                  <span className="mt-5 inline-flex items-center gap-1 text-sm text-foreground-muted group-hover:text-accent">
+                    {t("readCaseStudy")} <ArrowUpRight className="h-4 w-4" />
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </section>
 
