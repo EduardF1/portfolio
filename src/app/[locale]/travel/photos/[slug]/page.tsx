@@ -138,6 +138,9 @@ export default async function TripPhotosPage({
       {sections.map((section) => {
         const sectionPhotos: LightboxPhoto[] = section.photos.map((p) => ({
           src: p.src,
+          // `p.alt` already prefers the catalogue caption (landmark +
+          // city + month) thanks to clusterTrips; the country/month
+          // fallback only kicks in when the catalogue lacks both.
           alt: p.alt || `${trip.country}, ${trip.monthLabel}`,
         }));
         const heading = section.city ?? tp("otherCity");
