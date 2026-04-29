@@ -1,0 +1,150 @@
+{
+  "results": [
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-edinburgh-castle-rock-fortress-28086723.jpg",
+      "bytes": 524509,
+      "skipped": false,
+      "id": 28086723,
+      "placeKey": "edinburgh"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-edinburgh-calton-hill-historic-view-29080624.jpg",
+      "bytes": 388916,
+      "skipped": false,
+      "id": 29080624,
+      "placeKey": "edinburgh"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-edinburgh-calton-hill-monument-sunset-36943996.jpg",
+      "bytes": 289113,
+      "skipped": false,
+      "id": 36943996,
+      "placeKey": "edinburgh"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-edinburgh-royal-mile-old-town-37091097.jpg",
+      "bytes": 395464,
+      "skipped": false,
+      "id": 37091097,
+      "placeKey": "edinburgh"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-edinburgh-holyrood-palace-architecture-32800590.jpg",
+      "bytes": 307783,
+      "skipped": false,
+      "id": 32800590,
+      "placeKey": "edinburgh"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-york-minster-gothic-cathedral-18381495.jpg",
+      "bytes": 497912,
+      "skipped": false,
+      "id": 18381495,
+      "placeKey": "york"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-york-minster-cathedral-view-35729114.jpg",
+      "bytes": 441362,
+      "skipped": false,
+      "id": 35729114,
+      "placeKey": "york"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-york-shambles-historic-street-33622985.jpg",
+      "bytes": 267239,
+      "skipped": false,
+      "id": 33622985,
+      "placeKey": "york"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-york-cobblestone-old-town-33554280.jpg",
+      "bytes": 336874,
+      "skipped": false,
+      "id": 33554280,
+      "placeKey": "york"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-york-tudor-building-historic-35729116.jpg",
+      "bytes": 378353,
+      "skipped": false,
+      "id": 35729116,
+      "placeKey": "york"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-oxford-radcliffe-camera-aerial-1796720.jpg",
+      "bytes": 321358,
+      "skipped": false,
+      "id": 1796720,
+      "placeKey": "oxford"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-oxford-bodleian-library-facade-16009515.jpg",
+      "bytes": 366839,
+      "skipped": false,
+      "id": 16009515,
+      "placeKey": "oxford"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-oxford-christ-church-college-10510959.jpg",
+      "bytes": 512262,
+      "skipped": false,
+      "id": 10510959,
+      "placeKey": "oxford"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-oxford-natural-history-museum-dusk-35620480.jpg",
+      "bytes": 359228,
+      "skipped": false,
+      "id": 35620480,
+      "placeKey": "oxford"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-oxford-gothic-architecture-35491214.jpg",
+      "bytes": 585978,
+      "skipped": false,
+      "id": 35491214,
+      "placeKey": "oxford"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-bath-abbey-roman-baths-view-29184552.jpg",
+      "bytes": 376939,
+      "skipped": false,
+      "id": 29184552,
+      "placeKey": "bath"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-bath-pulteney-bridge-river-avon-18222697.jpg",
+      "bytes": 391591,
+      "skipped": false,
+      "id": 18222697,
+      "placeKey": "bath"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-bath-abbey-somerset-28978507.jpg",
+      "bytes": 309344,
+      "skipped": false,
+      "id": 28978507,
+      "placeKey": "bath"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-bath-roman-baths-abbey-gothic-13020675.jpg",
+      "bytes": 383320,
+      "skipped": false,
+      "id": 13020675,
+      "placeKey": "bath"
+    },
+    {
+      "rel": "trips/2023-07-uk-tour/pexels-bath-abbey-roman-baths-sunlight-29184548.jpg",
+      "bytes": 359866,
+      "skipped": false,
+      "id": 29184548,
+      "placeKey": "bath"
+    }
+  ],
+  "failures": [],
+  "londonRenames": 6,
+  "newCatalogueEntries": 20,
+  "newAttributionRows": 20,
+  "totalStockNow": 288,
+  "totalBytes": 7794250
+}

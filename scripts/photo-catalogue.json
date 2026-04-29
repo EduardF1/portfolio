@@ -5121,7 +5121,7 @@
     }
   },
   {
-    "src": "trips/2023-07-london/pexels-london-tower-bridge-bascules-raised-575410.jpg",
+    "src": "trips/2023-07-uk-tour/pexels-london-tower-bridge-bascules-raised-575410.jpg",
     "takenAt": "2023-07-08T12:00:00Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
@@ -5146,7 +5146,7 @@
     }
   },
   {
-    "src": "trips/2023-07-london/pexels-london-big-ben-clear-sky-14711297.jpg",
+    "src": "trips/2023-07-uk-tour/pexels-london-big-ben-clear-sky-14711297.jpg",
     "takenAt": "2023-07-08T12:00:00Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
@@ -5171,7 +5171,7 @@
     }
   },
   {
-    "src": "trips/2023-07-london/pexels-london-westminster-bridge-parliament-16233863.jpg",
+    "src": "trips/2023-07-uk-tour/pexels-london-westminster-bridge-parliament-16233863.jpg",
     "takenAt": "2023-07-08T12:00:00Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
@@ -5196,7 +5196,7 @@
     }
   },
   {
-    "src": "trips/2023-07-london/pexels-london-buckingham-palace-facade-16333184.jpg",
+    "src": "trips/2023-07-uk-tour/pexels-london-buckingham-palace-facade-16333184.jpg",
     "takenAt": "2023-07-08T12:00:00Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
@@ -5221,7 +5221,7 @@
     }
   },
   {
-    "src": "trips/2023-07-london/pexels-london-skyline-from-greenwich-29276670.jpg",
+    "src": "trips/2023-07-uk-tour/pexels-london-skyline-from-greenwich-29276670.jpg",
     "takenAt": "2023-07-08T12:00:00Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
@@ -5246,7 +5246,7 @@
     }
   },
   {
-    "src": "trips/2023-07-london/pexels-london-shard-tower-bridge-sunset-30754172.jpg",
+    "src": "trips/2023-07-uk-tour/pexels-london-shard-tower-bridge-sunset-30754172.jpg",
     "takenAt": "2023-07-08T12:00:00Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
@@ -9137,6 +9137,506 @@
       "city": "Kassel",
       "country": "Germany",
       "display": "Kassel, Germany"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-edinburgh-castle-rock-fortress-28086723.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.9533,
+      "lon": -3.1883
+    },
+    "place": {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "display": "Edinburgh, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/edinburgh-castle-28086723/",
+      "photographer": "Mario Spencer",
+      "photographerUrl": "https://www.pexels.com/@spencphoto/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-edinburgh-calton-hill-historic-view-29080624.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.9533,
+      "lon": -3.1883
+    },
+    "place": {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "display": "Edinburgh, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-calton-hill-view-of-edinburgh-29080624/",
+      "photographer": "Clément Proust",
+      "photographerUrl": "https://www.pexels.com/@clement-proust-363898785/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-edinburgh-calton-hill-monument-sunset-36943996.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.9533,
+      "lon": -3.1883
+    },
+    "place": {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "display": "Edinburgh, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/sunset-view-of-edinburgh-with-calton-hill-monument-36943996/",
+      "photographer": "Andrea Gambirasio",
+      "photographerUrl": "https://www.pexels.com/@andrea-gambirasio-2152990668/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-edinburgh-royal-mile-old-town-37091097.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.9533,
+      "lon": -3.1883
+    },
+    "place": {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "display": "Edinburgh, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/crowded-edinburgh-street-with-historic-architecture-37091097/",
+      "photographer": "Oleksiy Konstantinidi",
+      "photographerUrl": "https://www.pexels.com/@oleksiy-konstantinidi-2147541276/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-edinburgh-holyrood-palace-architecture-32800590.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.9533,
+      "lon": -3.1883
+    },
+    "place": {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "display": "Edinburgh, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-architecture-at-holyrood-palace-32800590/",
+      "photographer": "Leon Hellegers",
+      "photographerUrl": "https://www.pexels.com/@leonhellegers/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-york-minster-gothic-cathedral-18381495.jpg",
+    "takenAt": "2023-07-07T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 53.9591,
+      "lon": -1.0815
+    },
+    "place": {
+      "city": "York",
+      "country": "United Kingdom",
+      "display": "York, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/old-gothic-cathedral-against-blue-sky-18381495/",
+      "photographer": "Jordi De Roeck",
+      "photographerUrl": "https://www.pexels.com/@jordi-de-roeck-335496790/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-york-minster-cathedral-view-35729114.jpg",
+    "takenAt": "2023-07-07T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 53.9591,
+      "lon": -1.0815
+    },
+    "place": {
+      "city": "York",
+      "country": "United Kingdom",
+      "display": "York, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-view-of-york-minster-cathedral-35729114/",
+      "photographer": "Igor Passchier",
+      "photographerUrl": "https://www.pexels.com/@igor-passchier-111147847/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-york-shambles-historic-street-33622985.jpg",
+    "takenAt": "2023-07-07T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 53.9591,
+      "lon": -1.0815
+    },
+    "place": {
+      "city": "York",
+      "country": "United Kingdom",
+      "display": "York, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/bustling-street-scene-in-york-s-historic-shambles-33622985/",
+      "photographer": "Oliver Schröder",
+      "photographerUrl": "https://www.pexels.com/@olivers/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-york-cobblestone-old-town-33554280.jpg",
+    "takenAt": "2023-07-07T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 53.9591,
+      "lon": -1.0815
+    },
+    "place": {
+      "city": "York",
+      "country": "United Kingdom",
+      "display": "York, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-cobblestone-street-in-york-city-center-33554280/",
+      "photographer": "Airam Dato-on",
+      "photographerUrl": "https://www.pexels.com/@airamdphoto/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-york-tudor-building-historic-35729116.jpg",
+    "takenAt": "2023-07-07T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 53.9591,
+      "lon": -1.0815
+    },
+    "place": {
+      "city": "York",
+      "country": "United Kingdom",
+      "display": "York, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-tudor-building-in-york-england-35729116/",
+      "photographer": "Igor Passchier",
+      "photographerUrl": "https://www.pexels.com/@igor-passchier-111147847/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-oxford-radcliffe-camera-aerial-1796720.jpg",
+    "takenAt": "2023-07-09T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.752,
+      "lon": -1.2577
+    },
+    "place": {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "display": "Oxford, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/concrete-building-1796720/",
+      "photographer": "Chait Goli",
+      "photographerUrl": "https://www.pexels.com/@chaitaastic/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-oxford-bodleian-library-facade-16009515.jpg",
+    "takenAt": "2023-07-09T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.752,
+      "lon": -1.2577
+    },
+    "place": {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "display": "Oxford, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/oxford-university-u-k-august-5-2019-an-outside-shot-of-bodleian-library-at-oxford-university-on-a-sunny-day-with-partly-cloudy-skie-16009515/",
+      "photographer": "Shaun Iwasawa",
+      "photographerUrl": "https://www.pexels.com/@shaun-iwasawa-464780865/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-oxford-christ-church-college-10510959.jpg",
+    "takenAt": "2023-07-09T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.752,
+      "lon": -1.2577
+    },
+    "place": {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "display": "Oxford, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/christ-church-in-oxford-england-10510959/",
+      "photographer": "Anna Kozlova",
+      "photographerUrl": "https://www.pexels.com/@anna-kozlova-132622441/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-oxford-natural-history-museum-dusk-35620480.jpg",
+    "takenAt": "2023-07-09T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.752,
+      "lon": -1.2577
+    },
+    "place": {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "display": "Oxford, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/oxford-university-museum-of-natural-history-at-dusk-35620480/",
+      "photographer": "Peter Morch",
+      "photographerUrl": "https://www.pexels.com/@peter-morch-2157759396/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-oxford-gothic-architecture-35491214.jpg",
+    "takenAt": "2023-07-09T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.752,
+      "lon": -1.2577
+    },
+    "place": {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "display": "Oxford, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-gothic-architecture-in-oxford-uk-35491214/",
+      "photographer": "Peter Morch",
+      "photographerUrl": "https://www.pexels.com/@peter-morch-2157759396/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-bath-abbey-roman-baths-view-29184552.jpg",
+    "takenAt": "2023-07-10T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.3811,
+      "lon": -2.359
+    },
+    "place": {
+      "city": "Bath",
+      "country": "United Kingdom",
+      "display": "Bath, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-view-of-bath-abbey-and-roman-baths-29184552/",
+      "photographer": "Stephan Leuzinger",
+      "photographerUrl": "https://www.pexels.com/@stephan/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-bath-pulteney-bridge-river-avon-18222697.jpg",
+    "takenAt": "2023-07-10T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.3811,
+      "lon": -2.359
+    },
+    "place": {
+      "city": "Bath",
+      "country": "United Kingdom",
+      "display": "Bath, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/pulteney-bridge-in-bath-in-england-18222697/",
+      "photographer": "Eren Cebeci",
+      "photographerUrl": "https://www.pexels.com/@erencebeci/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-bath-abbey-somerset-28978507.jpg",
+    "takenAt": "2023-07-10T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.3811,
+      "lon": -2.359
+    },
+    "place": {
+      "city": "Bath",
+      "country": "United Kingdom",
+      "display": "Bath, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-bath-abbey-in-somerset-england-28978507/",
+      "photographer": "Sami Abdullah",
+      "photographerUrl": "https://www.pexels.com/@onbab/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-bath-roman-baths-abbey-gothic-13020675.jpg",
+    "takenAt": "2023-07-10T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.3811,
+      "lon": -2.359
+    },
+    "place": {
+      "city": "Bath",
+      "country": "United Kingdom",
+      "display": "Bath, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/people-visiting-gothic-cathedral-13020675/",
+      "photographer": "Marvin Sacdalan",
+      "photographerUrl": "https://www.pexels.com/@marvin-sacdalan-276316567/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-bath-abbey-roman-baths-sunlight-29184548.jpg",
+    "takenAt": "2023-07-10T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.3811,
+      "lon": -2.359
+    },
+    "place": {
+      "city": "Bath",
+      "country": "United Kingdom",
+      "display": "Bath, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-bath-abbey-and-roman-baths-in-sunlight-29184548/",
+      "photographer": "Stephan Leuzinger",
+      "photographerUrl": "https://www.pexels.com/@stephan/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   }
 ]
