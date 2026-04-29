@@ -242,7 +242,9 @@
     "mapDestinations": "Destinationer",
     "mapIntensity": "Intensitet",
     "mapLegendTitle": "Rejser pr. land",
-    "mapLegendUnit": "rejser"
+    "mapLegendUnit": "rejser",
+    "recentTripsKicker": "Seneste rejser",
+    "recentTripsHeading": "Nyeste steder, lige tilføjet."
   },
   "culinary": {
     "kicker": "Kulinarisk",
