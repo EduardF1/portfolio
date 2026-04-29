@@ -4,7 +4,10 @@ import { ContactForm } from "./contact-form";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { SectionHeading } from "@/components/section-heading";
 
-export const metadata = { title: "Contact" };
+export const metadata = {
+  title: "Contact",
+  alternates: { canonical: "/contact" },
+};
 
 export default async function ContactPage() {
   const tt = await getTranslations("tooltips");

@@ -6,7 +6,10 @@ import { SectionHeading } from "@/components/section-heading";
 import { BvbFeed } from "@/components/bvb-feed";
 import { responsiveGridColsClass } from "@/lib/grid-cols";
 
-export const metadata = { title: "Personal" };
+export const metadata = {
+  title: "Personal",
+  alternates: { canonical: "/personal" },
+};
 
 // Captions derived from EXIF DateTimeOriginal + reverse-geocoded GPS
 // (see scripts/build-photo-catalogue.mjs and scripts/photo-catalogue.json).

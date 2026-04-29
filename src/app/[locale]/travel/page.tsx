@@ -12,7 +12,10 @@ import {
 import { getTrips } from "@/lib/trips";
 import { responsiveGridColsClass } from "@/lib/grid-cols";
 
-export const metadata = { title: "Travel" };
+export const metadata = {
+  title: "Travel",
+  alternates: { canonical: "/travel" },
+};
 
 export default async function TravelPage({
   params,
