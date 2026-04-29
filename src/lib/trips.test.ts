@@ -209,6 +209,44 @@ describe("clusterTrips", () => {
     expect(trips).toHaveLength(2);
     expect(trips.every((t) => t.countrySlug === "italy")).toBe(true);
   });
+
+  it("forwards the catalogue caption into TripPhoto.alt and .caption", () => {
+    // When the catalogue carries a derived caption, prefer it over the
+    // bare "city, country" form for both alt text and the dedicated
+    // caption field.
+    const trips = clusterTrips([
+      {
+        src: "trips/2023-07-uk/pexels-london-tower-of-london-fortress-30483647.jpg",
+        takenAt: "2023-07-15T12:00:00Z",
+        hasGps: true,
+        gps: { lat: 51.5, lon: -0.07 },
+        place: { city: "London", country: "United Kingdom" },
+        caption:
+          "Tower of London Fortress · London, United Kingdom · July 2023",
+      },
+    ]);
+    expect(trips).toHaveLength(1);
+    expect(trips[0].photos[0].caption).toBe(
+      "Tower of London Fortress · London, United Kingdom · July 2023",
+    );
+    expect(trips[0].photos[0].alt).toBe(
+      "Tower of London Fortress · London, United Kingdom · July 2023",
+    );
+  });
+
+  it("falls back to 'city, country' alt when no caption is present", () => {
+    const trips = clusterTrips([
+      {
+        src: "rome-1.jpg",
+        takenAt: "2024-04-12T10:00:00Z",
+        hasGps: true,
+        gps: { lat: 41.9, lon: 12.5 },
+        place: { city: "Rome", country: "Italy" },
+      },
+    ]);
+    expect(trips[0].photos[0].caption).toBeUndefined();
+    expect(trips[0].photos[0].alt).toBe("Rome, Italy");
+  });
 });
 
 describe("getTrips / getTrip (real catalogue)", () => {

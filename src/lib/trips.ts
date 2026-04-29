@@ -27,6 +27,15 @@ type RawCatalogueEntry = {
   gps?: { lat: number; lon: number };
   place?: { city?: string; country?: string; display?: string };
   cameraModel?: string;
+  /**
+   * Optional human-friendly caption produced by
+   * `scripts/enrich-photo-captions.mjs`. When present it replaces the
+   * date-only / city-country alt fallback in the lightbox and trip
+   * pages. Format:
+   *   - Stock:    "Landmark · City, Country · Month Year"
+   *   - Personal: "City, Country · Month Year"
+   */
+  caption?: string;
 };
 
 export type TripPhoto = {
@@ -34,8 +43,18 @@ export type TripPhoto = {
   filename: string;
   /** Public URL (under PHOTO_URL_PREFIX). */
   src: string;
-  /** Generated alt text (city + country + month/year). */
+  /**
+   * Alt text for screen readers / SEO. Prefers the catalogue's pre-
+   * derived `caption` (landmark + city + month) and falls back to
+   * `city, country` for entries that predate caption enrichment.
+   */
   alt: string;
+  /**
+   * Pre-derived caption from the catalogue, if available. Same value
+   * as `alt` when a caption exists; useful for code paths that want
+   * to surface the caption distinctly (e.g. a `<figcaption>`).
+   */
+  caption?: string;
   /** ISO timestamp the photo was taken at. */
   takenAt: string;
   city?: string;
@@ -187,7 +206,13 @@ export function clusterTrips(entries: RawCatalogueEntry[]): Trip[] {
     usable.push({
       filename: e.src,
       src: PHOTO_URL_PREFIX + e.src,
-      alt: [e.place.city, e.place.country].filter(Boolean).join(", "),
+      // Prefer the pre-derived caption (landmark + city + month for
+      // stock, city + month for personal) and fall back to the
+      // city, country form used before round-6 caption enrichment.
+      alt:
+        e.caption ??
+        [e.place.city, e.place.country].filter(Boolean).join(", "),
+      caption: e.caption,
       takenAt: e.takenAt,
       city: e.place.city,
       country: e.place.country,
