@@ -3688,6 +3688,282 @@
     }
   },
   {
+    "src": "trips/2022-07-greece/pexels-keramoti-rippled-sea-19203217.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Keramoti",
+      "country": "Greece",
+      "display": "Keramoti, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/serene-rippled-ocean-texture-keramoti-greece-19203217/",
+      "photographer": "didsss",
+      "photographerUrl": "https://www.pexels.com/@didsss/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 40.85767,
+      "lon": 24.70224
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-thassos-golden-beach-aqua-28498153.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Thassos",
+      "country": "Greece",
+      "display": "Thassos, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/pristine-aqua-beach-golden-beach-thassos-28498153/",
+      "photographer": "Artiom Petrachi",
+      "photographerUrl": "https://www.pexels.com/@artiom-petrachi-1825232739/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 40.67472,
+      "lon": 24.76
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-thassos-chrisi-ammoudia-10505163.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Thassos",
+      "country": "Greece",
+      "display": "Thassos, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/chrisi-ammoudia-beach-greece-turquoise-waters-10505163/",
+      "photographer": "Igor Ermurachi",
+      "photographerUrl": "https://www.pexels.com/@igor-ermurachi-56590/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 40.67472,
+      "lon": 24.76
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-thassos-rocky-shore-blue-33023678.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Thassos",
+      "country": "Greece",
+      "display": "Thassos, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/idyllic-beach-scene-in-thassos-greece-33023678/",
+      "photographer": "Daciana Cristina Visan",
+      "photographerUrl": "https://www.pexels.com/@daciana-cristina-visan-2149801141/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 40.67472,
+      "lon": 24.76
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-nafplio-bourtzi-castle-harbor-32138690.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Nafplio",
+      "country": "Greece",
+      "display": "Nafplio, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/breathtaking-view-of-nafplio-harbor-with-bourtzi-castle-32138690/",
+      "photographer": "Adrien Olichon",
+      "photographerUrl": "https://www.pexels.com/@adrien-olichon-1257089/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 37.567,
+      "lon": 22.8043
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-nafplio-palamidi-arched-window-18835693.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Nafplio",
+      "country": "Greece",
+      "display": "Nafplio, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/nafplio-from-arched-window-of-palamidi-fortress-18835693/",
+      "photographer": "Tatiana Lapa",
+      "photographerUrl": "https://www.pexels.com/@tatiana-lapa-114875724/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 37.567,
+      "lon": 22.8043
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-nafplio-stone-archway-coast-17098083.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Nafplio",
+      "country": "Greece",
+      "display": "Nafplio, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/captivating-view-of-nafplio-town-and-coast-17098083/",
+      "photographer": "Alexandros Milidakis",
+      "photographerUrl": "https://www.pexels.com/@alexandros-milidakis-559640413/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 37.567,
+      "lon": 22.8043
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-nafplio-aerial-coastal-town-10400151.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Nafplio",
+      "country": "Greece",
+      "display": "Nafplio, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-aerial-view-of-nafplio-10400151/",
+      "photographer": "Alexandros Papadopoulos",
+      "photographerUrl": "https://www.pexels.com/@alexandros-papadopoulos-144473958/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 37.567,
+      "lon": 22.8043
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-kavala-aqueduct-sunset-10163045.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Abdera",
+      "country": "Greece",
+      "display": "Abdera, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-stone-aqueduct-and-town-buildings-at-sunset-10163045/",
+      "photographer": "Marina Gr",
+      "photographerUrl": "https://www.pexels.com/@marina-gr-109305987/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 40.93732,
+      "lon": 24.95646
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-kavala-aerial-coastline-11247205.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Abdera",
+      "country": "Greece",
+      "display": "Abdera, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-kavalas-urban-landscape-11247205/",
+      "photographer": "Marina Gr",
+      "photographerUrl": "https://www.pexels.com/@marina-gr-109305987/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 40.93732,
+      "lon": 24.95646
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-xanthi-mountaintop-view-33516844.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Abdera",
+      "country": "Greece",
+      "display": "Abdera, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/elevated-view-of-xanthi-city-from-a-mountaintop-33516844/",
+      "photographer": "kryonoglou",
+      "photographerUrl": "https://www.pexels.com/@kryonoglou/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 40.93732,
+      "lon": 24.95646
+    }
+  },
+  {
+    "src": "trips/2022-07-greece/pexels-kavala-harbor-cityscape-dusk-29072782.jpg",
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Abdera",
+      "country": "Greece",
+      "display": "Abdera, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-kavala-harbor-and-cityscape-at-dusk-29072782/",
+      "photographer": "sevgiilale",
+      "photographerUrl": "https://www.pexels.com/@sevgiilale/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 40.93732,
+      "lon": 24.95646
+    }
+  },
+  {
     "src": "trips/2022-07-greece/IMG_20220720_124416.jpg",
     "takenAt": "2022-07-20T12:44:16Z",
     "hasGps": true,
@@ -4281,6 +4557,29 @@
     }
   },
   {
+    "src": "trips/2022-10-germany/pexels-lueneburg-heath-lavender-field-27978161.jpg",
+    "takenAt": "2022-10-21T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Munster",
+      "country": "Germany",
+      "display": "Munster, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/vibrant-lavender-field-in-lueneburg-heath-during-daytime-27978161/",
+      "photographer": "deuspix",
+      "photographerUrl": "https://www.pexels.com/@deuspix/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 52.98687,
+      "lon": 10.10924
+    }
+  },
+  {
     "src": "trips/2022-10-germany/IMG_0132.jpg",
     "takenAt": "2022-10-21T14:05:28Z",
     "hasGps": true,
@@ -4788,6 +5087,196 @@
     }
   },
   {
+    "src": "trips/2023-07-uk-tour/pexels-edinburgh-castle-rock-fortress-28086723.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.9533,
+      "lon": -3.1883
+    },
+    "place": {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "display": "Edinburgh, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/edinburgh-castle-28086723/",
+      "photographer": "Mario Spencer",
+      "photographerUrl": "https://www.pexels.com/@spencphoto/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-edinburgh-calton-hill-historic-view-29080624.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.9533,
+      "lon": -3.1883
+    },
+    "place": {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "display": "Edinburgh, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-calton-hill-view-of-edinburgh-29080624/",
+      "photographer": "Clément Proust",
+      "photographerUrl": "https://www.pexels.com/@clement-proust-363898785/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-edinburgh-calton-hill-monument-sunset-36943996.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.9533,
+      "lon": -3.1883
+    },
+    "place": {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "display": "Edinburgh, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/sunset-view-of-edinburgh-with-calton-hill-monument-36943996/",
+      "photographer": "Andrea Gambirasio",
+      "photographerUrl": "https://www.pexels.com/@andrea-gambirasio-2152990668/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-edinburgh-royal-mile-old-town-37091097.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.9533,
+      "lon": -3.1883
+    },
+    "place": {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "display": "Edinburgh, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/crowded-edinburgh-street-with-historic-architecture-37091097/",
+      "photographer": "Oleksiy Konstantinidi",
+      "photographerUrl": "https://www.pexels.com/@oleksiy-konstantinidi-2147541276/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-edinburgh-holyrood-palace-architecture-32800590.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.9533,
+      "lon": -3.1883
+    },
+    "place": {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "display": "Edinburgh, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-architecture-at-holyrood-palace-32800590/",
+      "photographer": "Leon Hellegers",
+      "photographerUrl": "https://www.pexels.com/@leonhellegers/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-kalamitsi-sunrise-28435910.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Nea Fokea",
+      "country": "Greece",
+      "display": "Nea Fokea, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/kalamitsi-beach-halkidiki-sunrise-28435910/",
+      "photographer": "Yassen Kounchev",
+      "photographerUrl": "https://www.pexels.com/@yassen-kounchev-889850329/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/pexels-athens-erechtheion-caryatids-6924329.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Athens",
+      "country": "Greece",
+      "display": "Athens, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/erechtheion-temple-with-caryatids-in-acropolis-athens-6924329/",
+      "photographer": "Mohammed Zar",
+      "photographerUrl": "https://www.pexels.com/@mohammed-zar-3861716/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 37.97457,
+      "lon": 23.99225
+    }
+  },
+  {
+    "src": "trips/2023-07-greece-athens-halkidiki/pexels-athens-parthenon-unesco-28601862.jpg",
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Athens",
+      "country": "Greece",
+      "display": "Athens, Greece"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-view-of-the-parthenon-a-unesco-world-heritage-site-28601862/",
+      "photographer": "Efrem Efre",
+      "photographerUrl": "https://www.pexels.com/@efrem-efre-2786187/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 37.97457,
+      "lon": 23.99225
+    }
+  },
+  {
     "src": "trips/2023-07-greece-athens-halkidiki/IMG_20230706_190837.jpg",
     "takenAt": "2023-07-06T19:08:38Z",
     "hasGps": true,
@@ -4800,6 +5289,131 @@
       "city": "Athens",
       "country": "Greece",
       "display": "Athens, Greece"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-york-minster-gothic-cathedral-18381495.jpg",
+    "takenAt": "2023-07-07T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 53.9591,
+      "lon": -1.0815
+    },
+    "place": {
+      "city": "York",
+      "country": "United Kingdom",
+      "display": "York, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/old-gothic-cathedral-against-blue-sky-18381495/",
+      "photographer": "Jordi De Roeck",
+      "photographerUrl": "https://www.pexels.com/@jordi-de-roeck-335496790/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-york-minster-cathedral-view-35729114.jpg",
+    "takenAt": "2023-07-07T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 53.9591,
+      "lon": -1.0815
+    },
+    "place": {
+      "city": "York",
+      "country": "United Kingdom",
+      "display": "York, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-view-of-york-minster-cathedral-35729114/",
+      "photographer": "Igor Passchier",
+      "photographerUrl": "https://www.pexels.com/@igor-passchier-111147847/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-york-shambles-historic-street-33622985.jpg",
+    "takenAt": "2023-07-07T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 53.9591,
+      "lon": -1.0815
+    },
+    "place": {
+      "city": "York",
+      "country": "United Kingdom",
+      "display": "York, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/bustling-street-scene-in-york-s-historic-shambles-33622985/",
+      "photographer": "Oliver Schröder",
+      "photographerUrl": "https://www.pexels.com/@olivers/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-york-cobblestone-old-town-33554280.jpg",
+    "takenAt": "2023-07-07T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 53.9591,
+      "lon": -1.0815
+    },
+    "place": {
+      "city": "York",
+      "country": "United Kingdom",
+      "display": "York, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-cobblestone-street-in-york-city-center-33554280/",
+      "photographer": "Airam Dato-on",
+      "photographerUrl": "https://www.pexels.com/@airamdphoto/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-york-tudor-building-historic-35729116.jpg",
+    "takenAt": "2023-07-07T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 53.9591,
+      "lon": -1.0815
+    },
+    "place": {
+      "city": "York",
+      "country": "United Kingdom",
+      "display": "York, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-tudor-building-in-york-england-35729116/",
+      "photographer": "Igor Passchier",
+      "photographerUrl": "https://www.pexels.com/@igor-passchier-111147847/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
     }
   },
   {
@@ -4948,6 +5562,256 @@
       "url": "https://www.pexels.com/photo/30754172/",
       "photographer": "Jabez Cutamora",
       "photographerUrl": "https://www.pexels.com/@jabzee/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-oxford-radcliffe-camera-aerial-1796720.jpg",
+    "takenAt": "2023-07-09T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.752,
+      "lon": -1.2577
+    },
+    "place": {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "display": "Oxford, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/concrete-building-1796720/",
+      "photographer": "Chait Goli",
+      "photographerUrl": "https://www.pexels.com/@chaitaastic/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-oxford-bodleian-library-facade-16009515.jpg",
+    "takenAt": "2023-07-09T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.752,
+      "lon": -1.2577
+    },
+    "place": {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "display": "Oxford, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/oxford-university-u-k-august-5-2019-an-outside-shot-of-bodleian-library-at-oxford-university-on-a-sunny-day-with-partly-cloudy-skie-16009515/",
+      "photographer": "Shaun Iwasawa",
+      "photographerUrl": "https://www.pexels.com/@shaun-iwasawa-464780865/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-oxford-christ-church-college-10510959.jpg",
+    "takenAt": "2023-07-09T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.752,
+      "lon": -1.2577
+    },
+    "place": {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "display": "Oxford, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/christ-church-in-oxford-england-10510959/",
+      "photographer": "Anna Kozlova",
+      "photographerUrl": "https://www.pexels.com/@anna-kozlova-132622441/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-oxford-natural-history-museum-dusk-35620480.jpg",
+    "takenAt": "2023-07-09T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.752,
+      "lon": -1.2577
+    },
+    "place": {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "display": "Oxford, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/oxford-university-museum-of-natural-history-at-dusk-35620480/",
+      "photographer": "Peter Morch",
+      "photographerUrl": "https://www.pexels.com/@peter-morch-2157759396/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-oxford-gothic-architecture-35491214.jpg",
+    "takenAt": "2023-07-09T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.752,
+      "lon": -1.2577
+    },
+    "place": {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "display": "Oxford, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-gothic-architecture-in-oxford-uk-35491214/",
+      "photographer": "Peter Morch",
+      "photographerUrl": "https://www.pexels.com/@peter-morch-2157759396/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-bath-abbey-roman-baths-view-29184552.jpg",
+    "takenAt": "2023-07-10T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.3811,
+      "lon": -2.359
+    },
+    "place": {
+      "city": "Bath",
+      "country": "United Kingdom",
+      "display": "Bath, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-view-of-bath-abbey-and-roman-baths-29184552/",
+      "photographer": "Stephan Leuzinger",
+      "photographerUrl": "https://www.pexels.com/@stephan/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-bath-pulteney-bridge-river-avon-18222697.jpg",
+    "takenAt": "2023-07-10T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.3811,
+      "lon": -2.359
+    },
+    "place": {
+      "city": "Bath",
+      "country": "United Kingdom",
+      "display": "Bath, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/pulteney-bridge-in-bath-in-england-18222697/",
+      "photographer": "Eren Cebeci",
+      "photographerUrl": "https://www.pexels.com/@erencebeci/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-bath-abbey-somerset-28978507.jpg",
+    "takenAt": "2023-07-10T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.3811,
+      "lon": -2.359
+    },
+    "place": {
+      "city": "Bath",
+      "country": "United Kingdom",
+      "display": "Bath, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-bath-abbey-in-somerset-england-28978507/",
+      "photographer": "Sami Abdullah",
+      "photographerUrl": "https://www.pexels.com/@onbab/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-bath-roman-baths-abbey-gothic-13020675.jpg",
+    "takenAt": "2023-07-10T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.3811,
+      "lon": -2.359
+    },
+    "place": {
+      "city": "Bath",
+      "country": "United Kingdom",
+      "display": "Bath, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/people-visiting-gothic-cathedral-13020675/",
+      "photographer": "Marvin Sacdalan",
+      "photographerUrl": "https://www.pexels.com/@marvin-sacdalan-276316567/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2023-07-uk-tour/pexels-bath-abbey-roman-baths-sunlight-29184548.jpg",
+    "takenAt": "2023-07-10T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 51.3811,
+      "lon": -2.359
+    },
+    "place": {
+      "city": "Bath",
+      "country": "United Kingdom",
+      "display": "Bath, United Kingdom"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-bath-abbey-and-roman-baths-in-sunlight-29184548/",
+      "photographer": "Stephan Leuzinger",
+      "photographerUrl": "https://www.pexels.com/@stephan/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
@@ -5690,6 +6554,52 @@
       "photographerUrl": "https://www.pexels.com/@molnartamasphotography/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-puszta-csikos-horsemen-27037558.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Gyula",
+      "country": "Hungary",
+      "display": "Gyula, Hungary"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/hungarian-horsemen-traditional-blue-clothing-rural-27037558/",
+      "photographer": "Stokeron",
+      "photographerUrl": "https://www.pexels.com/@stokeron/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 46.6486,
+      "lon": 21.2828
+    }
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-hortobagy-haystacks-summer-19567427.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Gyula",
+      "country": "Hungary",
+      "display": "Gyula, Hungary"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/haystacks-hortobagy-hungary-countryside-19567427/",
+      "photographer": "Zsolt Erdelyi",
+      "photographerUrl": "https://www.pexels.com/@zsolt-erdelyi-852628585/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 46.6486,
+      "lon": 21.2828
     }
   },
   {
@@ -6690,6 +7600,282 @@
       "photographerUrl": "https://www.pexels.com/@ivan-drazic-20457695/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-oswiecim-auschwitz-entrance-warning-13081553.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Oświęcim",
+      "country": "Poland",
+      "display": "Oświęcim, Poland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/entrance-to-auschwitz-concentration-camp-13081553/",
+      "photographer": "Rene Terp",
+      "photographerUrl": "https://www.pexels.com/@reneterp/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 50.0344,
+      "lon": 19.2098
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-zakopane-tatra-wildflowers-9181193.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Zakopane",
+      "country": "Poland",
+      "display": "Zakopane, Poland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/tatra-mountains-with-wildflowers-9181193/",
+      "photographer": "Karol Zielinski",
+      "photographerUrl": "https://www.pexels.com/@karol-zielinski-92378908/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 49.2992,
+      "lon": 19.9496
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-murzasichle-morskie-oko-tatra-reflection-11029916.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Murzasichle",
+      "country": "Poland",
+      "display": "Murzasichle, Poland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/dramatic-tatra-mountains-morskie-oko-11029916/",
+      "photographer": "Maryia Plashchynskaya",
+      "photographerUrl": "https://www.pexels.com/@maryiaplashchynskaya/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 49.30832,
+      "lon": 20.0444
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-murzasichle-tatra-forest-snow-peaks-11029904.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Murzasichle",
+      "country": "Poland",
+      "display": "Murzasichle, Poland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/tatra-mountains-lush-forests-snowy-peaks-11029904/",
+      "photographer": "Maryia Plashchynskaya",
+      "photographerUrl": "https://www.pexels.com/@maryiaplashchynskaya/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 49.30832,
+      "lon": 20.0444
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzegi-tatra-village-fields-21837391.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Brzegi",
+      "country": "Poland",
+      "display": "Brzegi, Poland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/picturesque-village-houses-amidst-fields-mountains-poland-21837391/",
+      "photographer": "Valeriy Pelts",
+      "photographerUrl": "https://www.pexels.com/@valeriy-pelts-939887181/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 49.25113,
+      "lon": 20.09979
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzegi-bukowina-autumn-mountains-19550182.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Brzegi",
+      "country": "Poland",
+      "display": "Brzegi, Poland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/vibrant-autumn-foliage-bukowina-tatrzanska-19550182/",
+      "photographer": "Dariusz Staniszewski",
+      "photographerUrl": "https://www.pexels.com/@dariusz-staniszewski-1425290/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 49.25113,
+      "lon": 20.09979
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzezinka-auschwitz-birkenau-tracks-35743059.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Brzezinka",
+      "country": "Poland",
+      "display": "Brzezinka, Poland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/railroad-tracks-leading-to-auschwitz-birkenau-35743059/",
+      "photographer": "Lumina Voyager",
+      "photographerUrl": "https://www.pexels.com/@lumina-voyager-147015704/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 50.03452,
+      "lon": 19.18303
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzezinka-birkenau-wagon-watchtower-22816214.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Brzezinka",
+      "country": "Poland",
+      "display": "Brzezinka, Poland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/wooden-train-wagon-watchtowers-auschwitz-birkenau-22816214/",
+      "photographer": "Algrey",
+      "photographerUrl": "https://www.pexels.com/@algrey/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 50.03452,
+      "lon": 19.18303
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-spodek-arena-event-30696550.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Katowice",
+      "country": "Poland",
+      "display": "Katowice, Poland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/spodek-arena-katowice-esports-event-30696550/",
+      "photographer": "Filip Hajdoci",
+      "photographerUrl": "https://www.pexels.com/@filip-hajdoci-355268404/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 50.2601,
+      "lon": 19.02161
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-spodek-puddle-reflection-37144894.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Katowice",
+      "country": "Poland",
+      "display": "Katowice, Poland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/spodek-arena-katowice-puddle-reflection-37144894/",
+      "photographer": "Dawid Zawila",
+      "photographerUrl": "https://www.pexels.com/@dawid-zawila-2151273316/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 50.2601,
+      "lon": 19.02161
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-silesian-museum-mine-shaft-20685089.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Katowice",
+      "country": "Poland",
+      "display": "Katowice, Poland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/silesian-museum-historic-mine-shaft-tower-20685089/",
+      "photographer": "Bruno Krajski",
+      "photographerUrl": "https://www.pexels.com/@bruno-krajski-518872760/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 50.2601,
+      "lon": 19.02161
+    }
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-train-station-night-35358052.jpg",
+    "takenAt": "2025-04-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Katowice",
+      "country": "Poland",
+      "display": "Katowice, Poland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/moody-night-view-platform-katowice-train-station-35358052/",
+      "photographer": "Algrey",
+      "photographerUrl": "https://www.pexels.com/@algrey/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 50.2601,
+      "lon": 19.02161
     }
   },
   {
@@ -7773,6 +8959,351 @@
     }
   },
   {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-dachau-historic-brick-building-bw-32808850.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Dachau",
+      "country": "Germany",
+      "display": "Dachau, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/black-and-white-photo-of-a-historic-brick-building-in-dachau-bavaria-32808850/",
+      "photographer": "Nicola Ravi",
+      "photographerUrl": "https://www.pexels.com/@nicolaravi/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 48.25557,
+      "lon": 11.43862
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-landsberg-am-lech-winter-river-29673694.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Landsberg am Lech",
+      "country": "Germany",
+      "display": "Landsberg am Lech, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-landsberg-am-lech-in-winter-29673694/",
+      "photographer": "Sabine Freiberger",
+      "photographerUrl": "https://www.pexels.com/@sabine-freiberger-2147687567/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 48.05159,
+      "lon": 10.87511
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-landsberg-am-lech-colorful-houses-river-32834506.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Landsberg am Lech",
+      "country": "Germany",
+      "display": "Landsberg am Lech, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/colorful-bavarian-architecture-in-landsberg-am-lech-32834506/",
+      "photographer": "inkinterrupted",
+      "photographerUrl": "https://www.pexels.com/@inkinterrupted/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 48.05159,
+      "lon": 10.87511
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-fuessen-lech-river-alpine-20741181.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Landsberg am Lech",
+      "country": "Germany",
+      "display": "Landsberg am Lech, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/landscape-fuessen-germany-river-bridge-alpine-20741181/",
+      "photographer": "Wolfgang Weiser",
+      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 48.05159,
+      "lon": 10.87511
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-fuessen-lech-river-church-22618185.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Landsberg am Lech",
+      "country": "Germany",
+      "display": "Landsberg am Lech, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/town-view-fuessen-germany-historic-church-river-22618185/",
+      "photographer": "Wolfgang Weiser",
+      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 48.05159,
+      "lon": 10.87511
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-munich-karlstor-bavarian-gate-36277562.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Landsberg am Lech",
+      "country": "Germany",
+      "display": "Landsberg am Lech, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-karlstor-gate-munich-architectural-charm-36277562/",
+      "photographer": "Memory Lane",
+      "photographerUrl": "https://www.pexels.com/@memory-lane-2157293172/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 48.05159,
+      "lon": 10.87511
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-hercules-monument-27579628.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Kassel",
+      "country": "Germany",
+      "display": "Kassel, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/iconic-hercules-monument-bergpark-wilhelmshohe-kassel-27579628/",
+      "photographer": "Kemal Berkay Doğan",
+      "photographerUrl": "https://www.pexels.com/@kemal-berkay-dogan/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 51.31407,
+      "lon": 9.4883
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-bergpark-wilhelmshoehe-27579632.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Kassel",
+      "country": "Germany",
+      "display": "Kassel, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/beautiful-bergpark-wilhelmshohe-in-kassel-a-unesco-world-heritage-site-27579632/",
+      "photographer": "Kemal Berkay Doğan",
+      "photographerUrl": "https://www.pexels.com/@kemal-berkay-dogan/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 51.31407,
+      "lon": 9.4883
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-wilhelmshoehe-palace-cityscape-27579634.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Kassel",
+      "country": "Germany",
+      "display": "Kassel, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/captivating-view-of-wilhelmshohe-palace-with-kassel-cityscape-27579634/",
+      "photographer": "Kemal Berkay Doğan",
+      "photographerUrl": "https://www.pexels.com/@kemal-berkay-dogan/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 51.31407,
+      "lon": 9.4883
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kassel-bergpark-panorama-33593210.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Kassel",
+      "country": "Germany",
+      "display": "Kassel, Germany"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/panoramic-view-from-bergpark-wilhelmshohe-overlooking-kassel-33593210/",
+      "photographer": "arlindphotography",
+      "photographerUrl": "https://www.pexels.com/@arlindphotography/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 51.31407,
+      "lon": 9.4883
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-budapest-parliament-illuminated-36556205.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Budapest",
+      "country": "Hungary",
+      "display": "Budapest, Hungary"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/illuminated-hungarian-parliament-building-at-night-36556205/",
+      "photographer": "Balazs Nemes",
+      "photographerUrl": "https://www.pexels.com/@balazs-nemes-36556205/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 47.4979,
+      "lon": 19.0402
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-puszta-cattle-grazing-27024356.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Kecskemét",
+      "country": "Hungary",
+      "display": "Kecskemét, Hungary"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/cattle-with-horns-grazing-sunlit-rural-pasture-27024356/",
+      "photographer": "Stokeron",
+      "photographerUrl": "https://www.pexels.com/@stokeron/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 46.90705,
+      "lon": 19.68729
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-puszta-donkeys-pond-27024359.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Kecskemét",
+      "country": "Hungary",
+      "display": "Kecskemét, Hungary"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/donkeys-grazing-rural-farm-landscape-27024359/",
+      "photographer": "Stokeron",
+      "photographerUrl": "https://www.pexels.com/@stokeron/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 46.90705,
+      "lon": 19.68729
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-great-plain-aerial-fields-13456593.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Kecskemét",
+      "country": "Hungary",
+      "display": "Kecskemét, Hungary"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-green-fields-farmland-13456593/",
+      "photographer": "Barnabas Davoti",
+      "photographerUrl": "https://www.pexels.com/@barnabas-davoti-31615494/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 46.90705,
+      "lon": 19.68729
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-hungarian-grey-pair-5840898.jpg",
+    "takenAt": "2026-03-15T12:00:00Z",
+    "hasGps": false,
+    "place": {
+      "city": "Kecskemét",
+      "country": "Hungary",
+      "display": "Kecskemét, Hungary"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/two-hungarian-grey-cattle-green-pasture-5840898/",
+      "photographer": "Karola G",
+      "photographerUrl": "https://www.pexels.com/@karola-g/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 46.90705,
+      "lon": 19.68729
+    }
+  },
+  {
     "src": "trips/2026-03-balkans-roadtrip/IMG20260315125427.jpg",
     "takenAt": "2026-03-15T12:54:27Z",
     "hasGps": true,
@@ -8629,506 +10160,6 @@
       "city": "Kassel",
       "country": "Germany",
       "display": "Kassel, Germany"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-edinburgh-castle-rock-fortress-28086723.jpg",
-    "takenAt": "2023-07-06T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.9533,
-      "lon": -3.1883
-    },
-    "place": {
-      "city": "Edinburgh",
-      "country": "United Kingdom",
-      "display": "Edinburgh, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/edinburgh-castle-28086723/",
-      "photographer": "Mario Spencer",
-      "photographerUrl": "https://www.pexels.com/@spencphoto/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-edinburgh-calton-hill-historic-view-29080624.jpg",
-    "takenAt": "2023-07-06T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.9533,
-      "lon": -3.1883
-    },
-    "place": {
-      "city": "Edinburgh",
-      "country": "United Kingdom",
-      "display": "Edinburgh, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-calton-hill-view-of-edinburgh-29080624/",
-      "photographer": "Clément Proust",
-      "photographerUrl": "https://www.pexels.com/@clement-proust-363898785/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-edinburgh-calton-hill-monument-sunset-36943996.jpg",
-    "takenAt": "2023-07-06T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.9533,
-      "lon": -3.1883
-    },
-    "place": {
-      "city": "Edinburgh",
-      "country": "United Kingdom",
-      "display": "Edinburgh, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/sunset-view-of-edinburgh-with-calton-hill-monument-36943996/",
-      "photographer": "Andrea Gambirasio",
-      "photographerUrl": "https://www.pexels.com/@andrea-gambirasio-2152990668/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-edinburgh-royal-mile-old-town-37091097.jpg",
-    "takenAt": "2023-07-06T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.9533,
-      "lon": -3.1883
-    },
-    "place": {
-      "city": "Edinburgh",
-      "country": "United Kingdom",
-      "display": "Edinburgh, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/crowded-edinburgh-street-with-historic-architecture-37091097/",
-      "photographer": "Oleksiy Konstantinidi",
-      "photographerUrl": "https://www.pexels.com/@oleksiy-konstantinidi-2147541276/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-edinburgh-holyrood-palace-architecture-32800590.jpg",
-    "takenAt": "2023-07-06T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.9533,
-      "lon": -3.1883
-    },
-    "place": {
-      "city": "Edinburgh",
-      "country": "United Kingdom",
-      "display": "Edinburgh, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-architecture-at-holyrood-palace-32800590/",
-      "photographer": "Leon Hellegers",
-      "photographerUrl": "https://www.pexels.com/@leonhellegers/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-york-minster-gothic-cathedral-18381495.jpg",
-    "takenAt": "2023-07-07T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 53.9591,
-      "lon": -1.0815
-    },
-    "place": {
-      "city": "York",
-      "country": "United Kingdom",
-      "display": "York, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/old-gothic-cathedral-against-blue-sky-18381495/",
-      "photographer": "Jordi De Roeck",
-      "photographerUrl": "https://www.pexels.com/@jordi-de-roeck-335496790/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-york-minster-cathedral-view-35729114.jpg",
-    "takenAt": "2023-07-07T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 53.9591,
-      "lon": -1.0815
-    },
-    "place": {
-      "city": "York",
-      "country": "United Kingdom",
-      "display": "York, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/stunning-view-of-york-minster-cathedral-35729114/",
-      "photographer": "Igor Passchier",
-      "photographerUrl": "https://www.pexels.com/@igor-passchier-111147847/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-york-shambles-historic-street-33622985.jpg",
-    "takenAt": "2023-07-07T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 53.9591,
-      "lon": -1.0815
-    },
-    "place": {
-      "city": "York",
-      "country": "United Kingdom",
-      "display": "York, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/bustling-street-scene-in-york-s-historic-shambles-33622985/",
-      "photographer": "Oliver Schröder",
-      "photographerUrl": "https://www.pexels.com/@olivers/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-york-cobblestone-old-town-33554280.jpg",
-    "takenAt": "2023-07-07T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 53.9591,
-      "lon": -1.0815
-    },
-    "place": {
-      "city": "York",
-      "country": "United Kingdom",
-      "display": "York, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-cobblestone-street-in-york-city-center-33554280/",
-      "photographer": "Airam Dato-on",
-      "photographerUrl": "https://www.pexels.com/@airamdphoto/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-york-tudor-building-historic-35729116.jpg",
-    "takenAt": "2023-07-07T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 53.9591,
-      "lon": -1.0815
-    },
-    "place": {
-      "city": "York",
-      "country": "United Kingdom",
-      "display": "York, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-tudor-building-in-york-england-35729116/",
-      "photographer": "Igor Passchier",
-      "photographerUrl": "https://www.pexels.com/@igor-passchier-111147847/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-oxford-radcliffe-camera-aerial-1796720.jpg",
-    "takenAt": "2023-07-09T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.752,
-      "lon": -1.2577
-    },
-    "place": {
-      "city": "Oxford",
-      "country": "United Kingdom",
-      "display": "Oxford, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/concrete-building-1796720/",
-      "photographer": "Chait Goli",
-      "photographerUrl": "https://www.pexels.com/@chaitaastic/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-oxford-bodleian-library-facade-16009515.jpg",
-    "takenAt": "2023-07-09T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.752,
-      "lon": -1.2577
-    },
-    "place": {
-      "city": "Oxford",
-      "country": "United Kingdom",
-      "display": "Oxford, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/oxford-university-u-k-august-5-2019-an-outside-shot-of-bodleian-library-at-oxford-university-on-a-sunny-day-with-partly-cloudy-skie-16009515/",
-      "photographer": "Shaun Iwasawa",
-      "photographerUrl": "https://www.pexels.com/@shaun-iwasawa-464780865/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-oxford-christ-church-college-10510959.jpg",
-    "takenAt": "2023-07-09T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.752,
-      "lon": -1.2577
-    },
-    "place": {
-      "city": "Oxford",
-      "country": "United Kingdom",
-      "display": "Oxford, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/christ-church-in-oxford-england-10510959/",
-      "photographer": "Anna Kozlova",
-      "photographerUrl": "https://www.pexels.com/@anna-kozlova-132622441/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-oxford-natural-history-museum-dusk-35620480.jpg",
-    "takenAt": "2023-07-09T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.752,
-      "lon": -1.2577
-    },
-    "place": {
-      "city": "Oxford",
-      "country": "United Kingdom",
-      "display": "Oxford, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/oxford-university-museum-of-natural-history-at-dusk-35620480/",
-      "photographer": "Peter Morch",
-      "photographerUrl": "https://www.pexels.com/@peter-morch-2157759396/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-oxford-gothic-architecture-35491214.jpg",
-    "takenAt": "2023-07-09T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.752,
-      "lon": -1.2577
-    },
-    "place": {
-      "city": "Oxford",
-      "country": "United Kingdom",
-      "display": "Oxford, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-gothic-architecture-in-oxford-uk-35491214/",
-      "photographer": "Peter Morch",
-      "photographerUrl": "https://www.pexels.com/@peter-morch-2157759396/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-bath-abbey-roman-baths-view-29184552.jpg",
-    "takenAt": "2023-07-10T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.3811,
-      "lon": -2.359
-    },
-    "place": {
-      "city": "Bath",
-      "country": "United Kingdom",
-      "display": "Bath, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/stunning-view-of-bath-abbey-and-roman-baths-29184552/",
-      "photographer": "Stephan Leuzinger",
-      "photographerUrl": "https://www.pexels.com/@stephan/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-bath-pulteney-bridge-river-avon-18222697.jpg",
-    "takenAt": "2023-07-10T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.3811,
-      "lon": -2.359
-    },
-    "place": {
-      "city": "Bath",
-      "country": "United Kingdom",
-      "display": "Bath, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/pulteney-bridge-in-bath-in-england-18222697/",
-      "photographer": "Eren Cebeci",
-      "photographerUrl": "https://www.pexels.com/@erencebeci/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-bath-abbey-somerset-28978507.jpg",
-    "takenAt": "2023-07-10T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.3811,
-      "lon": -2.359
-    },
-    "place": {
-      "city": "Bath",
-      "country": "United Kingdom",
-      "display": "Bath, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-bath-abbey-in-somerset-england-28978507/",
-      "photographer": "Sami Abdullah",
-      "photographerUrl": "https://www.pexels.com/@onbab/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-bath-roman-baths-abbey-gothic-13020675.jpg",
-    "takenAt": "2023-07-10T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.3811,
-      "lon": -2.359
-    },
-    "place": {
-      "city": "Bath",
-      "country": "United Kingdom",
-      "display": "Bath, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/people-visiting-gothic-cathedral-13020675/",
-      "photographer": "Marvin Sacdalan",
-      "photographerUrl": "https://www.pexels.com/@marvin-sacdalan-276316567/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2023-07-uk-tour/pexels-bath-abbey-roman-baths-sunlight-29184548.jpg",
-    "takenAt": "2023-07-10T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 51.3811,
-      "lon": -2.359
-    },
-    "place": {
-      "city": "Bath",
-      "country": "United Kingdom",
-      "display": "Bath, United Kingdom"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/historic-bath-abbey-and-roman-baths-in-sunlight-29184548/",
-      "photographer": "Stephan Leuzinger",
-      "photographerUrl": "https://www.pexels.com/@stephan/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
     }
   }
 ]
