@@ -118,8 +118,14 @@ export function GithubFeed({
       </p>
 
       <ul className={`grid gap-px bg-border/60 ${responsiveGridColsClass(filtered.length, 3)} rounded-lg overflow-hidden`}>
-        {filtered.map((r) => (
-          <li key={r.id} className="bg-background">
+        {filtered.map((r, idx) => {
+          const isLast = idx === filtered.length - 1;
+          const lastRowLg = filtered.length % 3;
+          const lastRowSm = filtered.length % 2;
+          const lgSpan = isLast && lastRowLg !== 0 ? ` lg:col-span-${4 - lastRowLg}` : "";
+          const smSpan = isLast && lastRowSm === 1 ? " sm:col-span-2" : "";
+          return (
+          <li key={r.id} className={`bg-background${smSpan}${lgSpan}`}>
             <a
               href={r.html_url}
               target="_blank"
@@ -155,7 +161,8 @@ export function GithubFeed({
               </div>
             </a>
           </li>
-        ))}
+          );
+        })}
       </ul>
 
       {filtered.length === 0 && (

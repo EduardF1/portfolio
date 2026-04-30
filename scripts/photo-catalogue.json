@@ -327,7 +327,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-horsens-aerial-summer-13519728.jpg",
-    "takenAt": "2020-02-19T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Horsens",
@@ -351,7 +351,7 @@
   },
   {
     "src": "trips/2022-08-romania/pexels-brasov-cobblestone-street-36957142.jpg",
-    "takenAt": "2023-08-25T10:03:37Z",
+    "takenAt": "2022-08-07T17:52:09.000Z",
     "hasGps": true,
     "place": {
       "city": "Brașov",
@@ -375,7 +375,7 @@
   },
   {
     "src": "trips/2022-08-romania/pexels-brasov-mountain-panorama-9315381.jpg",
-    "takenAt": "2023-08-25T10:03:37Z",
+    "takenAt": "2022-08-07T18:52:09.000Z",
     "hasGps": true,
     "place": {
       "city": "Brașov",
@@ -519,7 +519,7 @@
   },
   {
     "src": "trips/2022-12-romania/pexels-bucharest-arcul-de-triumf-night-31829727.jpg",
-    "takenAt": "2025-03-29T12:00:00Z",
+    "takenAt": "2022-12-25T21:18:37.000Z",
     "hasGps": true,
     "place": {
       "city": "Bucharest",
@@ -543,7 +543,7 @@
   },
   {
     "src": "trips/2022-12-romania/pexels-bucharest-military-circle-corner-16715136.jpg",
-    "takenAt": "2025-03-29T12:00:00Z",
+    "takenAt": "2022-12-25T22:18:37.000Z",
     "hasGps": true,
     "place": {
       "city": "Bucharest",
@@ -567,7 +567,7 @@
   },
   {
     "src": "trips/2022-12-romania/pexels-bucharest-quiet-street-28898464.jpg",
-    "takenAt": "2025-03-29T12:00:00Z",
+    "takenAt": "2022-12-25T23:18:37.000Z",
     "hasGps": true,
     "place": {
       "city": "Bucharest",
@@ -591,7 +591,7 @@
   },
   {
     "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-greek-coastline-11898125.jpg",
-    "takenAt": "2023-07-15T12:00:00Z",
+    "takenAt": "2023-07-06T19:08:38.000Z",
     "hasGps": true,
     "place": {
       "city": "Nea Fokea",
@@ -615,7 +615,7 @@
   },
   {
     "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-kalamitsi-beach-32185350.jpg",
-    "takenAt": "2023-07-15T12:00:00Z",
+    "takenAt": "2023-07-06T20:08:38.000Z",
     "hasGps": true,
     "place": {
       "city": "Nea Fokea",
@@ -639,7 +639,7 @@
   },
   {
     "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-mount-athos-view-18407697.jpg",
-    "takenAt": "2023-07-15T12:00:00Z",
+    "takenAt": "2023-07-06T21:08:38.000Z",
     "hasGps": true,
     "place": {
       "city": "Nea Fokea",
@@ -663,7 +663,7 @@
   },
   {
     "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-sithonia-coast-aerial-32996880.jpg",
-    "takenAt": "2023-07-15T12:00:00Z",
+    "takenAt": "2023-07-06T19:08:38.000Z",
     "hasGps": true,
     "place": {
       "city": "Nea Fokea",
@@ -711,7 +711,7 @@
   },
   {
     "src": "trips/2023-08-romania/pexels-brasov-black-church-snow-35380540.jpg",
-    "takenAt": "2023-08-25T10:03:37Z",
+    "takenAt": "2023-08-28T21:13:59.000Z",
     "hasGps": true,
     "place": {
       "city": "Brașov",
@@ -735,7 +735,7 @@
   },
   {
     "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-autumn-18703684.jpg",
-    "takenAt": "2023-08-25T10:03:37Z",
+    "takenAt": "2023-08-28T22:13:59.000Z",
     "hasGps": true,
     "gps": {
       "lat": 45.3552,
@@ -761,7 +761,7 @@
   },
   {
     "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-summer-5651718.jpg",
-    "takenAt": "2023-08-25T10:03:37Z",
+    "takenAt": "2023-08-28T20:13:59.000Z",
     "hasGps": true,
     "gps": {
       "lat": 45.3552,
@@ -4627,7 +4627,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-aalborg-waterfront-29570476.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -4651,7 +4651,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-aalborg-cityscape-31280146.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -4675,7 +4675,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-aalborg-street-19106332.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -4699,7 +4699,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-aalborg-landmark-31280145.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -4723,7 +4723,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-lemvig-coastal-34534209.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -4747,7 +4747,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-lemvig-fjord-34534208.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -4771,7 +4771,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-lemvig-cityscape-34534210.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -4795,7 +4795,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-lemvig-view-34534207.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -4819,7 +4819,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-lemvig-landscape-34634209.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5043,7 +5043,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-skagen-dunes-church-12323479.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5069,7 +5069,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-skagen-lighthouse-sunset-26600775.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5095,7 +5095,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hirtshals-lighthouse-flag-33830439.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5121,7 +5121,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hirtshals-lighthouse-grass-8297881.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5147,7 +5147,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hirtshals-lighthouse-dramatic-sky-29474953.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5173,7 +5173,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hirtshals-north-sea-dunes-29475120.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5199,7 +5199,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-skagen-lighthouse-spring-34458165.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5225,7 +5225,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-skagen-sand-dunes-33843477.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5251,7 +5251,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-skagen-coastline-lighthouse-34551617.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5277,7 +5277,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hirtshals-coastal-houses-5481581.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5303,7 +5303,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-billund-windmill-greenery-37313591.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5327,7 +5327,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-horsens-aerial-view-of-horsens-denmark-showcasing-urban-ar-13519043.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5352,7 +5352,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-horsens-explore-the-urban-landscape-of-horsens-denmark-fro-13274625.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -5377,7 +5377,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-horsens-aerial-view-of-the-picturesque-residential-area-in-13519731.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -7307,7 +7307,7 @@
   },
   {
     "src": "trips/2023-08-romania/pexels-brasov-black-church-aerial-dusk-35410900.jpg",
-    "takenAt": "2023-08-25T10:03:37Z",
+    "takenAt": "2023-08-28T20:13:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -7333,7 +7333,7 @@
   },
   {
     "src": "trips/2023-08-romania/pexels-brasov-historic-square-clock-tower-34069343.jpg",
-    "takenAt": "2023-08-25T10:03:37Z",
+    "takenAt": "2023-08-28T21:13:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -7359,7 +7359,7 @@
   },
   {
     "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-blue-sky-34976551.jpg",
-    "takenAt": "2023-08-25T10:03:37Z",
+    "takenAt": "2023-08-28T22:13:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -7385,7 +7385,7 @@
   },
   {
     "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-aerial-17853897.jpg",
-    "takenAt": "2023-08-25T10:03:37Z",
+    "takenAt": "2023-08-28T20:13:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -7411,7 +7411,7 @@
   },
   {
     "src": "trips/2023-08-romania/pexels-brasov-black-church-summer-17713520.jpg",
-    "takenAt": "2023-08-25T10:03:37Z",
+    "takenAt": "2023-08-28T21:13:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -7484,7 +7484,7 @@
   },
   {
     "src": "trips/2023-08-romania/pexels-busteni-bucegi-mountain-panorama-19755730.jpg",
-    "takenAt": "2023-08-25T12:00:00Z",
+    "takenAt": "2023-08-28T22:13:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -10783,7 +10783,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-oswiecim-auschwitz-birkenau-entrance-17501715.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -10809,7 +10809,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-zakopane-tatra-hiking-trail-31123160.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -10835,7 +10835,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-zakopane-tatra-pink-sunrise-32906966.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -10861,7 +10861,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-prague-castle-autumn-29542814.jpg",
-    "takenAt": "2025-04-24T20:30:44Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -10887,7 +10887,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-prague-castle-evening-18682115.jpg",
-    "takenAt": "2025-04-24T20:30:44Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -10913,7 +10913,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-prague-castle-vltava-33768098.jpg",
-    "takenAt": "2025-04-24T20:30:44Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -10939,7 +10939,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brno-spilberk-castle-twilight-29536421.jpg",
-    "takenAt": "2025-04-24T20:30:44Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -10965,7 +10965,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brno-saint-peter-paul-cathedral-37294826.jpg",
-    "takenAt": "2025-04-24T20:30:44Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -10991,7 +10991,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brno-namesti-svobody-square-15411756.jpg",
-    "takenAt": "2025-04-24T20:30:44Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11017,7 +11017,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-banska-bystrica-grassy-field-33798106.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11042,7 +11042,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-bratislava-slovak-radio-building-inverted-pyramid-9404482.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11067,7 +11067,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-bratislava-ufo-bridge-cityscape-sunset-31715853.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11092,7 +11092,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzegi-bukowina-autumn-mountains-19550182.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11117,7 +11117,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzegi-tatra-village-fields-21837391.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11142,7 +11142,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzezinka-auschwitz-birkenau-tracks-35743059.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11167,7 +11167,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-brzezinka-birkenau-wagon-watchtower-22816214.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11192,7 +11192,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-silesian-museum-mine-shaft-20685089.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11217,7 +11217,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-spodek-arena-event-30696550.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11242,7 +11242,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-spodek-puddle-reflection-37144894.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11267,7 +11267,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-katowice-train-station-night-35358052.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11292,7 +11292,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-murzasichle-morskie-oko-tatra-reflection-11029916.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11317,7 +11317,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-murzasichle-tatra-forest-snow-peaks-11029904.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11342,7 +11342,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-velky-lipnik-aerial-village-28121309.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11367,7 +11367,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-velky-lipnik-hills-village-28121371.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11392,7 +11392,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-oswiecim-auschwitz-entrance-warning-13081553.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11417,7 +11417,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-autumn-37100593.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11442,7 +11442,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-rocky-peaks-36781462.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11467,7 +11467,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-valley-view-33239879.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11492,7 +11492,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-mountain-valley-summer-30829433.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11517,7 +11517,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-mountains-with-lakes-30829431.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11542,7 +11542,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-snow-capped-peaks-35012695.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11567,7 +11567,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-zakopane-tatra-wildflowers-9181193.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11592,7 +11592,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-oswiecim-auschwitz-concentration-camp-14657528.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11616,7 +11616,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-oswiecim-auschwitz-prison-buildings-3743974.jpg",
-    "takenAt": "2025-04-15T12:00:00Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11640,7 +11640,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-prague-charles-bridge-18255192.jpg",
-    "takenAt": "2025-04-24T20:30:44Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11664,7 +11664,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-prague-charles-bridge-vltava-view-16945287.jpg",
-    "takenAt": "2025-04-24T20:30:44Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -11753,7 +11753,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-banska-bystrica-tatra-autumn-backdrop-34422122.jpg",
-    "takenAt": "2025-04-16T14:00:00Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -12027,7 +12027,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-zdiar-traditional-village-34804822.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -12053,7 +12053,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-spisska-magura-aerial-32275767.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -12079,7 +12079,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-tatra-wooden-houses-1311445.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -12105,7 +12105,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-tatra-traditional-houses-fields-2888958.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -12179,7 +12179,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-strbske-pleso-clear-day-7512295.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -12205,7 +12205,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-lomnicky-stit-winter-view-31007188.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -12231,7 +12231,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-strbske-pleso-autumn-reflection-28926069.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -12257,7 +12257,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-vysoke-tatry-snow-peaks-moon-34631503.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -12363,7 +12363,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-mist-peaks-34833541.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -12389,7 +12389,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-rocky-ridge-31060827.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -12415,7 +12415,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-rocky-blue-sky-31551346.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -12441,7 +12441,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-tatranska-javorina-tatra-trail-autumn-28966350.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T14:55:59.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -13482,7 +13482,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-budapest-parliament-night-15381620.jpg",
-    "takenAt": "2026-03-14T18:00:00Z",
+    "takenAt": "2026-03-25T22:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -13508,7 +13508,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-budapest-chain-bridge-buda-castle-36849758.jpg",
-    "takenAt": "2026-03-14T18:00:00Z",
+    "takenAt": "2026-03-25T23:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -13534,7 +13534,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-budapest-fishermans-bastion-sunset-37243201.jpg",
-    "takenAt": "2026-03-14T18:00:00Z",
+    "takenAt": "2026-03-25T21:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -13635,7 +13635,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-budapest-parliament-illuminated-36556205.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
+    "takenAt": "2026-03-25T22:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -13660,7 +13660,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-romanian-church-flowers-10882222.jpg",
-    "takenAt": "2026-03-15T12:00:00Z",
+    "takenAt": "2026-03-25T23:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -13926,7 +13926,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-sambata-monastery-garden-17953083.jpg",
-    "takenAt": "2026-03-16T13:00:00Z",
+    "takenAt": "2026-03-25T21:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -13952,7 +13952,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-olt-river-mountains-aerial-13304359.jpg",
-    "takenAt": "2026-03-16T13:00:00Z",
+    "takenAt": "2026-03-25T22:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -14140,7 +14140,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-budapest-parliament-35068815.jpg",
-    "takenAt": "2026-03-15T12:49:27Z",
+    "takenAt": "2026-03-25T23:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -14164,7 +14164,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-church-lake-13859713.jpg",
-    "takenAt": "2026-03-16T13:25:55Z",
+    "takenAt": "2026-03-25T21:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -14188,7 +14188,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-calimanesti-romania-mountain-13427384.jpg",
-    "takenAt": "2026-03-16T13:25:55Z",
+    "takenAt": "2026-03-25T22:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -14260,7 +14260,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-bratislava-explore-the-majestic-bratislava-castle-a-landmark--21625688.jpg",
-    "takenAt": "2026-03-14T15:30:23Z",
+    "takenAt": "2026-03-25T23:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -14285,7 +14285,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-bratislava-view-of-the-historic-bratislava-castle-covered-in--23092971.jpg",
-    "takenAt": "2026-03-14T15:30:23Z",
+    "takenAt": "2026-03-25T21:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -14310,7 +14310,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-bratislava-a-breathtaking-view-of-bratislava-castle-with-its--12148649.jpg",
-    "takenAt": "2026-03-14T15:30:23Z",
+    "takenAt": "2026-03-25T22:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -14335,7 +14335,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-bratislava-scenic-view-of-bratislava-castle-under-a-clear-blu-37082232.jpg",
-    "takenAt": "2026-03-14T15:30:23Z",
+    "takenAt": "2026-03-25T23:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -14360,7 +14360,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-prague-black-and-white-view-of-charles-bridge-in-prague-o-10721803.jpg",
-    "takenAt": "2026-03-13T22:10:23Z",
+    "takenAt": "2026-03-25T21:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -14385,7 +14385,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-prague-beautiful-sunset-over-charles-bridge-and-vltava-ri-33163653.jpg",
-    "takenAt": "2026-03-13T22:10:23Z",
+    "takenAt": "2026-03-25T22:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -14410,7 +14410,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-prague-view-of-the-historic-charles-bridge-spanning-the-v-15673562.jpg",
-    "takenAt": "2026-03-13T22:10:23Z",
+    "takenAt": "2026-03-25T23:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -15346,7 +15346,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-prague-aerial-view-of-old-town-square-in-prague-31566142.jpg",
-    "takenAt": "2026-03-13T22:10:23Z",
+    "takenAt": "2026-03-25T21:46:13.000Z",
     "hasGps": true,
     "cameraModel": "Pexels stock",
     "gps": {
@@ -16091,7 +16091,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-viborg-charming-white-chapel-with-a-red-window-in-viborg--27156169.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Viborg",
@@ -16115,7 +16115,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-viborg-beautiful-view-of-the-twin-towers-of-pecs-cathedra-1322067.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Viborg",
@@ -16139,7 +16139,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-viborg-close-up-of-the-historic-grossmunster-twin-towers--35589867.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Viborg",
@@ -16163,7 +16163,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-viborg-front-view-of-a-historic-church-in-warburg-germany-30395412.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Viborg",
@@ -16187,7 +16187,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-viborg-a-picturesque-view-of-marienmunster-abbey-in-nordr-30624132.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Viborg",
@@ -16571,7 +16571,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-herning-aerial-view-of-herning-denmark-showcasing-urban-ar-13762300.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Herning",
@@ -16595,7 +16595,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-herning-vintage-green-locomotive-displayed-outside-a-railw-35189184.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Herning",
@@ -16619,7 +16619,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-herning-a-vibrant-blue-fishing-boat-moored-at-helsingor-ha-5334300.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Herning",
@@ -16643,7 +16643,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-herning-heart-shaped-light-decorations-illuminate-the-stre-36377732.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Herning",
@@ -16667,7 +16667,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-herning-a-vibrant-view-of-the-medizin-historisches-museum--29899050.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Herning",
@@ -16691,7 +16691,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-holstebro-a-peaceful-stroll-by-the-sea-with-sculptures-and-l-25473965.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Holstebro",
@@ -16715,7 +16715,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-holstebro-scenic-cobblestone-street-in-tondern-denmark-at-ni-29614201.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Holstebro",
@@ -16739,7 +16739,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-holstebro-black-and-white-photo-of-a-traditional-danish-hous-29719925.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Holstebro",
@@ -16763,7 +16763,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-holstebro-long-yellow-facade-with-windows-and-a-dark-wooden--16112614.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Holstebro",
@@ -16787,7 +16787,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-holstebro-explore-the-quaint-architecture-and-charming-cobbl-27425247.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Holstebro",
@@ -16811,7 +16811,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-skive-peaceful-cobblestone-street-in-sonderborg-denmark--19755266.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Skive",
@@ -16835,7 +16835,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-skive-street-view-of-charming-yellow-houses-with-tiled-r-32779546.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Skive",
@@ -16859,7 +16859,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-skive-quaint-cobblestone-street-flanked-by-historic-buil-18587007.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Skive",
@@ -16883,7 +16883,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-skive-discover-sonderborg-s-picturesque-harbor-with-sail-7019958.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Skive",
@@ -16907,7 +16907,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-skive-elegant-white-town-hall-building-with-flags-on-dis-1405500.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Skive",
@@ -16931,7 +16931,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hobro-serene-coastal-landscape-of-snaptun-denmark-with-r-34617781.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Hobro",
@@ -16955,7 +16955,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hobro-tranquil-beach-in-denmark-overlooking-a-serene-fjo-32156521.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Hobro",
@@ -16979,7 +16979,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hobro-a-picturesque-winter-view-of-sonderborg-s-colorful-36214779.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Hobro",
@@ -17003,7 +17003,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hobro-peaceful-sunset-view-of-a-wooden-pier-over-calm-wa-19173393.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Hobro",
@@ -17027,7 +17027,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hobro-tranquil-coastal-path-along-a-serene-lake-in-sonde-35079604.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Hobro",
@@ -17051,7 +17051,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hvide-sande-idyllic-scene-of-fishing-boats-moored-in-hvide-san-34739817.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Hvide Sande",
@@ -17075,7 +17075,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hvide-sande-idyllic-beach-scene-with-wind-turbines-in-hvide-sa-35219186.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Hvide Sande",
@@ -17099,7 +17099,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hvide-sande-a-vibrant-red-and-white-fishing-ship-docked-at-hvi-34526002.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Hvide Sande",
@@ -17123,7 +17123,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hvide-sande-aerial-view-of-the-sandy-hvide-sande-beach-with-wa-15914141.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Hvide Sande",
@@ -17147,7 +17147,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-hvide-sande-enjoy-a-peaceful-coastal-view-at-hvide-sande-denma-36096855.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Hvide Sande",
@@ -17171,7 +17171,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-thorsminde-serene-view-of-fishing-boats-on-the-sandy-coast-of-34770961.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Thorsminde",
@@ -17195,7 +17195,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-thorsminde-a-serene-view-of-traditional-coastal-huts-in-thist-34770962.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Thorsminde",
@@ -17219,7 +17219,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-thorsminde-fishing-boats-resting-on-sandy-thisted-beach-at-su-34770966.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Thorsminde",
@@ -17243,7 +17243,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-thorsminde-fishing-boats-anchored-on-the-sandy-shores-of-this-34770959.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Thorsminde",
@@ -17267,7 +17267,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-thorsminde-three-fishing-boats-on-a-sandy-danish-beach-under--32755608.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Thorsminde",
@@ -17291,7 +17291,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-brande-scenic-view-of-lush-green-hills-and-coastline-on-s-18134307.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Brande",
@@ -17315,7 +17315,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-brande-explore-the-tranquil-coastal-dunes-and-natural-wat-31480134.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Brande",
@@ -17339,7 +17339,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-brande-explore-the-serene-beauty-of-a-wwii-bunker-at-hans-27460822.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Brande",
@@ -17363,7 +17363,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-brande-warm-evening-view-of-brondums-hotel-with-lights-an-13828803.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T12:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Brande",
@@ -17387,7 +17387,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-brande-coastal-fishing-boats-on-thisted-beach-during-a-be-34770965.jpg",
-    "takenAt": "2022-08-15T12:00:00Z",
+    "takenAt": "2022-08-27T13:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Brande",
@@ -18059,7 +18059,7 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-aalborg-modern-architectural-playground-structure-by-the-l-2326027.jpg",
-    "takenAt": "2022-08-10T18:35:09Z",
+    "takenAt": "2022-08-27T14:26:03.000Z",
     "hasGps": true,
     "place": {
       "city": "Aalborg",
@@ -19115,7 +19115,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-night-view-of-a-beautifully-lit-art-nouveau-buildi-6562359.jpg",
-    "takenAt": "2026-03-15T12:54:27Z",
+    "takenAt": "2026-03-25T21:46:13.000Z",
     "hasGps": true,
     "place": {
       "city": "Kecskemét",
@@ -19139,7 +19139,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-low-angle-view-of-the-iconic-parizsi-nagyaruhaz-bu-7513470.jpg",
-    "takenAt": "2026-03-15T12:54:27Z",
+    "takenAt": "2026-03-25T22:46:13.000Z",
     "hasGps": true,
     "place": {
       "city": "Kecskemét",
@@ -19163,7 +19163,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-close-up-of-an-ornate-art-nouveau-building-facade--31686375.jpg",
-    "takenAt": "2026-03-15T12:54:27Z",
+    "takenAt": "2026-03-25T23:46:13.000Z",
     "hasGps": true,
     "place": {
       "city": "Kecskemét",
@@ -19187,7 +19187,7 @@
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-beautiful-day-view-of-the-historic-gy-r-city-hall--28101442.jpg",
-    "takenAt": "2026-03-15T12:54:27Z",
+    "takenAt": "2026-03-25T21:46:13.000Z",
     "hasGps": true,
     "place": {
       "city": "Kecskemét",
@@ -19355,7 +19355,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-charming-winter-scene-in-a-polish-village-with-sno-11789386.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T15:55:59.000Z",
     "hasGps": true,
     "place": {
       "city": "Osturňa",
@@ -19379,7 +19379,7 @@
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-scenic-view-of-the-foggy-countryside-village-in-i--5877697.jpg",
-    "takenAt": "2025-04-14T13:41:49Z",
+    "takenAt": "2025-04-19T16:55:59.000Z",
     "hasGps": true,
     "place": {
       "city": "Osturňa",

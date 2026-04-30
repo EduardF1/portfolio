@@ -181,7 +181,7 @@ export default async function TravelPage({
                   {slug ? (
                     <Link
                       href={`/travel/photos/${slug}`}
-                      className="group block p-6 transition-colors hover:bg-surface focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+                      className="group block h-full p-6 transition-colors hover:bg-surface focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
                     >
                       {inner}
                     </Link>
