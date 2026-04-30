@@ -11909,22 +11909,6 @@
     "caption": "Harmanec, Slovakia · April 2025"
   },
   {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250416162110.jpg",
-    "takenAt": "2025-04-16T16:21:10Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 48.79417,
-      "lon": 19.1
-    },
-    "place": {
-      "city": "Harmanec",
-      "country": "Slovakia",
-      "display": "Harmanec, Slovakia"
-    },
-    "caption": "Harmanec, Slovakia · April 2025"
-  },
-  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250416212142.jpg",
     "takenAt": "2025-04-16T21:21:42Z",
     "hasGps": true,
@@ -12310,22 +12294,6 @@
     "gps": {
       "lat": 49.30835,
       "lon": 20.04453
-    },
-    "place": {
-      "city": "Murzasichle",
-      "country": "Poland",
-      "display": "Murzasichle, Poland"
-    },
-    "caption": "Murzasichle, Poland · April 2025"
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250420101913.jpg",
-    "takenAt": "2025-04-20T10:19:13Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 49.30838,
-      "lon": 20.0445
     },
     "place": {
       "city": "Murzasichle",
@@ -19446,5 +19414,47 @@
       "url": "https://www.pexels.com/photo/35494390/"
     },
     "caption": "South Moravia Chapel · Jaroslavice, Czech Republic · April 2025"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-murzasichle-tatra-cabin-2692254.jpg",
+    "takenAt": "2025-04-20T10:30:00Z",
+    "hasGps": true,
+    "gps": {
+      "lat": 49.30832,
+      "lon": 20.0444
+    },
+    "place": {
+      "city": "Murzasichle",
+      "country": "Poland",
+      "display": "Murzasichle, Poland"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "pexels",
+      "id": 2692254,
+      "url": "https://www.pexels.com/photo/2692254/"
+    },
+    "caption": "Tatra Mountain Cabin · Murzasichle, Poland · April 2025"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-harmanec-cave-stalactites-8651085.jpg",
+    "takenAt": "2025-04-16T16:30:00Z",
+    "hasGps": true,
+    "gps": {
+      "lat": 48.7944,
+      "lon": 19.0997
+    },
+    "place": {
+      "city": "Harmanec",
+      "country": "Slovakia",
+      "display": "Harmanec, Slovakia"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "pexels",
+      "id": 8651085,
+      "url": "https://www.pexels.com/photo/8651085/"
+    },
+    "caption": "Harmanec Cave Stalactites · Harmanec, Slovakia · April 2025"
   }
 ]
