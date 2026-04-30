@@ -19435,26 +19435,5 @@
       "url": "https://www.pexels.com/photo/2692254/"
     },
     "caption": "Tatra Mountain Cabin · Murzasichle, Poland · April 2025"
-  },
-  {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-harmanec-cave-stalactites-8651085.jpg",
-    "takenAt": "2025-04-16T16:30:00Z",
-    "hasGps": true,
-    "gps": {
-      "lat": 48.7944,
-      "lon": 19.0997
-    },
-    "place": {
-      "city": "Harmanec",
-      "country": "Slovakia",
-      "display": "Harmanec, Slovakia"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "pexels",
-      "id": 8651085,
-      "url": "https://www.pexels.com/photo/8651085/"
-    },
-    "caption": "Harmanec Cave Stalactites · Harmanec, Slovakia · April 2025"
   }
 ]

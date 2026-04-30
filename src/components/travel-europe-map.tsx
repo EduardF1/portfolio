@@ -377,9 +377,7 @@ export function TravelEuropeMap({
                   onBlur={() => setHovered(null)}
                 >
                   <a
-                    href={/travel/photos/country/\}`
-                        : `#country-${destination.slug}`
-                    }
+                    href={`/travel/photos/country/${destination.slug}`}
                     aria-label={`${destination.country}, ${destination.photoCount} ${destination.photoCount === 1 ? "photo" : "photos"}, ${destination.cities.length} ${destination.cities.length === 1 ? "city" : "cities"}`}
                   >
                     <circle
@@ -440,9 +438,7 @@ export function TravelEuropeMap({
                   <a
                     data-testid="city-dot"
                     data-city-slug={city.slug}
-                    href={/travel/photos/country/\#city-\}#city-${citySlug(city.city)}`
-                        : `#country-${slugifyCountry(city.country)}`
-                    }
+                    href={`/travel/photos/country/${slugifyCountry(city.country)}#city-${citySlug(city.city)}`}
                     aria-label={tooltip}
                   >
                     {/* Larger, transparent hit area for steady hover. */}
