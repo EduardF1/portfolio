@@ -138,7 +138,7 @@ export default async function TripPhotosPage({
         {tp("intro", { country: trip.country, month: trip.monthLabel })}
       </p>
 
-      {sections.map((section) => {
+      {sections.map((section, sectionIndex) => {
         const sectionPhotos: LightboxPhoto[] = section.photos.map((p) => ({
           src: p.src,
           // `p.alt` already prefers the catalogue caption (landmark +
@@ -172,6 +172,7 @@ export default async function TripPhotosPage({
               prevLabel={tp("prev")}
               nextLabel={tp("next")}
               closeLabel={tp("close")}
+              priorityFirstImage={sectionIndex === 0}
             />
           </section>
         );

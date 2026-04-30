@@ -37,6 +37,14 @@ export type PhotoLightboxProps = {
   nextLabel?: string;
   /** Localised aria-label for the close button. */
   closeLabel?: string;
+  /**
+   * When true the first thumbnail is given `priority` so it is
+   * preloaded as the Largest Contentful Paint candidate. Only set
+   * this for the first visible section on the page; all others
+   * should leave it unset (defaults to false) to avoid generating
+   * unnecessary `<link rel="preload">` hints.
+   */
+  priorityFirstImage?: boolean;
 };
 
 /**
@@ -52,6 +60,7 @@ export function PhotoLightbox({
   prevLabel = "Previous photo",
   nextLabel = "Next photo",
   closeLabel = "Close",
+  priorityFirstImage = false,
 }: PhotoLightboxProps) {
   const tt = useTranslations("tooltips");
   const ta = useTranslations("attribution");
@@ -212,7 +221,8 @@ export function PhotoLightbox({
               fill
               sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
               className="object-cover"
-              loading="lazy"
+              priority={i === 0 && priorityFirstImage}
+              loading={i === 0 && priorityFirstImage ? undefined : "lazy"}
             />
           </button>
         ))}
@@ -283,7 +293,7 @@ export function PhotoLightbox({
               width={1600}
               height={1200}
               className="max-h-[88vh] w-auto h-auto rounded-md object-contain"
-              priority
+              loading="eager"
               sizes="92vw"
             />
             {currentPhoto.caption && (
