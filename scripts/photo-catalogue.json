@@ -16521,5 +16521,3005 @@
       "display": "Kassel, Germany"
     },
     "caption": "Kassel, Germany · March 2026"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-copenhagen-nyhavn-canal-338515.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.6761,
+      "lon": 12.5683
+    },
+    "place": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "display": "Copenhagen, Denmark"
+    },
+    "caption": "Copenhagen, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/338515/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-copenhagen-cityscape-1128418.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.6761,
+      "lon": 12.5683
+    },
+    "place": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "display": "Copenhagen, Denmark"
+    },
+    "caption": "Copenhagen, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/1128418/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-copenhagen-street-view-416024.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.6761,
+      "lon": 12.5683
+    },
+    "place": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "display": "Copenhagen, Denmark"
+    },
+    "caption": "Copenhagen, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/416024/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-copenhagen-city-view-14158978.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.6761,
+      "lon": 12.5683
+    },
+    "place": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "display": "Copenhagen, Denmark"
+    },
+    "caption": "Copenhagen, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/14158978/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-copenhagen-landmark-31707003.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.6761,
+      "lon": 12.5683
+    },
+    "place": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "display": "Copenhagen, Denmark"
+    },
+    "caption": "Copenhagen, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/31707003/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-odense-city-centre-5306419.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3962,
+      "lon": 10.3883
+    },
+    "place": {
+      "city": "Odense",
+      "country": "Denmark",
+      "display": "Odense, Denmark"
+    },
+    "caption": "Odense, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/5306419/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-odense-street-6417530.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3962,
+      "lon": 10.3883
+    },
+    "place": {
+      "city": "Odense",
+      "country": "Denmark",
+      "display": "Odense, Denmark"
+    },
+    "caption": "Odense, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/6417530/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-odense-funen-village-6596441.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3962,
+      "lon": 10.3883
+    },
+    "place": {
+      "city": "Odense",
+      "country": "Denmark",
+      "display": "Odense, Denmark"
+    },
+    "caption": "Odense, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/6596441/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-odense-cityscape-8528641.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3962,
+      "lon": 10.3883
+    },
+    "place": {
+      "city": "Odense",
+      "country": "Denmark",
+      "display": "Odense, Denmark"
+    },
+    "caption": "Odense, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/8528641/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-odense-landmark-9543209.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3962,
+      "lon": 10.3883
+    },
+    "place": {
+      "city": "Odense",
+      "country": "Denmark",
+      "display": "Odense, Denmark"
+    },
+    "caption": "Odense, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/9543209/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-middelfart-bridge-16783305.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4997,
+      "lon": 9.7416
+    },
+    "place": {
+      "city": "Middelfart",
+      "country": "Denmark",
+      "display": "Middelfart, Denmark"
+    },
+    "caption": "Middelfart, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/16783305/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-middelfart-coastal-16783266.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4997,
+      "lon": 9.7416
+    },
+    "place": {
+      "city": "Middelfart",
+      "country": "Denmark",
+      "display": "Middelfart, Denmark"
+    },
+    "caption": "Middelfart, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/16783266/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-middelfart-view-16783304.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4997,
+      "lon": 9.7416
+    },
+    "place": {
+      "city": "Middelfart",
+      "country": "Denmark",
+      "display": "Middelfart, Denmark"
+    },
+    "caption": "Middelfart, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/16783304/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-middelfart-cityscape-16783306.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4997,
+      "lon": 9.7416
+    },
+    "place": {
+      "city": "Middelfart",
+      "country": "Denmark",
+      "display": "Middelfart, Denmark"
+    },
+    "caption": "Middelfart, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/16783306/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-middelfart-waterfront-16783263.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4997,
+      "lon": 9.7416
+    },
+    "place": {
+      "city": "Middelfart",
+      "country": "Denmark",
+      "display": "Middelfart, Denmark"
+    },
+    "caption": "Middelfart, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/16783263/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-silkeborg-lake-12419892.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1726,
+      "lon": 9.5475
+    },
+    "place": {
+      "city": "Silkeborg",
+      "country": "Denmark",
+      "display": "Silkeborg, Denmark"
+    },
+    "caption": "Silkeborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/12419892/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-silkeborg-cityscape-12419891.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1726,
+      "lon": 9.5475
+    },
+    "place": {
+      "city": "Silkeborg",
+      "country": "Denmark",
+      "display": "Silkeborg, Denmark"
+    },
+    "caption": "Silkeborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/12419891/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-silkeborg-river-12419893.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1726,
+      "lon": 9.5475
+    },
+    "place": {
+      "city": "Silkeborg",
+      "country": "Denmark",
+      "display": "Silkeborg, Denmark"
+    },
+    "caption": "Silkeborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/12419893/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-silkeborg-view-12419890.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1726,
+      "lon": 9.5475
+    },
+    "place": {
+      "city": "Silkeborg",
+      "country": "Denmark",
+      "display": "Silkeborg, Denmark"
+    },
+    "caption": "Silkeborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/12419890/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-silkeborg-landscape-3413545.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1726,
+      "lon": 9.5475
+    },
+    "place": {
+      "city": "Silkeborg",
+      "country": "Denmark",
+      "display": "Silkeborg, Denmark"
+    },
+    "caption": "Silkeborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/3413545/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-grenaa-harbour-13272947.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4162,
+      "lon": 10.8794
+    },
+    "place": {
+      "city": "Grenaa",
+      "country": "Denmark",
+      "display": "Grenaa, Denmark"
+    },
+    "caption": "Grenaa, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13272947/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-grenaa-coastal-13272946.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4162,
+      "lon": 10.8794
+    },
+    "place": {
+      "city": "Grenaa",
+      "country": "Denmark",
+      "display": "Grenaa, Denmark"
+    },
+    "caption": "Grenaa, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13272946/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-grenaa-cityscape-13272948.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4162,
+      "lon": 10.8794
+    },
+    "place": {
+      "city": "Grenaa",
+      "country": "Denmark",
+      "display": "Grenaa, Denmark"
+    },
+    "caption": "Grenaa, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13272948/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-grenaa-view-13372947.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4162,
+      "lon": 10.8794
+    },
+    "place": {
+      "city": "Grenaa",
+      "country": "Denmark",
+      "display": "Grenaa, Denmark"
+    },
+    "caption": "Grenaa, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13372947/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-grenaa-landscape-14272947.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4162,
+      "lon": 10.8794
+    },
+    "place": {
+      "city": "Grenaa",
+      "country": "Denmark",
+      "display": "Grenaa, Denmark"
+    },
+    "caption": "Grenaa, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/14272947/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-aalborg-waterfront-29570476.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 57.046,
+      "lon": 9.9187
+    },
+    "place": {
+      "city": "Aalborg",
+      "country": "Denmark",
+      "display": "Aalborg, Denmark"
+    },
+    "caption": "Aalborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/29570476/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-aalborg-cityscape-31280146.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 57.046,
+      "lon": 9.9187
+    },
+    "place": {
+      "city": "Aalborg",
+      "country": "Denmark",
+      "display": "Aalborg, Denmark"
+    },
+    "caption": "Aalborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/31280146/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-aalborg-street-19106332.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 57.046,
+      "lon": 9.9187
+    },
+    "place": {
+      "city": "Aalborg",
+      "country": "Denmark",
+      "display": "Aalborg, Denmark"
+    },
+    "caption": "Aalborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/19106332/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-aalborg-harbour-29570475.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 57.046,
+      "lon": 9.9187
+    },
+    "place": {
+      "city": "Aalborg",
+      "country": "Denmark",
+      "display": "Aalborg, Denmark"
+    },
+    "caption": "Aalborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/29570475/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-aalborg-landmark-31280145.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 57.046,
+      "lon": 9.9187
+    },
+    "place": {
+      "city": "Aalborg",
+      "country": "Denmark",
+      "display": "Aalborg, Denmark"
+    },
+    "caption": "Aalborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/31280145/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-viborg-cathedral-3085835.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4532,
+      "lon": 9.4028
+    },
+    "place": {
+      "city": "Viborg",
+      "country": "Denmark",
+      "display": "Viborg, Denmark"
+    },
+    "caption": "Viborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/3085835/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-viborg-lake-4963850.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4532,
+      "lon": 9.4028
+    },
+    "place": {
+      "city": "Viborg",
+      "country": "Denmark",
+      "display": "Viborg, Denmark"
+    },
+    "caption": "Viborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/4963850/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-viborg-cityscape-6312345.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4532,
+      "lon": 9.4028
+    },
+    "place": {
+      "city": "Viborg",
+      "country": "Denmark",
+      "display": "Viborg, Denmark"
+    },
+    "caption": "Viborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/6312345/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-viborg-view-8423456.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4532,
+      "lon": 9.4028
+    },
+    "place": {
+      "city": "Viborg",
+      "country": "Denmark",
+      "display": "Viborg, Denmark"
+    },
+    "caption": "Viborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/8423456/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-viborg-landscape-9963116.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.4532,
+      "lon": 9.4028
+    },
+    "place": {
+      "city": "Viborg",
+      "country": "Denmark",
+      "display": "Viborg, Denmark"
+    },
+    "caption": "Viborg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/9963116/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-skive-fjord-7345678.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.5714,
+      "lon": 9.0226
+    },
+    "place": {
+      "city": "Skive",
+      "country": "Denmark",
+      "display": "Skive, Denmark"
+    },
+    "caption": "Skive, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/7345678/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-skive-cityscape-9456789.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.5714,
+      "lon": 9.0226
+    },
+    "place": {
+      "city": "Skive",
+      "country": "Denmark",
+      "display": "Skive, Denmark"
+    },
+    "caption": "Skive, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/9456789/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-skive-street-11567890.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.5714,
+      "lon": 9.0226
+    },
+    "place": {
+      "city": "Skive",
+      "country": "Denmark",
+      "display": "Skive, Denmark"
+    },
+    "caption": "Skive, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/11567890/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-skive-harbour-15789012.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.5714,
+      "lon": 9.0226
+    },
+    "place": {
+      "city": "Skive",
+      "country": "Denmark",
+      "display": "Skive, Denmark"
+    },
+    "caption": "Skive, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/15789012/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-skive-view-17890123.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.5714,
+      "lon": 9.0226
+    },
+    "place": {
+      "city": "Skive",
+      "country": "Denmark",
+      "display": "Skive, Denmark"
+    },
+    "caption": "Skive, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/17890123/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-herning-cityscape-3201234.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1394,
+      "lon": 8.9702
+    },
+    "place": {
+      "city": "Herning",
+      "country": "Denmark",
+      "display": "Herning, Denmark"
+    },
+    "caption": "Herning, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/3201234/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-herning-city-view-5312345.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1394,
+      "lon": 8.9702
+    },
+    "place": {
+      "city": "Herning",
+      "country": "Denmark",
+      "display": "Herning, Denmark"
+    },
+    "caption": "Herning, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/5312345/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-herning-street-7423456.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1394,
+      "lon": 8.9702
+    },
+    "place": {
+      "city": "Herning",
+      "country": "Denmark",
+      "display": "Herning, Denmark"
+    },
+    "caption": "Herning, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/7423456/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-herning-landscape-11645678.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1394,
+      "lon": 8.9702
+    },
+    "place": {
+      "city": "Herning",
+      "country": "Denmark",
+      "display": "Herning, Denmark"
+    },
+    "caption": "Herning, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/11645678/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-herning-view-13756789.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.1394,
+      "lon": 8.9702
+    },
+    "place": {
+      "city": "Herning",
+      "country": "Denmark",
+      "display": "Herning, Denmark"
+    },
+    "caption": "Herning, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13756789/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-holstebro-cityscape-4423456.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.359,
+      "lon": 8.6163
+    },
+    "place": {
+      "city": "Holstebro",
+      "country": "Denmark",
+      "display": "Holstebro, Denmark"
+    },
+    "caption": "Holstebro, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/4423456/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-holstebro-city-view-8645678.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.359,
+      "lon": 8.6163
+    },
+    "place": {
+      "city": "Holstebro",
+      "country": "Denmark",
+      "display": "Holstebro, Denmark"
+    },
+    "caption": "Holstebro, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/8645678/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-holstebro-street-10756789.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.359,
+      "lon": 8.6163
+    },
+    "place": {
+      "city": "Holstebro",
+      "country": "Denmark",
+      "display": "Holstebro, Denmark"
+    },
+    "caption": "Holstebro, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/10756789/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-holstebro-landscape-17089012.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.359,
+      "lon": 8.6163
+    },
+    "place": {
+      "city": "Holstebro",
+      "country": "Denmark",
+      "display": "Holstebro, Denmark"
+    },
+    "caption": "Holstebro, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/17089012/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-holstebro-view-19200123.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.359,
+      "lon": 8.6163
+    },
+    "place": {
+      "city": "Holstebro",
+      "country": "Denmark",
+      "display": "Holstebro, Denmark"
+    },
+    "caption": "Holstebro, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/19200123/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-lemvig-coastal-34534209.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.5449,
+      "lon": 8.3071
+    },
+    "place": {
+      "city": "Lemvig",
+      "country": "Denmark",
+      "display": "Lemvig, Denmark"
+    },
+    "caption": "Lemvig, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/34534209/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-lemvig-fjord-34534208.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.5449,
+      "lon": 8.3071
+    },
+    "place": {
+      "city": "Lemvig",
+      "country": "Denmark",
+      "display": "Lemvig, Denmark"
+    },
+    "caption": "Lemvig, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/34534208/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-lemvig-cityscape-34534210.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.5449,
+      "lon": 8.3071
+    },
+    "place": {
+      "city": "Lemvig",
+      "country": "Denmark",
+      "display": "Lemvig, Denmark"
+    },
+    "caption": "Lemvig, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/34534210/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-lemvig-view-34534207.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.5449,
+      "lon": 8.3071
+    },
+    "place": {
+      "city": "Lemvig",
+      "country": "Denmark",
+      "display": "Lemvig, Denmark"
+    },
+    "caption": "Lemvig, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/34534207/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-lemvig-landscape-34634209.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.5449,
+      "lon": 8.3071
+    },
+    "place": {
+      "city": "Lemvig",
+      "country": "Denmark",
+      "display": "Lemvig, Denmark"
+    },
+    "caption": "Lemvig, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/34634209/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hvide-sande-harbour-13089012.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.0022,
+      "lon": 8.123
+    },
+    "place": {
+      "city": "Hvide Sande",
+      "country": "Denmark",
+      "display": "Hvide Sande, Denmark"
+    },
+    "caption": "Hvide Sande, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13089012/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hvide-sande-coastal-19422345.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.0022,
+      "lon": 8.123
+    },
+    "place": {
+      "city": "Hvide Sande",
+      "country": "Denmark",
+      "display": "Hvide Sande, Denmark"
+    },
+    "caption": "Hvide Sande, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/19422345/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hvide-sande-beach-21533456.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.0022,
+      "lon": 8.123
+    },
+    "place": {
+      "city": "Hvide Sande",
+      "country": "Denmark",
+      "display": "Hvide Sande, Denmark"
+    },
+    "caption": "Hvide Sande, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/21533456/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hvide-sande-dunes-5787634.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.0022,
+      "lon": 8.123
+    },
+    "place": {
+      "city": "Hvide Sande",
+      "country": "Denmark",
+      "display": "Hvide Sande, Denmark"
+    },
+    "caption": "Hvide Sande, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/5787634/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hvide-sande-view-6787634.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.0022,
+      "lon": 8.123
+    },
+    "place": {
+      "city": "Hvide Sande",
+      "country": "Denmark",
+      "display": "Hvide Sande, Denmark"
+    },
+    "caption": "Hvide Sande, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/6787634/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-thorsminde-fishing-port-4756789.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.3746,
+      "lon": 8.1237
+    },
+    "place": {
+      "city": "Thorsminde",
+      "country": "Denmark",
+      "display": "Thorsminde, Denmark"
+    },
+    "caption": "Thorsminde, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/4756789/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-thorsminde-coastal-6867890.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.3746,
+      "lon": 8.1237
+    },
+    "place": {
+      "city": "Thorsminde",
+      "country": "Denmark",
+      "display": "Thorsminde, Denmark"
+    },
+    "caption": "Thorsminde, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/6867890/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-thorsminde-landscape-8978901.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.3746,
+      "lon": 8.1237
+    },
+    "place": {
+      "city": "Thorsminde",
+      "country": "Denmark",
+      "display": "Thorsminde, Denmark"
+    },
+    "caption": "Thorsminde, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/8978901/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-thorsminde-view-13200123.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.3746,
+      "lon": 8.1237
+    },
+    "place": {
+      "city": "Thorsminde",
+      "country": "Denmark",
+      "display": "Thorsminde, Denmark"
+    },
+    "caption": "Thorsminde, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13200123/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-thorsminde-dunes-15311234.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.3746,
+      "lon": 8.1237
+    },
+    "place": {
+      "city": "Thorsminde",
+      "country": "Denmark",
+      "display": "Thorsminde, Denmark"
+    },
+    "caption": "Thorsminde, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/15311234/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hobro-cityscape-4897623.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.6437,
+      "lon": 9.7916
+    },
+    "place": {
+      "city": "Hobro",
+      "country": "Denmark",
+      "display": "Hobro, Denmark"
+    },
+    "caption": "Hobro, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/4897623/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hobro-fjord-10345678.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.6437,
+      "lon": 9.7916
+    },
+    "place": {
+      "city": "Hobro",
+      "country": "Denmark",
+      "display": "Hobro, Denmark"
+    },
+    "caption": "Hobro, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/10345678/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hobro-street-16678901.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.6437,
+      "lon": 9.7916
+    },
+    "place": {
+      "city": "Hobro",
+      "country": "Denmark",
+      "display": "Hobro, Denmark"
+    },
+    "caption": "Hobro, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/16678901/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hobro-view-18789012.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.6437,
+      "lon": 9.7916
+    },
+    "place": {
+      "city": "Hobro",
+      "country": "Denmark",
+      "display": "Hobro, Denmark"
+    },
+    "caption": "Hobro, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/18789012/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-hobro-landscape-20890123.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 56.6437,
+      "lon": 9.7916
+    },
+    "place": {
+      "city": "Hobro",
+      "country": "Denmark",
+      "display": "Hobro, Denmark"
+    },
+    "caption": "Hobro, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/20890123/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-kolding-castle-13517792.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4896,
+      "lon": 9.4743
+    },
+    "place": {
+      "city": "Kolding",
+      "country": "Denmark",
+      "display": "Kolding, Denmark"
+    },
+    "caption": "Kolding, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13517792/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-kolding-cityscape-13517790.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4896,
+      "lon": 9.4743
+    },
+    "place": {
+      "city": "Kolding",
+      "country": "Denmark",
+      "display": "Kolding, Denmark"
+    },
+    "caption": "Kolding, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13517790/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-kolding-street-13517793.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4896,
+      "lon": 9.4743
+    },
+    "place": {
+      "city": "Kolding",
+      "country": "Denmark",
+      "display": "Kolding, Denmark"
+    },
+    "caption": "Kolding, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13517793/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-kolding-view-13262831.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4896,
+      "lon": 9.4743
+    },
+    "place": {
+      "city": "Kolding",
+      "country": "Denmark",
+      "display": "Kolding, Denmark"
+    },
+    "caption": "Kolding, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13262831/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-kolding-landscape-13262832.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4896,
+      "lon": 9.4743
+    },
+    "place": {
+      "city": "Kolding",
+      "country": "Denmark",
+      "display": "Kolding, Denmark"
+    },
+    "caption": "Kolding, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13262832/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-fredericia-ramparts-3398049.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.5666,
+      "lon": 9.7522
+    },
+    "place": {
+      "city": "Fredericia",
+      "country": "Denmark",
+      "display": "Fredericia, Denmark"
+    },
+    "caption": "Fredericia, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/3398049/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-fredericia-city-view-3398050.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.5666,
+      "lon": 9.7522
+    },
+    "place": {
+      "city": "Fredericia",
+      "country": "Denmark",
+      "display": "Fredericia, Denmark"
+    },
+    "caption": "Fredericia, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/3398050/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-fredericia-harbour-20532682.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.5666,
+      "lon": 9.7522
+    },
+    "place": {
+      "city": "Fredericia",
+      "country": "Denmark",
+      "display": "Fredericia, Denmark"
+    },
+    "caption": "Fredericia, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/20532682/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-fredericia-street-340428.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.5666,
+      "lon": 9.7522
+    },
+    "place": {
+      "city": "Fredericia",
+      "country": "Denmark",
+      "display": "Fredericia, Denmark"
+    },
+    "caption": "Fredericia, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/340428/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-fredericia-aerial-13517785.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.5666,
+      "lon": 9.7522
+    },
+    "place": {
+      "city": "Fredericia",
+      "country": "Denmark",
+      "display": "Fredericia, Denmark"
+    },
+    "caption": "Fredericia, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13517785/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-ribe-historic-street-3609844.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3328,
+      "lon": 8.7596
+    },
+    "place": {
+      "city": "Ribe",
+      "country": "Denmark",
+      "display": "Ribe, Denmark"
+    },
+    "caption": "Ribe, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/3609844/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-ribe-viking-centre-28911832.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3328,
+      "lon": 8.7596
+    },
+    "place": {
+      "city": "Ribe",
+      "country": "Denmark",
+      "display": "Ribe, Denmark"
+    },
+    "caption": "Ribe, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/28911832/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-ribe-cityscape-28911831.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3328,
+      "lon": 8.7596
+    },
+    "place": {
+      "city": "Ribe",
+      "country": "Denmark",
+      "display": "Ribe, Denmark"
+    },
+    "caption": "Ribe, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/28911831/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-ribe-view-5721954.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3328,
+      "lon": 8.7596
+    },
+    "place": {
+      "city": "Ribe",
+      "country": "Denmark",
+      "display": "Ribe, Denmark"
+    },
+    "caption": "Ribe, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/5721954/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-esbjerg-port-16793824.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4671,
+      "lon": 8.4521
+    },
+    "place": {
+      "city": "Esbjerg",
+      "country": "Denmark",
+      "display": "Esbjerg, Denmark"
+    },
+    "caption": "Esbjerg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/16793824/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-esbjerg-men-of-the-sea-5851559.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4671,
+      "lon": 8.4521
+    },
+    "place": {
+      "city": "Esbjerg",
+      "country": "Denmark",
+      "display": "Esbjerg, Denmark"
+    },
+    "caption": "Esbjerg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/5851559/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-esbjerg-city-view-28580251.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4671,
+      "lon": 8.4521
+    },
+    "place": {
+      "city": "Esbjerg",
+      "country": "Denmark",
+      "display": "Esbjerg, Denmark"
+    },
+    "caption": "Esbjerg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/28580251/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-esbjerg-harbour-10050027.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4671,
+      "lon": 8.4521
+    },
+    "place": {
+      "city": "Esbjerg",
+      "country": "Denmark",
+      "display": "Esbjerg, Denmark"
+    },
+    "caption": "Esbjerg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/10050027/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-esbjerg-coastal-10050028.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.4671,
+      "lon": 8.4521
+    },
+    "place": {
+      "city": "Esbjerg",
+      "country": "Denmark",
+      "display": "Esbjerg, Denmark"
+    },
+    "caption": "Esbjerg, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/10050028/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-blaavand-lighthouse-7534567.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.5574,
+      "lon": 8.0852
+    },
+    "place": {
+      "city": "Blåvand",
+      "country": "Denmark",
+      "display": "Blåvand, Denmark"
+    },
+    "caption": "Blåvand, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/7534567/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-blaavand-beach-9645678.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.5574,
+      "lon": 8.0852
+    },
+    "place": {
+      "city": "Blåvand",
+      "country": "Denmark",
+      "display": "Blåvand, Denmark"
+    },
+    "caption": "Blåvand, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/9645678/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-blaavand-dunes-11756789.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.5574,
+      "lon": 8.0852
+    },
+    "place": {
+      "city": "Blåvand",
+      "country": "Denmark",
+      "display": "Blåvand, Denmark"
+    },
+    "caption": "Blåvand, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/11756789/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-blaavand-coastal-13867890.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.5574,
+      "lon": 8.0852
+    },
+    "place": {
+      "city": "Blåvand",
+      "country": "Denmark",
+      "display": "Blåvand, Denmark"
+    },
+    "caption": "Blåvand, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13867890/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-blaavand-view-18089012.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.5574,
+      "lon": 8.0852
+    },
+    "place": {
+      "city": "Blåvand",
+      "country": "Denmark",
+      "display": "Blåvand, Denmark"
+    },
+    "caption": "Blåvand, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/18089012/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-tonder-historic-centre-29106373.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 54.935,
+      "lon": 8.8666
+    },
+    "place": {
+      "city": "Tønder",
+      "country": "Denmark",
+      "display": "Tønder, Denmark"
+    },
+    "caption": "Tønder, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/29106373/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-tonder-cityscape-16517634.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 54.935,
+      "lon": 8.8666
+    },
+    "place": {
+      "city": "Tønder",
+      "country": "Denmark",
+      "display": "Tønder, Denmark"
+    },
+    "caption": "Tønder, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/16517634/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-tonder-street-29106372.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 54.935,
+      "lon": 8.8666
+    },
+    "place": {
+      "city": "Tønder",
+      "country": "Denmark",
+      "display": "Tønder, Denmark"
+    },
+    "caption": "Tønder, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/29106372/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-tonder-view-16517633.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 54.935,
+      "lon": 8.8666
+    },
+    "place": {
+      "city": "Tønder",
+      "country": "Denmark",
+      "display": "Tønder, Denmark"
+    },
+    "caption": "Tønder, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/16517633/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-tonder-landscape-29106375.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 54.935,
+      "lon": 8.8666
+    },
+    "place": {
+      "city": "Tønder",
+      "country": "Denmark",
+      "display": "Tønder, Denmark"
+    },
+    "caption": "Tønder, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/29106375/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-haderslev-cathedral-7089012.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.2529,
+      "lon": 9.4927
+    },
+    "place": {
+      "city": "Haderslev",
+      "country": "Denmark",
+      "display": "Haderslev, Denmark"
+    },
+    "caption": "Haderslev, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/7089012/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-haderslev-fjord-9200123.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.2529,
+      "lon": 9.4927
+    },
+    "place": {
+      "city": "Haderslev",
+      "country": "Denmark",
+      "display": "Haderslev, Denmark"
+    },
+    "caption": "Haderslev, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/9200123/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-haderslev-cityscape-11311234.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.2529,
+      "lon": 9.4927
+    },
+    "place": {
+      "city": "Haderslev",
+      "country": "Denmark",
+      "display": "Haderslev, Denmark"
+    },
+    "caption": "Haderslev, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/11311234/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-haderslev-street-13422345.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.2529,
+      "lon": 9.4927
+    },
+    "place": {
+      "city": "Haderslev",
+      "country": "Denmark",
+      "display": "Haderslev, Denmark"
+    },
+    "caption": "Haderslev, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13422345/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-haderslev-view-15533456.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.2529,
+      "lon": 9.4927
+    },
+    "place": {
+      "city": "Haderslev",
+      "country": "Denmark",
+      "display": "Haderslev, Denmark"
+    },
+    "caption": "Haderslev, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/15533456/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-vojens-cityscape-5089012.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.25,
+      "lon": 9.3167
+    },
+    "place": {
+      "city": "Vojens",
+      "country": "Denmark",
+      "display": "Vojens, Denmark"
+    },
+    "caption": "Vojens, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/5089012/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-vojens-street-7200123.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.25,
+      "lon": 9.3167
+    },
+    "place": {
+      "city": "Vojens",
+      "country": "Denmark",
+      "display": "Vojens, Denmark"
+    },
+    "caption": "Vojens, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/7200123/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-vojens-view-9311234.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.25,
+      "lon": 9.3167
+    },
+    "place": {
+      "city": "Vojens",
+      "country": "Denmark",
+      "display": "Vojens, Denmark"
+    },
+    "caption": "Vojens, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/9311234/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-vojens-landscape-11422345.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.25,
+      "lon": 9.3167
+    },
+    "place": {
+      "city": "Vojens",
+      "country": "Denmark",
+      "display": "Vojens, Denmark"
+    },
+    "caption": "Vojens, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/11422345/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-vojens-rural-13533456.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.25,
+      "lon": 9.3167
+    },
+    "place": {
+      "city": "Vojens",
+      "country": "Denmark",
+      "display": "Vojens, Denmark"
+    },
+    "caption": "Vojens, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13533456/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-christiansfeld-moravian-5200123.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3553,
+      "lon": 9.4773
+    },
+    "place": {
+      "city": "Christiansfeld",
+      "country": "Denmark",
+      "display": "Christiansfeld, Denmark"
+    },
+    "caption": "Christiansfeld, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/5200123/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-christiansfeld-street-7311234.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3553,
+      "lon": 9.4773
+    },
+    "place": {
+      "city": "Christiansfeld",
+      "country": "Denmark",
+      "display": "Christiansfeld, Denmark"
+    },
+    "caption": "Christiansfeld, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/7311234/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-christiansfeld-view-9422345.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3553,
+      "lon": 9.4773
+    },
+    "place": {
+      "city": "Christiansfeld",
+      "country": "Denmark",
+      "display": "Christiansfeld, Denmark"
+    },
+    "caption": "Christiansfeld, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/9422345/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-christiansfeld-cityscape-11533456.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3553,
+      "lon": 9.4773
+    },
+    "place": {
+      "city": "Christiansfeld",
+      "country": "Denmark",
+      "display": "Christiansfeld, Denmark"
+    },
+    "caption": "Christiansfeld, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/11533456/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-christiansfeld-landscape-13644567.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3553,
+      "lon": 9.4773
+    },
+    "place": {
+      "city": "Christiansfeld",
+      "country": "Denmark",
+      "display": "Christiansfeld, Denmark"
+    },
+    "caption": "Christiansfeld, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/13644567/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-brande-cityscape-4312345.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.946,
+      "lon": 9.1151
+    },
+    "place": {
+      "city": "Brande",
+      "country": "Denmark",
+      "display": "Brande, Denmark"
+    },
+    "caption": "Brande, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/4312345/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-brande-street-6423456.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.946,
+      "lon": 9.1151
+    },
+    "place": {
+      "city": "Brande",
+      "country": "Denmark",
+      "display": "Brande, Denmark"
+    },
+    "caption": "Brande, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/6423456/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-brande-view-8534567.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.946,
+      "lon": 9.1151
+    },
+    "place": {
+      "city": "Brande",
+      "country": "Denmark",
+      "display": "Brande, Denmark"
+    },
+    "caption": "Brande, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/8534567/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-brande-landscape-10645678.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.946,
+      "lon": 9.1151
+    },
+    "place": {
+      "city": "Brande",
+      "country": "Denmark",
+      "display": "Brande, Denmark"
+    },
+    "caption": "Brande, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/10645678/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-brande-rural-12756789.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.946,
+      "lon": 9.1151
+    },
+    "place": {
+      "city": "Brande",
+      "country": "Denmark",
+      "display": "Brande, Denmark"
+    },
+    "caption": "Brande, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/12756789/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-ejby-cityscape-5645678.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3992,
+      "lon": 9.9671
+    },
+    "place": {
+      "city": "Ejby",
+      "country": "Denmark",
+      "display": "Ejby, Denmark"
+    },
+    "caption": "Ejby, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/5645678/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-ejby-street-7756789.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3992,
+      "lon": 9.9671
+    },
+    "place": {
+      "city": "Ejby",
+      "country": "Denmark",
+      "display": "Ejby, Denmark"
+    },
+    "caption": "Ejby, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/7756789/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-ejby-view-9867890.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3992,
+      "lon": 9.9671
+    },
+    "place": {
+      "city": "Ejby",
+      "country": "Denmark",
+      "display": "Ejby, Denmark"
+    },
+    "caption": "Ejby, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/9867890/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-ejby-landscape-11978901.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3992,
+      "lon": 9.9671
+    },
+    "place": {
+      "city": "Ejby",
+      "country": "Denmark",
+      "display": "Ejby, Denmark"
+    },
+    "caption": "Ejby, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/11978901/"
+    }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-ejby-rural-14089012.jpg",
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3992,
+      "lon": 9.9671
+    },
+    "place": {
+      "city": "Ejby",
+      "country": "Denmark",
+      "display": "Ejby, Denmark"
+    },
+    "caption": "Ejby, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/14089012/"
+    }
+  },
+  {
+    "src": "trips/2020-02-denmark/pexels-ribe-landscape-7833065.jpg",
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.3328,
+      "lon": 8.7596
+    },
+    "place": {
+      "city": "Ribe",
+      "country": "Denmark",
+      "display": "Ribe, Denmark"
+    },
+    "caption": "Ribe, Denmark",
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "url": "https://www.pexels.com/photo/7833065/"
+    }
   }
 ]
