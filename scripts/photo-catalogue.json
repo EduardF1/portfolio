@@ -8061,20 +8061,25 @@
     "caption": "Turda, Romania · August 2023"
   },
   {
-    "src": "trips/2023-08-romania/IMG20230829143212.jpg",
-    "takenAt": "2023-08-29T14:32:12Z",
+    "src": "trips/2023-08-romania/pexels-turda-gorge-13691240.jpg",
+    "takenAt": "2023-08-29T13:00:00Z",
     "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
     "gps": {
-      "lat": 46.58645,
-      "lon": 23.78569
+      "lat": 46.586760000000005,
+      "lon": 23.78623
     },
     "place": {
       "city": "Turda",
       "country": "Romania",
       "display": "Turda, Romania"
     },
-    "caption": "Turda, Romania · August 2023"
+    "source": {
+      "type": "stock",
+      "provider": "pexels",
+      "id": 13691240,
+      "url": "https://www.pexels.com/photo/13691240/"
+    },
+    "caption": "Turda Gorge, Romania · August 2023"
   },
   {
     "src": "trips/2023-08-romania/IMG20230829150424.jpg",

@@ -351,12 +351,17 @@ export function deriveCitiesByCountry(
     return bestSlug;
   }
 
-  // Pick the most-recent trip slug for the country click target.
-  // `trips` is already sorted most-recent first, so we just take the
-  // first one matching the country (case-insensitive).
+  // Pick the trip with the most photos for the country click target.
+  // Using the largest cluster avoids landing on a 1-photo splinter when
+  // a multi-country road trip causes many tiny same-country sub-clusters
+  // (e.g. Belgium → Luxembourg → Belgium → France → Belgium in one day).
   function pickPrimaryTripForCountry(country: string): string | undefined {
     const target = country.toLowerCase();
-    return trips.find((t) => t.country.toLowerCase() === target)?.slug;
+    const countryTrips = trips.filter((t) => t.country.toLowerCase() === target);
+    if (countryTrips.length === 0) return undefined;
+    return countryTrips.reduce((best, t) =>
+      t.photoCount > best.photoCount ? t : best,
+    ).slug;
   }
 
   const out: CountryCities[] = [];
