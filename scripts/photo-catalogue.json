@@ -1,8 +1,8 @@
 [
   {
     "src": "trips/2018-04-sweden/pexels-malmo-kungsparken-windmill-19475590.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2018-04-08T19:37:58Z",
+    "hasGps": true,
     "place": {
       "city": "Malmö",
       "country": "Sweden",
@@ -17,7 +17,11 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Kungsparken Windmill · Malmö, Sweden"
+    "caption": "Kungsparken Windmill · Malmö, Sweden",
+    "gps": {
+      "lat": 55.6033,
+      "lon": 12.9555
+    }
   },
   {
     "src": "trips/2018-04-sweden/pexels-malmo-turning-torso-7019069.jpg",
@@ -99,8 +103,8 @@
   },
   {
     "src": "trips/2019-07-belgium/pexels-brussels-grand-place-statue-20595735.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2019-07-30T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Brussels",
       "country": "Belgium",
@@ -115,12 +119,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Grand Place Statue · Brussels, Belgium"
+    "caption": "Grand Place Statue · Brussels, Belgium",
+    "gps": {
+      "lat": 50.8462,
+      "lon": 4.3547
+    }
   },
   {
     "src": "trips/2019-07-belgium/pexels-ghent-canal-twilight-30427221.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2019-07-30T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ghent",
       "country": "Belgium",
@@ -135,7 +143,11 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Canal Twilight · Ghent, Belgium"
+    "caption": "Canal Twilight · Ghent, Belgium",
+    "gps": {
+      "lat": 51.0509,
+      "lon": 3.7272
+    }
   },
   {
     "src": "trips/2019-07-luxembourg/pexels-luxembourg-adolphe-bridge-autumn-19909061.jpg",
@@ -165,8 +177,8 @@
   },
   {
     "src": "trips/2019-07-luxembourg/pexels-luxembourg-bar-night-20054718.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2019-07-30T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Luxembourg",
       "country": "Luxembourg",
@@ -181,7 +193,11 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Bar Night · Luxembourg, Luxembourg"
+    "caption": "Bar Night · Luxembourg, Luxembourg",
+    "gps": {
+      "lat": 49.6106,
+      "lon": 6.1318
+    }
   },
   {
     "src": "trips/2019-07-luxembourg/pexels-luxembourg-gothic-revival-30217826.jpg",
@@ -211,8 +227,8 @@
   },
   {
     "src": "trips/2020-02-denmark/pexels-horsens-aerial-cityscape-13274632.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-19T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Horsens",
       "country": "Denmark",
@@ -227,12 +243,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Aerial Cityscape · Horsens, Denmark"
+    "caption": "Aerial Cityscape · Horsens, Denmark",
+    "gps": {
+      "lat": 55.8644,
+      "lon": 9.8453
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-horsens-park-pathway-14547046.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-19T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Horsens",
       "country": "Denmark",
@@ -247,7 +267,11 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Park Pathway · Horsens, Denmark"
+    "caption": "Park Pathway · Horsens, Denmark",
+    "gps": {
+      "lat": 55.8644,
+      "lon": 9.8453
+    }
   },
   {
     "src": "trips/2022-07-greece/pexels-kavala-castle-waterfront-34030677.jpg",
@@ -303,8 +327,8 @@
   },
   {
     "src": "trips/2022-08-denmark/pexels-horsens-aerial-summer-13519728.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-19T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Horsens",
       "country": "Denmark",
@@ -319,12 +343,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Aerial Summer · Horsens, Denmark"
+    "caption": "Aerial Summer · Horsens, Denmark",
+    "gps": {
+      "lat": 55.8644,
+      "lon": 9.8453
+    }
   },
   {
     "src": "trips/2022-08-romania/pexels-brasov-cobblestone-street-36957142.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2023-08-25T10:03:37Z",
+    "hasGps": true,
     "place": {
       "city": "Brașov",
       "country": "Romania",
@@ -339,12 +367,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Cobblestone Street · Brașov, Romania"
+    "caption": "Cobblestone Street · Brașov, Romania",
+    "gps": {
+      "lat": 45.6542,
+      "lon": 25.5981
+    }
   },
   {
     "src": "trips/2022-08-romania/pexels-brasov-mountain-panorama-9315381.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2023-08-25T10:03:37Z",
+    "hasGps": true,
     "place": {
       "city": "Brașov",
       "country": "Romania",
@@ -359,12 +391,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Mountain Panorama · Brașov, Romania"
+    "caption": "Mountain Panorama · Brașov, Romania",
+    "gps": {
+      "lat": 45.6542,
+      "lon": 25.5981
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-aarhus-cathedral-harbor-15796451.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Aarhus",
       "country": "Denmark",
@@ -379,12 +415,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Cathedral Harbor · Aarhus, Denmark"
+    "caption": "Cathedral Harbor · Aarhus, Denmark",
+    "gps": {
+      "lat": 56.1918,
+      "lon": 10.2717
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-aarhus-half-timbered-street-32136937.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Aarhus",
       "country": "Denmark",
@@ -399,12 +439,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Half Timbered Street · Aarhus, Denmark"
+    "caption": "Half Timbered Street · Aarhus, Denmark",
+    "gps": {
+      "lat": 56.1918,
+      "lon": 10.2717
+    }
   },
   {
     "src": "trips/2022-10-germany/pexels-hamburg-elbphilharmonie-brick-26443234.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-22T09:44:43Z",
+    "hasGps": true,
     "place": {
       "city": "Hamburg",
       "country": "Germany",
@@ -419,12 +463,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Elbphilharmonie Brick · Hamburg, Germany"
+    "caption": "Elbphilharmonie Brick · Hamburg, Germany",
+    "gps": {
+      "lat": 53.5678,
+      "lon": 9.9627
+    }
   },
   {
     "src": "trips/2022-10-germany/pexels-hamburg-speicherstadt-canal-30195965.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-22T09:44:43Z",
+    "hasGps": true,
     "place": {
       "city": "Hamburg",
       "country": "Germany",
@@ -439,12 +487,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Speicherstadt Canal · Hamburg, Germany"
+    "caption": "Speicherstadt Canal · Hamburg, Germany",
+    "gps": {
+      "lat": 53.5678,
+      "lon": 9.9627
+    }
   },
   {
     "src": "trips/2022-10-germany/pexels-hamburg-wasserschloss-bw-7133327.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-22T09:44:43Z",
+    "hasGps": true,
     "place": {
       "city": "Hamburg",
       "country": "Germany",
@@ -459,12 +511,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Wasserschloss Bw · Hamburg, Germany"
+    "caption": "Wasserschloss Bw · Hamburg, Germany",
+    "gps": {
+      "lat": 53.5678,
+      "lon": 9.9627
+    }
   },
   {
     "src": "trips/2022-12-romania/pexels-bucharest-arcul-de-triumf-night-31829727.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-03-29T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Bucharest",
       "country": "Romania",
@@ -479,12 +535,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Arcul de Triumf Night · Bucharest, Romania"
+    "caption": "Arcul de Triumf Night · Bucharest, Romania",
+    "gps": {
+      "lat": 44.4278,
+      "lon": 26.1031
+    }
   },
   {
     "src": "trips/2022-12-romania/pexels-bucharest-military-circle-corner-16715136.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-03-29T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Bucharest",
       "country": "Romania",
@@ -499,12 +559,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Military Circle Corner · Bucharest, Romania"
+    "caption": "Military Circle Corner · Bucharest, Romania",
+    "gps": {
+      "lat": 44.4278,
+      "lon": 26.1031
+    }
   },
   {
     "src": "trips/2022-12-romania/pexels-bucharest-quiet-street-28898464.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-03-29T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Bucharest",
       "country": "Romania",
@@ -519,12 +583,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Quiet Street · Bucharest, Romania"
+    "caption": "Quiet Street · Bucharest, Romania",
+    "gps": {
+      "lat": 44.4278,
+      "lon": 26.1031
+    }
   },
   {
     "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-greek-coastline-11898125.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2023-07-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Nea Fokea",
       "country": "Greece",
@@ -539,12 +607,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Halkidiki Greek Coastline · Nea Fokea, Greece"
+    "caption": "Halkidiki Greek Coastline · Nea Fokea, Greece",
+    "gps": {
+      "lat": 40.1351,
+      "lon": 23.3978
+    }
   },
   {
     "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-kalamitsi-beach-32185350.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2023-07-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Nea Fokea",
       "country": "Greece",
@@ -559,12 +631,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Halkidiki Kalamitsi Beach · Nea Fokea, Greece"
+    "caption": "Halkidiki Kalamitsi Beach · Nea Fokea, Greece",
+    "gps": {
+      "lat": 40.1351,
+      "lon": 23.3978
+    }
   },
   {
     "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-mount-athos-view-18407697.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2023-07-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Nea Fokea",
       "country": "Greece",
@@ -579,12 +655,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Halkidiki Mount Athos View · Nea Fokea, Greece"
+    "caption": "Halkidiki Mount Athos View · Nea Fokea, Greece",
+    "gps": {
+      "lat": 40.1351,
+      "lon": 23.3978
+    }
   },
   {
     "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-sithonia-coast-aerial-32996880.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2023-07-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Nea Fokea",
       "country": "Greece",
@@ -599,12 +679,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Halkidiki Sithonia Coast Aerial · Nea Fokea, Greece"
+    "caption": "Halkidiki Sithonia Coast Aerial · Nea Fokea, Greece",
+    "gps": {
+      "lat": 40.1351,
+      "lon": 23.3978
+    }
   },
   {
     "src": "trips/2023-07-turkey/pexels-istanbul-galata-tower-street-29069777.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2023-07-14T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Istanbul",
       "country": "Turkey",
@@ -619,12 +703,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Galata Tower Street · Istanbul, Turkey"
+    "caption": "Galata Tower Street · Istanbul, Turkey",
+    "gps": {
+      "lat": 41.0093,
+      "lon": 28.9773
+    }
   },
   {
     "src": "trips/2023-08-romania/pexels-brasov-black-church-snow-35380540.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2023-08-25T10:03:37Z",
+    "hasGps": true,
     "place": {
       "city": "Brașov",
       "country": "Romania",
@@ -639,7 +727,11 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Black Church Snow · Brașov, Romania"
+    "caption": "Black Church Snow · Brașov, Romania",
+    "gps": {
+      "lat": 45.6542,
+      "lon": 25.5981
+    }
   },
   {
     "src": "trips/2023-08-romania/pexels-sinaia-peles-castle-autumn-18703684.jpg",
@@ -695,8 +787,8 @@
   },
   {
     "src": "trips/2024-09-albania-saranda/pexels-durres-cityscape-aerial-28459110.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-09-18T19:07:45Z",
+    "hasGps": true,
     "place": {
       "city": "Durrës",
       "country": "Albania",
@@ -711,12 +803,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Cityscape Aerial · Durrës, Albania"
+    "caption": "Cityscape Aerial · Durrës, Albania",
+    "gps": {
+      "lat": 41.3231,
+      "lon": 19.4414
+    }
   },
   {
     "src": "trips/2024-09-albania-saranda/pexels-durres-pier-adriatic-17405492.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-09-18T19:07:45Z",
+    "hasGps": true,
     "place": {
       "city": "Durrës",
       "country": "Albania",
@@ -731,12 +827,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Pier Adriatic · Durrës, Albania"
+    "caption": "Pier Adriatic · Durrës, Albania",
+    "gps": {
+      "lat": 41.3231,
+      "lon": 19.4414
+    }
   },
   {
     "src": "trips/2024-09-albania-saranda/pexels-durres-pier-sunset-34666713.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-09-18T19:07:45Z",
+    "hasGps": true,
     "place": {
       "city": "Durrës",
       "country": "Albania",
@@ -751,12 +851,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Pier Sunset · Durrës, Albania"
+    "caption": "Pier Sunset · Durrës, Albania",
+    "gps": {
+      "lat": 41.3231,
+      "lon": 19.4414
+    }
   },
   {
     "src": "trips/2024-09-albania-saranda/pexels-saranda-night-lights-6863718.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-09-18T19:07:45Z",
+    "hasGps": true,
     "place": {
       "city": "Saranda",
       "country": "Albania",
@@ -771,12 +875,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Night Lights · Saranda, Albania"
+    "caption": "Night Lights · Saranda, Albania",
+    "gps": {
+      "lat": 39.8738,
+      "lon": 20.0034
+    }
   },
   {
     "src": "trips/2024-09-albania-saranda/pexels-tirana-red-blue-tower-13706945.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-09-18T19:07:45Z",
+    "hasGps": true,
     "place": {
       "city": "Tirana",
       "country": "Albania",
@@ -791,12 +899,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Red Blue Tower · Tirana, Albania"
+    "caption": "Red Blue Tower · Tirana, Albania",
+    "gps": {
+      "lat": 41.3275,
+      "lon": 19.8189
+    }
   },
   {
     "src": "trips/2024-09-albania-saranda/pexels-tirana-skanderbeg-square-aerial-9707969.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-09-18T19:07:45Z",
+    "hasGps": true,
     "place": {
       "city": "Tirana",
       "country": "Albania",
@@ -811,12 +923,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Skanderbeg Square Aerial · Tirana, Albania"
+    "caption": "Skanderbeg Square Aerial · Tirana, Albania",
+    "gps": {
+      "lat": 41.3275,
+      "lon": 19.8189
+    }
   },
   {
     "src": "trips/2025-02-finland/pexels-helsinki-cathedral-dusk-2311602.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-02-22T17:54:01Z",
+    "hasGps": true,
     "place": {
       "city": "Helsinki",
       "country": "Finland",
@@ -831,12 +947,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Cathedral Dusk · Helsinki, Finland"
+    "caption": "Cathedral Dusk · Helsinki, Finland",
+    "gps": {
+      "lat": 60.1746,
+      "lon": 24.9523
+    }
   },
   {
     "src": "trips/2025-02-finland/pexels-helsinki-tram-sunrise-37079862.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-02-22T17:54:01Z",
+    "hasGps": true,
     "place": {
       "city": "Helsinki",
       "country": "Finland",
@@ -851,12 +971,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Tram Sunrise · Helsinki, Finland"
+    "caption": "Tram Sunrise · Helsinki, Finland",
+    "gps": {
+      "lat": 60.1746,
+      "lon": 24.9523
+    }
   },
   {
     "src": "trips/2025-02-finland/pexels-helsinki-winter-aerial-8751413.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-02-22T17:54:01Z",
+    "hasGps": true,
     "place": {
       "city": "Helsinki",
       "country": "Finland",
@@ -871,12 +995,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Winter Aerial · Helsinki, Finland"
+    "caption": "Winter Aerial · Helsinki, Finland",
+    "gps": {
+      "lat": 60.1746,
+      "lon": 24.9523
+    }
   },
   {
     "src": "trips/2025-03-romania/pexels-bucharest-neoclassical-tenement-17066982.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-03-29T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Bucharest",
       "country": "Romania",
@@ -891,12 +1019,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Neoclassical Tenement · Bucharest, Romania"
+    "caption": "Neoclassical Tenement · Bucharest, Romania",
+    "gps": {
+      "lat": 44.4278,
+      "lon": 26.1031
+    }
   },
   {
     "src": "trips/2025-03-romania/pexels-bucharest-parliament-cloudy-17066979.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-03-29T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Bucharest",
       "country": "Romania",
@@ -911,12 +1043,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Parliament Cloudy · Bucharest, Romania"
+    "caption": "Parliament Cloudy · Bucharest, Romania",
+    "gps": {
+      "lat": 44.4278,
+      "lon": 26.1031
+    }
   },
   {
     "src": "trips/2025-03-romania/pexels-bucharest-triumphal-arch-night-30210641.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-03-29T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Bucharest",
       "country": "Romania",
@@ -931,12 +1067,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Triumphal Arch Night · Bucharest, Romania"
+    "caption": "Triumphal Arch Night · Bucharest, Romania",
+    "gps": {
+      "lat": 44.4278,
+      "lon": 26.1031
+    }
   },
   {
     "src": "trips/2025-09-andalusia-gibraltar/pexels-granada-aerial-alhambra-36046534.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-09-12T17:16:08Z",
+    "hasGps": true,
     "place": {
       "city": "Granada",
       "country": "Spain",
@@ -951,12 +1091,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Aerial Alhambra · Granada, Spain"
+    "caption": "Aerial Alhambra · Granada, Spain",
+    "gps": {
+      "lat": 37.1773,
+      "lon": -3.5986
+    }
   },
   {
     "src": "trips/2025-09-andalusia-gibraltar/pexels-granada-albayzin-aerial-9035868.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-09-12T17:16:08Z",
+    "hasGps": true,
     "place": {
       "city": "Granada",
       "country": "Spain",
@@ -971,12 +1115,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Albayzin Aerial · Granada, Spain"
+    "caption": "Albayzin Aerial · Granada, Spain",
+    "gps": {
+      "lat": 37.1773,
+      "lon": -3.5986
+    }
   },
   {
     "src": "trips/2025-09-andalusia-gibraltar/pexels-granada-alhambra-court-of-lions-36895192.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-09-12T17:16:08Z",
+    "hasGps": true,
     "place": {
       "city": "Granada",
       "country": "Spain",
@@ -991,12 +1139,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Alhambra Court of Lions · Granada, Spain"
+    "caption": "Alhambra Court of Lions · Granada, Spain",
+    "gps": {
+      "lat": 37.1773,
+      "lon": -3.5986
+    }
   },
   {
     "src": "trips/2025-09-andalusia-gibraltar/pexels-granada-street-alhambra-view-30830807.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-09-12T17:16:08Z",
+    "hasGps": true,
     "place": {
       "city": "Granada",
       "country": "Spain",
@@ -1011,12 +1163,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Street Alhambra View · Granada, Spain"
+    "caption": "Street Alhambra View · Granada, Spain",
+    "gps": {
+      "lat": 37.1773,
+      "lon": -3.5986
+    }
   },
   {
     "src": "trips/2025-09-andalusia-gibraltar/pexels-marbella-club-pier-26646558.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-09-12T17:16:08Z",
+    "hasGps": true,
     "place": {
       "city": "Marbella",
       "country": "Spain",
@@ -1031,12 +1187,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Club Pier · Marbella, Spain"
+    "caption": "Club Pier · Marbella, Spain",
+    "gps": {
+      "lat": 36.5099,
+      "lon": -4.8861
+    }
   },
   {
     "src": "trips/2025-09-andalusia-gibraltar/pexels-marbella-coastline-aerial-15488149.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-09-12T17:16:08Z",
+    "hasGps": true,
     "place": {
       "city": "Marbella",
       "country": "Spain",
@@ -1051,12 +1211,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Coastline Aerial · Marbella, Spain"
+    "caption": "Coastline Aerial · Marbella, Spain",
+    "gps": {
+      "lat": 36.5099,
+      "lon": -4.8861
+    }
   },
   {
     "src": "trips/2025-09-andalusia-gibraltar/pexels-marbella-old-town-alley-18485259.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-09-12T17:16:08Z",
+    "hasGps": true,
     "place": {
       "city": "Marbella",
       "country": "Spain",
@@ -1071,12 +1235,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Old Town Alley · Marbella, Spain"
+    "caption": "Old Town Alley · Marbella, Spain",
+    "gps": {
+      "lat": 36.5099,
+      "lon": -4.8861
+    }
   },
   {
     "src": "trips/2025-09-andalusia-gibraltar/pexels-marbella-puerto-banus-yachts-33305408.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-09-12T17:16:08Z",
+    "hasGps": true,
     "place": {
       "city": "Marbella",
       "country": "Spain",
@@ -1091,12 +1259,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Puerto Banus Yachts · Marbella, Spain"
+    "caption": "Puerto Banus Yachts · Marbella, Spain",
+    "gps": {
+      "lat": 36.5099,
+      "lon": -4.8861
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-vejle-bolgen-waterfront-35135228.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-19T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Vejle",
       "country": "Denmark",
@@ -1112,11 +1284,15 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Bolgen Waterfront · Vejle, Denmark"
+    "caption": "Bolgen Waterfront · Vejle, Denmark",
+    "gps": {
+      "lat": 55.709,
+      "lon": 9.536
+    }
   },
   {
     "src": "trips/2018-07-turkey/pexels-marmaris-bay-marina-aerial-30981667.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 36.8551,
@@ -1141,7 +1317,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-marmaris-harbor-sailboats-36826787.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 36.8551,
@@ -1166,7 +1342,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-marmaris-castle-museum-36879737.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 36.8551,
@@ -1191,7 +1367,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-marmaris-pier-sunset-34802445.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 36.8551,
@@ -1216,7 +1392,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-marmaris-bay-forest-boats-36579189.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 36.8551,
@@ -1241,7 +1417,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-ephesus-ancient-columns-30375567.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 37.9416,
@@ -1266,7 +1442,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-ephesus-temple-ruins-30375556.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 37.9416,
@@ -1291,7 +1467,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-ephesus-roman-relief-30375558.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 37.9416,
@@ -1316,7 +1492,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-ephesus-roman-detail-32265867.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 37.9416,
@@ -1341,7 +1517,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-ephesus-celsus-library-33980084.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 37.9416,
@@ -1366,7 +1542,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-pamukkale-travertine-terraces-23322370.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 37.9214,
@@ -1391,7 +1567,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-pamukkale-terraces-sunset-29800608.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 37.9214,
@@ -1416,7 +1592,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-pamukkale-scenic-terraces-31627879.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 37.9214,
@@ -1441,7 +1617,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-pamukkale-thermal-blue-31627886.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 37.9214,
@@ -1466,7 +1642,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-pamukkale-travertine-pool-27829279.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 37.9214,
@@ -1491,7 +1667,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-izmir-clock-tower-konak-20702899.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 38.4192,
@@ -1516,7 +1692,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-izmir-konak-square-tower-24380464.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 38.4192,
@@ -1541,7 +1717,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-izmir-aerial-cityscape-11374865.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 38.4192,
@@ -1566,7 +1742,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-izmir-clock-tower-landscape-14451425.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 38.4192,
@@ -1591,7 +1767,7 @@
   },
   {
     "src": "trips/2018-07-turkey/pexels-izmir-clock-tower-blue-sky-13571072.jpg",
-    "takenAt": null,
+    "takenAt": "2018-07-15T12:00:00Z",
     "hasGps": true,
     "gps": {
       "lat": 38.4192,
@@ -6283,7 +6459,7 @@
   {
     "src": "trips/2023-07-greece-athens-halkidiki/pexels-halkidiki-kalamitsi-sunrise-28435910.jpg",
     "takenAt": "2023-07-06T12:00:00Z",
-    "hasGps": false,
+    "hasGps": true,
     "cameraModel": "Pexels stock",
     "place": {
       "city": "Nea Fokea",
@@ -6299,6 +6475,10 @@
       "photographerUrl": "https://www.pexels.com/@yassen-kounchev-889850329/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "gps": {
+      "lat": 40.1351,
+      "lon": 23.3978
     }
   },
   {
@@ -15191,8 +15371,8 @@
   },
   {
     "src": "trips/2022-10-denmark/pexels-ejby-explore-this-picturesque-nordic-35822384.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ejby",
       "country": "Denmark",
@@ -15207,12 +15387,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Explore this picturesque Nordic thatched cottage set in the idyllic Danish countryside · Ejby, Denmark"
+    "caption": "Explore this picturesque Nordic thatched cottage set in the idyllic Danish countryside · Ejby, Denmark",
+    "gps": {
+      "lat": 55.4279,
+      "lon": 9.9305
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-ejby-charming-danish-brick-house-35822383.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ejby",
       "country": "Denmark",
@@ -15227,12 +15411,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Charming Danish brick house with flags and green doors set in a rural landscape under a cloudy sky · Ejby, Denmark"
+    "caption": "Charming Danish brick house with flags and green doors set in a rural landscape under a cloudy sky · Ejby, Denmark",
+    "gps": {
+      "lat": 55.4279,
+      "lon": 9.9305
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-ejby-serene-lakeside-view-in-12919277.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ejby",
       "country": "Denmark",
@@ -15247,12 +15435,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Serene lakeside view in Denmark featuring clear reflections and a vibrant sky · Ejby, Denmark"
+    "caption": "Serene lakeside view in Denmark featuring clear reflections and a vibrant sky · Ejby, Denmark",
+    "gps": {
+      "lat": 55.4279,
+      "lon": 9.9305
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-ejby-vibrant-aerial-view-of-18624781.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ejby",
       "country": "Denmark",
@@ -15267,12 +15459,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "A vibrant aerial view of Aabenraa · Ejby, Denmark"
+    "caption": "A vibrant aerial view of Aabenraa · Ejby, Denmark",
+    "gps": {
+      "lat": 55.4279,
+      "lon": 9.9305
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-ejby-beautiful-historic-church-in-5157871.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ejby",
       "country": "Denmark",
@@ -15287,12 +15483,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Beautiful historic church in Denmark surrounded by a well · Ejby, Denmark"
+    "caption": "Beautiful historic church in Denmark surrounded by a well · Ejby, Denmark",
+    "gps": {
+      "lat": 55.4279,
+      "lon": 9.9305
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-grenaa-picturesque-view-of-boats-37014960.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Grenaa",
       "country": "Denmark",
@@ -15307,12 +15507,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Picturesque view of boats docked at the harbour in charming Sonderborg · Grenaa, Denmark"
+    "caption": "Picturesque view of boats docked at the harbour in charming Sonderborg · Grenaa, Denmark",
+    "gps": {
+      "lat": 56.4134,
+      "lon": 10.8793
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-grenaa-serene-view-of-fishing-34739816.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Grenaa",
       "country": "Denmark",
@@ -15327,12 +15531,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Serene view of fishing boats moored at Hvide Sande · Grenaa, Denmark"
+    "caption": "Serene view of fishing boats moored at Hvide Sande · Grenaa, Denmark",
+    "gps": {
+      "lat": 56.4134,
+      "lon": 10.8793
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-grenaa-serene-view-of-boats-27038744.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Grenaa",
       "country": "Denmark",
@@ -15347,12 +15555,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Serene view of boats docked at Årøsund marina · Grenaa, Denmark"
+    "caption": "Serene view of boats docked at Årøsund marina · Grenaa, Denmark",
+    "gps": {
+      "lat": 56.4134,
+      "lon": 10.8793
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-grenaa-serene-view-of-canal-35799156.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Grenaa",
       "country": "Denmark",
@@ -15367,12 +15579,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Serene view of a canal in Copenhagen with boats reflecting during sunset · Grenaa, Denmark"
+    "caption": "Serene view of a canal in Copenhagen with boats reflecting during sunset · Grenaa, Denmark",
+    "gps": {
+      "lat": 56.4134,
+      "lon": 10.8793
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-middelfart-scenic-view-of-the-20532681.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Middelfart",
       "country": "Denmark",
@@ -15387,12 +15603,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Scenic view of the New Little Belt Bridge spanning the coast in Middelfart · Middelfart, Denmark"
+    "caption": "Scenic view of the New Little Belt Bridge spanning the coast in Middelfart · Middelfart, Denmark",
+    "gps": {
+      "lat": 55.4993,
+      "lon": 9.7392
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-middelfart-stunning-aerial-shot-capturing-15158343.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Middelfart",
       "country": "Denmark",
@@ -15407,12 +15627,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Stunning aerial shot capturing the Little Belt Bridge enveloped in mist over calm waters · Middelfart, Denmark"
+    "caption": "Stunning aerial shot capturing the Little Belt Bridge enveloped in mist over calm waters · Middelfart, Denmark",
+    "gps": {
+      "lat": 55.4993,
+      "lon": 9.7392
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-middelfart-stunning-view-of-the-16783305.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Middelfart",
       "country": "Denmark",
@@ -15427,12 +15651,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Stunning view of the New Little Belt Bridge spanning the water in Middelfart · Middelfart, Denmark"
+    "caption": "Stunning view of the New Little Belt Bridge spanning the water in Middelfart · Middelfart, Denmark",
+    "gps": {
+      "lat": 55.4993,
+      "lon": 9.7392
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-middelfart-modern-suspension-bridge-spanning-16783266.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Middelfart",
       "country": "Denmark",
@@ -15447,12 +15675,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Modern suspension bridge spanning a scenic landscape in Denmark · Middelfart, Denmark"
+    "caption": "Modern suspension bridge spanning a scenic landscape in Denmark · Middelfart, Denmark",
+    "gps": {
+      "lat": 55.4993,
+      "lon": 9.7392
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-odense-historic-halftimbered-building-with-34646012.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Odense",
       "country": "Denmark",
@@ -15467,12 +15699,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "A historic half · Odense, Denmark"
+    "caption": "A historic half · Odense, Denmark",
+    "gps": {
+      "lat": 55.3997,
+      "lon": 10.3852
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-odense-scenic-view-of-colorful-772177.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Odense",
       "country": "Denmark",
@@ -15487,12 +15723,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Scenic view of colorful houses lining a cobblestone street in Odense · Odense, Denmark"
+    "caption": "Scenic view of colorful houses lining a cobblestone street in Odense · Odense, Denmark",
+    "gps": {
+      "lat": 55.3997,
+      "lon": 10.3852
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-odense-serene-night-view-of-6596441.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Odense",
       "country": "Denmark",
@@ -15507,12 +15747,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "A serene night view of Odense marina featuring illuminated buildings and moored boats reflecting in calm waters · Odense, Denmark"
+    "caption": "A serene night view of Odense marina featuring illuminated buildings and moored boats reflecting in calm waters · Odense, Denmark",
+    "gps": {
+      "lat": 55.3997,
+      "lon": 10.3852
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-randers-drone-shot-capturing-an-13274347.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Randers",
       "country": "Denmark",
@@ -15527,12 +15771,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Drone shot capturing an urban intersection and streets in Horsens · Randers, Denmark"
+    "caption": "Drone shot capturing an urban intersection and streets in Horsens · Randers, Denmark",
+    "gps": {
+      "lat": 56.4618,
+      "lon": 10.0371
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-randers-aerial-photograph-showcasing-the-13519732.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Randers",
       "country": "Denmark",
@@ -15547,12 +15795,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Aerial photograph showcasing the town of Horsens · Randers, Denmark"
+    "caption": "Aerial photograph showcasing the town of Horsens · Randers, Denmark",
+    "gps": {
+      "lat": 56.4618,
+      "lon": 10.0371
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-randers-explore-the-symmetrical-hedges-36027639.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Randers",
       "country": "Denmark",
@@ -15567,12 +15819,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Explore the symmetrical hedges and historic architecture of a Copenhagen park · Randers, Denmark"
+    "caption": "Explore the symmetrical hedges and historic architecture of a Copenhagen park · Randers, Denmark",
+    "gps": {
+      "lat": 56.4618,
+      "lon": 10.0371
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-randers-traditional-red-house-with-31678656.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Randers",
       "country": "Denmark",
@@ -15587,12 +15843,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Traditional red house with white windows in Copenhagen showcasing Scandinavian architecture · Randers, Denmark"
+    "caption": "Traditional red house with white windows in Copenhagen showcasing Scandinavian architecture · Randers, Denmark",
+    "gps": {
+      "lat": 56.4618,
+      "lon": 10.0371
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-randers-aerial-photograph-showcasing-residential-31809352.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Randers",
       "country": "Denmark",
@@ -15607,12 +15867,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Aerial photograph showcasing a residential area in Aarhus · Randers, Denmark"
+    "caption": "Aerial photograph showcasing a residential area in Aarhus · Randers, Denmark",
+    "gps": {
+      "lat": 56.4618,
+      "lon": 10.0371
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-silkeborg-scenic-view-of-calm-6535015.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Silkeborg",
       "country": "Denmark",
@@ -15627,12 +15891,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Scenic view of a calm lake reflecting a dense forest under a cloudy sky in Denmark · Silkeborg, Denmark"
+    "caption": "Scenic view of a calm lake reflecting a dense forest under a cloudy sky in Denmark · Silkeborg, Denmark",
+    "gps": {
+      "lat": 56.1695,
+      "lon": 9.5495
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-silkeborg-duck-and-her-ducklings-7219574.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Silkeborg",
       "country": "Denmark",
@@ -15647,12 +15915,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "A duck and her ducklings swim near a wooden jetty in a reedy lake in Denmark · Silkeborg, Denmark"
+    "caption": "A duck and her ducklings swim near a wooden jetty in a reedy lake in Denmark · Silkeborg, Denmark",
+    "gps": {
+      "lat": 56.1695,
+      "lon": 9.5495
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-silkeborg-picturesque-cottage-with-thatched-531234.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Silkeborg",
       "country": "Denmark",
@@ -15667,12 +15939,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Picturesque cottage with a thatched roof reflecting on a serene lake surrounded by lush greenery · Silkeborg, Denmark"
+    "caption": "Picturesque cottage with a thatched roof reflecting on a serene lake surrounded by lush greenery · Silkeborg, Denmark",
+    "gps": {
+      "lat": 56.1695,
+      "lon": 9.5495
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-aarhus-stunning-view-of-modern-31455361.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Aarhus",
       "country": "Denmark",
@@ -15687,12 +15963,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Stunning view of modern architecture along a canal in Aarhus · Aarhus, Denmark"
+    "caption": "Stunning view of modern architecture along a canal in Aarhus · Aarhus, Denmark",
+    "gps": {
+      "lat": 56.1918,
+      "lon": 10.2717
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-aarhus-contemporary-architecture-along-the-36268750.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Aarhus",
       "country": "Denmark",
@@ -15707,12 +15987,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Contemporary architecture along the Aarhus waterfront · Aarhus, Denmark"
+    "caption": "Contemporary architecture along the Aarhus waterfront · Aarhus, Denmark",
+    "gps": {
+      "lat": 56.1918,
+      "lon": 10.2717
+    }
   },
   {
     "src": "trips/2024-09-albania-saranda/pexels-durres-scenic-sea-view-of-19985024.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-09-18T19:07:45Z",
+    "hasGps": true,
     "place": {
       "city": "Durrës",
       "country": "Albania",
@@ -15727,12 +16011,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Scenic sea view of a pier stretching into the Adriatic Sea in Durrës · Durrës, Albania"
+    "caption": "Scenic sea view of a pier stretching into the Adriatic Sea in Durrës · Durrës, Albania",
+    "gps": {
+      "lat": 41.3231,
+      "lon": 19.4414
+    }
   },
   {
     "src": "trips/2024-09-albania-saranda/pexels-vlora-stunning-aerial-shot-of-28542717.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-09-18T19:07:45Z",
+    "hasGps": true,
     "place": {
       "city": "Vlora",
       "country": "Albania",
@@ -15747,12 +16035,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Stunning aerial shot of a serene beach resort in Albania · Vlora, Albania"
+    "caption": "Stunning aerial shot of a serene beach resort in Albania · Vlora, Albania",
+    "gps": {
+      "lat": 40.4686,
+      "lon": 19.4914
+    }
   },
   {
     "src": "trips/2019-07-belgium/pexels-ghent-explore-the-picturesque-medieval-37177110.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2019-07-30T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ghent",
       "country": "Belgium",
@@ -15767,12 +16059,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Explore the picturesque medieval architecture and canals of Ghent · Ghent, Belgium"
+    "caption": "Explore the picturesque medieval architecture and canals of Ghent · Ghent, Belgium",
+    "gps": {
+      "lat": 51.0509,
+      "lon": 3.7272
+    }
   },
   {
     "src": "trips/2019-07-belgium/pexels-brussels-stunning-view-of-ornate-12822731.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2019-07-30T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Brussels",
       "country": "Belgium",
@@ -15787,12 +16083,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Stunning view of ornate facades at Grand Place · Brussels, Belgium"
+    "caption": "Stunning view of ornate facades at Grand Place · Brussels, Belgium",
+    "gps": {
+      "lat": 50.8462,
+      "lon": 4.3547
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-viborg-charming-white-chapel-with-a-red-window-in-viborg--27156169.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Viborg",
       "country": "Denmark",
@@ -15807,12 +16107,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Viborg · Viborg, Denmark"
+    "caption": "Viborg · Viborg, Denmark",
+    "gps": {
+      "lat": 56.4469,
+      "lon": 9.4059
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-viborg-beautiful-view-of-the-twin-towers-of-pecs-cathedra-1322067.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Viborg",
       "country": "Denmark",
@@ -15827,12 +16131,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Viborg · Viborg, Denmark"
+    "caption": "Viborg · Viborg, Denmark",
+    "gps": {
+      "lat": 56.4469,
+      "lon": 9.4059
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-viborg-close-up-of-the-historic-grossmunster-twin-towers--35589867.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Viborg",
       "country": "Denmark",
@@ -15847,12 +16155,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Viborg · Viborg, Denmark"
+    "caption": "Viborg · Viborg, Denmark",
+    "gps": {
+      "lat": 56.4469,
+      "lon": 9.4059
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-viborg-front-view-of-a-historic-church-in-warburg-germany-30395412.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Viborg",
       "country": "Denmark",
@@ -15867,12 +16179,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Viborg · Viborg, Denmark"
+    "caption": "Viborg · Viborg, Denmark",
+    "gps": {
+      "lat": 56.4469,
+      "lon": 9.4059
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-viborg-a-picturesque-view-of-marienmunster-abbey-in-nordr-30624132.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Viborg",
       "country": "Denmark",
@@ -15887,12 +16203,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Viborg · Viborg, Denmark"
+    "caption": "Viborg · Viborg, Denmark",
+    "gps": {
+      "lat": 56.4469,
+      "lon": 9.4059
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-haderslev-a-serene-aerial-view-of-haderslev-lake-and-surroun-5630916.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Haderslev",
       "country": "Denmark",
@@ -15907,12 +16227,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Haderslev · Haderslev, Denmark"
+    "caption": "Haderslev · Haderslev, Denmark",
+    "gps": {
+      "lat": 55.2501,
+      "lon": 9.4998
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-haderslev-a-traditional-red-church-with-a-pointed-tower-in-g-36996025.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Haderslev",
       "country": "Denmark",
@@ -15927,12 +16251,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Haderslev · Haderslev, Denmark"
+    "caption": "Haderslev · Haderslev, Denmark",
+    "gps": {
+      "lat": 55.2501,
+      "lon": 9.4998
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-haderslev-beautiful-reflection-of-lubeck-cathedral-and-histo-22046718.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Haderslev",
       "country": "Denmark",
@@ -15947,12 +16275,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Haderslev · Haderslev, Denmark"
+    "caption": "Haderslev · Haderslev, Denmark",
+    "gps": {
+      "lat": 55.2501,
+      "lon": 9.4998
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-haderslev-beautiful-reflection-of-a-historic-castle-on-a-cal-16112618.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Haderslev",
       "country": "Denmark",
@@ -15967,12 +16299,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Haderslev · Haderslev, Denmark"
+    "caption": "Haderslev · Haderslev, Denmark",
+    "gps": {
+      "lat": 55.2501,
+      "lon": 9.4998
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-haderslev-a-picturesque-old-church-with-distinctive-brick-an-36147227.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Haderslev",
       "country": "Denmark",
@@ -15987,12 +16323,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Haderslev · Haderslev, Denmark"
+    "caption": "Haderslev · Haderslev, Denmark",
+    "gps": {
+      "lat": 55.2501,
+      "lon": 9.4998
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-vojens-charming-historic-church-in-hvide-sande-denmark-un-34865976.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Vojens",
       "country": "Denmark",
@@ -16007,12 +16347,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Vojens · Vojens, Denmark"
+    "caption": "Vojens · Vojens, Denmark",
+    "gps": {
+      "lat": 55.2464,
+      "lon": 9.3082
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-vojens-a-cyclist-rides-past-the-historic-white-sand-burie-34721450.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Vojens",
       "country": "Denmark",
@@ -16027,12 +16371,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Vojens · Vojens, Denmark"
+    "caption": "Vojens · Vojens, Denmark",
+    "gps": {
+      "lat": 55.2464,
+      "lon": 9.3082
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-vojens-a-historic-white-church-tower-in-skagen-denmark-fr-9932551.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Vojens",
       "country": "Denmark",
@@ -16047,12 +16395,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Vojens · Vojens, Denmark"
+    "caption": "Vojens · Vojens, Denmark",
+    "gps": {
+      "lat": 55.2464,
+      "lon": 9.3082
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-vojens-charming-white-house-next-to-a-traditional-brick-c-32779597.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Vojens",
       "country": "Denmark",
@@ -16067,12 +16419,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Vojens · Vojens, Denmark"
+    "caption": "Vojens · Vojens, Denmark",
+    "gps": {
+      "lat": 55.2464,
+      "lon": 9.3082
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-vojens-beautiful-view-of-ansanger-church-and-its-gardens--26180630.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Vojens",
       "country": "Denmark",
@@ -16087,12 +16443,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Vojens · Vojens, Denmark"
+    "caption": "Vojens · Vojens, Denmark",
+    "gps": {
+      "lat": 55.2464,
+      "lon": 9.3082
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-christiansfeld-a-historic-church-with-an-arched-roof-and-danish-f-12919280.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Christiansfeld",
       "country": "Denmark",
@@ -16107,12 +16467,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Christiansfeld Moravian Settlement · Christiansfeld, Denmark"
+    "caption": "Christiansfeld Moravian Settlement · Christiansfeld, Denmark",
+    "gps": {
+      "lat": 55.359,
+      "lon": 9.4905
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-christiansfeld-bright-sunny-day-at-a-church-in-hvide-sande-denmar-34865974.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Christiansfeld",
       "country": "Denmark",
@@ -16127,12 +16491,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Christiansfeld Moravian Settlement · Christiansfeld, Denmark"
+    "caption": "Christiansfeld Moravian Settlement · Christiansfeld, Denmark",
+    "gps": {
+      "lat": 55.359,
+      "lon": 9.4905
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-christiansfeld-danish-church-with-a-clock-tower-set-in-a-serene-v-29106371.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Christiansfeld",
       "country": "Denmark",
@@ -16147,12 +16515,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Christiansfeld Moravian Settlement · Christiansfeld, Denmark"
+    "caption": "Christiansfeld Moravian Settlement · Christiansfeld, Denmark",
+    "gps": {
+      "lat": 55.359,
+      "lon": 9.4905
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-christiansfeld-brick-tower-with-clock-and-danish-flag-in-ringkobi-27156135.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Christiansfeld",
       "country": "Denmark",
@@ -16167,12 +16539,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Christiansfeld Moravian Settlement · Christiansfeld, Denmark"
+    "caption": "Christiansfeld Moravian Settlement · Christiansfeld, Denmark",
+    "gps": {
+      "lat": 55.359,
+      "lon": 9.4905
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-christiansfeld-beautiful-view-of-mabjerg-church-in-denmark-surrou-19703629.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Christiansfeld",
       "country": "Denmark",
@@ -16187,12 +16563,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Christiansfeld Moravian Settlement · Christiansfeld, Denmark"
+    "caption": "Christiansfeld Moravian Settlement · Christiansfeld, Denmark",
+    "gps": {
+      "lat": 55.359,
+      "lon": 9.4905
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-herning-aerial-view-of-herning-denmark-showcasing-urban-ar-13762300.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Herning",
       "country": "Denmark",
@@ -16207,12 +16587,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Herning · Herning, Denmark"
+    "caption": "Herning · Herning, Denmark",
+    "gps": {
+      "lat": 56.138,
+      "lon": 8.9747
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-herning-vintage-green-locomotive-displayed-outside-a-railw-35189184.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Herning",
       "country": "Denmark",
@@ -16227,12 +16611,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Herning · Herning, Denmark"
+    "caption": "Herning · Herning, Denmark",
+    "gps": {
+      "lat": 56.138,
+      "lon": 8.9747
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-herning-a-vibrant-blue-fishing-boat-moored-at-helsingor-ha-5334300.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Herning",
       "country": "Denmark",
@@ -16247,12 +16635,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Herning · Herning, Denmark"
+    "caption": "Herning · Herning, Denmark",
+    "gps": {
+      "lat": 56.138,
+      "lon": 8.9747
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-herning-heart-shaped-light-decorations-illuminate-the-stre-36377732.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Herning",
       "country": "Denmark",
@@ -16267,12 +16659,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Herning · Herning, Denmark"
+    "caption": "Herning · Herning, Denmark",
+    "gps": {
+      "lat": 56.138,
+      "lon": 8.9747
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-herning-a-vibrant-view-of-the-medizin-historisches-museum--29899050.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Herning",
       "country": "Denmark",
@@ -16287,12 +16683,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Herning · Herning, Denmark"
+    "caption": "Herning · Herning, Denmark",
+    "gps": {
+      "lat": 56.138,
+      "lon": 8.9747
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-holstebro-a-peaceful-stroll-by-the-sea-with-sculptures-and-l-25473965.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Holstebro",
       "country": "Denmark",
@@ -16307,12 +16707,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Holstebro · Holstebro, Denmark"
+    "caption": "Holstebro · Holstebro, Denmark",
+    "gps": {
+      "lat": 56.359,
+      "lon": 8.6159
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-holstebro-scenic-cobblestone-street-in-tondern-denmark-at-ni-29614201.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Holstebro",
       "country": "Denmark",
@@ -16327,12 +16731,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Holstebro · Holstebro, Denmark"
+    "caption": "Holstebro · Holstebro, Denmark",
+    "gps": {
+      "lat": 56.359,
+      "lon": 8.6159
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-holstebro-black-and-white-photo-of-a-traditional-danish-hous-29719925.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Holstebro",
       "country": "Denmark",
@@ -16347,12 +16755,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Holstebro · Holstebro, Denmark"
+    "caption": "Holstebro · Holstebro, Denmark",
+    "gps": {
+      "lat": 56.359,
+      "lon": 8.6159
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-holstebro-long-yellow-facade-with-windows-and-a-dark-wooden--16112614.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Holstebro",
       "country": "Denmark",
@@ -16367,12 +16779,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Holstebro · Holstebro, Denmark"
+    "caption": "Holstebro · Holstebro, Denmark",
+    "gps": {
+      "lat": 56.359,
+      "lon": 8.6159
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-holstebro-explore-the-quaint-architecture-and-charming-cobbl-27425247.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Holstebro",
       "country": "Denmark",
@@ -16387,12 +16803,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Holstebro · Holstebro, Denmark"
+    "caption": "Holstebro · Holstebro, Denmark",
+    "gps": {
+      "lat": 56.359,
+      "lon": 8.6159
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-skive-peaceful-cobblestone-street-in-sonderborg-denmark--19755266.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Skive",
       "country": "Denmark",
@@ -16407,12 +16827,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Skive · Limfjord · Skive, Denmark"
+    "caption": "Skive · Limfjord · Skive, Denmark",
+    "gps": {
+      "lat": 56.6459,
+      "lon": 8.9327
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-skive-street-view-of-charming-yellow-houses-with-tiled-r-32779546.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Skive",
       "country": "Denmark",
@@ -16427,12 +16851,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Skive · Limfjord · Skive, Denmark"
+    "caption": "Skive · Limfjord · Skive, Denmark",
+    "gps": {
+      "lat": 56.6459,
+      "lon": 8.9327
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-skive-quaint-cobblestone-street-flanked-by-historic-buil-18587007.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Skive",
       "country": "Denmark",
@@ -16447,12 +16875,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Skive · Limfjord · Skive, Denmark"
+    "caption": "Skive · Limfjord · Skive, Denmark",
+    "gps": {
+      "lat": 56.6459,
+      "lon": 8.9327
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-skive-discover-sonderborg-s-picturesque-harbor-with-sail-7019958.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Skive",
       "country": "Denmark",
@@ -16467,12 +16899,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Skive · Limfjord · Skive, Denmark"
+    "caption": "Skive · Limfjord · Skive, Denmark",
+    "gps": {
+      "lat": 56.6459,
+      "lon": 8.9327
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-skive-elegant-white-town-hall-building-with-flags-on-dis-1405500.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Skive",
       "country": "Denmark",
@@ -16487,12 +16923,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Skive · Limfjord · Skive, Denmark"
+    "caption": "Skive · Limfjord · Skive, Denmark",
+    "gps": {
+      "lat": 56.6459,
+      "lon": 8.9327
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-hobro-serene-coastal-landscape-of-snaptun-denmark-with-r-34617781.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Hobro",
       "country": "Denmark",
@@ -16507,12 +16947,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Hobro · Hobro, Denmark"
+    "caption": "Hobro · Hobro, Denmark",
+    "gps": {
+      "lat": 56.6372,
+      "lon": 9.794
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-hobro-tranquil-beach-in-denmark-overlooking-a-serene-fjo-32156521.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Hobro",
       "country": "Denmark",
@@ -16527,12 +16971,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Hobro · Hobro, Denmark"
+    "caption": "Hobro · Hobro, Denmark",
+    "gps": {
+      "lat": 56.6372,
+      "lon": 9.794
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-hobro-a-picturesque-winter-view-of-sonderborg-s-colorful-36214779.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Hobro",
       "country": "Denmark",
@@ -16547,12 +16995,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Hobro · Hobro, Denmark"
+    "caption": "Hobro · Hobro, Denmark",
+    "gps": {
+      "lat": 56.6372,
+      "lon": 9.794
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-hobro-peaceful-sunset-view-of-a-wooden-pier-over-calm-wa-19173393.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Hobro",
       "country": "Denmark",
@@ -16567,12 +17019,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Hobro · Hobro, Denmark"
+    "caption": "Hobro · Hobro, Denmark",
+    "gps": {
+      "lat": 56.6372,
+      "lon": 9.794
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-hobro-tranquil-coastal-path-along-a-serene-lake-in-sonde-35079604.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Hobro",
       "country": "Denmark",
@@ -16587,12 +17043,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Hobro · Hobro, Denmark"
+    "caption": "Hobro · Hobro, Denmark",
+    "gps": {
+      "lat": 56.6372,
+      "lon": 9.794
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-hvide-sande-idyllic-scene-of-fishing-boats-moored-in-hvide-san-34739817.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Hvide Sande",
       "country": "Denmark",
@@ -16607,12 +17067,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Hvide Sande Harbour · Hvide Sande, Denmark"
+    "caption": "Hvide Sande Harbour · Hvide Sande, Denmark",
+    "gps": {
+      "lat": 56.0058,
+      "lon": 8.1288
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-hvide-sande-idyllic-beach-scene-with-wind-turbines-in-hvide-sa-35219186.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Hvide Sande",
       "country": "Denmark",
@@ -16627,12 +17091,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Hvide Sande Harbour · Hvide Sande, Denmark"
+    "caption": "Hvide Sande Harbour · Hvide Sande, Denmark",
+    "gps": {
+      "lat": 56.0058,
+      "lon": 8.1288
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-hvide-sande-a-vibrant-red-and-white-fishing-ship-docked-at-hvi-34526002.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Hvide Sande",
       "country": "Denmark",
@@ -16647,12 +17115,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Hvide Sande Harbour · Hvide Sande, Denmark"
+    "caption": "Hvide Sande Harbour · Hvide Sande, Denmark",
+    "gps": {
+      "lat": 56.0058,
+      "lon": 8.1288
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-hvide-sande-aerial-view-of-the-sandy-hvide-sande-beach-with-wa-15914141.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Hvide Sande",
       "country": "Denmark",
@@ -16667,12 +17139,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Hvide Sande Harbour · Hvide Sande, Denmark"
+    "caption": "Hvide Sande Harbour · Hvide Sande, Denmark",
+    "gps": {
+      "lat": 56.0058,
+      "lon": 8.1288
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-hvide-sande-enjoy-a-peaceful-coastal-view-at-hvide-sande-denma-36096855.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Hvide Sande",
       "country": "Denmark",
@@ -16687,12 +17163,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Hvide Sande Harbour · Hvide Sande, Denmark"
+    "caption": "Hvide Sande Harbour · Hvide Sande, Denmark",
+    "gps": {
+      "lat": 56.0058,
+      "lon": 8.1288
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-thorsminde-serene-view-of-fishing-boats-on-the-sandy-coast-of-34770961.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Thorsminde",
       "country": "Denmark",
@@ -16707,12 +17187,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Thorsminde · Thorsminde, Denmark"
+    "caption": "Thorsminde · Thorsminde, Denmark",
+    "gps": {
+      "lat": 56.3745,
+      "lon": 8.1232
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-thorsminde-a-serene-view-of-traditional-coastal-huts-in-thist-34770962.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Thorsminde",
       "country": "Denmark",
@@ -16727,12 +17211,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Thorsminde · Thorsminde, Denmark"
+    "caption": "Thorsminde · Thorsminde, Denmark",
+    "gps": {
+      "lat": 56.3745,
+      "lon": 8.1232
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-thorsminde-fishing-boats-resting-on-sandy-thisted-beach-at-su-34770966.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Thorsminde",
       "country": "Denmark",
@@ -16747,12 +17235,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Thorsminde · Thorsminde, Denmark"
+    "caption": "Thorsminde · Thorsminde, Denmark",
+    "gps": {
+      "lat": 56.3745,
+      "lon": 8.1232
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-thorsminde-fishing-boats-anchored-on-the-sandy-shores-of-this-34770959.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Thorsminde",
       "country": "Denmark",
@@ -16767,12 +17259,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Thorsminde · Thorsminde, Denmark"
+    "caption": "Thorsminde · Thorsminde, Denmark",
+    "gps": {
+      "lat": 56.3745,
+      "lon": 8.1232
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-thorsminde-three-fishing-boats-on-a-sandy-danish-beach-under--32755608.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Thorsminde",
       "country": "Denmark",
@@ -16787,12 +17283,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Thorsminde · Thorsminde, Denmark"
+    "caption": "Thorsminde · Thorsminde, Denmark",
+    "gps": {
+      "lat": 56.3745,
+      "lon": 8.1232
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-brande-scenic-view-of-lush-green-hills-and-coastline-on-s-18134307.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Brande",
       "country": "Denmark",
@@ -16807,12 +17307,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Brande · Denmark · Brande, Denmark"
+    "caption": "Brande · Denmark · Brande, Denmark",
+    "gps": {
+      "lat": 55.9445,
+      "lon": 9.1283
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-brande-explore-the-tranquil-coastal-dunes-and-natural-wat-31480134.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Brande",
       "country": "Denmark",
@@ -16827,12 +17331,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Brande · Denmark · Brande, Denmark"
+    "caption": "Brande · Denmark · Brande, Denmark",
+    "gps": {
+      "lat": 55.9445,
+      "lon": 9.1283
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-brande-explore-the-serene-beauty-of-a-wwii-bunker-at-hans-27460822.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Brande",
       "country": "Denmark",
@@ -16847,12 +17355,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Brande · Denmark · Brande, Denmark"
+    "caption": "Brande · Denmark · Brande, Denmark",
+    "gps": {
+      "lat": 55.9445,
+      "lon": 9.1283
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-brande-warm-evening-view-of-brondums-hotel-with-lights-an-13828803.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Brande",
       "country": "Denmark",
@@ -16867,12 +17379,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Brande · Denmark · Brande, Denmark"
+    "caption": "Brande · Denmark · Brande, Denmark",
+    "gps": {
+      "lat": 55.9445,
+      "lon": 9.1283
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-brande-coastal-fishing-boats-on-thisted-beach-during-a-be-34770965.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Brande",
       "country": "Denmark",
@@ -16887,12 +17403,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Brande · Denmark · Brande, Denmark"
+    "caption": "Brande · Denmark · Brande, Denmark",
+    "gps": {
+      "lat": 55.9445,
+      "lon": 9.1283
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-blaavand-stunning-coastal-view-of-blavand-lighthouse-in-den-27640904.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Blåvand",
       "country": "Denmark",
@@ -16907,12 +17427,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Blåvand Lighthouse · Blåvand, Denmark"
+    "caption": "Blåvand Lighthouse · Blåvand, Denmark",
+    "gps": {
+      "lat": 55.5551,
+      "lon": 8.1017
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-blaavand-a-stunning-view-of-the-rugged-danish-coastline-wit-34534211.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Blåvand",
       "country": "Denmark",
@@ -16927,12 +17451,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Blåvand Lighthouse · Blåvand, Denmark"
+    "caption": "Blåvand Lighthouse · Blåvand, Denmark",
+    "gps": {
+      "lat": 55.5551,
+      "lon": 8.1017
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-blaavand-scenic-lighthouse-on-a-grassy-hill-in-thisted-denm-34770958.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Blåvand",
       "country": "Denmark",
@@ -16947,12 +17475,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Blåvand Lighthouse · Blåvand, Denmark"
+    "caption": "Blåvand Lighthouse · Blåvand, Denmark",
+    "gps": {
+      "lat": 55.5551,
+      "lon": 8.1017
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-blaavand-discover-the-striking-red-lighthouse-in-lemvig-set-29887969.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Blåvand",
       "country": "Denmark",
@@ -16967,12 +17499,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Blåvand Lighthouse · Blåvand, Denmark"
+    "caption": "Blåvand Lighthouse · Blåvand, Denmark",
+    "gps": {
+      "lat": 55.5551,
+      "lon": 8.1017
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-blaavand-vibrant-red-lighthouse-and-building-under-a-clear--29887999.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Blåvand",
       "country": "Denmark",
@@ -16987,12 +17523,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Blåvand Lighthouse · Blåvand, Denmark"
+    "caption": "Blåvand Lighthouse · Blåvand, Denmark",
+    "gps": {
+      "lat": 55.5551,
+      "lon": 8.1017
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-copenhagen-beautiful-night-scene-of-tivoli-gardens-with-pagod-20141798.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Copenhagen",
       "country": "Denmark",
@@ -17007,12 +17547,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Copenhagen · Copenhagen, Denmark"
+    "caption": "Copenhagen · Copenhagen, Denmark",
+    "gps": {
+      "lat": 55.6761,
+      "lon": 12.5683
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-copenhagen-a-night-view-of-the-brightly-lit-entrance-of-tivol-16140941.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Copenhagen",
       "country": "Denmark",
@@ -17027,12 +17571,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Copenhagen · Copenhagen, Denmark"
+    "caption": "Copenhagen · Copenhagen, Denmark",
+    "gps": {
+      "lat": 55.6761,
+      "lon": 12.5683
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-ribe-explore-the-medieval-architecture-of-ribe-cathedra-28911833.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ribe",
       "country": "Denmark",
@@ -17047,12 +17595,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Ribe Cathedral · Ribe, Denmark"
+    "caption": "Ribe Cathedral · Ribe, Denmark",
+    "gps": {
+      "lat": 55.3284,
+      "lon": 8.7648
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-ribe-historic-doberan-abbey-captured-on-a-sunny-day-wit-15816420.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ribe",
       "country": "Denmark",
@@ -17067,12 +17619,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Ribe Cathedral · Ribe, Denmark"
+    "caption": "Ribe Cathedral · Ribe, Denmark",
+    "gps": {
+      "lat": 55.3284,
+      "lon": 8.7648
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-ribe-majestic-view-of-the-historic-konigsberg-cathedral-12471562.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ribe",
       "country": "Denmark",
@@ -17087,12 +17643,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Ribe Cathedral · Ribe, Denmark"
+    "caption": "Ribe Cathedral · Ribe, Denmark",
+    "gps": {
+      "lat": 55.3284,
+      "lon": 8.7648
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-ribe-explore-the-majestic-nave-and-altar-of-bardowick-c-31307128.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ribe",
       "country": "Denmark",
@@ -17107,12 +17667,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Ribe Cathedral · Ribe, Denmark"
+    "caption": "Ribe Cathedral · Ribe, Denmark",
+    "gps": {
+      "lat": 55.3284,
+      "lon": 8.7648
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-ribe-low-angle-view-of-a-historic-brick-cathedral-facad-36928229.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ribe",
       "country": "Denmark",
@@ -17127,12 +17691,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Ribe Cathedral · Ribe, Denmark"
+    "caption": "Ribe Cathedral · Ribe, Denmark",
+    "gps": {
+      "lat": 55.3284,
+      "lon": 8.7648
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-billund-rustic-barn-with-danish-flags-in-a-lush-landscape--34458174.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-27T12:26:03Z",
+    "hasGps": true,
     "place": {
       "city": "Billund",
       "country": "Denmark",
@@ -17147,12 +17715,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Billund · Billund, Denmark"
+    "caption": "Billund · Billund, Denmark",
+    "gps": {
+      "lat": 55.7329,
+      "lon": 9.1225
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-billund-colorful-wooden-sheds-in-assens-denmark-under-clea-35568168.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-27T12:26:03Z",
+    "hasGps": true,
     "place": {
       "city": "Billund",
       "country": "Denmark",
@@ -17167,12 +17739,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Billund · Billund, Denmark"
+    "caption": "Billund · Billund, Denmark",
+    "gps": {
+      "lat": 55.7329,
+      "lon": 9.1225
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-billund-charming-painted-facades-of-colorful-historic-buil-37014936.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-27T12:26:03Z",
+    "hasGps": true,
     "place": {
       "city": "Billund",
       "country": "Denmark",
@@ -17187,12 +17763,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Billund · Billund, Denmark"
+    "caption": "Billund · Billund, Denmark",
+    "gps": {
+      "lat": 55.7329,
+      "lon": 9.1225
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-tonder-picturesque-view-of-a-cobblestone-street-flanked-b-36343205.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Tønder",
       "country": "Denmark",
@@ -17207,12 +17787,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Tønder · Tønder, Denmark"
+    "caption": "Tønder · Tønder, Denmark",
+    "gps": {
+      "lat": 54.935,
+      "lon": 8.8666
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-tonder-charming-half-timbered-building-with-intricate-sig-35317157.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Tønder",
       "country": "Denmark",
@@ -17227,12 +17811,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Tønder · Tønder, Denmark"
+    "caption": "Tønder · Tønder, Denmark",
+    "gps": {
+      "lat": 54.935,
+      "lon": 8.8666
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-esbjerg-a-striking-historic-brick-building-with-a-tower-in-18947583.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Esbjerg",
       "country": "Denmark",
@@ -17247,12 +17835,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Esbjerg · Esbjerg, Denmark"
+    "caption": "Esbjerg · Esbjerg, Denmark",
+    "gps": {
+      "lat": 55.4671,
+      "lon": 8.4521
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-esbjerg-beautiful-brick-church-with-a-clock-tower-in-esbje-18947580.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Esbjerg",
       "country": "Denmark",
@@ -17267,12 +17859,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Esbjerg · Esbjerg, Denmark"
+    "caption": "Esbjerg · Esbjerg, Denmark",
+    "gps": {
+      "lat": 55.4671,
+      "lon": 8.4521
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-fredericia-a-close-up-of-a-historic-cannon-set-against-a-brig-246982.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Fredericia",
       "country": "Denmark",
@@ -17287,12 +17883,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Fredericia · Fredericia, Denmark"
+    "caption": "Fredericia · Fredericia, Denmark",
+    "gps": {
+      "lat": 55.5666,
+      "lon": 9.7522
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-fredericia-historic-brick-buildings-in-svendborg-denmark-unde-32766438.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Fredericia",
       "country": "Denmark",
@@ -17307,12 +17907,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Fredericia · Fredericia, Denmark"
+    "caption": "Fredericia · Fredericia, Denmark",
+    "gps": {
+      "lat": 55.5666,
+      "lon": 9.7522
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-fredericia-explore-the-historic-charm-of-a-fortress-in-sonder-37014935.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Fredericia",
       "country": "Denmark",
@@ -17327,12 +17931,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Fredericia · Fredericia, Denmark"
+    "caption": "Fredericia · Fredericia, Denmark",
+    "gps": {
+      "lat": 55.5666,
+      "lon": 9.7522
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-fredericia-aerial-shot-showcasing-a-historic-hilltop-castle-w-13248812.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Fredericia",
       "country": "Denmark",
@@ -17347,12 +17955,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Fredericia · Fredericia, Denmark"
+    "caption": "Fredericia · Fredericia, Denmark",
+    "gps": {
+      "lat": 55.5666,
+      "lon": 9.7522
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-kolding-capture-of-the-ancient-koldinghus-castle-in-koldin-13398286.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Kolding",
       "country": "Denmark",
@@ -17367,12 +17979,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Koldinghus Castle · Kolding · Kolding, Denmark"
+    "caption": "Koldinghus Castle · Kolding · Kolding, Denmark",
+    "gps": {
+      "lat": 55.4896,
+      "lon": 9.4743
+    }
   },
   {
     "src": "trips/2020-02-denmark/pexels-kolding-explore-the-scenic-trojborg-castle-ruins-reflectin-20820928.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2020-02-17T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Kolding",
       "country": "Denmark",
@@ -17387,12 +18003,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Koldinghus Castle · Kolding · Kolding, Denmark"
+    "caption": "Koldinghus Castle · Kolding · Kolding, Denmark",
+    "gps": {
+      "lat": 55.4896,
+      "lon": 9.4743
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-silkeborg-aerial-shot-of-a-forest-trail-along-a-river-in-sil-8062331.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Silkeborg",
       "country": "Denmark",
@@ -17407,12 +18027,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Silkeborg Lakes · Silkeborg, Denmark"
+    "caption": "Silkeborg Lakes · Silkeborg, Denmark",
+    "gps": {
+      "lat": 56.1695,
+      "lon": 9.5495
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-silkeborg-calm-morning-at-a-mist-covered-lake-in-silkeborg-d-14213387.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Silkeborg",
       "country": "Denmark",
@@ -17427,12 +18051,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Silkeborg Lakes · Silkeborg, Denmark"
+    "caption": "Silkeborg Lakes · Silkeborg, Denmark",
+    "gps": {
+      "lat": 56.1695,
+      "lon": 9.5495
+    }
   },
   {
     "src": "trips/2022-08-denmark/pexels-aalborg-modern-architectural-playground-structure-by-the-l-2326027.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-08-10T18:35:09Z",
+    "hasGps": true,
     "place": {
       "city": "Aalborg",
       "country": "Denmark",
@@ -17447,12 +18075,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Aalborg · Aalborg, Denmark"
+    "caption": "Aalborg · Aalborg, Denmark",
+    "gps": {
+      "lat": 57.046,
+      "lon": 9.9187
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-odense-stunning-facade-of-odense-courthouse-with-lady-jus-33487094.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Odense",
       "country": "Denmark",
@@ -17467,12 +18099,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Odense · Odense, Denmark"
+    "caption": "Odense · Odense, Denmark",
+    "gps": {
+      "lat": 55.3997,
+      "lon": 10.3852
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-odense-colorful-traditional-house-in-arhus-denmark-showca-36116787.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Odense",
       "country": "Denmark",
@@ -17487,12 +18123,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Odense · Odense, Denmark"
+    "caption": "Odense · Odense, Denmark",
+    "gps": {
+      "lat": 55.3997,
+      "lon": 10.3852
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-grenaa-peaceful-harbour-view-with-docked-boats-and-fisher-33452322.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Grenaa",
       "country": "Denmark",
@@ -17507,12 +18147,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Grenaa Harbour · Grenaa, Denmark"
+    "caption": "Grenaa Harbour · Grenaa, Denmark",
+    "gps": {
+      "lat": 56.4134,
+      "lon": 10.8793
+    }
   },
   {
     "src": "trips/2022-10-denmark/pexels-middelfart-aerial-view-of-the-fog-covered-suspension-bridge-i-15158334.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Middelfart",
       "country": "Denmark",
@@ -17527,12 +18171,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Middelfart · Little Belt · Middelfart, Denmark"
+    "caption": "Middelfart · Little Belt · Middelfart, Denmark",
+    "gps": {
+      "lat": 55.4993,
+      "lon": 9.7392
+    }
   },
   {
     "src": "trips/2024-09-albania-saranda/pexels-berat-scenic-view-of-traditional-ottoman-style-buildings-37023110.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-09-18T19:07:45Z",
+    "hasGps": true,
     "place": {
       "city": "Berat",
       "country": "Albania",
@@ -17547,12 +18195,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Berat Old Town · Berat, Albania"
+    "caption": "Berat Old Town · Berat, Albania",
+    "gps": {
+      "lat": 40.7058,
+      "lon": 19.9522
+    }
   },
   {
     "src": "trips/2023-07-greece-athens-halkidiki/pexels-athens-a-breathtaking-aerial-view-of-the-acropolis-toweri-14810394.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Athens",
       "country": "Greece",
@@ -17567,12 +18219,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Acropolis · Athens · Athens, Greece"
+    "caption": "Acropolis · Athens · Athens, Greece",
+    "gps": {
+      "lat": 37.9746,
+      "lon": 23.9922
+    }
   },
   {
     "src": "trips/2023-07-greece-athens-halkidiki/pexels-athens-stunning-aerial-panorama-of-athens-showcasing-acro-19689675.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2023-07-06T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Athens",
       "country": "Greece",
@@ -17587,12 +18243,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Acropolis · Athens · Athens, Greece"
+    "caption": "Acropolis · Athens · Athens, Greece",
+    "gps": {
+      "lat": 37.9746,
+      "lon": 23.9922
+    }
   },
   {
     "src": "trips/2022-07-greece/pexels-abdera-historic-stone-structures-overlooking-the-sea-in-d-31054411.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-07-22T14:26:34Z",
+    "hasGps": true,
     "place": {
       "city": "Abdera",
       "country": "Greece",
@@ -17607,12 +18267,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Abdera Ancient Site · Abdera, Greece"
+    "caption": "Abdera Ancient Site · Abdera, Greece",
+    "gps": {
+      "lat": 40.9373,
+      "lon": 24.9565
+    }
   },
   {
     "src": "trips/2022-07-greece/pexels-abdera-explore-the-ancient-ruins-of-the-temple-of-athena--31249700.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-07-22T14:26:34Z",
+    "hasGps": true,
     "place": {
       "city": "Abdera",
       "country": "Greece",
@@ -17627,12 +18291,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Abdera Ancient Site · Abdera, Greece"
+    "caption": "Abdera Ancient Site · Abdera, Greece",
+    "gps": {
+      "lat": 40.9373,
+      "lon": 24.9565
+    }
   },
   {
     "src": "trips/2022-07-greece/pexels-abdera-explore-the-ancient-stone-ruins-under-a-clear-blue-12912704.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-07-22T14:26:34Z",
+    "hasGps": true,
     "place": {
       "city": "Abdera",
       "country": "Greece",
@@ -17647,12 +18315,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Abdera Ancient Site · Abdera, Greece"
+    "caption": "Abdera Ancient Site · Abdera, Greece",
+    "gps": {
+      "lat": 40.9373,
+      "lon": 24.9565
+    }
   },
   {
     "src": "trips/2022-07-greece/pexels-abdera-ancient-stone-columns-with-a-lighthouse-in-the-bac-34980375.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-07-22T14:26:34Z",
+    "hasGps": true,
     "place": {
       "city": "Abdera",
       "country": "Greece",
@@ -17667,12 +18339,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Abdera Ancient Site · Abdera, Greece"
+    "caption": "Abdera Ancient Site · Abdera, Greece",
+    "gps": {
+      "lat": 40.9373,
+      "lon": 24.9565
+    }
   },
   {
     "src": "trips/2022-07-greece/pexels-nafplio-aerial-view-of-nafplio-greece-showcasing-a-histori-32138702.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-07-20T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Nafplio",
       "country": "Greece",
@@ -17687,12 +18363,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Nafplio Old Town · Nafplio, Greece"
+    "caption": "Nafplio Old Town · Nafplio, Greece",
+    "gps": {
+      "lat": 37.567,
+      "lon": 22.8043
+    }
   },
   {
     "src": "trips/2019-07-france-sedan/pexels-sedan-majestic-medieval-castle-featuring-stone-towers-an-29189065.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2019-07-30T15:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Sedan",
       "country": "France",
@@ -17707,12 +18387,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Sedan Medieval Castle · Sedan, France"
+    "caption": "Sedan Medieval Castle · Sedan, France",
+    "gps": {
+      "lat": 49.7016,
+      "lon": 4.9425
+    }
   },
   {
     "src": "trips/2019-07-france-sedan/pexels-sedan-explore-the-historic-ruins-of-clisson-castle-with--31113132.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2019-07-30T15:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Sedan",
       "country": "France",
@@ -17727,12 +18411,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Sedan Medieval Castle · Sedan, France"
+    "caption": "Sedan Medieval Castle · Sedan, France",
+    "gps": {
+      "lat": 49.7016,
+      "lon": 4.9425
+    }
   },
   {
     "src": "trips/2019-07-france-sedan/pexels-sedan-explore-the-ancient-fortified-walls-of-carcassonne-28388674.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2019-07-30T15:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Sedan",
       "country": "France",
@@ -17747,12 +18435,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Sedan Medieval Castle · Sedan, France"
+    "caption": "Sedan Medieval Castle · Sedan, France",
+    "gps": {
+      "lat": 49.7016,
+      "lon": 4.9425
+    }
   },
   {
     "src": "trips/2022-10-germany/pexels-munster-explore-the-stunning-monochrome-view-of-munster-ca-29397374.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2022-10-21T09:36:51Z",
+    "hasGps": true,
     "place": {
       "city": "Munster",
       "country": "Germany",
@@ -17767,12 +18459,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Münster · Munster, Germany"
+    "caption": "Münster · Munster, Germany",
+    "gps": {
+      "lat": 52.2172,
+      "lon": 8.247
+    }
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-landsberg-am-lech-low-angle-view-of-historic-buildings-in-regensburg-8628211.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2026-03-27T20:38:56Z",
+    "hasGps": true,
     "place": {
       "city": "Landsberg am Lech",
       "country": "Germany",
@@ -17787,12 +18483,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Landsberg am Lech · Landsberg am Lech, Germany"
+    "caption": "Landsberg am Lech · Landsberg am Lech, Germany",
+    "gps": {
+      "lat": 48.0516,
+      "lon": 10.8752
+    }
   },
   {
     "src": "trips/2024-06-romania-wallachia/pexels-ploiesti-captivating-architecture-of-a-historic-building-in-28898470.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ploiești",
       "country": "Romania",
@@ -17807,12 +18507,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Ploiești · Ploiești, Romania"
+    "caption": "Ploiești · Ploiești, Romania",
+    "gps": {
+      "lat": 44.9417,
+      "lon": 26.0237
+    }
   },
   {
     "src": "trips/2024-06-romania-wallachia/pexels-ploiesti-impressive-historic-building-in-bucharest-showcasi-28898474.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ploiești",
       "country": "Romania",
@@ -17827,12 +18531,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Ploiești · Ploiești, Romania"
+    "caption": "Ploiești · Ploiești, Romania",
+    "gps": {
+      "lat": 44.9417,
+      "lon": 26.0237
+    }
   },
   {
     "src": "trips/2024-06-romania-wallachia/pexels-ploiesti-explore-the-modern-architecture-of-satu-mare-roman-36522927.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ploiești",
       "country": "Romania",
@@ -17847,12 +18555,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Ploiești · Ploiești, Romania"
+    "caption": "Ploiești · Ploiești, Romania",
+    "gps": {
+      "lat": 44.9417,
+      "lon": 26.0237
+    }
   },
   {
     "src": "trips/2024-06-romania-wallachia/pexels-ploiesti-elegant-neoclassical-architecture-in-bucharest-aga-28898477.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ploiești",
       "country": "Romania",
@@ -17867,12 +18579,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Ploiești · Ploiești, Romania"
+    "caption": "Ploiești · Ploiești, Romania",
+    "gps": {
+      "lat": 44.9417,
+      "lon": 26.0237
+    }
   },
   {
     "src": "trips/2024-06-romania-wallachia/pexels-ploiesti-a-scenic-view-of-a-historic-building-in-bucharest--28898463.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Ploiești",
       "country": "Romania",
@@ -17887,12 +18603,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Ploiești · Ploiești, Romania"
+    "caption": "Ploiești · Ploiești, Romania",
+    "gps": {
+      "lat": 44.9417,
+      "lon": 26.0237
+    }
   },
   {
     "src": "trips/2024-06-romania-wallachia/pexels-campina-picturesque-castle-nestled-within-lush-green-fores-35606388.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Câmpina",
       "country": "Romania",
@@ -17907,12 +18627,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Câmpina · Prahova Valley · Câmpina, Romania"
+    "caption": "Câmpina · Prahova Valley · Câmpina, Romania",
+    "gps": {
+      "lat": 45.1257,
+      "lon": 25.7348
+    }
   },
   {
     "src": "trips/2024-06-romania-wallachia/pexels-campina-explore-the-medieval-fortified-church-in-calnic-a--36680279.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Câmpina",
       "country": "Romania",
@@ -17927,12 +18651,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Câmpina · Prahova Valley · Câmpina, Romania"
+    "caption": "Câmpina · Prahova Valley · Câmpina, Romania",
+    "gps": {
+      "lat": 45.1257,
+      "lon": 25.7348
+    }
   },
   {
     "src": "trips/2024-06-romania-wallachia/pexels-campina-a-stunning-view-of-a-historical-castle-with-iconic-2892623.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Câmpina",
       "country": "Romania",
@@ -17947,12 +18675,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Câmpina · Prahova Valley · Câmpina, Romania"
+    "caption": "Câmpina · Prahova Valley · Câmpina, Romania",
+    "gps": {
+      "lat": 45.1257,
+      "lon": 25.7348
+    }
   },
   {
     "src": "trips/2024-06-romania-wallachia/pexels-campina-a-picturesque-castle-rooftop-overlooks-a-mountain--34976534.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Câmpina",
       "country": "Romania",
@@ -17967,12 +18699,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Câmpina · Prahova Valley · Câmpina, Romania"
+    "caption": "Câmpina · Prahova Valley · Câmpina, Romania",
+    "gps": {
+      "lat": 45.1257,
+      "lon": 25.7348
+    }
   },
   {
     "src": "trips/2024-06-romania-wallachia/pexels-campina-view-of-a-medieval-fortress-tower-in-transylvania--14111418.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Câmpina",
       "country": "Romania",
@@ -17987,12 +18723,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Câmpina · Prahova Valley · Câmpina, Romania"
+    "caption": "Câmpina · Prahova Valley · Câmpina, Romania",
+    "gps": {
+      "lat": 45.1257,
+      "lon": 25.7348
+    }
   },
   {
     "src": "trips/2024-06-romania-black-sea/pexels-braila-explore-the-picturesque-danube-river-at-sunset-fro-34162757.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Brăila",
       "country": "Romania",
@@ -18007,12 +18747,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Brăila · Danube, Romania · Brăila, Romania"
+    "caption": "Brăila · Danube, Romania · Brăila, Romania",
+    "gps": {
+      "lat": 45.2716,
+      "lon": 27.9743
+    }
   },
   {
     "src": "trips/2024-06-romania-black-sea/pexels-braila-elegant-historical-buildings-along-the-danube-rive-26939669.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Brăila",
       "country": "Romania",
@@ -18027,12 +18771,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Brăila · Danube, Romania · Brăila, Romania"
+    "caption": "Brăila · Danube, Romania · Brăila, Romania",
+    "gps": {
+      "lat": 45.2716,
+      "lon": 27.9743
+    }
   },
   {
     "src": "trips/2024-06-romania-black-sea/pexels-braila-panoramic-view-of-belgrade-s-skyline-along-the-dan-17853076.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Brăila",
       "country": "Romania",
@@ -18047,12 +18795,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Brăila · Danube, Romania · Brăila, Romania"
+    "caption": "Brăila · Danube, Romania · Brăila, Romania",
+    "gps": {
+      "lat": 45.2716,
+      "lon": 27.9743
+    }
   },
   {
     "src": "trips/2024-06-romania-black-sea/pexels-braila-a-beautiful-view-of-budapest-with-the-danube-river-21625243.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Brăila",
       "country": "Romania",
@@ -18067,12 +18819,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Brăila · Danube, Romania · Brăila, Romania"
+    "caption": "Brăila · Danube, Romania · Brăila, Romania",
+    "gps": {
+      "lat": 45.2716,
+      "lon": 27.9743
+    }
   },
   {
     "src": "trips/2024-06-romania-black-sea/pexels-braila-discover-the-serene-beauty-of-dambovita-river-in-b-28898473.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Brăila",
       "country": "Romania",
@@ -18087,12 +18843,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Brăila · Danube, Romania · Brăila, Romania"
+    "caption": "Brăila · Danube, Romania · Brăila, Romania",
+    "gps": {
+      "lat": 45.2716,
+      "lon": 27.9743
+    }
   },
   {
     "src": "trips/2024-06-romania-wallachia/pexels-pitesti-a-serene-view-of-the-palace-of-justice-in-buchares-17066985.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Pitești",
       "country": "Romania",
@@ -18107,12 +18867,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Pitești · Romania · Pitești, Romania"
+    "caption": "Pitești · Romania · Pitești, Romania",
+    "gps": {
+      "lat": 44.8606,
+      "lon": 24.8678
+    }
   },
   {
     "src": "trips/2024-06-romania-wallachia/pexels-pitesti-aerial-view-of-a-historic-street-lined-with-europe-14759225.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Pitești",
       "country": "Romania",
@@ -18127,12 +18891,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Pitești · Romania · Pitești, Romania"
+    "caption": "Pitești · Romania · Pitești, Romania",
+    "gps": {
+      "lat": 44.8606,
+      "lon": 24.8678
+    }
   },
   {
     "src": "trips/2024-06-romania-wallachia/pexels-pitesti-a-picturesque-view-of-a-historic-street-in-downtow-14759227.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Pitești",
       "country": "Romania",
@@ -18147,12 +18915,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Pitești · Romania · Pitești, Romania"
+    "caption": "Pitești · Romania · Pitești, Romania",
+    "gps": {
+      "lat": 44.8606,
+      "lon": 24.8678
+    }
   },
   {
     "src": "trips/2019-01-romania/pexels-covasna-beautiful-orthodox-chapel-surrounded-by-greenery-i-12431476.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2019-01-12T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Covasna",
       "country": "Romania",
@@ -18167,12 +18939,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Covasna · Transylvania · Covasna, Romania"
+    "caption": "Covasna · Transylvania · Covasna, Romania",
+    "gps": {
+      "lat": 45.8506,
+      "lon": 26.185
+    }
   },
   {
     "src": "trips/2019-01-romania/pexels-covasna-beautiful-countryside-landscape-in-valea-seaca-rom-7974426.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2019-01-12T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Covasna",
       "country": "Romania",
@@ -18187,12 +18963,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Covasna · Transylvania · Covasna, Romania"
+    "caption": "Covasna · Transylvania · Covasna, Romania",
+    "gps": {
+      "lat": 45.8506,
+      "lon": 26.185
+    }
   },
   {
     "src": "trips/2024-06-romania-transylvania/pexels-fagaras-explore-the-ancient-stone-walls-of-neamt-citadel-u-9050689.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Făgăraș",
       "country": "Romania",
@@ -18207,12 +18987,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Făgăraș Fortress · Făgăraș, Romania"
+    "caption": "Făgăraș Fortress · Făgăraș, Romania",
+    "gps": {
+      "lat": 45.8449,
+      "lon": 24.9703
+    }
   },
   {
     "src": "trips/2024-06-romania-transylvania/pexels-fagaras-scenic-view-of-vyborg-castle-in-russia-with-overca-15893214.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Făgăraș",
       "country": "Romania",
@@ -18227,12 +19011,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Făgăraș Fortress · Făgăraș, Romania"
+    "caption": "Făgăraș Fortress · Făgăraș, Romania",
+    "gps": {
+      "lat": 45.8449,
+      "lon": 24.9703
+    }
   },
   {
     "src": "trips/2024-06-romania-transylvania/pexels-fagaras-close-up-of-the-iconic-soroca-fort-tower-in-moldov-24737975.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Făgăraș",
       "country": "Romania",
@@ -18247,12 +19035,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Făgăraș Fortress · Făgăraș, Romania"
+    "caption": "Făgăraș Fortress · Făgăraș, Romania",
+    "gps": {
+      "lat": 45.8449,
+      "lon": 24.9703
+    }
   },
   {
     "src": "trips/2024-06-romania-transylvania/pexels-fagaras-stunning-view-of-bran-castle-with-red-roofs-and-ba-29344476.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Făgăraș",
       "country": "Romania",
@@ -18267,12 +19059,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Făgăraș Fortress · Făgăraș, Romania"
+    "caption": "Făgăraș Fortress · Făgăraș, Romania",
+    "gps": {
+      "lat": 45.8449,
+      "lon": 24.9703
+    }
   },
   {
     "src": "trips/2024-06-romania-transylvania/pexels-fagaras-explore-the-historic-medieval-fortress-tower-in-ca-36680278.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-06-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Făgăraș",
       "country": "Romania",
@@ -18287,12 +19083,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Făgăraș Fortress · Făgăraș, Romania"
+    "caption": "Făgăraș Fortress · Făgăraș, Romania",
+    "gps": {
+      "lat": 45.8449,
+      "lon": 24.9703
+    }
   },
   {
     "src": "trips/2019-01-romania/pexels-sfantu-gheorghe-close-up-view-of-an-orthodox-church-with-intricate-35425590.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2019-01-12T15:42:51Z",
+    "hasGps": true,
     "place": {
       "city": "Sfântu Gheorghe",
       "country": "Romania",
@@ -18307,12 +19107,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Sfântu Gheorghe · Sfântu Gheorghe, Romania"
+    "caption": "Sfântu Gheorghe · Sfântu Gheorghe, Romania",
+    "gps": {
+      "lat": 45.8802,
+      "lon": 25.7474
+    }
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-night-view-of-a-beautifully-lit-art-nouveau-buildi-6562359.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2026-03-15T12:54:27Z",
+    "hasGps": true,
     "place": {
       "city": "Kecskemét",
       "country": "Hungary",
@@ -18327,12 +19131,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Kecskemét City Hall · Hungary · Kecskemét, Hungary"
+    "caption": "Kecskemét City Hall · Hungary · Kecskemét, Hungary",
+    "gps": {
+      "lat": 46.9071,
+      "lon": 19.6873
+    }
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-low-angle-view-of-the-iconic-parizsi-nagyaruhaz-bu-7513470.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2026-03-15T12:54:27Z",
+    "hasGps": true,
     "place": {
       "city": "Kecskemét",
       "country": "Hungary",
@@ -18347,12 +19155,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Kecskemét City Hall · Hungary · Kecskemét, Hungary"
+    "caption": "Kecskemét City Hall · Hungary · Kecskemét, Hungary",
+    "gps": {
+      "lat": 46.9071,
+      "lon": 19.6873
+    }
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-close-up-of-an-ornate-art-nouveau-building-facade--31686375.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2026-03-15T12:54:27Z",
+    "hasGps": true,
     "place": {
       "city": "Kecskemét",
       "country": "Hungary",
@@ -18367,12 +19179,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Kecskemét City Hall · Hungary · Kecskemét, Hungary"
+    "caption": "Kecskemét City Hall · Hungary · Kecskemét, Hungary",
+    "gps": {
+      "lat": 46.9071,
+      "lon": 19.6873
+    }
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-beautiful-day-view-of-the-historic-gy-r-city-hall--28101442.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2026-03-15T12:54:27Z",
+    "hasGps": true,
     "place": {
       "city": "Kecskemét",
       "country": "Hungary",
@@ -18387,12 +19203,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Kecskemét City Hall · Hungary · Kecskemét, Hungary"
+    "caption": "Kecskemét City Hall · Hungary · Kecskemét, Hungary",
+    "gps": {
+      "lat": 46.9071,
+      "lon": 19.6873
+    }
   },
   {
     "src": "trips/2024-08-hungary-roadtrip/pexels-keszthely-exterior-view-of-the-historical-festetics-palace-i-29970633.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Keszthely",
       "country": "Hungary",
@@ -18407,12 +19227,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Keszthely · Lake Balaton · Keszthely, Hungary"
+    "caption": "Keszthely · Lake Balaton · Keszthely, Hungary",
+    "gps": {
+      "lat": 46.7706,
+      "lon": 17.2432
+    }
   },
   {
     "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-the-iconic-szechenyi-thermal-bath-with-neoclassica-37187247.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Gyula",
       "country": "Hungary",
@@ -18427,12 +19251,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Gyula Castle · Hungary · Gyula, Hungary"
+    "caption": "Gyula Castle · Hungary · Gyula, Hungary",
+    "gps": {
+      "lat": 46.6486,
+      "lon": 21.2828
+    }
   },
   {
     "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-stunning-aerial-view-of-historic-sumeg-castle-in-h-8954938.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Gyula",
       "country": "Hungary",
@@ -18447,12 +19275,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Gyula Castle · Hungary · Gyula, Hungary"
+    "caption": "Gyula Castle · Hungary · Gyula, Hungary",
+    "gps": {
+      "lat": 46.6486,
+      "lon": 21.2828
+    }
   },
   {
     "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-a-serene-view-of-a-historic-riverside-castle-under-30831662.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Gyula",
       "country": "Hungary",
@@ -18467,12 +19299,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Gyula Castle · Hungary · Gyula, Hungary"
+    "caption": "Gyula Castle · Hungary · Gyula, Hungary",
+    "gps": {
+      "lat": 46.6486,
+      "lon": 21.2828
+    }
   },
   {
     "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-a-historic-riverside-castle-stands-prominently-aga-30831684.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Gyula",
       "country": "Hungary",
@@ -18487,12 +19323,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Gyula Castle · Hungary · Gyula, Hungary"
+    "caption": "Gyula Castle · Hungary · Gyula, Hungary",
+    "gps": {
+      "lat": 46.6486,
+      "lon": 21.2828
+    }
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-harmanec-view-from-a-limestone-cave-entrance-with-a-lush-va-12340403.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-04-16T16:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "Harmanec",
       "country": "Slovakia",
@@ -18507,12 +19347,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Harmanec · Harmanec, Slovakia"
+    "caption": "Harmanec · Harmanec, Slovakia",
+    "gps": {
+      "lat": 48.7943,
+      "lon": 19.0998
+    }
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-charming-winter-scene-in-a-polish-village-with-sno-11789386.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-04-14T13:41:49Z",
+    "hasGps": true,
     "place": {
       "city": "Osturňa",
       "country": "Slovakia",
@@ -18527,12 +19371,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Osturňa Village · Osturňa, Slovakia"
+    "caption": "Osturňa Village · Osturňa, Slovakia",
+    "gps": {
+      "lat": 49.2911,
+      "lon": 20.2319
+    }
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-osturna-scenic-view-of-the-foggy-countryside-village-in-i--5877697.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-04-14T13:41:49Z",
+    "hasGps": true,
     "place": {
       "city": "Osturňa",
       "country": "Slovakia",
@@ -18547,12 +19395,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Osturňa Village · Osturňa, Slovakia"
+    "caption": "Osturňa Village · Osturňa, Slovakia",
+    "gps": {
+      "lat": 49.2911,
+      "lon": 20.2319
+    }
   },
   {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-mala-frankova-a-breathtaking-aerial-view-of-vysoke-tatry-mountai-30002094.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2025-04-17T13:36:51Z",
+    "hasGps": true,
     "place": {
       "city": "Malá Franková",
       "country": "Slovakia",
@@ -18567,12 +19419,16 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "Malá Franková · Malá Franková, Slovakia"
+    "caption": "Malá Franková · Malá Franková, Slovakia",
+    "gps": {
+      "lat": 49.2857,
+      "lon": 20.3139
+    }
   },
   {
     "src": "trips/2023-07-uk-tour/pexels-london-stunning-aerial-view-of-london-s-tower-bridge-over-29014833.jpg",
-    "takenAt": null,
-    "hasGps": false,
+    "takenAt": "2023-07-08T12:00:00Z",
+    "hasGps": true,
     "place": {
       "city": "London",
       "country": "United Kingdom",
@@ -18587,6 +19443,10 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     },
-    "caption": "London Landmark · London, United Kingdom"
+    "caption": "London Landmark · London, United Kingdom",
+    "gps": {
+      "lat": 51.5074,
+      "lon": -0.1278
+    }
   }
 ]
