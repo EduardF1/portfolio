@@ -4,7 +4,6 @@ import { useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import type { Repo } from "@/lib/github";
 import { cn } from "@/lib/utils";
-import { responsiveGridColsClass } from "@/lib/grid-cols";
 
 const LANGUAGE_COLORS: Record<string, string> = {
   JavaScript: "#f1e05a",
@@ -117,15 +116,29 @@ export function GithubFeed({
         {t("feedShown", { shown: filtered.length, total: repos.length })}
       </p>
 
-      <ul className={`grid gap-px bg-border/60 ${responsiveGridColsClass(filtered.length, 3)} rounded-lg overflow-hidden`}>
+      <ul className={`grid gap-px bg-border/60 ${
+        filtered.length <= 1
+          ? "grid-cols-1"
+          : filtered.length === 2
+          ? "grid-cols-1 sm:grid-cols-2"
+          : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-6"
+      } rounded-lg overflow-hidden`}>
         {filtered.map((r, idx) => {
-          const isLast = idx === filtered.length - 1;
-          const lastRowLg = filtered.length % 3;
-          const lastRowSm = filtered.length % 2;
-          const lgSpan = isLast && lastRowLg !== 0 ? ` lg:col-span-${4 - lastRowLg}` : "";
-          const smSpan = isLast && lastRowSm === 1 ? " sm:col-span-2" : "";
+          const total = filtered.length;
+          const isLast = idx === total - 1;
+          const lastRowLg = total % 3;
+          const lastRowSm = total % 2;
+          // LCM-6 grid at lg: normal items span 2/6 (= 1/3).
+          // Orphan items in the last row get equal spans that fill the row:
+          //   1 orphan → col-span-6 (full), 2 orphans → col-span-3 each (half).
+          const orphanStart = lastRowLg === 0 ? total : total - lastRowLg;
+          const inOrphanRow = total >= 3 && lastRowLg !== 0 && idx >= orphanStart;
+          const lgSpan = total < 3 ? "" : inOrphanRow
+            ? (lastRowLg === 1 ? " lg:col-span-6" : " lg:col-span-3")
+            : " lg:col-span-2";
+          const smSpan = total >= 3 && lastRowSm === 1 && isLast ? " sm:col-span-2" : "";
           return (
-          <li key={r.id} className={`bg-background${smSpan}${lgSpan}`}>
+          <li key={r.id} className={`bg-background${lgSpan}${smSpan}`}>
             <a
               href={r.html_url}
               target="_blank"

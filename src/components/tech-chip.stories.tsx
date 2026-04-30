@@ -56,6 +56,7 @@ export const WithDataTechSlug: Story = {
 };
 
 export const List: Story = {
+  args: { slug: 'typescript' },
   render: () => (
     <div className="flex flex-wrap gap-2">
       {(['typescript', 'react', 'dotnet', 'nextjs', 'tailwind'] as const).map((slug) => (

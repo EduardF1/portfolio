@@ -15032,20 +15032,30 @@
     "caption": "Dachau, Germany · March 2026"
   },
   {
-    "src": "trips/2026-03-balkans-roadtrip/IMG20260328135135.jpg",
-    "takenAt": "2026-03-28T13:51:35Z",
+    "src": "trips/2026-03-balkans-roadtrip/pexels-dachau-arbeit-macht-frei-gate-30130887.jpg",
+    "takenAt": "2026-03-28T12:00:00Z",
     "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
+    "cameraModel": "Pexels stock",
     "gps": {
-      "lat": 48.26838,
-      "lon": 11.46679
+      "lat": 48.2558,
+      "lon": 11.4337
     },
     "place": {
       "city": "Dachau",
       "country": "Germany",
       "display": "Dachau, Germany"
     },
-    "caption": "Dachau, Germany · March 2026"
+    "stock": true,
+    "caption": "Arbeit Macht Frei Gate · Dachau, Germany · March 2026",
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/30130887/",
+      "photographer": "Pexels contributor",
+      "photoId": 30130887,
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
   },
   {
     "src": "trips/2026-03-balkans-roadtrip/IMG20260328151221.jpg",
