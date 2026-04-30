@@ -19187,31 +19187,6 @@
     }
   },
   {
-    "src": "trips/2026-03-balkans-roadtrip/pexels-prague-iconic-view-of-charles-bridge-spanning-vltava-rive-16945287.jpg",
-    "takenAt": "2026-03-20T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 50.0755,
-      "lon": 14.4378
-    },
-    "place": {
-      "city": "Prague",
-      "country": "Czechia",
-      "display": "Prague, Czechia"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/charles-bridge-over-vltava-river-in-prague-16945287/",
-      "photographer": "l . kaplenig",
-      "photographerUrl": "https://www.pexels.com/@l-kaplenig-575435782",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
     "src": "trips/2026-03-balkans-roadtrip/pexels-prague-black-and-white-view-of-charles-bridge-in-prague-o-10721803.jpg",
     "takenAt": "2026-03-20T12:00:00Z",
     "hasGps": true,
@@ -20196,5 +20171,30 @@
       "display": "Kassel, Germany"
     },
     "caption": "Kassel, Germany · March 2026"
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-prague-aerial-view-of-old-town-square-in-prague-31566142.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.0755,
+      "lon": 14.4378
+    },
+    "place": {
+      "city": "Prague",
+      "country": "Czechia",
+      "display": "Prague, Czechia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-old-town-square-in-prague-31566142/",
+      "photographer": "Nadin Romanova",
+      "photographerUrl": "https://www.pexels.com/@nanamusic",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
   }
 ]
