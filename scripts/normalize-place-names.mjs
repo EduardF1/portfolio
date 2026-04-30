@@ -76,22 +76,50 @@ export const NORMALISATION_MAP = {
 };
 
 /**
+ * Country aliases: old name → canonical name.
+ * Applied after city normalisation so `display` is rebuilt with the correct
+ * country name. Keyed by the non-canonical spelling found in the catalogue.
+ */
+export const COUNTRY_ALIAS_MAP = {
+  // Nominatim and older Pexels imports used the long-form name; the app uses
+  // the short/modern ISO 3166-1 name throughout.
+  "Czech Republic": "Czechia",
+};
+
+/**
  * Apply the map to a single `place` object. Returns the new object (or the
  * input unchanged if no rule matched).
  * @param {{ city: string | null, country: string | null, display: string } | null | undefined} place
  */
 export function normalisePlace(place) {
   if (!place || typeof place !== "object") return place;
-  const rule = NORMALISATION_MAP[place.city];
-  if (!rule) return place;
-  if (rule.country && place.country !== rule.country) return place;
-  const country = place.country || rule.country;
-  return {
-    ...place,
-    city: rule.city,
-    country,
-    display: country ? `${rule.city}, ${country}` : rule.city,
-  };
+  let result = place;
+
+  // 1. City-name normalization.
+  const rule = NORMALISATION_MAP[result.city];
+  if (rule && (!rule.country || result.country === rule.country)) {
+    const country = result.country || rule.country;
+    result = {
+      ...result,
+      city: rule.city,
+      country,
+      display: country ? `${rule.city}, ${country}` : rule.city,
+    };
+  }
+
+  // 2. Country-name normalization.
+  const canonicalCountry = COUNTRY_ALIAS_MAP[result.country];
+  if (canonicalCountry) {
+    result = {
+      ...result,
+      country: canonicalCountry,
+      display: result.city
+        ? `${result.city}, ${canonicalCountry}`
+        : canonicalCountry,
+    };
+  }
+
+  return result === place ? place : result;
 }
 
 function parseArgs(argv) {
@@ -113,10 +141,10 @@ function main() {
     const before = entry.place;
     const after = normalisePlace(before);
     if (after === before) continue;
-    if (before && after && (before.city !== after.city || before.display !== after.display)) {
-      const key = `${before.city} -> ${after.city} (${after.country})`;
+    if (before && after && (before.city !== after.city || before.country !== after.country || before.display !== after.display)) {
+      const key = `${before.city}|${before.country} -> ${after.city}|${after.country}`;
       const rec = summary.get(key) || {
-        from: before.city,
+        from: `${before.city}, ${before.country}`,
         to: `${after.city}, ${after.country}`,
         count: 0,
       };
