@@ -11893,22 +11893,6 @@
     "caption": "Tatra Green Mountains · Harmanec, Slovakia · April 2025"
   },
   {
-    "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250416162107.jpg",
-    "takenAt": "2025-04-16T16:21:07Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 48.79417,
-      "lon": 19.10013
-    },
-    "place": {
-      "city": "Harmanec",
-      "country": "Slovakia",
-      "display": "Harmanec, Slovakia"
-    },
-    "caption": "Harmanec, Slovakia · April 2025"
-  },
-  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/IMG20250416212142.jpg",
     "takenAt": "2025-04-16T21:21:42Z",
     "hasGps": true,
@@ -19435,5 +19419,25 @@
       "url": "https://www.pexels.com/photo/2692254/"
     },
     "caption": "Tatra Mountain Cabin · Murzasichle, Poland · April 2025"
+  },
+  {
+    "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-harmanec-cave-formations-15938633.jpg",
+    "takenAt": "2025-04-16T16:00:00Z",
+    "hasGps": true,
+    "gps": {
+      "lat": 48.8767,
+      "lon": 19.1178
+    },
+    "place": {
+      "city": "Harmanec",
+      "country": "Slovakia",
+      "display": "Harmanec, Slovakia"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "pexels",
+      "id": 15938633
+    },
+    "caption": "Harmanec Cave formations · Harmanec, Slovakia · April 2025"
   }
 ]
