@@ -377,9 +377,7 @@ export function TravelEuropeMap({
                   onBlur={() => setHovered(null)}
                 >
                   <a
-                    href={
-                      destination.firstTripSlug
-                        ? `/travel/photos/${destination.firstTripSlug}`
+                    href={/travel/photos/country/\}`
                         : `#country-${destination.slug}`
                     }
                     aria-label={`${destination.country}, ${destination.photoCount} ${destination.photoCount === 1 ? "photo" : "photos"}, ${destination.cities.length} ${destination.cities.length === 1 ? "city" : "cities"}`}
@@ -442,9 +440,7 @@ export function TravelEuropeMap({
                   <a
                     data-testid="city-dot"
                     data-city-slug={city.slug}
-                    href={
-                      city.primaryTripSlug
-                        ? `/travel/photos/${city.primaryTripSlug}#city-${citySlug(city.city)}`
+                    href={/travel/photos/country/\#city-\}#city-${citySlug(city.city)}`
                         : `#country-${slugifyCountry(city.country)}`
                     }
                     aria-label={tooltip}

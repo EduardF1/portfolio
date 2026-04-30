@@ -41,22 +41,20 @@ test("per-trip photo page opens, lightbox traps focus, ESC restores it", async (
   await expect(firstThumb).toBeFocused();
 });
 
-test("country card links into the country's primary trip, per-trip page renders city sections with deep-link anchors", async ({
+test("country card links into the country's aggregated photo page, page renders city sections with deep-link anchors", async ({
   page,
 }) => {
   await page.goto("/travel");
 
-  // The "By country" section renders country cards as <li> with id
-  // "country-<slug>"; each card wraps a Link to a real trip slug.
-  const countryCard = page.locator('[id^="country-"] a[href^="/travel/photos/"]').first();
+  // Country cards now link to /travel/photos/country/<slug>
+  const countryCard = page.locator('[id^="country-"] a[href^="/travel/photos/country/"]').first();
   await expect(countryCard).toBeVisible();
   const href = await countryCard.getAttribute("href");
-  expect(href).toMatch(/^\/travel\/photos\/[a-z0-9-]+-\d{4}-\d{2}(?:-\d+)?$/);
+  expect(href).toMatch(/^\/travel\/photos\/country\/[a-z0-9-]+$/);
   await countryCard.click();
-  await page.waitForURL(/\/travel\/photos\//);
+  await page.waitForURL(/\/travel\/photos\/country\//);
 
-  // Per-trip page renders at least one city section with id="city-<slug>"
-  // and a heading; its scroll-mt offset means the anchor is reachable.
+  // Country page renders at least one city section with id="city-<slug>"
   const firstCitySection = page.locator('[data-testid="city-section"]').first();
   await expect(firstCitySection).toBeVisible();
   const cityId = await firstCitySection.getAttribute("id");
