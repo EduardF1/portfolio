@@ -19521,5 +19521,555 @@
       "licenseUrl": "https://www.pexels.com/license/",
       "url": "https://www.pexels.com/photo/7833065/"
     }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-azuga-aerial-view-of-scenic-azuga-landscape-in-romania-30390069.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.4333,
+      "lon": 25.5667
+    },
+    "place": {
+      "city": "Azuga",
+      "country": "Romania",
+      "display": "Azuga, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-scenic-azuga-landscape-in-romania-30390069/",
+      "photographer": "Unknown",
+      "photographerUrl": "https://www.pexels.com/photo/30390069/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-azuga-a-house-near-the-snow-covered-mountain-under-the-clear-sky-6558451.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.4333,
+      "lon": 25.5667
+    },
+    "place": {
+      "city": "Azuga",
+      "country": "Romania",
+      "display": "Azuga, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/a-house-near-the-snow-covered-mountain-under-the-clear-sky-6558451/",
+      "photographer": "Unknown",
+      "photographerUrl": "https://www.pexels.com/photo/6558451/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-azuga-scenic-view-of-a-house-in-the-mountains-13517526.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.4333,
+      "lon": 25.5667
+    },
+    "place": {
+      "city": "Azuga",
+      "country": "Romania",
+      "display": "Azuga, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-a-house-in-the-mountains-13517526/",
+      "photographer": "Unknown",
+      "photographerUrl": "https://www.pexels.com/photo/13517526/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-azuga-dramatic-mountain-landscape-under-blue-skies-33620698.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.4333,
+      "lon": 25.5667
+    },
+    "place": {
+      "city": "Azuga",
+      "country": "Romania",
+      "display": "Azuga, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/dramatic-mountain-landscape-under-blue-skies-33620698/",
+      "photographer": "Unknown",
+      "photographerUrl": "https://www.pexels.com/photo/33620698/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-busteni-aerial-view-of-a-picturesque-rural-village-nestled-10589704.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.4167,
+      "lon": 25.5333
+    },
+    "place": {
+      "city": "Bușteni",
+      "country": "Romania",
+      "display": "Bușteni, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/grass-fields-and-houses-in-the-mountain-10589704/",
+      "photographer": "Bianca Claudia",
+      "photographerUrl": "https://www.pexels.com/@bianca-claudia-153699624",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-busteni-captivating-summer-landscape-of-lush-mountains-and-20620105.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.4167,
+      "lon": 25.5333
+    },
+    "place": {
+      "city": "Bușteni",
+      "country": "Romania",
+      "display": "Bușteni, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-mountains-meadow-and-trees-20620105/",
+      "photographer": "Marian Mirea",
+      "photographerUrl": "https://www.pexels.com/@marian-mirea-103393234",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-busteni-breathtaking-landscape-of-the-carpathian-mountains-8496599.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.4167,
+      "lon": 25.5333
+    },
+    "place": {
+      "city": "Bușteni",
+      "country": "Romania",
+      "display": "Bușteni, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/view-on-mountains-on-sunny-day-8496599/",
+      "photographer": "Andrew",
+      "photographerUrl": "https://www.pexels.com/@andrew-72937250",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-busteni-woman-relaxing-on-a-grassy-hill-with-a-view-of-the-19944901.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.4167,
+      "lon": 25.5333
+    },
+    "place": {
+      "city": "Bușteni",
+      "country": "Romania",
+      "display": "Bușteni, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/romania-transylvania-amfiteatrul-transilvania-romanian-mountains-19944901/",
+      "photographer": "Rose TheGuide",
+      "photographerUrl": "https://www.pexels.com/@rosetheguide",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-brasov-aerial-shot-of-the-vibrant-town-square-in-brasov-s-13798548.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.658,
+      "lon": 25.6012
+    },
+    "place": {
+      "city": "Brașov",
+      "country": "Romania",
+      "display": "Brașov, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/view-of-a-town-square-13798548/",
+      "photographer": "Alina Gheordunescu",
+      "photographerUrl": "https://www.pexels.com/@alina-gheordunescu-139434964",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-sacele-discover-the-serene-beauty-of-dambovita-river-in-b-28898473.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.6167,
+      "lon": 25.7167
+    },
+    "place": {
+      "city": "Săcele",
+      "country": "Romania",
+      "display": "Săcele, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-dambovi-a-river-in-bucharest-28898473/",
+      "photographer": "Uiliam Nörnberg",
+      "photographerUrl": "https://www.pexels.com/@uiliamnornberg",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-sacele-stunning-aerial-view-of-tecuci-city-capturing-urba-30619583.jpg",
+    "takenAt": "2022-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.6167,
+      "lon": 25.7167
+    },
+    "place": {
+      "city": "Săcele",
+      "country": "Romania",
+      "display": "Săcele, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-tecuci-cityscape-in-romania-30619583/",
+      "photographer": "Călinescu Viorel",
+      "photographerUrl": "https://www.pexels.com/@calinescu-viorel-2149023504",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-horsens-aerial-view-of-horsens-denmark-showcasing-urban-ar-13519043.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.8607,
+      "lon": 9.8502
+    },
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/view-on-gdansk-from-top-13519043/",
+      "photographer": "KAO  MHG",
+      "photographerUrl": "https://www.pexels.com/@kaomhg",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-horsens-explore-the-urban-landscape-of-horsens-denmark-fro-13274625.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.8607,
+      "lon": 9.8502
+    },
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-photography-of-city-buildings-13274625/",
+      "photographer": "KAO  MHG",
+      "photographerUrl": "https://www.pexels.com/@kaomhg",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2022-08-denmark/pexels-horsens-aerial-view-of-the-picturesque-residential-area-in-13519731.jpg",
+    "takenAt": "2022-08-18T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 55.8607,
+      "lon": 9.8502
+    },
+    "place": {
+      "city": "Horsens",
+      "country": "Denmark",
+      "display": "Horsens, Denmark"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-brown-houses-and-trees-13519731/",
+      "photographer": "KAO  MHG",
+      "photographerUrl": "https://www.pexels.com/@kaomhg",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-bratislava-explore-the-majestic-bratislava-castle-a-landmark--21625688.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.1486,
+      "lon": 17.1077
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/view-of-bratislava-with-castle-21625688/",
+      "photographer": "Vish Pix",
+      "photographerUrl": "https://www.pexels.com/@vishpix",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-bratislava-view-of-the-historic-bratislava-castle-covered-in--23092971.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.1486,
+      "lon": 17.1077
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/bratislava-castle-on-hill-with-snow-in-bratislava-in-slovakia-23092971/",
+      "photographer": "najob kečeram",
+      "photographerUrl": "https://www.pexels.com/@najob-keceram-1235230054",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-bratislava-a-breathtaking-view-of-bratislava-castle-with-its--12148649.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.1486,
+      "lon": 17.1077
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/low-angle-view-of-bratislava-castle-in-slovakia-12148649/",
+      "photographer": "Pham Ngoc Anh",
+      "photographerUrl": "https://www.pexels.com/@pham-ngoc-anh-170983008",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-bratislava-scenic-view-of-bratislava-castle-under-a-clear-blu-37082232.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 48.1486,
+      "lon": 17.1077
+    },
+    "place": {
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "display": "Bratislava, Slovakia"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/historic-bratislava-castle-on-a-clear-day-37082232/",
+      "photographer": "Kendra Valócsik",
+      "photographerUrl": "https://www.pexels.com/@valocsikkendra",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-prague-iconic-view-of-charles-bridge-spanning-vltava-rive-16945287.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.0755,
+      "lon": 14.4378
+    },
+    "place": {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charles-bridge-over-vltava-river-in-prague-16945287/",
+      "photographer": "l . kaplenig",
+      "photographerUrl": "https://www.pexels.com/@l-kaplenig-575435782",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-prague-black-and-white-view-of-charles-bridge-in-prague-o-10721803.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.0755,
+      "lon": 14.4378
+    },
+    "place": {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/aerial-view-of-the-charles-bridge-in-prague-czech-republic-10721803/",
+      "photographer": "Carlo Jünemann",
+      "photographerUrl": "https://www.pexels.com/@carlo-junemann-156928830",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-prague-beautiful-sunset-over-charles-bridge-and-vltava-ri-33163653.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.0755,
+      "lon": 14.4378
+    },
+    "place": {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-charles-bridge-at-sunset-prague-33163653/",
+      "photographer": "Lusynda <3",
+      "photographerUrl": "https://www.pexels.com/@lusynda-3-2152310256",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
+  },
+  {
+    "src": "trips/2026-03-balkans-roadtrip/pexels-prague-view-of-the-historic-charles-bridge-spanning-the-v-15673562.jpg",
+    "takenAt": "2026-03-20T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 50.0755,
+      "lon": 14.4378
+    },
+    "place": {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/charles-bridge-in-prague-15673562/",
+      "photographer": "Thomas Ronveaux",
+      "photographerUrl": "https://www.pexels.com/@thomasronveaux",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    }
   }
 ]
