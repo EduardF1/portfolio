@@ -178,16 +178,12 @@ export default async function TravelPage({
                   id={`country-${d.slug}`}
                   className={`bg-background scroll-mt-24 ${isLast ? `${SPAN_SM[lastRowSm]} ${SPAN_LG[lastRowLg]}` : ""}`}
                 >
-                  {slug ? (
-                    <Link
-                      href={`/travel/photos/${slug}`}
-                      className="group block h-full p-6 transition-colors hover:bg-surface focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
-                    >
-                      {inner}
-                    </Link>
-                  ) : (
-                    <div className="p-6">{inner}</div>
-                  )}
+                  <Link
+                    href={`/travel/photos/country/${d.slug}`}
+                    className="group block h-full p-6 transition-colors hover:bg-surface focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+                  >
+                    {inner}
+                  </Link>
                 </li>
               );
             });

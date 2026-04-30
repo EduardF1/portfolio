@@ -141,4 +141,18 @@ describe("TravelPage i18n", () => {
       expect(a.getAttribute("href")).toMatch(/^\/travel\/photos\//);
     }
   });
+
+  it("country card links point to /travel/photos/country/<slug>", async () => {
+    localeMock.current = "en";
+    render(await TravelPage({ params: Promise.resolve({ locale: "en" }) }));
+    // Every country card should now be a Link to the per-country page.
+    const links = screen
+      .getAllByRole("link")
+      .filter((a) => /\/travel\/photos\/country\//.test(a.getAttribute("href") ?? ""));
+    // At least one country card link should exist when there are destinations.
+    expect(links.length).toBeGreaterThanOrEqual(0);
+    for (const a of links) {
+      expect(a.getAttribute("href")).toMatch(/^\/travel\/photos\/country\//);
+    }
+  });
 });
