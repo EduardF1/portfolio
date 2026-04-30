@@ -134,3 +134,7 @@ scripts/.unscanned-catalogue.json
 scripts/.visual-cleanup-v2-delta.ndjson
 scripts/.visual-cleanup-v2-delta.err
 scripts/.tmp/
+scripts/.per-city-min5/dk-cities-backfill.mjs
+scripts/.per-city-min5/pexels-api-backfill.mjs
+scripts/.per-city-min5/pexels-backfill-playwright.mjs
+scripts/.per-city-min5/redownload-missing.mjs
