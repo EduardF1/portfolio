@@ -220,4 +220,45 @@ describe("ContactForm attachment validation", () => {
     expect(screen.getByText("cv.pdf")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /Send/ })).not.toBeDisabled();
   });
+
+  it("accepts a legacy .doc Word document without showing an error", () => {
+    const input = setup();
+    const doc = new File([new Uint8Array(1024)], "letter.doc", {
+      type: "application/msword",
+    });
+    fireEvent.change(input, { target: { files: [doc] } });
+    expect(document.getElementById("attachment-error")).toBeNull();
+    expect(screen.getByText("letter.doc")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Send/ })).not.toBeDisabled();
+  });
+
+  it("accepts a JPEG image without showing an error", () => {
+    const input = setup();
+    const jpg = new File([new Uint8Array(1024)], "photo.jpg", {
+      type: "image/jpeg",
+    });
+    fireEvent.change(input, { target: { files: [jpg] } });
+    expect(document.getElementById("attachment-error")).toBeNull();
+    expect(screen.getByText("photo.jpg")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Send/ })).not.toBeDisabled();
+  });
+
+  it("clears the error when the file input is reset (no file selected)", () => {
+    const input = setup();
+    // First select an invalid file to trigger error.
+    const bad = new File(["x"], "virus.exe", { type: "application/x-msdownload" });
+    fireEvent.change(input, { target: { files: [bad] } });
+    expect(document.getElementById("attachment-error")).not.toBeNull();
+    // Now clear the selection.
+    fireEvent.change(input, { target: { files: [] } });
+    expect(document.getElementById("attachment-error")).toBeNull();
+    expect(screen.getByRole("button", { name: /Send/ })).not.toBeDisabled();
+  });
+
+  it("send button is enabled by default when no file is selected", () => {
+    setup();
+    // No file interaction at all — button must start enabled.
+    expect(screen.getByRole("button", { name: /Send/ })).not.toBeDisabled();
+    expect(document.getElementById("attachment-error")).toBeNull();
+  });
 });
