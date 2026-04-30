@@ -388,7 +388,7 @@ describe("<TravelEuropeMap />", () => {
         destinations={SAMPLES}
         tripCounts={{
           Italy: 6, // tier 4 → darkest accent
-          Czechia: 1, // tier 1 → accent-soft, also exercises NE-name alias
+          "Czech Republic": 1, // tier 1 → accent-soft, also exercises NE-name alias
         }}
         labels={TEST_LABELS}
       />,

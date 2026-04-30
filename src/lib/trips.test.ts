@@ -85,9 +85,9 @@ describe("clusterTrips", () => {
     expect(trips[0].slug).toBe("albania-2024-09");
 
     const trips2 = clusterTrips([
-      entry("q.jpg", "2025-04-04T00:00:00Z", "Czechia", "Prague"),
+      entry("q.jpg", "2025-04-04T00:00:00Z", "Czech Republic", "Prague"),
     ]);
-    expect(trips2[0].slug).toBe("czechia-2025-04");
+    expect(trips2[0].slug).toBe("czech-republic-2025-04");
 
     // Diacritics fold cleanly to ASCII.
     const trips3 = clusterTrips([

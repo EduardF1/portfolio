@@ -428,46 +428,6 @@
     "caption": "Half Timbered Street · Aarhus, Denmark"
   },
   {
-    "src": "trips/2022-10-denmark/pexels-randers-haslund-church-winter-6526779.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Randers",
-      "country": "Denmark",
-      "display": "Randers, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/haslund-church-in-winter-6526779/",
-      "photographer": "Mark Hansen",
-      "photographerUrl": "https://www.pexels.com/@mark-hansen-12409788/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Haslund Church Winter · Randers, Denmark"
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-randers-wind-turbines-4512516.jpg",
-    "takenAt": null,
-    "hasGps": false,
-    "place": {
-      "city": "Randers",
-      "country": "Denmark",
-      "display": "Randers, Denmark"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/white-wind-turbines-under-blue-sky-and-white-clouds-4512516/",
-      "photographer": "Peter Holmboe",
-      "photographerUrl": "https://www.pexels.com/@holmboe/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Wind Turbines · Randers, Denmark"
-  },
-  {
     "src": "trips/2022-10-germany/pexels-hamburg-elbphilharmonie-brick-26443234.jpg",
     "takenAt": null,
     "hasGps": false,
@@ -7656,78 +7616,6 @@
     "caption": "River Vintage Buildings · Aarhus, Denmark · October 2022"
   },
   {
-    "src": "trips/2022-10-denmark/pexels-randers-city-view-13762300.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 56.4608,
-      "lon": 10.0371
-    },
-    "place": {
-      "city": "Randers",
-      "country": "Denmark",
-      "display": "Randers, Denmark"
-    },
-    "caption": "City View · Randers, Denmark · October 2022",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/13762300/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-randers-aerial-city-houses-13519732.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 56.4608,
-      "lon": 10.0371
-    },
-    "place": {
-      "city": "Randers",
-      "country": "Denmark",
-      "display": "Randers, Denmark"
-    },
-    "caption": "Aerial City Houses · Randers, Denmark · October 2022",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/13519732/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-randers-park-sea-shore-25473965.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 56.4608,
-      "lon": 10.0371
-    },
-    "place": {
-      "city": "Randers",
-      "country": "Denmark",
-      "display": "Randers, Denmark"
-    },
-    "caption": "Park Sea Shore · Randers, Denmark · October 2022",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/25473965/"
-    }
-  },
-  {
     "src": "trips/2022-10-germany/pexels-munster-cathedral-corridors-19221895.jpg",
     "takenAt": "2022-10-21T09:36:51Z",
     "hasGps": true,
@@ -7917,606 +7805,6 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/",
       "url": "https://www.pexels.com/photo/31707003/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-odense-city-centre-5306419.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.3962,
-      "lon": 10.3883
-    },
-    "place": {
-      "city": "Odense",
-      "country": "Denmark",
-      "display": "Odense, Denmark"
-    },
-    "caption": "Odense, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/5306419/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-odense-street-6417530.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.3962,
-      "lon": 10.3883
-    },
-    "place": {
-      "city": "Odense",
-      "country": "Denmark",
-      "display": "Odense, Denmark"
-    },
-    "caption": "Odense, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/6417530/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-odense-funen-village-6596441.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.3962,
-      "lon": 10.3883
-    },
-    "place": {
-      "city": "Odense",
-      "country": "Denmark",
-      "display": "Odense, Denmark"
-    },
-    "caption": "Odense, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/6596441/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-odense-cityscape-8528641.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.3962,
-      "lon": 10.3883
-    },
-    "place": {
-      "city": "Odense",
-      "country": "Denmark",
-      "display": "Odense, Denmark"
-    },
-    "caption": "Odense, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/8528641/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-odense-landmark-9543209.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.3962,
-      "lon": 10.3883
-    },
-    "place": {
-      "city": "Odense",
-      "country": "Denmark",
-      "display": "Odense, Denmark"
-    },
-    "caption": "Odense, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/9543209/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-middelfart-bridge-16783305.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.4997,
-      "lon": 9.7416
-    },
-    "place": {
-      "city": "Middelfart",
-      "country": "Denmark",
-      "display": "Middelfart, Denmark"
-    },
-    "caption": "Middelfart, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/16783305/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-middelfart-coastal-16783266.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.4997,
-      "lon": 9.7416
-    },
-    "place": {
-      "city": "Middelfart",
-      "country": "Denmark",
-      "display": "Middelfart, Denmark"
-    },
-    "caption": "Middelfart, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/16783266/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-middelfart-view-16783304.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.4997,
-      "lon": 9.7416
-    },
-    "place": {
-      "city": "Middelfart",
-      "country": "Denmark",
-      "display": "Middelfart, Denmark"
-    },
-    "caption": "Middelfart, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/16783304/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-middelfart-cityscape-16783306.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.4997,
-      "lon": 9.7416
-    },
-    "place": {
-      "city": "Middelfart",
-      "country": "Denmark",
-      "display": "Middelfart, Denmark"
-    },
-    "caption": "Middelfart, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/16783306/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-middelfart-waterfront-16783263.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.4997,
-      "lon": 9.7416
-    },
-    "place": {
-      "city": "Middelfart",
-      "country": "Denmark",
-      "display": "Middelfart, Denmark"
-    },
-    "caption": "Middelfart, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/16783263/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-silkeborg-lake-12419892.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 56.1726,
-      "lon": 9.5475
-    },
-    "place": {
-      "city": "Silkeborg",
-      "country": "Denmark",
-      "display": "Silkeborg, Denmark"
-    },
-    "caption": "Silkeborg, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/12419892/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-silkeborg-cityscape-12419891.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 56.1726,
-      "lon": 9.5475
-    },
-    "place": {
-      "city": "Silkeborg",
-      "country": "Denmark",
-      "display": "Silkeborg, Denmark"
-    },
-    "caption": "Silkeborg, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/12419891/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-silkeborg-river-12419893.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 56.1726,
-      "lon": 9.5475
-    },
-    "place": {
-      "city": "Silkeborg",
-      "country": "Denmark",
-      "display": "Silkeborg, Denmark"
-    },
-    "caption": "Silkeborg, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/12419893/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-silkeborg-view-12419890.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 56.1726,
-      "lon": 9.5475
-    },
-    "place": {
-      "city": "Silkeborg",
-      "country": "Denmark",
-      "display": "Silkeborg, Denmark"
-    },
-    "caption": "Silkeborg, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/12419890/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-silkeborg-landscape-3413545.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 56.1726,
-      "lon": 9.5475
-    },
-    "place": {
-      "city": "Silkeborg",
-      "country": "Denmark",
-      "display": "Silkeborg, Denmark"
-    },
-    "caption": "Silkeborg, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/3413545/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-grenaa-harbour-13272947.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 56.4162,
-      "lon": 10.8794
-    },
-    "place": {
-      "city": "Grenaa",
-      "country": "Denmark",
-      "display": "Grenaa, Denmark"
-    },
-    "caption": "Grenaa, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/13272947/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-grenaa-coastal-13272946.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 56.4162,
-      "lon": 10.8794
-    },
-    "place": {
-      "city": "Grenaa",
-      "country": "Denmark",
-      "display": "Grenaa, Denmark"
-    },
-    "caption": "Grenaa, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/13272946/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-grenaa-cityscape-13272948.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 56.4162,
-      "lon": 10.8794
-    },
-    "place": {
-      "city": "Grenaa",
-      "country": "Denmark",
-      "display": "Grenaa, Denmark"
-    },
-    "caption": "Grenaa, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/13272948/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-grenaa-view-13372947.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 56.4162,
-      "lon": 10.8794
-    },
-    "place": {
-      "city": "Grenaa",
-      "country": "Denmark",
-      "display": "Grenaa, Denmark"
-    },
-    "caption": "Grenaa, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/13372947/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-grenaa-landscape-14272947.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 56.4162,
-      "lon": 10.8794
-    },
-    "place": {
-      "city": "Grenaa",
-      "country": "Denmark",
-      "display": "Grenaa, Denmark"
-    },
-    "caption": "Grenaa, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/14272947/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-ejby-cityscape-5645678.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.3992,
-      "lon": 9.9671
-    },
-    "place": {
-      "city": "Ejby",
-      "country": "Denmark",
-      "display": "Ejby, Denmark"
-    },
-    "caption": "Ejby, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/5645678/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-ejby-street-7756789.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.3992,
-      "lon": 9.9671
-    },
-    "place": {
-      "city": "Ejby",
-      "country": "Denmark",
-      "display": "Ejby, Denmark"
-    },
-    "caption": "Ejby, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/7756789/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-ejby-view-9867890.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.3992,
-      "lon": 9.9671
-    },
-    "place": {
-      "city": "Ejby",
-      "country": "Denmark",
-      "display": "Ejby, Denmark"
-    },
-    "caption": "Ejby, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/9867890/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-ejby-landscape-11978901.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.3992,
-      "lon": 9.9671
-    },
-    "place": {
-      "city": "Ejby",
-      "country": "Denmark",
-      "display": "Ejby, Denmark"
-    },
-    "caption": "Ejby, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/11978901/"
-    }
-  },
-  {
-    "src": "trips/2022-10-denmark/pexels-ejby-rural-14089012.jpg",
-    "takenAt": "2022-10-15T12:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 55.3992,
-      "lon": 9.9671
-    },
-    "place": {
-      "city": "Ejby",
-      "country": "Denmark",
-      "display": "Ejby, Denmark"
-    },
-    "caption": "Ejby, Denmark",
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "url": "https://www.pexels.com/photo/14089012/"
     }
   },
   {
@@ -14429,8 +13717,8 @@
     },
     "place": {
       "city": "Prague",
-      "country": "Czechia",
-      "display": "Prague, Czechia"
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
     },
     "stock": true,
     "source": {
@@ -14455,8 +13743,8 @@
     },
     "place": {
       "city": "Prague",
-      "country": "Czechia",
-      "display": "Prague, Czechia"
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
     },
     "stock": true,
     "source": {
@@ -14481,8 +13769,8 @@
     },
     "place": {
       "city": "Prague",
-      "country": "Czechia",
-      "display": "Prague, Czechia"
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
     },
     "stock": true,
     "source": {
@@ -14507,8 +13795,8 @@
     },
     "place": {
       "city": "Brno",
-      "country": "Czechia",
-      "display": "Brno, Czechia"
+      "country": "Czech Republic",
+      "display": "Brno, Czech Republic"
     },
     "stock": true,
     "source": {
@@ -14533,8 +13821,8 @@
     },
     "place": {
       "city": "Brno",
-      "country": "Czechia",
-      "display": "Brno, Czechia"
+      "country": "Czech Republic",
+      "display": "Brno, Czech Republic"
     },
     "stock": true,
     "source": {
@@ -14559,8 +13847,8 @@
     },
     "place": {
       "city": "Brno",
-      "country": "Czechia",
-      "display": "Brno, Czechia"
+      "country": "Czech Republic",
+      "display": "Brno, Czech Republic"
     },
     "stock": true,
     "source": {
@@ -15308,8 +14596,8 @@
     },
     "place": {
       "city": "Prague",
-      "country": "Czechia",
-      "display": "Prague, Czechia"
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
     },
     "caption": "Charles Bridge · Prague, Czechia · April 2025",
     "stock": true,
@@ -15332,8 +14620,8 @@
     },
     "place": {
       "city": "Prague",
-      "country": "Czechia",
-      "display": "Prague, Czechia"
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
     },
     "stock": true,
     "source": {
@@ -16327,8 +15615,8 @@
     },
     "place": {
       "city": "Brno",
-      "country": "Czechia",
-      "display": "Brno, Czechia"
+      "country": "Czech Republic",
+      "display": "Brno, Czech Republic"
     },
     "caption": "Brno, Czechia · April 2025"
   },
@@ -16343,8 +15631,8 @@
     },
     "place": {
       "city": "Brno",
-      "country": "Czechia",
-      "display": "Brno, Czechia"
+      "country": "Czech Republic",
+      "display": "Brno, Czech Republic"
     },
     "caption": "Brno, Czechia · April 2025"
   },
@@ -16359,8 +15647,8 @@
     },
     "place": {
       "city": "Jaroslavice",
-      "country": "Czechia",
-      "display": "Jaroslavice, Czechia"
+      "country": "Czech Republic",
+      "display": "Jaroslavice, Czech Republic"
     },
     "caption": "Jaroslavice, Czechia · April 2025"
   },
@@ -16375,8 +15663,8 @@
     },
     "place": {
       "city": "Jaroslavice",
-      "country": "Czechia",
-      "display": "Jaroslavice, Czechia"
+      "country": "Czech Republic",
+      "display": "Jaroslavice, Czech Republic"
     },
     "caption": "Jaroslavice, Czechia · April 2025"
   },
@@ -16391,8 +15679,8 @@
     },
     "place": {
       "city": "Jaroslavice",
-      "country": "Czechia",
-      "display": "Jaroslavice, Czechia"
+      "country": "Czech Republic",
+      "display": "Jaroslavice, Czech Republic"
     },
     "caption": "Jaroslavice, Czechia · April 2025"
   },
@@ -16407,8 +15695,8 @@
     },
     "place": {
       "city": "Jaroslavice",
-      "country": "Czechia",
-      "display": "Jaroslavice, Czechia"
+      "country": "Czech Republic",
+      "display": "Jaroslavice, Czech Republic"
     },
     "caption": "Jaroslavice, Czechia · April 2025"
   },
@@ -16423,8 +15711,8 @@
     },
     "place": {
       "city": "Jaroslavice",
-      "country": "Czechia",
-      "display": "Jaroslavice, Czechia"
+      "country": "Czech Republic",
+      "display": "Jaroslavice, Czech Republic"
     },
     "caption": "Jaroslavice, Czechia · April 2025"
   },
@@ -16439,8 +15727,8 @@
     },
     "place": {
       "city": "Jaroslavice",
-      "country": "Czechia",
-      "display": "Jaroslavice, Czechia"
+      "country": "Czech Republic",
+      "display": "Jaroslavice, Czech Republic"
     },
     "caption": "Jaroslavice, Czechia · April 2025"
   },
@@ -16455,8 +15743,8 @@
     },
     "place": {
       "city": "Jaroslavice",
-      "country": "Czechia",
-      "display": "Jaroslavice, Czechia"
+      "country": "Czech Republic",
+      "display": "Jaroslavice, Czech Republic"
     },
     "caption": "Jaroslavice, Czechia · April 2025"
   },
@@ -17118,8 +16406,8 @@
     },
     "place": {
       "city": "Prague",
-      "country": "Czechia",
-      "display": "Prague, Czechia"
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
     },
     "caption": "Prague, Czechia · March 2026"
   },
@@ -18227,8 +17515,8 @@
     },
     "place": {
       "city": "Prague",
-      "country": "Czechia",
-      "display": "Prague, Czechia"
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
     },
     "stock": true,
     "source": {
@@ -18252,8 +17540,8 @@
     },
     "place": {
       "city": "Prague",
-      "country": "Czechia",
-      "display": "Prague, Czechia"
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
     },
     "stock": true,
     "source": {
@@ -18277,8 +17565,8 @@
     },
     "place": {
       "city": "Prague",
-      "country": "Czechia",
-      "display": "Prague, Czechia"
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
     },
     "stock": true,
     "source": {
@@ -19213,8 +18501,8 @@
     },
     "place": {
       "city": "Prague",
-      "country": "Czechia",
-      "display": "Prague, Czechia"
+      "country": "Czech Republic",
+      "display": "Prague, Czech Republic"
     },
     "stock": true,
     "source": {
@@ -19226,5 +18514,725 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-ejby-explore-this-picturesque-nordic-35822384.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Ejby",
+      "country": "Denmark",
+      "display": "Ejby, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/35822384/",
+      "photographer": "Wolfgang Weiser",
+      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Explore this picturesque Nordic thatched cottage set in the idyllic Danish countryside · Ejby, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-ejby-charming-danish-brick-house-35822383.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Ejby",
+      "country": "Denmark",
+      "display": "Ejby, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/35822383/",
+      "photographer": "Wolfgang Weiser",
+      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Charming Danish brick house with flags and green doors set in a rural landscape under a cloudy sky · Ejby, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-ejby-serene-lakeside-view-in-12919277.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Ejby",
+      "country": "Denmark",
+      "display": "Ejby, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/12919277/",
+      "photographer": "Rene Terp",
+      "photographerUrl": "https://www.pexels.com/@reneterp",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Serene lakeside view in Denmark featuring clear reflections and a vibrant sky · Ejby, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-ejby-vibrant-aerial-view-of-18624781.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Ejby",
+      "country": "Denmark",
+      "display": "Ejby, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/18624781/",
+      "photographer": "Benjamin Pötter",
+      "photographerUrl": "https://www.pexels.com/@benjamin-potter-746824834",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "A vibrant aerial view of Aabenraa · Ejby, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-ejby-beautiful-historic-church-in-5157871.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Ejby",
+      "country": "Denmark",
+      "display": "Ejby, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/5157871/",
+      "photographer": "Rene Terp",
+      "photographerUrl": "https://www.pexels.com/@reneterp",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Beautiful historic church in Denmark surrounded by a well · Ejby, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-grenaa-picturesque-view-of-boats-37014960.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Grenaa",
+      "country": "Denmark",
+      "display": "Grenaa, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/37014960/",
+      "photographer": "Wolfgang Weiser",
+      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Picturesque view of boats docked at the harbour in charming Sonderborg · Grenaa, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-grenaa-serene-view-of-fishing-34739816.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Grenaa",
+      "country": "Denmark",
+      "display": "Grenaa, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/34739816/",
+      "photographer": "Wolfgang Weiser",
+      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Serene view of fishing boats moored at Hvide Sande · Grenaa, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-grenaa-discover-snderborgs-picturesque-harbor-7019958.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Grenaa",
+      "country": "Denmark",
+      "display": "Grenaa, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/7019958/",
+      "photographer": "Niklas Jeromin",
+      "photographerUrl": "https://www.pexels.com/@njeromin",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Discover Sønderborg's picturesque harbor with sailboats and historic architecture on a sunny day · Grenaa, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-grenaa-serene-view-of-boats-27038744.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Grenaa",
+      "country": "Denmark",
+      "display": "Grenaa, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/27038744/",
+      "photographer": "Wolfgang Weiser",
+      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Serene view of boats docked at Årøsund marina · Grenaa, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-grenaa-serene-view-of-canal-35799156.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Grenaa",
+      "country": "Denmark",
+      "display": "Grenaa, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/35799156/",
+      "photographer": "Botond Dobozi",
+      "photographerUrl": "https://www.pexels.com/@exactissime",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Serene view of a canal in Copenhagen with boats reflecting during sunset · Grenaa, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-middelfart-scenic-view-of-the-20532681.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Middelfart",
+      "country": "Denmark",
+      "display": "Middelfart, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/20532681/",
+      "photographer": "Wolfgang Weiser",
+      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Scenic view of the New Little Belt Bridge spanning the coast in Middelfart · Middelfart, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-middelfart-stunning-aerial-shot-capturing-15158343.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Middelfart",
+      "country": "Denmark",
+      "display": "Middelfart, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/15158343/",
+      "photographer": "Bo Hansen",
+      "photographerUrl": "https://www.pexels.com/@bo-hansen-421887082",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Stunning aerial shot capturing the Little Belt Bridge enveloped in mist over calm waters · Middelfart, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-middelfart-stunning-view-of-the-16783305.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Middelfart",
+      "country": "Denmark",
+      "display": "Middelfart, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/16783305/",
+      "photographer": "Wolfgang Weiser",
+      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Stunning view of the New Little Belt Bridge spanning the water in Middelfart · Middelfart, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-middelfart-modern-suspension-bridge-spanning-16783266.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Middelfart",
+      "country": "Denmark",
+      "display": "Middelfart, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/16783266/",
+      "photographer": "Wolfgang Weiser",
+      "photographerUrl": "https://www.pexels.com/@wolfgang-weiser-467045605",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Modern suspension bridge spanning a scenic landscape in Denmark · Middelfart, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-middelfart-vibrant-blue-fishing-boat-5334300.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Middelfart",
+      "country": "Denmark",
+      "display": "Middelfart, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/5334300/",
+      "photographer": "CHRISTIAN PFEIFER",
+      "photographerUrl": "https://www.pexels.com/@christian-pfeifer-3550788",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "A vibrant blue fishing boat moored at Helsingør harbor with historic buildings in the background · Middelfart, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-odense-historic-halftimbered-building-with-34646012.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Odense",
+      "country": "Denmark",
+      "display": "Odense, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/34646012/",
+      "photographer": "Jakob Andersson",
+      "photographerUrl": "https://www.pexels.com/@jakobandersson",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "A historic half · Odense, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-odense-scenic-view-of-colorful-772177.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Odense",
+      "country": "Denmark",
+      "display": "Odense, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/772177/",
+      "photographer": "Magda Ehlers",
+      "photographerUrl": "https://www.pexels.com/@magda-ehlers-pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Scenic view of colorful houses lining a cobblestone street in Odense · Odense, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-odense-serene-night-view-of-6596441.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Odense",
+      "country": "Denmark",
+      "display": "Odense, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/6596441/",
+      "photographer": "Mustafa Al-Falahi",
+      "photographerUrl": "https://www.pexels.com/@mustafa-al-falahi-21951321",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "A serene night view of Odense marina featuring illuminated buildings and moored boats reflecting in calm waters · Odense, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-odense-aerial-shot-of-copenhagens-34688461.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Odense",
+      "country": "Denmark",
+      "display": "Odense, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/34688461/",
+      "photographer": "JUSTIN JOSEPH",
+      "photographerUrl": "https://www.pexels.com/@justin-joseph-2753649",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Aerial shot of Copenhagen's cityscape with lakes and greenery on a sunny day · Odense, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-odense-aerial-view-of-horsens-13519733.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Odense",
+      "country": "Denmark",
+      "display": "Odense, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/13519733/",
+      "photographer": "KAO  MHG",
+      "photographerUrl": "https://www.pexels.com/@kaomhg",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Aerial view of Horsens · Odense, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-randers-drone-shot-capturing-an-13274347.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Randers",
+      "country": "Denmark",
+      "display": "Randers, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/13274347/",
+      "photographer": "Gabriel Moshu",
+      "photographerUrl": "https://www.pexels.com/@gabriel-moshu-296476472",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Drone shot capturing an urban intersection and streets in Horsens · Randers, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-randers-aerial-photograph-showcasing-the-13519732.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Randers",
+      "country": "Denmark",
+      "display": "Randers, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/13519732/",
+      "photographer": "KAO  MHG",
+      "photographerUrl": "https://www.pexels.com/@kaomhg",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Aerial photograph showcasing the town of Horsens · Randers, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-randers-explore-the-symmetrical-hedges-36027639.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Randers",
+      "country": "Denmark",
+      "display": "Randers, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/36027639/",
+      "photographer": "Ahmet AZAKLI",
+      "photographerUrl": "https://www.pexels.com/@blazearth",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Explore the symmetrical hedges and historic architecture of a Copenhagen park · Randers, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-randers-traditional-red-house-with-31678656.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Randers",
+      "country": "Denmark",
+      "display": "Randers, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/31678656/",
+      "photographer": "Efrem  Efre",
+      "photographerUrl": "https://www.pexels.com/@efrem-efre-2786187",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Traditional red house with white windows in Copenhagen showcasing Scandinavian architecture · Randers, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-randers-aerial-photograph-showcasing-residential-31809352.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Randers",
+      "country": "Denmark",
+      "display": "Randers, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/31809352/",
+      "photographer": "KAO  MHG",
+      "photographerUrl": "https://www.pexels.com/@kaomhg",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Aerial photograph showcasing a residential area in Aarhus · Randers, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-silkeborg-tranquil-autumn-scene-by-34652724.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Silkeborg",
+      "country": "Denmark",
+      "display": "Silkeborg, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/34652724/",
+      "photographer": "Lars H Knudsen",
+      "photographerUrl": "https://www.pexels.com/@farlight",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Tranquil autumn scene by a lake in Kongens Lyngby · Silkeborg, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-silkeborg-scenic-view-of-calm-6535015.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Silkeborg",
+      "country": "Denmark",
+      "display": "Silkeborg, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/6535015/",
+      "photographer": "Zuzana Ruttkayova",
+      "photographerUrl": "https://www.pexels.com/@zuziruttkay",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Scenic view of a calm lake reflecting a dense forest under a cloudy sky in Denmark · Silkeborg, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-silkeborg-serene-aerial-view-of-5630916.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Silkeborg",
+      "country": "Denmark",
+      "display": "Silkeborg, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/5630916/",
+      "photographer": "James Owen",
+      "photographerUrl": "https://www.pexels.com/@james-owen-1519323",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "A serene aerial view of Haderslev Lake and surrounding farmland in Denmark during a sunny day · Silkeborg, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-silkeborg-duck-and-her-ducklings-7219574.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Silkeborg",
+      "country": "Denmark",
+      "display": "Silkeborg, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/7219574/",
+      "photographer": "Mikkel Bendix",
+      "photographerUrl": "https://www.pexels.com/@bendix",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "A duck and her ducklings swim near a wooden jetty in a reedy lake in Denmark · Silkeborg, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-silkeborg-picturesque-cottage-with-thatched-531234.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Silkeborg",
+      "country": "Denmark",
+      "display": "Silkeborg, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/531234/",
+      "photographer": "Pixabay",
+      "photographerUrl": "https://www.pexels.com/@pixabay",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Picturesque cottage with a thatched roof reflecting on a serene lake surrounded by lush greenery · Silkeborg, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-aarhus-stunning-view-of-modern-31455361.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/31455361/",
+      "photographer": "Joerg Mangelsen",
+      "photographerUrl": "https://www.pexels.com/@joerg-mangelsen-337913024",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Stunning view of modern architecture along a canal in Aarhus · Aarhus, Denmark"
+  },
+  {
+    "src": "trips/2022-10-denmark/pexels-aarhus-contemporary-architecture-along-the-36268750.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "display": "Aarhus, Denmark"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/36268750/",
+      "photographer": "Adriaan Westra",
+      "photographerUrl": "https://www.pexels.com/@adriaan-westra-2158798492",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Contemporary architecture along the Aarhus waterfront · Aarhus, Denmark"
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-durres-scenic-sea-view-of-19985024.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Durrës",
+      "country": "Albania",
+      "display": "Durrës, Albania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/19985024/",
+      "photographer": "Egor Kunovsky",
+      "photographerUrl": "https://www.pexels.com/@egor-kunovsky-1199972",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Scenic sea view of a pier stretching into the Adriatic Sea in Durrës · Durrës, Albania"
+  },
+  {
+    "src": "trips/2024-09-albania-saranda/pexels-vlora-stunning-aerial-shot-of-28542717.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Vlora",
+      "country": "Albania",
+      "display": "Vlora, Albania"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/28542717/",
+      "photographer": "Adriano Ribeiro Da Cruz",
+      "photographerUrl": "https://www.pexels.com/@adriano-ribeiro-da-cruz-1861811458",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Stunning aerial shot of a serene beach resort in Albania · Vlora, Albania"
+  },
+  {
+    "src": "trips/2019-07-belgium/pexels-ghent-explore-the-picturesque-medieval-37177110.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Ghent",
+      "country": "Belgium",
+      "display": "Ghent, Belgium"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/37177110/",
+      "photographer": "János Csatlós",
+      "photographerUrl": "https://www.pexels.com/@sataz",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Explore the picturesque medieval architecture and canals of Ghent · Ghent, Belgium"
+  },
+  {
+    "src": "trips/2019-07-belgium/pexels-brussels-stunning-view-of-ornate-12822731.jpg",
+    "takenAt": null,
+    "hasGps": false,
+    "place": {
+      "city": "Brussels",
+      "country": "Belgium",
+      "display": "Brussels, Belgium"
+    },
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/12822731/",
+      "photographer": "Magda Ehlers",
+      "photographerUrl": "https://www.pexels.com/@magda-ehlers-pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Stunning view of ornate facades at Grand Place · Brussels, Belgium"
   }
 ]

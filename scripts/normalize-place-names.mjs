@@ -83,7 +83,7 @@ export const NORMALISATION_MAP = {
 export const COUNTRY_ALIAS_MAP = {
   // Nominatim and older Pexels imports used the long-form name; the app uses
   // the short/modern ISO 3166-1 name throughout.
-  "Czech Republic": "Czechia",
+  "Czechia": "Czech Republic",
 };
 
 /**

@@ -57,7 +57,7 @@ const VB_HEIGHT = 600;
  * Keys are catalogue / Nominatim names; values are Natural Earth names.
  */
 const NOMINATIM_TO_NE_NAME: Readonly<Record<string, string>> = {
-  Czechia: "Czech Republic",
+  "Czech Republic": "Czech Republic",
   Turkey: "Turkey", // some NE builds use "Türkiye"; we cover both below
 };
 
@@ -65,7 +65,7 @@ const NOMINATIM_TO_NE_NAME: Readonly<Record<string, string>> = {
  *  for a given Nominatim country (used to be defensive across NE
  *  versions). */
 const NE_NAME_ALIASES: Readonly<Record<string, readonly string[]>> = {
-  Czechia: ["Czechia", "Czech Republic", "Czech Rep."],
+  "Czech Republic": ["Czechia", "Czech Republic", "Czech Rep."],
   Turkey: ["Turkey", "Türkiye"],
 };
 
@@ -80,7 +80,7 @@ function tripCountForGeography(
 ): number {
   // 1. Exact catalogue-name hit.
   if (geoName in tripCounts) return tripCounts[geoName];
-  // 2. Alias-table hit (e.g. NE "Czech Republic" → catalogue "Czechia").
+  // 2. Alias-table hit (e.g. NE "Czechia" → catalogue "Czech Republic").
   for (const [catName, aliases] of Object.entries(NE_NAME_ALIASES)) {
     if (aliases.includes(geoName) && catName in tripCounts) {
       return tripCounts[catName];
