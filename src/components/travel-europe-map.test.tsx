@@ -300,7 +300,10 @@ describe("<TravelEuropeMap />", () => {
     );
     const pisaDot = screen.getByLabelText(/^Pisa, Italy · 8 photos$/);
     expect(pisaDot).toBeInTheDocument();
-    expect(pisaDot).toHaveAttribute("href", "/travel/photos/italy-2024-04");
+    expect(pisaDot).toHaveAttribute(
+      "href",
+      "/travel/photos/italy-2024-04#city-pisa",
+    );
     const krakow = screen.getByLabelText(/^Krakow, Poland · 3 photos$/);
     expect(krakow).toBeInTheDocument();
   });
