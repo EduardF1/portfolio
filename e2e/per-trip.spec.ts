@@ -13,7 +13,7 @@ test("per-trip photo page opens, lightbox traps focus, ESC restores it", async (
   // map city-dot links which share the href pattern but live inside <svg>
   // and intercept pointer events behind other markers.
   const recentTripLink = page
-    .locator('a[href*="/travel/photos/"]:not([data-testid="city-dot"])')
+    .locator('a[href*="/travel/photos/"]:not([data-testid="city-dot"]):not([href*="/country/"])')
     .first();
   await expect(recentTripLink).toBeVisible();
   const href = await recentTripLink.getAttribute("href");
