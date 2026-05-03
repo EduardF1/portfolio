@@ -119,19 +119,26 @@ vi.mock("next-intl/server", () => ({
         }
       }
       if (typeof cursor !== "string") return key;
-      return cursor.replace(
-        /\{(\w+)(?:,\s*plural,([^}]+))?\}/g,
-        (_match, name: string, plural?: string) => {
+      // Two-pass: ICU plurals first, then simple {var} substitutions.
+      let out = (cursor as string)
+        .replace(
+          /\{(\w+),\s*plural,\s*((?:[^{}]|\{[^{}]*\})*)\}/g,
+          (_match, name: string, plural: string) => {
+            const v = vars?.[name];
+            if (typeof v === "number") {
+              const oneArm = /one\s*\{([^}]*)\}/.exec(plural);
+              const otherArm = /other\s*\{([^}]*)\}/.exec(plural);
+              const text = (v === 1 ? oneArm?.[1] : otherArm?.[1]) ?? "";
+              return text.replace(/#/g, String(v));
+            }
+            return "";
+          },
+        )
+        .replace(/\{(\w+)\}/g, (_m, name: string) => {
           const v = vars?.[name];
-          if (plural !== undefined && typeof v === "number") {
-            const oneArm = /one\s*\{([^}]*)\}/.exec(plural);
-            const otherArm = /other\s*\{([^}]*)\}/.exec(plural);
-            const text = (v === 1 ? oneArm?.[1] : otherArm?.[1]) ?? "";
-            return text.replace(/#/g, String(v));
-          }
           return v == null ? "" : String(v);
-        },
-      );
+        });
+      return out;
     };
     return fn;
   },
