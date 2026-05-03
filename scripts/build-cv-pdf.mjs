@@ -409,6 +409,11 @@ function Header({ locale, messages }) {
       ),
       e(
         Link,
+        { src: "https://www.linkedin.com/in/eduard-fischer-szava/", style: styles.headerLink },
+        "linkedin.com/in/eduard-fischer-szava",
+      ),
+      e(
+        Link,
         {
           src: "mailto:fischer_eduard@yahoo.com",
           style: styles.headerLink,
