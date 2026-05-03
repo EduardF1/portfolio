@@ -44,63 +44,53 @@ async function main() {
     await page.waitForTimeout(2000);
 
     // ── 2. Check idempotency ──────────────────────────────────────
-    const alreadyFeatured = page.locator('section[id*="featured"] a[href*="eduardfischer"]');
+    const alreadyFeatured = page.locator('a[href*="eduardfischer"]');
     if (await alreadyFeatured.count() > 0) {
       console.log("✓ Portfolio link is already in your Featured section — nothing to do.");
       return;
     }
 
-    // ── 3. Open Featured controls ─────────────────────────────────
-    const featuredSection = page.locator('section[id*="featured-summary"]').first();
-
-    if (await featuredSection.count() > 0) {
-      console.log("Featured section found. Clicking its add (+) button...");
-      const addBtn = featuredSection.locator('button[aria-label*="Add"]').first();
-      await addBtn.scrollIntoViewIfNeeded();
-      await addBtn.click();
-    } else {
-      console.log('No Featured section yet — creating via "Add profile section"...');
-      const addSectionBtn = page.getByRole("button", { name: /Add profile section/i }).first();
-      await addSectionBtn.scrollIntoViewIfNeeded();
-      await addSectionBtn.click();
-      await page.waitForTimeout(600);
-
-      const featuredOption = page.getByRole("button", { name: /Featured/i });
-      await featuredOption.waitFor({ state: "visible", timeout: 10_000 });
-      await featuredOption.click();
-    }
-
+    // ── 3. Open Featured overflow menu ("...") ────────────────────
+    // The Featured section already exists — its overflow menu is the
+    // entry point for adding new items.
+    console.log('Opening Featured overflow menu...');
+    const overflowBtn = page.locator('[aria-label="Featured overflow menu"]').first();
+    await overflowBtn.scrollIntoViewIfNeeded();
+    await overflowBtn.click();
     await page.waitForTimeout(600);
 
-    // ── 4. Add a link ─────────────────────────────────────────────
-    const addLinkItem = page.getByRole("menuitem", { name: /Add a link/i });
+    // ── 4. Click "Add a link" inside the dropdown ─────────────────
+    // LinkedIn shows: Add a link / Add a post / Add media / Reorder
+    const addLinkItem = page.getByRole("menuitem", { name: /Add a link/i }).last();
     await addLinkItem.waitFor({ state: "visible", timeout: 10_000 });
     await addLinkItem.click();
     await page.waitForTimeout(800);
 
     // ── 5. Fill URL ───────────────────────────────────────────────
-    const urlInput = page
-      .locator("input[placeholder*='URL' i], input[id*='url' i]")
-      .first();
-    await urlInput.waitFor({ state: "visible", timeout: 10_000 });
+    // LinkedIn's "Add a link" form has no role="dialog" — find input by aria-label
+    const urlInput = page.locator('[aria-label*="Paste or type a link" i]').first();
+    await urlInput.waitFor({ state: "visible", timeout: 15_000 });
     await urlInput.fill(PORTFOLIO_URL);
     await page.keyboard.press("Tab");
-    await page.waitForTimeout(2500); // let LinkedIn resolve the URL
+    await page.waitForTimeout(4000); // wait for URL validation XHR
 
     // ── 6. Title & description ────────────────────────────────────
-    const titleInput = page.locator("input[placeholder*='Title' i], input[id*='title' i]").first();
-    if (await titleInput.isVisible()) await titleInput.fill(PORTFOLIO_TITLE);
+    const titleInput = page.locator("input[aria-label*='Title' i], input[placeholder*='Title' i]").first();
+    if (await titleInput.isVisible()) {
+      await titleInput.fill("");
+      await titleInput.fill(PORTFOLIO_TITLE);
+    }
 
-    const descInput = page
-      .locator("input[placeholder*='Description' i], textarea[placeholder*='Description' i]")
-      .first();
+    const descInput = page.locator("input[aria-label*='Description' i], textarea[aria-label*='Description' i]").first();
     if (await descInput.isVisible()) await descInput.fill(PORTFOLIO_DESC);
 
     // ── 7. Save ───────────────────────────────────────────────────
-    const saveBtn = page.getByRole("button", { name: /^Save$/i }).last();
-    await saveBtn.waitFor({ state: "visible", timeout: 10_000 });
-    await saveBtn.click();
-    await page.waitForLoadState("networkidle");
+    await page.waitForFunction(() => {
+      const btns = [...document.querySelectorAll("button")];
+      return btns.some(b => /^save$/i.test(b.innerText.trim()) && !b.disabled);
+    }, { timeout: 15_000 });
+    await page.getByRole("button", { name: /^Save$/i }).last().click();
+    await page.waitForTimeout(3000); // SPA — networkidle never fires
 
     console.log(`\n✓ Featured link added: ${PORTFOLIO_URL} — "${PORTFOLIO_TITLE}"`);
   } catch (err) {
