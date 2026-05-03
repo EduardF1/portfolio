@@ -139,7 +139,7 @@ describe("<TravelEuropeMap />", () => {
     expect(markers.length).toBe(3);
   });
 
-  it("each marker deep-links to the country's first trip page when available, falling back to the in-page anchor", () => {
+  it("each marker deep-links to the country's aggregated photo page", () => {
     render(
       <TravelEuropeMap
         destinations={SAMPLES}
@@ -148,12 +148,12 @@ describe("<TravelEuropeMap />", () => {
       />,
     );
     const itLink = screen.getByLabelText(/^Italy, 8 photos, 1 city$/);
-    expect(itLink).toHaveAttribute("href", "/travel/photos/italy-2024-04");
+    expect(itLink).toHaveAttribute("href", "/travel/photos/country/italy");
     const dkLink = screen.getByLabelText(/^Denmark, 100 photos, 2 cities$/);
-    // Fallback for the country with no published trip slug.
-    expect(dkLink).toHaveAttribute("href", "#country-denmark");
+    // Denmark uses the same country routing.
+    expect(dkLink).toHaveAttribute("href", "/travel/photos/country/denmark");
     const esLink = screen.getByLabelText(/^Spain, 1 photo, 1 city$/);
-    expect(esLink).toHaveAttribute("href", "/travel/photos/spain-2025-09");
+    expect(esLink).toHaveAttribute("href", "/travel/photos/country/spain");
   });
 
   it("renders an aria-label summarising the destination count", () => {
@@ -302,7 +302,7 @@ describe("<TravelEuropeMap />", () => {
     expect(pisaDot).toBeInTheDocument();
     expect(pisaDot).toHaveAttribute(
       "href",
-      "/travel/photos/italy-2024-04#city-pisa",
+      "/travel/photos/country/italy#city-pisa",
     );
     const krakow = screen.getByLabelText(/^Krakow, Poland · 3 photos$/);
     expect(krakow).toBeInTheDocument();
