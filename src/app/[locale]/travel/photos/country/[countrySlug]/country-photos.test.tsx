@@ -120,7 +120,7 @@ vi.mock("next-intl/server", () => ({
       }
       if (typeof cursor !== "string") return key;
       // Two-pass: ICU plurals first, then simple {var} substitutions.
-      let out = (cursor as string)
+      const out = (cursor as string)
         .replace(
           /\{(\w+),\s*plural,\s*((?:[^{}]|\{[^{}]*\})*)\}/g,
           (_match, name: string, plural: string) => {
