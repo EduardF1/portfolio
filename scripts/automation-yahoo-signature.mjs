@@ -1,18 +1,16 @@
 /**
  * scripts/automation-yahoo-signature.mjs
  * ─────────────────────────────────────────────────────────────────
- * Step 2 of 2 — sets the Yahoo Mail signature using a saved session
- * (no password needed).
- *
- * Run  npm run automate:yahoo:login  first to create the session.
+ * Sets the Yahoo Mail email signature.
+ * Automatically handles login/session refresh — no separate login step needed.
  *
  * Usage:
  *   npm run automate:yahoo-signature
  */
 
-import { chromium }   from "playwright";
-import { existsSync } from "node:fs";
-import { resolve }    from "node:path";
+import { chromium }  from "playwright";
+import { resolve }   from "node:path";
+import { ensureSession } from "./automation-session-helper.mjs";
 
 const SESSION_FILE = resolve(".playwright-sessions/yahoo.json");
 
@@ -24,11 +22,13 @@ const SIGNATURE_LINES = [
 ];
 
 async function main() {
-  if (!existsSync(SESSION_FILE)) {
-    console.error("\n  No saved session found.");
-    console.error("  Run  npm run automate:yahoo:login  first.\n");
-    process.exit(1);
-  }
+  // ── 0. Ensure valid session (auto-login if expired) ───────────
+  await ensureSession({
+    sessionFile: SESSION_FILE,
+    startUrl:    "https://mail.yahoo.com/",
+    siteName:    "Yahoo Mail",
+    isLoggedIn:  page => !(/login\.yahoo\.com/.test(page.url())),
+  });
 
   const browser = await chromium.launch({ headless: false, slowMo: 60 });
   const context = await browser.newContext({ storageState: SESSION_FILE });
@@ -40,7 +40,7 @@ async function main() {
     await page.goto("https://mail.yahoo.com/", { waitUntil: "domcontentloaded" });
 
     if (/login\.yahoo\.com/.test(page.url())) {
-      console.error("\n  Session expired. Run  npm run automate:yahoo:login  to refresh it.\n");
+      console.log("  Session expired mid-run — please re-run the script.\n");
       process.exit(1);
     }
     await page.waitForTimeout(4000);

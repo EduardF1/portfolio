@@ -1,18 +1,16 @@
 /**
  * scripts/automation-linkedin-featured.mjs
  * ─────────────────────────────────────────────────────────────────
- * Step 2 of 2 — adds eduardfischer.dev as a Featured link on your
- * LinkedIn profile using a saved session (no password needed).
- *
- * Run  npm run automate:linkedin:login  first to create the session.
+ * Adds eduardfischer.dev as a Featured link on your LinkedIn profile.
+ * Automatically handles login/session refresh — no separate login step needed.
  *
  * Usage:
  *   npm run automate:linkedin
  */
 
-import { chromium }   from "playwright";
-import { existsSync } from "node:fs";
-import { resolve }    from "node:path";
+import { chromium }  from "playwright";
+import { resolve }   from "node:path";
+import { ensureSession } from "./automation-session-helper.mjs";
 
 const SESSION_FILE    = resolve(".playwright-sessions/linkedin.json");
 const PORTFOLIO_URL   = "https://eduardfischer.dev";
@@ -20,11 +18,13 @@ const PORTFOLIO_TITLE = "Portfolio & Case Studies";
 const PORTFOLIO_DESC  = "Case studies, writing, travel and recommendations.";
 
 async function main() {
-  if (!existsSync(SESSION_FILE)) {
-    console.error("\n  No saved session found.");
-    console.error("  Run  npm run automate:linkedin:login  first.\n");
-    process.exit(1);
-  }
+  // ── 0. Ensure valid session (auto-login if expired) ───────────
+  await ensureSession({
+    sessionFile: SESSION_FILE,
+    startUrl:    "https://www.linkedin.com/feed/",
+    siteName:    "LinkedIn",
+    isLoggedIn:  page => !(/login|authwall|signup/.test(page.url())),
+  });
 
   const browser = await chromium.launch({ headless: false, slowMo: 80 });
   const context = await browser.newContext({ storageState: SESSION_FILE });
@@ -37,7 +37,7 @@ async function main() {
 
     // Detect session expiry
     if (/login|authwall/.test(page.url())) {
-      console.error("\n  Session expired. Run  npm run automate:linkedin:login  to refresh it.\n");
+      console.log("  Session expired mid-run — please re-run the script.\n");
       process.exit(1);
     }
 
