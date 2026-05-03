@@ -41,8 +41,11 @@ async function main() {
 
   await page.goto("https://mail.yahoo.com/", { waitUntil: "domcontentloaded" });
 
-  // Wait until the inbox URL appears — you drive the login
-  await page.waitForURL(/mail\.yahoo\.com\/(d\/folders|\.neo\/|$)/, { timeout: 0 });
+  // Wait until past the login page — any mail.yahoo.com URL that isn't login/consent
+  await page.waitForURL(url => {
+    const s = url.toString();
+    return s.includes("mail.yahoo.com") && !s.includes("login") && !s.includes("consent");
+  }, { timeout: 0 });
 
   console.log("✓ Detected inbox. Saving session...");
   await context.storageState({ path: SESSION_FILE });

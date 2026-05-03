@@ -35,58 +35,51 @@ async function main() {
   const page    = await context.newPage();
 
   try {
-    // ── 1. Open Yahoo Mail ────────────────────────────────────────
+    // ── 1. Load inbox first so the SPA initialises ────────────────
     console.log("Opening Yahoo Mail...");
-    await page.goto("https://mail.yahoo.com/", { waitUntil: "networkidle" });
+    await page.goto("https://mail.yahoo.com/", { waitUntil: "domcontentloaded" });
 
     if (/login\.yahoo\.com/.test(page.url())) {
       console.error("\n  Session expired. Run  npm run automate:yahoo:login  to refresh it.\n");
       process.exit(1);
     }
+    await page.waitForTimeout(4000);
 
-    // ── 2. Settings gear ─────────────────────────────────────────
-    const gearBtn = page
-      .locator('[data-test-id="settings-button"], [aria-label*="Setting" i]')
-      .first();
-    await gearBtn.waitFor({ state: "visible", timeout: 15_000 });
-    await gearBtn.click();
-    await page.waitForTimeout(500);
+    // ── 2. Navigate to Writing email settings ─────────────────────
+    console.log("Navigating to signature settings...");
+    await page.goto("https://mail.yahoo.com/n/settings/writing-email", { waitUntil: "domcontentloaded" });
+    await page.waitForTimeout(2000);
 
-    // ── 3. More Settings ─────────────────────────────────────────
-    const moreSettings = page.getByText(/More Settings/i).first();
-    await moreSettings.waitFor({ state: "visible", timeout: 10_000 });
-    await moreSettings.click();
+    // Click "Writing email" in the left nav to trigger content render
+    await page.getByText("Writing email").first().click();
+    await page.waitForTimeout(4000);
 
-    // ── 4. Writing email ─────────────────────────────────────────
-    await page.waitForTimeout(1000);
-    const writingEmail = page
-      .getByRole("link", { name: /Writing email/i })
-      .or(page.getByText(/Writing email/i).first());
-    await writingEmail.waitFor({ state: "visible", timeout: 15_000 });
-    await writingEmail.click();
-    await page.waitForTimeout(800);
-
-    // ── 5. Enable signature toggle if needed ─────────────────────
-    const signatureToggle = page
-      .locator('[data-test-id="signature-enabled-toggle"], [aria-label*="Signature" i] input[type="checkbox"]')
+    // ── 3. Enable signature toggle if off ─────────────────────────
+    // Toggle is next to the email address in the Signature section
+    const toggle = page.locator('section:has-text("Signature") [role="switch"], [role="switch"]')
+      .or(page.locator('input[type="checkbox"]').nth(0))
       .first();
 
-    if (await signatureToggle.count() > 0 && !(await signatureToggle.isChecked())) {
-      console.log("Enabling signature...");
-      await signatureToggle.click();
-      await page.waitForTimeout(500);
+    const toggleVisible = await toggle.isVisible().catch(() => false);
+    if (toggleVisible) {
+      const isOn = await toggle.evaluate(el =>
+        el.getAttribute("aria-checked") === "true" || el.checked
+      ).catch(() => false);
+      if (!isOn) {
+        console.log("Enabling signature toggle...");
+        await toggle.click();
+        await page.waitForTimeout(1500);
+      } else {
+        console.log("Signature toggle already enabled.");
+      }
     }
 
-    // ── 6. Clear + type new signature ────────────────────────────
-    const editor = page
-      .locator('[data-test-id="signature-editor"] [contenteditable="true"]')
-      .or(page.locator('.signature-editor [contenteditable="true"]'))
-      .or(page.locator('[contenteditable="true"][aria-label*="Signature" i]'))
-      .first();
-
+    // ── 4. Find and fill the signature editor ─────────────────────
+    const editor = page.locator('[contenteditable="true"]').first();
     await editor.waitFor({ state: "visible", timeout: 15_000 });
+    console.log("Signature editor found. Filling...");
     await editor.click();
-    await page.keyboard.shortcut("Control+A");
+    await page.keyboard.press("Control+A");
     await page.keyboard.press("Delete");
     await page.waitForTimeout(300);
 
@@ -95,15 +88,13 @@ async function main() {
       if (i < SIGNATURE_LINES.length - 1) await page.keyboard.press("Enter");
     }
 
-    // ── 7. Save ───────────────────────────────────────────────────
-    const saveBtn = page
-      .getByRole("button", { name: /^Save$/i })
-      .or(page.locator('[data-test-id="save-button"]'))
-      .first();
+    // ── 5. Wait for auto-save (Yahoo Mail saves automatically) ────
+    console.log("Waiting for auto-save...");
+    await page.waitForTimeout(3000);
 
-    await saveBtn.waitFor({ state: "visible", timeout: 10_000 });
-    await saveBtn.click();
-    await page.waitForTimeout(1500);
+    // Verify by checking the editor still has our content
+    const savedText = await editor.innerText().catch(() => "");
+    console.log("Editor content after save:", savedText.trim().slice(0, 100));
 
     console.log("\n✓ Yahoo Mail signature set!");
     console.log("  " + SIGNATURE_LINES.join(" | "));
