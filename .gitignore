@@ -141,3 +141,6 @@ scripts/.per-city-min5/dk-cities-backfill.mjs
 scripts/.per-city-min5/pexels-api-backfill.mjs
 scripts/.per-city-min5/pexels-backfill-playwright.mjs
 scripts/.per-city-min5/redownload-missing.mjs
+
+# Playwright saved login sessions (contain cookies — never commit)
+.playwright-sessions/
