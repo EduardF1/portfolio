@@ -18,12 +18,16 @@ export function VisitTracker() {
   useEffect(() => {
     if (process.env.NEXT_PUBLIC_ANALYTICS_ENABLED !== "1") return;
     try {
+      const sp = new URLSearchParams(window.location.search);
       fetch("/api/track", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           path: window.location.pathname,
           ref: document.referrer || "",
+          utmSource: sp.get("utm_source") ?? "",
+          utmMedium: sp.get("utm_medium") ?? "",
+          utmCampaign: sp.get("utm_campaign") ?? "",
         }),
         keepalive: true,
       }).catch(() => {});

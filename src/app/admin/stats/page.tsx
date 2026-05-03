@@ -2,11 +2,13 @@ import { cookies, headers } from "next/headers";
 import { notFound, redirect } from "next/navigation";
 import {
   bucketHitsByDay,
+  bucketHitsByHour,
   countBy,
   dayKey,
   dayKeysForRange,
   deviceMix,
   RANGE_DAYS,
+  suspiciousDays,
   topN,
   uniqueSessions,
   type Hit,
@@ -41,7 +43,7 @@ const RANGE_LABEL: Record<RangeKey, string> = {
   all: "All time",
 };
 
-type SearchParams = Promise<{ key?: string; range?: string }>;
+type SearchParams = Promise<{ key?: string; range?: string; bots?: string }>;
 
 // TODO i18n — this entire file is intentionally EN-only (admin scope).
 export default async function AdminStatsPage({
@@ -93,6 +95,7 @@ export default async function AdminStatsPage({
   const range: RangeKey = RANGE_TABS.includes(sp.range as RangeKey)
     ? (sp.range as RangeKey)
     : "today";
+  const bots = sp.bots === "include" ? "include" : "exclude";
   const days = dayKeysForRange(new Date(), RANGE_DAYS[range]);
 
   // Build the absolute base URL for the internal /api/track-palette
@@ -120,6 +123,8 @@ export default async function AdminStatsPage({
       uniqueAcrossDays={uniqueAcrossDays}
       paletteStats={paletteStats}
       searchQueries={searchQueries}
+      adminCookie={adminCookie}
+      bots={bots}
     />
   );
 }
@@ -146,6 +151,8 @@ function Dashboard({
   uniqueAcrossDays,
   paletteStats,
   searchQueries,
+  adminCookie,
+  bots,
 }: {
   range: RangeKey;
   days: string[];
@@ -153,16 +160,25 @@ function Dashboard({
   uniqueAcrossDays: number;
   paletteStats: PaletteStats;
   searchQueries: CountRow[];
+  adminCookie: string | undefined;
+  bots: "include" | "exclude";
 }) {
+  // Compute suspicious days and optionally filter hits.
+  const suspDays = suspiciousDays(hits, days);
+  const filteredHits =
+    bots === "exclude"
+      ? hits.filter((h) => !suspDays.has(dayKey(new Date(h.ts))))
+      : hits;
+
   // Aggregate everything we need for the cards in one pass through hits.
-  const totalViews = hits.length;
-  const uniqueSess = uniqueSessions(hits);
-  const perDay = bucketHitsByDay(hits, days);
-  const topPages = topN(countBy(hits, "path"), 10);
-  // Build referrer counts from hits (matches getHits ordering and
-  // honours self-referral suppression done at insertion time).
+  const totalViews = filteredHits.length;
+  const uniqueSess = uniqueSessions(filteredHits);
+  const perDay = bucketHitsByDay(filteredHits, days);
+  const perHour = bucketHitsByHour(filteredHits);
+  const topPages = topN(countBy(filteredHits, "path"), 10);
+  // Build referrer counts from hits
   const referrerCounts: Record<string, number> = {};
-  for (const h of hits) {
+  for (const h of filteredHits) {
     if (!h.ref) continue;
     try {
       const host = new URL(h.ref).host;
@@ -172,10 +188,13 @@ function Dashboard({
     }
   }
   const topReferrers = topN(referrerCounts, 10);
-  const countries = topN(countBy(hits, "country"), 10);
-  const browsers = topN(countBy(hits, "browser"), 5);
-  const devices = deviceMix(hits);
+  const countries = topN(countBy(filteredHits, "country"), 10);
+  const browsers = topN(countBy(filteredHits, "browser"), 5);
+  const devices = deviceMix(filteredHits);
   const deviceTotal = devices.mobile + devices.tablet + devices.desktop;
+  const utmHits = filteredHits.filter((h) => h.utmSource);
+  const utmSources = topN(countBy(utmHits as Hit[], "utmSource"), 10);
+  const maxHourCount = Math.max(1, ...Object.values(perHour));
 
   return (
     <main className="container-page py-12 md:py-16">
@@ -185,12 +204,17 @@ function Dashboard({
             Internal · {dayKey(new Date())}
           </p>
           <h1 className="mt-2 text-3xl font-medium">Stats</h1>
+          <p className={`mt-2 text-xs ${adminCookie === "1" ? "text-foreground-subtle" : "text-amber-500"}`}>
+            {adminCookie === "1"
+              ? "Your browser is excluded from these stats"
+              : "⚠ Set the admin cookie to exclude your own views — visit with ?key= first"}
+          </p>
         </div>
         <nav aria-label="Range" className="flex flex-wrap gap-2">
           {RANGE_TABS.map((r) => (
             <a
               key={r}
-              href={`/admin/stats?range=${r}`}
+              href={`/admin/stats?range=${r}&bots=${bots}`}
               aria-current={range === r ? "page" : undefined}
               className={
                 "rounded-full px-3 py-1 text-xs font-mono uppercase tracking-wider transition-colors " +
@@ -205,7 +229,17 @@ function Dashboard({
         </nav>
       </header>
 
-      <section className="mt-8 grid gap-4 sm:grid-cols-3">
+      {suspDays.size > 0 && (
+        <div className="mt-4 rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm">
+          {bots === "exclude" ? (
+            <>⚠ {suspDays.size} suspicious day(s) excluded ({[...suspDays].join(", ")}). <a href={`/admin/stats?range=${range}&bots=include`} className="underline">Include →</a></>
+          ) : (
+            <>Showing all data including {suspDays.size} suspicious day(s). <a href={`/admin/stats?range=${range}&bots=exclude`} className="underline">Exclude →</a></>
+          )}
+        </div>
+      )}
+
+      <section className="mt-8 grid gap-4 sm:grid-cols-2 md:grid-cols-4">
         <Stat label="Page views" value={totalViews.toLocaleString("en-GB")} />
         <Stat
           label="Unique sessions (visit-day)"
@@ -215,6 +249,11 @@ function Dashboard({
         <Stat
           label="Days in window"
           value={days.length.toLocaleString("en-GB")}
+        />
+        <Stat
+          label="Suspicious days"
+          value={suspDays.size.toLocaleString("en-GB")}
+          note={bots === "exclude" ? "excluded" : "included"}
         />
       </section>
 
@@ -252,6 +291,35 @@ function Dashboard({
         </div>
       </section>
 
+      <section className="mt-12">
+        <h2 className="text-lg font-medium">Hourly heatmap (UTC)</h2>
+        <div className="mt-4 rounded-lg border border-border p-4">
+          <ul className="space-y-1">
+            {Array.from({ length: 24 }, (_, h) => {
+              const count = perHour[h] ?? 0;
+              const pct = (count / maxHourCount) * 100;
+              return (
+                <li
+                  key={h}
+                  className="grid grid-cols-[3rem_1fr_3rem] items-center gap-3 text-sm"
+                >
+                  <span className="font-mono text-xs text-foreground-subtle">
+                    {String(h).padStart(2, "0")}:00
+                  </span>
+                  <div className="h-2 rounded bg-surface">
+                    <div
+                      className="h-2 rounded bg-accent"
+                      style={{ width: `${pct}%` }}
+                    />
+                  </div>
+                  <span className="text-right font-mono">{count}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </section>
+
       <div className="mt-12 grid gap-8 md:grid-cols-2">
         <RankTable title="Top pages" rows={topPages} keyHeader="Path" />
         <RankTable
@@ -276,6 +344,12 @@ function Dashboard({
           ]}
         />
         <RankTable title="Browser mix" rows={browsers} keyHeader="Browser" />
+        <RankTable
+          title="UTM sources"
+          rows={utmSources}
+          keyHeader="Source"
+          empty="No UTM-tagged traffic in this window."
+        />
       </div>
 
       <div className="mt-12 grid gap-8 md:grid-cols-2">

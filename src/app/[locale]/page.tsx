@@ -141,7 +141,7 @@ function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
               <ArrowUpRight className="h-4 w-4" />
             </Link>
             <a
-              href="/cv/Eduard_Fischer-Szava_CV_EN.pdf"
+              href="/api/cv/Eduard_Fischer-Szava_CV_EN.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium hover:border-accent hover:text-accent"
               download
             >
@@ -149,7 +149,7 @@ function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
               {t("common.downloadCvEn")}
             </a>
             <a
-              href="/cv/Eduard_Fischer-Szava_CV_DA.pdf"
+              href="/api/cv/Eduard_Fischer-Szava_CV_DA.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium hover:border-accent hover:text-accent"
               download
             >

@@ -35,7 +35,7 @@ const SESSION_COOKIE = "pf_session";
 const ADMIN_COOKIE = "pf_admin";
 const SESSION_TTL_SECONDS = 30 * 60; // 30 min
 
-type TrackBody = { path?: unknown; ref?: unknown };
+type TrackBody = { path?: unknown; ref?: unknown; utmSource?: unknown; utmMedium?: unknown; utmCampaign?: unknown };
 
 export async function POST(request: Request): Promise<Response> {
   // Always 204 the client — analytics must never break the UI even
@@ -63,6 +63,9 @@ export async function POST(request: Request): Promise<Response> {
       ? body.path.slice(0, 256)
       : "/";
   const ref = typeof body.ref === "string" ? body.ref.slice(0, 512) : "";
+  const utmSource = typeof body.utmSource === "string" && body.utmSource ? body.utmSource.slice(0, 128) : undefined;
+  const utmMedium = typeof body.utmMedium === "string" && body.utmMedium ? body.utmMedium.slice(0, 128) : undefined;
+  const utmCampaign = typeof body.utmCampaign === "string" && body.utmCampaign ? body.utmCampaign.slice(0, 128) : undefined;
 
   const headerStore = await headers();
   const ua = headerStore.get("user-agent");
@@ -102,6 +105,9 @@ export async function POST(request: Request): Promise<Response> {
     deviceType,
     sessionId,
     ts: Date.now(),
+    ...(utmSource ? { utmSource } : {}),
+    ...(utmMedium ? { utmMedium } : {}),
+    ...(utmCampaign ? { utmCampaign } : {}),
   };
 
   // Per-IP-hash daily uniqueness counter for the digest cron. Sibling

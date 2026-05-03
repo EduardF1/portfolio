@@ -18,6 +18,9 @@ export type Hit = {
   deviceType: DeviceType;
   sessionId: string;
   ts: number;
+  utmSource?: string;
+  utmMedium?: string;
+  utmCampaign?: string;
 };
 
 export type RangeKey = "today" | "7d" | "30d" | "all";
@@ -157,4 +160,48 @@ export function generateSessionId(): string {
   return Array.from(bytes)
     .map((b) => b.toString(16).padStart(2, "0"))
     .join("");
+}
+
+/** Returns a Record<0..23, number> — count of hits per UTC hour. */
+export function bucketHitsByHour(
+  hits: Pick<Hit, "ts">[],
+): Record<number, number> {
+  const out: Record<number, number> = Object.fromEntries(
+    Array.from({ length: 24 }, (_, h) => [h, 0]),
+  );
+  for (const h of hits) {
+    out[new Date(h.ts).getUTCHours()] += 1;
+  }
+  return out;
+}
+
+const MIN_HITS_TO_CHECK = 15;
+const SUSPICION_THRESHOLD = 0.9;
+
+/**
+ * Returns the set of yyyy-MM-dd keys where traffic looks bot-like:
+ * a single session accounts for ≥ 90 % of that day's hits AND the
+ * day has at least 15 total hits.
+ */
+export function suspiciousDays(hits: Hit[], days: string[]): Set<string> {
+  const hitsByDay: Record<string, Hit[]> = Object.fromEntries(
+    days.map((d) => [d, []]),
+  );
+  for (const h of hits) {
+    const k = dayKey(new Date(h.ts));
+    if (k in hitsByDay) hitsByDay[k].push(h);
+  }
+  const suspicious = new Set<string>();
+  for (const [day, dayHits] of Object.entries(hitsByDay)) {
+    if (dayHits.length < MIN_HITS_TO_CHECK) continue;
+    const sessionCounts: Record<string, number> = {};
+    for (const h of dayHits) {
+      sessionCounts[h.sessionId] = (sessionCounts[h.sessionId] ?? 0) + 1;
+    }
+    const maxCount = Math.max(...Object.values(sessionCounts));
+    if (maxCount / dayHits.length >= SUSPICION_THRESHOLD) {
+      suspicious.add(day);
+    }
+  }
+  return suspicious;
 }

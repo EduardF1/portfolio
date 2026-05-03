@@ -1,12 +1,14 @@
 import { describe, it, expect } from "vitest";
 import {
   bucketHitsByDay,
+  bucketHitsByHour,
   countBy,
   dayKey,
   dayKeysForRange,
   deviceMix,
   generateSessionId,
   normalizeReferrer,
+  suspiciousDays,
   topN,
   uniqueSessions,
   type Hit,
@@ -159,5 +161,55 @@ describe("generateSessionId", () => {
     const a = generateSessionId();
     const b = generateSessionId();
     expect(a).not.toBe(b);
+  });
+});
+
+describe("bucketHitsByHour", () => {
+  it("counts hits per UTC hour, emitting all 24 buckets", () => {
+    const hits = [
+      hit({ ts: Date.UTC(2026, 3, 26, 0, 30) }),  // hour 0
+      hit({ ts: Date.UTC(2026, 3, 26, 0, 45) }),  // hour 0
+      hit({ ts: Date.UTC(2026, 3, 26, 14, 0) }), // hour 14
+    ];
+    const result = bucketHitsByHour(hits);
+    expect(Object.keys(result)).toHaveLength(24);
+    expect(result[0]).toBe(2);
+    expect(result[14]).toBe(1);
+    expect(result[1]).toBe(0);
+    expect(result[23]).toBe(0);
+  });
+
+  it("returns all-zero map for empty input", () => {
+    const result = bucketHitsByHour([]);
+    expect(Object.keys(result)).toHaveLength(24);
+    expect(Object.values(result).every((v) => v === 0)).toBe(true);
+  });
+});
+
+describe("suspiciousDays", () => {
+  const day = "2026-04-26";
+  const ts = Date.UTC(2026, 3, 26, 12);
+
+  it("flags a day where one session dominates (≥90% of ≥15 hits)", () => {
+    const dominated = Array.from({ length: 14 }, () => hit({ ts, sessionId: "bot" }));
+    dominated.push(hit({ ts, sessionId: "human" }));
+    // 14/15 ≈ 93% — should be flagged
+    expect(suspiciousDays(dominated, [day])).toEqual(new Set([day]));
+  });
+
+  it("does not flag a day with fewer than 15 hits", () => {
+    const few = Array.from({ length: 14 }, () => hit({ ts, sessionId: "bot" }));
+    expect(suspiciousDays(few, [day])).toEqual(new Set());
+  });
+
+  it("does not flag a day with diverse sessions", () => {
+    const diverse = Array.from({ length: 20 }, (_, i) =>
+      hit({ ts, sessionId: `s${i}` }),
+    );
+    expect(suspiciousDays(diverse, [day])).toEqual(new Set());
+  });
+
+  it("returns empty set when hits array is empty", () => {
+    expect(suspiciousDays([], [day])).toEqual(new Set());
   });
 });
