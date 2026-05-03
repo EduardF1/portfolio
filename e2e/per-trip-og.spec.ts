@@ -24,7 +24,7 @@ test("per-trip opengraph-image returns image/png with reasonable bytes", async (
   // SVG city-dot links which share the href pattern but live inside
   // <svg> so are unreliable for getAttribute reads.
   const tripLink = page
-    .locator('a[href*="/travel/photos/"]:not([data-testid="city-dot"])')
+    .locator('a[href*="/travel/photos/"]:not([data-testid="city-dot"]):not([href*="/country/"])')
     .first();
   await expect(tripLink).toBeVisible();
   const href = await tripLink.getAttribute("href");
