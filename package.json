@@ -19,8 +19,10 @@
     "test:cross-platform": "cross-env CROSS_PLATFORM=1 playwright test",
     "build:tech-demos": "node scripts/build-tech-demos.mjs",
     "build:cv": "node scripts/build-cv-pdf.mjs",
-    "automate:linkedin": "node --env-file=.env.local scripts/automation-linkedin-featured.mjs",
-    "automate:yahoo-signature": "node --env-file=.env.local scripts/automation-yahoo-signature.mjs"
+    "automate:linkedin": "node scripts/automation-linkedin-featured.mjs",
+    "automate:yahoo-signature": "node scripts/automation-yahoo-signature.mjs",
+    "automate:linkedin:login": "node scripts/automation-linkedin-login.mjs",
+    "automate:yahoo:login": "node scripts/automation-yahoo-login.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
