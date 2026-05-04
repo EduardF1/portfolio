@@ -183,6 +183,7 @@ function Hero({ videoVariant }: { videoVariant: HeroVideoVariant | null }) {
                   alt="Eduard Fischer-Szava, portrait"
                   fill
                   priority
+                  quality={90}
                   sizes="(min-width: 768px) 400px, 100vw"
                   className="object-contain object-bottom"
                 />
