@@ -11,6 +11,13 @@ const withBundleAnalyzer = bundleAnalyzer({
 });
 
 const nextConfig: NextConfig = {
+  images: {
+    // Next 15+ silently ignores `<Image quality={90}>` unless the value
+    // is enumerated here. Without 90 in the list the optimiser falls
+    // back to the default 75, which keeps the hero portrait softer than
+    // intended on high-DPI screens.
+    qualities: [75, 90],
+  },
   async headers() {
     return [
       {
