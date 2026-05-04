@@ -2907,22 +2907,6 @@
     }
   },
   {
-    "src": "trips/2019-01-romania/IMG_20190112_154253.jpg",
-    "takenAt": "2019-01-12T15:42:53Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 45.89682,
-      "lon": 25.70595
-    },
-    "place": {
-      "city": "Sfântu Gheorghe",
-      "country": "Romania",
-      "display": "Sfântu Gheorghe, Romania"
-    },
-    "caption": "Sfântu Gheorghe, Romania · January 2019"
-  },
-  {
     "src": "trips/2019-05-netherlands/pexels-amsterdam-canal-boats-trees-29351196.jpg",
     "takenAt": "2019-05-04T12:00:00Z",
     "hasGps": true,
@@ -19536,5 +19520,31 @@
       "licenseUrl": "https://www.pexels.com/license/"
     },
     "caption": "Metal Constructions And Led Lamps In · Turda, Romania · August 2023"
+  },
+  {
+    "src": "trips/2019-01-romania/pexels-sfantu-gheorghe-scenic-winter-view-of-snow-covered-carpathian-30115635.jpg",
+    "takenAt": "2019-01-12T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8636,
+      "lon": 25.7889
+    },
+    "place": {
+      "city": "Sfântu Gheorghe",
+      "country": "Romania",
+      "display": "Sfântu Gheorghe, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/winter-landscape-in-the-carpathian-mountains-30115635/",
+      "photographer": "Marian Florinel Condruz",
+      "photographerUrl": "https://www.pexels.com/@gottapics",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Scenic Winter View Of Snow Covered Carpathian · Sfântu Gheorghe, Romania · January 2019"
   }
 ]
