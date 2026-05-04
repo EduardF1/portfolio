@@ -2561,31 +2561,6 @@
     }
   },
   {
-    "src": "trips/2018-03-israel/pexels-haifa-bahai-port-aerial-17291340.jpg",
-    "takenAt": "2018-03-25T18:00:00Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 32.794,
-      "lon": 34.9896
-    },
-    "place": {
-      "city": "Haifa",
-      "country": "Israel",
-      "display": "Haifa, Israel"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/drone-shot-of-haifa-in-israel-17291340/",
-      "photographer": "Kelly",
-      "photographerUrl": "https://www.pexels.com/@kelly/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
     "src": "trips/2018-03-israel/pexels-haifa-hilltop-cityview-27638436.jpg",
     "takenAt": "2018-03-25T18:00:00Z",
     "hasGps": true,
@@ -2930,22 +2905,6 @@
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
-  },
-  {
-    "src": "trips/2019-01-romania/IMG_20190112_154250.jpg",
-    "takenAt": "2019-01-12T15:42:51Z",
-    "hasGps": true,
-    "cameraModel": "RNE-L21",
-    "gps": {
-      "lat": 45.89682,
-      "lon": 25.70595
-    },
-    "place": {
-      "city": "Sfântu Gheorghe",
-      "country": "Romania",
-      "display": "Sfântu Gheorghe, Romania"
-    },
-    "caption": "Sfântu Gheorghe, Romania · January 2019"
   },
   {
     "src": "trips/2019-01-romania/IMG_20190112_154253.jpg",
@@ -4987,31 +4946,6 @@
       "url": "https://www.pexels.com/photo/scenic-view-of-mountains-meadow-and-trees-20620105/",
       "photographer": "Marian Mirea",
       "photographerUrl": "https://www.pexels.com/@marian-mirea-103393234",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
-  },
-  {
-    "src": "trips/2022-08-romania/pexels-busteni-breathtaking-landscape-of-the-carpathian-mountains-8496599.jpg",
-    "takenAt": "2022-08-05T20:48:55Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 45.4167,
-      "lon": 25.5333
-    },
-    "place": {
-      "city": "Bușteni",
-      "country": "Romania",
-      "display": "Bușteni, Romania"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/view-on-mountains-on-sunny-day-8496599/",
-      "photographer": "Andrew",
-      "photographerUrl": "https://www.pexels.com/@andrew-72937250",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/"
     }
@@ -7451,22 +7385,6 @@
     "caption": "Bușteni, Romania · August 2023"
   },
   {
-    "src": "trips/2023-08-romania/IMG20230825101826.jpg",
-    "takenAt": "2023-08-25T10:18:26Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 45.3968,
-      "lon": 25.44564
-    },
-    "place": {
-      "city": "Bușteni",
-      "country": "Romania",
-      "display": "Bușteni, Romania"
-    },
-    "caption": "Bușteni, Romania · August 2023"
-  },
-  {
     "src": "trips/2023-08-romania/IMG20230825102935.jpg",
     "takenAt": "2023-08-25T10:29:35Z",
     "hasGps": true,
@@ -7481,31 +7399,6 @@
       "display": "Bușteni, Romania"
     },
     "caption": "Bușteni, Romania · August 2023"
-  },
-  {
-    "src": "trips/2023-08-romania/pexels-busteni-bucegi-mountain-panorama-19755730.jpg",
-    "takenAt": "2023-08-28T22:13:59Z",
-    "hasGps": true,
-    "cameraModel": "Pexels stock",
-    "gps": {
-      "lat": 45.4075,
-      "lon": 25.5424
-    },
-    "place": {
-      "city": "Bușteni",
-      "country": "Romania",
-      "display": "Bușteni, Romania"
-    },
-    "stock": true,
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/19755730/",
-      "photographer": "Iulian Patrascu",
-      "photographerUrl": "https://www.pexels.com/@gip07/",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    }
   },
   {
     "src": "trips/2023-08-romania/pexels-bran-castle-autumn-sunset-14060705.jpg",
@@ -7679,22 +7572,6 @@
     }
   },
   {
-    "src": "trips/2023-08-romania/IMG20230827134002.jpg",
-    "takenAt": "2023-08-27T13:40:02Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 45.56785,
-      "lon": 25.64385
-    },
-    "place": {
-      "city": "Azuga",
-      "country": "Romania",
-      "display": "Azuga, Romania"
-    },
-    "caption": "Azuga, Romania · August 2023"
-  },
-  {
     "src": "trips/2023-08-romania/IMG20230827134734.jpg",
     "takenAt": "2023-08-27T13:47:34Z",
     "hasGps": true,
@@ -7709,22 +7586,6 @@
       "display": "Bușteni, Romania"
     },
     "caption": "Bușteni, Romania · August 2023"
-  },
-  {
-    "src": "trips/2023-08-romania/IMG20230827135911.jpg",
-    "takenAt": "2023-08-27T13:59:11Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 45.56719,
-      "lon": 25.64467
-    },
-    "place": {
-      "city": "Azuga",
-      "country": "Romania",
-      "display": "Azuga, Romania"
-    },
-    "caption": "Azuga, Romania · August 2023"
   },
   {
     "src": "trips/2023-08-romania/pexels-sacele-brasov-snow-mountains-firs-4624108.jpg",
@@ -7819,38 +7680,6 @@
       "display": "Săcele, Romania"
     },
     "caption": "Săcele, Romania · August 2023"
-  },
-  {
-    "src": "trips/2023-08-romania/IMG20230827142353.jpg",
-    "takenAt": "2023-08-27T14:23:53Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 45.56568,
-      "lon": 25.64326
-    },
-    "place": {
-      "city": "Azuga",
-      "country": "Romania",
-      "display": "Azuga, Romania"
-    },
-    "caption": "Azuga, Romania · August 2023"
-  },
-  {
-    "src": "trips/2023-08-romania/IMG20230827193647.jpg",
-    "takenAt": "2023-08-27T19:36:47Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 45.59254,
-      "lon": 25.54993
-    },
-    "place": {
-      "city": "Azuga",
-      "country": "Romania",
-      "display": "Azuga, Romania"
-    },
-    "caption": "Azuga, Romania · August 2023"
   },
   {
     "src": "trips/2023-08-romania/IMG20230828121116.jpg",
@@ -7965,38 +7794,6 @@
     "caption": "Avrig, Romania · August 2023"
   },
   {
-    "src": "trips/2023-08-romania/IMG20230828230757.jpg",
-    "takenAt": "2023-08-28T23:07:57Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 45.67459,
-      "lon": 24.46111
-    },
-    "place": {
-      "city": "Avrig",
-      "country": "Romania",
-      "display": "Avrig, Romania"
-    },
-    "caption": "Avrig, Romania · August 2023"
-  },
-  {
-    "src": "trips/2023-08-romania/IMG20230828231350.jpg",
-    "takenAt": "2023-08-28T23:13:50Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 45.67602,
-      "lon": 24.44726
-    },
-    "place": {
-      "city": "Avrig",
-      "country": "Romania",
-      "display": "Avrig, Romania"
-    },
-    "caption": "Avrig, Romania · August 2023"
-  },
-  {
     "src": "trips/2023-08-romania/IMG20230828231354.jpg",
     "takenAt": "2023-08-28T23:13:54Z",
     "hasGps": true,
@@ -8020,22 +7817,6 @@
     "gps": {
       "lat": 46.58761,
       "lon": 23.78716
-    },
-    "place": {
-      "city": "Turda",
-      "country": "Romania",
-      "display": "Turda, Romania"
-    },
-    "caption": "Turda, Romania · August 2023"
-  },
-  {
-    "src": "trips/2023-08-romania/IMG20230829134925.jpg",
-    "takenAt": "2023-08-29T13:49:25Z",
-    "hasGps": true,
-    "cameraModel": "OnePlus 11 5G",
-    "gps": {
-      "lat": 46.58666,
-      "lon": 23.78631
     },
     "place": {
       "city": "Turda",
@@ -19019,30 +18800,6 @@
     }
   },
   {
-    "src": "trips/2019-01-romania/pexels-sfantu-gheorghe-close-up-view-of-an-orthodox-church-with-intricate-35425590.jpg",
-    "takenAt": "2019-01-12T15:42:51Z",
-    "hasGps": true,
-    "place": {
-      "city": "Sfântu Gheorghe",
-      "country": "Romania",
-      "display": "Sfântu Gheorghe, Romania"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/35425590/",
-      "photographer": "Valeria Drozdova",
-      "photographerUrl": "https://www.pexels.com/@valeria-drozdova-2148646707",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Sfântu Gheorghe · Sfântu Gheorghe, Romania",
-    "gps": {
-      "lat": 45.8802,
-      "lon": 25.7474
-    }
-  },
-  {
     "src": "trips/2026-03-balkans-roadtrip/pexels-kecskemet-night-view-of-a-beautifully-lit-art-nouveau-buildi-6562359.jpg",
     "takenAt": "2026-03-25T21:46:13Z",
     "hasGps": true,
@@ -19235,30 +18992,6 @@
     }
   },
   {
-    "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-a-historic-riverside-castle-stands-prominently-aga-30831684.jpg",
-    "takenAt": "2024-08-15T12:00:00Z",
-    "hasGps": true,
-    "place": {
-      "city": "Gyula",
-      "country": "Hungary",
-      "display": "Gyula, Hungary"
-    },
-    "source": {
-      "type": "stock",
-      "provider": "Pexels",
-      "url": "https://www.pexels.com/photo/30831684/",
-      "photographer": "Goszton",
-      "photographerUrl": "https://www.pexels.com/@goszton",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/"
-    },
-    "caption": "Gyula Castle · Hungary · Gyula, Hungary",
-    "gps": {
-      "lat": 46.6486,
-      "lon": 21.2828
-    }
-  },
-  {
     "src": "trips/2025-04-czechia-poland-slovakia-austria/pexels-harmanec-view-from-a-limestone-cave-entrance-with-a-lush-va-12340403.jpg",
     "takenAt": "2025-04-16T16:00:00Z",
     "hasGps": true,
@@ -19439,5 +19172,369 @@
       "id": 15938633
     },
     "caption": "Harmanec Cave formations · Harmanec, Slovakia · April 2025"
+  },
+  {
+    "src": "trips/2024-08-hungary-roadtrip/pexels-gyula-a-peaceful-rural-scene-featuring-a-9850702.jpg",
+    "takenAt": "2024-08-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.6486,
+      "lon": 21.2828
+    },
+    "place": {
+      "city": "Gyula",
+      "country": "Hungary",
+      "display": "Gyula, Hungary"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/green-field-in-wild-nature-landscape-9850702/",
+      "photographer": "Diana ✨",
+      "photographerUrl": "https://www.pexels.com/@didsss",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "A Peaceful Rural Scene Featuring A · Gyula, Hungary · August 2024"
+  },
+  {
+    "src": "trips/2018-03-israel/pexels-haifa-aerial-view-of-cityscape-featuring-residential-17291337.jpg",
+    "takenAt": "2018-03-15T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "place": {
+      "city": "Haifa",
+      "country": "Israel",
+      "display": "Haifa, Israel"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/road-with-cars-in-city-downtown-17291337/",
+      "photographer": "K",
+      "photographerUrl": "https://www.pexels.com/@kelly",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Aerial View Of Cityscape Featuring Residential · Haifa, Israel · March 2018"
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-azuga-majestic-view-of-bucegi-mountains-with-25026826.jpg",
+    "takenAt": "2023-08-27T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.51238,
+      "lon": 25.57258
+    },
+    "place": {
+      "city": "Azuga",
+      "country": "Romania",
+      "display": "Azuga, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/barren-mountain-landscape-25026826/",
+      "photographer": "Balázs Gábor",
+      "photographerUrl": "https://www.pexels.com/@gaborbalazs97",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Majestic View Of Bucegi Mountains With · Azuga, Romania · August 2023"
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-azuga-serene-winter-landscape-of-bucegi-mountains-25026842.jpg",
+    "takenAt": "2023-08-27T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.51238,
+      "lon": 25.57258
+    },
+    "place": {
+      "city": "Azuga",
+      "country": "Romania",
+      "display": "Azuga, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/radio-mast-in-bucegi-mountains-in-romania-25026842/",
+      "photographer": "Balázs Gábor",
+      "photographerUrl": "https://www.pexels.com/@gaborbalazs97",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Serene Winter Landscape Of Bucegi Mountains · Azuga, Romania · August 2023"
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-azuga-explore-the-rugged-and-steep-terrain-25026836.jpg",
+    "takenAt": "2023-08-27T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.51238,
+      "lon": 25.57258
+    },
+    "place": {
+      "city": "Azuga",
+      "country": "Romania",
+      "display": "Azuga, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/steep-bucegi-mountains-25026836/",
+      "photographer": "Balázs Gábor",
+      "photographerUrl": "https://www.pexels.com/@gaborbalazs97",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Explore The Rugged And Steep Terrain · Azuga, Romania · August 2023"
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-azuga-hikers-traverse-a-snowy-trail-in-25026852.jpg",
+    "takenAt": "2023-08-27T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.51238,
+      "lon": 25.57258
+    },
+    "place": {
+      "city": "Azuga",
+      "country": "Romania",
+      "display": "Azuga, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/people-walking-on-mountainous-slope-with-snow-25026852/",
+      "photographer": "Balázs Gábor",
+      "photographerUrl": "https://www.pexels.com/@gaborbalazs97",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Hikers Traverse A Snowy Trail In · Azuga, Romania · August 2023"
+  },
+  {
+    "src": "trips/2022-08-romania/pexels-busteni-captivating-autumn-scene-of-the-bucegi-34457907.jpg",
+    "takenAt": "2023-08-25T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.38387,
+      "lon": 25.5428
+    },
+    "place": {
+      "city": "Bușteni",
+      "country": "Romania",
+      "display": "Bușteni, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/stunning-autumn-view-of-bucegi-mountains-34457907/",
+      "photographer": "Catalin M",
+      "photographerUrl": "https://www.pexels.com/@catalin-m-1839309",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Captivating Autumn Scene Of The Bucegi · Bușteni, Romania · August 2023"
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-busteni-autumn-landscape-of-the-bucegi-mountains-34457930.jpg",
+    "takenAt": "2023-08-25T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.38387,
+      "lon": 25.5428
+    },
+    "place": {
+      "city": "Bușteni",
+      "country": "Romania",
+      "display": "Bușteni, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/scenic-view-of-snow-capped-bucegi-mountains-in-autumn-34457930/",
+      "photographer": "Catalin M",
+      "photographerUrl": "https://www.pexels.com/@catalin-m-1839309",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Autumn Landscape Of The Bucegi Mountains · Bușteni, Romania · August 2023"
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-busteni-snow-capped-mountains-and-dense-evergreen-forests-25600469.jpg",
+    "takenAt": "2023-08-25T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.38387,
+      "lon": 25.5428
+    },
+    "place": {
+      "city": "Bușteni",
+      "country": "Romania",
+      "display": "Bușteni, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/hill-behind-evergreen-forest-25600469/",
+      "photographer": "Mihai Vlasceanu",
+      "photographerUrl": "https://www.pexels.com/@vlasceanu",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Snow Capped Mountains And Dense Evergreen Forests · Bușteni, Romania · August 2023"
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-avrig-panoramic-view-of-the-fagaras-mountains-5910198.jpg",
+    "takenAt": "2023-08-28T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.67459,
+      "lon": 24.46111
+    },
+    "place": {
+      "city": "Avrig",
+      "country": "Romania",
+      "display": "Avrig, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/clouds-over-green-mountains-peaks-5910198/",
+      "photographer": "Artem Zhukov",
+      "photographerUrl": "https://www.pexels.com/@artemioz",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Panoramic View Of The Fagaras Mountains · Avrig, Romania · August 2023"
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-avrig-stunning-panorama-of-the-fagaras-mountains-18883514.jpg",
+    "takenAt": "2023-08-28T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.67459,
+      "lon": 24.46111
+    },
+    "place": {
+      "city": "Avrig",
+      "country": "Romania",
+      "display": "Avrig, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/fagaras-mountains-in-romania-18883514/",
+      "photographer": "Dan Badiu",
+      "photographerUrl": "https://www.pexels.com/@dan-badiu-768553061",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Stunning Panorama Of The Fagaras Mountains · Avrig, Romania · August 2023"
+  },
+  {
+    "src": "trips/2019-01-romania/pexels-sfantu-gheorghe-captivating-winter-scene-in-valea-seaca-6460251.jpg",
+    "takenAt": "2019-01-12T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8636,
+      "lon": 25.7889
+    },
+    "place": {
+      "city": "Sfântu Gheorghe",
+      "country": "Romania",
+      "display": "Sfântu Gheorghe, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/river-between-snow-covered-ground-6460251/",
+      "photographer": "Ferencz Istvan",
+      "photographerUrl": "https://www.pexels.com/@20hertz",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Captivating Winter Scene In Valea Seaca · Sfântu Gheorghe, Romania · January 2019"
+  },
+  {
+    "src": "trips/2019-01-romania/pexels-sfantu-gheorghe-breathtaking-view-of-the-carpathian-mountains-30673774.jpg",
+    "takenAt": "2019-01-12T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 45.8636,
+      "lon": 25.7889
+    },
+    "place": {
+      "city": "Sfântu Gheorghe",
+      "country": "Romania",
+      "display": "Sfântu Gheorghe, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/snow-capped-carpathian-mountains-in-golden-hour-30673774/",
+      "photographer": "Timotei  Dumbrăveanu",
+      "photographerUrl": "https://www.pexels.com/@timotei-dumbraveanu-1985400973",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Breathtaking View Of The Carpathian Mountains · Sfântu Gheorghe, Romania · January 2019"
+  },
+  {
+    "src": "trips/2023-08-romania/pexels-turda-metal-constructions-and-led-lamps-in-5207427.jpg",
+    "takenAt": "2023-08-29T12:00:00Z",
+    "hasGps": true,
+    "cameraModel": "Pexels stock",
+    "gps": {
+      "lat": 46.58761,
+      "lon": 23.78716
+    },
+    "place": {
+      "city": "Turda",
+      "country": "Romania",
+      "display": "Turda, Romania"
+    },
+    "stock": true,
+    "source": {
+      "type": "stock",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/photo/metal-construction-inside-of-salt-mine-with-lamps-5207427/",
+      "photographer": "Julia Volk",
+      "photographerUrl": "https://www.pexels.com/@julia-volk",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/"
+    },
+    "caption": "Metal Constructions And Led Lamps In · Turda, Romania · August 2023"
   }
 ]
