@@ -7,6 +7,7 @@ import { getCollection, getItem } from "@/lib/content";
 import { mdxComponents } from "@/components/mdx-components";
 import { mdxOptions } from "@/lib/mdx-options";
 import { formatDate } from "@/lib/format";
+import { ArticleJsonLd } from "@/components/structured-data";
 
 export async function generateStaticParams() {
   const items = await getCollection("recommends");
@@ -49,6 +50,13 @@ export default async function RecommendItem({
 
   return (
     <article className="container-prose pt-20 md:pt-28 pb-24">
+      <ArticleJsonLd
+        title={item.frontmatter.title}
+        description={item.frontmatter.description}
+        date={item.frontmatter.date}
+        path={`/recommends/${slug}`}
+        locale={locale}
+      />
       <Link
         href="/recommends"
         className="inline-flex items-center gap-1 text-sm text-foreground-subtle hover:text-accent mb-12"

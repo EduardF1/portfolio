@@ -5,6 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { PhotoLightbox, type LightboxPhoto } from "@/components/photo-lightbox";
 import { getTrip, getTrips, type TripPhoto } from "@/lib/trips";
 import { getCitiesByCountry } from "@/lib/travel-locations";
+import { ImageGalleryJsonLd } from "@/components/structured-data";
 
 export async function generateStaticParams() {
   const trips = await getTrips();
@@ -116,6 +117,14 @@ export default async function TripPhotosPage({
 
   return (
     <article className="container-prose pt-20 md:pt-28 pb-24">
+      <ImageGalleryJsonLd
+        title={`${headline}, ${trip.monthLabel}`}
+        description={`${trip.photoCount} photo${trip.photoCount === 1 ? "" : "s"} from ${trip.country}, ${trip.dateRange}.`}
+        date={trip.endsAt ?? undefined}
+        path={`/travel/photos/${slug}`}
+        locale={locale}
+        images={trip.photos.slice(0, 12).map((p) => p.src)}
+      />
       <Link
         href="/travel"
         className="inline-flex items-center gap-1 text-sm text-foreground-subtle hover:text-accent mb-12"

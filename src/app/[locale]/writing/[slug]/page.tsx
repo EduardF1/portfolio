@@ -7,6 +7,7 @@ import { getCollection, getItem } from "@/lib/content";
 import { mdxComponents } from "@/components/mdx-components";
 import { mdxOptions } from "@/lib/mdx-options";
 import { formatDate } from "@/lib/format";
+import { ArticleJsonLd } from "@/components/structured-data";
 
 export async function generateStaticParams() {
   const [posts, articles] = await Promise.all([
@@ -46,6 +47,14 @@ export default async function WritingItem({
 
   return (
     <article className="container-prose pt-20 md:pt-28 pb-24">
+      <ArticleJsonLd
+        title={item.frontmatter.title}
+        description={item.frontmatter.description}
+        date={item.frontmatter.date}
+        path={`/writing/${slug}`}
+        locale={locale}
+        type="BlogPosting"
+      />
       <Link
         href="/writing"
         className="inline-flex items-center gap-1 text-sm text-foreground-subtle hover:text-accent mb-12"

@@ -8,6 +8,7 @@ import { mdxComponents } from "@/components/mdx-components";
 import { mdxOptions } from "@/lib/mdx-options";
 import { formatDate } from "@/lib/format";
 import { PhotoGallery, type Photo } from "@/components/photo-gallery";
+import { ArticleJsonLd } from "@/components/structured-data";
 
 export async function generateStaticParams() {
   const trips = await getCollection("travel");
@@ -63,6 +64,13 @@ export default async function TravelItem({
 
   return (
     <article className="container-prose pt-20 md:pt-28 pb-24">
+      <ArticleJsonLd
+        title={item.frontmatter.title}
+        description={summary ?? undefined}
+        date={item.frontmatter.date}
+        path={`/travel/${slug}`}
+        locale={locale}
+      />
       <Link
         href="/travel"
         className="inline-flex items-center gap-1 text-sm text-foreground-subtle hover:text-accent mb-12"
