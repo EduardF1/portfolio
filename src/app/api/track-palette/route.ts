@@ -1,5 +1,8 @@
 import { z } from "zod";
+import { headers } from "next/headers";
 import { PALETTES, THEMES } from "@/lib/palettes";
+import { rateLimit } from "@/lib/rate-limit";
+import { extractClientIp } from "@/lib/visit-tracker";
 
 /**
  * POST /api/track-palette — anonymous palette × theme × locale
@@ -109,6 +112,16 @@ async function execPipeline(
 }
 
 export async function POST(request: Request): Promise<Response> {
+  // Palette changes are rare per session (a few clicks), so 30/min
+  // per IP is generous for real users and tight against loops.
+  const ipForLimit = extractClientIp(await headers());
+  const rl = await rateLimit({
+    endpoint: "palette",
+    ip: ipForLimit,
+    limit: 30,
+  });
+  if (!rl.allowed) return Response.json({ ok: true, stored: false });
+
   // Best-effort ingestion: on any validation or storage error we
   // return ok with no data leaked. The client never branches on the
   // response, so the response body is effectively a heartbeat.

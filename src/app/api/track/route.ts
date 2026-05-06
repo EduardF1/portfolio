@@ -6,6 +6,7 @@ import {
 import { isAnalyticsEnabled, recordHit } from "@/lib/redis-analytics";
 import { parseUserAgent } from "@/lib/ua-parser";
 import { extractClientIp, recordVisit } from "@/lib/visit-tracker";
+import { rateLimit } from "@/lib/rate-limit";
 
 /**
  * POST /api/track — anonymous page-view ingestion.
@@ -51,6 +52,17 @@ export async function POST(request: Request): Promise<Response> {
     return noContent;
   }
 
+  const headerStoreEarly = await headers();
+  const ipForLimit = extractClientIp(headerStoreEarly);
+  // 60/min/IP is ~10× a real user. A loop attacker hits this in ms
+  // and gets silently dropped — same 204 the client expects.
+  const rl = await rateLimit({
+    endpoint: "track",
+    ip: ipForLimit,
+    limit: 60,
+  });
+  if (!rl.allowed) return noContent;
+
   let body: TrackBody = {};
   try {
     body = (await request.json()) as TrackBody;
@@ -67,7 +79,7 @@ export async function POST(request: Request): Promise<Response> {
   const utmMedium = typeof body.utmMedium === "string" && body.utmMedium ? body.utmMedium.slice(0, 128) : undefined;
   const utmCampaign = typeof body.utmCampaign === "string" && body.utmCampaign ? body.utmCampaign.slice(0, 128) : undefined;
 
-  const headerStore = await headers();
+  const headerStore = headerStoreEarly;
   const ua = headerStore.get("user-agent");
   const { browser, os, deviceType } = parseUserAgent(ua);
 
