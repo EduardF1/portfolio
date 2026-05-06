@@ -5,6 +5,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { PostHogProvider } from "@/components/posthog-provider";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { SearchPalette } from "@/components/search-palette";
@@ -200,12 +201,14 @@ export default async function LocaleLayout({
             disableTransitionOnChange
           >
             <PaletteProvider>
-              <SiteHeader />
-              <main className="flex-1">{children}</main>
-              <SiteFooter />
-              <SearchPalette />
-              <VisitTracker />
-              <PaletteTracker />
+              <PostHogProvider>
+                <SiteHeader />
+                <main className="flex-1">{children}</main>
+                <SiteFooter />
+                <SearchPalette />
+                <VisitTracker />
+                <PaletteTracker />
+              </PostHogProvider>
             </PaletteProvider>
           </ThemeProvider>
         </NextIntlClientProvider>
