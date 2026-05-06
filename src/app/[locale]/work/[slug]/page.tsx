@@ -7,6 +7,7 @@ import { getCollection, getItem } from "@/lib/content";
 import { mdxComponents } from "@/components/mdx-components";
 import { TechChip } from "@/components/tech-chip";
 import { mdxOptions } from "@/lib/mdx-options";
+import { ArticleJsonLd } from "@/components/structured-data";
 
 export async function generateStaticParams() {
   const items = await getCollection("work");
@@ -61,6 +62,13 @@ export default async function WorkCaseStudy({
 
   return (
     <article className="container-prose pt-20 md:pt-28 pb-24">
+      <ArticleJsonLd
+        title={fm.title}
+        description={fm.summary ?? (item.frontmatter.description as string | undefined)}
+        date={item.frontmatter.date}
+        path={`/work/${slug}`}
+        locale={locale}
+      />
       <Link
         href="/work"
         className="inline-flex items-center gap-1 text-sm text-foreground-subtle hover:text-accent mb-12"
