@@ -1,5 +1,4 @@
 import { z } from "zod";
-import { headers } from "next/headers";
 import { PALETTES, THEMES } from "@/lib/palettes";
 import { rateLimit } from "@/lib/rate-limit";
 import { extractClientIp } from "@/lib/visit-tracker";
@@ -114,7 +113,7 @@ async function execPipeline(
 export async function POST(request: Request): Promise<Response> {
   // Palette changes are rare per session (a few clicks), so 30/min
   // per IP is generous for real users and tight against loops.
-  const ipForLimit = extractClientIp(await headers());
+  const ipForLimit = extractClientIp(request.headers);
   const rl = await rateLimit({
     endpoint: "palette",
     ip: ipForLimit,

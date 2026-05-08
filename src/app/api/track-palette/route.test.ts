@@ -1,5 +1,13 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
+// Stub the rate-limit module so the route's per-IP limiter never
+// reaches `fetch` in tests. Without this, the limiter's KV pipeline
+// call would be captured by `fetchMock` and pollute the per-test
+// invocation counts the assertions below rely on.
+vi.mock("@/lib/rate-limit", () => ({
+  rateLimit: vi.fn().mockResolvedValue({ allowed: true, count: 0, limit: 30 }),
+}));
+
 // Capture every `fetch` invocation against the mocked KV REST endpoint
 // so individual tests can assert on the commands that were sent.
 const fetchMock = vi.fn();
