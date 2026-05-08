@@ -102,7 +102,7 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/75 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container-page flex min-h-16 items-center justify-between gap-3 py-3 lg:py-0">
+      <div className="container-page flex min-h-16 items-center justify-between gap-3 py-3 xl:py-0">
         <Link
           href="/"
           className="font-serif text-xl tracking-tight hover:text-accent leading-tight"
@@ -111,7 +111,7 @@ export function SiteHeader() {
           {/* Stack on mobile so "Eduard Fischer-Szava" doesn't wrap mid-word
               on narrow viewports — single line ≥md. The aria-label above
               keeps the screen-reader experience as one name. */}
-          <span className="flex flex-col lg:flex-row lg:gap-2" aria-hidden="true">
+          <span className="flex flex-col xl:flex-row xl:gap-2" aria-hidden="true">
             <span>Eduard</span>
             <span>Fischer-Szava</span>
           </span>
@@ -119,7 +119,7 @@ export function SiteHeader() {
 
         <nav
           aria-label="Primary"
-          className="hidden lg:flex items-center gap-8"
+          className="hidden xl:flex items-center gap-8"
         >
           {navItems.map((item) => (
             <Link
@@ -141,15 +141,17 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-3">
           <SearchTrigger />
-          {/* Locale toggle, palette selector, and theme toggle are hidden
-              below `lg` so the right-cluster never collides with the inline
-              nav at narrow-desktop widths (~768–1024). They're exposed
-              inside the mobile/tablet sheet below. */}
+          {/* Locale toggle, palette selector, and theme toggle appear
+              alongside the inline nav at `xl` (≥1280) only. Below that
+              they're tucked into the mobile sheet so the right-cluster
+              never gets squeezed against the nav at narrow-laptop
+              widths (1024–1280) where it felt overlapping even with a
+              12 px gap. */}
           <button
             type="button"
             onClick={switchLocale}
             data-testid="locale-toggle"
-            className="hidden lg:inline-flex text-xs uppercase tracking-wider text-foreground-subtle hover:text-accent"
+            className="hidden xl:inline-flex text-xs uppercase tracking-wider text-foreground-subtle hover:text-accent"
             aria-label={
               otherLocale === "da" ? t("switchToDanish") : t("switchToEnglish")
             }
@@ -163,10 +165,10 @@ export function SiteHeader() {
             <span className="mx-1.5 text-foreground-subtle">/</span>
             <span className={locale === "da" ? "text-foreground" : ""}>DA</span>
           </button>
-          <div className="hidden lg:inline-flex">
+          <div className="hidden xl:inline-flex">
             <PaletteSelector />
           </div>
-          <div className="hidden lg:inline-flex">
+          <div className="hidden xl:inline-flex">
             <ThemeToggle />
           </div>
 
@@ -183,7 +185,7 @@ export function SiteHeader() {
             aria-controls={dialogId}
             data-testid="mobile-menu-trigger"
             className={cn(
-              "lg:hidden inline-flex items-center justify-center rounded-md border border-border p-1.5 text-foreground-muted",
+              "xl:hidden inline-flex items-center justify-center rounded-md border border-border p-1.5 text-foreground-muted",
               "hover:border-accent hover:text-accent transition-colors",
             )}
           >
@@ -202,7 +204,7 @@ export function SiteHeader() {
           data-testid="mobile-menu"
           ref={sheetRef}
           onKeyDown={onSheetKeyDown}
-          className="fixed inset-0 z-50 lg:hidden"
+          className="fixed inset-0 z-50 xl:hidden"
         >
           {/* Backdrop — click to close. Reduced-motion users get no fade. */}
           <button
