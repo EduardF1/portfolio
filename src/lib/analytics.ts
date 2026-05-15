@@ -65,13 +65,15 @@ export type Hit = {
   linkHref?: string;
 };
 
-export type RangeKey = "today" | "7d" | "30d" | "all";
+export type RangeKey = "today" | "24h" | "7d" | "30d" | "90d" | "all";
 
 export const RANGE_DAYS: Record<RangeKey, number> = {
   today: 1,
+  "24h": 2, // rolling 24h: pull today + yesterday's day-bucket, then filter by ts
   "7d": 7,
   "30d": 30,
-  all: 90, // soft cap — see `purgeOlderThan` TODO in redis-analytics.ts
+  "90d": 90,
+  all: 90, // hard cap. see `purgeOlderThan` TODO in redis-analytics.ts
 };
 
 /**

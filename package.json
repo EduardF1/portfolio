@@ -44,6 +44,7 @@
     "react-dom": "19.2.6",
     "react-hook-form": "^7.75.0",
     "react-simple-maps": "^3.0.0",
+    "recharts": "^3.8.1",
     "rehype-pretty-code": "^0.14.3",
     "server-only": "^0.0.1",
     "shiki": "^4.0.2",

@@ -187,8 +187,6 @@ const DATACENTER_CIDRS_V4: ReadonlyArray<readonly [string, number]> = [
   ["198.41.128.0", 17],
 ] as const;
 
-const cidrCache: Array<readonly [number, number, number]> | null = null;
-
 /**
  * Parse a dotted-quad IPv4 to a 32-bit unsigned integer. Returns
  * `null` for anything that doesn't parse cleanly (IPv6, garbage, etc).

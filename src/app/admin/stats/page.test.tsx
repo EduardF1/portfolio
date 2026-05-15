@@ -50,6 +50,21 @@ vi.mock("next/navigation", () => ({
 
 vi.mock("@/lib/redis-analytics", () => redisMocks);
 
+// Stub the Recharts wrappers. Recharts needs ResizeObserver which
+// jsdom doesn't ship; keep the assertions focused on data rather than
+// SVG paths by rendering simple data-testid markers instead.
+vi.mock("@/components/admin-charts", () => ({
+  DailyViewsChart: ({ data }: { data: Array<{ day: string; views: number }> }) => (
+    <div data-testid="daily-chart">{data.length} days</div>
+  ),
+  EventsBarChart: ({ data }: { data: Array<{ label: string; value: number }> }) => (
+    <div data-testid="events-chart">{data.length} events</div>
+  ),
+  DevicePie: ({ data }: { data: Array<{ label: string; value: number }> }) => (
+    <div data-testid="device-pie">{data.length} buckets</div>
+  ),
+}));
+
 vi.mock("@/lib/admin-stats", async () => {
   // Re-export the pure helpers (barChartPercents, topPaletteCombos,
   // EMPTY_PALETTE_STATS, etc.) from the real module so the dashboard
