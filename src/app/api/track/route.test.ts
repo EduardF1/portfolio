@@ -49,6 +49,10 @@ beforeEach(() => {
   recordHit.mockReset();
   isAnalyticsEnabled.mockReset().mockReturnValue(true);
   incomingHeaders = new Map();
+  // Default to a realistic browser UA so the bot filter doesn't
+  // short-circuit. Individual tests can override or clear this when
+  // they want to assert bot behaviour explicitly.
+  incomingHeaders.set("user-agent", "Mozilla/5.0 (X11; Linux x86_64) Chrome/120");
 });
 
 afterEach(() => {
@@ -164,6 +168,84 @@ describe("POST /api/track", () => {
     const hit = recordHit.mock.calls[0][0] as Record<string, unknown>;
     expect((hit.path as string).length).toBe(256);
     expect((hit.ref as string).length).toBe(512);
+  });
+});
+
+describe("POST /api/track — enrichment (Phase 2)", () => {
+  it("captures utmTerm, utmContent, referrerHost, lang, clientSessionId, scrollDepthPct, timeOnPageMs, event", async () => {
+    cookieGet.mockReturnValue(undefined);
+    await POST(
+      makeReq({
+        path: "/da/work",
+        ref: "https://example.com/abc",
+        utmTerm: "javascript",
+        utmContent: "banner-1",
+        referrerHost: "example.com",
+        clientSessionId: "0123456789abcdef0123456789abcdef",
+        scrollDepthPct: 75,
+        timeOnPageMs: 12345,
+        lang: "da",
+        event: "external_link",
+        linkHref: "github.com",
+      }),
+    );
+    const hit = recordHit.mock.calls[0][0] as Record<string, unknown>;
+    expect(hit.utmTerm).toBe("javascript");
+    expect(hit.utmContent).toBe("banner-1");
+    expect(hit.referrerHost).toBe("example.com");
+    expect(hit.clientSessionId).toBe("0123456789abcdef0123456789abcdef");
+    expect(hit.scrollDepthPct).toBe(75);
+    expect(hit.timeOnPageMs).toBe(12345);
+    expect(hit.lang).toBe("da");
+    expect(hit.event).toBe("external_link");
+    expect(hit.linkHref).toBe("github.com");
+  });
+
+  it("defaults event to 'pageview' when the body event is missing or invalid", async () => {
+    cookieGet.mockReturnValue(undefined);
+    await POST(makeReq({ path: "/", event: "not-a-real-event" }));
+    const hit = recordHit.mock.calls[0][0] as Record<string, unknown>;
+    expect(hit.event).toBe("pageview");
+  });
+
+  it("strips a path / query from referrerHost defensively", async () => {
+    cookieGet.mockReturnValue(undefined);
+    await POST(
+      makeReq({ path: "/", referrerHost: "https://example.com/x?y=z" }),
+    );
+    const hit = recordHit.mock.calls[0][0] as Record<string, unknown>;
+    expect(hit.referrerHost).toBe("example.com");
+  });
+
+  it("drops linkHref when the event is not cv_download or external_link", async () => {
+    cookieGet.mockReturnValue(undefined);
+    await POST(
+      makeReq({ path: "/", event: "pageview", linkHref: "/cv" }),
+    );
+    const hit = recordHit.mock.calls[0][0] as Record<string, unknown>;
+    expect(hit.linkHref).toBeUndefined();
+  });
+});
+
+describe("POST /api/track — bot filter", () => {
+  it("drops a request whose UA matches a known bot pattern", async () => {
+    cookieGet.mockReturnValue(undefined);
+    incomingHeaders.set(
+      "user-agent",
+      "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    );
+    const res = await POST(makeReq({ path: "/" }));
+    expect(res.status).toBe(204);
+    expect(recordHit).not.toHaveBeenCalled();
+  });
+
+  it("drops a request whose IP falls in a known datacenter range", async () => {
+    cookieGet.mockReturnValue(undefined);
+    // 34.64.0.0/10 is in our GCP table.
+    incomingHeaders.set("x-vercel-forwarded-for", "34.120.10.5");
+    const res = await POST(makeReq({ path: "/" }));
+    expect(res.status).toBe(204);
+    expect(recordHit).not.toHaveBeenCalled();
   });
 });
 

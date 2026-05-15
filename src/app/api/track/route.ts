@@ -2,11 +2,13 @@ import { cookies, headers } from "next/headers";
 import {
   generateSessionId,
   type Hit,
+  type TrackEvent,
 } from "@/lib/analytics";
 import { isAnalyticsEnabled, recordHit } from "@/lib/redis-analytics";
 import { parseUserAgent } from "@/lib/ua-parser";
 import { extractClientIp, recordVisit } from "@/lib/visit-tracker";
 import { rateLimit } from "@/lib/rate-limit";
+import { isBotHit } from "@/lib/bot-detect";
 
 /**
  * POST /api/track — anonymous page-view ingestion.
@@ -36,7 +38,53 @@ const SESSION_COOKIE = "pf_session";
 const ADMIN_COOKIE = "pf_admin";
 const SESSION_TTL_SECONDS = 30 * 60; // 30 min
 
-type TrackBody = { path?: unknown; ref?: unknown; utmSource?: unknown; utmMedium?: unknown; utmCampaign?: unknown };
+type TrackBody = {
+  path?: unknown;
+  ref?: unknown;
+  utmSource?: unknown;
+  utmMedium?: unknown;
+  utmCampaign?: unknown;
+  // Phase 2 enrichment payload — all optional so older clients keep
+  // working unchanged. Each field is independently validated below.
+  utmTerm?: unknown;
+  utmContent?: unknown;
+  referrerHost?: unknown;
+  clientSessionId?: unknown;
+  scrollDepthPct?: unknown;
+  timeOnPageMs?: unknown;
+  lang?: unknown;
+  event?: unknown;
+  linkHref?: unknown;
+};
+
+const VALID_EVENTS: ReadonlySet<TrackEvent> = new Set<TrackEvent>([
+  "pageview",
+  "cv_download",
+  "language_switch",
+  "external_link",
+  "exit",
+]);
+
+/**
+ * Coerce a raw string-ish payload field to a bounded string, or
+ * undefined if it's missing / not a non-empty string. The `max`
+ * defaults match the original `slice(0, 128)` convention.
+ */
+function safeStr(v: unknown, max = 128): string | undefined {
+  return typeof v === "string" && v.length > 0 ? v.slice(0, max) : undefined;
+}
+
+/** Coerce a raw number-ish payload field to a clamped integer. */
+function safeInt(
+  v: unknown,
+  { min, max }: { min: number; max: number },
+): number | undefined {
+  if (typeof v !== "number" || !Number.isFinite(v)) return undefined;
+  const i = Math.round(v);
+  if (i < min) return min;
+  if (i > max) return max;
+  return i;
+}
 
 export async function POST(request: Request): Promise<Response> {
   // Always 204 the client — analytics must never break the UI even
@@ -55,13 +103,22 @@ export async function POST(request: Request): Promise<Response> {
   const headerStoreEarly = await headers();
   const ipForLimit = extractClientIp(headerStoreEarly);
   // 60/min/IP is ~10× a real user. A loop attacker hits this in ms
-  // and gets silently dropped — same 204 the client expects.
+  // and gets silently dropped, same 204 the client expects.
   const rl = await rateLimit({
     endpoint: "track",
     ip: ipForLimit,
     limit: 60,
   });
   if (!rl.allowed) return noContent;
+
+  // Bot / datacenter filter. We drop these before touching Redis so
+  // the stored data is human-traffic only by default. The dashboard
+  // can still flip a "include bots" toggle, but that pulls from a
+  // separate (yet to be built) raw stream rather than this clean one.
+  // Detection is best-effort: matched by UA substring OR by the IP
+  // falling in a known datacenter CIDR.
+  const earlyUa = headerStoreEarly.get("user-agent");
+  if (isBotHit({ ua: earlyUa, ip: ipForLimit })) return noContent;
 
   let body: TrackBody = {};
   try {
@@ -75,9 +132,39 @@ export async function POST(request: Request): Promise<Response> {
       ? body.path.slice(0, 256)
       : "/";
   const ref = typeof body.ref === "string" ? body.ref.slice(0, 512) : "";
-  const utmSource = typeof body.utmSource === "string" && body.utmSource ? body.utmSource.slice(0, 128) : undefined;
-  const utmMedium = typeof body.utmMedium === "string" && body.utmMedium ? body.utmMedium.slice(0, 128) : undefined;
-  const utmCampaign = typeof body.utmCampaign === "string" && body.utmCampaign ? body.utmCampaign.slice(0, 128) : undefined;
+  const utmSource = safeStr(body.utmSource);
+  const utmMedium = safeStr(body.utmMedium);
+  const utmCampaign = safeStr(body.utmCampaign);
+  const utmTerm = safeStr(body.utmTerm);
+  const utmContent = safeStr(body.utmContent);
+  // referrerHost is a hostname only — strip anything that looks like a
+  // path or query so we never store a raw URL even if the client sends
+  // one by mistake.
+  const referrerHost = (() => {
+    const raw = safeStr(body.referrerHost, 256);
+    if (!raw) return undefined;
+    const cleaned = raw.replace(/^https?:\/\//i, "").split("/")[0]?.split("?")[0];
+    return cleaned || undefined;
+  })();
+  const clientSessionId = safeStr(body.clientSessionId, 64);
+  const scrollDepthPct = safeInt(body.scrollDepthPct, { min: 0, max: 100 });
+  const timeOnPageMs = safeInt(body.timeOnPageMs, {
+    min: 0,
+    max: 6 * 60 * 60 * 1000, // 6 hours; anything past that is bot-like
+  });
+  const lang =
+    body.lang === "en" || body.lang === "da" ? body.lang : undefined;
+  const event: TrackEvent = VALID_EVENTS.has(body.event as TrackEvent)
+    ? (body.event as TrackEvent)
+    : "pageview";
+  // linkHref is only meaningful for cv_download / external_link. We
+  // clamp size and explicitly strip query strings as a belt-and-braces
+  // backup to the client-side strip.
+  const linkHref = (() => {
+    if (event !== "cv_download" && event !== "external_link") return undefined;
+    const raw = safeStr(body.linkHref, 256);
+    return raw ? raw.split("?")[0] : undefined;
+  })();
 
   const headerStore = headerStoreEarly;
   const ua = headerStore.get("user-agent");
@@ -120,6 +207,15 @@ export async function POST(request: Request): Promise<Response> {
     ...(utmSource ? { utmSource } : {}),
     ...(utmMedium ? { utmMedium } : {}),
     ...(utmCampaign ? { utmCampaign } : {}),
+    ...(utmTerm ? { utmTerm } : {}),
+    ...(utmContent ? { utmContent } : {}),
+    ...(referrerHost !== undefined ? { referrerHost } : {}),
+    ...(clientSessionId ? { clientSessionId } : {}),
+    ...(scrollDepthPct !== undefined ? { scrollDepthPct } : {}),
+    ...(timeOnPageMs !== undefined ? { timeOnPageMs } : {}),
+    ...(lang ? { lang } : {}),
+    event,
+    ...(linkHref ? { linkHref } : {}),
   };
 
   // Per-IP-hash daily uniqueness counter for the digest cron. Sibling

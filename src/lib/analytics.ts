@@ -7,6 +7,20 @@
  */
 import type { DeviceType } from "./ua-parser";
 
+/**
+ * Discrete client-side events the tracker can beacon. `pageview` is the
+ * historic default and remains the implicit value when `event` is not
+ * present on an older stored Hit. Newer enrichments add CV downloads,
+ * EN/DA language toggles, outbound link clicks, and exit signals so we
+ * can build a real journey view in the dashboard.
+ */
+export type TrackEvent =
+  | "pageview"
+  | "cv_download"
+  | "language_switch"
+  | "external_link"
+  | "exit";
+
 export type Hit = {
   path: string;
   ref: string;
@@ -21,15 +35,45 @@ export type Hit = {
   utmSource?: string;
   utmMedium?: string;
   utmCampaign?: string;
+  // --- enrichment fields (Phase 2, all optional for backwards compat) ---
+  /**
+   * Client-minted tab-scoped session id (sessionStorage). Distinct from
+   * `sessionId` which is the server cookie. We keep both because the
+   * cookie can be shared across tabs while this one cannot, and the
+   * combination lets us split "visits" from "tabs" in the dashboard.
+   */
+  clientSessionId?: string;
+  /** Max scroll depth reached during the session, 0..100. */
+  scrollDepthPct?: number;
+  /** Foreground time on page in milliseconds, sent on heartbeat / exit. */
+  timeOnPageMs?: number;
+  /** UTM term — captured from URL on first hit per session. */
+  utmTerm?: string;
+  /** UTM content — captured from URL on first hit per session. */
+  utmContent?: string;
+  /** Hostname-only referrer (no querystring / path), or "" for direct. */
+  referrerHost?: string;
+  /** "en" or "da" — inferred from current pathname. */
+  lang?: "en" | "da";
+  /** Event discriminator. Defaults to "pageview" when missing. */
+  event?: TrackEvent;
+  /**
+   * For `cv_download` and `external_link` events: the target slug or
+   * hostname. Never a full URL with query strings — those can carry PII
+   * and we explicitly strip them client-side.
+   */
+  linkHref?: string;
 };
 
-export type RangeKey = "today" | "7d" | "30d" | "all";
+export type RangeKey = "today" | "24h" | "7d" | "30d" | "90d" | "all";
 
 export const RANGE_DAYS: Record<RangeKey, number> = {
   today: 1,
+  "24h": 2, // rolling 24h: pull today + yesterday's day-bucket, then filter by ts
   "7d": 7,
   "30d": 30,
-  all: 90, // soft cap — see `purgeOlderThan` TODO in redis-analytics.ts
+  "90d": 90,
+  all: 90, // hard cap. see `purgeOlderThan` TODO in redis-analytics.ts
 };
 
 /**

@@ -45,7 +45,16 @@ than 90 days. Out of scope for the POC.
 
 If `UPSTASH_*` are unset, `/api/track` becomes a 204 no-op and the dashboard
 shows an "empty state" banner. The site builds and deploys cleanly without
-any of these set — handy for local dev.
+any of these set, handy for local dev.
+
+> **Operational note (2026-05-16):** the production values for
+> `ADMIN_SECRET` and `NEXT_PUBLIC_ANALYTICS_ENABLED` were previously
+> stored as empty strings (encrypted but length-2: `""`), which silently
+> 404'd the dashboard and disabled the client tracker. Both have been
+> rotated via `vercel env rm` + `vercel env add`. `ADMIN_SECRET` is now
+> a fresh 32-byte URL-safe base64; `NEXT_PUBLIC_ANALYTICS_ENABLED` is
+> the literal string `1` (the tracker checks against `"1"`, not `"true"`,
+> matching the inline check in `src/components/visit-tracker.tsx`).
 
 ## Step-by-step Vercel setup
 
