@@ -42,7 +42,7 @@
     "posthog-js": "^1.372.10",
     "react": "19.2.6",
     "react-dom": "19.2.6",
-    "react-hook-form": "^7.73.1",
+    "react-hook-form": "^7.75.0",
     "react-simple-maps": "^3.0.0",
     "rehype-pretty-code": "^0.14.3",
     "server-only": "^0.0.1",
