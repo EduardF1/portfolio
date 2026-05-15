@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PR head
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           # We need write access to push baseline updates back. The
           # default GITHUB_TOKEN can push to the PR branch as long as
