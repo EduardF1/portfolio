@@ -1,6 +1,7 @@
 "use client";
 
-import FlexSearch from "flexsearch";
+import { Document } from "flexsearch";
+import type { Id } from "flexsearch";
 import type { SearchEntry, SearchIndex } from "./build-index";
 
 /**
@@ -12,7 +13,7 @@ import type { SearchEntry, SearchIndex } from "./build-index";
  * deduped across the multiple fields it indexes per entry.
  */
 
-type DocIndex = FlexSearch.Document<SearchEntry, false>;
+type DocIndex = Document<SearchEntry>;
 
 export type ClientIndex = {
   /** All entries, indexed by id. Used to hydrate result rows. */
@@ -22,7 +23,7 @@ export type ClientIndex = {
 };
 
 export function buildClientIndex(payload: SearchIndex): ClientIndex {
-  const flex: DocIndex = new FlexSearch.Document({
+  const flex: DocIndex = new Document({
     tokenize: "forward",
     cache: 100,
     document: {
@@ -66,8 +67,8 @@ export function searchClient(
 
   const accum = new Map<string, { entry: SearchEntry; score: number }>();
   for (const bucket of buckets) {
-    const weight = fieldWeights[bucket.field] ?? 1;
-    bucket.result.forEach((id, position) => {
+    const weight = (bucket.field != null ? fieldWeights[bucket.field as string] : undefined) ?? 1;
+    bucket.result.forEach((id: Id, position: number) => {
       const key = String(id);
       const entry = index.byId.get(key);
       if (!entry) return;
